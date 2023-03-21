@@ -14,8 +14,10 @@
           "FreeFormComment": "First-round parse verification"
         },
         "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01wdj_)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01wdj_ ns:location.location.containedby ?x .\n}\n",
-        "Sparql_Tem_First_Stage": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?ent0\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n}\n",
-        "Sparql_Tem_Second_Stage": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel0\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n}\n",
+        "step_wise_queries":[
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel0\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n}\n"
+        ],
+        "masked_query":"PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n}\n",
         "PotentialTopicEntityMention": "university of auburn",
         "TopicEntityName": "Auburn University",
         "TopicEntityMid": "m.01wdj_",
@@ -95,6 +97,11 @@
           "FreeFormComment": "? Many New Democratic Parties"
         },
         "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0nfwpdn)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0nfwpdn ns:government.political_party.politicians_in_this_party ?y .\n?y ns:government.political_party_tenure.politician ?x .\n}\n",
+        "step_wise_queries":[
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel0\nWHERE {?ent0 ?rel0 ?y .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (?rel0 != ?rel1)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n}\n"
+        ],
+        "masked_query":"PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n}\n",
         "PotentialTopicEntityMention": "new democratic party",
         "TopicEntityName": "New Democratic Party",
         "TopicEntityMid": "m.0nfwpdn",
@@ -131,6 +138,11 @@
           "FreeFormComment": ""
         },
         "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0d05w3)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0d05w3 ns:location.location.contains ?x .\n?x ns:topic_server.population_number ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+        "step_wise_queries":[
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel0\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n}",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (?rel0 != ?rel1)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n?x ?rel1 ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n"
+        ],
+        "masked_query":"PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n?x ?rel1 ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
         "PotentialTopicEntityMention": "chinese",
         "TopicEntityName": "China",
         "TopicEntityMid": "m.0d05w3",
@@ -173,6 +185,13 @@
           "FreeFormComment": ""
         },
         "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02q52q)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02q52q ns:film.film.starring ?y .\n?y ns:film.performance.actor ?x .\n?y ns:film.performance.character ns:m.020hj1 .\n}\n",
+        "step_wise_queries":[
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel0\nWHERE {\n?ent0 ?rel0 ?y .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x}",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel2\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (?rel0 != ?rel1)\nFILTER (?rel1 != ?rel2)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?y ?rel2 ?ent1 .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?ent1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (?rel0 != ?rel1)\nFILTER (?rel1 != ?rel2)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?y ?rel2 ?ent1 .\n}\n"
+        ],
+        "masked_query":"PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?y ?rel2 ?ent1 .\n}\n",
         "PotentialTopicEntityMention": "wizard of oz",
         "TopicEntityName": "The Wizard of Oz",
         "TopicEntityMid": "m.02q52q",
@@ -219,6 +238,13 @@
           "FreeFormComment": ""
         },
         "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0240vt)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0240vt ns:people.person.education ?y .\n?y ns:education.education.institution ?x .\n?x ns:common.topic.notable_types ns:m.01y2hnl .\n}\n",
+        "step_wise_queries":[
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel0\nWHERE {\n?ent0 ?rel0 ?y .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel2\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (?rel0 != ?rel1)\nFILTER (?rel1 != ?rel2)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?x ?rel2 ?ent1 .}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?ent1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (?rel0 != ?rel1)\nFILTER (?rel1 != ?rel2)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?x ?rel2 ?ent1 .}\n"
+        ],
+        "masked_sparql":"PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?x ?rel2 ?ent1 .\n}\n",
         "PotentialTopicEntityMention": "jerry rice",
         "TopicEntityName": "Jerry Rice",
         "TopicEntityMid": "m.0240vt",
