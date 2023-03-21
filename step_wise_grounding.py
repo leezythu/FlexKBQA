@@ -67,7 +67,7 @@ def ground(data,i):
                 replace_info[key] = valid_ret[key]["value"]
         if replace_info!={}:
             valid_expansions.append(replace_info)
-    with open(str(i)+"_valid_expansions.json",'w') as f:
+    with open("intermediate_results/"+str(i)+"_valid_expansions.json",'w') as f:
         f.write(json.dumps(valid_expansions))
     exit(0)
 
