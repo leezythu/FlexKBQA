@@ -1,0 +1,4122 @@
+[
+    {
+        "?ent0": "National Brandy Alexander Day",
+        "rel0": "http://rdf.freebase.com/ns/base.schemastaging.holiday_extra.observance_rule",
+        "rel1": "http://rdf.freebase.com/ns/base.schemastaging.holiday_fixed_date_observance_rule.day_of_month"
+    },
+    {
+        "?ent0": "Cyclone Indlala",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone.affected_areas",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Kangaroo",
+        "rel0": "http://rdf.freebase.com/ns/base.animal_synopses.animal_synopsis.speed",
+        "rel1": "http://rdf.freebase.com/ns/base.qualified_values.qualified_value.high_value"
+    },
+    {
+        "?ent0": "United States Constitution",
+        "rel0": "http://rdf.freebase.com/ns/law.constitution.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Face It Radiance Foundation Spf20 Nb23 4.5/11.476 cream",
+        "rel0": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.available_in",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Unsymmetrical dimethylhydrazine",
+        "rel0": "http://rdf.freebase.com/ns/spaceflight.rocket_engine_fuel.rocket_engines",
+        "rel1": "http://rdf.freebase.com/ns/spaceflight.rocket_engine.thrust_vacuum"
+    },
+    {
+        "?ent0": "iMac G5",
+        "rel0": "http://rdf.freebase.com/ns/computer.computer.compatible_oses",
+        "rel1": "http://rdf.freebase.com/ns/computer.os_compatibility.dot_version_high"
+    },
+    {
+        "?ent0": "The Freddie Mercury Tribute: Concert for AIDS Awareness",
+        "rel0": "http://rdf.freebase.com/ns/film.film.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Material design",
+        "rel0": "http://rdf.freebase.com/ns/internet.blog.blogger",
+        "rel1": "http://rdf.freebase.com/ns/people.person.height_meters"
+    },
+    {
+        "?ent0": "Cocksucker Blues",
+        "rel0": "http://rdf.freebase.com/ns/film.film.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Dhan Dhan Bhag",
+        "rel0": "http://rdf.freebase.com/ns/music.composition.recordings",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "R/V Lulu, Cruise LU80-01, 1975-08-12 to 1975-08-18",
+        "rel0": "http://rdf.freebase.com/ns/time.event.includes_event",
+        "rel1": "http://rdf.freebase.com/ns/base.oceanography.submarine_dive.depth"
+    },
+    {
+        "?ent0": "AOGel",
+        "rel0": "http://rdf.freebase.com/ns/business.brand.products",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.discontinued"
+    },
+    {
+        "?ent0": "Pharmacia & Upjohn",
+        "rel0": "http://rdf.freebase.com/ns/medicine.medical_trial_sponsor.trials_sponsored",
+        "rel1": "http://rdf.freebase.com/ns/medicine.medical_trial.expected_total_enrollment"
+    },
+    {
+        "?ent0": "Etodolac 500 extended release film coated tablet",
+        "rel0": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.available_in",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "yggT",
+        "rel0": "http://rdf.freebase.com/ns/biology.gene.chromosome",
+        "rel1": "http://rdf.freebase.com/ns/biology.chromosome.identifier"
+    },
+    {
+        "?ent0": "Vandenberg AFB Space Launch Complex 4",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Basilica of St. Adalbert",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Nelson Mandela: An International Tribute for a Free South Africa",
+        "rel0": "http://rdf.freebase.com/ns/film.film.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Samuel Krachmalnick",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Human Cytogenetic Band 13q32.1",
+        "rel0": "http://rdf.freebase.com/ns/biology.cytogenetic_band.chromosome",
+        "rel1": "http://rdf.freebase.com/ns/biology.chromosome.identifier"
+    },
+    {
+        "?ent0": "Saint Roch Cemetery",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Flintshire Bridge",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "BBC Mundo",
+        "rel0": "http://rdf.freebase.com/ns/broadcast.broadcast.area_served",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Radio Skipper The '80s Channel",
+        "rel0": "http://rdf.freebase.com/ns/broadcast.content.broadcast",
+        "rel1": "http://rdf.freebase.com/ns/broadcast.internet_stream.stream_bitrate"
+    },
+    {
+        "?ent0": "Jimmy Carter",
+        "rel0": "http://rdf.freebase.com/ns/base.politicalconventions.primary_candidate.vp_delegate_vote_tally",
+        "rel1": "http://rdf.freebase.com/ns/base.politicalconventions.vp_delegate_vote_tally.tally"
+    },
+    {
+        "?ent0": "Bay Terrace",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/location.location.gnis_feature_id"
+    },
+    {
+        "?ent0": "Lewis College of Business",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "National Center for Biotechnology Information",
+        "rel0": "http://rdf.freebase.com/ns/dataworld.information_source.data_operations",
+        "rel1": "http://rdf.freebase.com/ns/dataworld.mass_data_operation.estimated_primitive_count"
+    },
+    {
+        "?ent0": "Phonogram: The Singles Club #7: Wolf Like Me",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.part_of_series",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_series.number_of_issues"
+    },
+    {
+        "?ent0": "Milton Academy",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Pinehurst Course No. 4",
+        "rel0": "http://rdf.freebase.com/ns/award.ranked_item.appears_in_ranked_lists",
+        "rel1": "http://rdf.freebase.com/ns/award.ranking.rank"
+    },
+    {
+        "?ent0": "Lobby Bar",
+        "rel0": "http://rdf.freebase.com/ns/business.business_location.address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Mie Goreng",
+        "rel0": "http://rdf.freebase.com/ns/food.recipe.author",
+        "rel1": "http://rdf.freebase.com/ns/people.person.height_meters"
+    },
+    {
+        "?ent0": "Soyuz programme",
+        "rel0": "http://rdf.freebase.com/ns/spaceflight.space_program.sponsor",
+        "rel1": "http://rdf.freebase.com/ns/location.location.area"
+    },
+    {
+        "?ent0": "Batman: The Ride",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Deva Premal",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "The Fazio Course",
+        "rel0": "http://rdf.freebase.com/ns/award.ranked_item.appears_in_ranked_lists",
+        "rel1": "http://rdf.freebase.com/ns/award.ranking.rank"
+    },
+    {
+        "?ent0": "Martial Artist",
+        "rel0": "http://rdf.freebase.com/ns/base.descriptive_names.names.descriptive_name",
+        "rel1": "http://rdf.freebase.com/ns/base.schemastaging.plural_form.one"
+    },
+    {
+        "?ent0": "Cultic Studies Review",
+        "rel0": "http://rdf.freebase.com/ns/book.journal.articles",
+        "rel1": "http://rdf.freebase.com/ns/book.journal_publication.volume"
+    },
+    {
+        "?ent0": "Anydros",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Roque de los Muchachos",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "William Howard Taft High School",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Roman Catholic Archdiocese of San Francisco",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Auto",
+        "rel0": "http://rdf.freebase.com/ns/digicams.camera_iso.cameras",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "Retrovir",
+        "rel0": "http://rdf.freebase.com/ns/business.brand.products",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.size"
+    },
+    {
+        "?ent0": "Baylor University",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Rita",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Therapentin-90",
+        "rel0": "http://rdf.freebase.com/ns/business.brand.products",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.size"
+    },
+    {
+        "?ent0": "Beryllium-hydrazine mix",
+        "rel0": "http://rdf.freebase.com/ns/spaceflight.rocket_engine_fuel.rocket_engines",
+        "rel1": "http://rdf.freebase.com/ns/spaceflight.rocket_engine.thrust_vacuum"
+    },
+    {
+        "?ent0": "San Diego",
+        "rel0": "http://rdf.freebase.com/ns/travel.travel_destination.climate",
+        "rel1": "http://rdf.freebase.com/ns/travel.travel_destination_monthly_climate.average_max_temp_c"
+    },
+    {
+        "?ent0": "Hurricane Audrey",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone.affected_areas",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Viper",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "First Presbyterian Church",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Google",
+        "rel0": "http://rdf.freebase.com/ns/base.motorcycle.internet_forum_topic.internet_forum_s",
+        "rel1": "http://rdf.freebase.com/ns/people.person.height_meters"
+    },
+    {
+        "?ent0": "Native Instruments",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.place_founded",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "USS Constitution",
+        "rel0": "http://rdf.freebase.com/ns/base.aubreymaturin.ship.mentions",
+        "rel1": "http://rdf.freebase.com/ns/base.aubreymaturin.ship_mention.chapter"
+    },
+    {
+        "?ent0": "Meadowcliff Elementary School",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Woodstock Express",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "El Rio del Tiempo",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "University of Pittsburgh Cancer Institute",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Church of the Good Shepherd",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "The Magazine of Fantasy and Science Fiction, June 1954",
+        "rel0": "http://rdf.freebase.com/ns/book.publication.contents",
+        "rel1": "http://rdf.freebase.com/ns/book.contents.page_number"
+    },
+    {
+        "?ent0": "Frankfurt",
+        "rel0": "http://rdf.freebase.com/ns/travel.travel_destination.climate",
+        "rel1": "http://rdf.freebase.com/ns/travel.travel_destination_monthly_climate.average_rainfall_mm"
+    },
+    {
+        "?ent0": "Josh Thomas",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "American Pale Ale",
+        "rel0": "http://rdf.freebase.com/ns/food.beer_style.alcohol_by_volume_range",
+        "rel1": "http://rdf.freebase.com/ns/measurement_unit.floating_point_range.high_value"
+    },
+    {
+        "?ent0": "Dream Dance, Volume 4 (disc 2)",
+        "rel0": "http://rdf.freebase.com/ns/music.release.track_list",
+        "rel1": "http://rdf.freebase.com/ns/music.release_track.track_number"
+    },
+    {
+        "?ent0": "Macintosh SE",
+        "rel0": "http://rdf.freebase.com/ns/computer.computer.compatible_oses",
+        "rel1": "http://rdf.freebase.com/ns/computer.os_compatibility.dot_version_low"
+    },
+    {
+        "?ent0": "American Thunder",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "130",
+        "rel0": "http://rdf.freebase.com/ns/digicams.camera_iso.cameras",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "Batman The Escape",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Ohio",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Buckner Glacier",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Tennessee",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Middle Jurassic",
+        "rel0": "http://rdf.freebase.com/ns/time.geologic_time_period.began",
+        "rel1": "http://rdf.freebase.com/ns/time.geologic_time_period_uncertainty.million_years_ago"
+    },
+    {
+        "?ent0": "South Wales Miners' Federation",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.geographic_scope",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "JPEG (EXIF 2.2)",
+        "rel0": "http://rdf.freebase.com/ns/digicams.camera_compressed_format.cameras",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "Melody Time",
+        "rel0": "http://rdf.freebase.com/ns/film.film.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Anderson Mesa Station",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.astronomical_observatory.discoveries",
+        "rel1": "http://rdf.freebase.com/ns/astronomy.orbital_relationship.aoapsis"
+    },
+    {
+        "?ent0": "Griffon",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Very Severe Cyclonic Storm (IMD)",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.Beaufort_scale",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.beaufort_wind_force.minimum_wind_speed_km_h"
+    },
+    {
+        "?ent0": "Colegio San Ignacio de Loyola",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "The Voyage",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Google",
+        "rel0": "http://rdf.freebase.com/ns/base.motorcycle.internet_forum_topic.internet_forum_s",
+        "rel1": "http://rdf.freebase.com/ns/people.person.height_meters"
+    },
+    {
+        "?ent0": "Spirituality",
+        "rel0": "http://rdf.freebase.com/ns/music.music_video_subject.subject_in_these_music_videos",
+        "rel1": "http://rdf.freebase.com/ns/base.webvideo.internet_video.running_time"
+    },
+    {
+        "?ent0": "Austric languages",
+        "rel0": "http://rdf.freebase.com/ns/language.language_family.geographic_distribution",
+        "rel1": "http://rdf.freebase.com/ns/location.location.area"
+    },
+    {
+        "?ent0": "Pedro Proença",
+        "rel0": "http://rdf.freebase.com/ns/soccer.football_referee.main_referee_for",
+        "rel1": "http://rdf.freebase.com/ns/soccer.football_match.attendance"
+    },
+    {
+        "?ent0": "Posited",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.galactic_interaction_status.galactic_interactions",
+        "rel1": "http://rdf.freebase.com/ns/astronomy.galactic_interaction.when"
+    },
+    {
+        "?ent0": "St. Croix Lutheran High School",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Palmdale Regional Airport",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Beef bourguignon",
+        "rel0": "http://rdf.freebase.com/ns/food.dish.recipes",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe.preparation_time"
+    },
+    {
+        "?ent0": "Ladle",
+        "rel0": "http://rdf.freebase.com/ns/food.culinary_tool.used_in_recipes",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe.cooking_time"
+    },
+    {
+        "?ent0": "Zeus",
+        "rel0": "http://rdf.freebase.com/ns/symbols.name_source.namesakes",
+        "rel1": "http://rdf.freebase.com/ns/base.schemastaging.celestial_object_extra.surface_area"
+    },
+    {
+        "?ent0": "Department for International Development",
+        "rel0": "http://rdf.freebase.com/ns/government.government_agency.jurisdiction",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Cambio Dolor",
+        "rel0": "http://rdf.freebase.com/ns/music.release_track.recording",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "The Threepenny Opera",
+        "rel0": "http://rdf.freebase.com/ns/music.album.primary_release",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "Hurricane Hanna",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone.category",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.max_wind_speed"
+    },
+    {
+        "?ent0": "Space Mountain",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Liqufruta",
+        "rel0": "http://rdf.freebase.com/ns/business.brand.products",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.discontinued"
+    },
+    {
+        "?ent0": "Sérgio de Carvalho",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Alcona County Library",
+        "rel0": "http://rdf.freebase.com/ns/library.public_library_system.annual_circulation",
+        "rel1": "http://rdf.freebase.com/ns/measurement_unit.dated_integer.number"
+    },
+    {
+        "?ent0": "Daly House Museum",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "McLaren Vale",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/location.location.area"
+    },
+    {
+        "?ent0": "Macintosh SE",
+        "rel0": "http://rdf.freebase.com/ns/computer.computer.compatible_oses",
+        "rel1": "http://rdf.freebase.com/ns/computer.os_compatibility.dot_version_low"
+    },
+    {
+        "?ent0": "Tennis",
+        "rel0": "http://rdf.freebase.com/ns/user.jg.default_domain.olympic_event.medal_winners",
+        "rel1": "http://rdf.freebase.com/ns/user.jg.default_domain.olympic_medal_winner.athlete"
+    },
+    {
+        "?ent0": "Marvel Spotlight #5",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.cover_price",
+        "rel1": "http://rdf.freebase.com/ns/measurement_unit.money_value.amount"
+    },
+    {
+        "?ent0": "Suzette Gresham",
+        "rel0": "http://rdf.freebase.com/ns/food.recipe_author.recipes",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe.cooking_time"
+    },
+    {
+        "?ent0": "Canopy Flyer",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.longitude"
+    },
+    {
+        "?ent0": "Pure Dance",
+        "rel0": "http://rdf.freebase.com/ns/broadcast.radio_station.serves_area",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Mary G. Montgomery High School",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "het Bildt",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Lena Strömbäck",
+        "rel0": "http://rdf.freebase.com/ns/book.author.works_written",
+        "rel1": "http://rdf.freebase.com/ns/base.researchinmacromolecularcrowding.pubmed_article.pmid"
+    },
+    {
+        "?ent0": "Shelby GT500",
+        "rel0": "http://rdf.freebase.com/ns/automotive.model.generations",
+        "rel1": "http://rdf.freebase.com/ns/automotive.generation.generation_number"
+    },
+    {
+        "?ent0": "Ziagen",
+        "rel0": "http://rdf.freebase.com/ns/business.brand.products",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.size"
+    },
+    {
+        "?ent0": "David Qualey",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Unsymmetrical dimethylhydrazine",
+        "rel0": "http://rdf.freebase.com/ns/spaceflight.rocket_engine_fuel.rocket_engines",
+        "rel1": "http://rdf.freebase.com/ns/spaceflight.rocket_engine.thrust_vacuum"
+    },
+    {
+        "?ent0": "Oihuka",
+        "rel0": "http://rdf.freebase.com/ns/music.record_label.releases",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "National Party South Africa",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.geographic_scope",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Seoul Propolis",
+        "rel0": "http://rdf.freebase.com/ns/medicine.drug_manufacturer.drugs_manufactured",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.size"
+    },
+    {
+        "?ent0": "TST Fever Posse",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Valentīna Butāne",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "The Hamptons",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Houston",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "FDA OTC monograph part 343",
+        "rel0": "http://rdf.freebase.com/ns/medicine.fda_otc_monograph_part.drugs_regulated",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.size"
+    },
+    {
+        "?ent0": "California Screamin'",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Silpat",
+        "rel0": "http://rdf.freebase.com/ns/food.culinary_tool.used_in_recipes",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe.cooking_time"
+    },
+    {
+        "?ent0": "Pasta with Simple Tomato Sauce",
+        "rel0": "http://rdf.freebase.com/ns/food.recipe.ingredients",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe_ingredient.quantity"
+    },
+    {
+        "?ent0": "Search Engine Optimization",
+        "rel0": "http://rdf.freebase.com/ns/base.motorcycle.internet_forum_topic.internet_forum_s",
+        "rel1": "http://rdf.freebase.com/ns/people.person.height_meters"
+    },
+    {
+        "?ent0": "Phonogram: The Singles Club #7: Wolf Like Me",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.part_of_series",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_series.number_of_issues"
+    },
+    {
+        "?ent0": "M74 Group",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.galactic_group.galaxies_in_group",
+        "rel1": "http://rdf.freebase.com/ns/astronomy.celestial_object.cosmological_distance"
+    },
+    {
+        "?ent0": "Franciscan Center of Tampa",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Honda Pilot",
+        "rel0": "http://rdf.freebase.com/ns/automotive.model.generations",
+        "rel1": "http://rdf.freebase.com/ns/automotive.generation.generation_number"
+    },
+    {
+        "?ent0": "Premier Rides",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.place_founded",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Anaconda",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "hipnippers.com",
+        "rel0": "http://rdf.freebase.com/ns/internet.website.owner",
+        "rel1": "http://rdf.freebase.com/ns/people.person.weight_kg"
+    },
+    {
+        "?ent0": "Down antiquark",
+        "rel0": "http://rdf.freebase.com/ns/physics.particle.antiparticle",
+        "rel1": "http://rdf.freebase.com/ns/physics.particle_antiparticle.self_antiparticle"
+    },
+    {
+        "?ent0": "Pilsner",
+        "rel0": "http://rdf.freebase.com/ns/food.beer_style.beers",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "USS Constitution",
+        "rel0": "http://rdf.freebase.com/ns/base.aubreymaturin.ship.mentions",
+        "rel1": "http://rdf.freebase.com/ns/base.aubreymaturin.ship_mention.chapter"
+    },
+    {
+        "?ent0": "Royal Stockholm Philharmonic Orchestra",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Juno clump",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.asteroid_family.founding_asteroid_family_member",
+        "rel1": "http://rdf.freebase.com/ns/astronomy.orbital_relationship.aoapsis"
+    },
+    {
+        "?ent0": "Catholic Charities of the Archdiocese of Chicago",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Soyuz programme",
+        "rel0": "http://rdf.freebase.com/ns/spaceflight.space_program.sponsor",
+        "rel1": "http://rdf.freebase.com/ns/location.location.area"
+    },
+    {
+        "?ent0": "Windjammer Sports Bar",
+        "rel0": "http://rdf.freebase.com/ns/business.business_location.address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Red Wine",
+        "rel0": "http://rdf.freebase.com/ns/wine.wine_color.wines",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "Vekoma",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.place_founded",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Okefenokee Regional Library System",
+        "rel0": "http://rdf.freebase.com/ns/library.public_library_system.annual_circulation",
+        "rel1": "http://rdf.freebase.com/ns/measurement_unit.dated_integer.number"
+    },
+    {
+        "?ent0": "TV Parental Guidelines",
+        "rel0": "http://rdf.freebase.com/ns/tv.tv_rating_system.jurisdiction",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "MAGIO",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Iowa State University",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Roman Catholic Archdiocese of Chicago",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Joe Giella",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_inker.comic_covers_inked",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.issue_number"
+    },
+    {
+        "?ent0": "Severe Tropical Storm (JMA)",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.Beaufort_scale",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.beaufort_wind_force.wind_speed"
+    },
+    {
+        "?ent0": "L'Amante",
+        "rel0": "http://rdf.freebase.com/ns/business.business_location.address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Morgan Dontanville",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_editor.issues_edited",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.issue_number"
+    },
+    {
+        "?ent0": "Bajaritos",
+        "rel0": "http://rdf.freebase.com/ns/business.business_location.address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "C/1861 G1 (Thatcher)",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.star_system_body.star_system",
+        "rel1": "http://rdf.freebase.com/ns/astronomy.star_system.system_age"
+    },
+    {
+        "?ent0": "Schedule III (CSA)",
+        "rel0": "http://rdf.freebase.com/ns/medicine.drug_legal_status.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Mistress of the Dead",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Kevin",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_character.created_by",
+        "rel1": "http://rdf.freebase.com/ns/people.person.height_meters"
+    },
+    {
+        "?ent0": "FDA OTC monograph part 355",
+        "rel0": "http://rdf.freebase.com/ns/medicine.fda_otc_monograph_part.drugs_regulated",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.discontinued"
+    },
+    {
+        "?ent0": "iMac G5",
+        "rel0": "http://rdf.freebase.com/ns/computer.computer.compatible_oses",
+        "rel1": "http://rdf.freebase.com/ns/computer.os_compatibility.dot_version_high"
+    },
+    {
+        "?ent0": "Care One Eye Drops Seasonal Relief 0.5/2.5 solution",
+        "rel0": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.available_in",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Δ⁺⁺",
+        "rel0": "http://rdf.freebase.com/ns/physics.hadron.composition",
+        "rel1": "http://rdf.freebase.com/ns/physics.subatomic_particle_composition.number"
+    },
+    {
+        "?ent0": "Viola caipira",
+        "rel0": "http://rdf.freebase.com/ns/music.instrument.family",
+        "rel1": "http://rdf.freebase.com/ns/base.statistics.entity_used_in_trade_statistics.hts_code"
+    },
+    {
+        "?ent0": "Sierra Leone",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Hawthorn Railway Bridge",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.longitude"
+    },
+    {
+        "?ent0": "400",
+        "rel0": "http://rdf.freebase.com/ns/digicams.camera_iso.cameras",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "Gérard Lesne",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "USS Constitution",
+        "rel0": "http://rdf.freebase.com/ns/base.aubreymaturin.ship.mentions",
+        "rel1": "http://rdf.freebase.com/ns/base.aubreymaturin.ship_mention.chapter"
+    },
+    {
+        "?ent0": "Slashing dough",
+        "rel0": "http://rdf.freebase.com/ns/food.culinary_technique.recipes",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe.preparation_time"
+    },
+    {
+        "?ent0": "National Center for Biotechnology Information",
+        "rel0": "http://rdf.freebase.com/ns/dataworld.information_source.data_operations",
+        "rel1": "http://rdf.freebase.com/ns/dataworld.mass_data_operation.estimated_primitive_count"
+    },
+    {
+        "?ent0": "Amitiza",
+        "rel0": "http://rdf.freebase.com/ns/business.brand.products",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.size"
+    },
+    {
+        "?ent0": "Hurricane Sandy",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone.category",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.max_wind_speed"
+    },
+    {
+        "?ent0": "Early Jurassic",
+        "rel0": "http://rdf.freebase.com/ns/time.geologic_time_period.began",
+        "rel1": "http://rdf.freebase.com/ns/time.geologic_time_period_uncertainty.million_years_ago"
+    },
+    {
+        "?ent0": "Tom Taggart",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_inker.comic_covers_inked",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.issue_number"
+    },
+    {
+        "?ent0": "Rockhurst University",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Cyclone Winifred",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone.category",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.maximum_wind_speed_gust_km_h"
+    },
+    {
+        "?ent0": "Life on Mars",
+        "rel0": "http://rdf.freebase.com/ns/music.album.primary_release",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "800",
+        "rel0": "http://rdf.freebase.com/ns/digicams.camera_iso.cameras",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "Mountain View Cemetery",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Alice in Wonderland",
+        "rel0": "http://rdf.freebase.com/ns/film.film.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "To Catch a Woodpecker",
+        "rel0": "http://rdf.freebase.com/ns/film.film.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Schedule V (CSA)",
+        "rel0": "http://rdf.freebase.com/ns/medicine.drug_legal_status.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Mark Bennett",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Vesta family",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.asteroid_family.founding_asteroid_family_member",
+        "rel1": "http://rdf.freebase.com/ns/astronomy.orbital_relationship.aoapsis"
+    },
+    {
+        "?ent0": "FDA OTC monograph part 358h",
+        "rel0": "http://rdf.freebase.com/ns/medicine.fda_otc_monograph_part.drugs_regulated",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.generic_drug"
+    },
+    {
+        "?ent0": "Richard O'Brien's the Rocky Horror Show (Soundtrack From the European Tour 98/99)",
+        "rel0": "http://rdf.freebase.com/ns/music.album.primary_release",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "White Wine",
+        "rel0": "http://rdf.freebase.com/ns/wine.wine_color.wines",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "Strath Haven High School",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Androxy",
+        "rel0": "http://rdf.freebase.com/ns/business.brand.products",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.size"
+    },
+    {
+        "?ent0": "FDA OTC monograph part 340",
+        "rel0": "http://rdf.freebase.com/ns/medicine.fda_otc_monograph_part.drugs_regulated",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.size"
+    },
+    {
+        "?ent0": "Kneading",
+        "rel0": "http://rdf.freebase.com/ns/food.culinary_technique.recipes",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe.preparation_time"
+    },
+    {
+        "?ent0": "The Sacred Band of Stepsons",
+        "rel0": "http://rdf.freebase.com/ns/base.militaryinfiction.military_combatant_in_fiction.casualties",
+        "rel1": "http://rdf.freebase.com/ns/base.militaryinfiction.military_casulaties_in_fiction.upper_estimate"
+    },
+    {
+        "?ent0": "Pleasanton Marriott",
+        "rel0": "http://rdf.freebase.com/ns/location.location.street_address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Kitchen knife",
+        "rel0": "http://rdf.freebase.com/ns/food.culinary_tool.used_in_recipes",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe.cooking_time"
+    },
+    {
+        "?ent0": "Hong Kong dollar",
+        "rel0": "http://rdf.freebase.com/ns/finance.currency.countries_used",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Finnish Radio Symphony Orchestra",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Twin Falls Idaho Temple",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Beryllium-hydrazine mix",
+        "rel0": "http://rdf.freebase.com/ns/spaceflight.rocket_engine_fuel.rocket_engines",
+        "rel1": "http://rdf.freebase.com/ns/spaceflight.rocket_engine.thrust_vacuum"
+    },
+    {
+        "?ent0": "Chicago Review Press",
+        "rel0": "http://rdf.freebase.com/ns/book.publishing_company.books_published",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "Persephone",
+        "rel0": "http://rdf.freebase.com/ns/film.film.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Treasure Hunters",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.longitude"
+    },
+    {
+        "?ent0": "Nisibis",
+        "rel0": "http://rdf.freebase.com/ns/base.militaryinfiction.military_combatant_in_fiction.force_deployments",
+        "rel1": "http://rdf.freebase.com/ns/base.militaryinfiction.force_strength_in_fiction.maximum_force_size"
+    },
+    {
+        "?ent0": "IV",
+        "rel0": "http://rdf.freebase.com/ns/medicine.medical_trial_phase.medical_trials",
+        "rel1": "http://rdf.freebase.com/ns/medicine.medical_trial.minimum_age_for_eligibility"
+    },
+    {
+        "?ent0": "Worlds of Fun",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "The Courier",
+        "rel0": "http://rdf.freebase.com/ns/book.newspaper.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Hullavington Airfield",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "P.F. Sloan",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Unblemish",
+        "rel0": "http://rdf.freebase.com/ns/business.brand.products",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.discontinued"
+    },
+    {
+        "?ent0": "Ultra Compact swivel",
+        "rel0": "http://rdf.freebase.com/ns/digicams.camera_format.cameras",
+        "rel1": "http://rdf.freebase.com/ns/digicams.digital_camera.lcd_pixels"
+    },
+    {
+        "?ent0": "Spider-Man Noir #4",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.part_of_series",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_series.number_of_issues"
+    },
+    {
+        "?ent0": "San Francisco Bay Area",
+        "rel0": "http://rdf.freebase.com/ns/base.csafarms.area_served.farms",
+        "rel1": "http://rdf.freebase.com/ns/user.jfry.default_domain.community_supported_agriculture.size"
+    },
+    {
+        "?ent0": "Snuk",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Crimean Astrophysical Observatory",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.astronomical_observatory.discoveries",
+        "rel1": "http://rdf.freebase.com/ns/astronomy.orbital_relationship.semi_major_axis"
+    },
+    {
+        "?ent0": "Art Gallery of New South Wales",
+        "rel0": "http://rdf.freebase.com/ns/architecture.museum.visitors",
+        "rel1": "http://rdf.freebase.com/ns/measurement_unit.dated_integer.number"
+    },
+    {
+        "?ent0": "Hazelwood West High School",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Harvard School of Dental Medicine",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Saint Martin de Porres High School",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Renaissance Austin Hotel",
+        "rel0": "http://rdf.freebase.com/ns/business.business_location.address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Disney's Old Key West Resort",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Forever Wild (Selections)",
+        "rel0": "http://rdf.freebase.com/ns/music.album.primary_release",
+        "rel1": "http://rdf.freebase.com/ns/music.release.length"
+    },
+    {
+        "?ent0": "Wellington Church",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Pilsner",
+        "rel0": "http://rdf.freebase.com/ns/food.beer_style.beers",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "Down quark",
+        "rel0": "http://rdf.freebase.com/ns/physics.particle.antiparticle",
+        "rel1": "http://rdf.freebase.com/ns/physics.particle_antiparticle.self_antiparticle"
+    },
+    {
+        "?ent0": "Nile crocodile",
+        "rel0": "http://rdf.freebase.com/ns/base.animal_synopses.animal_synopsis.speed",
+        "rel1": "http://rdf.freebase.com/ns/base.qualified_values.qualified_value.high_value"
+    },
+    {
+        "?ent0": "Hop Kiln Winery",
+        "rel0": "http://rdf.freebase.com/ns/business.business_location.address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Tennessee",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Oxazepam",
+        "rel0": "http://rdf.freebase.com/ns/medicine.drug.brands",
+        "rel1": "http://rdf.freebase.com/ns/medicine.drug_brand.generic"
+    },
+    {
+        "?ent0": "Xenical",
+        "rel0": "http://rdf.freebase.com/ns/business.brand.products",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.size"
+    },
+    {
+        "?ent0": "Bald Knoll",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Alik Granovsky",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "California Screamin'",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Pioneer LDC",
+        "rel0": "http://rdf.freebase.com/ns/music.record_label.releases",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "Lemurian Army",
+        "rel0": "http://rdf.freebase.com/ns/base.militaryinfiction.military_combatant_in_fiction.casualties",
+        "rel1": "http://rdf.freebase.com/ns/base.militaryinfiction.military_casulaties_in_fiction.upper_estimate"
+    },
+    {
+        "?ent0": "Gallant Fox",
+        "rel0": "http://rdf.freebase.com/ns/award.award_winner.awards_won",
+        "rel1": "http://rdf.freebase.com/ns/award.award_honor.notes_description"
+    },
+    {
+        "?ent0": "Broadmoor Golf Club",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Solar System",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.star_system.dwarf_planets",
+        "rel1": "http://rdf.freebase.com/ns/astronomy.orbital_relationship.aoapsis"
+    },
+    {
+        "?ent0": "Published",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.astronomical_discovery_status.objects",
+        "rel1": "http://rdf.freebase.com/ns/astronomy.orbital_relationship.semi_major_axis"
+    },
+    {
+        "?ent0": "Ice Rider",
+        "rel0": "http://rdf.freebase.com/ns/music.release_track.recording",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Democracy Corps",
+        "rel0": "http://rdf.freebase.com/ns/government.polling_authority.polls",
+        "rel1": "http://rdf.freebase.com/ns/government.election_poll.number_polled"
+    },
+    {
+        "?ent0": "Pregnancy Category A (FDA)",
+        "rel0": "http://rdf.freebase.com/ns/medicine.drug_pregnancy_category.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Supreme Court of Singapore",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.longitude"
+    },
+    {
+        "?ent0": "712/237",
+        "rel0": "http://rdf.freebase.com/ns/law.us_patent_category.patents",
+        "rel1": "http://rdf.freebase.com/ns/law.us_patent.patent_number"
+    },
+    {
+        "?ent0": "Ing Vastgoed",
+        "rel0": "http://rdf.freebase.com/ns/business.shopping_center_owner.shopping_centers_owned",
+        "rel1": "http://rdf.freebase.com/ns/business.shopping_center.retail_floor_space_m_2"
+    },
+    {
+        "?ent0": "American Research Group",
+        "rel0": "http://rdf.freebase.com/ns/government.polling_authority.polls",
+        "rel1": "http://rdf.freebase.com/ns/government.election_poll.number_polled"
+    },
+    {
+        "?ent0": "Beek",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Residence Inn San Juan Capistrano",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Flagg Records",
+        "rel0": "http://rdf.freebase.com/ns/music.record_label.releases",
+        "rel1": "http://rdf.freebase.com/ns/music.release.catalog_number"
+    },
+    {
+        "?ent0": "Google",
+        "rel0": "http://rdf.freebase.com/ns/base.motorcycle.internet_forum_topic.internet_forum_s",
+        "rel1": "http://rdf.freebase.com/ns/people.person.height_meters"
+    },
+    {
+        "?ent0": "IV",
+        "rel0": "http://rdf.freebase.com/ns/medicine.medical_trial_phase.medical_trials",
+        "rel1": "http://rdf.freebase.com/ns/medicine.medical_trial.minimum_age_for_eligibility"
+    },
+    {
+        "?ent0": "Navy Blue",
+        "rel0": "http://rdf.freebase.com/ns/base.schemastaging.visual_color_extra.cmyk",
+        "rel1": "http://rdf.freebase.com/ns/base.schemastaging.cmyk_color.m"
+    },
+    {
+        "?ent0": "Apollo asteroid",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.asteroid_group.asteroid_group_members",
+        "rel1": "http://rdf.freebase.com/ns/astronomy.orbital_relationship.semi_major_axis"
+    },
+    {
+        "?ent0": "Beef bourguignon",
+        "rel0": "http://rdf.freebase.com/ns/food.dish.recipes",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe.preparation_time"
+    },
+    {
+        "?ent0": "Schenck & Williams",
+        "rel0": "http://rdf.freebase.com/ns/architecture.architecture_firm.projects",
+        "rel1": "http://rdf.freebase.com/ns/base.usnris.nris_listing.item_number"
+    },
+    {
+        "?ent0": "University of Colorado Colorado Springs",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Google",
+        "rel0": "http://rdf.freebase.com/ns/base.motorcycle.internet_forum_topic.internet_forum_s",
+        "rel1": "http://rdf.freebase.com/ns/people.person.height_meters"
+    },
+    {
+        "?ent0": "Dalwhinnie distillery",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Yahoo",
+        "rel0": "http://rdf.freebase.com/ns/government.polling_authority.polls",
+        "rel1": "http://rdf.freebase.com/ns/government.election_poll.number_polled"
+    },
+    {
+        "?ent0": "Road Bandit",
+        "rel0": "http://rdf.freebase.com/ns/tv.tv_program.country_of_origin",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Category 4 Hurricane (SSHS)",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.Beaufort_scale",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.beaufort_wind_force.minimum_wind_speed_km_h"
+    },
+    {
+        "?ent0": "Subdivision",
+        "rel0": "http://rdf.freebase.com/ns/biology.organism_classification_rank.higher_rank",
+        "rel1": "http://rdf.freebase.com/ns/biology.organism_classification_rank.major_rank"
+    },
+    {
+        "?ent0": "Batman: The Ride",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Notre Dame High School",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "J. Bone",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_inker.comic_covers_inked",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.issue_number"
+    },
+    {
+        "?ent0": "Oklahoma Sooners football",
+        "rel0": "http://rdf.freebase.com/ns/award.award_nominee.award_nominations",
+        "rel1": "http://rdf.freebase.com/ns/award.award_nomination.notes_description"
+    },
+    {
+        "?ent0": "None",
+        "rel0": "http://rdf.freebase.com/ns/base.politicalconventions.primary_candidate.vp_delegate_vote_tally",
+        "rel1": "http://rdf.freebase.com/ns/base.politicalconventions.vp_delegate_vote_tally.tally"
+    },
+    {
+        "?ent0": "Steve Lieber",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_inker.comic_covers_inked",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.issue_number"
+    },
+    {
+        "?ent0": "Kwetiau",
+        "rel0": "http://rdf.freebase.com/ns/food.recipe.author",
+        "rel1": "http://rdf.freebase.com/ns/people.person.height_meters"
+    },
+    {
+        "?ent0": "Hurricane Julio 2014",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone.category",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.max_wind_speed"
+    },
+    {
+        "?ent0": "Landtag of North Rhine-Westphalia",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Severe Tropical Storm (JMA)",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.Beaufort_scale",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.beaufort_wind_force.wind_speed"
+    },
+    {
+        "?ent0": "Glen Orbik",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_inker.comic_covers_inked",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.issue_number"
+    },
+    {
+        "?ent0": "Youth ministry",
+        "rel0": "http://rdf.freebase.com/ns/tv.tv_subject.tv_episodes",
+        "rel1": "http://rdf.freebase.com/ns/tv.tv_series_episode.episode_number"
+    },
+    {
+        "?ent0": "Evan Shinners",
+        "rel0": "http://rdf.freebase.com/ns/music.featured_artist.recordings",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Hurricane Hazel",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone.category",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.max_wind_speed"
+    },
+    {
+        "?ent0": "American Samoa",
+        "rel0": "http://rdf.freebase.com/ns/location.statistical_region.internet_users_percent_population",
+        "rel1": "http://rdf.freebase.com/ns/measurement_unit.dated_percentage.rate"
+    },
+    {
+        "?ent0": "Pequannock River",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Category 5 Hurricane (SSHS)",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.Beaufort_scale",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.beaufort_wind_force.minimum_wind_speed_km_h"
+    },
+    {
+        "?ent0": "California Common Beer",
+        "rel0": "http://rdf.freebase.com/ns/food.beer_style.bjcp_style_category",
+        "rel1": "http://rdf.freebase.com/ns/food.beer_style_category.bjcp_id"
+    },
+    {
+        "?ent0": "Politico",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Tamil Nadu Forest Department",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.place_founded",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "NB",
+        "rel0": "http://rdf.freebase.com/ns/automotive.platform.generations",
+        "rel1": "http://rdf.freebase.com/ns/automotive.generation.generation_number"
+    },
+    {
+        "?ent0": "Speyburn-Glenlivet distillery",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/location.location.area"
+    },
+    {
+        "?ent0": "Mickey's Fun Wheel",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Roodafshan Cave",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.elevation"
+    },
+    {
+        "?ent0": "Copper",
+        "rel0": "http://rdf.freebase.com/ns/chemistry.chemical_element.atomic_mass",
+        "rel1": "http://rdf.freebase.com/ns/chemistry.atomic_mass.mass"
+    },
+    {
+        "?ent0": "Second Generation Mercury Topaz",
+        "rel0": "http://rdf.freebase.com/ns/automotive.generation.predecessor",
+        "rel1": "http://rdf.freebase.com/ns/automotive.generation.generation_number"
+    },
+    {
+        "?ent0": "Sepie",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_character.created_by",
+        "rel1": "http://rdf.freebase.com/ns/people.person.height_meters"
+    },
+    {
+        "?ent0": "Semiahmoo Golf and Country Club",
+        "rel0": "http://rdf.freebase.com/ns/location.location.street_address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Flight simulator",
+        "rel0": "http://rdf.freebase.com/ns/award.award_discipline.awards_in_this_discipline",
+        "rel1": "http://rdf.freebase.com/ns/base.schemastaging.award_category_extra.awarded_to_work"
+    },
+    {
+        "?ent0": "Comet",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.celestial_object_category.objects",
+        "rel1": "http://rdf.freebase.com/ns/astronomy.orbital_relationship.aoapsis"
+    },
+    {
+        "?ent0": "Association of Zoos and Aquariums",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Bahá'í House of Worship",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Thomas Dekker",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "FDA OTC monograph part 333",
+        "rel0": "http://rdf.freebase.com/ns/medicine.fda_otc_monograph_part.drugs_regulated",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.size"
+    },
+    {
+        "?ent0": "Ministry of Defence and National Service",
+        "rel0": "http://rdf.freebase.com/ns/government.government_agency.jurisdiction",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "David Qualey",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "WBA World Champion",
+        "rel0": "http://rdf.freebase.com/ns/boxing.boxing_title.champions",
+        "rel1": "http://rdf.freebase.com/ns/boxing.boxing_title_tenure.defenses"
+    },
+    {
+        "?ent0": "Mayo Elementary School",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "10 + [7785241,7831488]",
+        "rel0": "http://rdf.freebase.com/ns/biology.genomic_locus.annotation",
+        "rel1": "http://rdf.freebase.com/ns/biology.gene.ncbi_id"
+    },
+    {
+        "?ent0": "4 + [9392700,9394730]",
+        "rel0": "http://rdf.freebase.com/ns/biology.genomic_locus.annotation",
+        "rel1": "http://rdf.freebase.com/ns/biology.gene.ncbi_id"
+    },
+    {
+        "?ent0": "Propel Cs-East",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Vienna lager",
+        "rel0": "http://rdf.freebase.com/ns/food.beer_style.bjcp_style_category",
+        "rel1": "http://rdf.freebase.com/ns/food.beer_style_category.bjcp_id"
+    },
+    {
+        "?ent0": "Ragin' Cajun",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Macintosh SE",
+        "rel0": "http://rdf.freebase.com/ns/computer.computer.compatible_oses",
+        "rel1": "http://rdf.freebase.com/ns/computer.os_compatibility.dot_version_low"
+    },
+    {
+        "?ent0": "Gershwin Theatre",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Long Island",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Cast-iron cookware",
+        "rel0": "http://rdf.freebase.com/ns/food.culinary_tool.used_in_recipes",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe.preparation_time"
+    },
+    {
+        "?ent0": "Mamma går till Domus",
+        "rel0": "http://rdf.freebase.com/ns/music.release_track.recording",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "creatine kinase, mitochondrial 1B",
+        "rel0": "http://rdf.freebase.com/ns/biology.gene.chromosome",
+        "rel1": "http://rdf.freebase.com/ns/biology.chromosome.identifier"
+    },
+    {
+        "?ent0": "Gustav Kuhn",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Hurricane Gil",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone.category",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.max_wind_speed"
+    },
+    {
+        "?ent0": "Biker Dreams",
+        "rel0": "http://rdf.freebase.com/ns/film.film.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "California Screamin'",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "The Legend of Rockabye Point",
+        "rel0": "http://rdf.freebase.com/ns/film.film.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Ford Capri",
+        "rel0": "http://rdf.freebase.com/ns/automotive.model.generations",
+        "rel1": "http://rdf.freebase.com/ns/automotive.generation.generation_number"
+    },
+    {
+        "?ent0": "Portmarnock Golf Club",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Tiger",
+        "rel0": "http://rdf.freebase.com/ns/base.animal_synopses.animal_synopsis.speed",
+        "rel1": "http://rdf.freebase.com/ns/base.qualified_values.qualified_value.high_value"
+    },
+    {
+        "?ent0": "A Bug's Land",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Head Start Program",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Phoenix Inn Suites",
+        "rel0": "http://rdf.freebase.com/ns/travel.hotel_brand.hotels_in_this_brand",
+        "rel1": "http://rdf.freebase.com/ns/travel.hotel.number_of_guest_beds"
+    },
+    {
+        "?ent0": "Mel Gibson",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "John Romita Jr.",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_penciler.comic_books_penciled",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_series.number_of_issues"
+    },
+    {
+        "?ent0": "Referee technical decision",
+        "rel0": "http://rdf.freebase.com/ns/boxing.boxing_decision.matches_ended_with_this_decision",
+        "rel1": "http://rdf.freebase.com/ns/boxing.boxing_match.planned_number_of_rounds"
+    },
+    {
+        "?ent0": "Dustin Hoffman",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Stock pot",
+        "rel0": "http://rdf.freebase.com/ns/food.culinary_tool.used_in_recipes",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe.cooking_time"
+    },
+    {
+        "?ent0": "Nutrition",
+        "rel0": "http://rdf.freebase.com/ns/base.activism.activism_issue.activists",
+        "rel1": "http://rdf.freebase.com/ns/people.person.weight_kg"
+    },
+    {
+        "?ent0": "Quitsato Sundial",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Parallel Assignment",
+        "rel0": "http://rdf.freebase.com/ns/medicine.medical_trial_design.trials",
+        "rel1": "http://rdf.freebase.com/ns/medicine.medical_trial.expected_total_enrollment"
+    },
+    {
+        "?ent0": "Middleweight",
+        "rel0": "http://rdf.freebase.com/ns/sports.boxing_weight_division.matches",
+        "rel1": "http://rdf.freebase.com/ns/boxing.boxing_match.planned_number_of_rounds"
+    },
+    {
+        "?ent0": "Bonnevaux Abbey",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Comet",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.celestial_object_category.objects",
+        "rel1": "http://rdf.freebase.com/ns/astronomy.orbital_relationship.aoapsis"
+    },
+    {
+        "?ent0": "ILT vaccine",
+        "rel0": "http://rdf.freebase.com/ns/medicine.drug.brands",
+        "rel1": "http://rdf.freebase.com/ns/medicine.drug_brand.generic"
+    },
+    {
+        "?ent0": "General Electric",
+        "rel0": "http://rdf.freebase.com/ns/law.patent_assignee.patents_assigned",
+        "rel1": "http://rdf.freebase.com/ns/law.us_patent.patent_number"
+    },
+    {
+        "?ent0": "Phoenix Inn Suites",
+        "rel0": "http://rdf.freebase.com/ns/travel.hotel_brand.hotels_in_this_brand",
+        "rel1": "http://rdf.freebase.com/ns/travel.hotel.number_of_guest_beds"
+    },
+    {
+        "?ent0": "Google",
+        "rel0": "http://rdf.freebase.com/ns/base.motorcycle.internet_forum_topic.internet_forum_s",
+        "rel1": "http://rdf.freebase.com/ns/people.person.height_meters"
+    },
+    {
+        "?ent0": "Southwestern Athletic Football Conference",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "2010 FIFA World Cup Group D - SRB ./. GHA",
+        "rel0": "http://rdf.freebase.com/ns/soccer.football_match.goals",
+        "rel1": "http://rdf.freebase.com/ns/soccer.football_goal.minute"
+    },
+    {
+        "?ent0": "Oregon Considered Podcast",
+        "rel0": "http://rdf.freebase.com/ns/broadcast.content.broadcast",
+        "rel1": "http://rdf.freebase.com/ns/broadcast.podcast_feed.number_of_items"
+    },
+    {
+        "?ent0": "3200",
+        "rel0": "http://rdf.freebase.com/ns/digicams.camera_iso.cameras",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "Michigan Avenue Bridge",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Swanson Vineyards",
+        "rel0": "http://rdf.freebase.com/ns/business.business_location.address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Tropical Storm (JTWC)",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.Beaufort_scale",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.beaufort_wind_force.wind_speed"
+    },
+    {
+        "?ent0": "Chipogó",
+        "rel0": "http://rdf.freebase.com/ns/education.school_newspaper.school",
+        "rel1": "http://rdf.freebase.com/ns/location.location.area"
+    },
+    {
+        "?ent0": "Bono",
+        "rel0": "http://rdf.freebase.com/ns/celebrities.celebrity.net_worth",
+        "rel1": "http://rdf.freebase.com/ns/measurement_unit.dated_money_value.amount"
+    },
+    {
+        "?ent0": "HP Mini 1000",
+        "rel0": "http://rdf.freebase.com/ns/computer.computer.compatible_oses",
+        "rel1": "http://rdf.freebase.com/ns/computer.os_compatibility.dot_version_high"
+    },
+    {
+        "?ent0": "Google",
+        "rel0": "http://rdf.freebase.com/ns/base.motorcycle.internet_forum_topic.internet_forum_s",
+        "rel1": "http://rdf.freebase.com/ns/people.person.height_meters"
+    },
+    {
+        "?ent0": "Live in Boston",
+        "rel0": "http://rdf.freebase.com/ns/film.film.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Casi Angeles",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Revenge of the Mummy",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Chocolate Com Pimenta (Internacional)",
+        "rel0": "http://rdf.freebase.com/ns/music.album.primary_release",
+        "rel1": "http://rdf.freebase.com/ns/music.release.catalog_number"
+    },
+    {
+        "?ent0": "Artopia",
+        "rel0": "http://rdf.freebase.com/ns/tv.tv_program.country_of_origin",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "RC Racer",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "St Dunstan-in-the-West",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Moderate Tropical Storm (MF)",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.Beaufort_scale",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.beaufort_wind_force.wind_speed"
+    },
+    {
+        "?ent0": "Hammersmith flyover",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Columbia Valley AVA",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Requip",
+        "rel0": "http://rdf.freebase.com/ns/business.brand.products",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.size"
+    },
+    {
+        "?ent0": "Steele Wines",
+        "rel0": "http://rdf.freebase.com/ns/business.business_location.address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Heritage New Zealand",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address_2"
+    },
+    {
+        "?ent0": "Forteo",
+        "rel0": "http://rdf.freebase.com/ns/business.brand.products",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.discontinued"
+    },
+    {
+        "?ent0": "Hurricane Iniki",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone.category",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.max_wind_speed"
+    },
+    {
+        "?ent0": "Sierra Leone",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Albert Deguzman",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_letterer.comic_stories_lettered",
+        "rel1": "http://rdf.freebase.com/ns/book.serial_installment.installment_number"
+    },
+    {
+        "?ent0": "Duramorph",
+        "rel0": "http://rdf.freebase.com/ns/business.brand.products",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.discontinued"
+    },
+    {
+        "?ent0": "Jimmy Carter",
+        "rel0": "http://rdf.freebase.com/ns/base.politicalconventions.primary_candidate.vp_delegate_vote_tally",
+        "rel1": "http://rdf.freebase.com/ns/base.politicalconventions.vp_delegate_vote_tally.tally"
+    },
+    {
+        "?ent0": "Six Centuries of Prints and Drawings: Recent Acquisitions",
+        "rel0": "http://rdf.freebase.com/ns/exhibitions.exhibition.venues",
+        "rel1": "http://rdf.freebase.com/ns/exhibitions.exhibition_run.admission_fee"
+    },
+    {
+        "?ent0": "Google",
+        "rel0": "http://rdf.freebase.com/ns/base.motorcycle.internet_forum_topic.internet_forum_s",
+        "rel1": "http://rdf.freebase.com/ns/people.person.height_meters"
+    },
+    {
+        "?ent0": "Margarita Lecuona",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Lower Aulaqi Sultanate",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.longitude"
+    },
+    {
+        "?ent0": "Swimming",
+        "rel0": "http://rdf.freebase.com/ns/travel.accommodation_feature.accommodation_with_this_feature",
+        "rel1": "http://rdf.freebase.com/ns/travel.hotel.number_of_guest_beds"
+    },
+    {
+        "?ent0": "Live from Amsterdam",
+        "rel0": "http://rdf.freebase.com/ns/film.film.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Chappellet Winery",
+        "rel0": "http://rdf.freebase.com/ns/business.business_location.address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Ladies and Gentlemen: The Rolling Stones",
+        "rel0": "http://rdf.freebase.com/ns/film.film.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Rilpivirine Hydrochloride Oral",
+        "rel0": "http://rdf.freebase.com/ns/medicine.routed_drug.marketed_formulations",
+        "rel1": "http://rdf.freebase.com/ns/medicine.drug_formulation.brand_names"
+    },
+    {
+        "?ent0": "Luxco",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Superman: Escape from Krypton",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Khalil Chahine",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Thad's World Destruction: Before Destruction",
+        "rel0": "http://rdf.freebase.com/ns/visual_art.artwork.artist",
+        "rel1": "http://rdf.freebase.com/ns/people.person.height_meters"
+    },
+    {
+        "?ent0": "USS Constitution",
+        "rel0": "http://rdf.freebase.com/ns/base.aubreymaturin.ship.mentions",
+        "rel1": "http://rdf.freebase.com/ns/base.aubreymaturin.ship_mention.chapter"
+    },
+    {
+        "?ent0": "Museum of Mathematics",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Hurricane Andrew",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone.category",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.min_wind_speed"
+    },
+    {
+        "?ent0": "Jerry Bingham",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_inker.comic_covers_inked",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.issue_number"
+    },
+    {
+        "?ent0": "Headz",
+        "rel0": "http://rdf.freebase.com/ns/music.album.primary_release",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "George R. Brown School of Engineering",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Mike Mignola",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_inker.comic_covers_inked",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.issue_number"
+    },
+    {
+        "?ent0": "American Amber Ale",
+        "rel0": "http://rdf.freebase.com/ns/food.beer_style.alcohol_by_volume_range",
+        "rel1": "http://rdf.freebase.com/ns/measurement_unit.floating_point_range.high_value"
+    },
+    {
+        "?ent0": "Royal Stockholm Philharmonic Orchestra",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Ed Mashal",
+        "rel0": "http://rdf.freebase.com/ns/music.engineer.releases_engineered",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "Daniel T. O'Hara",
+        "rel0": "http://rdf.freebase.com/ns/book.author.contributing_author_to",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "Portmarnock Golf Club",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Sannoh Industry Affiliated High School basketball team",
+        "rel0": "http://rdf.freebase.com/ns/fictional_universe.fictional_organization.members",
+        "rel1": "http://rdf.freebase.com/ns/base.slamdunk.player.number"
+    },
+    {
+        "?ent0": "Single blind",
+        "rel0": "http://rdf.freebase.com/ns/medicine.medical_trial_design.trials",
+        "rel1": "http://rdf.freebase.com/ns/medicine.medical_trial.maximum_age_for_eligibility"
+    },
+    {
+        "?ent0": "Web Designing Hut",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address_2"
+    },
+    {
+        "?ent0": "RP-1",
+        "rel0": "http://rdf.freebase.com/ns/spaceflight.rocket_engine_fuel.rocket_engines",
+        "rel1": "http://rdf.freebase.com/ns/spaceflight.rocket_engine.thrust_vacuum"
+    },
+    {
+        "?ent0": "Cyclonic Storm (IMD)",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.Beaufort_scale",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.beaufort_wind_force.wind_speed"
+    },
+    {
+        "?ent0": "Rikord Island",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.longitude"
+    },
+    {
+        "?ent0": "California Common Beer",
+        "rel0": "http://rdf.freebase.com/ns/food.beer_style.bjcp_style_category",
+        "rel1": "http://rdf.freebase.com/ns/food.beer_style_category.bjcp_id"
+    },
+    {
+        "?ent0": "Airy-0",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.extraterrestrial_location.on_celestial_object",
+        "rel1": "http://rdf.freebase.com/ns/astronomy.orbital_relationship.aoapsis"
+    },
+    {
+        "?ent0": "Honda Pilot",
+        "rel0": "http://rdf.freebase.com/ns/automotive.model.generations",
+        "rel1": "http://rdf.freebase.com/ns/automotive.generation.generation_number"
+    },
+    {
+        "?ent0": "South Wales Miners' Federation",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.geographic_scope",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Moonlight in Vermont",
+        "rel0": "http://rdf.freebase.com/ns/music.release_track.recording",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "JanKris Winery and Vineyards",
+        "rel0": "http://rdf.freebase.com/ns/business.business_location.address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Dodge Viper",
+        "rel0": "http://rdf.freebase.com/ns/automotive.model.generations",
+        "rel1": "http://rdf.freebase.com/ns/automotive.generation.generation_number"
+    },
+    {
+        "?ent0": "Lost in the Darkness",
+        "rel0": "http://rdf.freebase.com/ns/music.release_track.recording",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Tribute to the Greatest",
+        "rel0": "http://rdf.freebase.com/ns/visual_art.art_series.artist",
+        "rel1": "http://rdf.freebase.com/ns/people.person.weight_kg"
+    },
+    {
+        "?ent0": "Pregnancy Category B (FDA)",
+        "rel0": "http://rdf.freebase.com/ns/medicine.drug_pregnancy_category.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Canopy Flyer",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.longitude"
+    },
+    {
+        "?ent0": "Reckitt Benckiser Pharmaceuticals Inc.",
+        "rel0": "http://rdf.freebase.com/ns/medicine.drug_manufacturer.drugs_manufactured",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.size"
+    },
+    {
+        "?ent0": "San Joaquin Valley National Cemetery",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Jantoven",
+        "rel0": "http://rdf.freebase.com/ns/business.brand.products",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.size"
+    },
+    {
+        "?ent0": "Constitutional Court of South Africa",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.longitude"
+    },
+    {
+        "?ent0": "Cefadroxil 500 capsule",
+        "rel0": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.available_in",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Tony Maserati",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "J. Bone",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_inker.comic_covers_inked",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.issue_number"
+    },
+    {
+        "?ent0": "Steel Bridge",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Rebel Team Helsinki",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Glyset",
+        "rel0": "http://rdf.freebase.com/ns/business.brand.products",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.size"
+    },
+    {
+        "?ent0": "Alice in Wonderland",
+        "rel0": "http://rdf.freebase.com/ns/film.film.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "R/V Lulu, Cruise LU80-01, 1975-08-12 to 1975-08-18",
+        "rel0": "http://rdf.freebase.com/ns/time.event.includes_event",
+        "rel1": "http://rdf.freebase.com/ns/base.oceanography.submarine_dive.depth"
+    },
+    {
+        "?ent0": "University of Houston, main campus",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "United States Geological Survey",
+        "rel0": "http://rdf.freebase.com/ns/book.report_issuing_institution.technical_reports_issued",
+        "rel1": "http://rdf.freebase.com/ns/book.technical_report.number_of_pages"
+    },
+    {
+        "?ent0": "FDA OTC monograph part 333",
+        "rel0": "http://rdf.freebase.com/ns/medicine.fda_otc_monograph_part.drugs_regulated",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.size"
+    },
+    {
+        "?ent0": "History of Prostitution",
+        "rel0": "http://rdf.freebase.com/ns/tv.tv_program.country_of_origin",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Roman Catholic Archdiocese of Los Angeles",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Brown Porter",
+        "rel0": "http://rdf.freebase.com/ns/food.beer_style.bjcp_style_category",
+        "rel1": "http://rdf.freebase.com/ns/food.beer_style_category.bjcp_id"
+    },
+    {
+        "?ent0": "Ornicar?",
+        "rel0": "http://rdf.freebase.com/ns/book.journal.articles",
+        "rel1": "http://rdf.freebase.com/ns/book.journal_publication.issue_number"
+    },
+    {
+        "?ent0": "Salesian High School",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "HTC Snap",
+        "rel0": "http://rdf.freebase.com/ns/computer.computer.compatible_oses",
+        "rel1": "http://rdf.freebase.com/ns/computer.os_compatibility.dot_version_low"
+    },
+    {
+        "?ent0": "Fremrinámur",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "C",
+        "rel0": "http://rdf.freebase.com/ns/film.film.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "120",
+        "rel0": "http://rdf.freebase.com/ns/digicams.camera_iso.cameras",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "AG-25",
+        "rel0": "http://rdf.freebase.com/ns/spaceflight.rocket_engine_fuel.rocket_engines",
+        "rel1": "http://rdf.freebase.com/ns/spaceflight.rocket_engine.thrust_vacuum"
+    },
+    {
+        "?ent0": "Lockport Union-Sun & Journal",
+        "rel0": "http://rdf.freebase.com/ns/book.newspaper.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Walter Mondale",
+        "rel0": "http://rdf.freebase.com/ns/base.politicalconventions.primary_candidate.vp_delegate_vote_tally",
+        "rel1": "http://rdf.freebase.com/ns/base.politicalconventions.vp_delegate_vote_tally.tally"
+    },
+    {
+        "?ent0": "Rosé",
+        "rel0": "http://rdf.freebase.com/ns/wine.wine_color.wines",
+        "rel1": "http://rdf.freebase.com/ns/wine.wine.percentage_alcohol"
+    },
+    {
+        "?ent0": "Aspirus Keweenaw Home Medical Equipment",
+        "rel0": "http://rdf.freebase.com/ns/medicine.drug_manufacturer.drugs_manufactured",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.discontinued"
+    },
+    {
+        "?ent0": "V2: Vertical Velocity",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Georgia Army National Guard",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.place_founded",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "National Cake Day",
+        "rel0": "http://rdf.freebase.com/ns/base.schemastaging.holiday_extra.observance_rule",
+        "rel1": "http://rdf.freebase.com/ns/base.schemastaging.holiday_fixed_date_observance_rule.day_of_month"
+    },
+    {
+        "?ent0": "Blackwolf Run",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Tropical Storm Rachel",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone.category",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.max_wind_speed"
+    },
+    {
+        "?ent0": "Teaism",
+        "rel0": "http://rdf.freebase.com/ns/business.business_location.address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Central Pacific Hurricane Center",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.meteorological_service.tropical_cyclone_categories",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.max_wind_speed"
+    },
+    {
+        "?ent0": "Human Cytogenetic Band 9q22.33",
+        "rel0": "http://rdf.freebase.com/ns/biology.cytogenetic_band.chromosome",
+        "rel1": "http://rdf.freebase.com/ns/biology.chromosome.identifier"
+    },
+    {
+        "?ent0": "Hillestad Pharmaceuticals USA",
+        "rel0": "http://rdf.freebase.com/ns/medicine.drug_manufacturer.drugs_manufactured",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.size"
+    },
+    {
+        "?ent0": "Chilcotin River",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Lithium Carbonate 300 capsule",
+        "rel0": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.available_in",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Rifamate",
+        "rel0": "http://rdf.freebase.com/ns/business.brand.products",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.size"
+    },
+    {
+        "?ent0": "The Reserve Club Course",
+        "rel0": "http://rdf.freebase.com/ns/award.ranked_item.appears_in_ranked_lists",
+        "rel1": "http://rdf.freebase.com/ns/award.ranking.rank"
+    },
+    {
+        "?ent0": "Luscombe Castle",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Simon Bisley",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_inker.comic_covers_inked",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.issue_number"
+    },
+    {
+        "?ent0": "STS-5",
+        "rel0": "http://rdf.freebase.com/ns/spaceflight.space_mission.landing_site",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Royal Bafokeng Stadium",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "130",
+        "rel0": "http://rdf.freebase.com/ns/digicams.camera_iso.cameras",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "Zeus",
+        "rel0": "http://rdf.freebase.com/ns/symbols.name_source.namesakes",
+        "rel1": "http://rdf.freebase.com/ns/base.schemastaging.celestial_object_extra.surface_area"
+    },
+    {
+        "?ent0": "FDA OTC monograph part 358b",
+        "rel0": "http://rdf.freebase.com/ns/medicine.fda_otc_monograph_part.drugs_regulated",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.discontinued"
+    },
+    {
+        "?ent0": "Category 4 Severe Tropical Cyclone (BOM)",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.Beaufort_scale",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.beaufort_wind_force.minimum_wind_speed_km_h"
+    },
+    {
+        "?ent0": "DiCristina Stair Builders",
+        "rel0": "http://rdf.freebase.com/ns/music.record_label.releases",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "Clontarf Cricket Club Ground",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Asti",
+        "rel0": "http://rdf.freebase.com/ns/business.business_location.address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "The North American Banding Council",
+        "rel0": "http://rdf.freebase.com/ns/book.report_issuing_institution.technical_reports_issued",
+        "rel1": "http://rdf.freebase.com/ns/book.technical_report.number_of_pages"
+    },
+    {
+        "?ent0": "Oihuka",
+        "rel0": "http://rdf.freebase.com/ns/music.record_label.releases",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "Dream Dance, Volume 4 (disc 2)",
+        "rel0": "http://rdf.freebase.com/ns/music.release.track_list",
+        "rel1": "http://rdf.freebase.com/ns/music.release_track.track_number"
+    },
+    {
+        "?ent0": "Arizona",
+        "rel0": "http://rdf.freebase.com/ns/fictional_universe.fictional_setting.characters_that_have_lived_here",
+        "rel1": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.weight"
+    },
+    {
+        "?ent0": "Dragon's Fury",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Dutcher Crossing Winery",
+        "rel0": "http://rdf.freebase.com/ns/business.business_location.address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Mol Len",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.elevation"
+    },
+    {
+        "?ent0": "Cyclone Tracy",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone.category",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.maximum_wind_speed_gust_km_h"
+    },
+    {
+        "?ent0": "Swissôtel Krasnye Holmy Moscow",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "T-1",
+        "rel0": "http://rdf.freebase.com/ns/spaceflight.rocket_engine_fuel.rocket_engines",
+        "rel1": "http://rdf.freebase.com/ns/spaceflight.rocket_engine.thrust_sea_level"
+    },
+    {
+        "?ent0": "Westbrook Elementary School",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Windward Islands",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Forest Whitaker",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Arizona",
+        "rel0": "http://rdf.freebase.com/ns/fictional_universe.fictional_setting.characters_that_have_lived_here",
+        "rel1": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.weight"
+    },
+    {
+        "?ent0": "Human Cytogenetic Band 20q13.12",
+        "rel0": "http://rdf.freebase.com/ns/biology.cytogenetic_band.chromosome",
+        "rel1": "http://rdf.freebase.com/ns/biology.chromosome.identifier"
+    },
+    {
+        "?ent0": "3 - [123613389,123617571]",
+        "rel0": "http://rdf.freebase.com/ns/biology.genomic_locus.annotation",
+        "rel1": "http://rdf.freebase.com/ns/biology.gene.ncbi_id"
+    },
+    {
+        "?ent0": "Top quark",
+        "rel0": "http://rdf.freebase.com/ns/physics.particle.antiparticle",
+        "rel1": "http://rdf.freebase.com/ns/physics.particle_antiparticle.self_antiparticle"
+    },
+    {
+        "?ent0": "Nicole Miller",
+        "rel0": "http://rdf.freebase.com/ns/business.product_line.products",
+        "rel1": "http://rdf.freebase.com/ns/base.barbie.barbie_doll.product_code"
+    },
+    {
+        "?ent0": "Human Cytogenetic Band 13q13.3",
+        "rel0": "http://rdf.freebase.com/ns/biology.cytogenetic_band.chromosome",
+        "rel1": "http://rdf.freebase.com/ns/biology.chromosome.identifier"
+    },
+    {
+        "?ent0": "Rohingya Language",
+        "rel0": "http://rdf.freebase.com/ns/language.human_language.dialects",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Wild Horse Golf Club",
+        "rel0": "http://rdf.freebase.com/ns/location.location.street_address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Editor",
+        "rel0": "http://rdf.freebase.com/ns/base.descriptive_names.names.descriptive_name",
+        "rel1": "http://rdf.freebase.com/ns/base.schemastaging.plural_form.one"
+    },
+    {
+        "?ent0": "Pete Bellotte",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Rian Murphy",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Bob Kane",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_inker.comic_covers_inked",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.issue_number"
+    },
+    {
+        "?ent0": "Batman #613",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.previous_issue",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.issue_number"
+    },
+    {
+        "?ent0": "Pedro Proença",
+        "rel0": "http://rdf.freebase.com/ns/soccer.football_referee.main_referee_for",
+        "rel1": "http://rdf.freebase.com/ns/soccer.football_match.attendance"
+    },
+    {
+        "?ent0": "Surfrider",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.longitude"
+    },
+    {
+        "?ent0": "HighSPEC",
+        "rel0": "http://rdf.freebase.com/ns/user.pak21.default_domain.derivative_software.derived_from",
+        "rel1": "http://rdf.freebase.com/ns/computer.software.latest_version"
+    },
+    {
+        "?ent0": "Joe Kubert",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_inker.comic_covers_inked",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.issue_number"
+    },
+    {
+        "?ent0": "Depressive Hibernation",
+        "rel0": "http://rdf.freebase.com/ns/music.release_track.recording",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Tripel",
+        "rel0": "http://rdf.freebase.com/ns/food.beer_style.beers",
+        "rel1": "http://rdf.freebase.com/ns/food.beer.original_gravity"
+    },
+    {
+        "?ent0": "Culture, Medicine and Psychiatry",
+        "rel0": "http://rdf.freebase.com/ns/book.journal.articles",
+        "rel1": "http://rdf.freebase.com/ns/book.journal_publication.volume"
+    },
+    {
+        "?ent0": "Parchment paper",
+        "rel0": "http://rdf.freebase.com/ns/food.culinary_tool.used_in_recipes",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe.cooking_time"
+    },
+    {
+        "?ent0": "Bockscar",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "M101 Group",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.galactic_group.galaxies_in_group",
+        "rel1": "http://rdf.freebase.com/ns/astronomy.celestial_object.cosmological_distance"
+    },
+    {
+        "?ent0": "DCSpeccyal'K",
+        "rel0": "http://rdf.freebase.com/ns/user.pak21.default_domain.derivative_software.derived_from",
+        "rel1": "http://rdf.freebase.com/ns/computer.software.latest_version"
+    },
+    {
+        "?ent0": "Waku Ghin",
+        "rel0": "http://rdf.freebase.com/ns/business.business_location.address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address_4"
+    },
+    {
+        "?ent0": "Supreme Court of New Zealand",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.longitude"
+    },
+    {
+        "?ent0": "Rapides Parish Library",
+        "rel0": "http://rdf.freebase.com/ns/library.public_library_system.annual_circulation",
+        "rel1": "http://rdf.freebase.com/ns/measurement_unit.dated_integer.number"
+    },
+    {
+        "?ent0": "Blackout Ja",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Ladle",
+        "rel0": "http://rdf.freebase.com/ns/food.culinary_tool.used_in_recipes",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe.cooking_time"
+    },
+    {
+        "?ent0": "United States Department of the Navy",
+        "rel0": "http://rdf.freebase.com/ns/government.government_agency.jurisdiction",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Portmarnock Golf Club",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Space Mountain",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "12th standard",
+        "rel0": "http://rdf.freebase.com/ns/education.grade_level.locations_used",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Compact Cassette",
+        "rel0": "http://rdf.freebase.com/ns/award.ranked_item.appears_in_ranked_lists",
+        "rel1": "http://rdf.freebase.com/ns/award.ranking.rank"
+    },
+    {
+        "?ent0": "Cilla Caine",
+        "rel0": "http://rdf.freebase.com/ns/music.featured_artist.recordings",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Miami",
+        "rel0": "http://rdf.freebase.com/ns/travel.travel_destination.climate",
+        "rel1": "http://rdf.freebase.com/ns/travel.travel_destination_monthly_climate.average_rainfall_mm"
+    },
+    {
+        "?ent0": "Paul-Ehrlich-Institut",
+        "rel0": "http://rdf.freebase.com/ns/medicine.medical_trial_health_authority.medical_trials",
+        "rel1": "http://rdf.freebase.com/ns/medicine.medical_trial.expected_total_enrollment"
+    },
+    {
+        "?ent0": "Oxycodone And Acetaminophen 325/7.5 tablet",
+        "rel0": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.available_in",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "17 + [38272687,38274759]",
+        "rel0": "http://rdf.freebase.com/ns/biology.genomic_locus.annotation",
+        "rel1": "http://rdf.freebase.com/ns/biology.gene.ncbi_id"
+    },
+    {
+        "?ent0": "Savremeni srpski pisci",
+        "rel0": "http://rdf.freebase.com/ns/book.book_edition_series.editions_in_this_series",
+        "rel1": "http://rdf.freebase.com/ns/book.book_edition.lcc"
+    },
+    {
+        "?ent0": "Nguyễn Du Secondary School",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Brightest Day #1",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.cover_price",
+        "rel1": "http://rdf.freebase.com/ns/measurement_unit.money_value.amount"
+    },
+    {
+        "?ent0": "712/239",
+        "rel0": "http://rdf.freebase.com/ns/law.us_patent_category.patents",
+        "rel1": "http://rdf.freebase.com/ns/law.us_patent.patent_number"
+    },
+    {
+        "?ent0": "Chicken stock",
+        "rel0": "http://rdf.freebase.com/ns/food.ingredient.recipes",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe_ingredient.quantity"
+    },
+    {
+        "?ent0": "Cast iron skillet",
+        "rel0": "http://rdf.freebase.com/ns/food.culinary_tool.used_in_recipes",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe.preparation_time"
+    },
+    {
+        "?ent0": "Pregnancy Category B (FDA)",
+        "rel0": "http://rdf.freebase.com/ns/medicine.drug_pregnancy_category.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "FreeBSD 4.x",
+        "rel0": "http://rdf.freebase.com/ns/computer.operating_system.includes_os_versions",
+        "rel1": "http://rdf.freebase.com/ns/computer.operating_system.version_number"
+    },
+    {
+        "?ent0": "Game Boy",
+        "rel0": "http://rdf.freebase.com/ns/award.ranked_item.appears_in_ranked_lists",
+        "rel1": "http://rdf.freebase.com/ns/award.ranking.rank"
+    },
+    {
+        "?ent0": "Δ⁺",
+        "rel0": "http://rdf.freebase.com/ns/physics.hadron.composition",
+        "rel1": "http://rdf.freebase.com/ns/physics.subatomic_particle_composition.number"
+    },
+    {
+        "?ent0": "AOGel",
+        "rel0": "http://rdf.freebase.com/ns/business.brand.products",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.discontinued"
+    },
+    {
+        "?ent0": "Shaping",
+        "rel0": "http://rdf.freebase.com/ns/food.culinary_technique.recipes",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe.preparation_time"
+    },
+    {
+        "?ent0": "Cyclonic Storm (IMD)",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.Beaufort_scale",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.beaufort_wind_force.wind_speed"
+    },
+    {
+        "?ent0": "Superman: Krypton Coaster",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Zeus",
+        "rel0": "http://rdf.freebase.com/ns/symbols.name_source.namesakes",
+        "rel1": "http://rdf.freebase.com/ns/base.schemastaging.celestial_object_extra.surface_area"
+    },
+    {
+        "?ent0": "Parchment paper",
+        "rel0": "http://rdf.freebase.com/ns/food.culinary_tool.used_in_recipes",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe.cooking_time"
+    },
+    {
+        "?ent0": "Queensland Symphony Orchestra",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.origin",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Pharmacokinetics Study",
+        "rel0": "http://rdf.freebase.com/ns/medicine.medical_trial_design.trials",
+        "rel1": "http://rdf.freebase.com/ns/medicine.medical_trial.expected_total_enrollment"
+    },
+    {
+        "?ent0": "Golden ale",
+        "rel0": "http://rdf.freebase.com/ns/food.beer_style.beers",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "Schedule II (CSA)",
+        "rel0": "http://rdf.freebase.com/ns/medicine.drug_legal_status.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Drunk History: Tesla & Edison",
+        "rel0": "http://rdf.freebase.com/ns/film.film.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Category 2 Hurricane (SSHS)",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.Beaufort_scale",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.beaufort_wind_force.wind_speed"
+    },
+    {
+        "?ent0": "WBA World Champion",
+        "rel0": "http://rdf.freebase.com/ns/boxing.boxing_title.champions",
+        "rel1": "http://rdf.freebase.com/ns/boxing.boxing_title_tenure.defenses"
+    },
+    {
+        "?ent0": "Northeast Slopes Inc",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Hurricane Irene",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone.category",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.max_wind_speed"
+    },
+    {
+        "?ent0": "Soul Power",
+        "rel0": "http://rdf.freebase.com/ns/film.film.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Stolp Synagogue",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "π⁺",
+        "rel0": "http://rdf.freebase.com/ns/physics.hadron.composition",
+        "rel1": "http://rdf.freebase.com/ns/physics.subatomic_particle_composition.number"
+    },
+    {
+        "?ent0": "Pontiac Firebird",
+        "rel0": "http://rdf.freebase.com/ns/automotive.model.generations",
+        "rel1": "http://rdf.freebase.com/ns/automotive.generation.generation_number"
+    },
+    {
+        "?ent0": "Vesta family",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.asteroid_family.founding_asteroid_family_member",
+        "rel1": "http://rdf.freebase.com/ns/astronomy.orbital_relationship.aoapsis"
+    },
+    {
+        "?ent0": "Google",
+        "rel0": "http://rdf.freebase.com/ns/base.motorcycle.internet_forum_topic.internet_forum_s",
+        "rel1": "http://rdf.freebase.com/ns/people.person.height_meters"
+    },
+    {
+        "?ent0": "Forest Laboratories, Inc.",
+        "rel0": "http://rdf.freebase.com/ns/medicine.medical_trial_sponsor.trials_sponsored",
+        "rel1": "http://rdf.freebase.com/ns/medicine.medical_trial.expected_total_enrollment"
+    },
+    {
+        "?ent0": "Category 3 Severe Tropical Cyclone (BOM)",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.Beaufort_scale",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.beaufort_wind_force.minimum_wind_speed_km_h"
+    },
+    {
+        "?ent0": "Shelby GT500",
+        "rel0": "http://rdf.freebase.com/ns/automotive.model.generations",
+        "rel1": "http://rdf.freebase.com/ns/automotive.generation.generation_number"
+    },
+    {
+        "?ent0": "San Francisco Bay Area",
+        "rel0": "http://rdf.freebase.com/ns/base.csafarms.area_served.farms",
+        "rel1": "http://rdf.freebase.com/ns/user.jfry.default_domain.community_supported_agriculture.size"
+    },
+    {
+        "?ent0": "Ripley High School",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Google",
+        "rel0": "http://rdf.freebase.com/ns/base.motorcycle.internet_forum_topic.internet_forum_s",
+        "rel1": "http://rdf.freebase.com/ns/people.person.height_meters"
+    },
+    {
+        "?ent0": "Cyclone Winifred",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone.category",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.maximum_wind_speed_gust_km_h"
+    },
+    {
+        "?ent0": "Alan Rickman",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Philadelphia Warriors",
+        "rel0": "http://rdf.freebase.com/ns/sports.sports_team.roster",
+        "rel1": "http://rdf.freebase.com/ns/sports.sports_team_roster.number"
+    },
+    {
+        "?ent0": "Russian National Orchestra",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Robin Williams",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Sildenafil",
+        "rel0": "http://rdf.freebase.com/ns/medicine.drug.brands",
+        "rel1": "http://rdf.freebase.com/ns/medicine.drug_brand.generic"
+    },
+    {
+        "?ent0": "Big Thunder Mountain Railroad",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Gary Farrell Vineyards and Winery",
+        "rel0": "http://rdf.freebase.com/ns/business.business_location.address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "M101 Group",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.galactic_group.galaxies_in_group",
+        "rel1": "http://rdf.freebase.com/ns/astronomy.celestial_object.cosmological_distance"
+    },
+    {
+        "?ent0": "St. Lucie Medical Center",
+        "rel0": "http://rdf.freebase.com/ns/medicine.hospital.beds",
+        "rel1": "http://rdf.freebase.com/ns/measurement_unit.dated_integer.number"
+    },
+    {
+        "?ent0": "Harvard University",
+        "rel0": "http://rdf.freebase.com/ns/base.universities.university.acceptance_rate",
+        "rel1": "http://rdf.freebase.com/ns/measurement_unit.dated_float.number"
+    },
+    {
+        "?ent0": "Typhoon Saola",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone.category",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.maximum_wind_speed_gust_km_h"
+    },
+    {
+        "?ent0": "Wild Horse Golf Club",
+        "rel0": "http://rdf.freebase.com/ns/location.location.street_address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Melbourne Star",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.longitude"
+    },
+    {
+        "?ent0": "Shaping",
+        "rel0": "http://rdf.freebase.com/ns/food.culinary_technique.recipes",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe.preparation_time"
+    },
+    {
+        "?ent0": "Cyclone Phailin",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone.category",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.min_wind_speed"
+    },
+    {
+        "?ent0": "Go Home Eddie",
+        "rel0": "http://rdf.freebase.com/ns/music.release_track.recording",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Human Cytogenetic Band 4p16.3",
+        "rel0": "http://rdf.freebase.com/ns/biology.cytogenetic_band.chromosome",
+        "rel1": "http://rdf.freebase.com/ns/biology.chromosome.identifier"
+    },
+    {
+        "?ent0": "University of St. Thomas",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Landsat 7",
+        "rel0": "http://rdf.freebase.com/ns/book.book_subject.works",
+        "rel1": "http://rdf.freebase.com/ns/base.birdinfo.sampling_design.radius"
+    },
+    {
+        "?ent0": "Evan Shinners",
+        "rel0": "http://rdf.freebase.com/ns/music.featured_artist.recordings",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Smugglers’ Notch Management Co Ltd",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Purdue University",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Cyclone Phailin",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone.category",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.min_wind_speed"
+    },
+    {
+        "?ent0": "Andy Lange",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Space Mountain",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Hurricane Bertha",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone.category",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.max_wind_speed"
+    },
+    {
+        "?ent0": "Central Pacific Hurricane Center",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.meteorological_service.tropical_cyclone_categories",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.max_wind_speed"
+    },
+    {
+        "?ent0": "382/224",
+        "rel0": "http://rdf.freebase.com/ns/law.us_patent_category.patents",
+        "rel1": "http://rdf.freebase.com/ns/law.us_patent.patent_number"
+    },
+    {
+        "?ent0": "Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins University",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Museo Nacional de Bellas Artes de La Habana",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Slashing dough",
+        "rel0": "http://rdf.freebase.com/ns/food.culinary_technique.recipes",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe.preparation_time"
+    },
+    {
+        "?ent0": "712/239",
+        "rel0": "http://rdf.freebase.com/ns/law.us_patent_category.patents",
+        "rel1": "http://rdf.freebase.com/ns/law.us_patent.patent_number"
+    },
+    {
+        "?ent0": "German Pilsner",
+        "rel0": "http://rdf.freebase.com/ns/food.beer_style.bjcp_style_category",
+        "rel1": "http://rdf.freebase.com/ns/food.beer_style_category.bjcp_id"
+    },
+    {
+        "?ent0": "Cacazou",
+        "rel0": "http://rdf.freebase.com/ns/geography.island.body_of_water",
+        "rel1": "http://rdf.freebase.com/ns/location.location.area"
+    },
+    {
+        "?ent0": "Metropolitan Opera",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.place_founded",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Colgate Total Peppermint 10.5 mouthwash",
+        "rel0": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.available_in",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "AOGel",
+        "rel0": "http://rdf.freebase.com/ns/business.brand.products",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.discontinued"
+    },
+    {
+        "?ent0": "Masterpieces of Impressionism and Post-Impressionism: The Annenberg Collection",
+        "rel0": "http://rdf.freebase.com/ns/exhibitions.exhibition.venues",
+        "rel1": "http://rdf.freebase.com/ns/exhibitions.exhibition_run.admission_fee"
+    },
+    {
+        "?ent0": "São João da Boa Vista",
+        "rel0": "http://rdf.freebase.com/ns/location.statistical_region.arithmetic_population_density",
+        "rel1": "http://rdf.freebase.com/ns/measurement_unit.dated_float.number"
+    },
+    {
+        "?ent0": "2010 FIFA World Cup Group B - KOR ./. GRE",
+        "rel0": "http://rdf.freebase.com/ns/soccer.football_match.goals",
+        "rel1": "http://rdf.freebase.com/ns/soccer.football_goal.minute"
+    },
+    {
+        "?ent0": "The Legend of Rockabye Point",
+        "rel0": "http://rdf.freebase.com/ns/film.film.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Tamiko Thiel",
+        "rel0": "http://rdf.freebase.com/ns/people.person.nationality",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Captain America: Civil War",
+        "rel0": "http://rdf.freebase.com/ns/film.film.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Meadowcliff Elementary School",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Liv Tyler",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "DJ Kensei & DJ Quietstorm",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Feroz Shah Kotla Ground",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.longitude"
+    },
+    {
+        "?ent0": "Published",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.astronomical_discovery_status.objects",
+        "rel1": "http://rdf.freebase.com/ns/astronomy.orbital_relationship.semi_major_axis"
+    },
+    {
+        "?ent0": "3:2",
+        "rel0": "http://rdf.freebase.com/ns/digicams.camera_image_ratio.cameras",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "Twisted Colossus",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "John Romita Sr.",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_inker.comic_covers_inked",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.issue_number"
+    },
+    {
+        "?ent0": "City of London Sinfonia",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "160",
+        "rel0": "http://rdf.freebase.com/ns/digicams.camera_iso.cameras",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "Toyota Prius NHW11 MG1 electric motor",
+        "rel0": "http://rdf.freebase.com/ns/engineering.engine.energy_source",
+        "rel1": "http://rdf.freebase.com/ns/engineering.battery.capacity"
+    },
+    {
+        "?ent0": "Airy-0",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.extraterrestrial_location.on_celestial_object",
+        "rel1": "http://rdf.freebase.com/ns/astronomy.orbital_relationship.aoapsis"
+    },
+    {
+        "?ent0": "Welterweight",
+        "rel0": "http://rdf.freebase.com/ns/sports.boxing_weight_division.boxers_rated_at_this_weight",
+        "rel1": "http://rdf.freebase.com/ns/people.person.height_meters"
+    },
+    {
+        "?ent0": "Havasu Falls",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Olympus Stylus",
+        "rel0": "http://rdf.freebase.com/ns/business.product_line.products",
+        "rel1": "http://rdf.freebase.com/ns/digicams.digital_camera.lcd_pixels"
+    },
+    {
+        "?ent0": "Beale Park",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Temple of the Night Hawk",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Mouse",
+        "rel0": "http://rdf.freebase.com/ns/award.ranked_item.appears_in_ranked_lists",
+        "rel1": "http://rdf.freebase.com/ns/award.ranking.rank"
+    },
+    {
+        "?ent0": "Parchment paper",
+        "rel0": "http://rdf.freebase.com/ns/food.culinary_tool.used_in_recipes",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe.cooking_time"
+    },
+    {
+        "?ent0": "Finnish Radio Symphony Orchestra",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Pure Dance",
+        "rel0": "http://rdf.freebase.com/ns/broadcast.radio_station.serves_area",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Mathematical prediction",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.astronomical_discovery_technique.astronomical_discoveries_by_this_method",
+        "rel1": "http://rdf.freebase.com/ns/base.schemastaging.celestial_object_extra.surface_area"
+    },
+    {
+        "?ent0": "Mount Kilimanjaro",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "200",
+        "rel0": "http://rdf.freebase.com/ns/digicams.camera_iso.cameras",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "National Fraud Authority",
+        "rel0": "http://rdf.freebase.com/ns/government.government_agency.jurisdiction",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Unsymmetrical dimethylhydrazine",
+        "rel0": "http://rdf.freebase.com/ns/spaceflight.rocket_engine_fuel.rocket_engines",
+        "rel1": "http://rdf.freebase.com/ns/spaceflight.rocket_engine.thrust_vacuum"
+    },
+    {
+        "?ent0": "Frontier Times 1967 July",
+        "rel0": "http://rdf.freebase.com/ns/book.publication.contents",
+        "rel1": "http://rdf.freebase.com/ns/book.contents.page_number"
+    },
+    {
+        "?ent0": "Villanova University School of Law",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "DMACK",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Mitten",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Dexter Vines",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_inker.comic_covers_inked",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.issue_number"
+    },
+    {
+        "?ent0": "Wayne State University School of Medicine",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Thirteen",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "yggT",
+        "rel0": "http://rdf.freebase.com/ns/biology.gene.chromosome",
+        "rel1": "http://rdf.freebase.com/ns/biology.chromosome.identifier"
+    },
+    {
+        "?ent0": "Buprenorphine",
+        "rel0": "http://rdf.freebase.com/ns/medicine.drug.brands",
+        "rel1": "http://rdf.freebase.com/ns/medicine.drug_brand.generic"
+    },
+    {
+        "?ent0": "Dark Peak",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Macintosh 128K",
+        "rel0": "http://rdf.freebase.com/ns/computer.computer.compatible_oses",
+        "rel1": "http://rdf.freebase.com/ns/computer.os_compatibility.dot_version_high"
+    },
+    {
+        "?ent0": "Milton Academy",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Speed Monster",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Prime Suspect 7",
+        "rel0": "http://rdf.freebase.com/ns/film.film.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Fédération Internationale de Football Association",
+        "rel0": "http://rdf.freebase.com/ns/dataworld.information_source.data_operations",
+        "rel1": "http://rdf.freebase.com/ns/dataworld.mass_data_operation.estimated_primitive_count"
+    },
+    {
+        "?ent0": "Hudson High School",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Wood-Aged Beer",
+        "rel0": "http://rdf.freebase.com/ns/food.beer_style.bjcp_style_category",
+        "rel1": "http://rdf.freebase.com/ns/food.beer_style_category.bjcp_id"
+    },
+    {
+        "?ent0": "Honey",
+        "rel0": "http://rdf.freebase.com/ns/award.award_nominated_work.award_nominations",
+        "rel1": "http://rdf.freebase.com/ns/award.award_nomination.notes_description"
+    },
+    {
+        "?ent0": "White Russian",
+        "rel0": "http://rdf.freebase.com/ns/food.dish.recipes",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe.preparation_time"
+    },
+    {
+        "?ent0": "Jezzar Pasha Mosque",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.longitude"
+    },
+    {
+        "?ent0": "Killington/Pico Ski Resort Partners LLC",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Roman Catholic Archdiocese of San Francisco",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "National Institute of Mental Health",
+        "rel0": "http://rdf.freebase.com/ns/medicine.medical_trial_sponsor.trials_sponsored",
+        "rel1": "http://rdf.freebase.com/ns/medicine.medical_trial.expected_total_enrollment"
+    },
+    {
+        "?ent0": "Temple of the Night Hawk",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "WCAI/WNAN talk radio",
+        "rel0": "http://rdf.freebase.com/ns/broadcast.content.broadcast",
+        "rel1": "http://rdf.freebase.com/ns/broadcast.internet_stream.stream_bitrate"
+    },
+    {
+        "?ent0": "University of California, Davis",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Royal Stockholm Philharmonic Orchestra",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Madman Crossovers",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_series.issues",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.issue_number"
+    },
+    {
+        "?ent0": "G01R31/28",
+        "rel0": "http://rdf.freebase.com/ns/law.international_patent_category.patents",
+        "rel1": "http://rdf.freebase.com/ns/law.us_patent.patent_number"
+    },
+    {
+        "?ent0": "flown",
+        "rel0": "http://rdf.freebase.com/ns/spaceflight.rocket_engine_status.rocket_engines",
+        "rel1": "http://rdf.freebase.com/ns/user.hedgehog.default_domain.rocket_engine.thrust_vacuum"
+    },
+    {
+        "?ent0": "Gustav Kuhn",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Dogger",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/location.location.area"
+    },
+    {
+        "?ent0": "Ignatul",
+        "rel0": "http://rdf.freebase.com/ns/base.schemastaging.holiday_extra.observance_rule",
+        "rel1": "http://rdf.freebase.com/ns/base.schemastaging.holiday_fixed_date_observance_rule.day_of_month"
+    },
+    {
+        "?ent0": "Cornball Express",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Ford Edge",
+        "rel0": "http://rdf.freebase.com/ns/automotive.model.generations",
+        "rel1": "http://rdf.freebase.com/ns/automotive.generation.generation_number"
+    },
+    {
+        "?ent0": "Austric languages",
+        "rel0": "http://rdf.freebase.com/ns/language.language_family.geographic_distribution",
+        "rel1": "http://rdf.freebase.com/ns/location.location.area"
+    },
+    {
+        "?ent0": "No Man's Land",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_story_arc.spanning",
+        "rel1": "http://rdf.freebase.com/ns/book.serial_installment.installment_number"
+    },
+    {
+        "?ent0": "Tom Taggart",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_inker.comic_covers_inked",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.issue_number"
+    },
+    {
+        "?ent0": "Weizen/Weissbier",
+        "rel0": "http://rdf.freebase.com/ns/food.beer_style.bjcp_style_category",
+        "rel1": "http://rdf.freebase.com/ns/food.beer_style_category.bjcp_id"
+    },
+    {
+        "?ent0": "Easaval",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Texas",
+        "rel0": "http://rdf.freebase.com/ns/fictional_universe.fictional_setting.characters_that_have_lived_here",
+        "rel1": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.weight"
+    },
+    {
+        "?ent0": "Tapestry: A California Bistro",
+        "rel0": "http://rdf.freebase.com/ns/business.business_location.address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Swimming",
+        "rel0": "http://rdf.freebase.com/ns/travel.accommodation_feature.accommodation_with_this_feature",
+        "rel1": "http://rdf.freebase.com/ns/travel.hotel.number_of_guest_beds"
+    },
+    {
+        "?ent0": "Huntington Hospital",
+        "rel0": "http://rdf.freebase.com/ns/medicine.hospital.beds",
+        "rel1": "http://rdf.freebase.com/ns/measurement_unit.dated_integer.number"
+    },
+    {
+        "?ent0": "Sacred Heart Academy High School",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Escherichia coli str. K-12 substr. MG1655",
+        "rel0": "http://rdf.freebase.com/ns/biology.chromosome.gene",
+        "rel1": "http://rdf.freebase.com/ns/biology.gene.ncbi_id"
+    },
+    {
+        "?ent0": "Mexico",
+        "rel0": "http://rdf.freebase.com/ns/fictional_universe.fictional_setting.characters_that_have_lived_here",
+        "rel1": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.weight"
+    },
+    {
+        "?ent0": "Austric languages",
+        "rel0": "http://rdf.freebase.com/ns/language.language_family.geographic_distribution",
+        "rel1": "http://rdf.freebase.com/ns/location.location.area"
+    },
+    {
+        "?ent0": "Speed Monster",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Schedule III (CSA)",
+        "rel0": "http://rdf.freebase.com/ns/medicine.drug_legal_status.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "David Yazbek",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Castagniers Abbey",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "LazyTown",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Paladora Lounge",
+        "rel0": "http://rdf.freebase.com/ns/business.business_location.address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Robert Hull Fleming Museum",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Light Lager",
+        "rel0": "http://rdf.freebase.com/ns/food.beer_style.beers",
+        "rel1": "http://rdf.freebase.com/ns/food.beer.alcohol_content"
+    },
+    {
+        "?ent0": "Amazon.com",
+        "rel0": "http://rdf.freebase.com/ns/law.patent_assignee.patents_assigned",
+        "rel1": "http://rdf.freebase.com/ns/law.us_patent.patent_number"
+    },
+    {
+        "?ent0": "Sal Mosca",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "DEATH NOTE オリジナル・サウンドトラック III",
+        "rel0": "http://rdf.freebase.com/ns/music.album.primary_release",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "Solar System",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.star_system.dwarf_planets",
+        "rel1": "http://rdf.freebase.com/ns/astronomy.orbital_relationship.aoapsis"
+    },
+    {
+        "?ent0": "Iraq",
+        "rel0": "http://rdf.freebase.com/ns/location.country.administrative_divisions",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Superman Escape",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.longitude"
+    },
+    {
+        "?ent0": "Strong Black Ale",
+        "rel0": "http://rdf.freebase.com/ns/food.beer_style.beers",
+        "rel1": "http://rdf.freebase.com/ns/food.beer.alcohol_content"
+    },
+    {
+        "?ent0": "Khadja Nin",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "chromosome 12 open reading frame 42",
+        "rel0": "http://rdf.freebase.com/ns/biology.gene.chromosome",
+        "rel1": "http://rdf.freebase.com/ns/biology.chromosome.identifier"
+    },
+    {
+        "?ent0": "New England",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Tsuyoshi Suzuki",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Sal Nistico",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Natural Resources Conservation Service",
+        "rel0": "http://rdf.freebase.com/ns/book.report_issuing_institution.technical_reports_issued",
+        "rel1": "http://rdf.freebase.com/ns/book.technical_report.number_in_series"
+    },
+    {
+        "?ent0": "The Other Side of the Mirror",
+        "rel0": "http://rdf.freebase.com/ns/film.film.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Gas-generator cycle",
+        "rel0": "http://rdf.freebase.com/ns/spaceflight.rocket_engine_cycle.rocket_engines",
+        "rel1": "http://rdf.freebase.com/ns/spaceflight.rocket_engine.thrust_vacuum"
+    },
+    {
+        "?ent0": "Solar System",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.star_system.dwarf_planets",
+        "rel1": "http://rdf.freebase.com/ns/astronomy.orbital_relationship.aoapsis"
+    },
+    {
+        "?ent0": "Demerara Distillers Limited",
+        "rel0": "http://rdf.freebase.com/ns/distilled_spirits.distillery.spirits",
+        "rel1": "http://rdf.freebase.com/ns/distilled_spirits.distilled_spirit.age"
+    },
+    {
+        "?ent0": "Hurricane Hanna",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone.category",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.max_wind_speed"
+    },
+    {
+        "?ent0": "Vandenberg AFB Space Launch Complex 2",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Terrace Cafe",
+        "rel0": "http://rdf.freebase.com/ns/business.business_location.address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Gsallkopf",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Chicago Review Press",
+        "rel0": "http://rdf.freebase.com/ns/book.publishing_company.books_published",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "Miostat",
+        "rel0": "http://rdf.freebase.com/ns/business.brand.products",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.discontinued"
+    },
+    {
+        "?ent0": "Rolling Green Golf Club",
+        "rel0": "http://rdf.freebase.com/ns/location.location.street_address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Five World Trade Center",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Randomized",
+        "rel0": "http://rdf.freebase.com/ns/medicine.medical_trial_design.trials",
+        "rel1": "http://rdf.freebase.com/ns/medicine.medical_trial.expected_total_enrollment"
+    },
+    {
+        "?ent0": "Illinois Wesleyan University",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Frenemy of the State #1",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.next_issue",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.issue_number"
+    },
+    {
+        "?ent0": "South Australian state election, 2002",
+        "rel0": "http://rdf.freebase.com/ns/time.event.locations",
+        "rel1": "http://rdf.freebase.com/ns/location.location.area"
+    },
+    {
+        "?ent0": "Anneliese Michel",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "1984 Summer Olympics",
+        "rel0": "http://rdf.freebase.com/ns/base.sportsrecords.sports_tournament.records_set_at_this_tournament",
+        "rel1": "http://rdf.freebase.com/ns/base.sportsrecords.sports_record.record_value"
+    },
+    {
+        "?ent0": "Wargame",
+        "rel0": "http://rdf.freebase.com/ns/award.award_discipline.awards_in_this_discipline",
+        "rel1": "http://rdf.freebase.com/ns/base.schemastaging.award_category_extra.awarded_to_work"
+    },
+    {
+        "?ent0": "Beaufort force 9",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.beaufort_wind_force.tropical_cyclone_categories",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.maximum_wind_speed_gust_km_h"
+    },
+    {
+        "?ent0": "Pine Flat Lake",
+        "rel0": "http://rdf.freebase.com/ns/geography.lake.basin_countries",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Indispensable Strait",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.longitude"
+    },
+    {
+        "?ent0": "Detroit Bikes",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "400",
+        "rel0": "http://rdf.freebase.com/ns/digicams.camera_iso.cameras",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "Domino Optics",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.place_founded",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Sound of R.E.L.S.",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Daniel Boone House",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Up antiquark",
+        "rel0": "http://rdf.freebase.com/ns/physics.particle.antiparticle",
+        "rel1": "http://rdf.freebase.com/ns/physics.particle_antiparticle.self_antiparticle"
+    },
+    {
+        "?ent0": "Strategy video game",
+        "rel0": "http://rdf.freebase.com/ns/award.award_discipline.awards_in_this_discipline",
+        "rel1": "http://rdf.freebase.com/ns/base.schemastaging.award_category_extra.awarded_to_work"
+    },
+    {
+        "?ent0": "Dutch oven",
+        "rel0": "http://rdf.freebase.com/ns/food.culinary_tool.used_in_recipes",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe.preparation_time"
+    },
+    {
+        "?ent0": "Fisheries Research Services",
+        "rel0": "http://rdf.freebase.com/ns/government.government_agency.jurisdiction",
+        "rel1": "http://rdf.freebase.com/ns/location.location.area"
+    },
+    {
+        "?ent0": "Frying pan",
+        "rel0": "http://rdf.freebase.com/ns/food.culinary_tool.used_in_recipes",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe.cooking_time"
+    },
+    {
+        "?ent0": "Vassås Bridge",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Montaukett",
+        "rel0": "http://rdf.freebase.com/ns/people.ethnicity.geographic_distribution",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Lake of the Hirsel",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Perini Navi",
+        "rel0": "http://rdf.freebase.com/ns/boats.ship_builder.ships_built",
+        "rel1": "http://rdf.freebase.com/ns/boats.ship.imo_lr_identification_number"
+    },
+    {
+        "?ent0": "J. Bone",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_inker.comic_covers_inked",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.issue_number"
+    },
+    {
+        "?ent0": "Aten asteroid",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.asteroid_group.asteroid_group_members",
+        "rel1": "http://rdf.freebase.com/ns/astronomy.orbital_relationship.semi_major_axis"
+    },
+    {
+        "?ent0": "Up antiquark",
+        "rel0": "http://rdf.freebase.com/ns/physics.particle.antiparticle",
+        "rel1": "http://rdf.freebase.com/ns/physics.particle_antiparticle.self_antiparticle"
+    },
+    {
+        "?ent0": "Unblemish",
+        "rel0": "http://rdf.freebase.com/ns/business.brand.products",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.discontinued"
+    },
+    {
+        "?ent0": "Supreme Court of New Zealand",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.longitude"
+    },
+    {
+        "?ent0": "Google",
+        "rel0": "http://rdf.freebase.com/ns/base.motorcycle.internet_forum_topic.internet_forum_s",
+        "rel1": "http://rdf.freebase.com/ns/people.person.height_meters"
+    },
+    {
+        "?ent0": "Neiman Marcus, Charlotte",
+        "rel0": "http://rdf.freebase.com/ns/business.business_location.address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Martin Ray Winery",
+        "rel0": "http://rdf.freebase.com/ns/business.business_location.address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Borg",
+        "rel0": "http://rdf.freebase.com/ns/award.ranked_item.appears_in_ranked_lists",
+        "rel1": "http://rdf.freebase.com/ns/award.ranking.rank"
+    },
+    {
+        "?ent0": "Megan Mullally",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Bottom antiquark",
+        "rel0": "http://rdf.freebase.com/ns/physics.particle.antiparticle",
+        "rel1": "http://rdf.freebase.com/ns/physics.particle_antiparticle.self_antiparticle"
+    },
+    {
+        "?ent0": "Inverness Yacht Club",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Metheglin",
+        "rel0": "http://rdf.freebase.com/ns/food.beer_style.bjcp_style_category",
+        "rel1": "http://rdf.freebase.com/ns/food.beer_style_category.bjcp_id"
+    },
+    {
+        "?ent0": "Caoimhe Kilfeather",
+        "rel0": "http://rdf.freebase.com/ns/people.person.nationality",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Terbutaline Sulfate 5 tablet",
+        "rel0": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.available_in",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Son of Beast",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Cheshire Military Museum",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Crown Jewels of the United Kingdom",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Parchment paper",
+        "rel0": "http://rdf.freebase.com/ns/food.culinary_tool.used_in_recipes",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe.cooking_time"
+    },
+    {
+        "?ent0": "Solar System",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.star_system.dwarf_planets",
+        "rel1": "http://rdf.freebase.com/ns/astronomy.orbital_relationship.aoapsis"
+    },
+    {
+        "?ent0": "Ukrainian Cultural and Educational Centre",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "1110 Howe St.",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "CLINK.",
+        "rel0": "http://rdf.freebase.com/ns/business.business_location.address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Jajaeam",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "2008 Macedonian Armed Forces Mil Mi-17 crash",
+        "rel0": "http://rdf.freebase.com/ns/aviation.airliner_accident.aircraft",
+        "rel1": "http://rdf.freebase.com/ns/aviation.aviation_incident_aircraft_relationship.passengers"
+    },
+    {
+        "?ent0": "Macintosh 128K",
+        "rel0": "http://rdf.freebase.com/ns/computer.computer.compatible_oses",
+        "rel1": "http://rdf.freebase.com/ns/computer.os_compatibility.dot_version_high"
+    },
+    {
+        "?ent0": "Space Mountain",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Shadows On the Sage",
+        "rel0": "http://rdf.freebase.com/ns/film.film.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Mexico",
+        "rel0": "http://rdf.freebase.com/ns/fictional_universe.fictional_setting.characters_that_have_lived_here",
+        "rel1": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.weight"
+    },
+    {
+        "?ent0": "Wild Lime",
+        "rel0": "http://rdf.freebase.com/ns/business.product_theme.products",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "High Roller",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Solar System",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.star_system.dwarf_planets",
+        "rel1": "http://rdf.freebase.com/ns/astronomy.orbital_relationship.aoapsis"
+    },
+    {
+        "?ent0": "University of California, Santa Cruz",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Δ⁻",
+        "rel0": "http://rdf.freebase.com/ns/physics.hadron.composition",
+        "rel1": "http://rdf.freebase.com/ns/physics.subatomic_particle_composition.number"
+    },
+    {
+        "?ent0": "Dexter Vines",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_inker.comic_covers_inked",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.issue_number"
+    },
+    {
+        "?ent0": "Voice of the Voters",
+        "rel0": "http://rdf.freebase.com/ns/tv.tv_program.country_of_origin",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Hotel de Toekomst",
+        "rel0": "http://rdf.freebase.com/ns/tv.tv_program.country_of_origin",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "C12N 1500",
+        "rel0": "http://rdf.freebase.com/ns/law.international_patent_category.patents",
+        "rel1": "http://rdf.freebase.com/ns/law.us_patent.patent_number"
+    },
+    {
+        "?ent0": "Jack Lewis",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "South Australian state election, 2002",
+        "rel0": "http://rdf.freebase.com/ns/time.event.locations",
+        "rel1": "http://rdf.freebase.com/ns/location.location.area"
+    },
+    {
+        "?ent0": "Rim of the Canyon",
+        "rel0": "http://rdf.freebase.com/ns/film.film.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Crown Law Office",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Père François",
+        "rel0": "http://rdf.freebase.com/ns/distilled_spirits.distillery.spirits",
+        "rel1": "http://rdf.freebase.com/ns/distilled_spirits.distilled_spirit.abv"
+    },
+    {
+        "?ent0": "Early Jurassic",
+        "rel0": "http://rdf.freebase.com/ns/time.geologic_time_period.began",
+        "rel1": "http://rdf.freebase.com/ns/time.geologic_time_period_uncertainty.million_years_ago"
+    },
+    {
+        "?ent0": "Céline Dion: All the Way: A Decade of Song and Video",
+        "rel0": "http://rdf.freebase.com/ns/film.film.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Tomintoul distillery",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/location.location.area"
+    },
+    {
+        "?ent0": "Phillips Academy",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Jonesboro High School",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Aricept",
+        "rel0": "http://rdf.freebase.com/ns/business.brand.products",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.size"
+    },
+    {
+        "?ent0": "Stephen Trask",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "The Enchanted Tiki Room: Stitch Presents Aloha e Komo Mai!",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.longitude"
+    },
+    {
+        "?ent0": "Ninth grade",
+        "rel0": "http://rdf.freebase.com/ns/education.grade_level.locations_used",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Ovo-lacto vegetarianism",
+        "rel0": "http://rdf.freebase.com/ns/food.diet.recipes",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe.cooking_time"
+    },
+    {
+        "?ent0": "Monsters, Inc. Laugh Floor",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Video art",
+        "rel0": "http://rdf.freebase.com/ns/base.webvideo.internet_video_genre.internet_video",
+        "rel1": "http://rdf.freebase.com/ns/base.webvideo.internet_video.running_time"
+    },
+    {
+        "?ent0": "Unsymmetrical dimethylhydrazine",
+        "rel0": "http://rdf.freebase.com/ns/spaceflight.rocket_engine_fuel.rocket_engines",
+        "rel1": "http://rdf.freebase.com/ns/spaceflight.rocket_engine.thrust_vacuum"
+    },
+    {
+        "?ent0": "Unsymmetrical dimethylhydrazine",
+        "rel0": "http://rdf.freebase.com/ns/spaceflight.rocket_engine_fuel.rocket_engines",
+        "rel1": "http://rdf.freebase.com/ns/spaceflight.rocket_engine.thrust_vacuum"
+    },
+    {
+        "?ent0": "Democracy Corps",
+        "rel0": "http://rdf.freebase.com/ns/government.polling_authority.polls",
+        "rel1": "http://rdf.freebase.com/ns/government.election_poll.number_polled"
+    },
+    {
+        "?ent0": "Hurricane Ivan",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone.category",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.min_wind_speed"
+    },
+    {
+        "?ent0": "Sweet Corn 0.1 injectable solution",
+        "rel0": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.available_in",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Food storage containers",
+        "rel0": "http://rdf.freebase.com/ns/food.culinary_tool.used_in_recipes",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe.cooking_time"
+    },
+    {
+        "?ent0": "Corner Homecare",
+        "rel0": "http://rdf.freebase.com/ns/medicine.drug_manufacturer.drugs_manufactured",
+        "rel1": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.discontinued"
+    },
+    {
+        "?ent0": "Milton Academy",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Zeus",
+        "rel0": "http://rdf.freebase.com/ns/symbols.name_source.namesakes",
+        "rel1": "http://rdf.freebase.com/ns/base.schemastaging.celestial_object_extra.surface_area"
+    },
+    {
+        "?ent0": "Hawaii",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/geography.body_of_water.volume"
+    },
+    {
+        "?ent0": "Stanford Cancer Institute",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Canopy Flyer",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.longitude"
+    },
+    {
+        "?ent0": "Giel 3FM",
+        "rel0": "http://rdf.freebase.com/ns/broadcast.content.broadcast",
+        "rel1": "http://rdf.freebase.com/ns/broadcast.podcast_feed.number_of_items"
+    },
+    {
+        "?ent0": "Snow White's Scary Adventures",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "MSNBC Tucker with Tucker Carlson",
+        "rel0": "http://rdf.freebase.com/ns/broadcast.content.broadcast",
+        "rel1": "http://rdf.freebase.com/ns/broadcast.podcast_feed.average_media_length"
+    },
+    {
+        "?ent0": "None",
+        "rel0": "http://rdf.freebase.com/ns/base.politicalconventions.primary_candidate.vp_delegate_vote_tally",
+        "rel1": "http://rdf.freebase.com/ns/base.politicalconventions.vp_delegate_vote_tally.tally"
+    },
+    {
+        "?ent0": "Shrewsbury Abbey",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Robin Williams",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "University of Phoenix-Idaho Campus",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "Compact disc",
+        "rel0": "http://rdf.freebase.com/ns/award.ranked_item.appears_in_ranked_lists",
+        "rel1": "http://rdf.freebase.com/ns/award.ranking.rank"
+    },
+    {
+        "?ent0": "Middleweight",
+        "rel0": "http://rdf.freebase.com/ns/sports.boxing_weight_division.matches",
+        "rel1": "http://rdf.freebase.com/ns/boxing.boxing_match.planned_number_of_rounds"
+    },
+    {
+        "?ent0": "Red Rodney",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Superman Escape",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.longitude"
+    },
+    {
+        "?ent0": "3:2",
+        "rel0": "http://rdf.freebase.com/ns/digicams.camera_image_ratio.cameras",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.gtin"
+    },
+    {
+        "?ent0": "Blonde ale",
+        "rel0": "http://rdf.freebase.com/ns/food.beer_style.bjcp_style_category",
+        "rel1": "http://rdf.freebase.com/ns/food.beer_style_category.bjcp_id"
+    },
+    {
+        "?ent0": "Shaping",
+        "rel0": "http://rdf.freebase.com/ns/food.culinary_technique.recipes",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe.preparation_time"
+    },
+    {
+        "?ent0": "Maibock",
+        "rel0": "http://rdf.freebase.com/ns/food.beer_style.bjcp_style_category",
+        "rel1": "http://rdf.freebase.com/ns/food.beer_style_category.bjcp_id"
+    },
+    {
+        "?ent0": "Mike Tyson",
+        "rel0": "http://rdf.freebase.com/ns/celebrities.celebrity.net_worth",
+        "rel1": "http://rdf.freebase.com/ns/measurement_unit.dated_money_value.amount"
+    },
+    {
+        "?ent0": "Charm antiquark",
+        "rel0": "http://rdf.freebase.com/ns/physics.particle.antiparticle",
+        "rel1": "http://rdf.freebase.com/ns/physics.particle_antiparticle.self_antiparticle"
+    },
+    {
+        "?ent0": "Easaval",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "Hubert Frackowiak",
+        "rel0": "http://rdf.freebase.com/ns/music.engineer.tracks_engineered",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "JW Marriott San Antonio Hill Country Resort & Spa",
+        "rel0": "http://rdf.freebase.com/ns/location.location.street_address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "Charlise Rookwood",
+        "rel0": "http://rdf.freebase.com/ns/music.featured_artist.recordings",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "Children's Museum of Bogotá",
+        "rel0": "http://rdf.freebase.com/ns/travel.tourist_attraction.near_travel_destination",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "C12N 1500",
+        "rel0": "http://rdf.freebase.com/ns/law.international_patent_category.patents",
+        "rel1": "http://rdf.freebase.com/ns/law.us_patent.patent_number"
+    },
+    {
+        "?ent0": "Leopard",
+        "rel0": "http://rdf.freebase.com/ns/base.animal_synopses.animal_synopsis.speed",
+        "rel1": "http://rdf.freebase.com/ns/base.qualified_values.qualified_value.nominal_value"
+    },
+    {
+        "?ent0": "Merengue",
+        "rel0": "http://rdf.freebase.com/ns/broadcast.content.broadcast",
+        "rel1": "http://rdf.freebase.com/ns/broadcast.internet_stream.stream_bitrate"
+    },
+    {
+        "?ent0": "Stainless Steel Bowl",
+        "rel0": "http://rdf.freebase.com/ns/food.culinary_tool.used_in_recipes",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe.preparation_time"
+    },
+    {
+        "?ent0": "Beaufort force 10",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.beaufort_wind_force.tropical_cyclone_categories",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.max_wind_speed"
+    },
+    {
+        "?ent0": "Audio Production",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization_sector.organizations_in_this_sector",
+        "rel1": "http://rdf.freebase.com/ns/organization.organization.slogan"
+    },
+    {
+        "?ent0": "United States Constitution",
+        "rel0": "http://rdf.freebase.com/ns/law.constitution.country",
+        "rel1": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "flown",
+        "rel0": "http://rdf.freebase.com/ns/spaceflight.rocket_engine_status.rocket_engines",
+        "rel1": "http://rdf.freebase.com/ns/user.hedgehog.default_domain.rocket_engine.thrust_vacuum"
+    },
+    {
+        "?ent0": "Hyannisport Golf Course",
+        "rel0": "http://rdf.freebase.com/ns/award.ranked_item.appears_in_ranked_lists",
+        "rel1": "http://rdf.freebase.com/ns/award.ranking.rank"
+    },
+    {
+        "?ent0": "Stomu Yamashta",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.length"
+    }
+]

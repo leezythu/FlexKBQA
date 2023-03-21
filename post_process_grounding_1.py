@@ -1,0 +1,38 @@
+from gettext import bindtextdomain
+import json,os
+from SPARQLWrapper import SPARQLWrapper, JSON
+ori_sparql = """ PREFIX ns: <http://rdf.freebase.com/ns/>
+SELECT DISTINCT ?x WHERE { 
+    FILTER(langMatches(lang(?x), 'en'))
+    entity_name ns:type.object.name ?x. 
+}
+"""
+SPARQLPATH = "http://localhost:3001/sparql"
+sparql = SPARQLWrapper(SPARQLPATH)
+
+intermediate_dir = "intermediate_results"
+def process(i):
+    inter_file = os.path.join(intermediate_dir,str(i)+"_valid_expansions.json")
+    inter_data = json.load(open(inter_file))
+    for d in inter_data:
+        for key in d:
+            if "ent" in key:
+                if "rdf.freebase.com" in d[key]:
+                    d[key] = "ns:"+d[key].split("/")[-1]
+                new_sparql = ori_sparql.replace("entity_name",d[key])
+                print(new_sparql)
+                sparql.setQuery(new_sparql)
+                sparql.setReturnFormat(JSON)
+                results = sparql.query().convert()
+                bindings = results["results"]["bindings"]
+                print(bindings)
+                for binding in bindings:
+                    if binding["x"]["xml:lang"] == 'en':
+                        bind = binding["x"]["value"]
+                print(bind)
+                d[key] = bind
+        # exit(0)
+    with open(os.path.join(intermediate_dir,str(i)+"_valid_expansions_w_ent_name.json"),'w') as f:
+        f.write(json.dumps(inter_data))
+for i in range(0,5):
+    process(i)
