@@ -14,8 +14,13 @@ intermediate_dir = "intermediate_results"
 def process(i):
     inter_file = os.path.join(intermediate_dir,str(i)+"_valid_expansions.json")
     inter_data = json.load(open(inter_file))
+    existing_ents = [] #avoid duplicating 
+    final_data = []
     for d in inter_data:
+        flag = True
         for key in d:
+            if "rel" in key:
+                d[key] = "ns:"+d[key].split("/")[-1]
             if "ent" in key:
                 if "rdf.freebase.com" in d[key]:
                     d[key] = "ns:"+d[key].split("/")[-1]
@@ -30,9 +35,15 @@ def process(i):
                     if binding["x"]["xml:lang"] == 'en':
                         bind = binding["x"]["value"]
                 print(bind)
+                if bind in existing_ents:
+                    flag = False
+                    break
+                existing_ents.append(bind)
                 d[key] = bind
+        if flag:
+            final_data.append(d)
         # exit(0)
     with open(os.path.join(intermediate_dir,str(i)+"_valid_expansions_w_ent_name.json"),'w') as f:
-        f.write(json.dumps(inter_data))
+        f.write(json.dumps(final_data))
 for i in range(0,5):
     process(i)

@@ -1,912 +1,499 @@
 [
     {
         "?ent0": "Crazy (Do You Know the Way to L.A. mix)",
-        "rel0": "http://rdf.freebase.com/ns/music.recording.artist",
-        "rel1": "http://rdf.freebase.com/ns/music.artist.genre",
-        "rel2": "http://rdf.freebase.com/ns/music.artist.origin",
+        "rel0": "ns:music.recording.artist",
+        "rel1": "ns:music.artist.genre",
+        "rel2": "ns:music.artist.origin",
         "ent1": "London"
     },
     {
-        "?ent0": "Massachusetts Institute of Technology",
-        "rel0": "http://rdf.freebase.com/ns/fictional_universe.school_in_fiction.students_graduates",
-        "rel1": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.gender",
-        "rel2": "http://rdf.freebase.com/ns/tv.tv_character.appeared_in_tv_program",
-        "ent1": "Massachusetts Institute of Technology"
-    },
-    {
         "?ent0": "Duchess",
-        "rel0": "http://rdf.freebase.com/ns/music.recording.artist",
-        "rel1": "http://rdf.freebase.com/ns/music.artist.genre",
-        "rel2": "http://rdf.freebase.com/ns/music.artist.origin",
+        "rel0": "ns:music.recording.artist",
+        "rel1": "ns:music.artist.genre",
+        "rel2": "ns:music.artist.origin",
         "ent1": "Godalming"
     },
     {
         "?ent0": "Acacia",
-        "rel0": "http://rdf.freebase.com/ns/biology.organism_classification.higher_classification",
-        "rel1": "http://rdf.freebase.com/ns/base.schemastaging.context_name.pronunciation",
-        "rel2": "http://rdf.freebase.com/ns/biology.organism_classification.higher_classification",
+        "rel0": "ns:biology.organism_classification.higher_classification",
+        "rel1": "ns:base.schemastaging.context_name.pronunciation",
+        "rel2": "ns:biology.organism_classification.higher_classification",
         "ent1": "Fabales"
     },
     {
         "?ent0": "Humour",
-        "rel0": "http://rdf.freebase.com/ns/base.webvideo.internet_video_genre.internet_video",
-        "rel1": "http://rdf.freebase.com/ns/base.webvideo.internet_video.performances",
-        "rel2": "http://rdf.freebase.com/ns/base.webvideo.internet_video_episode.season",
+        "rel0": "ns:base.webvideo.internet_video_genre.internet_video",
+        "rel1": "ns:base.webvideo.internet_video.performances",
+        "rel2": "ns:base.webvideo.internet_video_episode.season",
         "ent1": "Vote Wally Panther"
     },
     {
         "?ent0": "Intrabronchial",
-        "rel0": "http://rdf.freebase.com/ns/medicine.drug_administration_route.drug_formulations",
-        "rel1": "http://rdf.freebase.com/ns/medicine.drug_formulation.active_ingredient_moieties",
-        "rel2": "http://rdf.freebase.com/ns/medicine.drug_formulation.active_ingredients",
+        "rel0": "ns:medicine.drug_administration_route.drug_formulations",
+        "rel1": "ns:medicine.drug_formulation.active_ingredient_moieties",
+        "rel2": "ns:medicine.drug_formulation.active_ingredients",
         "ent1": "Albuterol Sulfate"
     },
     {
-        "?ent0": "Silver v. New York Stock Exchange",
-        "rel0": "http://rdf.freebase.com/ns/law.legal_case.parties",
-        "rel1": "http://rdf.freebase.com/ns/law.legal_case_party_relationship.parties",
-        "rel2": "http://rdf.freebase.com/ns/law.legal_case_party_relationship.case",
-        "ent1": "Silver v. New York Stock Exchange"
-    },
-    {
-        "?ent0": "The Great American Trailer Park Musical",
-        "rel0": "http://rdf.freebase.com/ns/theater.musical_soundtrack.play",
-        "rel1": "http://rdf.freebase.com/ns/book.written_work.author",
-        "rel2": "http://rdf.freebase.com/ns/theater.play.productions",
-        "ent1": "The Great American Trailer Park Musical"
-    },
-    {
         "?ent0": "Греть",
-        "rel0": "http://rdf.freebase.com/ns/music.music_video.music_video_genre",
-        "rel1": "http://rdf.freebase.com/ns/book.book_subject.works",
-        "rel2": "http://rdf.freebase.com/ns/organization.organization_sector.organizations_in_this_sector",
+        "rel0": "ns:music.music_video.music_video_genre",
+        "rel1": "ns:book.book_subject.works",
+        "rel2": "ns:organization.organization_sector.organizations_in_this_sector",
         "ent1": "MTV"
     },
     {
         "?ent0": "Merry Edwards Winery",
-        "rel0": "http://rdf.freebase.com/ns/award.award_nominated_work.award_nominations",
-        "rel1": "http://rdf.freebase.com/ns/award.award_nomination.award",
-        "rel2": "http://rdf.freebase.com/ns/award.award_nomination.award_nominee",
+        "rel0": "ns:award.award_nominated_work.award_nominations",
+        "rel1": "ns:award.award_nomination.award",
+        "rel2": "ns:award.award_nomination.award_nominee",
         "ent1": "Merry Edwards"
     },
     {
         "?ent0": "Russia",
-        "rel0": "http://rdf.freebase.com/ns/biology.breed_origin.breeds_originating_here",
-        "rel1": "http://rdf.freebase.com/ns/base.pethealth.pet_disease_risk_factor.pet_diseases_with_this_risk_factor",
-        "rel2": "http://rdf.freebase.com/ns/biology.organism_classification.higher_classification",
+        "rel0": "ns:biology.breed_origin.breeds_originating_here",
+        "rel1": "ns:base.pethealth.pet_disease_risk_factor.pet_diseases_with_this_risk_factor",
+        "rel2": "ns:biology.organism_classification.higher_classification",
         "ent1": "Cat"
     },
     {
         "?ent0": "North American College of Gnostic Bishops",
-        "rel0": "http://rdf.freebase.com/ns/religion.religious_organization.associated_with",
-        "rel1": "http://rdf.freebase.com/ns/religion.religion.organizations",
-        "rel2": "http://rdf.freebase.com/ns/religion.religion.founding_figures",
+        "rel0": "ns:religion.religious_organization.associated_with",
+        "rel1": "ns:religion.religion.organizations",
+        "rel2": "ns:religion.religion.founding_figures",
         "ent1": "Basilides"
     },
     {
         "?ent0": "2004 Querceto Chianti",
-        "rel0": "http://rdf.freebase.com/ns/wine.wine.wine_style",
-        "rel1": "http://rdf.freebase.com/ns/food.wine_style.grape_varieties",
-        "rel2": "http://rdf.freebase.com/ns/food.wine_style.place_of_origin",
+        "rel0": "ns:wine.wine.wine_style",
+        "rel1": "ns:food.wine_style.grape_varieties",
+        "rel2": "ns:food.wine_style.place_of_origin",
         "ent1": "Chianti"
     },
     {
         "?ent0": "Female",
-        "rel0": "http://rdf.freebase.com/ns/base.pethealth.pet_disease_risk_factor.pet_diseases_with_this_risk_factor",
-        "rel1": "http://rdf.freebase.com/ns/base.pethealth.pet_disease_or_medical_condition.causes",
-        "rel2": "http://rdf.freebase.com/ns/base.pethealth.pet_disease_or_medical_condition.diagnosis",
+        "rel0": "ns:base.pethealth.pet_disease_risk_factor.pet_diseases_with_this_risk_factor",
+        "rel1": "ns:base.pethealth.pet_disease_or_medical_condition.causes",
+        "rel2": "ns:base.pethealth.pet_disease_or_medical_condition.diagnosis",
         "ent1": "Physical examination"
     },
     {
         "?ent0": "West Division",
-        "rel0": "http://rdf.freebase.com/ns/ice_hockey.hockey_division.teams",
-        "rel1": "http://rdf.freebase.com/ns/sports.sports_team.league",
-        "rel2": "http://rdf.freebase.com/ns/sports.sports_team.location",
+        "rel0": "ns:ice_hockey.hockey_division.teams",
+        "rel1": "ns:sports.sports_team.league",
+        "rel2": "ns:sports.sports_team.location",
         "ent1": "Calgary"
     },
     {
-        "?ent0": "Chromosome 21 (human)",
-        "rel0": "http://rdf.freebase.com/ns/biology.chromosome.band",
-        "rel1": "http://rdf.freebase.com/ns/biology.cytogenetic_band.locus",
-        "rel2": "http://rdf.freebase.com/ns/biology.cytogenetic_band.chromosome",
-        "ent1": "Chromosome 21 (human)"
-    },
-    {
         "?ent0": "Heimlich's Chew Chew Train",
-        "rel0": "http://rdf.freebase.com/ns/amusement_parks.ride.area",
-        "rel1": "http://rdf.freebase.com/ns/location.location.geolocation",
-        "rel2": "http://rdf.freebase.com/ns/amusement_parks.amusement_park_area.parks",
+        "rel0": "ns:amusement_parks.ride.area",
+        "rel1": "ns:location.location.geolocation",
+        "rel2": "ns:amusement_parks.amusement_park_area.parks",
         "ent1": "Disney California Adventure"
     },
     {
         "?ent0": "Tai chi",
-        "rel0": "http://rdf.freebase.com/ns/martial_arts.martial_art.category",
-        "rel1": "http://rdf.freebase.com/ns/base.schemastaging.context_name.pronunciation",
-        "rel2": "http://rdf.freebase.com/ns/martial_arts.martial_art_category.martial_arts",
+        "rel0": "ns:martial_arts.martial_art.category",
+        "rel1": "ns:base.schemastaging.context_name.pronunciation",
+        "rel2": "ns:martial_arts.martial_art_category.martial_arts",
         "ent1": "Muay Thai"
     },
     {
         "?ent0": "Video art",
-        "rel0": "http://rdf.freebase.com/ns/base.webvideo.internet_video_genre.internet_video",
-        "rel1": "http://rdf.freebase.com/ns/music.music_video_subject.subject_in_these_music_videos",
-        "rel2": "http://rdf.freebase.com/ns/book.written_work.author",
+        "rel0": "ns:base.webvideo.internet_video_genre.internet_video",
+        "rel1": "ns:music.music_video_subject.subject_in_these_music_videos",
+        "rel2": "ns:book.written_work.author",
         "ent1": "Aberjhani"
     },
     {
         "?ent0": "(24955) 1997 SK10",
-        "rel0": "http://rdf.freebase.com/ns/astronomy.asteroid.member_of_asteroid_group",
-        "rel1": "http://rdf.freebase.com/ns/astronomy.asteroid_group.asteroid_group_members",
-        "rel2": "http://rdf.freebase.com/ns/astronomy.celestial_object.category",
+        "rel0": "ns:astronomy.asteroid.member_of_asteroid_group",
+        "rel1": "ns:astronomy.asteroid_group.asteroid_group_members",
+        "rel2": "ns:astronomy.celestial_object.category",
         "ent1": "Asteroid Group"
     },
     {
-        "?ent0": "James Naughton",
-        "rel0": "http://rdf.freebase.com/ns/book.author.works_written",
-        "rel1": "http://rdf.freebase.com/ns/theater.play.productions",
-        "rel2": "http://rdf.freebase.com/ns/book.written_work.author",
-        "ent1": "James Naughton"
-    },
-    {
-        "?ent0": "Triforce",
-        "rel0": "http://rdf.freebase.com/ns/fictional_universe.fictional_object.composition",
-        "rel1": "http://rdf.freebase.com/ns/fictional_universe.fictional_object.created_by",
-        "rel2": "http://rdf.freebase.com/ns/fictional_universe.fictional_object.composition",
-        "ent1": "Triforce"
-    },
-    {
-        "?ent0": "KFOG",
-        "rel0": "http://rdf.freebase.com/ns/broadcast.broadcast.area_served",
-        "rel1": "http://rdf.freebase.com/ns/base.csafarms.area_served.farms",
-        "rel2": "http://rdf.freebase.com/ns/base.localfood.food_producing_region.seasonal_availability",
-        "ent1": "KFOG"
-    },
-    {
         "?ent0": "Baritenor",
-        "rel0": "http://rdf.freebase.com/ns/music.voice.singers",
-        "rel1": "http://rdf.freebase.com/ns/music.artist.genre",
-        "rel2": "http://rdf.freebase.com/ns/music.artist.origin",
+        "rel0": "ns:music.voice.singers",
+        "rel1": "ns:music.artist.genre",
+        "rel2": "ns:music.artist.origin",
         "ent1": "Dayton"
     },
     {
         "?ent0": "The Hudson River School at N-YHS (2008); Nature and the American Vision",
-        "rel0": "http://rdf.freebase.com/ns/exhibitions.exhibition.subjects",
-        "rel1": "http://rdf.freebase.com/ns/people.person.nationality",
-        "rel2": "http://rdf.freebase.com/ns/book.book_subject.works",
+        "rel0": "ns:exhibitions.exhibition.subjects",
+        "rel1": "ns:people.person.nationality",
+        "rel2": "ns:book.book_subject.works",
         "ent1": "Frederic Church"
     },
     {
-        "?ent0": "Australian Kelpie",
-        "rel0": "http://rdf.freebase.com/ns/biology.organism_classification.higher_classification",
-        "rel1": "http://rdf.freebase.com/ns/base.ecology.food_web_member.eaten_by",
-        "rel2": "http://rdf.freebase.com/ns/biology.organism_classification.child_classifications",
-        "ent1": "Australian Kelpie"
-    },
-    {
-        "?ent0": "Tom Taggart",
-        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_inker.comic_covers_inked",
-        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.editor",
-        "rel2": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.cover_colors",
-        "ent1": "Tom Taggart"
-    },
-    {
         "?ent0": "Maverick Carter",
-        "rel0": "http://rdf.freebase.com/ns/people.person.gender",
-        "rel1": "http://rdf.freebase.com/ns/base.schemastaging.context_name.pronunciation",
-        "rel2": "http://rdf.freebase.com/ns/award.award_discipline.awards_in_this_discipline",
+        "rel0": "ns:people.person.gender",
+        "rel1": "ns:base.schemastaging.context_name.pronunciation",
+        "rel2": "ns:award.award_discipline.awards_in_this_discipline",
         "ent1": "SFX Award for Best Actor"
     },
     {
         "?ent0": "Pacific 1860",
-        "rel0": "http://rdf.freebase.com/ns/book.written_work.author",
-        "rel1": "http://rdf.freebase.com/ns/book.author.works_written",
-        "rel2": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel0": "ns:book.written_work.author",
+        "rel1": "ns:book.author.works_written",
+        "rel2": "ns:music.artist.track",
         "ent1": "Why Do the Wrong People Travel?"
     },
     {
-        "?ent0": "Zhongguo zhuan xing: he xie yu chong tu",
-        "rel0": "http://rdf.freebase.com/ns/book.book_edition.book",
-        "rel1": "http://rdf.freebase.com/ns/book.written_work.author",
-        "rel2": "http://rdf.freebase.com/ns/book.book.editions",
-        "ent1": "Zhongguo zhuan xing: he xie yu chong tu"
-    },
-    {
-        "?ent0": "Direct Life, Health, and Medical Insurance Carriers",
-        "rel0": "http://rdf.freebase.com/ns/business.industry.companies",
-        "rel1": "http://rdf.freebase.com/ns/business.business_operation.industry",
-        "rel2": "http://rdf.freebase.com/ns/organization.organization.headquarters",
-        "ent1": "Direct Life, Health, and Medical Insurance Carriers"
-    },
-    {
         "?ent0": "Stool Softener 100 liquid filled capsule",
-        "rel0": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.available_in",
-        "rel1": "http://rdf.freebase.com/ns/base.csafarms.area_served.farms",
-        "rel2": "http://rdf.freebase.com/ns/fictional_universe.fictional_setting.characters_that_have_lived_here",
+        "rel0": "ns:medicine.manufactured_drug_form.available_in",
+        "rel1": "ns:base.csafarms.area_served.farms",
+        "rel2": "ns:fictional_universe.fictional_setting.characters_that_have_lived_here",
         "ent1": "Alek Petrov"
     },
     {
         "?ent0": "Steve Blevins",
-        "rel0": "http://rdf.freebase.com/ns/music.artist.genre",
-        "rel1": "http://rdf.freebase.com/ns/music.genre.artists",
-        "rel2": "http://rdf.freebase.com/ns/music.genre.albums",
+        "rel0": "ns:music.artist.genre",
+        "rel1": "ns:music.genre.artists",
+        "rel2": "ns:music.genre.albums",
         "ent1": "Interview"
     },
     {
-        "?ent0": "Christopher Jak",
-        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
-        "rel1": "http://rdf.freebase.com/ns/music.recording.tracks",
-        "rel2": "http://rdf.freebase.com/ns/music.recording.artist",
-        "ent1": "Christopher Jak"
-    },
-    {
-        "?ent0": "58163 Minnesang",
-        "rel0": "http://rdf.freebase.com/ns/astronomy.asteroid.member_of_asteroid_group",
-        "rel1": "http://rdf.freebase.com/ns/astronomy.asteroid_group.asteroid_group_members",
-        "rel2": "http://rdf.freebase.com/ns/astronomy.celestial_object.category",
-        "ent1": "Asteroid Group"
-    },
-    {
-        "?ent0": "Gargish",
-        "rel0": "http://rdf.freebase.com/ns/language.conlang.created_by",
-        "rel1": "http://rdf.freebase.com/ns/people.person.gender",
-        "rel2": "http://rdf.freebase.com/ns/language.language_creator.languages_created",
-        "ent1": "Gargish"
-    },
-    {
-        "?ent0": "Daniel D. Tompkins",
-        "rel0": "http://rdf.freebase.com/ns/book.author.works_written",
-        "rel1": "http://rdf.freebase.com/ns/book.book.editions",
-        "rel2": "http://rdf.freebase.com/ns/book.written_work.author",
-        "ent1": "Daniel D. Tompkins"
-    },
-    {
-        "?ent0": "Brooklyn",
-        "rel0": "http://rdf.freebase.com/ns/fictional_universe.fictional_setting.characters_that_have_lived_here",
-        "rel1": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.appears_in_these_fictional_universes",
-        "rel2": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.gender",
-        "ent1": "Female"
-    },
-    {
         "?ent0": "Family Living '59",
-        "rel0": "http://rdf.freebase.com/ns/award.award_winning_work.awards_won",
-        "rel1": "http://rdf.freebase.com/ns/award.award_honor.award",
-        "rel2": "http://rdf.freebase.com/ns/award.award_honor.award_winner",
+        "rel0": "ns:award.award_winning_work.awards_won",
+        "rel1": "ns:award.award_honor.award",
+        "rel2": "ns:award.award_honor.award_winner",
         "ent1": "NBC"
     },
     {
-        "?ent0": "Thieves' World fictional shared universe",
-        "rel0": "http://rdf.freebase.com/ns/fictional_universe.fictional_universe.organizations",
-        "rel1": "http://rdf.freebase.com/ns/military.military_unit.servicemembers",
-        "rel2": "http://rdf.freebase.com/ns/base.militaryinfiction.military_unit_in_fiction.commanders_in_conflict",
-        "ent1": "Thieves' World fictional shared universe"
-    },
-    {
         "?ent0": "RD-170",
-        "rel0": "http://rdf.freebase.com/ns/spaceflight.bipropellant_rocket_engine.engine_cycle",
-        "rel1": "http://rdf.freebase.com/ns/base.schemastaging.context_name.pronunciation",
-        "rel2": "http://rdf.freebase.com/ns/spaceflight.rocket_engine_cycle.rocket_engines",
+        "rel0": "ns:spaceflight.bipropellant_rocket_engine.engine_cycle",
+        "rel1": "ns:base.schemastaging.context_name.pronunciation",
+        "rel2": "ns:spaceflight.rocket_engine_cycle.rocket_engines",
         "ent1": "Space Shuttle main engine"
     },
     {
         "?ent0": "Eero Simoncelli",
-        "rel0": "http://rdf.freebase.com/ns/education.academic.research_areas",
-        "rel1": "http://rdf.freebase.com/ns/base.schemastaging.context_name.pronunciation",
-        "rel2": "http://rdf.freebase.com/ns/education.field_of_study.subdiscipline_of",
+        "rel0": "ns:education.academic.research_areas",
+        "rel1": "ns:base.schemastaging.context_name.pronunciation",
+        "rel2": "ns:education.field_of_study.subdiscipline_of",
         "ent1": "Neuroscience"
     },
     {
         "?ent0": "Andy Kubert",
-        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_penciler.comic_books_penciled",
-        "rel1": "http://rdf.freebase.com/ns/fictional_universe.work_of_fiction.setting",
-        "rel2": "http://rdf.freebase.com/ns/comic_books.comic_book_story.script",
+        "rel0": "ns:comic_books.comic_book_penciler.comic_books_penciled",
+        "rel1": "ns:fictional_universe.work_of_fiction.setting",
+        "rel2": "ns:comic_books.comic_book_story.script",
         "ent1": "Neil Gaiman"
     },
     {
         "?ent0": "Fairmont Vier Jahreszeiten Hamburg",
-        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
-        "rel1": "http://rdf.freebase.com/ns/biology.breed_origin.breeds_originating_here",
-        "rel2": "http://rdf.freebase.com/ns/location.country.administrative_divisions",
+        "rel0": "ns:location.location.containedby",
+        "rel1": "ns:biology.breed_origin.breeds_originating_here",
+        "rel2": "ns:location.country.administrative_divisions",
         "ent1": "Berlin"
     },
     {
         "?ent0": "Beach",
-        "rel0": "http://rdf.freebase.com/ns/travel.accommodation_feature.accommodation_with_this_feature",
-        "rel1": "http://rdf.freebase.com/ns/location.location.primarily_containedby",
-        "rel2": "http://rdf.freebase.com/ns/travel.accommodation.features",
+        "rel0": "ns:travel.accommodation_feature.accommodation_with_this_feature",
+        "rel1": "ns:location.location.primarily_containedby",
+        "rel2": "ns:travel.accommodation.features",
         "ent1": "Spa"
     },
     {
         "?ent0": "Malta",
-        "rel0": "http://rdf.freebase.com/ns/biology.breed_origin.breeds_originating_here",
-        "rel1": "http://rdf.freebase.com/ns/base.petbreeds.dog_breed.cities_where_this_dog_is_popular",
-        "rel2": "http://rdf.freebase.com/ns/biology.animal_breed.examples",
+        "rel0": "ns:biology.breed_origin.breeds_originating_here",
+        "rel1": "ns:base.petbreeds.dog_breed.cities_where_this_dog_is_popular",
+        "rel2": "ns:biology.animal_breed.examples",
         "ent1": "Chloe"
     },
     {
         "?ent0": "Camellia sinensis",
-        "rel0": "http://rdf.freebase.com/ns/biology.organism_classification.higher_classification",
-        "rel1": "http://rdf.freebase.com/ns/base.schemastaging.context_name.pronunciation",
-        "rel2": "http://rdf.freebase.com/ns/biology.organism_classification.higher_classification",
+        "rel0": "ns:biology.organism_classification.higher_classification",
+        "rel1": "ns:base.schemastaging.context_name.pronunciation",
+        "rel2": "ns:biology.organism_classification.higher_classification",
         "ent1": "Theaceae"
     },
     {
         "?ent0": "Charles II",
-        "rel0": "http://rdf.freebase.com/ns/film.film_character.portrayed_in_films",
-        "rel1": "http://rdf.freebase.com/ns/film.performance.actor",
-        "rel2": "http://rdf.freebase.com/ns/film.performance.film",
+        "rel0": "ns:film.film_character.portrayed_in_films",
+        "rel1": "ns:film.performance.actor",
+        "rel2": "ns:film.performance.film",
         "ent1": "Penn of Pennsylvania"
     },
     {
         "?ent0": "LaVeyan Satanism",
-        "rel0": "http://rdf.freebase.com/ns/religion.religion.is_part_of",
-        "rel1": "http://rdf.freebase.com/ns/religion.religion.branched_into",
-        "rel2": "http://rdf.freebase.com/ns/religion.religion.includes",
+        "rel0": "ns:religion.religion.is_part_of",
+        "rel1": "ns:religion.religion.branched_into",
+        "rel2": "ns:religion.religion.includes",
         "ent1": "Theistic Satanism"
     },
     {
-        "?ent0": "Eric Romolock",
-        "rel0": "http://rdf.freebase.com/ns/government.politician.election_campaigns",
-        "rel1": "http://rdf.freebase.com/ns/government.election_campaign.election",
-        "rel2": "http://rdf.freebase.com/ns/government.election_campaign.candidate",
-        "ent1": "Eric Romolock"
-    },
-    {
         "?ent0": "6th Vermont Infantry",
-        "rel0": "http://rdf.freebase.com/ns/military.military_unit.servicemembers",
-        "rel1": "http://rdf.freebase.com/ns/military.military_service.military_force",
-        "rel2": "http://rdf.freebase.com/ns/military.military_service.military_person",
+        "rel0": "ns:military.military_unit.servicemembers",
+        "rel1": "ns:military.military_service.military_force",
+        "rel2": "ns:military.military_service.military_person",
         "ent1": "John W. Clark"
     },
     {
-        "?ent0": "The Flying Nun",
-        "rel0": "http://rdf.freebase.com/ns/tv.tv_program.filming_locations",
-        "rel1": "http://rdf.freebase.com/ns/location.location.containedby",
-        "rel2": "http://rdf.freebase.com/ns/location.location.geolocation",
-        "ent1": "The Flying Nun"
-    },
-    {
-        "?ent0": "19994 Tresini",
-        "rel0": "http://rdf.freebase.com/ns/astronomy.asteroid.member_of_asteroid_group",
-        "rel1": "http://rdf.freebase.com/ns/astronomy.asteroid_group.asteroid_group_members",
-        "rel2": "http://rdf.freebase.com/ns/astronomy.celestial_object.category",
-        "ent1": "Asteroid Group"
-    },
-    {
-        "?ent0": "Leonard Foglia",
-        "rel0": "http://rdf.freebase.com/ns/book.author.works_written",
-        "rel1": "http://rdf.freebase.com/ns/book.book.genre",
-        "rel2": "http://rdf.freebase.com/ns/book.written_work.author",
-        "ent1": "Leonard Foglia"
-    },
-    {
         "?ent0": "Vengeance demon",
-        "rel0": "http://rdf.freebase.com/ns/fictional_universe.character_species.characters_of_this_species",
-        "rel1": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.appears_in_these_fictional_universes",
-        "rel2": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.character_created_by",
+        "rel0": "ns:fictional_universe.character_species.characters_of_this_species",
+        "rel1": "ns:fictional_universe.fictional_character.appears_in_these_fictional_universes",
+        "rel2": "ns:fictional_universe.fictional_character.character_created_by",
         "ent1": "Joss Whedon"
     },
     {
         "?ent0": "Peony",
-        "rel0": "http://rdf.freebase.com/ns/book.book_edition.binding",
-        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.brand",
-        "rel2": "http://rdf.freebase.com/ns/award.award_discipline.awards_in_this_discipline",
+        "rel0": "ns:book.book_edition.binding",
+        "rel1": "ns:business.consumer_product.brand",
+        "rel2": "ns:award.award_discipline.awards_in_this_discipline",
         "ent1": "Theakston's Old Peculier Crime Novel of the Year Award"
     },
     {
-        "?ent0": "2595 Gudiachvili",
-        "rel0": "http://rdf.freebase.com/ns/astronomy.asteroid.member_of_asteroid_group",
-        "rel1": "http://rdf.freebase.com/ns/astronomy.asteroid_group.asteroid_group_members",
-        "rel2": "http://rdf.freebase.com/ns/astronomy.celestial_object.category",
-        "ent1": "Asteroid Group"
-    },
-    {
-        "?ent0": "Nikon Coolpix 3100",
-        "rel0": "http://rdf.freebase.com/ns/business.consumer_product.company",
-        "rel1": "http://rdf.freebase.com/ns/business.company_product_relationship.company",
-        "rel2": "http://rdf.freebase.com/ns/business.company_product_relationship.consumer_product",
-        "ent1": "Nikon Coolpix 3100"
-    },
-    {
         "?ent0": "International",
-        "rel0": "http://rdf.freebase.com/ns/organization.organization_scope.organizations_with_this_scope",
-        "rel1": "http://rdf.freebase.com/ns/dataworld.data_provider.datasets_provided",
-        "rel2": "http://rdf.freebase.com/ns/dataworld.information_source.data_operations",
+        "rel0": "ns:organization.organization_scope.organizations_with_this_scope",
+        "rel1": "ns:dataworld.data_provider.datasets_provided",
+        "rel2": "ns:dataworld.information_source.data_operations",
         "ent1": "Spreadsheet Upload about ISO 3166-1 Alpha 3 codes and Numeric Codes"
     },
     {
-        "?ent0": "Spectranet",
-        "rel0": "http://rdf.freebase.com/ns/base.zxspectrum.zx_spectrum_peripheral.ports",
-        "rel1": "http://rdf.freebase.com/ns/base.zxspectrum.zx_spectrum_i_o_port_functionality.mask",
-        "rel2": "http://rdf.freebase.com/ns/base.zxspectrum.zx_spectrum_i_o_port_functionality.peripherals",
-        "ent1": "Spectranet"
-    },
-    {
         "?ent0": "Comedy",
-        "rel0": "http://rdf.freebase.com/ns/base.animemanga.anime_manga_genre.anime_manga_franchises",
-        "rel1": "http://rdf.freebase.com/ns/base.animemanga.anime_manga_franchise.genre",
-        "rel2": "http://rdf.freebase.com/ns/base.animemanga.anime_manga_franchise.anime_title",
+        "rel0": "ns:base.animemanga.anime_manga_genre.anime_manga_franchises",
+        "rel1": "ns:base.animemanga.anime_manga_franchise.genre",
+        "rel2": "ns:base.animemanga.anime_manga_franchise.anime_title",
         "ent1": "Lupin III"
     },
     {
-        "?ent0": "The Beatles 1964, world tour, K.B. Hallen",
-        "rel0": "http://rdf.freebase.com/ns/music.concert.venue",
-        "rel1": "http://rdf.freebase.com/ns/location.location.containedby",
-        "rel2": "http://rdf.freebase.com/ns/music.performance_venue.concerts",
-        "ent1": "The Beatles 1964, world tour, K.B. Hallen"
-    },
-    {
         "?ent0": "Freestyle wrestling",
-        "rel0": "http://rdf.freebase.com/ns/olympics.olympic_sport.athletes",
-        "rel1": "http://rdf.freebase.com/ns/olympics.olympic_athlete_affiliation.athlete",
-        "rel2": "http://rdf.freebase.com/ns/olympics.olympic_athlete_affiliation.country",
+        "rel0": "ns:olympics.olympic_sport.athletes",
+        "rel1": "ns:olympics.olympic_athlete_affiliation.athlete",
+        "rel2": "ns:olympics.olympic_athlete_affiliation.country",
         "ent1": "South Africa"
     },
     {
-        "?ent0": "Vovinam",
-        "rel0": "http://rdf.freebase.com/ns/martial_arts.martial_art.category",
-        "rel1": "http://rdf.freebase.com/ns/base.schemastaging.context_name.pronunciation",
-        "rel2": "http://rdf.freebase.com/ns/martial_arts.martial_art_category.martial_arts",
-        "ent1": "Muay Thai"
-    },
-    {
         "?ent0": "Solid Snake",
-        "rel0": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.appears_in_these_fictional_universes",
-        "rel1": "http://rdf.freebase.com/ns/fictional_universe.fictional_universe.organizations",
-        "rel2": "http://rdf.freebase.com/ns/fictional_universe.fictional_universe.characters",
+        "rel0": "ns:fictional_universe.fictional_character.appears_in_these_fictional_universes",
+        "rel1": "ns:fictional_universe.fictional_universe.organizations",
+        "rel2": "ns:fictional_universe.fictional_universe.characters",
         "ent1": "Raiden"
     },
     {
         "?ent0": "Tempus Unbound",
-        "rel0": "http://rdf.freebase.com/ns/fictional_universe.fictional_universe.species",
-        "rel1": "http://rdf.freebase.com/ns/base.folklore.mythical_creature.mythology",
-        "rel2": "http://rdf.freebase.com/ns/fictional_universe.character_species.characters_of_this_species",
+        "rel0": "ns:fictional_universe.fictional_universe.species",
+        "rel1": "ns:base.folklore.mythical_creature.mythology",
+        "rel2": "ns:fictional_universe.character_species.characters_of_this_species",
         "ent1": "Roxane, Nisibisi witch"
     },
     {
         "?ent0": "Henry VI Part 2",
-        "rel0": "http://rdf.freebase.com/ns/award.award_nominated_work.award_nominations",
-        "rel1": "http://rdf.freebase.com/ns/award.award_nomination.award",
-        "rel2": "http://rdf.freebase.com/ns/award.award_nomination.award_nominee",
+        "rel0": "ns:award.award_nominated_work.award_nominations",
+        "rel1": "ns:award.award_nomination.award",
+        "rel2": "ns:award.award_nomination.award_nominee",
         "ent1": "Kevin Adams"
     },
     {
         "?ent0": "Video",
-        "rel0": "http://rdf.freebase.com/ns/business.industry.companies",
-        "rel1": "http://rdf.freebase.com/ns/business.business_operation.industry",
-        "rel2": "http://rdf.freebase.com/ns/business.brand.products",
+        "rel0": "ns:business.industry.companies",
+        "rel1": "ns:business.business_operation.industry",
+        "rel2": "ns:business.brand.products",
         "ent1": "The Original Handle"
     },
     {
-        "?ent0": "Glenmere mansion",
-        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
-        "rel1": "http://rdf.freebase.com/ns/base.csafarms.area_served.farms",
-        "rel2": "http://rdf.freebase.com/ns/fictional_universe.fictional_setting.characters_that_have_lived_here",
-        "ent1": "Alek Petrov"
-    },
-    {
-        "?ent0": "Punchinello and the Most Marvelous Gift",
-        "rel0": "http://rdf.freebase.com/ns/film.film.country",
-        "rel1": "http://rdf.freebase.com/ns/base.csafarms.area_served.farms",
-        "rel2": "http://rdf.freebase.com/ns/fictional_universe.fictional_setting.characters_that_have_lived_here",
-        "ent1": "Alek Petrov"
-    },
-    {
         "?ent0": "46th Ohio Infantry",
-        "rel0": "http://rdf.freebase.com/ns/military.military_unit.servicemembers",
-        "rel1": "http://rdf.freebase.com/ns/military.military_service.military_force",
-        "rel2": "http://rdf.freebase.com/ns/military.military_service.military_person",
+        "rel0": "ns:military.military_unit.servicemembers",
+        "rel1": "ns:military.military_service.military_force",
+        "rel2": "ns:military.military_service.military_person",
         "ent1": "Harry Davis"
     },
     {
         "?ent0": "Ladle",
-        "rel0": "http://rdf.freebase.com/ns/food.culinary_tool.used_in_recipes",
-        "rel1": "http://rdf.freebase.com/ns/food.recipe.author",
-        "rel2": "http://rdf.freebase.com/ns/food.recipe.dish",
+        "rel0": "ns:food.culinary_tool.used_in_recipes",
+        "rel1": "ns:food.recipe.author",
+        "rel2": "ns:food.recipe.dish",
         "ent1": "Gumbo"
     },
     {
         "?ent0": "Fairmont Peace Hotel",
-        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
-        "rel1": "http://rdf.freebase.com/ns/travel.travel_destination.climate",
-        "rel2": "http://rdf.freebase.com/ns/travel.travel_destination.local_transportation",
+        "rel0": "ns:location.location.containedby",
+        "rel1": "ns:travel.travel_destination.climate",
+        "rel2": "ns:travel.travel_destination.local_transportation",
         "ent1": "Shanghai Metro"
     },
     {
-        "?ent0": "Richard Artschwager",
-        "rel0": "http://rdf.freebase.com/ns/book.author.works_written",
-        "rel1": "http://rdf.freebase.com/ns/book.book.editions",
-        "rel2": "http://rdf.freebase.com/ns/book.written_work.author",
-        "ent1": "Richard Artschwager"
-    },
-    {
-        "?ent0": "Christianity",
-        "rel0": "http://rdf.freebase.com/ns/religion.religion.places_of_worship_historical",
-        "rel1": "http://rdf.freebase.com/ns/religion.place_of_worship_historical_use.place_of_worship",
-        "rel2": "http://rdf.freebase.com/ns/religion.place_of_worship_historical_use.religion",
-        "ent1": "Christianity"
-    },
-    {
-        "?ent0": "American Cyclecar Co",
-        "rel0": "http://rdf.freebase.com/ns/automotive.company.make_s",
-        "rel1": "http://rdf.freebase.com/ns/automotive.make.model_s",
-        "rel2": "http://rdf.freebase.com/ns/automotive.make.parent_company",
-        "ent1": "American Cyclecar Co"
-    },
-    {
         "?ent0": "Intralymphatic",
-        "rel0": "http://rdf.freebase.com/ns/medicine.drug_administration_route.drug_formulations",
-        "rel1": "http://rdf.freebase.com/ns/medicine.drug_formulation.active_ingredient_moieties",
-        "rel2": "http://rdf.freebase.com/ns/medicine.drug_formulation.active_ingredients",
+        "rel0": "ns:medicine.drug_administration_route.drug_formulations",
+        "rel1": "ns:medicine.drug_formulation.active_ingredient_moieties",
+        "rel2": "ns:medicine.drug_formulation.active_ingredients",
         "ent1": "Lipiodol"
     },
     {
         "?ent0": "Anna Sergeyovna",
-        "rel0": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.gender",
-        "rel1": "http://rdf.freebase.com/ns/base.pethealth.pet_disease_risk_factor.pet_diseases_with_this_risk_factor",
-        "rel2": "http://rdf.freebase.com/ns/award.award_discipline.awards_in_this_discipline",
+        "rel0": "ns:fictional_universe.fictional_character.gender",
+        "rel1": "ns:base.pethealth.pet_disease_risk_factor.pet_diseases_with_this_risk_factor",
+        "rel2": "ns:award.award_discipline.awards_in_this_discipline",
         "ent1": "SFX Award for Best Actress"
     },
     {
         "?ent0": "Soul music",
-        "rel0": "http://rdf.freebase.com/ns/music.genre.artists",
-        "rel1": "http://rdf.freebase.com/ns/celebrities.celebrity.net_worth",
-        "rel2": "http://rdf.freebase.com/ns/organization.club_interest.clubs",
+        "rel0": "ns:music.genre.artists",
+        "rel1": "ns:celebrities.celebrity.net_worth",
+        "rel2": "ns:organization.club_interest.clubs",
         "ent1": "Counterbalance: Honorable Journalists, Writers, Articles"
     },
     {
         "?ent0": "Vladimir Putin",
-        "rel0": "http://rdf.freebase.com/ns/book.author.works_written",
-        "rel1": "http://rdf.freebase.com/ns/book.written_work.author",
-        "rel2": "http://rdf.freebase.com/ns/book.written_work.original_language",
+        "rel0": "ns:book.author.works_written",
+        "rel1": "ns:book.written_work.author",
+        "rel2": "ns:book.written_work.original_language",
         "ent1": "Russian Language"
     },
     {
-        "?ent0": "Bahamas",
-        "rel0": "http://rdf.freebase.com/ns/location.country.administrative_divisions",
-        "rel1": "http://rdf.freebase.com/ns/location.location.containedby",
-        "rel2": "http://rdf.freebase.com/ns/location.statistical_region.population",
-        "ent1": "Bahamas"
-    },
-    {
         "?ent0": "Bulgaria",
-        "rel0": "http://rdf.freebase.com/ns/biology.breed_origin.breeds_originating_here",
-        "rel1": "http://rdf.freebase.com/ns/biology.organism_classification.higher_classification",
-        "rel2": "http://rdf.freebase.com/ns/biology.animal_breed.breed_of",
+        "rel0": "ns:biology.breed_origin.breeds_originating_here",
+        "rel1": "ns:biology.organism_classification.higher_classification",
+        "rel2": "ns:biology.animal_breed.breed_of",
         "ent1": "Dog"
     },
     {
-        "?ent0": "FinePix",
-        "rel0": "http://rdf.freebase.com/ns/business.product_line.products",
-        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.company",
-        "rel2": "http://rdf.freebase.com/ns/business.consumer_product.product_line",
-        "ent1": "FinePix"
-    },
-    {
         "?ent0": "Luke Skywalker",
-        "rel0": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.appears_in_these_fictional_universes",
-        "rel1": "http://rdf.freebase.com/ns/fictional_universe.fictional_universe.organizations",
-        "rel2": "http://rdf.freebase.com/ns/fictional_universe.fictional_universe.species",
+        "rel0": "ns:fictional_universe.fictional_character.appears_in_these_fictional_universes",
+        "rel1": "ns:fictional_universe.fictional_universe.organizations",
+        "rel2": "ns:fictional_universe.fictional_universe.species",
         "ent1": "Droid"
     },
     {
         "?ent0": "Death enters the City",
-        "rel0": "http://rdf.freebase.com/ns/base.militaryinfiction.event_in_fiction.location",
-        "rel1": "http://rdf.freebase.com/ns/fictional_universe.fictional_setting.characters_that_have_lived_here",
-        "rel2": "http://rdf.freebase.com/ns/fictional_universe.fictional_setting.fictional_characters_born_here",
+        "rel0": "ns:base.militaryinfiction.event_in_fiction.location",
+        "rel1": "ns:fictional_universe.fictional_setting.characters_that_have_lived_here",
+        "rel2": "ns:fictional_universe.fictional_setting.fictional_characters_born_here",
         "ent1": "Nino"
     },
     {
         "?ent0": "Locus, #445 February 1998",
-        "rel0": "http://rdf.freebase.com/ns/book.magazine_issue.magazine",
-        "rel1": "http://rdf.freebase.com/ns/book.magazine.place_of_publication",
-        "rel2": "http://rdf.freebase.com/ns/book.periodical.language",
+        "rel0": "ns:book.magazine_issue.magazine",
+        "rel1": "ns:book.magazine.place_of_publication",
+        "rel2": "ns:book.periodical.language",
         "ent1": "English Language"
     },
     {
         "?ent0": "Installation art",
-        "rel0": "http://rdf.freebase.com/ns/visual_art.visual_art_form.artists",
-        "rel1": "http://rdf.freebase.com/ns/visual_art.visual_artist.art_series",
-        "rel2": "http://rdf.freebase.com/ns/book.author.works_written",
+        "rel0": "ns:visual_art.visual_art_form.artists",
+        "rel1": "ns:visual_art.visual_artist.art_series",
+        "rel2": "ns:book.author.works_written",
         "ent1": "History of Masculinity"
     },
     {
-        "?ent0": "Dave Gibbons",
-        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_letterer.comic_stories_lettered",
-        "rel1": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.character_created_by",
-        "rel2": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.gender",
-        "ent1": "Female"
-    },
-    {
-        "?ent0": "Sony Cyber-shot DSC-W200",
-        "rel0": "http://rdf.freebase.com/ns/business.consumer_product.company",
-        "rel1": "http://rdf.freebase.com/ns/business.company_product_relationship.company",
-        "rel2": "http://rdf.freebase.com/ns/business.company_product_relationship.consumer_product",
-        "ent1": "Sony Cyber-shot DSC-W200"
-    },
-    {
         "?ent0": "Sister Mary Lazarus",
-        "rel0": "http://rdf.freebase.com/ns/film.film_character.portrayed_in_films",
-        "rel1": "http://rdf.freebase.com/ns/film.performance.actor",
-        "rel2": "http://rdf.freebase.com/ns/film.performance.film",
+        "rel0": "ns:film.film_character.portrayed_in_films",
+        "rel1": "ns:film.performance.actor",
+        "rel2": "ns:film.performance.film",
         "ent1": "Sister Act"
     },
     {
-        "?ent0": "Water programming language",
-        "rel0": "http://rdf.freebase.com/ns/computer.programming_language.language_paradigms",
-        "rel1": "http://rdf.freebase.com/ns/base.schemastaging.context_name.pronunciation",
-        "rel2": "http://rdf.freebase.com/ns/base.ontologies.ontology_instance.equivalent_instances",
-        "ent1": "Water programming language"
-    },
-    {
-        "?ent0": "World Zionist Organization",
-        "rel0": "http://rdf.freebase.com/ns/organization.organization.committees",
-        "rel1": "http://rdf.freebase.com/ns/organization.organization_committee.members",
-        "rel2": "http://rdf.freebase.com/ns/organization.organization_committee.committee_of",
-        "ent1": "World Zionist Organization"
-    },
-    {
         "?ent0": "Angel of Remembrance",
-        "rel0": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.character_created_by",
-        "rel1": "http://rdf.freebase.com/ns/visual_art.visual_artist.art_series",
-        "rel2": "http://rdf.freebase.com/ns/book.author.works_written",
+        "rel0": "ns:fictional_universe.fictional_character.character_created_by",
+        "rel1": "ns:visual_art.visual_artist.art_series",
+        "rel2": "ns:book.author.works_written",
         "ent1": "New Orleans' Bayou Maharajah Arrives in Savannah"
     },
     {
         "?ent0": "Paul R. Frommer",
-        "rel0": "http://rdf.freebase.com/ns/language.language_creator.languages_created",
-        "rel1": "http://rdf.freebase.com/ns/base.schemastaging.context_name.pronunciation",
-        "rel2": "http://rdf.freebase.com/ns/language.human_language.language_family",
+        "rel0": "ns:language.language_creator.languages_created",
+        "rel1": "ns:base.schemastaging.context_name.pronunciation",
+        "rel2": "ns:language.human_language.language_family",
         "ent1": "Constructed language"
     },
     {
-        "?ent0": "Veckans par",
-        "rel0": "http://rdf.freebase.com/ns/tv.sequence_of_tv_episode_segments.segments",
-        "rel1": "http://rdf.freebase.com/ns/tv.tv_episode_segment.episodes",
-        "rel2": "http://rdf.freebase.com/ns/tv.tv_episode_segment.sequence",
-        "ent1": "Veckans par"
-    },
-    {
         "?ent0": "J#",
-        "rel0": "http://rdf.freebase.com/ns/computer.programming_language.influenced_by",
-        "rel1": "http://rdf.freebase.com/ns/computer.programming_language.dialects",
-        "rel2": "http://rdf.freebase.com/ns/base.argumentmaps.thing_of_disputed_value.disparagement",
+        "rel0": "ns:computer.programming_language.influenced_by",
+        "rel1": "ns:computer.programming_language.dialects",
+        "rel2": "ns:base.argumentmaps.thing_of_disputed_value.disparagement",
         "ent1": "Criticism of Java"
     },
     {
         "?ent0": "Gabby Pahinui",
-        "rel0": "http://rdf.freebase.com/ns/music.artist.genre",
-        "rel1": "http://rdf.freebase.com/ns/music.genre.artists",
-        "rel2": "http://rdf.freebase.com/ns/music.genre.albums",
+        "rel0": "ns:music.artist.genre",
+        "rel1": "ns:music.genre.artists",
+        "rel2": "ns:music.genre.albums",
         "ent1": "Honolulu City Lights"
     },
     {
         "?ent0": "National Colored Base Ball League",
-        "rel0": "http://rdf.freebase.com/ns/sports.sports_league.sport",
-        "rel1": "http://rdf.freebase.com/ns/base.schemastaging.context_name.pronunciation",
-        "rel2": "http://rdf.freebase.com/ns/book.book_subject.works",
+        "rel0": "ns:sports.sports_league.sport",
+        "rel1": "ns:base.schemastaging.context_name.pronunciation",
+        "rel2": "ns:book.book_subject.works",
         "ent1": "Crazy '08: How a Cast of Cranks, Rogues, Boneheads, and Magnates Created the Greatest Year in Baseball History"
     },
     {
-        "?ent0": "Icon",
-        "rel0": "http://rdf.freebase.com/ns/computer.programming_language.dialects",
-        "rel1": "http://rdf.freebase.com/ns/computer.programming_language.language_paradigms",
-        "rel2": "http://rdf.freebase.com/ns/computer.programming_language.influenced_by",
-        "ent1": "Icon"
-    },
-    {
-        "?ent0": "Limbo",
-        "rel0": "http://rdf.freebase.com/ns/computer.programming_language.influenced_by",
-        "rel1": "http://rdf.freebase.com/ns/computer.programming_language.dialects",
-        "rel2": "http://rdf.freebase.com/ns/base.schemastaging.context_name.pronunciation",
-        "ent1": "Limbo"
-    },
-    {
         "?ent0": "SOHO-620",
-        "rel0": "http://rdf.freebase.com/ns/astronomy.celestial_object.category",
-        "rel1": "http://rdf.freebase.com/ns/astronomy.celestial_object_category.objects",
-        "rel2": "http://rdf.freebase.com/ns/astronomy.celestial_object_category.subcategory_of",
+        "rel0": "ns:astronomy.celestial_object.category",
+        "rel1": "ns:astronomy.celestial_object_category.objects",
+        "rel2": "ns:astronomy.celestial_object_category.subcategory_of",
         "ent1": "Small Solar System body"
     },
     {
         "?ent0": "Soul Sister",
-        "rel0": "http://rdf.freebase.com/ns/award.award_nominated_work.award_nominations",
-        "rel1": "http://rdf.freebase.com/ns/award.award_nomination.award",
-        "rel2": "http://rdf.freebase.com/ns/award.award_nomination.award_nominee",
+        "rel0": "ns:award.award_nominated_work.award_nominations",
+        "rel1": "ns:award.award_nomination.award",
+        "rel2": "ns:award.award_nomination.award_nominee",
         "ent1": "Pete Brooks"
     },
     {
-        "?ent0": "United States Constitution",
-        "rel0": "http://rdf.freebase.com/ns/law.constitution.country",
-        "rel1": "http://rdf.freebase.com/ns/base.csafarms.area_served.farms",
-        "rel2": "http://rdf.freebase.com/ns/fictional_universe.fictional_setting.characters_that_have_lived_here",
-        "ent1": "Alek Petrov"
-    },
-    {
-        "?ent0": "Olympus E-510",
-        "rel0": "http://rdf.freebase.com/ns/business.consumer_product.company",
-        "rel1": "http://rdf.freebase.com/ns/business.company_product_relationship.company",
-        "rel2": "http://rdf.freebase.com/ns/business.company_product_relationship.consumer_product",
-        "ent1": "Olympus E-510"
-    },
-    {
-        "?ent0": "Hinduism",
-        "rel0": "http://rdf.freebase.com/ns/religion.religion.places_of_worship_historical",
-        "rel1": "http://rdf.freebase.com/ns/religion.place_of_worship_historical_use.place_of_worship",
-        "rel2": "http://rdf.freebase.com/ns/religion.place_of_worship_historical_use.religion",
-        "ent1": "Hinduism"
-    },
-    {
         "?ent0": "Barack Obama presidential primary campaign, 2008",
-        "rel0": "http://rdf.freebase.com/ns/government.us_presidential_campaign.running_mate",
-        "rel1": "http://rdf.freebase.com/ns/government.election_campaign.candidate",
-        "rel2": "http://rdf.freebase.com/ns/government.election_campaign.party",
+        "rel0": "ns:government.us_presidential_campaign.running_mate",
+        "rel1": "ns:government.election_campaign.candidate",
+        "rel2": "ns:government.election_campaign.party",
         "ent1": "Democratic Party"
     },
     {
-        "?ent0": "Seppala Siberian Sleddog",
-        "rel0": "http://rdf.freebase.com/ns/biology.organism_classification.higher_classification",
-        "rel1": "http://rdf.freebase.com/ns/base.ecology.food_web_member.eaten_by",
-        "rel2": "http://rdf.freebase.com/ns/biology.organism_classification.child_classifications",
-        "ent1": "Seppala Siberian Sleddog"
-    },
-    {
-        "?ent0": "Chromosome 19 (human)",
-        "rel0": "http://rdf.freebase.com/ns/biology.chromosome.band",
-        "rel1": "http://rdf.freebase.com/ns/biology.cytogenetic_band.locus",
-        "rel2": "http://rdf.freebase.com/ns/biology.cytogenetic_band.chromosome",
-        "ent1": "Chromosome 19 (human)"
-    },
-    {
-        "?ent0": "CLACL",
-        "rel0": "http://rdf.freebase.com/ns/computer.programming_language.influenced_by",
-        "rel1": "http://rdf.freebase.com/ns/computer.programming_language.dialects",
-        "rel2": "http://rdf.freebase.com/ns/base.schemastaging.context_name.pronunciation",
-        "ent1": "CLACL"
-    },
-    {
-        "?ent0": "Steve Lieber",
-        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_inker.comic_covers_inked",
-        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.contents",
-        "rel2": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.cover_inks",
-        "ent1": "Steve Lieber"
-    },
-    {
-        "?ent0": "Catholicism",
-        "rel0": "http://rdf.freebase.com/ns/religion.religion.places_of_worship_historical",
-        "rel1": "http://rdf.freebase.com/ns/religion.place_of_worship_historical_use.place_of_worship",
-        "rel2": "http://rdf.freebase.com/ns/religion.place_of_worship_historical_use.religion",
-        "ent1": "Catholicism"
-    },
-    {
         "?ent0": "Cotton 0.05 injectable solution",
-        "rel0": "http://rdf.freebase.com/ns/medicine.drug_formulation.active_ingredient_moieties",
-        "rel1": "http://rdf.freebase.com/ns/medicine.drug_ingredient.active_ingredient_of_formulation",
-        "rel2": "http://rdf.freebase.com/ns/medicine.drug_ingredient.active_moiety_of_drug",
+        "rel0": "ns:medicine.drug_formulation.active_ingredient_moieties",
+        "rel1": "ns:medicine.drug_ingredient.active_ingredient_of_formulation",
+        "rel2": "ns:medicine.drug_ingredient.active_moiety_of_drug",
         "ent1": "Gossypium hirsutum leaf extract"
     },
     {
-        "?ent0": "Baroness",
-        "rel0": "http://rdf.freebase.com/ns/royalty.noble_rank.gender",
-        "rel1": "http://rdf.freebase.com/ns/base.pethealth.pet_disease_risk_factor.pet_diseases_with_this_risk_factor",
-        "rel2": "http://rdf.freebase.com/ns/award.award_discipline.awards_in_this_discipline",
-        "ent1": "SFX Award for Best Actress"
-    },
-    {
-        "?ent0": "Soyuz programme",
-        "rel0": "http://rdf.freebase.com/ns/spaceflight.space_program.sponsor",
-        "rel1": "http://rdf.freebase.com/ns/biology.breed_origin.breeds_originating_here",
-        "rel2": "http://rdf.freebase.com/ns/olympics.olympic_participating_country.athletes",
-        "ent1": "Soyuz programme"
-    },
-    {
-        "?ent0": "Goat",
-        "rel0": "http://rdf.freebase.com/ns/biology.organism_classification.higher_classification",
-        "rel1": "http://rdf.freebase.com/ns/biology.organism_classification.rank",
-        "rel2": "http://rdf.freebase.com/ns/biology.organism_classification.lower_classifications",
-        "ent1": "Goat"
-    },
-    {
         "?ent0": "Can't Leave 'em Alone",
-        "rel0": "http://rdf.freebase.com/ns/music.composition.composer",
-        "rel1": "http://rdf.freebase.com/ns/music.artist.genre",
-        "rel2": "http://rdf.freebase.com/ns/music.artist.origin",
+        "rel0": "ns:music.composition.composer",
+        "rel1": "ns:music.artist.genre",
+        "rel2": "ns:music.artist.origin",
         "ent1": "Pleasantville"
     },
     {
-        "?ent0": "Beanie Buddy",
-        "rel0": "http://rdf.freebase.com/ns/base.argumentmaps.original_idea.variation_of_idea",
-        "rel1": "http://rdf.freebase.com/ns/base.argumentmaps.variation_of_idea.older_idea",
-        "rel2": "http://rdf.freebase.com/ns/base.argumentmaps.variation_of_idea.idea",
-        "ent1": "Beanie Buddy"
-    },
-    {
         "?ent0": "Buenos Aires",
-        "rel0": "http://rdf.freebase.com/ns/music.composition.composer",
-        "rel1": "http://rdf.freebase.com/ns/book.author.works_written",
-        "rel2": "http://rdf.freebase.com/ns/music.artist.genre",
+        "rel0": "ns:music.composition.composer",
+        "rel1": "ns:book.author.works_written",
+        "rel2": "ns:music.artist.genre",
         "ent1": "Musical theatre"
     },
     {
-        "?ent0": "Inside forward",
-        "rel0": "http://rdf.freebase.com/ns/sports.sports_position.sport",
-        "rel1": "http://rdf.freebase.com/ns/organization.club_interest.clubs",
-        "rel2": "http://rdf.freebase.com/ns/olympics.olympic_participating_country.athletes",
-        "ent1": "Inside forward"
-    },
-    {
         "?ent0": "phosphatidylserine biosynthetic process",
-        "rel0": "http://rdf.freebase.com/ns/biology.gene_group.gene",
-        "rel1": "http://rdf.freebase.com/ns/biology.gene_group_membership.evidence",
-        "rel2": "http://rdf.freebase.com/ns/biology.gene_group_membership.gene",
+        "rel0": "ns:biology.gene_group.gene",
+        "rel1": "ns:biology.gene_group_membership.evidence",
+        "rel2": "ns:biology.gene_group_membership.gene",
         "ent1": "phosphatidylserine synthase 2"
     },
     {
-        "?ent0": "Mahayana",
-        "rel0": "http://rdf.freebase.com/ns/religion.religion.places_of_worship_historical",
-        "rel1": "http://rdf.freebase.com/ns/religion.place_of_worship_historical_use.place_of_worship",
-        "rel2": "http://rdf.freebase.com/ns/religion.place_of_worship_historical_use.religion",
-        "ent1": "Mahayana"
-    },
-    {
-        "?ent0": "Eugene Tsui",
-        "rel0": "http://rdf.freebase.com/ns/book.author.works_written",
-        "rel1": "http://rdf.freebase.com/ns/book.book.editions",
-        "rel2": "http://rdf.freebase.com/ns/book.written_work.author",
-        "ent1": "Eugene Tsui"
-    },
-    {
-        "?ent0": "Bokator",
-        "rel0": "http://rdf.freebase.com/ns/martial_arts.martial_art.category",
-        "rel1": "http://rdf.freebase.com/ns/base.schemastaging.context_name.pronunciation",
-        "rel2": "http://rdf.freebase.com/ns/martial_arts.martial_art_category.martial_arts",
-        "ent1": "Muay Thai"
-    },
-    {
         "?ent0": "Puritan",
-        "rel0": "http://rdf.freebase.com/ns/religion.religion.branched_into",
-        "rel1": "http://rdf.freebase.com/ns/religion.religion.is_part_of",
-        "rel2": "http://rdf.freebase.com/ns/religion.religion.founding_figures",
+        "rel0": "ns:religion.religion.branched_into",
+        "rel1": "ns:religion.religion.is_part_of",
+        "rel2": "ns:religion.religion.founding_figures",
         "ent1": "George Fox"
     },
     {
         "?ent0": "Ottawa City Councilor",
-        "rel0": "http://rdf.freebase.com/ns/government.government_office_or_title.office_holders",
-        "rel1": "http://rdf.freebase.com/ns/government.government_position_held.governmental_body",
-        "rel2": "http://rdf.freebase.com/ns/government.government_position_held.office_holder",
+        "rel0": "ns:government.government_office_or_title.office_holders",
+        "rel1": "ns:government.government_position_held.governmental_body",
+        "rel2": "ns:government.government_position_held.office_holder",
         "ent1": "Jim Watson"
     },
     {
-        "?ent0": "Nenad Zimonjić",
-        "rel0": "http://rdf.freebase.com/ns/olympics.olympic_athlete.country",
-        "rel1": "http://rdf.freebase.com/ns/olympics.olympic_athlete_affiliation.country",
-        "rel2": "http://rdf.freebase.com/ns/olympics.olympic_athlete_affiliation.athlete",
-        "ent1": "Nenad Zimonjić"
-    },
-    {
         "?ent0": "Chevrolet",
-        "rel0": "http://rdf.freebase.com/ns/automotive.make.model_s",
-        "rel1": "http://rdf.freebase.com/ns/automotive.model.generations",
-        "rel2": "http://rdf.freebase.com/ns/base.cars_refactor.model.generations",
+        "rel0": "ns:automotive.make.model_s",
+        "rel1": "ns:automotive.model.generations",
+        "rel2": "ns:base.cars_refactor.model.generations",
         "ent1": "Chevrolet Corvette (C5)"
     },
     {
-        "?ent0": "Canon PowerShot S3 IS",
-        "rel0": "http://rdf.freebase.com/ns/business.consumer_product.company",
-        "rel1": "http://rdf.freebase.com/ns/business.company_product_relationship.company",
-        "rel2": "http://rdf.freebase.com/ns/business.company_product_relationship.consumer_product",
-        "ent1": "Canon PowerShot S3 IS"
-    },
-    {
         "?ent0": "Algebraic Logic Functional programming language",
-        "rel0": "http://rdf.freebase.com/ns/computer.programming_language.language_paradigms",
-        "rel1": "http://rdf.freebase.com/ns/base.schemastaging.context_name.pronunciation",
-        "rel2": "http://rdf.freebase.com/ns/book.book_subject.works",
+        "rel0": "ns:computer.programming_language.language_paradigms",
+        "rel1": "ns:base.schemastaging.context_name.pronunciation",
+        "rel2": "ns:book.book_subject.works",
         "ent1": "Programming in Haskell"
-    },
-    {
-        "?ent0": "Danny Hillis",
-        "rel0": "http://rdf.freebase.com/ns/book.author.works_written",
-        "rel1": "http://rdf.freebase.com/ns/book.book.editions",
-        "rel2": "http://rdf.freebase.com/ns/book.written_work.author",
-        "ent1": "Danny Hillis"
     }
 ]
