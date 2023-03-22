@@ -20,7 +20,7 @@ def process(i):
         flag = True
         for key in d:
             if "rel" in key:
-                d[key] = "ns:"+d[key].split("/")[-1]
+                d[key] = {"id":d[key],"name":"ns:"+d[key].split("/")[-1]}
             if "ent" in key:
                 if "rdf.freebase.com" in d[key]:
                     d[key] = "ns:"+d[key].split("/")[-1]
@@ -39,7 +39,7 @@ def process(i):
                     flag = False
                     break
                 existing_ents.append(bind)
-                d[key] = bind
+                d[key] = {"id":d[key],"name":bind}
         if flag:
             final_data.append(d)
         # exit(0)

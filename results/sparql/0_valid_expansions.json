@@ -1,0 +1,688 @@
+[
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0hng4f7)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0hng4f7 ns:astronomy.galaxy_classification_code.galaxy_shape ?x .\n}\n",
+        "TopicEntityMid": "m.0hng4f7",
+        "mid2name": {
+            "ns:m.0hng4f7": "SAB(s)bc"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0j5g9)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0j5g9 ns:biology.breed_origin.breeds_originating_here ?x .\n}\n",
+        "TopicEntityMid": "m.0j5g9",
+        "mid2name": {
+            "ns:m.0j5g9": "Wales"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01znc_)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01znc_ ns:biology.breed_origin.breeds_originating_here ?x .\n}\n",
+        "TopicEntityMid": "m.01znc_",
+        "mid2name": {
+            "ns:m.01znc_": "Turkey"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01d9br6)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01d9br6 ns:music.recording.artist ?x .\n}\n",
+        "TopicEntityMid": "m.01d9br6",
+        "mid2name": {
+            "ns:m.01d9br6": "Rolling Sea"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02mcv2)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02mcv2 ns:medicine.disease_cause.diseases ?x .\n}\n",
+        "TopicEntityMid": "m.02mcv2",
+        "mid2name": {
+            "ns:m.02mcv2": "Erythema"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:g.11byb645nh)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:g.11byb645nh ns:tv.tv_director.episodes_directed ?x .\n}\n",
+        "TopicEntityMid": "g.11byb645nh",
+        "mid2name": {
+            "ns:g.11byb645nh": "Benjamin Caron"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0hwf)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0hwf ns:book.book_subject.works ?x .\n}\n",
+        "TopicEntityMid": "m.0hwf",
+        "mid2name": {
+            "ns:m.0hwf": "Alphabet"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0fpyfbl)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0fpyfbl ns:education.department.department_of ?x .\n}\n",
+        "TopicEntityMid": "m.0fpyfbl",
+        "mid2name": {
+            "ns:m.0fpyfbl": "Stanford Clinical Virology"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0b5_s_)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0b5_s_ ns:base.schemastaging.context_name.pronunciation ?x .\n}\n",
+        "TopicEntityMid": "m.0b5_s_",
+        "mid2name": {
+            "ns:m.0b5_s_": "Prison escape"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01xhh5)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01xhh5 ns:fictional_universe.ethnicity_in_fiction.characters_of_this_ethnicity ?x .\n}\n",
+        "TopicEntityMid": "m.01xhh5",
+        "mid2name": {
+            "ns:m.01xhh5": "Koreans"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0dvn_0v)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0dvn_0v ns:music.album.artist ?x .\n}\n",
+        "TopicEntityMid": "m.0dvn_0v",
+        "mid2name": {
+            "ns:m.0dvn_0v": "Body Language, Volume 5"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01fwjq)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01fwjq ns:education.educational_degree.people_with_this_degree ?x .\n}\n",
+        "TopicEntityMid": "m.01fwjq",
+        "mid2name": {
+            "ns:m.01fwjq": "Matura"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.018w8)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.018w8 ns:book.book_subject.works ?x .\n}\n",
+        "TopicEntityMid": "m.018w8",
+        "mid2name": {
+            "ns:m.018w8": "Basketball"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0ch9cyf)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0ch9cyf ns:ice_hockey.hockey_conference.divisions ?x .\n}\n",
+        "TopicEntityMid": "m.0ch9cyf",
+        "mid2name": {
+            "ns:m.0ch9cyf": "Western Conference"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.09k2g03)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.09k2g03 ns:music.artist.contribution ?x .\n}\n",
+        "TopicEntityMid": "m.09k2g03",
+        "mid2name": {
+            "ns:m.09k2g03": "Jean-Pierre Sabiani"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.038fx_)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.038fx_ ns:biology.breed_registry.breed_groups ?x .\n}\n",
+        "TopicEntityMid": "m.038fx_",
+        "mid2name": {
+            "ns:m.038fx_": "United Kennel Club"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.06msq)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.06msq ns:visual_art.visual_art_form.artists ?x .\n}\n",
+        "TopicEntityMid": "m.06msq",
+        "mid2name": {
+            "ns:m.06msq": "Sculpture"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0375_h)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0375_h ns:fictional_universe.fictional_character.appears_in_these_fictional_universes ?x .\n}\n",
+        "TopicEntityMid": "m.0375_h",
+        "mid2name": {
+            "ns:m.0375_h": "Mary Russell"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0289fzx)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0289fzx ns:government.legislative_committee.subcommittee_of ?x .\n}\n",
+        "TopicEntityMid": "m.0289fzx",
+        "mid2name": {
+            "ns:m.0289fzx": "United States Senate Foreign Relations Subcommittee on Near East, South Asia, Central Asia and Counterterrorism"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.05yvrzx)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.05yvrzx ns:fictional_universe.fictional_character.gender ?x .\n}\n",
+        "TopicEntityMid": "m.05yvrzx",
+        "mid2name": {
+            "ns:m.05yvrzx": "The Emperor of China"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0cr8ts)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0cr8ts ns:sports.sports_team.league ?x .\n}\n",
+        "TopicEntityMid": "m.0cr8t",
+        "mid2name": {
+            "ns:m.0cr8ts": "Córdoba CF"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0gvgd)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0gvgd ns:fictional_universe.fictional_character.has_possessed ?x .\n}\n",
+        "TopicEntityMid": "m.0gvgd",
+        "mid2name": {
+            "ns:m.0gvgd": "Samwise Gamgee"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.04crf_2)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.04crf_2 ns:people.person.gender ?x .\n}\n",
+        "TopicEntityMid": "m.04crf_2",
+        "mid2name": {
+            "ns:m.04crf_2": "Jay Stephens"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.07bz5)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.07bz5 ns:base.schemastaging.context_name.pronunciation ?x .\n}\n",
+        "TopicEntityMid": "m.07bz5",
+        "mid2name": {
+            "ns:m.07bz5": "The Lord of the Rings"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.014l6l)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.014l6l ns:tv.tv_program.filming_locations ?x .\n}\n",
+        "TopicEntityMid": "m.014l6l",
+        "mid2name": {
+            "ns:m.014l6l": "Jeopardy!"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0nbvthl)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0nbvthl ns:music.concert.venue ?x .\n}\n",
+        "TopicEntityMid": "m.0nbvthl",
+        "mid2name": {
+            "ns:m.0nbvthl": "Tim Buckley at The Folklore Center"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0f4r5)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0f4r5 ns:organization.organization.parent ?x .\n}\n",
+        "TopicEntityMid": "m.0f4r5",
+        "mid2name": {
+            "ns:m.0f4r5": "United States Bureau of Land Management"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0115clqx)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0115clqx ns:base.lightweight.beer_hop.hops_similar ?x .\n}\n",
+        "TopicEntityMid": "m.0115clqx",
+        "mid2name": {
+            "ns:m.0115clqx": "Centennial"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0hhbr)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0hhbr ns:base.schemastaging.context_name.pronunciation ?x .\n}\n",
+        "TopicEntityMid": "m.0hhbr",
+        "mid2name": {
+            "ns:m.0hhbr": "Art Gallery"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.05n_g3n)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.05n_g3n ns:meteorology.tropical_cyclone.affected_areas ?x .\n}\n",
+        "TopicEntityMid": "m.05n_g3",
+        "mid2name": {
+            "ns:m.05n_g3n": "Cyclone Hamish"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0clpml)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0clpml ns:fictional_universe.fictional_character.appears_in_these_fictional_universes ?x .\n}\n",
+        "TopicEntityMid": "m.0clpml",
+        "mid2name": {
+            "ns:m.0clpml": "James Bond"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03m6rr1)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03m6rr1 ns:business.consumer_product.company ?x .\n}\n",
+        "TopicEntityMid": "m.03m6rr1",
+        "mid2name": {
+            "ns:m.03m6rr1": "Pentax K20D"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02rvzlq)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02rvzlq ns:broadcast.broadcast.area_served ?x .\n}\n",
+        "TopicEntityMid": "m.02rvzlq",
+        "mid2name": {
+            "ns:m.02rvzlq": "CJOC-FM"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.059d5x_)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.059d5x_ ns:comic_books.comic_book_series.publisher ?x .\n}\n",
+        "TopicEntityMid": "m.059d5x_",
+        "mid2name": {
+            "ns:m.059d5x_": "Nexus Meets Madman"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.05mq8mj)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.05mq8mj ns:exhibitions.exhibition.subjects ?x .\n}\n",
+        "TopicEntityMid": "m.05mq8mj",
+        "mid2name": {
+            "ns:m.05mq8mj": "Days in a Life: The Art of Tetsuya Noda"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.027tcfq)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.027tcfq ns:biology.animal_breed.breed_of ?x .\n}\n",
+        "TopicEntityMid": "m.027tcfq",
+        "mid2name": {
+            "ns:m.027tcfq": "Skookum cat"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02rxf8l)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02rxf8l ns:aviation.aircraft.model ?x .\n}\n",
+        "TopicEntityMid": "m.02rxf8l",
+        "mid2name": {
+            "ns:m.02rxf8l": "Glacier Girl"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.07932)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.07932 ns:spaceflight.rocket.launch_sites ?x .\n}\n",
+        "TopicEntityMid": "m.07932",
+        "mid2name": {
+            "ns:m.07932": "Saturn V"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0d53fk)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0d53fk ns:people.professional_field.professions_in_this_field ?x .\n}\n",
+        "TopicEntityMid": "m.0d53fk",
+        "mid2name": {
+            "ns:m.0d53fk": "Independent Content Provider"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0dv4cc9)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0dv4cc9 ns:music.recording.artist ?x .\n}\n",
+        "TopicEntityMid": "m.0dv4cc9",
+        "mid2name": {
+            "ns:m.0dv4cc9": "Moods"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01qsjp)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01qsjp ns:location.location.containedby ?x .\n}\n",
+        "TopicEntityMid": "m.01qsjp",
+        "mid2name": {
+            "ns:m.01qsjp": "Düsseldorf Airport"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.08m8h0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.08m8h0 ns:astronomy.asteroid.member_of_asteroid_group ?x .\n}\n",
+        "TopicEntityMid": "m.08m8h0",
+        "mid2name": {
+            "ns:m.08m8h0": "887 Alinda"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.04d26n3)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.04d26n3 ns:medicine.drug_legal_status.country ?x .\n}\n",
+        "TopicEntityMid": "m.04d26n3",
+        "mid2name": {
+            "ns:m.04d26n3": "Schedule III (CSA)"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0cvm6d9)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0cvm6d9 ns:business.consumer_product.company ?x .\n}\n",
+        "TopicEntityMid": "m.0cvm6d9",
+        "mid2name": {
+            "ns:m.0cvm6d9": "Kona Cinder Cone"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01825t)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01825t ns:base.schemastaging.context_name.pronunciation ?x .\n}\n",
+        "TopicEntityMid": "m.01825t",
+        "mid2name": {
+            "ns:m.01825t": "Virgo Supercluster"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.06ycyqg)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.06ycyqg ns:tv.tv_series_episode.series ?x .\n}\n",
+        "TopicEntityMid": "m.06ycyqg",
+        "mid2name": {
+            "ns:m.06ycyqg": "Ep. #1567"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0chghy)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0chghy ns:biology.breed_origin.breeds_originating_here ?x .\n}\n",
+        "TopicEntityMid": "m.0chghy",
+        "mid2name": {
+            "ns:m.0chghy": "Australia"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.05btx7s)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.05btx7s ns:people.person.gender ?x .\n}\n",
+        "TopicEntityMid": "m.05btx7",
+        "mid2name": {
+            "ns:m.05btx7s": "David Lai"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0jb95w7)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0jb95w7 ns:business.product_line.products ?x .\n}\n",
+        "TopicEntityMid": "m.0jb95w7",
+        "mid2name": {
+            "ns:m.0jb95w7": "Olympus OM-D"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03fgdf)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03fgdf ns:base.schemastaging.context_name.pronunciation ?x .\n}\n",
+        "TopicEntityMid": "m.03fgdf",
+        "mid2name": {
+            "ns:m.03fgdf": "King Dedede"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0dtdq)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0dtdq ns:religion.religion.is_part_of ?x .\n}\n",
+        "TopicEntityMid": "m.0dtdq",
+        "mid2name": {
+            "ns:m.0dtdq": "Jehovah's Witnesses"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.08nj_28)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.08nj_28 ns:sports.tournament_event.competitions ?x .\n}\n",
+        "TopicEntityMid": "m.08nj_28",
+        "mid2name": {
+            "ns:m.08nj_28": "Men's squash"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0cct4w)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0cct4w ns:music.performance_venue.concerts ?x .\n}\n",
+        "TopicEntityMid": "m.0cct4w",
+        "mid2name": {
+            "ns:m.0cct4w": "1-800-ASK-GARY Amphitheatre"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03gww0f)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03gww0f ns:location.location.geolocation ?x .\n}\n",
+        "TopicEntityMid": "m.03gww0f",
+        "mid2name": {
+            "ns:m.03gww0f": "Fashion Place"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02l0kp0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02l0kp0 ns:computer.file_format.used_on ?x .\n}\n",
+        "TopicEntityMid": "m.02l0kp0",
+        "mid2name": {
+            "ns:m.02l0kp0": "Fts"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.05hg5lh)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.05hg5lh ns:business.consumer_product.brand ?x .\n}\n",
+        "TopicEntityMid": "m.05hg5lh",
+        "mid2name": {
+            "ns:m.05hg5lh": "1990 Happy Holidays Barbie #04543"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0b1nd5m)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0b1nd5m ns:book.book_edition_series.part_of_series ?x .\n}\n",
+        "TopicEntityMid": "m.0b1nd5m",
+        "mid2name": {
+            "ns:m.0b1nd5m": "Easy Series 24 Pack (Regular)"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.06tnny)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.06tnny ns:music.composer.compositions ?x .\n}\n",
+        "TopicEntityMid": "m.06tnny",
+        "mid2name": {
+            "ns:m.06tnny": "Ric Wake"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0111fnnk)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0111fnnk ns:theater.theatrical_composer.plays_composed ?x .\n}\n",
+        "TopicEntityMid": "m.0111fnnk",
+        "mid2name": {
+            "ns:m.0111fnnk": "Jared Field"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0gf88q1)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0gf88q1 ns:medicine.vector_of_disease.disease ?x .\n}\n",
+        "TopicEntityMid": "m.0gf88q1",
+        "mid2name": {
+            "ns:m.0gf88q1": "Elephantulus myurus"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03fkyw)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03fkyw ns:business.business_operation.industry ?x .\n}\n",
+        "TopicEntityMid": "m.03fkyw",
+        "mid2name": {
+            "ns:m.03fkyw": "SpaceX"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.023xnd)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.023xnd ns:business.business_operation.industry ?x .\n}\n",
+        "TopicEntityMid": "m.023xnd",
+        "mid2name": {
+            "ns:m.023xnd": "Outback Steakhouse"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.065s741)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.065s741 ns:business.product_ingredient.used_in_products ?x .\n}\n",
+        "TopicEntityMid": "m.065s741",
+        "mid2name": {
+            "ns:m.065s741": "Milled Corn"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.05mwlr)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.05mwlr ns:transportation.highway_system.highways ?x .\n}\n",
+        "TopicEntityMid": "m.05mwlr",
+        "mid2name": {
+            "ns:m.05mwlr": "US county highway"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0f2_8)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0f2_8 ns:astronomy.celestial_object.category ?x .\n}\n",
+        "TopicEntityMid": "m.0f2_8",
+        "mid2name": {
+            "ns:m.0f2_8": "Betelgeuse"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02nqg65)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02nqg65 ns:digicams.camera_iso.cameras ?x .\n}\n",
+        "TopicEntityMid": "m.02nqg65",
+        "mid2name": {
+            "ns:m.02nqg65": "High ISO Auto"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.011cf36x)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.011cf36x ns:time.holiday.featured_in_religions ?x .\n}\n",
+        "TopicEntityMid": "m.011cf36x",
+        "mid2name": {
+            "ns:m.011cf36x": "Chol HaMoed Pesach"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.058x5)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.058x5 ns:religion.religion.places_of_worship_historical ?x .\n}\n",
+        "TopicEntityMid": "m.058x5",
+        "mid2name": {
+            "ns:m.058x5": "Mormonism"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.059y5t)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.059y5t ns:astronomy.asteroid.member_of_asteroid_group ?x .\n}\n",
+        "TopicEntityMid": "m.059y5t",
+        "mid2name": {
+            "ns:m.059y5t": "423 Diotima"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03dfh34)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03dfh34 ns:comic_books.comic_book_issue.cover_colors ?x .\n}\n",
+        "TopicEntityMid": "m.03dfh34",
+        "mid2name": {
+            "ns:m.03dfh34": "Batman #477"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03_9r)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03_9r ns:language.human_language.dialects ?x .\n}\n",
+        "TopicEntityMid": "m.03_9r",
+        "mid2name": {
+            "ns:m.03_9r": "Japanese Language"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.059d139)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.059d139 ns:comic_books.comic_book_issue.editor ?x .\n}\n",
+        "TopicEntityMid": "m.059d139",
+        "mid2name": {
+            "ns:m.059d139": "Mr. Gum #1"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01vhl6)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01vhl6 ns:business.business_operation.industry ?x .\n}\n",
+        "TopicEntityMid": "m.01vhl6",
+        "mid2name": {
+            "ns:m.01vhl6": "Rocketdyne"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0234yt)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0234yt ns:religion.religion.founding_figures ?x .\n}\n",
+        "TopicEntityMid": "m.0234yt",
+        "mid2name": {
+            "ns:m.0234yt": "Fundamentalist Church of Jesus Christ of Latter-Day Saints"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0x1tfbt)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0x1tfbt ns:tv.tv_program.country_of_origin ?x .\n}\n",
+        "TopicEntityMid": "m.0x1tfbt",
+        "mid2name": {
+            "ns:m.0x1tfbt": "Dancing with Spirit"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.027v4qc)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.027v4qc ns:location.location.geolocation ?x .\n}\n",
+        "TopicEntityMid": "m.027v4qc",
+        "mid2name": {
+            "ns:m.027v4qc": "Paco Catholic School"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0mj6m)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0mj6m ns:base.firsts.achievement.firsts ?x .\n}\n",
+        "TopicEntityMid": "m.0mj6m",
+        "mid2name": {
+            "ns:m.0mj6m": "Earth orbit"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01f2y9)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01f2y9 ns:base.schemastaging.context_name.pronunciation ?x .\n}\n",
+        "TopicEntityMid": "m.01f2y9",
+        "mid2name": {
+            "ns:m.01f2y9": "Order of the British Empire"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0fv3w7)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0fv3w7 ns:fictional_universe.fictional_setting.characters_that_have_lived_here ?x .\n}\n",
+        "TopicEntityMid": "m.0fv3w7",
+        "mid2name": {
+            "ns:m.0fv3w7": "Mygdonia"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01j6t)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01j6t ns:book.author.works_written ?x .\n}\n",
+        "TopicEntityMid": "m.01j6t",
+        "mid2name": {
+            "ns:m.01j6t": "Barry Goldwater"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0jsgpmz)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0jsgpmz ns:olympics.olympic_mascot.olympic_games ?x .\n}\n",
+        "TopicEntityMid": "m.0jsgpmz",
+        "mid2name": {
+            "ns:m.0jsgpmz": "Fuwa: Yingying"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.063y_gv)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.063y_gv ns:people.person.gender ?x .\n}\n",
+        "TopicEntityMid": "m.063y_gv",
+        "mid2name": {
+            "ns:m.063y_gv": "Johnny Hanks"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02hr7kz)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02hr7kz ns:comic_books.comic_book_inker.comic_covers_inked ?x .\n}\n",
+        "TopicEntityMid": "m.02hr7kz",
+        "mid2name": {
+            "ns:m.02hr7kz": "Ron Chan"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.099j3v)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.099j3v ns:people.person.gender ?x .\n}\n",
+        "TopicEntityMid": "m.099j3v",
+        "mid2name": {
+            "ns:m.099j3v": "James R. Zazzali"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0fj9f)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0fj9f ns:user.narphorium.default_domain.job_title.professions ?x .\n}\n",
+        "TopicEntityMid": "m.0fj9f",
+        "mid2name": {
+            "ns:m.0fj9f": "Politician"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03f17t8)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03f17t8 ns:music.artist.genre ?x .\n}\n",
+        "TopicEntityMid": "m.03f17t8",
+        "mid2name": {
+            "ns:m.03f17t8": "Geoff Foster"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0hqh_)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0hqh_ ns:base.schemastaging.context_name.pronunciation ?x .\n}\n",
+        "TopicEntityMid": "m.0hqh_",
+        "mid2name": {
+            "ns:m.0hqh_": "Windows 1.0"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0j1y6wf)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0j1y6wf ns:book.illustrator.magazine_covers ?x .\n}\n",
+        "TopicEntityMid": "m.0j1y6wf",
+        "mid2name": {
+            "ns:m.0j1y6wf": "Brian Leister"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.08059cj)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.08059cj ns:law.court.superior_courts ?x .\n}\n",
+        "TopicEntityMid": "m.08059cj",
+        "mid2name": {
+            "ns:m.08059cj": "Supreme Court of Judicature"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0jxrwr4)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0jxrwr4 ns:medicine.drug_physiologic_effect.drugs_with_this_physiologic_effect ?x .\n}\n",
+        "TopicEntityMid": "m.0jxrwr4",
+        "mid2name": {
+            "ns:m.0jxrwr4": "Decreased Blood Pressure"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0wzc8fm)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0wzc8fm ns:award.award_nominated_work.award_nominations ?x .\n}\n",
+        "TopicEntityMid": "m.0wzc8fm",
+        "mid2name": {
+            "ns:m.0wzc8fm": "Desire Under the Elms"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.092bf5)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.092bf5 ns:religion.religion.places_of_worship_historical ?x .\n}\n",
+        "TopicEntityMid": "m.092bf5",
+        "mid2name": {
+            "ns:m.092bf5": "Buddhism"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01w7nwc)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01w7nwc ns:music.artist.genre ?x .\n}\n",
+        "TopicEntityMid": "m.01w7nwc",
+        "mid2name": {
+            "ns:m.01w7nwc": "Necro"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01kdmy)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01kdmy ns:computer.computer_processor.manufacturers ?x .\n}\n",
+        "TopicEntityMid": "m.01kdmy",
+        "mid2name": {
+            "ns:m.01kdmy": "x86-64"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.09v1sts)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.09v1sts ns:music.compositional_form.superforms ?x .\n}\n",
+        "TopicEntityMid": "m.09v1st",
+        "mid2name": {
+            "ns:m.09v1sts": "Timpani concerto"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0256dx7)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0256dx7 ns:meteorology.tropical_cyclone_category.Beaufort_scale ?x .\n}\n",
+        "TopicEntityMid": "m.0256dx7",
+        "mid2name": {
+            "ns:m.0256dx7": "Tropical Storm (JTWC)"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.068dr1)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.068dr1 ns:base.skosbase.vocabulary_equivalent_topic.equivalent_concept ?x .\n}\n",
+        "TopicEntityMid": "m.068dr1",
+        "mid2name": {
+            "ns:m.068dr1": "Barbacoa"
+        }
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0c79_s)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0c79_s ns:ice_hockey.hockey_division.teams ?x .\n}\n",
+        "TopicEntityMid": "m.0c79_",
+        "mid2name": {
+            "ns:m.0c79_s": "Central Division"
+        }
+    }
+]

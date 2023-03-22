@@ -244,7 +244,7 @@
           "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel2\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (?rel0 != ?rel1)\nFILTER (?rel1 != ?rel2)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?x ?rel2 ?ent1 .}\n",
           "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?ent1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (?rel0 != ?rel1)\nFILTER (?rel1 != ?rel2)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?x ?rel2 ?ent1 .}\n"
         ],
-        "masked_sparql":"PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?x ?rel2 ?ent1 .\n}\n",
+        "masked_query":"PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?x ?rel2 ?ent1 .\n}\n",
         "PotentialTopicEntityMention": "jerry rice",
         "TopicEntityName": "Jerry Rice",
         "TopicEntityMid": "m.0240vt",

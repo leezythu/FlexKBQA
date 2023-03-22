@@ -1,0 +1,11 @@
+python ./scripts/annotate_kb_program.py --dataset wikitq \
+--dataset_split grail_sparql_train \
+--prompt_file templates/prompts/nl2sparql.txt \
+--output_file binder_program_wikitq_validation_replica_2.json \
+--n_parallel_prompts 1 \
+--max_generation_tokens 512 \
+--temperature 0.4 \
+--sampling_n 1 \
+--n_processes 1 \
+--n_shots 0 \
+-v
