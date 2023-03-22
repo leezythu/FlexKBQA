@@ -33,10 +33,12 @@ def worker_annotate(
     built_few_shot_prompts = []
     for g_eid in g_eids:
         cnt+=1
-        if cnt>2:
+        if cnt>100:
             break
         # try:
         g_data_item = dataset[g_eid]
+        # print("g_data_item")
+        # print(g_data_item)
         g_dict[g_eid] = {
             'generations': [],
             'ori_data_item': copy.deepcopy(g_data_item)
@@ -50,7 +52,6 @@ def worker_annotate(
         )
         prompt = few_shot_prompt + "\n\n" + generate_prompt
         # print(prompt)
-        # exit(0)
         # print(len(tokenizer.tokenize(few_shot_prompt)))
         # print(len(tokenizer.tokenize(generate_prompt)))
         # print(len(tokenizer.tokenize(prompt)))
@@ -66,7 +67,7 @@ def worker_annotate(
         #     )
         #     prompt = few_shot_prompt + "\n\n" + generate_prompt
 
-        print(f"Process#{pid}: Building prompt for eid#{g_eid}, original_id#{g_data_item['qid']}")
+        print(f"Process#{pid}: Building prompt for eid#{g_eid}")
         built_few_shot_prompts.append((g_eid, prompt))
         if len(built_few_shot_prompts) < args.n_parallel_prompts:
             continue
@@ -166,7 +167,7 @@ if __name__ == '__main__':
     parser.add_argument('--api_keys_file', type=str, default='key.txt')
     parser.add_argument('--prompt_file', type=str, default='templates/prompts/wikitq_binder.txt')
     parser.add_argument('--output_file', type=str)
-    parser.add_argument('--save_dir', type=str, default='results/')
+    parser.add_argument('--save_dir', type=str)
 
     # Multiprocess options
     parser.add_argument('--n_processes', type=int, default=2)
@@ -186,7 +187,7 @@ if __name__ == '__main__':
     parser.add_argument('--seed', type=int, default=42)
 
     # Codex options
-    parser.add_argument('--engine', type=str, default="code-davinci-002")
+    parser.add_argument('--engine', type=str, default="text-davinci-003")
     parser.add_argument('--n_parallel_prompts', type=int, default=2)
     parser.add_argument('--max_generation_tokens', type=int, default=512)
     parser.add_argument('--max_api_total_tokens', type=int, default=8001)

@@ -68,12 +68,9 @@ class Generator(object):
         """
         generate_prompt = ""
         # generate_prompt += """Parse the question into sparql.\n\n"""
-        generate_prompt += 'question: {}\n'.format(data_item["input"])
-        generate_prompt += 'sparql: '
+        generate_prompt += 's-expression: {}\n'.format(data_item["SExpr_w_name"])
+        generate_prompt += 'question:'
         return generate_prompt
-        # return self.prompt_builder.build_generate_prompt(
-        #     **data_item,
-        # )
 
     def generate_one_pass(
             self,

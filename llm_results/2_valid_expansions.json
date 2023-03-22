@@ -1,0 +1,1702 @@
+{
+    "0": {
+        "generations": [
+            [
+                "what day is national brandy alexander day?",
+                -1.6914932033230001
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0_lz5q7)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0_lz5q7 ns:base.schemastaging.holiday_extra.observance_rule ?x .\n?x ns:base.schemastaging.holiday_fixed_date_observance_rule.day_of_month ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0_lz5q7",
+            "mid2name": {
+                "ns:m.0_lz5q7": "National Brandy Alexander Day"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R base.schemastaging.holiday_extra.observance_rule) National Brandy Alexander Day) base.schemastaging.holiday_fixed_date_observance_rule.day_of_month)",
+            "SExpr": "(ARGMAX (JOIN (R base.schemastaging.holiday_extra.observance_rule) m.0_lz5q7) base.schemastaging.holiday_fixed_date_observance_rule.day_of_month)"
+        }
+    },
+    "1": {
+        "generations": [
+            [
+                "where was the most affected by cyclone indlala?",
+                -2.9343070937099998
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03m3yyq)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03m3yyq ns:meteorology.tropical_cyclone.affected_areas ?x .\n?x ns:topic_server.population_number ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.03m3yyq",
+            "mid2name": {
+                "ns:m.03m3yyq": "Cyclone Indlala"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R meteorology.tropical_cyclone.affected_areas) Cyclone Indlala) topic_server.population_number)",
+            "SExpr": "(ARGMAX (JOIN (R meteorology.tropical_cyclone.affected_areas) m.03m3yyq) topic_server.population_number)"
+        }
+    },
+    "2": {
+        "generations": [
+            [
+                "what is the top speed of a kangaroo?",
+                -2.11776520109
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.04c0y)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.04c0y ns:base.animal_synopses.animal_synopsis.speed ?x .\n?x ns:base.qualified_values.qualified_value.high_value ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.04c0y",
+            "mid2name": {
+                "ns:m.04c0y": "Kangaroo"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R base.animal_synopses.animal_synopsis.speed) Kangaroo) base.qualified_values.qualified_value.high_value)",
+            "SExpr": "(ARGMAX (JOIN (R base.animal_synopses.animal_synopsis.speed) m.04c0y) base.qualified_values.qualified_value.high_value)"
+        }
+    },
+    "3": {
+        "generations": [
+            [
+                "what is the population of the united states?",
+                -1.9845188832999998
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.07sdd)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.07sdd ns:law.constitution.country ?x .\n?x ns:topic_server.population_number ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.07sdd",
+            "mid2name": {
+                "ns:m.07sdd": "United States Constitution"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R law.constitution.country) United States Constitution) topic_server.population_number)",
+            "SExpr": "(ARGMAX (JOIN (R law.constitution.country) m.07sdd) topic_server.population_number)"
+        }
+    },
+    "4": {
+        "generations": [
+            [
+                "which face it radiance foundation spf20 nb23 4.5/11.476 cream is most popular?",
+                -3.18570836234
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0hqqm1z)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0hqqm1z ns:medicine.manufactured_drug_form.available_in ?x .\n?x ns:topic_server.population_number ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0hqqm1z",
+            "mid2name": {
+                "ns:m.0hqqm1z": "Face It Radiance Foundation Spf20 Nb23 4.5/11.476 cream"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R medicine.manufactured_drug_form.available_in) Face It Radiance Foundation Spf20 Nb23 4.5/11.476 cream) topic_server.population_number)",
+            "SExpr": "(ARGMAX (JOIN (R medicine.manufactured_drug_form.available_in) m.0hqqm1z) topic_server.population_number)"
+        }
+    },
+    "5": {
+        "generations": [
+            [
+                "what is the maximum thrust of unsymmetrical dimethylhydrazine rocket engines?",
+                -2.2369388703499995
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.017q1y)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.017q1y ns:spaceflight.rocket_engine_fuel.rocket_engines ?x .\n?x ns:spaceflight.rocket_engine.thrust_vacuum ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.017q1y",
+            "mid2name": {
+                "ns:m.017q1y": "Unsymmetrical dimethylhydrazine"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R spaceflight.rocket_engine_fuel.rocket_engines) Unsymmetrical dimethylhydrazine) spaceflight.rocket_engine.thrust_vacuum)",
+            "SExpr": "(ARGMAX (JOIN (R spaceflight.rocket_engine_fuel.rocket_engines) m.017q1y) spaceflight.rocket_engine.thrust_vacuum)"
+        }
+    },
+    "6": {
+        "generations": [
+            [
+                "what is the highest version of operating system compatible with iMac G5?",
+                -5.9145594600699996
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:g.11vt9ngk5)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:g.11vt9ngk5 ns:computer.computer.compatible_oses ?x .\n?x ns:computer.os_compatibility.dot_version_high ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "g.11vt9ngk5",
+            "mid2name": {
+                "ns:g.11vt9ngk5": "iMac G5"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R computer.computer.compatible_oses) iMac G5) computer.os_compatibility.dot_version_high)",
+            "SExpr": "(ARGMAX (JOIN (R computer.computer.compatible_oses) g.11vt9ngk5) computer.os_compatibility.dot_version_high)"
+        }
+    },
+    "7": {
+        "generations": [
+            [
+                "what is the largest country to have watched the freddie mercury tribute: concert for aids awareness?",
+                -8.815931443109001
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0gh2mz9)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0gh2mz9 ns:film.film.country ?x .\n?x ns:topic_server.population_number ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0gh2mz9",
+            "mid2name": {
+                "ns:m.0gh2mz9": "The Freddie Mercury Tribute: Concert for AIDS Awareness"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R film.film.country) The Freddie Mercury Tribute: Concert for AIDS Awareness) topic_server.population_number)",
+            "SExpr": "(ARGMAX (JOIN (R film.film.country) m.0gh2mz9) topic_server.population_number)"
+        }
+    },
+    "8": {
+        "generations": [
+            [
+                "how tall is the creator of material design?",
+                -1.2636336043400003
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.011jm7fw)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.011jm7fw ns:internet.blog.blogger ?x .\n?x ns:people.person.height_meters ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.011jm7fw",
+            "mid2name": {
+                "ns:m.011jm7fw": "Material design"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R internet.blog.blogger) Material design) people.person.height_meters)",
+            "SExpr": "(ARGMAX (JOIN (R internet.blog.blogger) m.011jm7fw) people.person.height_meters)"
+        }
+    },
+    "9": {
+        "generations": [
+            [
+                "what is the most populous country in the movie cocksucker blues?",
+                -3.77024762468
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01j8qj)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01j8qj ns:film.film.country ?x .\n?x ns:topic_server.population_number ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.01j8qj",
+            "mid2name": {
+                "ns:m.01j8qj": "Cocksucker Blues"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R film.film.country) Cocksucker Blues) topic_server.population_number)",
+            "SExpr": "(ARGMAX (JOIN (R film.film.country) m.01j8qj) topic_server.population_number)"
+        }
+    },
+    "10": {
+        "generations": [
+            [
+                "what is the longest recording of dhan dhan bhag?",
+                -1.7384408914399998
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0_jcxt3)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0_jcxt3 ns:music.composition.recordings ?x .\n?x ns:music.recording.length ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0_jcxt3",
+            "mid2name": {
+                "ns:m.0_jcxt3": "Dhan Dhan Bhag"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R music.composition.recordings) Dhan Dhan Bhag) music.recording.length)",
+            "SExpr": "(ARGMAX (JOIN (R music.composition.recordings) m.0_jcxt3) music.recording.length)"
+        }
+    },
+    "11": {
+        "generations": [
+            [
+                "what was the deepest dive of the r/v lulu during its 1975-08-12 to 1975-08-18 cruise?",
+                -6.3651376064699985
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0h6k5g_)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0h6k5g_ ns:time.event.includes_event ?x .\n?x ns:base.oceanography.submarine_dive.depth ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0h6k5g_",
+            "mid2name": {
+                "ns:m.0h6k5g_": "R/V Lulu, Cruise LU80-01, 1975-08-12 to 1975-08-18"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R time.event.includes_event) R/V Lulu, Cruise LU80-01, 1975-08-12 to 1975-08-18) base.oceanography.submarine_dive.depth)",
+            "SExpr": "(ARGMAX (JOIN (R time.event.includes_event) m.0h6k5g_) base.oceanography.submarine_dive.depth)"
+        }
+    },
+    "12": {
+        "generations": [
+            [
+                "what is the largest medical trial sponsored by pharmacia & upjohn?",
+                -2.09559632064
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.04j3f8b)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.04j3f8b ns:medicine.medical_trial_sponsor.trials_sponsored ?x .\n?x ns:medicine.medical_trial.expected_total_enrollment ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.04j3f8b",
+            "mid2name": {
+                "ns:m.04j3f8b": "Pharmacia & Upjohn"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R medicine.medical_trial_sponsor.trials_sponsored) Pharmacia & Upjohn) medicine.medical_trial.expected_total_enrollment)",
+            "SExpr": "(ARGMAX (JOIN (R medicine.medical_trial_sponsor.trials_sponsored) m.04j3f8b) medicine.medical_trial.expected_total_enrollment)"
+        }
+    },
+    "13": {
+        "generations": [
+            [
+                "where is etodolac 500 extended release film coated tablet most commonly available?",
+                -3.1949689630400004
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0hqgrs9)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0hqgrs9 ns:medicine.manufactured_drug_form.available_in ?x .\n?x ns:topic_server.population_number ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0hqgrs9",
+            "mid2name": {
+                "ns:m.0hqgrs9": "Etodolac 500 extended release film coated tablet"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R medicine.manufactured_drug_form.available_in) Etodolac 500 extended release film coated tablet) topic_server.population_number)",
+            "SExpr": "(ARGMAX (JOIN (R medicine.manufactured_drug_form.available_in) m.0hqgrs9) topic_server.population_number)"
+        }
+    },
+    "14": {
+        "generations": [
+            [
+                "what is the identifier of the yggt chromosome?",
+                -2.6628979476000003
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0ks1rxk)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0ks1rxk ns:biology.gene.chromosome ?x .\n?x ns:biology.chromosome.identifier ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0ks1rxk",
+            "mid2name": {
+                "ns:m.0ks1rxk": "yggT"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R biology.gene.chromosome) yggT) biology.chromosome.identifier)",
+            "SExpr": "(ARGMAX (JOIN (R biology.gene.chromosome) m.0ks1rxk) biology.chromosome.identifier)"
+        }
+    },
+    "15": {
+        "generations": [
+            [
+                "what is the latitude of vandenberg afb space launch complex 4?",
+                -0.39133048875400006
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.04jdq7d)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.04jdq7d ns:location.location.geolocation ?x .\n?x ns:location.geocode.latitude ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.04jdq7d",
+            "mid2name": {
+                "ns:m.04jdq7d": "Vandenberg AFB Space Launch Complex 4"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.geolocation) Vandenberg AFB Space Launch Complex 4) location.geocode.latitude)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.geolocation) m.04jdq7d) location.geocode.latitude)"
+        }
+    },
+    "16": {
+        "generations": [
+            [
+                "what is the population of basilica of st. adalbert?",
+                -1.6092106820499996
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.010qlz16)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.010qlz16 ns:location.location.containedby ?x .\n?x ns:topic_server.population_number ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.010qlz16",
+            "mid2name": {
+                "ns:m.010qlz16": "Basilica of St. Adalbert"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.containedby) Basilica of St. Adalbert) topic_server.population_number)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.containedby) m.010qlz16) topic_server.population_number)"
+        }
+    },
+    "17": {
+        "generations": [
+            [
+                "what is the most populous country in nelson mandela: an international tribute for a free south africa?",
+                -3.438122527276
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0ln9z9d)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0ln9z9d ns:film.film.country ?x .\n?x ns:topic_server.population_number ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0ln9z9d",
+            "mid2name": {
+                "ns:m.0ln9z9d": "Nelson Mandela: An International Tribute for a Free South Africa"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R film.film.country) Nelson Mandela: An International Tribute for a Free South Africa) topic_server.population_number)",
+            "SExpr": "(ARGMAX (JOIN (R film.film.country) m.0ln9z9d) topic_server.population_number)"
+        }
+    },
+    "18": {
+        "generations": [
+            [
+                "what is the longest song by samuel krachmalnick?",
+                -1.7827723167769995
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0n666pl)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0n666pl ns:music.artist.track ?x .\n?x ns:music.recording.length ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0n666pl",
+            "mid2name": {
+                "ns:m.0n666pl": "Samuel Krachmalnick"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R music.artist.track) Samuel Krachmalnick) music.recording.length)",
+            "SExpr": "(ARGMAX (JOIN (R music.artist.track) m.0n666pl) music.recording.length)"
+        }
+    },
+    "19": {
+        "generations": [
+            [
+                "what is the latitude of saint roch cemetery?",
+                -0.29981400239000006
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0ch2zk3)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0ch2zk3 ns:location.location.geolocation ?x .\n?x ns:location.geocode.latitude ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0ch2zk3",
+            "mid2name": {
+                "ns:m.0ch2zk3": "Saint Roch Cemetery"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.geolocation) Saint Roch Cemetery) location.geocode.latitude)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.geolocation) m.0ch2zk3) location.geocode.latitude)"
+        }
+    },
+    "20": {
+        "generations": [
+            [
+                "what is the latitude of flintshire bridge?",
+                -0.38852551003
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.05mvjm0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.05mvjm0 ns:location.location.geolocation ?x .\n?x ns:location.geocode.latitude ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.05mvjm0",
+            "mid2name": {
+                "ns:m.05mvjm0": "Flintshire Bridge"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.geolocation) Flintshire Bridge) location.geocode.latitude)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.geolocation) m.05mvjm0) location.geocode.latitude)"
+        }
+    },
+    "21": {
+        "generations": [
+            [
+                "what is the largest population served by bbc mundo?",
+                -3.055948653184
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.047vllx)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.047vllx ns:broadcast.broadcast.area_served ?x .\n?x ns:topic_server.population_number ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.047vllx",
+            "mid2name": {
+                "ns:m.047vllx": "BBC Mundo"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R broadcast.broadcast.area_served) BBC Mundo) topic_server.population_number)",
+            "SExpr": "(ARGMAX (JOIN (R broadcast.broadcast.area_served) m.047vllx) topic_server.population_number)"
+        }
+    },
+    "22": {
+        "generations": [
+            [
+                "what is the bitrate of the radio skipper the '80s channel?",
+                -3.284234885549999
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03gfsk8)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03gfsk8 ns:broadcast.content.broadcast ?x .\n?x ns:broadcast.internet_stream.stream_bitrate ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.03gfsk8",
+            "mid2name": {
+                "ns:m.03gfsk8": "Radio Skipper The '80s Channel"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R broadcast.content.broadcast) Radio Skipper The '80s Channel) broadcast.internet_stream.stream_bitrate)",
+            "SExpr": "(ARGMAX (JOIN (R broadcast.content.broadcast) m.03gfsk8) broadcast.internet_stream.stream_bitrate)"
+        }
+    },
+    "23": {
+        "generations": [
+            [
+                "how many votes did jimmy carter get in the 1976 democratic vice presidential nomination?",
+                -6.840812375381
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.042kg)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.042kg ns:base.politicalconventions.primary_candidate.vp_delegate_vote_tally ?x .\n?x ns:base.politicalconventions.vp_delegate_vote_tally.tally ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.042kg",
+            "mid2name": {
+                "ns:m.042kg": "Jimmy Carter"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R base.politicalconventions.primary_candidate.vp_delegate_vote_tally) Jimmy Carter) base.politicalconventions.vp_delegate_vote_tally.tally)",
+            "SExpr": "(ARGMAX (JOIN (R base.politicalconventions.primary_candidate.vp_delegate_vote_tally) m.042kg) base.politicalconventions.vp_delegate_vote_tally.tally)"
+        }
+    },
+    "24": {
+        "generations": [
+            [
+                "what is the gnis feature id of bay terrace?",
+                -1.204602177904
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03gr7gz)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03gr7gz ns:location.location.containedby ?x .\n?x ns:location.location.gnis_feature_id ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.03gr7gz",
+            "mid2name": {
+                "ns:m.03gr7gz": "Bay Terrace"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.containedby) Bay Terrace) location.location.gnis_feature_id)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.containedby) m.03gr7gz) location.location.gnis_feature_id)"
+        }
+    },
+    "25": {
+        "generations": [
+            [
+                "what is the largest business school in lewis college?",
+                -3.12808298974
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0dx7l_)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0dx7l_ ns:location.location.containedby ?x .\n?x ns:topic_server.population_number ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0dx7l_",
+            "mid2name": {
+                "ns:m.0dx7l_": "Lewis College of Business"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.containedby) Lewis College of Business) topic_server.population_number)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.containedby) m.0dx7l_) topic_server.population_number)"
+        }
+    },
+    "26": {
+        "generations": [
+            [
+                "how many primitives are stored in the national center for biotechnology information?",
+                -5.15164989835
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01358j)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01358j ns:dataworld.information_source.data_operations ?x .\n?x ns:dataworld.mass_data_operation.estimated_primitive_count ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.01358j",
+            "mid2name": {
+                "ns:m.01358j": "National Center for Biotechnology Information"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R dataworld.information_source.data_operations) National Center for Biotechnology Information) dataworld.mass_data_operation.estimated_primitive_count)",
+            "SExpr": "(ARGMAX (JOIN (R dataworld.information_source.data_operations) m.01358j) dataworld.mass_data_operation.estimated_primitive_count)"
+        }
+    },
+    "27": {
+        "generations": [
+            [
+                "how many issues are in the phonogram: the singles club series?",
+                -1.7901921358600001
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.065xd3j)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.065xd3j ns:comic_books.comic_book_issue.part_of_series ?x .\n?x ns:comic_books.comic_book_series.number_of_issues ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.065xd3j",
+            "mid2name": {
+                "ns:m.065xd3j": "Phonogram: The Singles Club #7: Wolf Like Me"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R comic_books.comic_book_issue.part_of_series) Phonogram: The Singles Club #7: Wolf Like Me) comic_books.comic_book_series.number_of_issues)",
+            "SExpr": "(ARGMAX (JOIN (R comic_books.comic_book_issue.part_of_series) m.065xd3j) comic_books.comic_book_series.number_of_issues)"
+        }
+    },
+    "28": {
+        "generations": [
+            [
+                "what is the address of milton academy?",
+                -1.6326464479050002
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02h45k)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02h45k ns:organization.organization.headquarters ?x .\n?x ns:location.mailing_address.street_address ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.02h45k",
+            "mid2name": {
+                "ns:m.02h45k": "Milton Academy"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R organization.organization.headquarters) Milton Academy) location.mailing_address.street_address)",
+            "SExpr": "(ARGMAX (JOIN (R organization.organization.headquarters) m.02h45k) location.mailing_address.street_address)"
+        }
+    },
+    "29": {
+        "generations": [
+            [
+                "what is the highest ranking of pinehurst course no. 4?",
+                -1.9287625276999998
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.04sz8k7)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.04sz8k7 ns:award.ranked_item.appears_in_ranked_lists ?x .\n?x ns:award.ranking.rank ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.04sz8k7",
+            "mid2name": {
+                "ns:m.04sz8k7": "Pinehurst Course No. 4"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R award.ranked_item.appears_in_ranked_lists) Pinehurst Course No. 4) award.ranking.rank)",
+            "SExpr": "(ARGMAX (JOIN (R award.ranked_item.appears_in_ranked_lists) m.04sz8k7) award.ranking.rank)"
+        }
+    },
+    "30": {
+        "generations": [
+            [
+                "what is the street address of the lobby bar?",
+                -1.13563084324
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0mw1lb4)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0mw1lb4 ns:business.business_location.address ?x .\n?x ns:location.mailing_address.street_address ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0mw1lb4",
+            "mid2name": {
+                "ns:m.0mw1lb4": "Lobby Bar"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R business.business_location.address) Lobby Bar) location.mailing_address.street_address)",
+            "SExpr": "(ARGMAX (JOIN (R business.business_location.address) m.0mw1lb4) location.mailing_address.street_address)"
+        }
+    },
+    "31": {
+        "generations": [
+            [
+                "how tall is the author of the mie goreng recipe?",
+                -1.8016221313400003
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0gwhwc9)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0gwhwc9 ns:food.recipe.author ?x .\n?x ns:people.person.height_meters ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0gwhwc9",
+            "mid2name": {
+                "ns:m.0gwhwc9": "Mie Goreng"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R food.recipe.author) Mie Goreng) people.person.height_meters)",
+            "SExpr": "(ARGMAX (JOIN (R food.recipe.author) m.0gwhwc9) people.person.height_meters)"
+        }
+    },
+    "32": {
+        "generations": [
+            [
+                "what is the largest country involved in the soyuz programme?",
+                -3.07553617759
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0f0z3)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0f0z3 ns:spaceflight.space_program.sponsor ?x .\n?x ns:location.location.area ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0f0z3",
+            "mid2name": {
+                "ns:m.0f0z3": "Soyuz programme"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R spaceflight.space_program.sponsor) Soyuz programme) location.location.area)",
+            "SExpr": "(ARGMAX (JOIN (R spaceflight.space_program.sponsor) m.0f0z3) location.location.area)"
+        }
+    },
+    "33": {
+        "generations": [
+            [
+                "what is the latitude of batman: the ride?",
+                -1.32145600386
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.05twj1)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.05twj1 ns:location.location.geolocation ?x .\n?x ns:location.geocode.latitude ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.05twj1",
+            "mid2name": {
+                "ns:m.05twj1": "Batman: The Ride"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.geolocation) Batman: The Ride) location.geocode.latitude)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.geolocation) m.05twj1) location.geocode.latitude)"
+        }
+    },
+    "34": {
+        "generations": [
+            [
+                "what is the longest track by deva premal?",
+                -1.589182693254
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01m6jb5)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01m6jb5 ns:music.artist.track ?x .\n?x ns:music.recording.length ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.01m6jb5",
+            "mid2name": {
+                "ns:m.01m6jb5": "Deva Premal"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R music.artist.track) Deva Premal) music.recording.length)",
+            "SExpr": "(ARGMAX (JOIN (R music.artist.track) m.01m6jb5) music.recording.length)"
+        }
+    },
+    "35": {
+        "generations": [
+            [
+                "what is the highest ranking of the fazio course?",
+                -1.8819315849549998
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.04v9_4v)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.04v9_4v ns:award.ranked_item.appears_in_ranked_lists ?x .\n?x ns:award.ranking.rank ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.04v9_4v",
+            "mid2name": {
+                "ns:m.04v9_4v": "The Fazio Course"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R award.ranked_item.appears_in_ranked_lists) The Fazio Course) award.ranking.rank)",
+            "SExpr": "(ARGMAX (JOIN (R award.ranked_item.appears_in_ranked_lists) m.04v9_4v) award.ranking.rank)"
+        }
+    },
+    "36": {
+        "generations": [
+            [
+                "what is the singular form of the term martial artist?",
+                -3.2353767166999994
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02wszfz)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02wszfz ns:base.descriptive_names.names.descriptive_name ?x .\n?x ns:base.schemastaging.plural_form.one ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.02wszfz",
+            "mid2name": {
+                "ns:m.02wszfz": "Martial Artist"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R base.descriptive_names.names.descriptive_name) Martial Artist) base.schemastaging.plural_form.one)",
+            "SExpr": "(ARGMAX (JOIN (R base.descriptive_names.names.descriptive_name) m.02wszfz) base.schemastaging.plural_form.one)"
+        }
+    },
+    "37": {
+        "generations": [
+            [
+                "what is the highest volume of the cultic studies review?",
+                -1.85791103023
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0109_nr2)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0109_nr2 ns:book.journal.articles ?x .\n?x ns:book.journal_publication.volume ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0109_nr2",
+            "mid2name": {
+                "ns:m.0109_nr2": "Cultic Studies Review"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R book.journal.articles) Cultic Studies Review) book.journal_publication.volume)",
+            "SExpr": "(ARGMAX (JOIN (R book.journal.articles) m.0109_nr2) book.journal_publication.volume)"
+        }
+    },
+    "38": {
+        "generations": [
+            [
+                "what is the latitude of anydros?",
+                -0.173670329135
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0d1y0y)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0d1y0y ns:location.location.geolocation ?x .\n?x ns:location.geocode.latitude ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0d1y0y",
+            "mid2name": {
+                "ns:m.0d1y0y": "Anydros"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.geolocation) Anydros) location.geocode.latitude)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.geolocation) m.0d1y0y) location.geocode.latitude)"
+        }
+    },
+    "39": {
+        "generations": [
+            [
+                "what is the latitude of roque de los muchachos?",
+                -0.309064185557
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03pvcz)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03pvcz ns:location.location.geolocation ?x .\n?x ns:location.geocode.latitude ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.03pvcz",
+            "mid2name": {
+                "ns:m.03pvcz": "Roque de los Muchachos"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.geolocation) Roque de los Muchachos) location.geocode.latitude)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.geolocation) m.03pvcz) location.geocode.latitude)"
+        }
+    },
+    "40": {
+        "generations": [
+            [
+                "what is the latitude of william howard taft high school?",
+                -0.17218375497999996
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.04gg8g)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.04gg8g ns:location.location.geolocation ?x .\n?x ns:location.geocode.latitude ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.04gg8g",
+            "mid2name": {
+                "ns:m.04gg8g": "William Howard Taft High School"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.geolocation) William Howard Taft High School) location.geocode.latitude)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.geolocation) m.04gg8g) location.geocode.latitude)"
+        }
+    },
+    "41": {
+        "generations": [
+            [
+                "what is the latitude of the roman catholic archdiocese of san francisco?",
+                -0.260166413741
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01xgk0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01xgk0 ns:location.location.geolocation ?x .\n?x ns:location.geocode.latitude ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.01xgk0",
+            "mid2name": {
+                "ns:m.01xgk0": "Roman Catholic Archdiocese of San Francisco"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.geolocation) Roman Catholic Archdiocese of San Francisco) location.geocode.latitude)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.geolocation) m.01xgk0) location.geocode.latitude)"
+        }
+    },
+    "42": {
+        "generations": [
+            [
+                "what is the gtin of the camera with the highest iso rating?",
+                -4.6240665633
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01xrf_7)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01xrf_7 ns:digicams.camera_iso.cameras ?x .\n?x ns:business.consumer_product.gtin ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.01xrf_7",
+            "mid2name": {
+                "ns:m.01xrf_7": "Auto"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R digicams.camera_iso.cameras) Auto) business.consumer_product.gtin)",
+            "SExpr": "(ARGMAX (JOIN (R digicams.camera_iso.cameras) m.01xrf_7) business.consumer_product.gtin)"
+        }
+    },
+    "43": {
+        "generations": [
+            [
+                " what is the largest population near baylor university?",
+                -5.154309128372
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01tx9m)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01tx9m ns:location.location.containedby ?x .\n?x ns:topic_server.population_number ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.01tx9m",
+            "mid2name": {
+                "ns:m.01tx9m": "Baylor University"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.containedby) Baylor University) topic_server.population_number)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.containedby) m.01tx9m) topic_server.population_number)"
+        }
+    },
+    "44": {
+        "generations": [
+            [
+                "what is the latitude of rita?",
+                -0.22364463664000006
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.074zwq)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.074zwq ns:location.location.geolocation ?x .\n?x ns:location.geocode.latitude ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.074zwq",
+            "mid2name": {
+                "ns:m.074zwq": "Rita"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.geolocation) Rita) location.geocode.latitude)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.geolocation) m.074zwq) location.geocode.latitude)"
+        }
+    },
+    "45": {
+        "generations": [
+            [
+                "what is the highest thrust of a beryllium-hydrazine mix rocket engine?",
+                -3.30814185359
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02xhb60)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02xhb60 ns:spaceflight.rocket_engine_fuel.rocket_engines ?x .\n?x ns:spaceflight.rocket_engine.thrust_vacuum ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.02xhb60",
+            "mid2name": {
+                "ns:m.02xhb60": "Beryllium-hydrazine mix"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R spaceflight.rocket_engine_fuel.rocket_engines) Beryllium-hydrazine mix) spaceflight.rocket_engine.thrust_vacuum)",
+            "SExpr": "(ARGMAX (JOIN (R spaceflight.rocket_engine_fuel.rocket_engines) m.02xhb60) spaceflight.rocket_engine.thrust_vacuum)"
+        }
+    },
+    "46": {
+        "generations": [
+            [
+                "what is the highest average temperature in san diego?",
+                -1.2265721406999999
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.071vr)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.071vr ns:travel.travel_destination.climate ?x .\n?x ns:travel.travel_destination_monthly_climate.average_max_temp_c ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.071vr",
+            "mid2name": {
+                "ns:m.071vr": "San Diego"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R travel.travel_destination.climate) San Diego) travel.travel_destination_monthly_climate.average_max_temp_c)",
+            "SExpr": "(ARGMAX (JOIN (R travel.travel_destination.climate) m.071vr) travel.travel_destination_monthly_climate.average_max_temp_c)"
+        }
+    },
+    "47": {
+        "generations": [
+            [
+                "which area was most affected by hurricane audrey?",
+                -2.9424768096869998
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0cb0_2)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0cb0_2 ns:meteorology.tropical_cyclone.affected_areas ?x .\n?x ns:topic_server.population_number ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0cb0_2",
+            "mid2name": {
+                "ns:m.0cb0_2": "Hurricane Audrey"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R meteorology.tropical_cyclone.affected_areas) Hurricane Audrey) topic_server.population_number)",
+            "SExpr": "(ARGMAX (JOIN (R meteorology.tropical_cyclone.affected_areas) m.0cb0_2) topic_server.population_number)"
+        }
+    },
+    "48": {
+        "generations": [
+            [
+                "what is the latitude of viper?",
+                -0.35585354903999994
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0d6kh5)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0d6kh5 ns:location.location.geolocation ?x .\n?x ns:location.geocode.latitude ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0d6kh5",
+            "mid2name": {
+                "ns:m.0d6kh5": "Viper"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.geolocation) Viper) location.geocode.latitude)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.geolocation) m.0d6kh5) location.geocode.latitude)"
+        }
+    },
+    "49": {
+        "generations": [
+            [
+                "what is the latitude of the first presbyterian church?",
+                -0.5518145359899999
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0_qfhlt)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0_qfhlt ns:location.location.geolocation ?x .\n?x ns:location.geocode.latitude ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0_qfhlt",
+            "mid2name": {
+                "ns:m.0_qfhlt": "First Presbyterian Church"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.geolocation) First Presbyterian Church) location.geocode.latitude)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.geolocation) m.0_qfhlt) location.geocode.latitude)"
+        }
+    },
+    "50": {
+        "generations": [
+            [
+                "who is the tallest person on google forums?",
+                -1.6908413633000001
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.045c7b)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.045c7b ns:base.motorcycle.internet_forum_topic.internet_forum_s ?x .\n?x ns:people.person.height_meters ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.045c7b",
+            "mid2name": {
+                "ns:m.045c7b": "Google"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R base.motorcycle.internet_forum_topic.internet_forum_s) Google) people.person.height_meters)",
+            "SExpr": "(ARGMAX (JOIN (R base.motorcycle.internet_forum_topic.internet_forum_s) m.045c7b) people.person.height_meters)"
+        }
+    },
+    "51": {
+        "generations": [
+            [
+                "where is native instruments headquartered?",
+                -1.9871066307
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.066jhf)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.066jhf ns:organization.organization.place_founded ?x .\n?x ns:topic_server.population_number ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.066jhf",
+            "mid2name": {
+                "ns:m.066jhf": "Native Instruments"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R organization.organization.place_founded) Native Instruments) topic_server.population_number)",
+            "SExpr": "(ARGMAX (JOIN (R organization.organization.place_founded) m.066jhf) topic_server.population_number)"
+        }
+    },
+    "52": {
+        "generations": [
+            [
+                "in which chapter of the aubrey-maturin series is the uss constitution mentioned?",
+                -3.5211601302699997
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.07y14)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.07y14 ns:base.aubreymaturin.ship.mentions ?x .\n?x ns:base.aubreymaturin.ship_mention.chapter ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.07y14",
+            "mid2name": {
+                "ns:m.07y14": "USS Constitution"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R base.aubreymaturin.ship.mentions) USS Constitution) base.aubreymaturin.ship_mention.chapter)",
+            "SExpr": "(ARGMAX (JOIN (R base.aubreymaturin.ship.mentions) m.07y14) base.aubreymaturin.ship_mention.chapter)"
+        }
+    },
+    "53": {
+        "generations": [
+            [
+                "what is the street address of meadowcliff elementary school?",
+                -1.2468543284
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0760w4p)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0760w4p ns:organization.organization.headquarters ?x .\n?x ns:location.mailing_address.street_address ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0760w4p",
+            "mid2name": {
+                "ns:m.0760w4p": "Meadowcliff Elementary School"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R organization.organization.headquarters) Meadowcliff Elementary School) location.mailing_address.street_address)",
+            "SExpr": "(ARGMAX (JOIN (R organization.organization.headquarters) m.0760w4p) location.mailing_address.street_address)"
+        }
+    },
+    "54": {
+        "generations": [
+            [
+                "what is the latitude of woodstock express?",
+                -0.27355278837
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0fxkdp)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0fxkdp ns:location.location.geolocation ?x .\n?x ns:location.geocode.latitude ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0fxkdp",
+            "mid2name": {
+                "ns:m.0fxkdp": "Woodstock Express"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.geolocation) Woodstock Express) location.geocode.latitude)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.geolocation) m.0fxkdp) location.geocode.latitude)"
+        }
+    },
+    "55": {
+        "generations": [
+            [
+                "what is the latitude of el rio del tiempo?",
+                -0.1879432809508
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.078jn_)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.078jn_ ns:location.location.geolocation ?x .\n?x ns:location.geocode.latitude ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.078jn_",
+            "mid2name": {
+                "ns:m.078jn_": "El Rio del Tiempo"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.geolocation) El Rio del Tiempo) location.geocode.latitude)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.geolocation) m.078jn_) location.geocode.latitude)"
+        }
+    },
+    "56": {
+        "generations": [
+            [
+                "what is the street address of the university of pittsburgh cancer institute?",
+                -0.9326411287830002
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.04_5_lj)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.04_5_lj ns:organization.organization.headquarters ?x .\n?x ns:location.mailing_address.street_address ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.04_5_lj",
+            "mid2name": {
+                "ns:m.04_5_lj": "University of Pittsburgh Cancer Institute"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R organization.organization.headquarters) University of Pittsburgh Cancer Institute) location.mailing_address.street_address)",
+            "SExpr": "(ARGMAX (JOIN (R organization.organization.headquarters) m.04_5_lj) location.mailing_address.street_address)"
+        }
+    },
+    "57": {
+        "generations": [
+            [
+                "what is the address of the church of the good shepherd?",
+                -1.19589060673
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0gkzzl6)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0gkzzl6 ns:organization.organization.headquarters ?x .\n?x ns:location.mailing_address.street_address ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0gkzzl6",
+            "mid2name": {
+                "ns:m.0gkzzl6": "Church of the Good Shepherd"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R organization.organization.headquarters) Church of the Good Shepherd) location.mailing_address.street_address)",
+            "SExpr": "(ARGMAX (JOIN (R organization.organization.headquarters) m.0gkzzl6) location.mailing_address.street_address)"
+        }
+    },
+    "58": {
+        "generations": [
+            [
+                "what is the longest article in the magazine of fantasy and science fiction, june 1954?",
+                -2.01249046313
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0hj0cmb)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0hj0cmb ns:book.publication.contents ?x .\n?x ns:book.contents.page_number ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0hj0cmb",
+            "mid2name": {
+                "ns:m.0hj0cmb": "The Magazine of Fantasy and Science Fiction, June 1954"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R book.publication.contents) The Magazine of Fantasy and Science Fiction, June 1954) book.contents.page_number)",
+            "SExpr": "(ARGMAX (JOIN (R book.publication.contents) m.0hj0cmb) book.contents.page_number)"
+        }
+    },
+    "59": {
+        "generations": [
+            [
+                "what is the average rainfall in frankfurt?",
+                -0.8580994952
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02z0j)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02z0j ns:travel.travel_destination.climate ?x .\n?x ns:travel.travel_destination_monthly_climate.average_rainfall_mm ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.02z0j",
+            "mid2name": {
+                "ns:m.02z0j": "Frankfurt"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R travel.travel_destination.climate) Frankfurt) travel.travel_destination_monthly_climate.average_rainfall_mm)",
+            "SExpr": "(ARGMAX (JOIN (R travel.travel_destination.climate) m.02z0j) travel.travel_destination_monthly_climate.average_rainfall_mm)"
+        }
+    },
+    "60": {
+        "generations": [
+            [
+                "what is the longest song by josh thomas?",
+                -1.330510214814
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.04jh1x3)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.04jh1x3 ns:music.artist.track ?x .\n?x ns:music.recording.length ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.04jh1x3",
+            "mid2name": {
+                "ns:m.04jh1x3": "Josh Thomas"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R music.artist.track) Josh Thomas) music.recording.length)",
+            "SExpr": "(ARGMAX (JOIN (R music.artist.track) m.04jh1x3) music.recording.length)"
+        }
+    },
+    "61": {
+        "generations": [
+            [
+                "what is the highest alcohol by volume for an american pale ale?",
+                -2.74369653169
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0v3gs4f)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0v3gs4f ns:food.beer_style.alcohol_by_volume_range ?x .\n?x ns:measurement_unit.floating_point_range.high_value ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0v3gs4f",
+            "mid2name": {
+                "ns:m.0v3gs4f": "American Pale Ale"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R food.beer_style.alcohol_by_volume_range) American Pale Ale) measurement_unit.floating_point_range.high_value)",
+            "SExpr": "(ARGMAX (JOIN (R food.beer_style.alcohol_by_volume_range) m.0v3gs4f) measurement_unit.floating_point_range.high_value)"
+        }
+    },
+    "62": {
+        "generations": [
+            [
+                "what is the last track on dream dance volume 4 (disc 2)?",
+                -1.9971434478999999
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.032_y0q)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.032_y0q ns:music.release.track_list ?x .\n?x ns:music.release_track.track_number ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.032_y0q",
+            "mid2name": {
+                "ns:m.032_y0q": "Dream Dance, Volume 4 (disc 2)"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R music.release.track_list) Dream Dance, Volume 4 (disc 2)) music.release_track.track_number)",
+            "SExpr": "(ARGMAX (JOIN (R music.release.track_list) m.032_y0q) music.release_track.track_number)"
+        }
+    },
+    "63": {
+        "generations": [
+            [
+                "what is the lowest version of mac os compatible with the macintosh se?",
+                -3.7318100106600003
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.023tnt)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.023tnt ns:computer.computer.compatible_oses ?x .\n?x ns:computer.os_compatibility.dot_version_low ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.023tnt",
+            "mid2name": {
+                "ns:m.023tnt": "Macintosh SE"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R computer.computer.compatible_oses) Macintosh SE) computer.os_compatibility.dot_version_low)",
+            "SExpr": "(ARGMAX (JOIN (R computer.computer.compatible_oses) m.023tnt) computer.os_compatibility.dot_version_low)"
+        }
+    },
+    "64": {
+        "generations": [
+            [
+                "what is the latitude of american thunder?",
+                -0.5094099032999999
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03c5yfq)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03c5yfq ns:location.location.geolocation ?x .\n?x ns:location.geocode.latitude ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.03c5yfq",
+            "mid2name": {
+                "ns:m.03c5yfq": "American Thunder"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.geolocation) American Thunder) location.geocode.latitude)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.geolocation) m.03c5yfq) location.geocode.latitude)"
+        }
+    },
+    "65": {
+        "generations": [
+            [
+                "what is the gtin of the camera with the highest iso of 130?",
+                -2.21119868836
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.04p7pwg)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.04p7pwg ns:digicams.camera_iso.cameras ?x .\n?x ns:business.consumer_product.gtin ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.04p7pwg",
+            "mid2name": {
+                "ns:m.04p7pwg": "130"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R digicams.camera_iso.cameras) 130) business.consumer_product.gtin)",
+            "SExpr": "(ARGMAX (JOIN (R digicams.camera_iso.cameras) m.04p7pwg) business.consumer_product.gtin)"
+        }
+    },
+    "66": {
+        "generations": [
+            [
+                "what is the latitude of batman the escape?",
+                -0.73926018731
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02x4031)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02x4031 ns:location.location.geolocation ?x .\n?x ns:location.geocode.latitude ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.02x4031",
+            "mid2name": {
+                "ns:m.02x4031": "Batman The Escape"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.geolocation) Batman The Escape) location.geocode.latitude)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.geolocation) m.02x4031) location.geocode.latitude)"
+        }
+    },
+    "67": {
+        "generations": [
+            [
+                "what is the most populous city in ohio?",
+                -0.8505001777314001
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.05kkh)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.05kkh ns:location.location.containedby ?x .\n?x ns:topic_server.population_number ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.05kkh",
+            "mid2name": {
+                "ns:m.05kkh": "Ohio"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.containedby) Ohio) topic_server.population_number)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.containedby) m.05kkh) topic_server.population_number)"
+        }
+    },
+    "68": {
+        "generations": [
+            [
+                "what is the latitude of buckner glacier?",
+                -0.2227295515
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0qkwhpm)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0qkwhpm ns:location.location.geolocation ?x .\n?x ns:location.geocode.latitude ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0qkwhpm",
+            "mid2name": {
+                "ns:m.0qkwhpm": "Buckner Glacier"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.geolocation) Buckner Glacier) location.geocode.latitude)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.geolocation) m.0qkwhpm) location.geocode.latitude)"
+        }
+    },
+    "69": {
+        "generations": [
+            [
+                "what is the most populous city in tennessee?",
+                -0.8580923074
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.07h34)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.07h34 ns:location.location.containedby ?x .\n?x ns:topic_server.population_number ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.07h34",
+            "mid2name": {
+                "ns:m.07h34": "Tennessee"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.containedby) Tennessee) topic_server.population_number)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.containedby) m.07h34) topic_server.population_number)"
+        }
+    },
+    "70": {
+        "generations": [
+            [
+                "when did the middle jurassic period begin?",
+                -1.3497668731
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.06nbgd)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.06nbgd ns:time.geologic_time_period.began ?x .\n?x ns:time.geologic_time_period_uncertainty.million_years_ago ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.06nbgd",
+            "mid2name": {
+                "ns:m.06nbgd": "Middle Jurassic"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R time.geologic_time_period.began) Middle Jurassic) time.geologic_time_period_uncertainty.million_years_ago)",
+            "SExpr": "(ARGMAX (JOIN (R time.geologic_time_period.began) m.06nbgd) time.geologic_time_period_uncertainty.million_years_ago)"
+        }
+    },
+    "71": {
+        "generations": [
+            [
+                "what is the largest organization in south wales?",
+                -2.5956949241699996
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.027pbrg)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.027pbrg ns:organization.organization.geographic_scope ?x .\n?x ns:topic_server.population_number ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.027pbrg",
+            "mid2name": {
+                "ns:m.027pbrg": "South Wales Miners' Federation"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R organization.organization.geographic_scope) South Wales Miners' Federation) topic_server.population_number)",
+            "SExpr": "(ARGMAX (JOIN (R organization.organization.geographic_scope) m.027pbrg) topic_server.population_number)"
+        }
+    },
+    "72": {
+        "generations": [
+            [
+                "what is the gtin of the camera that supports jpeg (exif 2.2) the best?",
+                -7.121155813220001
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03q44xr)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03q44xr ns:digicams.camera_compressed_format.cameras ?x .\n?x ns:business.consumer_product.gtin ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.03q44xr",
+            "mid2name": {
+                "ns:m.03q44xr": "JPEG (EXIF 2.2)"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R digicams.camera_compressed_format.cameras) JPEG (EXIF 2.2)) business.consumer_product.gtin)",
+            "SExpr": "(ARGMAX (JOIN (R digicams.camera_compressed_format.cameras) m.03q44xr) business.consumer_product.gtin)"
+        }
+    },
+    "73": {
+        "generations": [
+            [
+                "what is the most populous country in melody time?",
+                -3.8000996319500002
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.05grgm)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.05grgm ns:film.film.country ?x .\n?x ns:topic_server.population_number ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.05grgm",
+            "mid2name": {
+                "ns:m.05grgm": "Melody Time"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R film.film.country) Melody Time) topic_server.population_number)",
+            "SExpr": "(ARGMAX (JOIN (R film.film.country) m.05grgm) topic_server.population_number)"
+        }
+    },
+    "74": {
+        "generations": [
+            [
+                "what is the furthest discovery made at anderson mesa station?",
+                -3.99530860773
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0czcgfd)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0czcgfd ns:astronomy.astronomical_observatory.discoveries ?x .\n?x ns:astronomy.orbital_relationship.aoapsis ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0czcgfd",
+            "mid2name": {
+                "ns:m.0czcgfd": "Anderson Mesa Station"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R astronomy.astronomical_observatory.discoveries) Anderson Mesa Station) astronomy.orbital_relationship.aoapsis)",
+            "SExpr": "(ARGMAX (JOIN (R astronomy.astronomical_observatory.discoveries) m.0czcgfd) astronomy.orbital_relationship.aoapsis)"
+        }
+    },
+    "75": {
+        "generations": [
+            [
+                "what is the latitude of griffon?",
+                -0.18874266190999997
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0g9n2r)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0g9n2r ns:location.location.geolocation ?x .\n?x ns:location.geocode.latitude ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0g9n2r",
+            "mid2name": {
+                "ns:m.0g9n2r": "Griffon"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.geolocation) Griffon) location.geocode.latitude)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.geolocation) m.0g9n2r) location.geocode.latitude)"
+        }
+    },
+    "76": {
+        "generations": [
+            [
+                "what is the minimum wind speed of a very severe cyclonic storm (imd)?",
+                -2.02911791272
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0256dr6)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0256dr6 ns:meteorology.tropical_cyclone_category.Beaufort_scale ?x .\n?x ns:meteorology.beaufort_wind_force.minimum_wind_speed_km_h ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0256dr6",
+            "mid2name": {
+                "ns:m.0256dr6": "Very Severe Cyclonic Storm (IMD)"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R meteorology.tropical_cyclone_category.Beaufort_scale) Very Severe Cyclonic Storm (IMD)) meteorology.beaufort_wind_force.minimum_wind_speed_km_h)",
+            "SExpr": "(ARGMAX (JOIN (R meteorology.tropical_cyclone_category.Beaufort_scale) m.0256dr6) meteorology.beaufort_wind_force.minimum_wind_speed_km_h)"
+        }
+    },
+    "77": {
+        "generations": [
+            [
+                "what is the latitude of colegio san ignacio de loyola?",
+                -0.26080283910650004
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.04y85_)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.04y85_ ns:location.location.geolocation ?x .\n?x ns:location.geocode.latitude ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.04y85_",
+            "mid2name": {
+                "ns:m.04y85_": "Colegio San Ignacio de Loyola"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.geolocation) Colegio San Ignacio de Loyola) location.geocode.latitude)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.geolocation) m.04y85_) location.geocode.latitude)"
+        }
+    },
+    "78": {
+        "generations": [
+            [
+                "what is the latitude of the voyage?",
+                -0.2009341797
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0cpk8v)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0cpk8v ns:location.location.geolocation ?x .\n?x ns:location.geocode.latitude ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0cpk8v",
+            "mid2name": {
+                "ns:m.0cpk8v": "The Voyage"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.geolocation) The Voyage) location.geocode.latitude)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.geolocation) m.0cpk8v) location.geocode.latitude)"
+        }
+    },
+    "79": {
+        "generations": [
+            [
+                "what is the longest music video about spirituality?",
+                -0.35656193065999997
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0hj3lhw)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0hj3lhw ns:music.music_video_subject.subject_in_these_music_videos ?x .\n?x ns:base.webvideo.internet_video.running_time ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0hj3lhw",
+            "mid2name": {
+                "ns:m.0hj3lhw": "Spirituality"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R music.music_video_subject.subject_in_these_music_videos) Spirituality) base.webvideo.internet_video.running_time)",
+            "SExpr": "(ARGMAX (JOIN (R music.music_video_subject.subject_in_these_music_videos) m.0hj3lhw) base.webvideo.internet_video.running_time)"
+        }
+    },
+    "80": {
+        "generations": [
+            [
+                "what is the largest area where austric languages are spoken?",
+                -2.14443357034
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03nnl3)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03nnl3 ns:language.language_family.geographic_distribution ?x .\n?x ns:location.location.area ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.03nnl3",
+            "mid2name": {
+                "ns:m.03nnl3": "Austric languages"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R language.language_family.geographic_distribution) Austric languages) location.location.area)",
+            "SExpr": "(ARGMAX (JOIN (R language.language_family.geographic_distribution) m.03nnl3) location.location.area)"
+        }
+    },
+    "81": {
+        "generations": [
+            [
+                "what was the highest attendance of a soccer match that pedro proen\u00e7a officiated?",
+                -8.8834926382
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.07s9sx2)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.07s9sx2 ns:soccer.football_referee.main_referee_for ?x .\n?x ns:soccer.football_match.attendance ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.07s9sx2",
+            "mid2name": {
+                "ns:m.07s9sx2": "Pedro Proen\u00e7a"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R soccer.football_referee.main_referee_for) Pedro Proen\u00e7a) soccer.football_match.attendance)",
+            "SExpr": "(ARGMAX (JOIN (R soccer.football_referee.main_referee_for) m.07s9sx2) soccer.football_match.attendance)"
+        }
+    },
+    "82": {
+        "generations": [
+            [
+                "when was the most recent posited galactic interaction?",
+                -2.5515348526
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0cgl467)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0cgl467 ns:astronomy.galactic_interaction_status.galactic_interactions ?x .\n?x ns:astronomy.galactic_interaction.when ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0cgl467",
+            "mid2name": {
+                "ns:m.0cgl467": "Posited"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R astronomy.galactic_interaction_status.galactic_interactions) Posited) astronomy.galactic_interaction.when)",
+            "SExpr": "(ARGMAX (JOIN (R astronomy.galactic_interaction_status.galactic_interactions) m.0cgl467) astronomy.galactic_interaction.when)"
+        }
+    },
+    "83": {
+        "generations": [
+            [
+                "what is the street address of st. croix lutheran high school?",
+                -1.2655269942499998
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0ff8r7)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0ff8r7 ns:organization.organization.headquarters ?x .\n?x ns:location.mailing_address.street_address ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0ff8r7",
+            "mid2name": {
+                "ns:m.0ff8r7": "St. Croix Lutheran High School"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R organization.organization.headquarters) St. Croix Lutheran High School) location.mailing_address.street_address)",
+            "SExpr": "(ARGMAX (JOIN (R organization.organization.headquarters) m.0ff8r7) location.mailing_address.street_address)"
+        }
+    },
+    "84": {
+        "generations": [
+            [
+                "what is the population of the city near palmdale regional airport?",
+                -5.279491538329999
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03pynj)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03pynj ns:location.location.containedby ?x .\n?x ns:topic_server.population_number ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.03pynj",
+            "mid2name": {
+                "ns:m.03pynj": "Palmdale Regional Airport"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.containedby) Palmdale Regional Airport) topic_server.population_number)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.containedby) m.03pynj) topic_server.population_number)"
+        }
+    },
+    "85": {
+        "generations": [
+            [
+                "how long does it take to make beef bourguignon?",
+                -0.323689856098
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.06y_pt)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.06y_pt ns:food.dish.recipes ?x .\n?x ns:food.recipe.preparation_time ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.06y_pt",
+            "mid2name": {
+                "ns:m.06y_pt": "Beef bourguignon"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R food.dish.recipes) Beef bourguignon) food.recipe.preparation_time)",
+            "SExpr": "(ARGMAX (JOIN (R food.dish.recipes) m.06y_pt) food.recipe.preparation_time)"
+        }
+    },
+    "86": {
+        "generations": [
+            [
+                "what is the longest cooking time for a recipe that uses a ladle?",
+                -2.9184414139130004
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.027rl48)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.027rl48 ns:food.culinary_tool.used_in_recipes ?x .\n?x ns:food.recipe.cooking_time ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.027rl48",
+            "mid2name": {
+                "ns:m.027rl48": "Ladle"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R food.culinary_tool.used_in_recipes) Ladle) food.recipe.cooking_time)",
+            "SExpr": "(ARGMAX (JOIN (R food.culinary_tool.used_in_recipes) m.027rl48) food.recipe.cooking_time)"
+        }
+    },
+    "87": {
+        "generations": [
+            [
+                "what country has the most people served by the department for international development?",
+                -4.003835057099999
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01ks1b)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01ks1b ns:government.government_agency.jurisdiction ?x .\n?x ns:topic_server.population_number ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.01ks1b",
+            "mid2name": {
+                "ns:m.01ks1b": "Department for International Development"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R government.government_agency.jurisdiction) Department for International Development) topic_server.population_number)",
+            "SExpr": "(ARGMAX (JOIN (R government.government_agency.jurisdiction) m.01ks1b) topic_server.population_number)"
+        }
+    },
+    "88": {
+        "generations": [
+            [
+                "what is the longest track on the album cambio dolor?",
+                -2.431631157308
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0kksjdx)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0kksjdx ns:music.release_track.recording ?x .\n?x ns:music.recording.length ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0kksjdx",
+            "mid2name": {
+                "ns:m.0kksjdx": "Cambio Dolor"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R music.release_track.recording) Cambio Dolor) music.recording.length)",
+            "SExpr": "(ARGMAX (JOIN (R music.release_track.recording) m.0kksjdx) music.recording.length)"
+        }
+    },
+    "89": {
+        "generations": [
+            [
+                "what is the barcode of the threepenny opera album?",
+                -2.4281898822670005
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01gym8w)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01gym8w ns:music.album.primary_release ?x .\n?x ns:business.consumer_product.gtin ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.01gym8w",
+            "mid2name": {
+                "ns:m.01gym8w": "The Threepenny Opera"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R music.album.primary_release) The Threepenny Opera) business.consumer_product.gtin)",
+            "SExpr": "(ARGMAX (JOIN (R music.album.primary_release) m.01gym8w) business.consumer_product.gtin)"
+        }
+    },
+    "90": {
+        "generations": [
+            [
+                "what was the maximum wind speed of hurricane hanna?",
+                -1.176116778
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.04jhm3w)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.04jhm3w ns:meteorology.tropical_cyclone.category ?x .\n?x ns:meteorology.tropical_cyclone_category.max_wind_speed ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.04jhm3w",
+            "mid2name": {
+                "ns:m.04jhm3w": "Hurricane Hanna"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R meteorology.tropical_cyclone.category) Hurricane Hanna) meteorology.tropical_cyclone_category.max_wind_speed)",
+            "SExpr": "(ARGMAX (JOIN (R meteorology.tropical_cyclone.category) m.04jhm3w) meteorology.tropical_cyclone_category.max_wind_speed)"
+        }
+    },
+    "91": {
+        "generations": [
+            [
+                "what is the latitude of space mountain?",
+                -0.336268679436
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02z2qmd)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02z2qmd ns:location.location.geolocation ?x .\n?x ns:location.geocode.latitude ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.02z2qmd",
+            "mid2name": {
+                "ns:m.02z2qmd": "Space Mountain"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.geolocation) Space Mountain) location.geocode.latitude)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.geolocation) m.02z2qmd) location.geocode.latitude)"
+        }
+    },
+    "92": {
+        "generations": [
+            [
+                "when was liqufruta discontinued?",
+                -0.85213341584
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0j4t8yy)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0j4t8yy ns:business.brand.products ?x .\n?x ns:medicine.manufactured_drug_form.discontinued ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0j4t8yy",
+            "mid2name": {
+                "ns:m.0j4t8yy": "Liqufruta"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R business.brand.products) Liqufruta) medicine.manufactured_drug_form.discontinued)",
+            "SExpr": "(ARGMAX (JOIN (R business.brand.products) m.0j4t8yy) medicine.manufactured_drug_form.discontinued)"
+        }
+    },
+    "93": {
+        "generations": [
+            [
+                "what is the longest song by s\u00e9rgio de carvalho?",
+                -1.7586762813284003
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01wvd5m)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01wvd5m ns:music.artist.track ?x .\n?x ns:music.recording.length ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.01wvd5m",
+            "mid2name": {
+                "ns:m.01wvd5m": "S\u00e9rgio de Carvalho"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R music.artist.track) S\u00e9rgio de Carvalho) music.recording.length)",
+            "SExpr": "(ARGMAX (JOIN (R music.artist.track) m.01wvd5m) music.recording.length)"
+        }
+    },
+    "94": {
+        "generations": [
+            [
+                "what is the latitude of the daly house museum?",
+                -0.5579079473399998
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0gx1pcr)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0gx1pcr ns:location.location.geolocation ?x .\n?x ns:location.geocode.latitude ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0gx1pcr",
+            "mid2name": {
+                "ns:m.0gx1pcr": "Daly House Museum"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.geolocation) Daly House Museum) location.geocode.latitude)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.geolocation) m.0gx1pcr) location.geocode.latitude)"
+        }
+    },
+    "95": {
+        "generations": [
+            [
+                "what is the largest area in mclaren vale?",
+                -1.2515693214352002
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.050l_4)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.050l_4 ns:location.location.containedby ?x .\n?x ns:location.location.area ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.050l_4",
+            "mid2name": {
+                "ns:m.050l_4": "McLaren Vale"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.containedby) McLaren Vale) location.location.area)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.containedby) m.050l_4) location.location.area)"
+        }
+    },
+    "96": {
+        "generations": [
+            [
+                "who won the most medals in tennis?",
+                -2.71798021
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.07bs0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.07bs0 ns:user.jg.default_domain.olympic_event.medal_winners ?x .\n?x ns:user.jg.default_domain.olympic_medal_winner.athlete ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.07bs0",
+            "mid2name": {
+                "ns:m.07bs0": "Tennis"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R user.jg.default_domain.olympic_event.medal_winners) Tennis) user.jg.default_domain.olympic_medal_winner.athlete)",
+            "SExpr": "(ARGMAX (JOIN (R user.jg.default_domain.olympic_event.medal_winners) m.07bs0) user.jg.default_domain.olympic_medal_winner.athlete)"
+        }
+    },
+    "97": {
+        "generations": [
+            [
+                "how much did marvel spotlight #5 cost?",
+                -1.1509814005999999
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0127m_6f)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0127m_6f ns:comic_books.comic_book_issue.cover_price ?x .\n?x ns:measurement_unit.money_value.amount ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0127m_6f",
+            "mid2name": {
+                "ns:m.0127m_6f": "Marvel Spotlight #5"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R comic_books.comic_book_issue.cover_price) Marvel Spotlight #5) measurement_unit.money_value.amount)",
+            "SExpr": "(ARGMAX (JOIN (R comic_books.comic_book_issue.cover_price) m.0127m_6f) measurement_unit.money_value.amount)"
+        }
+    },
+    "98": {
+        "generations": [
+            [
+                "what is the longest recipe suzette gresham has made?",
+                -3.8913292910440003
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.083pv4w)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.083pv4w ns:food.recipe_author.recipes ?x .\n?x ns:food.recipe.cooking_time ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.083pv4w",
+            "mid2name": {
+                "ns:m.083pv4w": "Suzette Gresham"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R food.recipe_author.recipes) Suzette Gresham) food.recipe.cooking_time)",
+            "SExpr": "(ARGMAX (JOIN (R food.recipe_author.recipes) m.083pv4w) food.recipe.cooking_time)"
+        }
+    },
+    "99": {
+        "generations": [
+            [
+                "what is the longitude of canopy flyer?",
+                -1.08104700205
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0b__mn6)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0b__mn6 ns:location.location.geolocation ?x .\n?x ns:location.geocode.longitude ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0b__mn6",
+            "mid2name": {
+                "ns:m.0b__mn6": "Canopy Flyer"
+            },
+            "SExpr_w_name": "(ARGMAX (JOIN (R location.location.geolocation) Canopy Flyer) location.geocode.longitude)",
+            "SExpr": "(ARGMAX (JOIN (R location.location.geolocation) m.0b__mn6) location.geocode.longitude)"
+        }
+    }
+}

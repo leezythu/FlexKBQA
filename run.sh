@@ -1,7 +1,8 @@
 python ./scripts/annotate_kb_program.py --dataset wikitq \
---dataset_split grail_sparql_train \
---prompt_file templates/prompts/nl2sparql.txt \
---output_file binder_program_wikitq_validation_replica_2.json \
+--dataset_split results/s-expr/4_valid_expansions \
+--save_dir llm_results \
+--prompt_file manual_prompts.txt \
+--output_file 4_valid_expansions.json \
 --n_parallel_prompts 1 \
 --max_generation_tokens 512 \
 --temperature 0.4 \
