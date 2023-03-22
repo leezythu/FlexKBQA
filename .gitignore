@@ -8,5 +8,3 @@ tmp.log
 try.py
 templates/
 grail_sparql_train.json
-manual_prompts.txt
-manual_prompts_batch.txt
