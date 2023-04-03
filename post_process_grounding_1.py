@@ -15,11 +15,16 @@ def process(i):
     inter_file = os.path.join(intermediate_dir,str(i)+"_valid_expansions.json")
     inter_data = json.load(open(inter_file))
     existing_ents = [] #avoid duplicating 
+    existing_rels = []
     final_data = []
     for d in inter_data:
         flag = True
         for key in d:
             if "rel" in key:
+                if d[key] in existing_rels:
+                    flag = False
+                    break
+                existing_rels.append(d[key])
                 d[key] = {"id":d[key],"name":"ns:"+d[key].split("/")[-1]}
             if "ent" in key:
                 if "rdf.freebase.com" in d[key]:
@@ -45,5 +50,5 @@ def process(i):
         # exit(0)
     with open(os.path.join(intermediate_dir,str(i)+"_valid_expansions_w_ent_name.json"),'w') as f:
         f.write(json.dumps(final_data))
-for i in range(0,5):
+for i in range(23,24):
     process(i)

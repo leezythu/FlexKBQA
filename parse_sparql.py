@@ -303,5 +303,5 @@ if __name__ == '__main__':
     parser = Parser()
     in_dir = "results/sparql"
     out_dir = "results/s-expr"
-    for i in range(0,5):
+    for i in range(23,24):
         augment_with_s_expr(in_dir,out_dir,i)

@@ -40,7 +40,7 @@ def filter_valid_rets(results):
 def ground(data,i):
     d = data[i]["Parses"][0]
     valid_entities = json.load(open("grail_entities.json"))
-    entities = random.sample(valid_entities,10000)
+    entities = random.sample(valid_entities,1000)
     valid_expansions = []
     for e in entities:
         step_wise_querys = d["step_wise_queries"]
@@ -48,7 +48,7 @@ def ground(data,i):
         replace_info["?ent0"] = "ns:"+e[0]
         for query in step_wise_querys:
             for key in replace_info:
-                if key.startswith("rel"):
+                if not key.startswith("?ent0"):
                     query = query.replace("?"+key,"ns:"+replace_info[key].split("/")[-1])
                 else:
                     query = query.replace(key,replace_info[key])
@@ -73,5 +73,5 @@ def ground(data,i):
 
 if __name__ == '__main__':
     data = json.load(open("sparql_for_prompts.json"))
-    for i in range(2,len(data)):
+    for i in range(22,len(data)):
         ground(data,i)
