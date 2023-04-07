@@ -1,0 +1,15 @@
+{
+    "0": {
+        "generations": "What medical trial did L. D. Carbone reference in their written work?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.040ftth)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.040ftth ns:medicine.medical_trial_design.trials ?y .\n?y ns:medicine.medical_trial.references ?x .\n?x ns:book.written_work.author ns:m.04mkn76 .\n?y ns:medicine.medical_trial.eligibility_exclusion_criteria ?sk0 .\n}\nORDER BY xsd:datetime(?sk0)\nLIMIT 1\n",
+            "TopicEntityMid": "m.040ftth",
+            "mid2name": {
+                "ns:m.040ftth": "Efficacy Study",
+                "ns:m.04mkn76": "L. D. Carbone"
+            },
+            "SExpr_w_name": "(AND (JOIN book.written_work.author L. D. Carbone) (JOIN (R medicine.medical_trial.references) (ARGMIN (JOIN (R medicine.medical_trial_design.trials) Efficacy Study) medicine.medical_trial.eligibility_exclusion_criteria)))",
+            "SExpr": "(AND (JOIN book.written_work.author m.04mkn76) (JOIN (R medicine.medical_trial.references) (ARGMIN (JOIN (R medicine.medical_trial_design.trials) m.040ftth) medicine.medical_trial.eligibility_exclusion_criteria)))"
+        }
+    }
+}

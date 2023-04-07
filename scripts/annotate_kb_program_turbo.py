@@ -52,57 +52,26 @@ def worker_annotate(
             data_item=g_data_item,
         )
         prompt = few_shot_prompt + "\n\n" + generate_prompt
-        print(prompt)
-        completion = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
-            messages=[
-                {"role": "user", "content":prompt},
-            ],
-        )
-        print(completion.choices[0].message)
-        # print(len(tokenizer.tokenize(few_shot_prompt)))
-        # print(len(tokenizer.tokenize(generate_prompt)))
-        # print(len(tokenizer.tokenize(prompt)))
-        exit(0)
-        # Ensure the input length fit Codex max input tokens by shrinking the n_shots
-        # max_prompt_tokens = args.max_api_total_tokens - args.max_generation_tokens
-        # while len(tokenizer.tokenize(prompt)) >= max_prompt_tokens:  # TODO: Add shrink rows
-        #     n_shots -= 1
-        #     assert n_shots >= 0
-        #     few_shot_prompt = generator.build_few_shot_prompt_from_file(
-        #         file_path=args.prompt_file,
-        #         n_shots=n_shots
-        #     )
-        #     prompt = few_shot_prompt + "\n\n" + generate_prompt
+        completion = None
+        while completion is None:
+            try:
+                completion = openai.ChatCompletion.create(
+                    model="gpt-3.5-turbo",
+                    messages=[
+                        {"role": "user", "content":prompt},
+                    ],
+                    temperature=0
+                )
+                g_dict[g_eid]['generations'] = completion.choices[0].message["content"]
+            except Exception as e:
+                print(e, 'Retry.')
+                time.sleep(5)
 
-        print(f"Process#{pid}: Building prompt for eid#{g_eid}")
-        built_few_shot_prompts.append((g_eid, prompt))
-        if len(built_few_shot_prompts) < args.n_parallel_prompts:
-            continue
-
-        print(f"Process#{pid}: Prompts ready with {len(built_few_shot_prompts)} parallels. Run openai API.")
-        response_dict = generator.generate_one_pass(
-            prompts=built_few_shot_prompts,
-            verbose=args.verbose
-        )
-        for eid, g_pairs in response_dict.items():
-            g_pairs = sorted(g_pairs, key=lambda x: x[-1], reverse=True)
-            g_dict[eid]['generations'] = g_pairs
-
-        built_few_shot_prompts = []
+        # built_few_shot_prompts = []
         # except Exception as e:
         #     print(f"Process#{pid}: eid#{g_eid}, wtqid#{g_data_item['id']} generation error: {e}")
 
-    # Final generation inference
-    if len(built_few_shot_prompts) > 0:
-        response_dict = generator.generate_one_pass(
-            prompts=built_few_shot_prompts,
-            verbose=args.verbose
-        )
-        for eid, g_pairs in response_dict.items():
-            g_pairs = sorted(g_pairs, key=lambda x: x[-1], reverse=True)
-            g_dict[eid]['generations'] = g_pairs
-
+    
     return g_dict
 
 
