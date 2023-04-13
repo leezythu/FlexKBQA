@@ -36,7 +36,8 @@ for content in [webqsp_881_samples]:
     count = 0
     for k,v in content.items():
         sample = {}
-        sample["QuestionId"] = str(content_count) + "_" + str(count)
+        # sample["QuestionId"] = str(content_count) + "_" + str(count)
+        sample["QuestionId"] = v["ori_data_item"]["QuestionId"]
         if type(v["generations"][0]) == list:
             sample["RawQuestion"] = v["generations"][0][0]
         elif type(v["generations"]) == str:
