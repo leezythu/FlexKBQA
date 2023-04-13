@@ -34,7 +34,7 @@ def worker_annotate(
     built_few_shot_prompts = []
     for g_eid in g_eids:
         cnt+=1
-        if cnt>100:
+        if cnt>1000:
             break
         # try:
         g_data_item = dataset[g_eid]
