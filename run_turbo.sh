@@ -1,8 +1,8 @@
 python ./scripts/annotate_kb_program_turbo.py --dataset wikitq \
---dataset_split results/s-expr/22_valid_expansions \
+--dataset_split webqsp_881_samples_to_llm \
 --save_dir llm_results_turbo \
 --prompt_file manual_prompts.txt \
---output_file 22_valid_expansions.json \
+--output_file webqsp_881_samples_llm.json \
 --n_parallel_prompts 1 \
 --max_generation_tokens 512 \
 --temperature 0.4 \
