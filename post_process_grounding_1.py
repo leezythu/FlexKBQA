@@ -50,5 +50,5 @@ def process(i):
         # exit(0)
     with open(os.path.join(intermediate_dir,str(i)+"_valid_expansions_w_ent_name.json"),'w') as f:
         f.write(json.dumps(final_data))
-for i in range(23,24):
+for i in range(0,1):
     process(i)

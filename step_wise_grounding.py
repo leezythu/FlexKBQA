@@ -40,7 +40,7 @@ def filter_valid_rets(results):
 def ground(data,i):
     d = data[i]["Parses"][0]
     valid_entities = json.load(open("grail_entities.json"))
-    entities = random.sample(valid_entities,1000)
+    entities = random.sample(valid_entities,4000)
     valid_expansions = []
     for e in entities:
         step_wise_querys = d["step_wise_queries"]
@@ -73,5 +73,5 @@ def ground(data,i):
 
 if __name__ == '__main__':
     data = json.load(open("sparql_for_prompts.json"))
-    for i in range(22,len(data)):
+    for i in range(0,len(data)):
         ground(data,i)
