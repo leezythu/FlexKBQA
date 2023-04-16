@@ -24,14 +24,14 @@ def dump_json(obj, fname, indent=None):
 # validex_11 = load_json("llm_results_turbo/11_valid_expansions.json")
 # validex_16 = load_json("llm_results_turbo/16_valid_expansions.json")
 # validex_22 = load_json("llm_results_turbo/22_valid_expansions.json")
-webqsp_881_samples = load_json("llm_results_turbo/webqsp_881_samples_llm.json")
+webqsp_2017_samples = load_json("llm_results_turbo/webqsp_2017_samples_llm.json")
 
 result_list = []
 count = 0
 content_count = -1
 # for content in [validex_0, validex_1, validex_2, validex_3, validex_4, validex_5, validex_6, \
 #                 validex_7, validex_8, validex_9, validex_10,validex_11,validex_16,validex_22]:
-for content in [webqsp_881_samples]:
+for content in [webqsp_2017_samples]:
     content_count += 1
     count = 0
     for k,v in content.items():
@@ -60,4 +60,4 @@ for content in [webqsp_881_samples]:
 # random.shuffle(result_list)
 
 # 指定输出文件路径
-dump_json(result_list,"llm_results_to_rng_kbqa/result_webqsp_881_samples.json")
+dump_json(result_list,"llm_results_to_rng_kbqa/result_webqsp_2017_samples.json")
