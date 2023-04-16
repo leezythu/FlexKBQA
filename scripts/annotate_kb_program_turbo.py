@@ -32,8 +32,8 @@ def worker_annotate(
     built_few_shot_prompts = []
     for g_eid in g_eids:
         cnt+=1
-        if cnt<=100:
-            continue
+        # if cnt<=100:
+        #     continue
         # try:
         g_data_item = dataset[g_eid]
         # print("g_data_item")
@@ -77,7 +77,6 @@ def worker_annotate(
 
     
     return g_dict
-
 
 def load_from_file(path):
     data = json.load(open(path+".json"))

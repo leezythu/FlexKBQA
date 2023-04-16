@@ -1,6 +1,6 @@
 import json
-input_path = "webqsp_881_samples.json"
-out_path = "webqsp_881_samples_to_llm.json"
+input_path = "webqsp_2017_samples.json"
+out_path = "webqsp_2017_samples_to_llm.json"
 
 data = json.load(open(input_path))
 new_data = []
