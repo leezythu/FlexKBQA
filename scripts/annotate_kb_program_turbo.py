@@ -15,13 +15,11 @@ import openai
 from generation.generator import Generator
 
 ROOT_DIR = os.path.join(os.path.dirname(__file__), "../")
-os.environ["OPENAI_API_KEY"] = "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" # replace with your API key
-openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def worker_annotate(
-        pid: int,
+        pid,
         args,
-        generator: Generator,
+        generator,
         g_eids: List,
         dataset,
         tokenizer
@@ -34,8 +32,8 @@ def worker_annotate(
     built_few_shot_prompts = []
     for g_eid in g_eids:
         cnt+=1
-        if cnt>1000:
-            break
+        if cnt<=100:
+            continue
         # try:
         g_data_item = dataset[g_eid]
         # print("g_data_item")
@@ -52,9 +50,15 @@ def worker_annotate(
             data_item=g_data_item,
         )
         prompt = few_shot_prompt + "\n\n" + generate_prompt
+        # print("prompt:",prompt)
         completion = None
         while completion is None:
             try:
+                key = generator.keys[generator.current_key_id]
+                print(f"Using openai api key: {key}")
+                os.environ["OPENAI_API_KEY"] = key
+                openai.api_key = os.getenv("OPENAI_API_KEY")
+                generator.current_key_id = (generator.current_key_id + 1) % len(generator.keys)
                 completion = openai.ChatCompletion.create(
                     model="gpt-3.5-turbo",
                     messages=[
@@ -65,7 +69,7 @@ def worker_annotate(
                 g_dict[g_eid]['generations'] = completion.choices[0].message["content"]
             except Exception as e:
                 print(e, 'Retry.')
-                time.sleep(5)
+                time.sleep(1)
 
         # built_few_shot_prompts = []
         # except Exception as e:
@@ -80,8 +84,6 @@ def load_from_file(path):
     return data
 
 def main():
-    # Build paths
-    args.api_keys_file = os.path.join(ROOT_DIR, args.api_keys_file)
     args.prompt_file = os.path.join(ROOT_DIR, args.prompt_file)
     args.save_dir = os.path.join(ROOT_DIR, args.save_dir)
     os.makedirs(args.save_dir, exist_ok=True)
@@ -90,11 +92,12 @@ def main():
     start_time = time.time()
     dataset = load_from_file(args.dataset_split)
     # Load openai keys
-    with open(args.api_keys_file, 'r') as f:
+    with open("key.txt", 'r') as f:
         keys = [line.strip() for line in f.readlines()]
 
     # Annotate
     generator = Generator(args, keys=keys)
+    generator.current_key_id = 0
     generate_eids = list(range(len(dataset)))
     generate_eids_group = [[] for _ in range(args.n_processes)]
     for g_eid in generate_eids:
@@ -141,7 +144,6 @@ if __name__ == '__main__':
     parser.add_argument('--dataset', type=str, default='tab_fact',
                         choices=['wikitq', 'tab_fact'])
     parser.add_argument('--dataset_split', type=str, default='validation')
-    parser.add_argument('--api_keys_file', type=str, default='key.txt')
     parser.add_argument('--prompt_file', type=str, default='templates/prompts/wikitq_binder.txt')
     parser.add_argument('--output_file', type=str)
     parser.add_argument('--save_dir', type=str)
