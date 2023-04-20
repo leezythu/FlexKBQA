@@ -10,7 +10,7 @@ SELECT DISTINCT ?x WHERE {
 SPARQLPATH = "http://localhost:3001/sparql"
 sparql = SPARQLWrapper(SPARQLPATH)
 
-intermediate_dir = "intermediate_results"
+intermediate_dir = "intermediate_results_webqsp"
 def process(i):
     inter_file = os.path.join(intermediate_dir,str(i)+"_valid_expansions.json")
     inter_data = json.load(open(inter_file))
@@ -50,5 +50,5 @@ def process(i):
         # exit(0)
     with open(os.path.join(intermediate_dir,str(i)+"_valid_expansions_w_ent_name.json"),'w') as f:
         f.write(json.dumps(final_data))
-for i in range(0,1):
+for i in range(0,6):
     process(i)

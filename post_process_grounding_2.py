@@ -1,7 +1,7 @@
 import json,os
 data = json.load(open("sparql_for_prompts.json"))
-intermediate_dir = "intermediate_results"
-out_dir = "results/sparql"
+intermediate_dir = "intermediate_results_webqsp"
+out_dir = "results_webqsp/sparql"
 def process(data,i):
     d = data[i]["Parses"][0]
     masked_query = d["masked_query"]
@@ -27,5 +27,5 @@ def process(data,i):
         # print(new_query)
         out_data.append({"sparql":query,"TopicEntityMid":d["?ent0"]["id"].strip("ns:"),"mid2name":mid2name})
     out_file.write(json.dumps(out_data))
-for i in range(0,1):
+for i in range(0,6):
     process(data,i)

@@ -301,7 +301,7 @@ def augment_with_s_expr(in_dir,out_dir,i):
 
 if __name__ == '__main__':
     parser = Parser()
-    in_dir = "results/sparql"
-    out_dir = "results/s-expr"
-    for i in range(0,1):
+    in_dir = "results_webqsp/sparql"
+    out_dir = "results_webqsp/s-expr"
+    for i in range(0,6):
         augment_with_s_expr(in_dir,out_dir,i)

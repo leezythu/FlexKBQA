@@ -1,4 +1,5 @@
 from dataclasses import replace
+from html import entities
 from SPARQLWrapper import SPARQLWrapper, JSON
 import json
 import random
@@ -25,7 +26,7 @@ def filter_valid_rels(results):
         flag = True
         for key in bind:
             rel = bind[key]["value"].split("/")[-1]
-            if not "ns" in bind[key]["value"].split("/") or "freebase" in rel or "common" in rel or "type" in rel or "rdf" in rel :
+            if not "ns" in bind[key]["value"].split("/") or "freebase" in rel or "common" in rel or "type" in rel or "rdf" in rel or "base" in rel or "_id" in rel or ".uri" in rel:
                 flag = False
         if flag:
             valid_results.append(bind)
@@ -39,8 +40,9 @@ def filter_valid_rets(results):
 
 def ground(data,i):
     d = data[i]["Parses"][0]
-    valid_entities = json.load(open("grail_entities.json"))
-    entities = random.sample(valid_entities,4000)
+    valid_entities = json.load(open("webqsp_entities.json"))
+    # entities = random.sample(valid_entities,4000)
+    entities = valid_entities
     valid_expansions = []
     for e in entities:
         step_wise_querys = d["step_wise_queries"]
@@ -58,20 +60,21 @@ def ground(data,i):
             results = sparql.query().convert()
         # print(results)
             valid_rets = filter_valid_rets(results)
-            print(valid_rets)
+            # print(valid_rets)
             if len(valid_rets)==0:
                 replace_info = {}
                 break
-            valid_ret = valid_rets[0]
+            # valid_ret = valid_rets[0]
+            valid_ret = random.choice(valid_rets)
             for key in valid_ret:
                 replace_info[key] = valid_ret[key]["value"]
         if replace_info!={}:
             valid_expansions.append(replace_info)
-    with open("intermediate_results/"+str(i)+"_valid_expansions.json",'w') as f:
+    with open("intermediate_results_webqsp/"+str(i)+"_valid_expansions.json",'w') as f:
         f.write(json.dumps(valid_expansions))
-    exit(0)
+    # exit(0)
 
 if __name__ == '__main__':
     data = json.load(open("sparql_for_prompts.json"))
-    for i in range(0,len(data)):
+    for i in range(7,len(data)):
         ground(data,i)
