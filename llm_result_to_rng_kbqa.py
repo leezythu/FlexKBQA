@@ -24,20 +24,27 @@ def dump_json(obj, fname, indent=None):
 # validex_11 = load_json("llm_results_turbo/11_valid_expansions.json")
 # validex_16 = load_json("llm_results_turbo/16_valid_expansions.json")
 # validex_22 = load_json("llm_results_turbo/22_valid_expansions.json")
-webqsp_2017_samples = load_json("llm_results_turbo/webqsp_2017_samples_llm.json")
+# webqsp_2017_samples = load_json("llm_results_turbo/webqsp_2017_samples_llm.json")
+validex_0 = load_json("llm_results_turbo_webqsp/0_valid_expansions.json")
+validex_1 = load_json("llm_results_turbo_webqsp/1_valid_expansions.json")
+validex_2 = load_json("llm_results_turbo_webqsp/2_valid_expansions.json")
+validex_3 = load_json("llm_results_turbo_webqsp/3_valid_expansions.json")
+validex_4 = load_json("llm_results_turbo_webqsp/4_valid_expansions.json")
+validex_5 = load_json("llm_results_turbo_webqsp/5_valid_expansions.json")
 
 result_list = []
 count = 0
 content_count = -1
-# for content in [validex_0, validex_1, validex_2, validex_3, validex_4, validex_5, validex_6, \
-#                 validex_7, validex_8, validex_9, validex_10,validex_11,validex_16,validex_22]:
-for content in [webqsp_2017_samples]:
+for content in [validex_0, validex_1, validex_2, validex_3, validex_4, validex_5]:
+# for content in [webqsp_2017_samples]:
     content_count += 1
     count = 0
     for k,v in content.items():
         sample = {}
-        # sample["QuestionId"] = str(content_count) + "_" + str(count)
-        sample["QuestionId"] = v["ori_data_item"]["QuestionId"]
+
+        sample["QuestionId"] = str(content_count) + "_" + str(count)
+        # sample["QuestionId"] = v["ori_data_item"]["QuestionId"]
+
         if type(v["generations"][0]) == list:
             sample["RawQuestion"] = v["generations"][0][0]
         elif type(v["generations"]) == str:
@@ -46,9 +53,12 @@ for content in [webqsp_2017_samples]:
             raise KeyError
         parse_list = []
         one_parse = {}
+
         one_parse["TopicEntityMid"] = v["ori_data_item"]["TopicEntityMid"]
-        # one_parse["TopicEntityName"] = v["ori_data_item"]["mid2name"]["ns:{}".format(one_parse["TopicEntityMid"])]
-        one_parse["TopicEntityName"] = v["ori_data_item"]["mid2name"][one_parse["TopicEntityMid"]]
+        
+        one_parse["TopicEntityName"] = v["ori_data_item"]["mid2name"]["ns:{}".format(one_parse["TopicEntityMid"])]
+        # one_parse["TopicEntityName"] = v["ori_data_item"]["mid2name"][one_parse["TopicEntityMid"]]
+
         one_parse["SExpr"] = v["ori_data_item"]["SExpr"]
         parse_list.append(one_parse)
         sample["Parses"] = parse_list
@@ -57,7 +67,7 @@ for content in [webqsp_2017_samples]:
         count += 1
 
 # 对result_list进行shuffle
-# random.shuffle(result_list)
+random.shuffle(result_list)
 
 # 指定输出文件路径
-dump_json(result_list,"llm_results_to_rng_kbqa/result_webqsp_2017_samples.json")
+dump_json(result_list,"llm_results_to_rng_kbqa/result_entity_1000_samples.json")
