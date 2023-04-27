@@ -7,3 +7,6 @@ tmp.log
 try.py
 templates/
 grail_sparql_train.json
+llama-7b-hf-weights/
+llama.py
+transformers/
