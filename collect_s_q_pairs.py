@@ -37,6 +37,3 @@ for d in data:
         print(structure)
         print("question:",processed_question)
         existing_structure.append(structure)
-
-
-
