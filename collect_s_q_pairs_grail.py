@@ -4,8 +4,10 @@ data = json.load(src_path)
 print(len(data))
 
 out_f = open("s_q_pairs_grail_train.txt",'w')
+
 existing_structure = []
 existing_structure_cnt = {}
+sparql_tems = []
 out_f.write("Convert the s-expressions to natural language questions.\n\n")
 #统计
 for d in data:
@@ -33,12 +35,14 @@ for d in data:
         # print("question:",processed_question)
         existing_structure.append(structure)
     existing_structure_cnt[structure] += 1
-# print(existing_structure_cnt)
+print(existing_structure_cnt)
 
 filtered_structure = []
 for key in existing_structure_cnt:
     if existing_structure_cnt[key] > 97:
         filtered_structure.append(key)
+
+# print("filtered_structure",filtered_structure)
 print(len(filtered_structure))
 #筛选
 existing_structure = []
@@ -65,3 +69,7 @@ for d in data:
         out_f.write("s-expression:"+sexpr+"\n")
         out_f.write("question:"+processed_question+"\n\n")
         existing_structure.append(structure)
+        sparql_tems.append(d)
+
+with open("sparql_for_prompts_sparql.json",'w') as f:
+    f.write(json.dumps(sparql_tems))
