@@ -48,14 +48,14 @@
       ]
     },
     "sparql_query": "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX : <http://rdf.freebase.com/ns/> \nSELECT (?x0 AS ?value) WHERE {\nSELECT DISTINCT ?x0  WHERE { \n?x0 :type.object.type :medicine.routed_drug . \nVALUES ?x1 { :m.0hqs1x_ } \n?x0 :medicine.routed_drug.marketed_formulations ?x1 . \nFILTER ( ?x0 != ?x1  )\n}\n}",
-    "masked_query":"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX : <http://rdf.freebase.com/ns/> \nSELECT (?x0 AS ?value) WHERE {\nSELECT DISTINCT ?x0  WHERE { \n?x0 :type.object.type ?ent1 . \nVALUES ?x1 { ?ent0 } \n?x0 ?rel0 ?x1 . \nFILTER ( ?x0 != ?x1  )\n}\n}",
+    "masked_query": "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX : <http://rdf.freebase.com/ns/> \nSELECT (?x0 AS ?value) WHERE {\nSELECT DISTINCT ?x0  WHERE { \n?x0 :type.object.type ?ent1 . \nVALUES ?x1 { ?ent0 } \n?x0 ?rel0 ?x1 . \nFILTER ( ?x0 != ?x1  )\n}\n}",
     "step_wise_queries":[
-      "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX : <http://rdf.freebase.com/ns/> \nSELECT ?ent1 ?rel0 WHERE {\nSELECT DISTINCT ?x0  WHERE { \n?x0 :type.object.type ?ent1 . \nVALUES ?x1 { ?ent0 } \n?x0 ?rel0 ?x1 . \nFILTER ( ?x0 != ?x1  )\n}\n}"
+      "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX : <http://rdf.freebase.com/ns/> \nSELECT ?rel0 ?ent1 WHERE {\n?x0 :type.object.type ?ent1 . \nVALUES ?x1 { ?ent0 } \n?x0 ?rel0 ?x1 . \nFILTER ( ?x0 != ?x1  )\n}"
     ],
     "domains": [
       "medicine"
     ],
-    "s_expression": "(AND medicine.routed_drug (JOIN medicine.routed_drug.marketed_formulations m.0hqs1x_))"
+    "s_expression": "(AND ?ent1 (JOIN ?rel0 ?ent0))"
   },
   {
     "qid": 2103670001000,

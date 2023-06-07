@@ -1,1 +1,2202 @@
-[{"?ent0": {"id": "ns:m.0ddt_", "name": "Star Wars Episode I: The Phantom Menace"}, "rel0": {"id": "http://rdf.freebase.com/ns/film.film.film_casting_director", "name": "ns:film.film.film_casting_director"}, "rel1": {"id": "http://rdf.freebase.com/ns/people.person.date_of_birth", "name": "ns:people.person.date_of_birth"}, "rel2": {"id": "http://rdf.freebase.com/ns/people.person.gender", "name": "ns:people.person.gender"}, "ent1": {"id": "ns:m.02zsn", "name": "Female"}}, {"?ent0": {"id": "ns:m.02fgm7", "name": "John Noble"}, "rel0": {"id": "http://rdf.freebase.com/ns/tv.tv_actor.guest_roles", "name": "ns:tv.tv_actor.guest_roles"}, "rel1": {"id": "http://rdf.freebase.com/ns/tv.tv_guest_role.episodes_appeared_in", "name": "ns:tv.tv_guest_role.episodes_appeared_in"}, "rel2": {"id": "http://rdf.freebase.com/ns/tv.tv_guest_role.character", "name": "ns:tv.tv_guest_role.character"}, "ent1": {"id": "ns:m.09p3l_4", "name": "Dr. Salinger"}}, {"?ent0": {"id": "ns:m.084l5", "name": "Washington Redskins"}, "rel0": {"id": "http://rdf.freebase.com/ns/sports.sports_team.arena_stadium", "name": "ns:sports.sports_team.arena_stadium"}, "rel1": {"id": "http://rdf.freebase.com/ns/location.location.containedby", "name": "ns:location.location.containedby"}, "rel2": {"id": "http://rdf.freebase.com/ns/projects.project_focus.projects", "name": "ns:projects.project_focus.projects"}, "ent1": {"id": "ns:m.09jz4tn", "name": "Initial design and construction of FedExField"}}, {"?ent0": {"id": "ns:m.06c62", "name": "Rome"}, "rel0": {"id": "http://rdf.freebase.com/ns/travel.travel_destination.how_to_get_here", "name": "ns:travel.travel_destination.how_to_get_here"}, "rel1": {"id": "http://rdf.freebase.com/ns/travel.transportation.transport_operator", "name": "ns:travel.transportation.transport_operator"}, "rel2": {"id": "http://rdf.freebase.com/ns/travel.transportation.mode_of_transportation", "name": "ns:travel.transportation.mode_of_transportation"}, "ent1": {"id": "ns:m.0ddnl", "name": "Ferry"}}, {"?ent0": {"id": "ns:m.03qb78c", "name": "Air Transportation"}, "rel0": {"id": "http://rdf.freebase.com/ns/book.book_subject.works", "name": "ns:book.book_subject.works"}, "rel1": {"id": "http://rdf.freebase.com/ns/book.written_work.author", "name": "ns:book.written_work.author"}, "rel2": {"id": "http://rdf.freebase.com/ns/book.written_work.subjects", "name": "ns:book.written_work.subjects"}, "ent1": {"id": "ns:m.07bsy", "name": "Transportation"}}, {"?ent0": {"id": "ns:m.019pcs", "name": "Ethiopia"}, "rel0": {"id": "http://rdf.freebase.com/ns/location.country.languages_spoken", "name": "ns:location.country.languages_spoken"}, "rel1": {"id": "http://rdf.freebase.com/ns/organization.organization_sector.organizations_in_this_sector", "name": "ns:organization.organization_sector.organizations_in_this_sector"}, "rel2": {"id": "http://rdf.freebase.com/ns/dataworld.gardening_hint.split_to", "name": "ns:dataworld.gardening_hint.split_to"}, "ent1": {"id": "ns:m.07qv_", "name": "Tagalog language"}}, {"?ent0": {"id": "ns:m.060bp", "name": "Prime minister"}, "rel0": {"id": "http://rdf.freebase.com/ns/government.government_office_category.officeholders", "name": "ns:government.government_office_category.officeholders"}, "rel1": {"id": "http://rdf.freebase.com/ns/government.government_position_held.governmental_body", "name": "ns:government.government_position_held.governmental_body"}, "rel2": {"id": "http://rdf.freebase.com/ns/government.government_position_held.office_holder", "name": "ns:government.government_position_held.office_holder"}, "ent1": {"id": "ns:m.015zj4", "name": "Garret FitzGerald"}}, {"?ent0": {"id": "ns:m.0jb19", "name": "Decapitation"}, "rel0": {"id": "http://rdf.freebase.com/ns/people.cause_of_death.people", "name": "ns:people.cause_of_death.people"}, "rel1": {"id": "http://rdf.freebase.com/ns/film.film_character.portrayed_in_films", "name": "ns:film.film_character.portrayed_in_films"}, "rel2": {"id": "http://rdf.freebase.com/ns/symbols.name_source.namesakes", "name": "ns:symbols.name_source.namesakes"}, "ent1": {"id": "ns:m.03bz27t", "name": "St John the Baptist's Church, Knutsford"}}, {"?ent0": {"id": "ns:m.04ztj", "name": "Marriage"}, "rel0": {"id": "http://rdf.freebase.com/ns/religion.religious_practice.practice_of", "name": "ns:religion.religious_practice.practice_of"}, "rel1": {"id": "http://rdf.freebase.com/ns/religion.religion.is_part_of", "name": "ns:religion.religion.is_part_of"}, "rel2": {"id": "http://rdf.freebase.com/ns/religion.religion.holidays", "name": "ns:religion.religion.holidays"}, "ent1": {"id": "ns:m.04sy0c", "name": "Feast of Christ the King"}}, {"?ent0": {"id": "ns:m.060c4", "name": "President"}, "rel0": {"id": "http://rdf.freebase.com/ns/fictional_universe.character_occupation.characters_with_this_occupation", "name": "ns:fictional_universe.character_occupation.characters_with_this_occupation"}, "rel1": {"id": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.married_to", "name": "ns:fictional_universe.fictional_character.married_to"}, "rel2": {"id": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.organizations", "name": "ns:fictional_universe.fictional_character.organizations"}, "ent1": {"id": "ns:m.047k2fv", "name": "Looters"}}, {"?ent0": {"id": "ns:m.02pn7", "name": "Esther"}, "rel0": {"id": "http://rdf.freebase.com/ns/visual_art.art_subject.artwork_on_the_subject", "name": "ns:visual_art.art_subject.artwork_on_the_subject"}, "rel1": {"id": "http://rdf.freebase.com/ns/visual_art.artwork.support", "name": "ns:visual_art.artwork.support"}, "rel2": {"id": "http://rdf.freebase.com/ns/visual_art.artwork.art_subject", "name": "ns:visual_art.artwork.art_subject"}, "ent1": {"id": "ns:m.04742r", "name": "Haman"}}, {"?ent0": {"id": "ns:m.01vtj38", "name": "Cher"}, "rel0": {"id": "http://rdf.freebase.com/ns/music.artist.album", "name": "ns:music.artist.album"}, "rel1": {"id": "http://rdf.freebase.com/ns/music.composition.composer", "name": "ns:music.composition.composer"}, "rel2": {"id": "http://rdf.freebase.com/ns/music.album.releases", "name": "ns:music.album.releases"}, "ent1": {"id": "ns:m.0z4htbd", "name": "Take It Like a Man"}}, {"?ent0": {"id": "ns:m.081k8", "name": "William Shakespeare"}, "rel0": {"id": "http://rdf.freebase.com/ns/radio.radio_subject.programs_with_this_subject", "name": "ns:radio.radio_subject.programs_with_this_subject"}, "rel1": {"id": "http://rdf.freebase.com/ns/award.award_winning_work.awards_won", "name": "ns:award.award_winning_work.awards_won"}, "rel2": {"id": "http://rdf.freebase.com/ns/broadcast.content.producer", "name": "ns:broadcast.content.producer"}, "ent1": {"id": "ns:m.06mc5m3", "name": "Mark Ward"}}, {"?ent0": {"id": "ns:m.05zjd", "name": "Portuguese Language"}, "rel0": {"id": "http://rdf.freebase.com/ns/education.field_of_study.students_majoring", "name": "ns:education.field_of_study.students_majoring"}, "rel1": {"id": "http://rdf.freebase.com/ns/education.education.degree", "name": "ns:education.education.degree"}, "rel2": {"id": "http://rdf.freebase.com/ns/education.education.institution", "name": "ns:education.education.institution"}, "ent1": {"id": "ns:m.01yx1b", "name": "University of Wisconsin-Madison"}}, {"?ent0": {"id": "ns:m.01pr9kj", "name": "Joey Lawrence"}, "rel0": {"id": "http://rdf.freebase.com/ns/people.person.languages", "name": "ns:people.person.languages"}, "rel1": {"id": "http://rdf.freebase.com/ns/language.human_language.main_country", "name": "ns:language.human_language.main_country"}, "rel2": {"id": "http://rdf.freebase.com/ns/language.human_language.dialects", "name": "ns:language.human_language.dialects"}, "ent1": {"id": "ns:m.06n519", "name": "Philadelphia English"}}, {"?ent0": {"id": "ns:m.049_zz", "name": "Matt Lauer"}, "rel0": {"id": "http://rdf.freebase.com/ns/people.person.parents", "name": "ns:people.person.parents"}, "rel1": {"id": "http://rdf.freebase.com/ns/people.person.spouse_s", "name": "ns:people.person.spouse_s"}, "rel2": {"id": "http://rdf.freebase.com/ns/people.person.profession", "name": "ns:people.person.profession"}, "ent1": {"id": "ns:m.012t_z", "name": "Businessperson"}}, {"?ent0": {"id": "ns:m.0jm3v", "name": "New York Knicks"}, "rel0": {"id": "http://rdf.freebase.com/ns/organization.organization.headquarters", "name": "ns:organization.organization.headquarters"}, "rel1": {"id": "http://rdf.freebase.com/ns/location.mailing_address.state_province_region", "name": "ns:location.mailing_address.state_province_region"}, "rel2": {"id": "http://rdf.freebase.com/ns/location.mailing_address.postal_code", "name": "ns:location.mailing_address.postal_code"}, "ent1": {"id": "ns:m.07nrqvg", "name": "10121"}}, {"?ent0": {"id": "ns:m.05sb1", "name": "Pakistan"}, "rel0": {"id": "http://rdf.freebase.com/ns/location.statistical_region.external_debt_stock", "name": "ns:location.statistical_region.external_debt_stock"}, "rel1": {"id": "http://rdf.freebase.com/ns/measurement_unit.dated_money_value.valid_date", "name": "ns:measurement_unit.dated_money_value.valid_date"}, "rel2": {"id": "http://rdf.freebase.com/ns/measurement_unit.dated_money_value.currency", "name": "ns:measurement_unit.dated_money_value.currency"}, "ent1": {"id": "ns:m.09nqf", "name": "United States Dollar"}}, {"?ent0": {"id": "ns:m.0bdxs5", "name": "Miley Cyrus"}, "rel0": {"id": "http://rdf.freebase.com/ns/music.artist.label", "name": "ns:music.artist.label"}, "rel1": {"id": "http://rdf.freebase.com/ns/cvg.cvg_publisher.game_versions_published", "name": "ns:cvg.cvg_publisher.game_versions_published"}, "rel2": {"id": "http://rdf.freebase.com/ns/organization.organization.place_founded", "name": "ns:organization.organization.place_founded"}, "ent1": {"id": "ns:m.01wrkq", "name": "Machida"}}, {"?ent0": {"id": "ns:m.019nnl", "name": "Family Guy"}, "rel0": {"id": "http://rdf.freebase.com/ns/fictional_universe.work_of_fiction.part_of_these_fictional_universes", "name": "ns:fictional_universe.work_of_fiction.part_of_these_fictional_universes"}, "rel1": {"id": "http://rdf.freebase.com/ns/fictional_universe.fictional_universe.characters", "name": "ns:fictional_universe.fictional_universe.characters"}, "rel2": {"id": "http://rdf.freebase.com/ns/fictional_universe.fictional_universe.locations", "name": "ns:fictional_universe.fictional_universe.locations"}, "ent1": {"id": "ns:m.0b9lb6", "name": "Quahog"}}, {"?ent0": {"id": "ns:m.0f4vbz", "name": "Angelina Jolie"}, "rel0": {"id": "http://rdf.freebase.com/ns/user.narphorium.people.notable_person.part_of_notable_couple", "name": "ns:user.narphorium.people.notable_person.part_of_notable_couple"}, "rel1": {"id": "http://rdf.freebase.com/ns/music.musical_group.member", "name": "ns:music.musical_group.member"}, "rel2": {"id": "http://rdf.freebase.com/ns/celebrities.supercouple.partners", "name": "ns:celebrities.supercouple.partners"}, "ent1": {"id": "ns:m.0c6qh", "name": "Brad Pitt"}}, {"?ent0": {"id": "ns:m.0dl567", "name": "Taylor Swift"}, "rel0": {"id": "http://rdf.freebase.com/ns/award.award_winner.awards_won", "name": "ns:award.award_winner.awards_won"}, "rel1": {"id": "http://rdf.freebase.com/ns/award.award_honor.award", "name": "ns:award.award_honor.award"}, "rel2": {"id": "http://rdf.freebase.com/ns/award.award_honor.ceremony", "name": "ns:award.award_honor.ceremony"}, "ent1": {"id": "ns:m.0gx1673", "name": "54th Annual Grammy Awards"}}, {"?ent0": {"id": "ns:m.0c8wxp", "name": "Catholicism"}, "rel0": {"id": "http://rdf.freebase.com/ns/religion.religion.branched_from", "name": "ns:religion.religion.branched_from"}, "rel1": {"id": "http://rdf.freebase.com/ns/religion.religion.founding_figures", "name": "ns:religion.religion.founding_figures"}, "rel2": {"id": "http://rdf.freebase.com/ns/religion.religion.texts", "name": "ns:religion.religion.texts"}, "ent1": {"id": "ns:m.07gnt", "name": "Talmud"}}, {"?ent0": {"id": "ns:m.0534r8", "name": "Lola Bunny"}, "rel0": {"id": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.species", "name": "ns:fictional_universe.fictional_character.species"}, "rel1": {"id": "http://rdf.freebase.com/ns/user.hailey2009.default_domain.chinese_zodiac.direction", "name": "ns:user.hailey2009.default_domain.chinese_zodiac.direction"}, "rel2": {"id": "http://rdf.freebase.com/ns/user.hailey2009.default_domain.chinese_zodiac.western", "name": "ns:user.hailey2009.default_domain.chinese_zodiac.western"}, "ent1": {"id": "ns:m.07b6cz", "name": "Pisces"}}, {"?ent0": {"id": "ns:m.01wd02c", "name": "C. S. Lewis"}, "rel0": {"id": "http://rdf.freebase.com/ns/book.author.works_written", "name": "ns:book.author.works_written"}, "rel1": {"id": "http://rdf.freebase.com/ns/book.written_work.copyright_date", "name": "ns:book.written_work.copyright_date"}, "rel2": {"id": "http://rdf.freebase.com/ns/book.book.characters", "name": "ns:book.book.characters"}, "ent1": {"id": "ns:m.037fg7", "name": "Peter Pevensie"}}, {"?ent0": {"id": "ns:m.039h0j", "name": "President of the European Parliament"}, "rel0": {"id": "http://rdf.freebase.com/ns/government.government_office_or_title.governmental_body_if_any", "name": "ns:government.government_office_or_title.governmental_body_if_any"}, "rel1": {"id": "http://rdf.freebase.com/ns/business.employer.employees", "name": "ns:business.employer.employees"}, "rel2": {"id": "http://rdf.freebase.com/ns/internet.top_level_domain_sponsor.domains", "name": "ns:internet.top_level_domain_sponsor.domains"}, "ent1": {"id": "ns:m.07tfhk", "name": "kid"}}, {"?ent0": {"id": "ns:m.0fq2vj2", "name": "Seattle Pilots"}, "rel0": {"id": "http://rdf.freebase.com/ns/sports.sports_team.sport", "name": "ns:sports.sports_team.sport"}, "rel1": {"id": "http://rdf.freebase.com/ns/tv.tv_subject.tv_episodes", "name": "ns:tv.tv_subject.tv_episodes"}, "rel2": {"id": "http://rdf.freebase.com/ns/olympics.olympic_sport.events", "name": "ns:olympics.olympic_sport.events"}, "ent1": {"id": "ns:m.04fk2y0", "name": "Men's baseball"}}, {"?ent0": {"id": "ns:m.02wt0", "name": "Fiji"}, "rel0": {"id": "http://rdf.freebase.com/ns/location.statistical_region.fertility_rate", "name": "ns:location.statistical_region.fertility_rate"}, "rel1": {"id": "http://rdf.freebase.com/ns/measurement_unit.dated_float.date", "name": "ns:measurement_unit.dated_float.date"}, "rel2": {"id": "http://rdf.freebase.com/ns/measurement_unit.dated_float.source", "name": "ns:measurement_unit.dated_float.source"}, "ent1": {"id": "ns:m.0kfm2nh", "name": "World Bank, World Development Indicators, Fertility Rate"}}, {"?ent0": {"id": "ns:m.025mb_", "name": "Betty White"}, "rel0": {"id": "http://rdf.freebase.com/ns/tv.tv_personality.tv_regular_appearances", "name": "ns:tv.tv_personality.tv_regular_appearances"}, "rel1": {"id": "http://rdf.freebase.com/ns/tv.tv_regular_personal_appearance.to", "name": "ns:tv.tv_regular_personal_appearance.to"}, "rel2": {"id": "http://rdf.freebase.com/ns/tv.tv_regular_personal_appearance.program", "name": "ns:tv.tv_regular_personal_appearance.program"}, "ent1": {"id": "ns:m.0cq4qx", "name": "You Don't Say!"}}, {"?ent0": {"id": "ns:m.01wrcxr", "name": "Diana Ross"}, "rel0": {"id": "http://rdf.freebase.com/ns/broadcast.artist.content", "name": "ns:broadcast.artist.content"}, "rel1": {"id": "http://rdf.freebase.com/ns/broadcast.content.language", "name": "ns:broadcast.content.language"}, "rel2": {"id": "http://rdf.freebase.com/ns/broadcast.content.location", "name": "ns:broadcast.content.location"}, "ent1": {"id": "ns:m.03rjj", "name": "Italy"}}, {"?ent0": {"id": "ns:m.0by030z", "name": "Premier League Golden Boot"}, "rel0": {"id": "http://rdf.freebase.com/ns/award.award_category.winners", "name": "ns:award.award_category.winners"}, "rel1": {"id": "http://rdf.freebase.com/ns/award.award_honor.year", "name": "ns:award.award_honor.year"}, "rel2": {"id": "http://rdf.freebase.com/ns/award.award_honor.award_winner", "name": "ns:award.award_honor.award_winner"}, "ent1": {"id": "ns:m.02xt6q", "name": "Cristiano Ronaldo"}}, {"?ent0": {"id": "ns:m.0jnq8", "name": "Los Angeles Kings"}, "rel0": {"id": "http://rdf.freebase.com/ns/award.award_nominee.award_nominations", "name": "ns:award.award_nominee.award_nominations"}, "rel1": {"id": "http://rdf.freebase.com/ns/award.award_nomination.notes_description", "name": "ns:award.award_nomination.notes_description"}, "rel2": {"id": "http://rdf.freebase.com/ns/award.award_nomination.award_nominee", "name": "ns:award.award_nomination.award_nominee"}, "ent1": {"id": "ns:m.0hmtk", "name": "New York Rangers"}}, {"?ent0": {"id": "ns:m.059yj", "name": "National Football League"}, "rel0": {"id": "http://rdf.freebase.com/ns/organization.organization.child", "name": "ns:organization.organization.child"}, "rel1": {"id": "http://rdf.freebase.com/ns/organization.organization_relationship.from", "name": "ns:organization.organization_relationship.from"}, "rel2": {"id": "http://rdf.freebase.com/ns/organization.organization_relationship.child", "name": "ns:organization.organization_relationship.child"}, "ent1": {"id": "ns:m.03cm9b", "name": "NFL Network"}}, {"?ent0": {"id": "ns:m.01jrbb", "name": "Finding Nemo"}, "rel0": {"id": "http://rdf.freebase.com/ns/film.film.rating", "name": "ns:film.film.rating"}, "rel1": {"id": "http://rdf.freebase.com/ns/cvg.computer_game_rating.rating_system", "name": "ns:cvg.computer_game_rating.rating_system"}, "rel2": {"id": "http://rdf.freebase.com/ns/film.content_rating.film_rating_system", "name": "ns:film.content_rating.film_rating_system"}, "ent1": {"id": "ns:m.01bwfy", "name": "British Board of Film Classification"}}, {"?ent0": {"id": "ns:m.05tfm", "name": "Pittsburgh Steelers"}, "rel0": {"id": "http://rdf.freebase.com/ns/sports.sports_team.coaches", "name": "ns:sports.sports_team.coaches"}, "rel1": {"id": "http://rdf.freebase.com/ns/sports.sports_team_coach_tenure.coach", "name": "ns:sports.sports_team_coach_tenure.coach"}, "rel2": {"id": "http://rdf.freebase.com/ns/sports.sports_team_coach_tenure.position", "name": "ns:sports.sports_team_coach_tenure.position"}, "ent1": {"id": "ns:m.02md_2", "name": "Head coach"}}, {"?ent0": {"id": "ns:m.01f6rm", "name": "1906 San Francisco earthquake"}, "rel0": {"id": "http://rdf.freebase.com/ns/event.disaster.structures_destroyed", "name": "ns:event.disaster.structures_destroyed"}, "rel1": {"id": "http://rdf.freebase.com/ns/location.location.geolocation", "name": "ns:location.location.geolocation"}, "rel2": {"id": "http://rdf.freebase.com/ns/travel.accommodation.price_range", "name": "ns:travel.accommodation.price_range"}, "ent1": {"id": "ns:m.05c4qq", "name": "High end"}}, {"?ent0": {"id": "ns:m.0bv62", "name": "Langston Hughes"}, "rel0": {"id": "http://rdf.freebase.com/ns/music.lyricist.lyrics_written", "name": "ns:music.lyricist.lyrics_written"}, "rel1": {"id": "http://rdf.freebase.com/ns/music.composition.recordings", "name": "ns:music.composition.recordings"}, "rel2": {"id": "http://rdf.freebase.com/ns/music.composition.language", "name": "ns:music.composition.language"}, "ent1": {"id": "ns:m.0bwcb", "name": "Latvian Language"}}, {"?ent0": {"id": "ns:m.01vrz41", "name": "Elton John"}, "rel0": {"id": "http://rdf.freebase.com/ns/celebrities.celebrity.sexual_relationships", "name": "ns:celebrities.celebrity.sexual_relationships"}, "rel1": {"id": "http://rdf.freebase.com/ns/celebrities.romantic_relationship.start_date", "name": "ns:celebrities.romantic_relationship.start_date"}, "rel2": {"id": "http://rdf.freebase.com/ns/celebrities.romantic_relationship.celebrity", "name": "ns:celebrities.romantic_relationship.celebrity"}, "ent1": {"id": "ns:m.06wg2r", "name": "David Furnish"}}, {"?ent0": {"id": "ns:m.01vs_v8", "name": "Madonna"}, "rel0": {"id": "http://rdf.freebase.com/ns/film.music_contributor.film", "name": "ns:film.music_contributor.film"}, "rel1": {"id": "http://rdf.freebase.com/ns/film.film.sequel", "name": "ns:film.film.sequel"}, "rel2": {"id": "http://rdf.freebase.com/ns/music.concert_film.concert_tour", "name": "ns:music.concert_film.concert_tour"}, "ent1": {"id": "ns:m.01t1q1", "name": "Blond Ambition World Tour"}}, {"?ent0": {"id": "ns:m.059rby", "name": "New York"}, "rel0": {"id": "http://rdf.freebase.com/ns/travel.travel_destination.tourist_attractions", "name": "ns:travel.travel_destination.tourist_attractions"}, "rel1": {"id": "http://rdf.freebase.com/ns/architecture.museum.director", "name": "ns:architecture.museum.director"}, "rel2": {"id": "http://rdf.freebase.com/ns/architecture.structure.architectural_style", "name": "ns:architecture.structure.architectural_style"}, "ent1": {"id": "ns:m.0b9bhy", "name": "Contemporary architecture"}}, {"?ent0": {"id": "ns:m.02mjmr", "name": "Barack Obama"}, "rel0": {"id": "http://rdf.freebase.com/ns/broadcast.producer.produces", "name": "ns:broadcast.producer.produces"}, "rel1": {"id": "http://rdf.freebase.com/ns/user.zsi_editorial.editorial.topic.comments", "name": "ns:user.zsi_editorial.editorial.topic.comments"}, "rel2": {"id": "http://rdf.freebase.com/ns/broadcast.content.broadcast", "name": "ns:broadcast.content.broadcast"}, "ent1": {"id": "ns:m.04419ky", "name": "U.S. Senator Barack Obama Podcast - Podcast Feed"}}, {"?ent0": {"id": "ns:m.03n69x", "name": "Deion Sanders"}, "rel0": {"id": "http://rdf.freebase.com/ns/sports.pro_athlete.sports_played_professionally", "name": "ns:sports.pro_athlete.sports_played_professionally"}, "rel1": {"id": "http://rdf.freebase.com/ns/sports.pro_sports_played.career_end", "name": "ns:sports.pro_sports_played.career_end"}, "rel2": {"id": "http://rdf.freebase.com/ns/sports.pro_sports_played.sport", "name": "ns:sports.pro_sports_played.sport"}, "ent1": {"id": "ns:m.0jm_", "name": "American football"}}, {"?ent0": {"id": "ns:m.0217m9", "name": "Howard University"}, "rel0": {"id": "http://rdf.freebase.com/ns/education.educational_institution.students_graduates", "name": "ns:education.educational_institution.students_graduates"}, "rel1": {"id": "http://rdf.freebase.com/ns/education.education.start_date", "name": "ns:education.education.start_date"}, "rel2": {"id": "http://rdf.freebase.com/ns/education.education.student", "name": "ns:education.education.student"}, "ent1": {"id": "ns:m.0895t", "name": "Zora Neale Hurston"}}, {"?ent0": {"id": "ns:m.0hp3n", "name": "Pavlova"}, "rel0": {"id": "http://rdf.freebase.com/ns/food.dish.cuisine", "name": "ns:food.dish.cuisine"}, "rel1": {"id": "http://rdf.freebase.com/ns/dining.cuisine.region_of_origin", "name": "ns:dining.cuisine.region_of_origin"}, "rel2": {"id": "http://rdf.freebase.com/ns/dining.cuisine.dishes", "name": "ns:dining.cuisine.dishes"}, "ent1": {"id": "ns:m.070yl3", "name": "Le Snak"}}, {"?ent0": {"id": "ns:m.02h7gb", "name": "Jack Johnson"}, "rel0": {"id": "http://rdf.freebase.com/ns/music.featured_artist.recordings", "name": "ns:music.featured_artist.recordings"}, "rel1": {"id": "http://rdf.freebase.com/ns/music.recording.lyrics_website", "name": "ns:music.recording.lyrics_website"}, "rel2": {"id": "http://rdf.freebase.com/ns/music.recording.tracks", "name": "ns:music.recording.tracks"}, "ent1": {"id": "ns:m.0lhbs6z", "name": "Free"}}, {"?ent0": {"id": "ns:m.0fbppx", "name": "Maxie Jones"}, "rel0": {"id": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.gender", "name": "ns:fictional_universe.fictional_character.gender"}, "rel1": {"id": "http://rdf.freebase.com/ns/sports.sports_gender.sports_teams", "name": "ns:sports.sports_gender.sports_teams"}, "rel2": {"id": "http://rdf.freebase.com/ns/user.kryp.private.hint.coolnesfactor", "name": "ns:user.kryp.private.hint.coolnesfactor"}, "ent1": {"id": "ns:m.05pvw", "name": "1"}}, {"?ent0": {"id": "ns:m.0358x_", "name": "General Hospital"}, "rel0": {"id": "http://rdf.freebase.com/ns/tv.tv_program.spin_offs", "name": "ns:tv.tv_program.spin_offs"}, "rel1": {"id": "http://rdf.freebase.com/ns/tv.tv_program.currently_in_production", "name": "ns:tv.tv_program.currently_in_production"}, "rel2": {"id": "http://rdf.freebase.com/ns/tv.tv_program.genre", "name": "ns:tv.tv_program.genre"}, "ent1": {"id": "ns:m.04gm78f", "name": "Medical fiction"}}, {"?ent0": {"id": "ns:m.0gyrdqn", "name": "Drew Gordon"}, "rel0": {"id": "http://rdf.freebase.com/ns/basketball.basketball_player.position_s", "name": "ns:basketball.basketball_player.position_s"}, "rel1": {"id": "http://rdf.freebase.com/ns/sports.sports_position.players", "name": "ns:sports.sports_position.players"}, "rel2": {"id": "http://rdf.freebase.com/ns/sports.sports_position.sport", "name": "ns:sports.sports_position.sport"}, "ent1": {"id": "ns:m.018w8", "name": "Basketball"}}, {"?ent0": {"id": "ns:m.027f42", "name": "Michael Vick"}, "rel0": {"id": "http://rdf.freebase.com/ns/user.szaijan.fantasy_football.player.position", "name": "ns:user.szaijan.fantasy_football.player.position"}, "rel1": {"id": "http://rdf.freebase.com/ns/user.szaijan.fantasy_football.position_limit.target", "name": "ns:user.szaijan.fantasy_football.position_limit.target"}, "rel2": {"id": "http://rdf.freebase.com/ns/soccer.football_position.players", "name": "ns:soccer.football_position.players"}, "ent1": {"id": "ns:m.0jt57jz", "name": "Max Browne"}}, {"?ent0": {"id": "ns:m.03176f", "name": "Harry Potter and the Philosopher's Stone"}, "rel0": {"id": "http://rdf.freebase.com/ns/film.film.film_series", "name": "ns:film.film.film_series"}, "rel1": {"id": "http://rdf.freebase.com/ns/film.film_series.films_in_series", "name": "ns:film.film_series.films_in_series"}, "rel2": {"id": "http://rdf.freebase.com/ns/amusement_parks.ride_theme.rides", "name": "ns:amusement_parks.ride_theme.rides"}, "ent1": {"id": "ns:m.07sbx84", "name": "Harry Potter and the Forbidden Journey"}}, {"?ent0": {"id": "ns:m.0ysy", "name": "American Football League"}, "rel0": {"id": "http://rdf.freebase.com/ns/sports.sports_league.sport", "name": "ns:sports.sports_league.sport"}, "rel1": {"id": "http://rdf.freebase.com/ns/sports.sport.leagues", "name": "ns:sports.sport.leagues"}, "rel2": {"id": "http://rdf.freebase.com/ns/broadcast.genre.content", "name": "ns:broadcast.genre.content"}, "ent1": {"id": "ns:m.03bt98m", "name": "Chronicle Podcasts: 49ers"}}, {"?ent0": {"id": "ns:m.019rg5", "name": "Kenya"}, "rel0": {"id": "http://rdf.freebase.com/ns/olympics.olympic_participating_country.medals_won", "name": "ns:olympics.olympic_participating_country.medals_won"}, "rel1": {"id": "http://rdf.freebase.com/ns/olympics.olympic_medal_honor.olympics", "name": "ns:olympics.olympic_medal_honor.olympics"}, "rel2": {"id": "http://rdf.freebase.com/ns/olympics.olympic_medal_honor.event", "name": "ns:olympics.olympic_medal_honor.event"}, "ent1": {"id": "ns:m.04jf6ml", "name": "Athletics at the 2000 Summer Olympics - Men's marathon"}}, {"?ent0": {"id": "ns:m.0345h", "name": "Germany"}, "rel0": {"id": "http://rdf.freebase.com/ns/biology.breed_origin.breeds_originating_here", "name": "ns:biology.breed_origin.breeds_originating_here"}, "rel1": {"id": "http://rdf.freebase.com/ns/biology.animal_breed.examples", "name": "ns:biology.animal_breed.examples"}, "rel2": {"id": "http://rdf.freebase.com/ns/user.jefft0.default_domain.dog_breed.dogs_of_this_breed", "name": "ns:user.jefft0.default_domain.dog_breed.dogs_of_this_breed"}, "ent1": {"id": "ns:m.0qt1l98", "name": "Banana Joe V Tani Kazari"}}, {"?ent0": {"id": "ns:m.031fsz", "name": "Division I (NCAA)"}, "rel0": {"id": "http://rdf.freebase.com/ns/american_football.football_division.teams", "name": "ns:american_football.football_division.teams"}, "rel1": {"id": "http://rdf.freebase.com/ns/sports.sports_team.captains", "name": "ns:sports.sports_team.captains"}, "rel2": {"id": "http://rdf.freebase.com/ns/sports.sports_team.fight_song", "name": "ns:sports.sports_team.fight_song"}, "ent1": {"id": "ns:m.09gm5df", "name": "Come Join the Band"}}, {"?ent0": {"id": "ns:m.0gh43", "name": "National Collegiate Athletic Association"}, "rel0": {"id": "http://rdf.freebase.com/ns/sports.sports_league.championship", "name": "ns:sports.sports_league.championship"}, "rel1": {"id": "http://rdf.freebase.com/ns/time.recurring_event.instances", "name": "ns:time.recurring_event.instances"}, "rel2": {"id": "http://rdf.freebase.com/ns/sports.sports_championship.events", "name": "ns:sports.sports_championship.events"}, "ent1": {"id": "ns:m.05m4n2p", "name": "2009 NCAA Wrestling Championship"}}, {"?ent0": {"id": "ns:m.0g6z1", "name": "Old Bilbo"}, "rel0": {"id": "http://rdf.freebase.com/ns/film.film_character.portrayed_in_films_dubbed", "name": "ns:film.film_character.portrayed_in_films_dubbed"}, "rel1": {"id": "http://rdf.freebase.com/ns/film.dubbing_performance.film", "name": "ns:film.dubbing_performance.film"}, "rel2": {"id": "http://rdf.freebase.com/ns/film.dubbing_performance.actor", "name": "ns:film.dubbing_performance.actor"}, "ent1": {"id": "ns:m.0xn7blh", "name": "Fabrizio Vidale"}}, {"?ent0": {"id": "ns:m.01j851", "name": "Farrah Fawcett"}, "rel0": {"id": "http://rdf.freebase.com/ns/medicine.notable_person_with_medical_condition.condition", "name": "ns:medicine.notable_person_with_medical_condition.condition"}, "rel1": {"id": "http://rdf.freebase.com/ns/medicine.disease.medical_specialties", "name": "ns:medicine.disease.medical_specialties"}, "rel2": {"id": "http://rdf.freebase.com/ns/people.cause_of_death.parent_cause_of_death", "name": "ns:people.cause_of_death.parent_cause_of_death"}, "ent1": {"id": "ns:m.0qcr0", "name": "Cancer"}}, {"?ent0": {"id": "ns:m.02llzy", "name": "Kurt Busch"}, "rel0": {"id": "http://rdf.freebase.com/ns/award.competitor.competitions", "name": "ns:award.competitor.competitions"}, "rel1": {"id": "http://rdf.freebase.com/ns/award.competition.winner", "name": "ns:award.competition.winner"}, "rel2": {"id": "http://rdf.freebase.com/ns/time.event.included_in_event", "name": "ns:time.event.included_in_event"}, "ent1": {"id": "ns:m.0wdqqbm", "name": "2014 IndyCar Series season"}}, {"?ent0": {"id": "ns:m.0cymln", "name": "Chris Paul"}, "rel0": {"id": "http://rdf.freebase.com/ns/sports.pro_athlete.teams", "name": "ns:sports.pro_athlete.teams"}, "rel1": {"id": "http://rdf.freebase.com/ns/sports.sports_team_roster.to", "name": "ns:sports.sports_team_roster.to"}, "rel2": {"id": "http://rdf.freebase.com/ns/sports.sports_team_roster.position", "name": "ns:sports.sports_team_roster.position"}, "ent1": {"id": "ns:m.02sf_r", "name": "Point guard"}}, {"?ent0": {"id": "ns:m.0rh6k", "name": "Washington, D.C."}, "rel0": {"id": "http://rdf.freebase.com/ns/travel.travel_destination.local_transportation", "name": "ns:travel.travel_destination.local_transportation"}, "rel1": {"id": "http://rdf.freebase.com/ns/user.joehughes.default_domain.transit_agency.route_stop_information", "name": "ns:user.joehughes.default_domain.transit_agency.route_stop_information"}, "rel2": {"id": "http://rdf.freebase.com/ns/metropolitan_transit.transit_system.agency", "name": "ns:metropolitan_transit.transit_system.agency"}, "ent1": {"id": "ns:m.04c1rb", "name": "Washington Metropolitan Area Transit Authority"}}, {"?ent0": {"id": "ns:m.07c72", "name": "The Simpsons"}, "rel0": {"id": "http://rdf.freebase.com/ns/tv.tv_program.languages", "name": "ns:tv.tv_program.languages"}, "rel1": {"id": "http://rdf.freebase.com/ns/language.language_dialect.language", "name": "ns:language.language_dialect.language"}, "rel2": {"id": "http://rdf.freebase.com/ns/language.human_language.countries_spoken_in", "name": "ns:language.human_language.countries_spoken_in"}, "ent1": {"id": "ns:m.09pmkv", "name": "Malaysia"}}, {"?ent0": {"id": "ns:m.0ds67cb", "name": "Spy Kids: All the Time in the World"}, "rel0": {"id": "http://rdf.freebase.com/ns/film.film.directed_by", "name": "ns:film.film.directed_by"}, "rel1": {"id": "http://rdf.freebase.com/ns/user.micahsaul.advertising.ad_contributor.ads", "name": "ns:user.micahsaul.advertising.ad_contributor.ads"}, "rel2": {"id": "http://rdf.freebase.com/ns/film.producer.films_executive_produced", "name": "ns:film.producer.films_executive_produced"}, "ent1": {"id": "ns:m.029k4p", "name": "From Dusk till Dawn"}}, {"?ent0": {"id": "ns:m.05vz3zq", "name": "Soviet Union"}, "rel0": {"id": "http://rdf.freebase.com/ns/sports.sport_country.athletic_performances", "name": "ns:sports.sport_country.athletic_performances"}, "rel1": {"id": "http://rdf.freebase.com/ns/sports.competitor_competition_relationship.rank", "name": "ns:sports.competitor_competition_relationship.rank"}, "rel2": {"id": "http://rdf.freebase.com/ns/sports.competitor_competition_relationship.competition", "name": "ns:sports.competitor_competition_relationship.competition"}, "ent1": {"id": "ns:m.03c_wv6", "name": "1986 European Athletics Championships \u2013 Men's 800 metres"}}, {"?ent0": {"id": "ns:m.07gyp7", "name": "McDonald's"}, "rel0": {"id": "http://rdf.freebase.com/ns/organization.organization.locations", "name": "ns:organization.organization.locations"}, "rel1": {"id": "http://rdf.freebase.com/ns/business.business_location.phone_number", "name": "ns:business.business_location.phone_number"}, "rel2": {"id": "http://rdf.freebase.com/ns/business.business_location.in_shopping_center", "name": "ns:business.business_location.in_shopping_center"}, "ent1": {"id": "ns:m.089v3_", "name": "Paradise Valley Mall"}}, {"?ent0": {"id": "ns:m.0r87z", "name": "Moorpark"}, "rel0": {"id": "http://rdf.freebase.com/ns/location.hud_foreclosure_area.total_residential_addresses", "name": "ns:location.hud_foreclosure_area.total_residential_addresses"}, "rel1": {"id": "http://rdf.freebase.com/ns/measurement_unit.dated_integer.year", "name": "ns:measurement_unit.dated_integer.year"}, "rel2": {"id": "http://rdf.freebase.com/ns/measurement_unit.dated_integer.source", "name": "ns:measurement_unit.dated_integer.source"}, "ent1": {"id": "ns:m.0jbk9", "name": "United States Department of Housing and Urban Development"}}, {"?ent0": {"id": "ns:m.02__x", "name": "Miami Marlins"}, "rel0": {"id": "http://rdf.freebase.com/ns/sports.sports_team.colors", "name": "ns:sports.sports_team.colors"}, "rel1": {"id": "http://rdf.freebase.com/ns/user.duck1123.default_domain.mtg_mana_color.spells_using_this_color_in_casting", "name": "ns:user.duck1123.default_domain.mtg_mana_color.spells_using_this_color_in_casting"}, "rel2": {"id": "http://rdf.freebase.com/ns/biology.breed_coloring.breeds", "name": "ns:biology.breed_coloring.breeds"}, "ent1": {"id": "ns:m.01dv7j", "name": "Schipperke"}}, {"?ent0": {"id": "ns:m.05fky", "name": "North Dakota"}, "rel0": {"id": "http://rdf.freebase.com/ns/location.statistical_region.minimum_wage", "name": "ns:location.statistical_region.minimum_wage"}, "rel1": {"id": "http://rdf.freebase.com/ns/measurement_unit.recurring_money_value.amount", "name": "ns:measurement_unit.recurring_money_value.amount"}, "rel2": {"id": "http://rdf.freebase.com/ns/measurement_unit.recurring_money_value.frequency", "name": "ns:measurement_unit.recurring_money_value.frequency"}, "ent1": {"id": "ns:m.03mxv", "name": "Hour"}}, {"?ent0": {"id": "ns:m.07hyk", "name": "Theodore Roosevelt"}, "rel0": {"id": "http://rdf.freebase.com/ns/people.appointer.appointment_made", "name": "ns:people.appointer.appointment_made"}, "rel1": {"id": "http://rdf.freebase.com/ns/people.appointment.appointee", "name": "ns:people.appointment.appointee"}, "rel2": {"id": "http://rdf.freebase.com/ns/people.appointment.appointed_role", "name": "ns:people.appointment.appointed_role"}, "ent1": {"id": "ns:m.012w3", "name": "Associate Justice of the Supreme Court of the United States"}}, {"?ent0": {"id": "ns:m.0yfp", "name": "Arthur Miller"}, "rel0": {"id": "http://rdf.freebase.com/ns/film.writer.film", "name": "ns:film.writer.film"}, "rel1": {"id": "http://rdf.freebase.com/ns/film.film.film_set_decoration_by", "name": "ns:film.film.film_set_decoration_by"}, "rel2": {"id": "http://rdf.freebase.com/ns/film.film.edited_by", "name": "ns:film.film.edited_by"}, "ent1": {"id": "ns:m.0276zhf", "name": "George Tomasini"}}, {"?ent0": {"id": "ns:m.07fj_", "name": "Tunisia"}, "rel0": {"id": "http://rdf.freebase.com/ns/olympics.olympic_participating_country.athletes", "name": "ns:olympics.olympic_participating_country.athletes"}, "rel1": {"id": "http://rdf.freebase.com/ns/olympics.olympic_athlete_affiliation.athlete", "name": "ns:olympics.olympic_athlete_affiliation.athlete"}, "rel2": {"id": "http://rdf.freebase.com/ns/olympics.olympic_athlete_affiliation.sport", "name": "ns:olympics.olympic_athlete_affiliation.sport"}, "ent1": {"id": "ns:m.06f41", "name": "Rowing"}}, {"?ent0": {"id": "ns:m.0gynx", "name": "\u00c9owyn"}, "rel0": {"id": "http://rdf.freebase.com/ns/book.book_character.appears_in_book", "name": "ns:book.book_character.appears_in_book"}, "rel1": {"id": "http://rdf.freebase.com/ns/book.translated_work.translations", "name": "ns:book.translated_work.translations"}, "rel2": {"id": "http://rdf.freebase.com/ns/fictional_universe.work_of_fiction.setting", "name": "ns:fictional_universe.work_of_fiction.setting"}, "ent1": {"id": "ns:m.0hbpd", "name": "Arda"}}, {"?ent0": {"id": "ns:m.099vgz", "name": "Sergio Ag\u00fcero"}, "rel0": {"id": "http://rdf.freebase.com/ns/soccer.football_player.goals_scored", "name": "ns:soccer.football_player.goals_scored"}, "rel1": {"id": "http://rdf.freebase.com/ns/soccer.football_goal.minute", "name": "ns:soccer.football_goal.minute"}, "rel2": {"id": "http://rdf.freebase.com/ns/soccer.football_goal.point_awarded_to", "name": "ns:soccer.football_goal.point_awarded_to"}, "ent1": {"id": "ns:m.01634x", "name": "Manchester City F.C."}}, {"?ent0": {"id": "ns:m.0828jw", "name": "Lost"}, "rel0": {"id": "http://rdf.freebase.com/ns/tv.tv_program.soundtrack", "name": "ns:tv.tv_program.soundtrack"}, "rel1": {"id": "http://rdf.freebase.com/ns/music.album.primary_release", "name": "ns:music.album.primary_release"}, "rel2": {"id": "http://rdf.freebase.com/ns/music.album.artist", "name": "ns:music.album.artist"}, "ent1": {"id": "ns:m.04ls53", "name": "Michael Giacchino"}}, {"?ent0": {"id": "ns:m.05fjf", "name": "New Jersey"}, "rel0": {"id": "http://rdf.freebase.com/ns/government.political_district.elections", "name": "ns:government.political_district.elections"}, "rel1": {"id": "http://rdf.freebase.com/ns/government.election.election_year", "name": "ns:government.election.election_year"}, "rel2": {"id": "http://rdf.freebase.com/ns/government.election.general_election", "name": "ns:government.election.general_election"}, "ent1": {"id": "ns:m.04958p", "name": "United States Senate elections, 2008"}}, {"?ent0": {"id": "ns:m.0487_", "name": "Kansas City Chiefs"}, "rel0": {"id": "http://rdf.freebase.com/ns/organization.organization.leadership", "name": "ns:organization.organization.leadership"}, "rel1": {"id": "http://rdf.freebase.com/ns/organization.leadership.title", "name": "ns:organization.leadership.title"}, "rel2": {"id": "http://rdf.freebase.com/ns/organization.leadership.person", "name": "ns:organization.leadership.person"}, "ent1": {"id": "ns:m.0hznyqd", "name": "Mark Donovan"}}, {"?ent0": {"id": "ns:m.01kv93", "name": "Staffordshire Bull Terrier"}, "rel0": {"id": "http://rdf.freebase.com/ns/biology.animal_breed.registered_with", "name": "ns:biology.animal_breed.registered_with"}, "rel1": {"id": "http://rdf.freebase.com/ns/biology.breed_registration.breed_group", "name": "ns:biology.breed_registration.breed_group"}, "rel2": {"id": "http://rdf.freebase.com/ns/biology.breed_registration.registry", "name": "ns:biology.breed_registration.registry"}, "ent1": {"id": "ns:m.025dr5", "name": "The Kennel Club"}}, {"?ent0": {"id": "ns:m.02jx1", "name": "England"}, "rel0": {"id": "http://rdf.freebase.com/ns/location.location.partially_contains", "name": "ns:location.location.partially_contains"}, "rel1": {"id": "http://rdf.freebase.com/ns/geography.river.basin_countries", "name": "ns:geography.river.basin_countries"}, "rel2": {"id": "http://rdf.freebase.com/ns/geography.body_of_water.bridges", "name": "ns:geography.body_of_water.bridges"}, "ent1": {"id": "ns:m.087mgy", "name": "The Iron Bridge"}}, {"?ent0": {"id": "ns:m.063tn", "name": "Pyotr Ilyich Tchaikovsky"}, "rel0": {"id": "http://rdf.freebase.com/ns/opera.librettist.libretti", "name": "ns:opera.librettist.libretti"}, "rel1": {"id": "http://rdf.freebase.com/ns/opera.opera.date_written", "name": "ns:opera.opera.date_written"}, "rel2": {"id": "http://rdf.freebase.com/ns/opera.opera.genre", "name": "ns:opera.opera.genre"}, "ent1": {"id": "ns:m.04dg7h2", "name": "Opera in three acts"}}, {"?ent0": {"id": "ns:m.0xnc3", "name": "Charles, Prince of Wales"}, "rel0": {"id": "http://rdf.freebase.com/ns/royalty.chivalric_order_officer.memberships_presented", "name": "ns:royalty.chivalric_order_officer.memberships_presented"}, "rel1": {"id": "http://rdf.freebase.com/ns/royalty.chivalric_order_membership.title", "name": "ns:royalty.chivalric_order_membership.title"}, "rel2": {"id": "http://rdf.freebase.com/ns/royalty.chivalric_order_membership.order", "name": "ns:royalty.chivalric_order_membership.order"}, "ent1": {"id": "ns:m.01f2y9", "name": "Order of the British Empire"}}, {"?ent0": {"id": "ns:m.0by0ww1", "name": "2010 Stanley Cup Finals"}, "rel0": {"id": "http://rdf.freebase.com/ns/sports.sports_championship_event.runner_up", "name": "ns:sports.sports_championship_event.runner_up"}, "rel1": {"id": "http://rdf.freebase.com/ns/ice_hockey.hockey_team.coach", "name": "ns:ice_hockey.hockey_team.coach"}, "rel2": {"id": "http://rdf.freebase.com/ns/ice_hockey.hockey_team.division", "name": "ns:ice_hockey.hockey_team.division"}, "ent1": {"id": "ns:m.0wbl8rj", "name": "Metropolitan Division"}}, {"?ent0": {"id": "ns:m.0jz06", "name": "Spike"}, "rel0": {"id": "http://rdf.freebase.com/ns/cvg.game_character.games", "name": "ns:cvg.game_character.games"}, "rel1": {"id": "http://rdf.freebase.com/ns/cvg.game_performance.voice_actor", "name": "ns:cvg.game_performance.voice_actor"}, "rel2": {"id": "http://rdf.freebase.com/ns/cvg.game_performance.game", "name": "ns:cvg.game_performance.game"}, "ent1": {"id": "ns:m.0f5db4", "name": "Buffy the Vampire Slayer"}}, {"?ent0": {"id": "ns:m.01xndd", "name": "J.J. Abrams"}, "rel0": {"id": "http://rdf.freebase.com/ns/business.board_member.leader_of", "name": "ns:business.board_member.leader_of"}, "rel1": {"id": "http://rdf.freebase.com/ns/organization.leadership.role", "name": "ns:organization.leadership.role"}, "rel2": {"id": "http://rdf.freebase.com/ns/organization.leadership.organization", "name": "ns:organization.leadership.organization"}, "ent1": {"id": "ns:m.03q5s8", "name": "Bad Robot Productions"}}, {"?ent0": {"id": "ns:m.07jdr", "name": "Train"}, "rel0": {"id": "http://rdf.freebase.com/ns/metropolitan_transit.transit_vehicle.transit_lines", "name": "ns:metropolitan_transit.transit_vehicle.transit_lines"}, "rel1": {"id": "http://rdf.freebase.com/ns/metropolitan_transit.transit_line.primary_line", "name": "ns:metropolitan_transit.transit_line.primary_line"}, "rel2": {"id": "http://rdf.freebase.com/ns/metropolitan_transit.transit_line.transit_system", "name": "ns:metropolitan_transit.transit_line.transit_system"}, "ent1": {"id": "ns:m.04hm3b", "name": "Transperth"}}, {"?ent0": {"id": "ns:m.0gztl", "name": "Southwest Airlines"}, "rel0": {"id": "http://rdf.freebase.com/ns/aviation.airline.airports_served", "name": "ns:aviation.airline.airports_served"}, "rel1": {"id": "http://rdf.freebase.com/ns/aviation.airline_airport_presence.terminals", "name": "ns:aviation.airline_airport_presence.terminals"}, "rel2": {"id": "http://rdf.freebase.com/ns/aviation.airline_airport_presence.airport", "name": "ns:aviation.airline_airport_presence.airport"}, "ent1": {"id": "ns:m.01n2vy", "name": "Denver International Airport"}}, {"?ent0": {"id": "ns:m.01zl71", "name": "Roman Abramovich"}, "rel0": {"id": "http://rdf.freebase.com/ns/boats.ship_owner.ships_owned", "name": "ns:boats.ship_owner.ships_owned"}, "rel1": {"id": "http://rdf.freebase.com/ns/boats.ship_ownership.from_date", "name": "ns:boats.ship_ownership.from_date"}, "rel2": {"id": "http://rdf.freebase.com/ns/boats.ship_ownership.ship", "name": "ns:boats.ship_ownership.ship"}, "ent1": {"id": "ns:m.09s_xg", "name": "Pelorus"}}, {"?ent0": {"id": "ns:m.05b6w", "name": "Neil Armstrong"}, "rel0": {"id": "http://rdf.freebase.com/ns/music.music_video_performer.music_video_performances", "name": "ns:music.music_video_performer.music_video_performances"}, "rel1": {"id": "http://rdf.freebase.com/ns/music.music_video_performance.music_video", "name": "ns:music.music_video_performance.music_video"}, "rel2": {"id": "http://rdf.freebase.com/ns/music.music_video_performance.music_video_character", "name": "ns:music.music_video_performance.music_video_character"}, "ent1": {"id": "ns:m.0htp", "name": "Astronaut"}}, {"?ent0": {"id": "ns:m.055l1", "name": "Mary, Queen of Scots"}, "rel0": {"id": "http://rdf.freebase.com/ns/government.politician.government_positions_held", "name": "ns:government.politician.government_positions_held"}, "rel1": {"id": "http://rdf.freebase.com/ns/government.government_position_held.from", "name": "ns:government.government_position_held.from"}, "rel2": {"id": "http://rdf.freebase.com/ns/government.government_position_held.office_position_or_title", "name": "ns:government.government_position_held.office_position_or_title"}, "ent1": {"id": "ns:m.07ns4lr", "name": "Queen of Scotland"}}, {"?ent0": {"id": "ns:m.0j8cb", "name": "Carolina Hurricanes"}, "rel0": {"id": "http://rdf.freebase.com/ns/ice_hockey.hockey_team.captain", "name": "ns:ice_hockey.hockey_team.captain"}, "rel1": {"id": "http://rdf.freebase.com/ns/people.person.sibling_s", "name": "ns:people.person.sibling_s"}, "rel2": {"id": "http://rdf.freebase.com/ns/ice_hockey.hockey_player.hockey_position", "name": "ns:ice_hockey.hockey_player.hockey_position"}, "ent1": {"id": "ns:m.02qvdc", "name": "Centerman"}}, {"?ent0": {"id": "ns:m.06vbd", "name": "Syria"}, "rel0": {"id": "http://rdf.freebase.com/ns/military.military_combatant.force_deployments", "name": "ns:military.military_combatant.force_deployments"}, "rel1": {"id": "http://rdf.freebase.com/ns/military.force_strength.maximum_force_size", "name": "ns:military.force_strength.maximum_force_size"}, "rel2": {"id": "http://rdf.freebase.com/ns/military.force_strength.military_conflict", "name": "ns:military.force_strength.military_conflict"}, "ent1": {"id": "ns:m.0784z", "name": "Six-Day War"}}, {"?ent0": {"id": "ns:m.0c8kc", "name": "Hermione Granger"}, "rel0": {"id": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.education", "name": "ns:fictional_universe.fictional_character.education"}, "rel1": {"id": "http://rdf.freebase.com/ns/fictional_universe.fictional_organization.appears_in_universes", "name": "ns:fictional_universe.fictional_organization.appears_in_universes"}, "rel2": {"id": "http://rdf.freebase.com/ns/fictional_universe.fictional_organization.sub_organization_in_fiction", "name": "ns:fictional_universe.fictional_organization.sub_organization_in_fiction"}, "ent1": {"id": "ns:m.02vhpv1", "name": "Gryffindor House"}}, {"?ent0": {"id": "ns:m.025t3bg", "name": "Air travel"}, "rel0": {"id": "http://rdf.freebase.com/ns/medicine.risk_factor.diseases", "name": "ns:medicine.risk_factor.diseases"}, "rel1": {"id": "http://rdf.freebase.com/ns/medicine.disease.parent_disease", "name": "ns:medicine.disease.parent_disease"}, "rel2": {"id": "http://rdf.freebase.com/ns/medicine.symptom.symptom_of", "name": "ns:medicine.symptom.symptom_of"}, "ent1": {"id": "ns:m.0mztl", "name": "Streptococcal pharyngitis"}}, {"?ent0": {"id": "ns:m.07_l39", "name": "Bethenny Frankel"}, "rel0": {"id": "http://rdf.freebase.com/ns/tv.tv_program_creator.programs_created", "name": "ns:tv.tv_program_creator.programs_created"}, "rel1": {"id": "http://rdf.freebase.com/ns/tv.tv_program.air_date_of_first_episode", "name": "ns:tv.tv_program.air_date_of_first_episode"}, "rel2": {"id": "http://rdf.freebase.com/ns/tv.tv_program.episodes", "name": "ns:tv.tv_program.episodes"}, "ent1": {"id": "ns:m.0yb7xsh", "name": "Kathy Wakile ('RHONJ')/Pop Star Jason Derulo/Friends Unfiltered: Mom Edition/Rip It or Return It?"}}, {"?ent0": {"id": "ns:m.01nw62", "name": "Rottweiler"}, "rel0": {"id": "http://rdf.freebase.com/ns/biology.animal_breed.breed_of", "name": "ns:biology.animal_breed.breed_of"}, "rel1": {"id": "http://rdf.freebase.com/ns/biology.organism_classification.synonym_scientific_name", "name": "ns:biology.organism_classification.synonym_scientific_name"}, "rel2": {"id": "http://rdf.freebase.com/ns/biology.organism_classification.rank", "name": "ns:biology.organism_classification.rank"}, "ent1": {"id": "ns:m.019dpj", "name": "Subspecies"}}, {"?ent0": {"id": "ns:m.02k1b", "name": "Ecuador"}, "rel0": {"id": "http://rdf.freebase.com/ns/location.location.time_zones", "name": "ns:location.location.time_zones"}, "rel1": {"id": "http://rdf.freebase.com/ns/time.time_zone.time_zone_abbreviation_standard", "name": "ns:time.time_zone.time_zone_abbreviation_standard"}, "rel2": {"id": "http://rdf.freebase.com/ns/time.time_zone.locations_in_this_time_zone", "name": "ns:time.time_zone.locations_in_this_time_zone"}, "ent1": {"id": "ns:m.0bbtrr0", "name": "San Joaqu\u00edn, Ecuador"}}, {"?ent0": {"id": "ns:m.0211mz", "name": "Singapore Zoo"}, "rel0": {"id": "http://rdf.freebase.com/ns/zoos.zoo.notable_animals", "name": "ns:zoos.zoo.notable_animals"}, "rel1": {"id": "http://rdf.freebase.com/ns/zoos.animal_captivity.exhibit", "name": "ns:zoos.animal_captivity.exhibit"}, "rel2": {"id": "http://rdf.freebase.com/ns/zoos.animal_captivity.animal", "name": "ns:zoos.animal_captivity.animal"}, "ent1": {"id": "ns:m.0h_fr0x", "name": "Sheba"}}, {"?ent0": {"id": "ns:m.01xrrm", "name": "Burmese Language"}, "rel0": {"id": "http://rdf.freebase.com/ns/language.human_language.language_family", "name": "ns:language.human_language.language_family"}, "rel1": {"id": "http://rdf.freebase.com/ns/language.language_family.iso_639_5_code", "name": "ns:language.language_family.iso_639_5_code"}, "rel2": {"id": "http://rdf.freebase.com/ns/language.language_family.geographic_distribution", "name": "ns:language.language_family.geographic_distribution"}, "ent1": {"id": "ns:m.073q1", "name": "Southeast Asia"}}, {"?ent0": {"id": "ns:m.016cff", "name": "Venus Williams"}, "rel0": {"id": "http://rdf.freebase.com/ns/tennis.tennis_tournament_champion.tennis_titles", "name": "ns:tennis.tennis_tournament_champion.tennis_titles"}, "rel1": {"id": "http://rdf.freebase.com/ns/tennis.tennis_tournament_championship.winner", "name": "ns:tennis.tennis_tournament_championship.winner"}, "rel2": {"id": "http://rdf.freebase.com/ns/tennis.tennis_tournament_championship.tournament", "name": "ns:tennis.tennis_tournament_championship.tournament"}, "ent1": {"id": "ns:m.0l6c9", "name": "The US Open (Tennis)"}}, {"?ent0": {"id": "ns:m.01rxw", "name": "Congo"}, "rel0": {"id": "http://rdf.freebase.com/ns/location.statistical_region.military_expenditure_percent_gdp", "name": "ns:location.statistical_region.military_expenditure_percent_gdp"}, "rel1": {"id": "http://rdf.freebase.com/ns/measurement_unit.dated_percentage.rate", "name": "ns:measurement_unit.dated_percentage.rate"}, "rel2": {"id": "http://rdf.freebase.com/ns/measurement_unit.dated_percentage.source", "name": "ns:measurement_unit.dated_percentage.source"}, "ent1": {"id": "ns:m.0ndnhc6", "name": "Military expenditure as percentage of GDP, World Development Indicators and Global Development Finance, World Bank"}}, {"?ent0": {"id": "ns:m.0420y", "name": "Jean-Jacques Rousseau"}, "rel0": {"id": "http://rdf.freebase.com/ns/book.author.school_or_movement", "name": "ns:book.author.school_or_movement"}, "rel1": {"id": "http://rdf.freebase.com/ns/architecture.architectural_style.examples", "name": "ns:architecture.architectural_style.examples"}, "rel2": {"id": "http://rdf.freebase.com/ns/book.school_or_movement.associated_works", "name": "ns:book.school_or_movement.associated_works"}, "ent1": {"id": "ns:m.02pw9_k", "name": "The Pathfinder, or The Inland Sea"}}, {"?ent0": {"id": "ns:m.0j1z8", "name": "United Arab Emirates"}, "rel0": {"id": "http://rdf.freebase.com/ns/location.country.internet_tld", "name": "ns:location.country.internet_tld"}, "rel1": {"id": "http://rdf.freebase.com/ns/internet.top_level_domain.registry", "name": "ns:internet.top_level_domain.registry"}, "rel2": {"id": "http://rdf.freebase.com/ns/internet.top_level_domain.status", "name": "ns:internet.top_level_domain.status"}, "ent1": {"id": "ns:m.02hsn4g", "name": "Active"}}]
+[
+    {
+        "?ent0": {
+            "id": "ns:m.0ddt_",
+            "name": "Star Wars Episode I: The Phantom Menace"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/film.film.film_casting_director",
+            "name": "ns:film.film.film_casting_director"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/people.person.date_of_birth",
+            "name": "ns:people.person.date_of_birth"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/people.person.gender",
+            "name": "ns:people.person.gender"
+        },
+        "ent1": {
+            "id": "ns:m.02zsn",
+            "name": "Female"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.02fgm7",
+            "name": "John Noble"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/tv.tv_actor.guest_roles",
+            "name": "ns:tv.tv_actor.guest_roles"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/tv.tv_guest_role.episodes_appeared_in",
+            "name": "ns:tv.tv_guest_role.episodes_appeared_in"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/tv.tv_guest_role.character",
+            "name": "ns:tv.tv_guest_role.character"
+        },
+        "ent1": {
+            "id": "ns:m.09p3l_4",
+            "name": "Dr. Salinger"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.084l5",
+            "name": "Washington Redskins"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/sports.sports_team.arena_stadium",
+            "name": "ns:sports.sports_team.arena_stadium"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/location.location.containedby",
+            "name": "ns:location.location.containedby"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/projects.project_focus.projects",
+            "name": "ns:projects.project_focus.projects"
+        },
+        "ent1": {
+            "id": "ns:m.09jz4tn",
+            "name": "Initial design and construction of FedExField"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.06c62",
+            "name": "Rome"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/travel.travel_destination.how_to_get_here",
+            "name": "ns:travel.travel_destination.how_to_get_here"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/travel.transportation.transport_operator",
+            "name": "ns:travel.transportation.transport_operator"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/travel.transportation.mode_of_transportation",
+            "name": "ns:travel.transportation.mode_of_transportation"
+        },
+        "ent1": {
+            "id": "ns:m.0ddnl",
+            "name": "Ferry"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.03qb78c",
+            "name": "Air Transportation"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/book.book_subject.works",
+            "name": "ns:book.book_subject.works"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/book.written_work.author",
+            "name": "ns:book.written_work.author"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/book.written_work.subjects",
+            "name": "ns:book.written_work.subjects"
+        },
+        "ent1": {
+            "id": "ns:m.07bsy",
+            "name": "Transportation"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.019pcs",
+            "name": "Ethiopia"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/location.country.languages_spoken",
+            "name": "ns:location.country.languages_spoken"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/organization.organization_sector.organizations_in_this_sector",
+            "name": "ns:organization.organization_sector.organizations_in_this_sector"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/dataworld.gardening_hint.split_to",
+            "name": "ns:dataworld.gardening_hint.split_to"
+        },
+        "ent1": {
+            "id": "ns:m.07qv_",
+            "name": "Tagalog language"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.060bp",
+            "name": "Prime minister"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/government.government_office_category.officeholders",
+            "name": "ns:government.government_office_category.officeholders"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/government.government_position_held.governmental_body",
+            "name": "ns:government.government_position_held.governmental_body"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/government.government_position_held.office_holder",
+            "name": "ns:government.government_position_held.office_holder"
+        },
+        "ent1": {
+            "id": "ns:m.015zj4",
+            "name": "Garret FitzGerald"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0jb19",
+            "name": "Decapitation"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/people.cause_of_death.people",
+            "name": "ns:people.cause_of_death.people"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/film.film_character.portrayed_in_films",
+            "name": "ns:film.film_character.portrayed_in_films"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/symbols.name_source.namesakes",
+            "name": "ns:symbols.name_source.namesakes"
+        },
+        "ent1": {
+            "id": "ns:m.03bz27t",
+            "name": "St John the Baptist's Church, Knutsford"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.04ztj",
+            "name": "Marriage"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/religion.religious_practice.practice_of",
+            "name": "ns:religion.religious_practice.practice_of"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/religion.religion.is_part_of",
+            "name": "ns:religion.religion.is_part_of"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/religion.religion.holidays",
+            "name": "ns:religion.religion.holidays"
+        },
+        "ent1": {
+            "id": "ns:m.04sy0c",
+            "name": "Feast of Christ the King"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.060c4",
+            "name": "President"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.character_occupation.characters_with_this_occupation",
+            "name": "ns:fictional_universe.character_occupation.characters_with_this_occupation"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.married_to",
+            "name": "ns:fictional_universe.fictional_character.married_to"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.organizations",
+            "name": "ns:fictional_universe.fictional_character.organizations"
+        },
+        "ent1": {
+            "id": "ns:m.047k2fv",
+            "name": "Looters"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.02pn7",
+            "name": "Esther"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/visual_art.art_subject.artwork_on_the_subject",
+            "name": "ns:visual_art.art_subject.artwork_on_the_subject"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/visual_art.artwork.support",
+            "name": "ns:visual_art.artwork.support"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/visual_art.artwork.art_subject",
+            "name": "ns:visual_art.artwork.art_subject"
+        },
+        "ent1": {
+            "id": "ns:m.04742r",
+            "name": "Haman"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.01vtj38",
+            "name": "Cher"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/music.artist.album",
+            "name": "ns:music.artist.album"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/music.composition.composer",
+            "name": "ns:music.composition.composer"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/music.album.releases",
+            "name": "ns:music.album.releases"
+        },
+        "ent1": {
+            "id": "ns:m.0z4htbd",
+            "name": "Take It Like a Man"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.081k8",
+            "name": "William Shakespeare"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/radio.radio_subject.programs_with_this_subject",
+            "name": "ns:radio.radio_subject.programs_with_this_subject"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/award.award_winning_work.awards_won",
+            "name": "ns:award.award_winning_work.awards_won"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/broadcast.content.producer",
+            "name": "ns:broadcast.content.producer"
+        },
+        "ent1": {
+            "id": "ns:m.06mc5m3",
+            "name": "Mark Ward"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.05zjd",
+            "name": "Portuguese Language"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/education.field_of_study.students_majoring",
+            "name": "ns:education.field_of_study.students_majoring"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/education.education.degree",
+            "name": "ns:education.education.degree"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/education.education.institution",
+            "name": "ns:education.education.institution"
+        },
+        "ent1": {
+            "id": "ns:m.01yx1b",
+            "name": "University of Wisconsin-Madison"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.01pr9kj",
+            "name": "Joey Lawrence"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/people.person.languages",
+            "name": "ns:people.person.languages"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/language.human_language.main_country",
+            "name": "ns:language.human_language.main_country"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/language.human_language.dialects",
+            "name": "ns:language.human_language.dialects"
+        },
+        "ent1": {
+            "id": "ns:m.06n519",
+            "name": "Philadelphia English"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.049_zz",
+            "name": "Matt Lauer"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/people.person.parents",
+            "name": "ns:people.person.parents"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/people.person.spouse_s",
+            "name": "ns:people.person.spouse_s"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/people.person.profession",
+            "name": "ns:people.person.profession"
+        },
+        "ent1": {
+            "id": "ns:m.012t_z",
+            "name": "Businessperson"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0jm3v",
+            "name": "New York Knicks"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+            "name": "ns:organization.organization.headquarters"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/location.mailing_address.state_province_region",
+            "name": "ns:location.mailing_address.state_province_region"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/location.mailing_address.postal_code",
+            "name": "ns:location.mailing_address.postal_code"
+        },
+        "ent1": {
+            "id": "ns:m.07nrqvg",
+            "name": "10121"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.05sb1",
+            "name": "Pakistan"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/location.statistical_region.external_debt_stock",
+            "name": "ns:location.statistical_region.external_debt_stock"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/measurement_unit.dated_money_value.valid_date",
+            "name": "ns:measurement_unit.dated_money_value.valid_date"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/measurement_unit.dated_money_value.currency",
+            "name": "ns:measurement_unit.dated_money_value.currency"
+        },
+        "ent1": {
+            "id": "ns:m.09nqf",
+            "name": "United States Dollar"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0bdxs5",
+            "name": "Miley Cyrus"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/music.artist.label",
+            "name": "ns:music.artist.label"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/cvg.cvg_publisher.game_versions_published",
+            "name": "ns:cvg.cvg_publisher.game_versions_published"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/organization.organization.place_founded",
+            "name": "ns:organization.organization.place_founded"
+        },
+        "ent1": {
+            "id": "ns:m.01wrkq",
+            "name": "Machida"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.019nnl",
+            "name": "Family Guy"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.work_of_fiction.part_of_these_fictional_universes",
+            "name": "ns:fictional_universe.work_of_fiction.part_of_these_fictional_universes"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.fictional_universe.characters",
+            "name": "ns:fictional_universe.fictional_universe.characters"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.fictional_universe.locations",
+            "name": "ns:fictional_universe.fictional_universe.locations"
+        },
+        "ent1": {
+            "id": "ns:m.0b9lb6",
+            "name": "Quahog"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0f4vbz",
+            "name": "Angelina Jolie"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/user.narphorium.people.notable_person.part_of_notable_couple",
+            "name": "ns:user.narphorium.people.notable_person.part_of_notable_couple"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/music.musical_group.member",
+            "name": "ns:music.musical_group.member"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/celebrities.supercouple.partners",
+            "name": "ns:celebrities.supercouple.partners"
+        },
+        "ent1": {
+            "id": "ns:m.0c6qh",
+            "name": "Brad Pitt"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0dl567",
+            "name": "Taylor Swift"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/award.award_winner.awards_won",
+            "name": "ns:award.award_winner.awards_won"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/award.award_honor.award",
+            "name": "ns:award.award_honor.award"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/award.award_honor.ceremony",
+            "name": "ns:award.award_honor.ceremony"
+        },
+        "ent1": {
+            "id": "ns:m.0gx1673",
+            "name": "54th Annual Grammy Awards"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0c8wxp",
+            "name": "Catholicism"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/religion.religion.branched_from",
+            "name": "ns:religion.religion.branched_from"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/religion.religion.founding_figures",
+            "name": "ns:religion.religion.founding_figures"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/religion.religion.texts",
+            "name": "ns:religion.religion.texts"
+        },
+        "ent1": {
+            "id": "ns:m.07gnt",
+            "name": "Talmud"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0534r8",
+            "name": "Lola Bunny"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.species",
+            "name": "ns:fictional_universe.fictional_character.species"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/user.hailey2009.default_domain.chinese_zodiac.direction",
+            "name": "ns:user.hailey2009.default_domain.chinese_zodiac.direction"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/user.hailey2009.default_domain.chinese_zodiac.western",
+            "name": "ns:user.hailey2009.default_domain.chinese_zodiac.western"
+        },
+        "ent1": {
+            "id": "ns:m.07b6cz",
+            "name": "Pisces"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.01wd02c",
+            "name": "C. S. Lewis"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/book.author.works_written",
+            "name": "ns:book.author.works_written"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/book.written_work.copyright_date",
+            "name": "ns:book.written_work.copyright_date"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/book.book.characters",
+            "name": "ns:book.book.characters"
+        },
+        "ent1": {
+            "id": "ns:m.037fg7",
+            "name": "Peter Pevensie"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.039h0j",
+            "name": "President of the European Parliament"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/government.government_office_or_title.governmental_body_if_any",
+            "name": "ns:government.government_office_or_title.governmental_body_if_any"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/business.employer.employees",
+            "name": "ns:business.employer.employees"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/internet.top_level_domain_sponsor.domains",
+            "name": "ns:internet.top_level_domain_sponsor.domains"
+        },
+        "ent1": {
+            "id": "ns:m.07tfhk",
+            "name": "kid"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0fq2vj2",
+            "name": "Seattle Pilots"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/sports.sports_team.sport",
+            "name": "ns:sports.sports_team.sport"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/tv.tv_subject.tv_episodes",
+            "name": "ns:tv.tv_subject.tv_episodes"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/olympics.olympic_sport.events",
+            "name": "ns:olympics.olympic_sport.events"
+        },
+        "ent1": {
+            "id": "ns:m.04fk2y0",
+            "name": "Men's baseball"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.02wt0",
+            "name": "Fiji"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/location.statistical_region.fertility_rate",
+            "name": "ns:location.statistical_region.fertility_rate"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/measurement_unit.dated_float.date",
+            "name": "ns:measurement_unit.dated_float.date"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/measurement_unit.dated_float.source",
+            "name": "ns:measurement_unit.dated_float.source"
+        },
+        "ent1": {
+            "id": "ns:m.0kfm2nh",
+            "name": "World Bank, World Development Indicators, Fertility Rate"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.025mb_",
+            "name": "Betty White"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/tv.tv_personality.tv_regular_appearances",
+            "name": "ns:tv.tv_personality.tv_regular_appearances"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/tv.tv_regular_personal_appearance.to",
+            "name": "ns:tv.tv_regular_personal_appearance.to"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/tv.tv_regular_personal_appearance.program",
+            "name": "ns:tv.tv_regular_personal_appearance.program"
+        },
+        "ent1": {
+            "id": "ns:m.0cq4qx",
+            "name": "You Don't Say!"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.01wrcxr",
+            "name": "Diana Ross"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/broadcast.artist.content",
+            "name": "ns:broadcast.artist.content"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/broadcast.content.language",
+            "name": "ns:broadcast.content.language"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/broadcast.content.location",
+            "name": "ns:broadcast.content.location"
+        },
+        "ent1": {
+            "id": "ns:m.03rjj",
+            "name": "Italy"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0by030z",
+            "name": "Premier League Golden Boot"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/award.award_category.winners",
+            "name": "ns:award.award_category.winners"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/award.award_honor.year",
+            "name": "ns:award.award_honor.year"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/award.award_honor.award_winner",
+            "name": "ns:award.award_honor.award_winner"
+        },
+        "ent1": {
+            "id": "ns:m.02xt6q",
+            "name": "Cristiano Ronaldo"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0jnq8",
+            "name": "Los Angeles Kings"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/award.award_nominee.award_nominations",
+            "name": "ns:award.award_nominee.award_nominations"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/award.award_nomination.notes_description",
+            "name": "ns:award.award_nomination.notes_description"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/award.award_nomination.award_nominee",
+            "name": "ns:award.award_nomination.award_nominee"
+        },
+        "ent1": {
+            "id": "ns:m.0hmtk",
+            "name": "New York Rangers"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.059yj",
+            "name": "National Football League"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/organization.organization.child",
+            "name": "ns:organization.organization.child"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/organization.organization_relationship.from",
+            "name": "ns:organization.organization_relationship.from"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/organization.organization_relationship.child",
+            "name": "ns:organization.organization_relationship.child"
+        },
+        "ent1": {
+            "id": "ns:m.03cm9b",
+            "name": "NFL Network"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.01jrbb",
+            "name": "Finding Nemo"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/film.film.rating",
+            "name": "ns:film.film.rating"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/cvg.computer_game_rating.rating_system",
+            "name": "ns:cvg.computer_game_rating.rating_system"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/film.content_rating.film_rating_system",
+            "name": "ns:film.content_rating.film_rating_system"
+        },
+        "ent1": {
+            "id": "ns:m.01bwfy",
+            "name": "British Board of Film Classification"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.05tfm",
+            "name": "Pittsburgh Steelers"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/sports.sports_team.coaches",
+            "name": "ns:sports.sports_team.coaches"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/sports.sports_team_coach_tenure.coach",
+            "name": "ns:sports.sports_team_coach_tenure.coach"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/sports.sports_team_coach_tenure.position",
+            "name": "ns:sports.sports_team_coach_tenure.position"
+        },
+        "ent1": {
+            "id": "ns:m.02md_2",
+            "name": "Head coach"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.01f6rm",
+            "name": "1906 San Francisco earthquake"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/event.disaster.structures_destroyed",
+            "name": "ns:event.disaster.structures_destroyed"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/location.location.geolocation",
+            "name": "ns:location.location.geolocation"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/travel.accommodation.price_range",
+            "name": "ns:travel.accommodation.price_range"
+        },
+        "ent1": {
+            "id": "ns:m.05c4qq",
+            "name": "High end"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0bv62",
+            "name": "Langston Hughes"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/music.lyricist.lyrics_written",
+            "name": "ns:music.lyricist.lyrics_written"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/music.composition.recordings",
+            "name": "ns:music.composition.recordings"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/music.composition.language",
+            "name": "ns:music.composition.language"
+        },
+        "ent1": {
+            "id": "ns:m.0bwcb",
+            "name": "Latvian Language"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.01vrz41",
+            "name": "Elton John"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/celebrities.celebrity.sexual_relationships",
+            "name": "ns:celebrities.celebrity.sexual_relationships"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/celebrities.romantic_relationship.start_date",
+            "name": "ns:celebrities.romantic_relationship.start_date"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/celebrities.romantic_relationship.celebrity",
+            "name": "ns:celebrities.romantic_relationship.celebrity"
+        },
+        "ent1": {
+            "id": "ns:m.06wg2r",
+            "name": "David Furnish"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.01vs_v8",
+            "name": "Madonna"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/film.music_contributor.film",
+            "name": "ns:film.music_contributor.film"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/film.film.sequel",
+            "name": "ns:film.film.sequel"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/music.concert_film.concert_tour",
+            "name": "ns:music.concert_film.concert_tour"
+        },
+        "ent1": {
+            "id": "ns:m.01t1q1",
+            "name": "Blond Ambition World Tour"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.059rby",
+            "name": "New York"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/travel.travel_destination.tourist_attractions",
+            "name": "ns:travel.travel_destination.tourist_attractions"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/architecture.museum.director",
+            "name": "ns:architecture.museum.director"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/architecture.structure.architectural_style",
+            "name": "ns:architecture.structure.architectural_style"
+        },
+        "ent1": {
+            "id": "ns:m.0b9bhy",
+            "name": "Contemporary architecture"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.02mjmr",
+            "name": "Barack Obama"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/broadcast.producer.produces",
+            "name": "ns:broadcast.producer.produces"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/user.zsi_editorial.editorial.topic.comments",
+            "name": "ns:user.zsi_editorial.editorial.topic.comments"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/broadcast.content.broadcast",
+            "name": "ns:broadcast.content.broadcast"
+        },
+        "ent1": {
+            "id": "ns:m.04419ky",
+            "name": "U.S. Senator Barack Obama Podcast - Podcast Feed"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.03n69x",
+            "name": "Deion Sanders"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/sports.pro_athlete.sports_played_professionally",
+            "name": "ns:sports.pro_athlete.sports_played_professionally"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/sports.pro_sports_played.career_end",
+            "name": "ns:sports.pro_sports_played.career_end"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/sports.pro_sports_played.sport",
+            "name": "ns:sports.pro_sports_played.sport"
+        },
+        "ent1": {
+            "id": "ns:m.0jm_",
+            "name": "American football"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0217m9",
+            "name": "Howard University"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/education.educational_institution.students_graduates",
+            "name": "ns:education.educational_institution.students_graduates"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/education.education.start_date",
+            "name": "ns:education.education.start_date"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/education.education.student",
+            "name": "ns:education.education.student"
+        },
+        "ent1": {
+            "id": "ns:m.0895t",
+            "name": "Zora Neale Hurston"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0hp3n",
+            "name": "Pavlova"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/food.dish.cuisine",
+            "name": "ns:food.dish.cuisine"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/dining.cuisine.region_of_origin",
+            "name": "ns:dining.cuisine.region_of_origin"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/dining.cuisine.dishes",
+            "name": "ns:dining.cuisine.dishes"
+        },
+        "ent1": {
+            "id": "ns:m.070yl3",
+            "name": "Le Snak"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.02h7gb",
+            "name": "Jack Johnson"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/music.featured_artist.recordings",
+            "name": "ns:music.featured_artist.recordings"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/music.recording.lyrics_website",
+            "name": "ns:music.recording.lyrics_website"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/music.recording.tracks",
+            "name": "ns:music.recording.tracks"
+        },
+        "ent1": {
+            "id": "ns:m.0lhbs6z",
+            "name": "Free"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0fbppx",
+            "name": "Maxie Jones"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.gender",
+            "name": "ns:fictional_universe.fictional_character.gender"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/sports.sports_gender.sports_teams",
+            "name": "ns:sports.sports_gender.sports_teams"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/user.kryp.private.hint.coolnesfactor",
+            "name": "ns:user.kryp.private.hint.coolnesfactor"
+        },
+        "ent1": {
+            "id": "ns:m.05pvw",
+            "name": "1"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0358x_",
+            "name": "General Hospital"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/tv.tv_program.spin_offs",
+            "name": "ns:tv.tv_program.spin_offs"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/tv.tv_program.currently_in_production",
+            "name": "ns:tv.tv_program.currently_in_production"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/tv.tv_program.genre",
+            "name": "ns:tv.tv_program.genre"
+        },
+        "ent1": {
+            "id": "ns:m.04gm78f",
+            "name": "Medical fiction"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0gyrdqn",
+            "name": "Drew Gordon"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/basketball.basketball_player.position_s",
+            "name": "ns:basketball.basketball_player.position_s"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/sports.sports_position.players",
+            "name": "ns:sports.sports_position.players"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/sports.sports_position.sport",
+            "name": "ns:sports.sports_position.sport"
+        },
+        "ent1": {
+            "id": "ns:m.018w8",
+            "name": "Basketball"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.027f42",
+            "name": "Michael Vick"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/user.szaijan.fantasy_football.player.position",
+            "name": "ns:user.szaijan.fantasy_football.player.position"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/user.szaijan.fantasy_football.position_limit.target",
+            "name": "ns:user.szaijan.fantasy_football.position_limit.target"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/soccer.football_position.players",
+            "name": "ns:soccer.football_position.players"
+        },
+        "ent1": {
+            "id": "ns:m.0jt57jz",
+            "name": "Max Browne"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.03176f",
+            "name": "Harry Potter and the Philosopher's Stone"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/film.film.film_series",
+            "name": "ns:film.film.film_series"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/film.film_series.films_in_series",
+            "name": "ns:film.film_series.films_in_series"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/amusement_parks.ride_theme.rides",
+            "name": "ns:amusement_parks.ride_theme.rides"
+        },
+        "ent1": {
+            "id": "ns:m.07sbx84",
+            "name": "Harry Potter and the Forbidden Journey"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0ysy",
+            "name": "American Football League"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/sports.sports_league.sport",
+            "name": "ns:sports.sports_league.sport"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/sports.sport.leagues",
+            "name": "ns:sports.sport.leagues"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/broadcast.genre.content",
+            "name": "ns:broadcast.genre.content"
+        },
+        "ent1": {
+            "id": "ns:m.03bt98m",
+            "name": "Chronicle Podcasts: 49ers"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.019rg5",
+            "name": "Kenya"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/olympics.olympic_participating_country.medals_won",
+            "name": "ns:olympics.olympic_participating_country.medals_won"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/olympics.olympic_medal_honor.olympics",
+            "name": "ns:olympics.olympic_medal_honor.olympics"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/olympics.olympic_medal_honor.event",
+            "name": "ns:olympics.olympic_medal_honor.event"
+        },
+        "ent1": {
+            "id": "ns:m.04jf6ml",
+            "name": "Athletics at the 2000 Summer Olympics - Men's marathon"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0345h",
+            "name": "Germany"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/biology.breed_origin.breeds_originating_here",
+            "name": "ns:biology.breed_origin.breeds_originating_here"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/biology.animal_breed.examples",
+            "name": "ns:biology.animal_breed.examples"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/user.jefft0.default_domain.dog_breed.dogs_of_this_breed",
+            "name": "ns:user.jefft0.default_domain.dog_breed.dogs_of_this_breed"
+        },
+        "ent1": {
+            "id": "ns:m.0qt1l98",
+            "name": "Banana Joe V Tani Kazari"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.031fsz",
+            "name": "Division I (NCAA)"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/american_football.football_division.teams",
+            "name": "ns:american_football.football_division.teams"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/sports.sports_team.captains",
+            "name": "ns:sports.sports_team.captains"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/sports.sports_team.fight_song",
+            "name": "ns:sports.sports_team.fight_song"
+        },
+        "ent1": {
+            "id": "ns:m.09gm5df",
+            "name": "Come Join the Band"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0gh43",
+            "name": "National Collegiate Athletic Association"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/sports.sports_league.championship",
+            "name": "ns:sports.sports_league.championship"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/time.recurring_event.instances",
+            "name": "ns:time.recurring_event.instances"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/sports.sports_championship.events",
+            "name": "ns:sports.sports_championship.events"
+        },
+        "ent1": {
+            "id": "ns:m.05m4n2p",
+            "name": "2009 NCAA Wrestling Championship"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0g6z1",
+            "name": "Old Bilbo"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/film.film_character.portrayed_in_films_dubbed",
+            "name": "ns:film.film_character.portrayed_in_films_dubbed"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/film.dubbing_performance.film",
+            "name": "ns:film.dubbing_performance.film"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/film.dubbing_performance.actor",
+            "name": "ns:film.dubbing_performance.actor"
+        },
+        "ent1": {
+            "id": "ns:m.0xn7blh",
+            "name": "Fabrizio Vidale"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.01j851",
+            "name": "Farrah Fawcett"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/medicine.notable_person_with_medical_condition.condition",
+            "name": "ns:medicine.notable_person_with_medical_condition.condition"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/medicine.disease.medical_specialties",
+            "name": "ns:medicine.disease.medical_specialties"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/people.cause_of_death.parent_cause_of_death",
+            "name": "ns:people.cause_of_death.parent_cause_of_death"
+        },
+        "ent1": {
+            "id": "ns:m.0qcr0",
+            "name": "Cancer"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.02llzy",
+            "name": "Kurt Busch"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/award.competitor.competitions",
+            "name": "ns:award.competitor.competitions"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/award.competition.winner",
+            "name": "ns:award.competition.winner"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/time.event.included_in_event",
+            "name": "ns:time.event.included_in_event"
+        },
+        "ent1": {
+            "id": "ns:m.0wdqqbm",
+            "name": "2014 IndyCar Series season"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0cymln",
+            "name": "Chris Paul"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/sports.pro_athlete.teams",
+            "name": "ns:sports.pro_athlete.teams"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/sports.sports_team_roster.to",
+            "name": "ns:sports.sports_team_roster.to"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/sports.sports_team_roster.position",
+            "name": "ns:sports.sports_team_roster.position"
+        },
+        "ent1": {
+            "id": "ns:m.02sf_r",
+            "name": "Point guard"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0rh6k",
+            "name": "Washington, D.C."
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/travel.travel_destination.local_transportation",
+            "name": "ns:travel.travel_destination.local_transportation"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/user.joehughes.default_domain.transit_agency.route_stop_information",
+            "name": "ns:user.joehughes.default_domain.transit_agency.route_stop_information"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/metropolitan_transit.transit_system.agency",
+            "name": "ns:metropolitan_transit.transit_system.agency"
+        },
+        "ent1": {
+            "id": "ns:m.04c1rb",
+            "name": "Washington Metropolitan Area Transit Authority"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.07c72",
+            "name": "The Simpsons"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/tv.tv_program.languages",
+            "name": "ns:tv.tv_program.languages"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/language.language_dialect.language",
+            "name": "ns:language.language_dialect.language"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/language.human_language.countries_spoken_in",
+            "name": "ns:language.human_language.countries_spoken_in"
+        },
+        "ent1": {
+            "id": "ns:m.09pmkv",
+            "name": "Malaysia"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0ds67cb",
+            "name": "Spy Kids: All the Time in the World"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/film.film.directed_by",
+            "name": "ns:film.film.directed_by"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/user.micahsaul.advertising.ad_contributor.ads",
+            "name": "ns:user.micahsaul.advertising.ad_contributor.ads"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/film.producer.films_executive_produced",
+            "name": "ns:film.producer.films_executive_produced"
+        },
+        "ent1": {
+            "id": "ns:m.029k4p",
+            "name": "From Dusk till Dawn"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.05vz3zq",
+            "name": "Soviet Union"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/sports.sport_country.athletic_performances",
+            "name": "ns:sports.sport_country.athletic_performances"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/sports.competitor_competition_relationship.rank",
+            "name": "ns:sports.competitor_competition_relationship.rank"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/sports.competitor_competition_relationship.competition",
+            "name": "ns:sports.competitor_competition_relationship.competition"
+        },
+        "ent1": {
+            "id": "ns:m.03c_wv6",
+            "name": "1986 European Athletics Championships – Men's 800 metres"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.07gyp7",
+            "name": "McDonald's"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/organization.organization.locations",
+            "name": "ns:organization.organization.locations"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/business.business_location.phone_number",
+            "name": "ns:business.business_location.phone_number"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/business.business_location.in_shopping_center",
+            "name": "ns:business.business_location.in_shopping_center"
+        },
+        "ent1": {
+            "id": "ns:m.089v3_",
+            "name": "Paradise Valley Mall"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0r87z",
+            "name": "Moorpark"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/location.hud_foreclosure_area.total_residential_addresses",
+            "name": "ns:location.hud_foreclosure_area.total_residential_addresses"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/measurement_unit.dated_integer.year",
+            "name": "ns:measurement_unit.dated_integer.year"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/measurement_unit.dated_integer.source",
+            "name": "ns:measurement_unit.dated_integer.source"
+        },
+        "ent1": {
+            "id": "ns:m.0jbk9",
+            "name": "United States Department of Housing and Urban Development"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.02__x",
+            "name": "Miami Marlins"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/sports.sports_team.colors",
+            "name": "ns:sports.sports_team.colors"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/user.duck1123.default_domain.mtg_mana_color.spells_using_this_color_in_casting",
+            "name": "ns:user.duck1123.default_domain.mtg_mana_color.spells_using_this_color_in_casting"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/biology.breed_coloring.breeds",
+            "name": "ns:biology.breed_coloring.breeds"
+        },
+        "ent1": {
+            "id": "ns:m.01dv7j",
+            "name": "Schipperke"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.05fky",
+            "name": "North Dakota"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/location.statistical_region.minimum_wage",
+            "name": "ns:location.statistical_region.minimum_wage"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/measurement_unit.recurring_money_value.amount",
+            "name": "ns:measurement_unit.recurring_money_value.amount"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/measurement_unit.recurring_money_value.frequency",
+            "name": "ns:measurement_unit.recurring_money_value.frequency"
+        },
+        "ent1": {
+            "id": "ns:m.03mxv",
+            "name": "Hour"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.07hyk",
+            "name": "Theodore Roosevelt"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/people.appointer.appointment_made",
+            "name": "ns:people.appointer.appointment_made"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/people.appointment.appointee",
+            "name": "ns:people.appointment.appointee"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/people.appointment.appointed_role",
+            "name": "ns:people.appointment.appointed_role"
+        },
+        "ent1": {
+            "id": "ns:m.012w3",
+            "name": "Associate Justice of the Supreme Court of the United States"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0yfp",
+            "name": "Arthur Miller"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/film.writer.film",
+            "name": "ns:film.writer.film"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/film.film.film_set_decoration_by",
+            "name": "ns:film.film.film_set_decoration_by"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/film.film.edited_by",
+            "name": "ns:film.film.edited_by"
+        },
+        "ent1": {
+            "id": "ns:m.0276zhf",
+            "name": "George Tomasini"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.07fj_",
+            "name": "Tunisia"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/olympics.olympic_participating_country.athletes",
+            "name": "ns:olympics.olympic_participating_country.athletes"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/olympics.olympic_athlete_affiliation.athlete",
+            "name": "ns:olympics.olympic_athlete_affiliation.athlete"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/olympics.olympic_athlete_affiliation.sport",
+            "name": "ns:olympics.olympic_athlete_affiliation.sport"
+        },
+        "ent1": {
+            "id": "ns:m.06f41",
+            "name": "Rowing"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0gynx",
+            "name": "Éowyn"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/book.book_character.appears_in_book",
+            "name": "ns:book.book_character.appears_in_book"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/book.translated_work.translations",
+            "name": "ns:book.translated_work.translations"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.work_of_fiction.setting",
+            "name": "ns:fictional_universe.work_of_fiction.setting"
+        },
+        "ent1": {
+            "id": "ns:m.0hbpd",
+            "name": "Arda"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.099vgz",
+            "name": "Sergio Agüero"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/soccer.football_player.goals_scored",
+            "name": "ns:soccer.football_player.goals_scored"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/soccer.football_goal.minute",
+            "name": "ns:soccer.football_goal.minute"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/soccer.football_goal.point_awarded_to",
+            "name": "ns:soccer.football_goal.point_awarded_to"
+        },
+        "ent1": {
+            "id": "ns:m.01634x",
+            "name": "Manchester City F.C."
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0828jw",
+            "name": "Lost"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/tv.tv_program.soundtrack",
+            "name": "ns:tv.tv_program.soundtrack"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/music.album.primary_release",
+            "name": "ns:music.album.primary_release"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/music.album.artist",
+            "name": "ns:music.album.artist"
+        },
+        "ent1": {
+            "id": "ns:m.04ls53",
+            "name": "Michael Giacchino"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.05fjf",
+            "name": "New Jersey"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/government.political_district.elections",
+            "name": "ns:government.political_district.elections"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/government.election.election_year",
+            "name": "ns:government.election.election_year"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/government.election.general_election",
+            "name": "ns:government.election.general_election"
+        },
+        "ent1": {
+            "id": "ns:m.04958p",
+            "name": "United States Senate elections, 2008"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0487_",
+            "name": "Kansas City Chiefs"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/organization.organization.leadership",
+            "name": "ns:organization.organization.leadership"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/organization.leadership.title",
+            "name": "ns:organization.leadership.title"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/organization.leadership.person",
+            "name": "ns:organization.leadership.person"
+        },
+        "ent1": {
+            "id": "ns:m.0hznyqd",
+            "name": "Mark Donovan"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.01kv93",
+            "name": "Staffordshire Bull Terrier"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/biology.animal_breed.registered_with",
+            "name": "ns:biology.animal_breed.registered_with"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/biology.breed_registration.breed_group",
+            "name": "ns:biology.breed_registration.breed_group"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/biology.breed_registration.registry",
+            "name": "ns:biology.breed_registration.registry"
+        },
+        "ent1": {
+            "id": "ns:m.025dr5",
+            "name": "The Kennel Club"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.02jx1",
+            "name": "England"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/location.location.partially_contains",
+            "name": "ns:location.location.partially_contains"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/geography.river.basin_countries",
+            "name": "ns:geography.river.basin_countries"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/geography.body_of_water.bridges",
+            "name": "ns:geography.body_of_water.bridges"
+        },
+        "ent1": {
+            "id": "ns:m.087mgy",
+            "name": "The Iron Bridge"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.063tn",
+            "name": "Pyotr Ilyich Tchaikovsky"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/opera.librettist.libretti",
+            "name": "ns:opera.librettist.libretti"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/opera.opera.date_written",
+            "name": "ns:opera.opera.date_written"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/opera.opera.genre",
+            "name": "ns:opera.opera.genre"
+        },
+        "ent1": {
+            "id": "ns:m.04dg7h2",
+            "name": "Opera in three acts"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0xnc3",
+            "name": "Charles, Prince of Wales"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/royalty.chivalric_order_officer.memberships_presented",
+            "name": "ns:royalty.chivalric_order_officer.memberships_presented"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/royalty.chivalric_order_membership.title",
+            "name": "ns:royalty.chivalric_order_membership.title"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/royalty.chivalric_order_membership.order",
+            "name": "ns:royalty.chivalric_order_membership.order"
+        },
+        "ent1": {
+            "id": "ns:m.01f2y9",
+            "name": "Order of the British Empire"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0by0ww1",
+            "name": "2010 Stanley Cup Finals"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/sports.sports_championship_event.runner_up",
+            "name": "ns:sports.sports_championship_event.runner_up"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/ice_hockey.hockey_team.coach",
+            "name": "ns:ice_hockey.hockey_team.coach"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/ice_hockey.hockey_team.division",
+            "name": "ns:ice_hockey.hockey_team.division"
+        },
+        "ent1": {
+            "id": "ns:m.0wbl8rj",
+            "name": "Metropolitan Division"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0jz06",
+            "name": "Spike"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/cvg.game_character.games",
+            "name": "ns:cvg.game_character.games"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/cvg.game_performance.voice_actor",
+            "name": "ns:cvg.game_performance.voice_actor"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/cvg.game_performance.game",
+            "name": "ns:cvg.game_performance.game"
+        },
+        "ent1": {
+            "id": "ns:m.0f5db4",
+            "name": "Buffy the Vampire Slayer"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.01xndd",
+            "name": "J.J. Abrams"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/business.board_member.leader_of",
+            "name": "ns:business.board_member.leader_of"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/organization.leadership.role",
+            "name": "ns:organization.leadership.role"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/organization.leadership.organization",
+            "name": "ns:organization.leadership.organization"
+        },
+        "ent1": {
+            "id": "ns:m.03q5s8",
+            "name": "Bad Robot Productions"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.07jdr",
+            "name": "Train"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/metropolitan_transit.transit_vehicle.transit_lines",
+            "name": "ns:metropolitan_transit.transit_vehicle.transit_lines"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/metropolitan_transit.transit_line.primary_line",
+            "name": "ns:metropolitan_transit.transit_line.primary_line"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/metropolitan_transit.transit_line.transit_system",
+            "name": "ns:metropolitan_transit.transit_line.transit_system"
+        },
+        "ent1": {
+            "id": "ns:m.04hm3b",
+            "name": "Transperth"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0gztl",
+            "name": "Southwest Airlines"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/aviation.airline.airports_served",
+            "name": "ns:aviation.airline.airports_served"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/aviation.airline_airport_presence.terminals",
+            "name": "ns:aviation.airline_airport_presence.terminals"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/aviation.airline_airport_presence.airport",
+            "name": "ns:aviation.airline_airport_presence.airport"
+        },
+        "ent1": {
+            "id": "ns:m.01n2vy",
+            "name": "Denver International Airport"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.01zl71",
+            "name": "Roman Abramovich"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/boats.ship_owner.ships_owned",
+            "name": "ns:boats.ship_owner.ships_owned"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/boats.ship_ownership.from_date",
+            "name": "ns:boats.ship_ownership.from_date"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/boats.ship_ownership.ship",
+            "name": "ns:boats.ship_ownership.ship"
+        },
+        "ent1": {
+            "id": "ns:m.09s_xg",
+            "name": "Pelorus"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.05b6w",
+            "name": "Neil Armstrong"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/music.music_video_performer.music_video_performances",
+            "name": "ns:music.music_video_performer.music_video_performances"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/music.music_video_performance.music_video",
+            "name": "ns:music.music_video_performance.music_video"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/music.music_video_performance.music_video_character",
+            "name": "ns:music.music_video_performance.music_video_character"
+        },
+        "ent1": {
+            "id": "ns:m.0htp",
+            "name": "Astronaut"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.055l1",
+            "name": "Mary, Queen of Scots"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/government.politician.government_positions_held",
+            "name": "ns:government.politician.government_positions_held"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/government.government_position_held.from",
+            "name": "ns:government.government_position_held.from"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/government.government_position_held.office_position_or_title",
+            "name": "ns:government.government_position_held.office_position_or_title"
+        },
+        "ent1": {
+            "id": "ns:m.07ns4lr",
+            "name": "Queen of Scotland"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0j8cb",
+            "name": "Carolina Hurricanes"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/ice_hockey.hockey_team.captain",
+            "name": "ns:ice_hockey.hockey_team.captain"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/people.person.sibling_s",
+            "name": "ns:people.person.sibling_s"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/ice_hockey.hockey_player.hockey_position",
+            "name": "ns:ice_hockey.hockey_player.hockey_position"
+        },
+        "ent1": {
+            "id": "ns:m.02qvdc",
+            "name": "Centerman"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.06vbd",
+            "name": "Syria"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/military.military_combatant.force_deployments",
+            "name": "ns:military.military_combatant.force_deployments"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/military.force_strength.maximum_force_size",
+            "name": "ns:military.force_strength.maximum_force_size"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/military.force_strength.military_conflict",
+            "name": "ns:military.force_strength.military_conflict"
+        },
+        "ent1": {
+            "id": "ns:m.0784z",
+            "name": "Six-Day War"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0c8kc",
+            "name": "Hermione Granger"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.education",
+            "name": "ns:fictional_universe.fictional_character.education"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.fictional_organization.appears_in_universes",
+            "name": "ns:fictional_universe.fictional_organization.appears_in_universes"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.fictional_organization.sub_organization_in_fiction",
+            "name": "ns:fictional_universe.fictional_organization.sub_organization_in_fiction"
+        },
+        "ent1": {
+            "id": "ns:m.02vhpv1",
+            "name": "Gryffindor House"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.025t3bg",
+            "name": "Air travel"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/medicine.risk_factor.diseases",
+            "name": "ns:medicine.risk_factor.diseases"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/medicine.disease.parent_disease",
+            "name": "ns:medicine.disease.parent_disease"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/medicine.symptom.symptom_of",
+            "name": "ns:medicine.symptom.symptom_of"
+        },
+        "ent1": {
+            "id": "ns:m.0mztl",
+            "name": "Streptococcal pharyngitis"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.07_l39",
+            "name": "Bethenny Frankel"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/tv.tv_program_creator.programs_created",
+            "name": "ns:tv.tv_program_creator.programs_created"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/tv.tv_program.air_date_of_first_episode",
+            "name": "ns:tv.tv_program.air_date_of_first_episode"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/tv.tv_program.episodes",
+            "name": "ns:tv.tv_program.episodes"
+        },
+        "ent1": {
+            "id": "ns:m.0yb7xsh",
+            "name": "Kathy Wakile ('RHONJ')/Pop Star Jason Derulo/Friends Unfiltered: Mom Edition/Rip It or Return It?"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.01nw62",
+            "name": "Rottweiler"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/biology.animal_breed.breed_of",
+            "name": "ns:biology.animal_breed.breed_of"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/biology.organism_classification.synonym_scientific_name",
+            "name": "ns:biology.organism_classification.synonym_scientific_name"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/biology.organism_classification.rank",
+            "name": "ns:biology.organism_classification.rank"
+        },
+        "ent1": {
+            "id": "ns:m.019dpj",
+            "name": "Subspecies"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.02k1b",
+            "name": "Ecuador"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/location.location.time_zones",
+            "name": "ns:location.location.time_zones"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/time.time_zone.time_zone_abbreviation_standard",
+            "name": "ns:time.time_zone.time_zone_abbreviation_standard"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/time.time_zone.locations_in_this_time_zone",
+            "name": "ns:time.time_zone.locations_in_this_time_zone"
+        },
+        "ent1": {
+            "id": "ns:m.0bbtrr0",
+            "name": "San Joaquín, Ecuador"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0211mz",
+            "name": "Singapore Zoo"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/zoos.zoo.notable_animals",
+            "name": "ns:zoos.zoo.notable_animals"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/zoos.animal_captivity.exhibit",
+            "name": "ns:zoos.animal_captivity.exhibit"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/zoos.animal_captivity.animal",
+            "name": "ns:zoos.animal_captivity.animal"
+        },
+        "ent1": {
+            "id": "ns:m.0h_fr0x",
+            "name": "Sheba"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.01xrrm",
+            "name": "Burmese Language"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/language.human_language.language_family",
+            "name": "ns:language.human_language.language_family"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/language.language_family.iso_639_5_code",
+            "name": "ns:language.language_family.iso_639_5_code"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/language.language_family.geographic_distribution",
+            "name": "ns:language.language_family.geographic_distribution"
+        },
+        "ent1": {
+            "id": "ns:m.073q1",
+            "name": "Southeast Asia"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.016cff",
+            "name": "Venus Williams"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/tennis.tennis_tournament_champion.tennis_titles",
+            "name": "ns:tennis.tennis_tournament_champion.tennis_titles"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/tennis.tennis_tournament_championship.winner",
+            "name": "ns:tennis.tennis_tournament_championship.winner"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/tennis.tennis_tournament_championship.tournament",
+            "name": "ns:tennis.tennis_tournament_championship.tournament"
+        },
+        "ent1": {
+            "id": "ns:m.0l6c9",
+            "name": "The US Open (Tennis)"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.01rxw",
+            "name": "Congo"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/location.statistical_region.military_expenditure_percent_gdp",
+            "name": "ns:location.statistical_region.military_expenditure_percent_gdp"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/measurement_unit.dated_percentage.rate",
+            "name": "ns:measurement_unit.dated_percentage.rate"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/measurement_unit.dated_percentage.source",
+            "name": "ns:measurement_unit.dated_percentage.source"
+        },
+        "ent1": {
+            "id": "ns:m.0ndnhc6",
+            "name": "Military expenditure as percentage of GDP, World Development Indicators and Global Development Finance, World Bank"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0420y",
+            "name": "Jean-Jacques Rousseau"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/book.author.school_or_movement",
+            "name": "ns:book.author.school_or_movement"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/architecture.architectural_style.examples",
+            "name": "ns:architecture.architectural_style.examples"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/book.school_or_movement.associated_works",
+            "name": "ns:book.school_or_movement.associated_works"
+        },
+        "ent1": {
+            "id": "ns:m.02pw9_k",
+            "name": "The Pathfinder, or The Inland Sea"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0j1z8",
+            "name": "United Arab Emirates"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/location.country.internet_tld",
+            "name": "ns:location.country.internet_tld"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/internet.top_level_domain.registry",
+            "name": "ns:internet.top_level_domain.registry"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/internet.top_level_domain.status",
+            "name": "ns:internet.top_level_domain.status"
+        },
+        "ent1": {
+            "id": "ns:m.02hsn4g",
+            "name": "Active"
+        }
+    }
+]

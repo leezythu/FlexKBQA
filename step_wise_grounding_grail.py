@@ -33,28 +33,28 @@ def filter_valid_rels(results):
     return valid_results
 
 def filter_valid_rets(results):
-    if results["head"]["vars"][0].startswith("rel"):
-        return filter_valid_rels(results)
-    else :
-        return filter_valid_entities(results)
+    # if results["head"]["vars"][0].startswith("rel"):
+    return filter_valid_rels(results)
+    # else :
+    #     return filter_valid_entities(results)
 
 def ground(data,i):
-    d = data[i]["Parses"][0]
+    d = data[i]
     valid_entities = json.load(open("grail_entities.json"))
-    entities = random.sample(valid_entities,4000)
+    # entities = random.sample(valid_entities,10000)
     entities = valid_entities
     valid_expansions = []
     for e in entities:
         step_wise_querys = d["step_wise_queries"]
         replace_info = {}
-        replace_info["?ent0"] = "ns:"+e[0]
+        replace_info["?ent0"] = ":"+e[0]
         for query in step_wise_querys:
             for key in replace_info:
                 if not key.startswith("?ent0"):
-                    query = query.replace("?"+key,"ns:"+replace_info[key].split("/")[-1])
+                    query = query.replace("?"+key,":"+replace_info[key].split("/")[-1])
                 else:
                     query = query.replace(key,replace_info[key])
-            print(query)
+            # print(query)
             sparql.setQuery(query)
             sparql.setReturnFormat(JSON)
             results = sparql.query().convert()
