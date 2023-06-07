@@ -1,6 +1,7 @@
 .vscode
 GrailQA_v1.0/
 __MACOSX/
+**pycache**
 s_q_pairs_train.txt
 s_q_pairs_dev.txt
 tmp.log
