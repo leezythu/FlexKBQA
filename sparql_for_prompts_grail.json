@@ -48,14 +48,14 @@
       ]
     },
     "sparql_query": "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX : <http://rdf.freebase.com/ns/> \nSELECT (?x0 AS ?value) WHERE {\nSELECT DISTINCT ?x0  WHERE { \n?x0 :type.object.type :medicine.routed_drug . \nVALUES ?x1 { :m.0hqs1x_ } \n?x0 :medicine.routed_drug.marketed_formulations ?x1 . \nFILTER ( ?x0 != ?x1  )\n}\n}",
+    "domains": [
+      "medicine"
+    ],
     "masked_query": "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX : <http://rdf.freebase.com/ns/> \nSELECT (?x0 AS ?value) WHERE {\nSELECT DISTINCT ?x0  WHERE { \n?x0 :type.object.type ?ent1 . \nVALUES ?x1 { ?ent0 } \n?x0 ?rel0 ?x1 . \nFILTER ( ?x0 != ?x1  )\n}\n}",
     "step_wise_queries":[
       "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX : <http://rdf.freebase.com/ns/> \nSELECT ?rel0 ?ent1 WHERE {\n?x0 :type.object.type ?ent1 . \nVALUES ?x1 { ?ent0 } \n?x0 ?rel0 ?x1 . \nFILTER ( ?x0 != ?x1  )\n}"
     ],
-    "domains": [
-      "medicine"
-    ],
-    "s_expression": "(AND ?ent1 (JOIN ?rel0 ?ent0))"
+    "masked_s_expression": "(AND ?ent1 (JOIN ?rel0 ?ent0))"
   },
   {
     "qid": 2103670001000,
@@ -104,7 +104,11 @@
     "domains": [
       "food"
     ],
-    "s_expression": "(ARGMAX food.food food.food.energy)"
+    "s_expression": "(ARGMAX food.food food.food.energy)",
+    "masked_query": "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX : <http://rdf.freebase.com/ns/> \nSELECT (?x0 AS ?value) WHERE {\nSELECT DISTINCT ?x0  WHERE { \n?x0 :type.object.type ?ent1 . \n{\nSELECT (MAX(?y1) AS ?x1)  WHERE { \n?y0 :type.object.type ?ent1 . \n?y0 ?rel0 ?y1 . \nFILTER ( ?y0 != ?y1  )\n}\n}\n?x0 ?rel0 ?x1 . \nFILTER ( ?x0 != ?x1  )\n}\n}",
+    "step_wise_queries":[
+      "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX : <http://rdf.freebase.com/ns/> \nSELECT ?rel0 ?ent1 WHERE {\n?x0 :type.object.type ?ent1 . \n{\nSELECT (MAX(?y1) AS ?x1)  WHERE { \n?y0 :type.object.type ?ent1 . \n?y0 ?rel0 ?y1 . \nFILTER ( ?y0 != ?y1  )\n}\n}\n?x0 ?rel0 ?x1 . \nFILTER ( ?x0 != ?x1  )\n}"
+    ]
   },
   {
     "qid": 3202230005000,
@@ -223,7 +227,13 @@
     "domains": [
       "music"
     ],
-    "s_expression": "(AND music.genre (JOIN (R music.genre.parent_genre) (JOIN music.genre.albums m.03fz6lg)))"
+    "s_expression": "(AND music.genre (JOIN (R music.genre.parent_genre) (JOIN music.genre.albums m.03fz6lg)))",
+    "masked_query": "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX : <http://rdf.freebase.com/ns/> \nSELECT (?x0 AS ?value) WHERE {\nSELECT DISTINCT ?x0  WHERE { \n?x0 :type.object.type ?ent1 . \n?x1 :type.object.type ?ent1 . \nVALUES ?x2 { ?ent0 } \n?x1 ?rel0 ?x0 . \n?x1 ?rel1 ?x2 . \nFILTER ( ?x0 != ?x1 && ?x0 != ?x2 && ?x1 != ?x2  )\n}\n}",
+    "step_wise_queries":[
+      "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX : <http://rdf.freebase.com/ns/> \nSELECT ?rel1 ?ent1 WHERE { \n?x1 :type.object.type ?ent1 . \nVALUES ?x2 { ?ent0 } \n?x1 ?rel1 ?x2 . \nFILTER ( ?x1 != ?x2  )\n}",
+      "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX : <http://rdf.freebase.com/ns/> \nSELECT ?rel0 WHERE { \n?x0 :type.object.type ?ent1 . \n?x1 :type.object.type ?ent1 . \nVALUES ?x2 { ?ent0 } \n?x1 ?rel0 ?x0 . \n?x1 ?rel1 ?x2 . \nFILTER ( ?x0 != ?x1 && ?x0 != ?x2 && ?x1 != ?x2  )\n}"
+    ],
+    "masked_s_expression": "(AND ?ent1 (JOIN (R ?rel0) (JOIN ?rel1 ?ent0)))"
   },
   {
     "qid": 3203202007000,
@@ -4665,7 +4675,13 @@
     "domains": [
       "comic_books"
     ],
-    "s_expression": "(AND comic_books.comic_book_series (JOIN (R comic_books.comic_book_genre.comic_book_series_in_this_genre) (JOIN (R comic_books.comic_book_story.genre) m.03xkcd6)))"
+    "s_expression": "(AND comic_books.comic_book_series (JOIN (R comic_books.comic_book_genre.comic_book_series_in_this_genre) (JOIN (R comic_books.comic_book_story.genre) m.03xkcd6)))",
+    "masked_query": "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX : <http://rdf.freebase.com/ns/> \nSELECT (?x0 AS ?value) WHERE {\nSELECT DISTINCT ?x0  WHERE { \n?x0 :type.object.type ?ent1 . \n?x1 :type.object.type ?ent2 . \nVALUES ?x2 { ?ent0 } \n?x1 ?rel0 ?x0 . \n?x2 ?rel1 ?x1 . \nFILTER ( ?x0 != ?x1 && ?x0 != ?x2 && ?x1 != ?x2  )\n}\n}",
+    "step_wise_queries":[
+      "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX : <http://rdf.freebase.com/ns/> \nSELECT ?rel1 WHERE {\n?x1 :type.object.type ?ent2 . \nVALUES ?x2 { ?ent0 } \n?x2 ?rel1 ?x1 . \nFILTER (  ?x1 != ?x2  )\n}",
+      "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX : <http://rdf.freebase.com/ns/> \nSELECT ?rel0 ?ent1 WHERE {\n?x0 :type.object.type ?ent1 . \n?x1 :type.object.type ?ent2 . \nVALUES ?x2 { ?ent0 } \n?x1 ?rel0 ?x0 . \n?x2 ?rel1 ?x1 . \nFILTER ( ?x0 != ?x1 && ?x0 != ?x2 && ?x1 != ?x2  )\n}"
+    ],
+    "masked_s_expression": "(AND ?ent1 (JOIN (R ?rel0) (JOIN (R ?rel1) ?ent0)))"
   },
   {
     "qid": 2105547000000,
@@ -4867,7 +4883,13 @@
     "domains": [
       "book"
     ],
-    "s_expression": "(AND book.short_story (JOIN book.short_story.characters (JOIN book.book_character.appears_in_stories m.09gs5j0)))"
+    "s_expression": "(AND book.short_story (JOIN book.short_story.characters (JOIN book.book_character.appears_in_stories m.09gs5j0)))",
+    "masked_query": "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX : <http://rdf.freebase.com/ns/> \nSELECT (?x0 AS ?value) WHERE {\nSELECT DISTINCT ?x0  WHERE { \n?x0 :type.object.type ?ent1 . \n?x1 :type.object.type ?ent2 . \nVALUES ?x2 { ?ent0 } \n?x0 ?rel0 ?x1 . \n?x1 ?rel1 ?x2 . \nFILTER ( ?x0 != ?x1 && ?x0 != ?x2 && ?x1 != ?x2  )\n}\n}",
+    "step_wise_queries":[
+      "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX : <http://rdf.freebase.com/ns/> \nSELECT ?rel1 WHERE { \n?x1 :type.object.type ?ent2 . \nVALUES ?x2 { ?ent0 } \n?x1 ?rel1 ?x2 . \nFILTER ( ?x1 != ?x2  )\n}",
+      "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX : <http://rdf.freebase.com/ns/> \nSELECT ?rel0 ?ent1 WHERE { \n?x0 :type.object.type ?ent1 . \n?x1 :type.object.type ?ent2 . \nVALUES ?x2 { ?ent0 } \n?x0 ?rel0 ?x1 . \n?x1 ?rel1 ?x2 . \nFILTER ( ?x0 != ?x1 && ?x0 != ?x2 && ?x1 != ?x2  )\n}"
+    ],
+    "masked_s_expression": "(AND ?ent1 (JOIN ?rel0 (JOIN ?rel1 ?ent0)))"
   },
   {
     "qid": 3200352005000,
@@ -6631,7 +6653,12 @@
     "domains": [
       "organization"
     ],
-    "s_expression": "(COUNT (AND aviation.aircraft_manufacturer (JOIN organization.organization.legal_structure m.015k50)))"
+    "s_expression": "(COUNT (AND aviation.aircraft_manufacturer (JOIN organization.organization.legal_structure m.015k50)))",
+    "masked_query": "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX : <http://rdf.freebase.com/ns/> \nSELECT (COUNT(?x0) AS ?value) WHERE {\nSELECT DISTINCT ?x0  WHERE { \n?x0 :type.object.type ?ent1 . \nVALUES ?x1 { ?ent0 } \n?x0 ?rel0 ?x1 . \nFILTER ( ?x0 != ?x1  )\n}\n}",
+    "step_wise_queries":[
+      "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX : <http://rdf.freebase.com/ns/> \nSELECT ?rel0 ?ent1 WHERE { \n?x0 :type.object.type ?ent1 . \nVALUES ?x1 { ?ent0 } \n?x0 ?rel0 ?x1 . \nFILTER ( ?x0 != ?x1  )\n}"
+    ],
+    "masked_s_expression": "(COUNT (AND ?ent1 (JOIN ?rel0 ?ent0)))"
   },
   {
     "qid": 3201037000000,

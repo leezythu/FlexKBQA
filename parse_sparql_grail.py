@@ -23,7 +23,13 @@ def convert_parse_instance(data,sexpr_tem):
             full_var = "?"+var
         else:
             full_var = var
-        assert full_var in sexpr_tem
+        try:
+            assert full_var in sexpr_tem
+        except:
+            print("AssertionError")
+            print(full_var)
+            print(sexpr_tem)
+            exit(0)
         if "ns:" in vars[var]["id"]:
             sexpr = sexpr.replace(full_var,data["vars"][var]["id"].split("ns:")[1])
             if vars[var]["id"].startswith("ns:m."):
@@ -42,7 +48,7 @@ def convert_parse_instance(data,sexpr_tem):
 
 def augment_with_s_expr(in_dir,out_dir,i,data):
     split = os.path.join(in_dir,str(i)+"_valid_expansions.json")
-    sexpr_tem = data[i]["s_expression"]
+    sexpr_tem = data[i]["masked_s_expression"]
     dataset = json.load(open(split))
     final_dataset = []
     for data in dataset:
@@ -57,5 +63,5 @@ if __name__ == '__main__':
     in_dir = "results_grail/sparql"
     out_dir = "results_grail/s-expr"
     data = json.load(open("sparql_for_prompts_grail.json"))
-    for i in range(0,6):
+    for i in range(0,1):
         augment_with_s_expr(in_dir,out_dir,i,data)

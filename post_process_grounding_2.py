@@ -31,5 +31,5 @@ def process(data,i):
         out_data.append({"sparql":query,"TopicEntityMid":d["?ent0"]["id"],"mid2name":mid2name,"ori_sexpr":ori_sexpr,"vars":d})
     out_file.write(json.dumps(out_data))
 
-for i in range(0,6):
+for i in range(13,14):
     process(data,i)

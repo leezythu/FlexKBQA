@@ -76,6 +76,6 @@ def ground(data,i):
 
 if __name__ == '__main__':
     data = json.load(open("sparql_for_prompts_grail.json"))
-    for i in range(len(data)):
+    for i in range(8,len(data)):
         ground(data,i)
         break
