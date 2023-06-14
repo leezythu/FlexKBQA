@@ -48,7 +48,7 @@ print(len(filtered_structure))
 existing_structure = []
 for d in data:
     # print(d)
-    processed_question = d["question"]+"?"
+    processed_question = d["question"]
     sexpr = d["s_expression"]
     mid2entity = {}
     nodes = d["graph_query"]["nodes"]
