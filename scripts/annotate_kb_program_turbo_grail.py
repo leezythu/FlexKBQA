@@ -65,7 +65,6 @@ def worker_annotate(
         generate_prompt += 'question:'
 
         prompt = few_shot_prompt + "\n\n" + generate_prompt
-        # print("prompt:",prompt)
         completion = None
         while completion is None:
             try:

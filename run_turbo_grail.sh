@@ -1,8 +1,8 @@
 python ./scripts/annotate_kb_program_turbo_grail.py --dataset grail \
---dataset_split results_grail/s-expr/0_valid_expansions \
+--dataset_split results_grail/s-expr/8_valid_expansions \
 --save_dir llm_results_turbo_grail \
 --prompt_file manual_prompts_grail.txt \
---output_file 0_valid_expansions \
+--output_file 8_valid_expansions \
 --n_parallel_prompts 1 \
 --max_generation_tokens 512 \
 --temperature 0.4 \
