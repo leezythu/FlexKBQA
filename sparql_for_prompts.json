@@ -863,6 +863,79 @@
     ]
   },
   {
+    "QuestionId": "WebQTrn-2852",
+    "RawQuestion": "who is married to jane krakowski?",
+    "ProcessedQuestion": "who is married to jane krakowski",
+    "Parses": [
+      {
+        "ParseId": "WebQTrn-2852.P0",
+        "AnnotatorId": 4,
+        "AnnotatorComment": {
+          "ParseQuality": "Complete",
+          "QuestionQuality": "Good",
+          "Confidence": "Normal",
+          "FreeFormComment": ""
+        },
+        "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01qr1_)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01qr1_ ns:people.person.spouse_s ?y .\n?y ns:people.marriage.spouse ?x .\n?y ns:people.marriage.type_of_union ns:m.04ztj .\nFILTER(NOT EXISTS {?y ns:people.marriage.from ?sk0} || \nEXISTS {?y ns:people.marriage.from ?sk1 . \nFILTER(xsd:datetime(?sk1) <= \"2015-08-10\"^^xsd:dateTime) })\nFILTER(NOT EXISTS {?y ns:people.marriage.to ?sk2} || \nEXISTS {?y ns:people.marriage.to ?sk3 . \nFILTER(xsd:datetime(?sk3) >= \"2015-08-10\"^^xsd:dateTime) })\n}\n",
+        "PotentialTopicEntityMention": "jane krakowski",
+        "TopicEntityName": "Jane Krakowski",
+        "TopicEntityMid": "m.01qr1_",
+        "InferentialChain": [
+          "people.person.spouse_s",
+          "people.marriage.spouse"
+        ],
+        "Constraints": [
+          {
+            "Operator": "Equal",
+            "ArgumentType": "Entity",
+            "Argument": "m.04ztj",
+            "EntityName": "Marriage",
+            "SourceNodeIndex": 0,
+            "NodePredicate": "people.marriage.type_of_union",
+            "ValueType": "String"
+          },
+          {
+            "Operator": "LessOrEqual",
+            "ArgumentType": "Value",
+            "Argument": "2015-08-10",
+            "EntityName": "",
+            "SourceNodeIndex": 0,
+            "NodePredicate": "people.marriage.from",
+            "ValueType": "DateTime"
+          },
+          {
+            "Operator": "GreaterOrEqual",
+            "ArgumentType": "Value",
+            "Argument": "2015-08-10",
+            "EntityName": "",
+            "SourceNodeIndex": 0,
+            "NodePredicate": "people.marriage.to",
+            "ValueType": "DateTime"
+          }
+        ],
+        "Time": {
+          "IsRelativeToNow": true,
+          "Start": "0000-00-00",
+          "End": "0000-00-00",
+          "AssociatedConstraints": [
+            1,
+            2
+          ],
+          "PotentialTimeMention": null
+        },
+        "Order": null,
+        "Answers": [
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0j0_6d8",
+            "EntityName": "Robert Godley"
+          }
+        ],
+        "SExpr": "(JOIN (R people.marriage.spouse) (AND (JOIN people.marriage.time_macro 2015^^http://www.w3.org/2001/XMLSchema#date) (AND (JOIN people.marriage.type_of_union m.04ztj) (JOIN (R people.person.spouse_s) m.01qr1_))))"
+      }
+    ]
+  },
+  {
     "QuestionId": "WebQTrn-96",
     "RawQuestion": "who is robert downey jr wife?",
     "ProcessedQuestion": "who is robert downey jr wife",
