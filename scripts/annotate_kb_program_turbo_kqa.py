@@ -32,7 +32,7 @@ def worker_annotate(
     built_few_shot_prompts = []
     for g_eid in g_eids:
         cnt+=1
-        if cnt>2000:
+        if cnt>10000:
             break
         # try:
         g_data_item = dataset[g_eid]
@@ -53,8 +53,6 @@ def worker_annotate(
         generate_prompt += 'question:'
 
         prompt = few_shot_prompt + "\n\n" + generate_prompt
-        # print("prompt:",prompt)
-        # exit(0)
         completion = None
         while completion is None:
             try:
@@ -96,7 +94,7 @@ def main():
     start_time = time.time()
     dataset = load_from_file(args.dataset_split)
     # Load openai keys
-    with open("key.txt", 'r') as f:
+    with open("gpt4_key.txt", 'r') as f:
         keys = [line.strip() for line in f.readlines()]
 
     # Annotate
@@ -167,7 +165,7 @@ if __name__ == '__main__':
     parser.add_argument('--seed', type=int, default=42)
 
     # Codex options
-    parser.add_argument('--engine', type=str, default="text-davinci-003")
+    parser.add_argument('--engine', type=str, default="")
     parser.add_argument('--n_parallel_prompts', type=int, default=2)
     parser.add_argument('--max_generation_tokens', type=int, default=512)
     parser.add_argument('--max_api_total_tokens', type=int, default=8001)

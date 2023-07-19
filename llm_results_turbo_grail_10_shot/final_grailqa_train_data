@@ -1,0 +1,82 @@
+{
+    "0": {
+        "generations": "what is the name of the award that m.0y4ynpz was nominated for and which TV channel network was it nominated by?",
+        "ori_data_item": {
+            "qid": "6_0",
+            "question": "which network won the sports emmy award for outstanding technical team remote in the year that fox sports south was founded?",
+            "s_expression": "(AND (JOIN award.award_nomination.award m.0y4ynpz) (JOIN (R award.award_nominee.award_nominations) (ARGMAX (JOIN (R broadcast.tv_channel.network) m.025sdhl) organization.organization.date_founded)))"
+        }
+    },
+    "1": {
+        "generations": "what objects are in the subcategory of m.0gggxt and the category of m.02_wqk7 in astronomy?",
+        "ori_data_item": {
+            "qid": "3_56",
+            "question": "what small solar system body is soho-620?",
+            "s_expression": "(JOIN (R astronomy.celestial_object_category.objects) (AND (JOIN astronomy.celestial_object_category.subcategory_of m.0gggxt) (JOIN (R astronomy.celestial_object.category) m.02_wqk7)))"
+        }
+    },
+    "2": {
+        "generations": "who are the combatants of military combatant group m.02fp48?",
+        "ori_data_item": {
+            "qid": "grail_0_536",
+            "question": "which military combatant group has the Union as its combatants?",
+            "s_expression": "(AND military.military_combatant_group (JOIN military.military_combatant_group.combatants m.02fp48))"
+        }
+    },
+    "3": {
+        "generations": "what is the legal structure of organization m.015k50?",
+        "ori_data_item": {
+            "qid": "0626_0_17",
+            "question": "what business operation is a supplier to an organization with the legal structure of s.a.?",
+            "s_expression": "(AND business.business_operation (JOIN (R business.customer.supplier) (JOIN organization.organization.legal_structure m.015k50)))"
+        }
+    },
+    "4": {
+        "generations": "what software developer developed m.07vqmqv and what internet protocol api is it used by?",
+        "ori_data_item": {
+            "qid": "4_83",
+            "question": "what software did mark smith develop for the http protocol?",
+            "s_expression": "(AND (JOIN computer.software.developer m.07vqmqv) (JOIN (R computer.internet_protocol.software_used_by) (JOIN (R internet.protocol.api) m.03hgt)))"
+        }
+    },
+    "5": {
+        "generations": "what variant of the engineering engine is used in robert's data nursery aircraft engine?",
+        "ori_data_item": {
+            "qid": "grail_0_582",
+            "question": "what aircraft engine variant is associated with rolls-royce merlin i in robert's data nursery?",
+            "s_expression": "(AND user.robert.data_nursery.aircraft_engine (JOIN engineering.engine.variants m.07_29vt))"
+        }
+    },
+    "6": {
+        "generations": "what season temporality succeeds m.02rb95 in the default domain of sprocketonline for the user?",
+        "ori_data_item": {
+            "qid": "grail_0_660",
+            "question": "what season temporality succeeds christmastide in the default domain of sprocketonline user?",
+            "s_expression": "(AND user.sprocketonline.default_domain.season_temporality (JOIN user.sprocketonline.default_domain.season_temporality.succeeding_season m.02rb95))"
+        }
+    },
+    "7": {
+        "generations": "who was born in m.0dljdhf and has military power?",
+        "ori_data_item": {
+            "qid": "0626_0_3",
+            "question": "what military power is associated with the administrative divisions of the country where rachel renee russell was born?",
+            "s_expression": "(AND user.robert.military.military_power (JOIN (R location.country.administrative_divisions) (JOIN location.location.people_born_here m.0dljdhf)))"
+        }
+    },
+    "8": {
+        "generations": "what is the pronunciation of the context name and what are the medical specialties of m.0dc5_q2?",
+        "ori_data_item": {
+            "qid": "15_903",
+            "question": "How do you pronounce Phthirus pubis infestation?",
+            "s_expression": "(JOIN (R base.schemastaging.context_name.pronunciation) (JOIN (R medicine.disease.medical_specialties) m.0dc5_q2))"
+        }
+    },
+    "9": {
+        "generations": "what live recordings and concert films or videos are associated with m.09k39q8 concert tour?",
+        "ori_data_item": {
+            "qid": "15_293",
+            "question": "What live recordings and concert films or videos are associated with Selena Live 2010 tour?",
+            "s_expression": "(JOIN (R music.concert_tour.live_recordings) (JOIN (R music.concert_tour.concert_films_or_videos) m.09k39q8))"
+        }
+    }
+}

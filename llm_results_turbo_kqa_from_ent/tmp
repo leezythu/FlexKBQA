@@ -1,0 +1,202 @@
+{
+    "0": {
+        "generations": "What is the point in time for the organization with an Alexa rank of 360.0 (as of 2017-11-20) and an official website of https://www.target.com?",
+        "ori_data_item": {
+            "question": "what is the qualifier <Q> language of work or name </Q> of <ES> <C>  </C> whose <A> Alexa rank </A> is number <V> 360.0 </V> </ES> whose <A> official website </A> is text <V> https://www.target.com </V>",
+            "sparql": "SELECT DISTINCT ?qpv WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> \"organization\" . ?e <Alexa_rank> ?pv_1 . ?pv_1 <pred:unit> \"1\" . ?pv_1 <pred:value> \"360.0\"^^xsd:double . [ <pred:fact_h> ?e ; <pred:fact_r> <Alexa_rank> ; <pred:fact_t> ?pv_1 ] <point_in_time> ?qpv_1 . ?qpv_1 <pred:date> \"2017-11-20\"^^xsd:date . ?e <official_website> ?pv . ?pv <pred:value> \"https://www.target.com\" . [ <pred:fact_h> ?e ; <pred:fact_r> <official_website> ; <pred:fact_t> ?pv ] <language_of_work_or_name> ?qpv .  }",
+            "choices": [
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown"
+            ],
+            "answer": "unknown"
+        }
+    },
+    "1": {
+        "generations": "When did the town with a population of 344218.0 (as of 1970-01-01) stop being officially named \"\u0411\u0440\u044e\u043d\u043d\"?",
+        "ori_data_item": {
+            "question": "what is the qualifier <Q> end time </Q> of <ES> <C>  </C> whose <A> population </A> is number <V> 344218.0 </V> </ES> whose <A> official name </A> is text <V> \u0411\u0440\u044e\u043d\u043d </V>",
+            "sparql": "SELECT DISTINCT ?qpv WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> \"town\" . ?e <population> ?pv_1 . ?pv_1 <pred:unit> \"1\" . ?pv_1 <pred:value> \"344218.0\"^^xsd:double . [ <pred:fact_h> ?e ; <pred:fact_r> <population> ; <pred:fact_t> ?pv_1 ] <point_in_time> ?qpv_1 . ?qpv_1 <pred:date> \"1970-01-01\"^^xsd:date . ?e <official_name> ?pv . ?pv <pred:value> \"\u0411\u0440\u044e\u043d\u043d\" . [ <pred:fact_h> ?e ; <pred:fact_r> <official_name> ; <pred:fact_t> ?pv ] <end_time> ?qpv .  }",
+            "choices": [
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown"
+            ],
+            "answer": "unknown"
+        }
+    },
+    "2": {
+        "generations": "What is the point in time for the island with a population of 468730.0 (as of 2010-04-01) and a local dialing code of 347?",
+        "ori_data_item": {
+            "question": "what is the qualifier <Q> pred:fact h </Q> of <ES> <C>  </C> whose <A> population </A> is number <V> 468730.0 </V> </ES> whose <A> local dialing code </A> is text <V> 347 </V>",
+            "sparql": "SELECT DISTINCT ?qpv WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> \"island\" . ?e <population> ?pv_1 . ?pv_1 <pred:unit> \"1\" . ?pv_1 <pred:value> \"468730.0\"^^xsd:double . [ <pred:fact_h> ?e ; <pred:fact_r> <population> ; <pred:fact_t> ?pv_1 ] <point_in_time> ?qpv_1 . ?qpv_1 <pred:date> \"2010-04-01\"^^xsd:date . ?e <local_dialing_code> ?pv . ?pv <pred:value> \"347\" . [ <pred:fact_h> ?e ; <pred:fact_r> <local_dialing_code> ; <pred:fact_t> ?pv ] <pred:fact_h> ?qpv .  }",
+            "choices": [
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown"
+            ],
+            "answer": "unknown"
+        }
+    },
+    "3": {
+        "generations": "When did the village with a population of 6323.0 (as of 2010-01-01) and a name in native language of Underhill's Crossing cease to exist?",
+        "ori_data_item": {
+            "question": "what is the qualifier <Q> end time </Q> of <ES> <C>  </C> whose <A> population </A> is number <V> 6323.0 </V> </ES> whose <A> name in native language </A> is text <V> Underhill's Crossing </V>",
+            "sparql": "SELECT DISTINCT ?qpv WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> \"village\" . ?e <population> ?pv_1 . ?pv_1 <pred:unit> \"1\" . ?pv_1 <pred:value> \"6323.0\"^^xsd:double . [ <pred:fact_h> ?e ; <pred:fact_r> <population> ; <pred:fact_t> ?pv_1 ] <point_in_time> ?qpv_1 . ?qpv_1 <pred:date> \"2010-01-01\"^^xsd:date . ?e <name_in_native_language> ?pv . ?pv <pred:value> \"Underhill's Crossing\" . [ <pred:fact_h> ?e ; <pred:fact_r> <name_in_native_language> ; <pred:fact_t> ?pv ] <end_time> ?qpv .  }",
+            "choices": [
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown"
+            ],
+            "answer": "unknown"
+        }
+    },
+    "4": {
+        "generations": "What is the city/town with a population of 816171.0 on January 21, 1989 and a local dialing code of 322?",
+        "ori_data_item": {
+            "question": "what is the qualifier <Q> pred:fact h </Q> of <ES> <C>  </C> whose <A> population </A> is number <V> 816171.0 </V> </ES> whose <A> local dialing code </A> is text <V> 322 </V>",
+            "sparql": "SELECT DISTINCT ?qpv WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> \"city/town\" . ?e <population> ?pv_1 . ?pv_1 <pred:unit> \"1\" . ?pv_1 <pred:value> \"816171.0\"^^xsd:double . [ <pred:fact_h> ?e ; <pred:fact_r> <population> ; <pred:fact_t> ?pv_1 ] <point_in_time> ?qpv_1 . ?qpv_1 <pred:date> \"1989-01-21\"^^xsd:date . ?e <local_dialing_code> ?pv . ?pv <pred:value> \"322\" . [ <pred:fact_h> ?e ; <pred:fact_r> <local_dialing_code> ; <pred:fact_t> ?pv ] <pred:fact_h> ?qpv .  }",
+            "choices": [
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown"
+            ],
+            "answer": "unknown"
+        }
+    },
+    "5": {
+        "generations": "How many speakers does the language with the Wikimedia language code \"pl\" have as of January 1, 2007?",
+        "ori_data_item": {
+            "question": "what is the qualifier <Q> pred:fact h </Q> of <ES> <C>  </C> whose <A> number of speakers </A> is number <V> 4.02e+07 </V> </ES> whose <A> Wikimedia language code </A> is text <V> pl </V>",
+            "sparql": "SELECT DISTINCT ?qpv WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> \"language\" . ?e <number_of_speakers> ?pv_1 . ?pv_1 <pred:unit> \"1\" . ?pv_1 <pred:value> \"4.02e+07\"^^xsd:double . [ <pred:fact_h> ?e ; <pred:fact_r> <number_of_speakers> ; <pred:fact_t> ?pv_1 ] <point_in_time> ?qpv_1 . ?qpv_1 <pred:date> \"2007-01-01\"^^xsd:date . ?e <Wikimedia_language_code> ?pv . ?pv <pred:value> \"pl\" . [ <pred:fact_h> ?e ; <pred:fact_r> <Wikimedia_language_code> ; <pred:fact_t> ?pv ] <pred:fact_h> ?qpv .  }",
+            "choices": [
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown"
+            ],
+            "answer": "unknown"
+        }
+    },
+    "6": {
+        "generations": "What is the language of work or name for the agent with an Alexa rank of 360.0 on 2017-11-20 and an official website of https://www.target.com?",
+        "ori_data_item": {
+            "question": "what is the qualifier <Q> language of work or name </Q> of <ES> <C>  </C> whose <A> Alexa rank </A> is number <V> 360.0 </V> </ES> whose <A> official website </A> is text <V> https://www.target.com </V>",
+            "sparql": "SELECT DISTINCT ?qpv WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> \"agent\" . ?e <Alexa_rank> ?pv_1 . ?pv_1 <pred:unit> \"1\" . ?pv_1 <pred:value> \"360.0\"^^xsd:double . [ <pred:fact_h> ?e ; <pred:fact_r> <Alexa_rank> ; <pred:fact_t> ?pv_1 ] <point_in_time> ?qpv_1 . ?qpv_1 <pred:date> \"2017-11-20\"^^xsd:date . ?e <official_website> ?pv . ?pv <pred:value> \"https://www.target.com\" . [ <pred:fact_h> ?e ; <pred:fact_r> <official_website> ; <pred:fact_t> ?pv ] <language_of_work_or_name> ?qpv .  }",
+            "choices": [
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown"
+            ],
+            "answer": "unknown"
+        }
+    },
+    "7": {
+        "generations": "What is the point in time for the country with a population of 56295.0 (as of 2014-07-01) and has a demonym of \u05d2\u05e8\u05d9\u05e0\u05dc\u05e0\u05d3\u05d9?",
+        "ori_data_item": {
+            "question": "what is the qualifier <Q> pred:fact h </Q> of <ES> <C>  </C> whose <A> population </A> is number <V> 56295.0 </V> </ES> whose <A> demonym </A> is text <V> \u05d2\u05e8\u05d9\u05e0\u05dc\u05e0\u05d3\u05d9 </V>",
+            "sparql": "SELECT DISTINCT ?qpv WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> \"country\" . ?e <population> ?pv_1 . ?pv_1 <pred:unit> \"1\" . ?pv_1 <pred:value> \"56295.0\"^^xsd:double . [ <pred:fact_h> ?e ; <pred:fact_r> <population> ; <pred:fact_t> ?pv_1 ] <point_in_time> ?qpv_1 . ?qpv_1 <pred:date> \"2014-07-01\"^^xsd:date . ?e <demonym> ?pv . ?pv <pred:value> \"\u05d2\u05e8\u05d9\u05e0\u05dc\u05e0\u05d3\u05d9\" . [ <pred:fact_h> ?e ; <pred:fact_r> <demonym> ; <pred:fact_t> ?pv ] <pred:fact_h> ?qpv .  }",
+            "choices": [
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown"
+            ],
+            "answer": "unknown"
+        }
+    },
+    "8": {
+        "generations": "What is the jurisdiction that the newspaper with an Alexa rank of 112.0 on 2017-11-20 and an official website of https://www.nytimes.com/ applies to?",
+        "ori_data_item": {
+            "question": "what is the qualifier <Q> applies to jurisdiction </Q> of <ES> <C>  </C> whose <A> Alexa rank </A> is number <V> 112.0 </V> </ES> whose <A> official website </A> is text <V> https://www.nytimes.com/ </V>",
+            "sparql": "SELECT DISTINCT ?qpv WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> \"newspaper\" . ?e <Alexa_rank> ?pv_1 . ?pv_1 <pred:unit> \"1\" . ?pv_1 <pred:value> \"112.0\"^^xsd:double . [ <pred:fact_h> ?e ; <pred:fact_r> <Alexa_rank> ; <pred:fact_t> ?pv_1 ] <point_in_time> ?qpv_1 . ?qpv_1 <pred:date> \"2017-11-20\"^^xsd:date . ?e <official_website> ?pv . ?pv <pred:value> \"https://www.nytimes.com/\" . [ <pred:fact_h> ?e ; <pred:fact_r> <official_website> ; <pred:fact_t> ?pv ] <applies_to_jurisdiction> ?qpv .  }",
+            "choices": [
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown"
+            ],
+            "answer": "unknown"
+        }
+    },
+    "9": {
+        "generations": "What is the language of work or name for the business with an Alexa rank of 360.0 (as of 2017-11-20) and an official website of https://www.target.com?",
+        "ori_data_item": {
+            "question": "what is the qualifier <Q> language of work or name </Q> of <ES> <C>  </C> whose <A> Alexa rank </A> is number <V> 360.0 </V> </ES> whose <A> official website </A> is text <V> https://www.target.com </V>",
+            "sparql": "SELECT DISTINCT ?qpv WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> \"business\" . ?e <Alexa_rank> ?pv_1 . ?pv_1 <pred:unit> \"1\" . ?pv_1 <pred:value> \"360.0\"^^xsd:double . [ <pred:fact_h> ?e ; <pred:fact_r> <Alexa_rank> ; <pred:fact_t> ?pv_1 ] <point_in_time> ?qpv_1 . ?qpv_1 <pred:date> \"2017-11-20\"^^xsd:date . ?e <official_website> ?pv . ?pv <pred:value> \"https://www.target.com\" . [ <pred:fact_h> ?e ; <pred:fact_r> <official_website> ; <pred:fact_t> ?pv ] <language_of_work_or_name> ?qpv .  }",
+            "choices": [
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown",
+                "unknown"
+            ],
+            "answer": "unknown"
+        }
+    }
+}
