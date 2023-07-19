@@ -1,5 +1,6 @@
+export PYTHONPATH=.
 python ./scripts/annotate_kb_program_turbo_grail.py --dataset grail \
---dataset_split final_grailqa_train_data \
+--dataset_split llm_results_turbo_grail_few_shot/final_grailqa_train_data_w_ent_name \
 --save_dir llm_results_turbo_grail_10_shot \
 --prompt_file manual_prompts_grail_10.txt \
 --output_file final_grailqa_train_data \

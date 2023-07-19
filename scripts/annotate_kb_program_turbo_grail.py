@@ -43,7 +43,8 @@ def worker_annotate(
     built_few_shot_prompts = []
     for g_eid in g_eids:
         cnt+=1
-        if cnt>10:
+        print(cnt)
+        if cnt>10000:
             break
         # try:
         g_data_item = dataset[g_eid]
@@ -66,8 +67,6 @@ def worker_annotate(
         generate_prompt += 'question:'
 
         prompt = few_shot_prompt + "\n\n" + generate_prompt
-        print(prompt)
-        exit(0)
         completion = None
         while completion is None:
             try:
