@@ -1,0 +1,151 @@
+Answer the following questions.
+
+question:Which town has a TOID of 4000000074573917 and has an OS grid reference of SP8778?
+answer:Kettering
+
+question:Who is the reviewer of the Georgia national football team, which is ranked 78th?
+answer:FIFA
+
+question:Is the name of the person that was educated at high school Laura Linney?
+answer:no
+
+question:Which area has higher elevation (above sea level), Baghdad or Jerusalem (the one whose population is 75200)?
+answer:Jerusalem
+
+question:When was the person with ISNI 0000 0001 2136 4821 born?
+answer:1906-02-05
+
+question:For what was John Houseman (who is in the Jewish ethnic group) nominated for an Academy Award for Best Picture?
+answer:Julius Caesar
+
+question:When did the big city whose postal code is 54000 have a population of 104072?
+answer:2013-01-01
+
+question:Is http://www.cheechandchong.com Eve Myles's official website?
+answer:no
+
+question:What has alternative rock in common with Greg Graffin?
+answer:famous people
+
+question:Is Elias Koteas the name in native language of the person with ISNI 0000 0001 0893 552X?
+answer:yes
+
+question:When did Gregg Allman stop being the spouse of Cher (the one whose birth name is Cherilyn Sarkisian)?
+answer:1979
+
+question:How many towns' postal code is VLT and area is less than 530 square miles?
+answer:0
+
+question:What number of sovereign states have a population not equal to 7600000000?
+answer:154
+
+question:How many neighborhoods have a population not 500000000?
+answer:10
+
+question:What is the academic degree Vladimir Nabokov achieved at Trinity College (the one that is the education place of George V) ?
+answer:Bachelor of Arts
+
+question:What is the Twitter username of the US city whose Dewey Decimal Classification is 2--797772 ?
+answer:CityofSeattle
+
+question:What is the edition number of the 63rd Golden Globe Awards?
+answer:63
+
+question:tell me the relationship between Speed which has the original language Hindi, and Hindi
+answer:original language of film or TV show
+
+question:Does the film, whose official website is http://www.lovelybones.com, have a duration greater than 60 minutes?
+answer:yes
+
+question:When did  Craig Rocastle stop being a member of Dover Athletic F.C.?
+answer:2009-01-01
+
+question:Regarding Paul (who influenced Thomas Aquinas), does he or she have the name John Kander in native language?
+answer:no
+
+question:How many keyboard instruments are used by Jim Jonsin
+answer:0
+
+question:Is the inception time not in 1895 for the basketball team that has member Jack Thompson (whose height is 185 centimetres)?
+answer:yes
+
+question:How many industry computer languages are related to UNIX?
+answer:21
+
+question:Does X-Men: The Last Stand or I Love You Phillip Morris have the shorter runtime?
+answer:I Love You Phillip Morris
+
+question:What language pertains to the http://www.gene.com website regarding the agent with a 0000 0004 0465 1775 ISNI?
+answer:English
+
+question:Rosarino is the demonym of which city?
+answer:Rosario
+
+question:Among the feature films with a publication date after 2003, which one has the smallest duration?
+answer:Wallace & Gromit: The Curse of the Were-Rabbit
+
+question:What video game genre has the OLAC video game genre vocabulary ID 1065 and the IAB code 689?
+answer:sports video game
+
+question:Which has fewer seasons, Twin Peaks (the one that has Jim Belushi as a cast member) or The Office (the one that has Martin Freeman as a cast member)?
+answer:Twin Peaks
+
+question:Tell me the person who is the screenwriter of Pleasantville  (the one that has Don Knotts as a cast member)
+answer:Gary Ross
+
+question:What is the ISNI of John Broome (the one born in 1738-01-01)?
+answer:0000 0000 2418 823X
+
+question:Who was educated at Phillips Exeter Academy and that has the occupation of lawyer ?
+answer:Edward Fox
+
+question:What language is http://sydneyolympicfc.com.au, the official website of an association football club whose Instagram username is sofc1957?
+answer:English
+
+question:What number of National Basketball Association Drafts took place after 2006?
+answer:2
+
+question:What place has less area, Huntsville or Poughkeepsie?
+answer:Poughkeepsie
+
+question:What is the publication date of Medal of Honor (the one whose distribution format is DVD) ?
+answer:2010-10-12
+
+question:Did Batman Begins released in Italy or Tootsie cost less?
+answer:Tootsie
+
+question:What is LeVar Burton's role in Star Trek: First Contact?
+answer:Geordi La Forge
+
+question:What is the Iconclass notation of treasurer?
+answer:46A613
+
+question:Which is longer, Sherlock Holmes published on 1932-01-01 or Gulliver's Travels produced by Paramount Pictures?
+answer:Gulliver's Travels
+
+question:Were the Hamilton Tiger-Cats founded after 1958?
+answer:no
+
+question:What is the series ordinal of Hercules that features Paul Shaffer as a voice actor and whose composer is Alan Menken?
+answer:22
+
+question:When did the California county that has the capital Redding have a population of 177284?
+answer:2010-07-01
+
+question:Which movie made more at the box office, Unstoppable (the one whose release region is United States of America) or You Don't Mess with the Zohan?
+answer:You Don't Mess with the Zohan
+
+question:September, born as Petra Linnea Paula Marklund, has which birth city?
+answer:Stockholm
+
+question:Is the height of Iron Man, which is a significant work from John Romita Jr., higher than 1.7 metres?
+answer:yes
+
+question:Does Pierce County that is located in Washington or Grays Harbor County have less area?
+answer:Pierce County
+
+question:What is the relationship between Frankenstein (the one whose genre is romance film) and Switzerland?
+answer:filming location
+
+question:Is the nominal GDP of Guinea-Bissau over 69000000 United States dollars on the date 1996-01-01?
+answer:yes
