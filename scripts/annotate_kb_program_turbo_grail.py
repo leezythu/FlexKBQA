@@ -44,8 +44,8 @@ def worker_annotate(
     for g_eid in g_eids:
         cnt+=1
         print(cnt)
-        if cnt>10:
-            break
+        # if cnt>10:
+            # break
         # try:
         g_data_item = dataset[g_eid]
         # print("g_data_item")
@@ -70,8 +70,8 @@ def worker_annotate(
         # generate_prompt += 'question:'
 
         prompt = few_shot_prompt + "\n\n" + generate_prompt
-        print(prompt)
-        exit(0)
+        # print(prompt)
+        # exit(0)
         completion = None
         while completion is None:
             try:
