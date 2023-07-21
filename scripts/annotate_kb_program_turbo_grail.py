@@ -44,7 +44,7 @@ def worker_annotate(
     for g_eid in g_eids:
         cnt+=1
         print(cnt)
-        if cnt>10000:
+        if cnt>10:
             break
         # try:
         g_data_item = dataset[g_eid]
@@ -62,11 +62,16 @@ def worker_annotate(
         # generate_prompt += """Parse the question into sparql.\n\n"""
         # s_expression = attach_ent_name(g_data_item)
         # s_expression = g_data_item["sexpr_w_ent_name"]
-        s_expression = g_data_item["s_expression"]
-        generate_prompt += 's-expression:{}\n'.format(s_expression)
-        generate_prompt += 'question:'
+        question = g_data_item["question"]
+        generate_prompt += 'question:{}\n'.format(question)
+        generate_prompt += 'answer:'
+        # s_expression = g_data_item["s_expression"]
+        # generate_prompt += 's-expression:{}\n'.format(s_expression)
+        # generate_prompt += 'question:'
 
         prompt = few_shot_prompt + "\n\n" + generate_prompt
+        print(prompt)
+        exit(0)
         completion = None
         while completion is None:
             try:
@@ -156,7 +161,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
     # File path or name
-    parser.add_argument('--dataset', type=str, default='grail',)
+    parser.add_argument('--dataset', type=str, default='grail')
     parser.add_argument('--dataset_split', type=str, default='GrailQA_v1.0/grailqa_v1.0_train')
     parser.add_argument('--prompt_file', type=str, default='manual_prompts_grail.txt')
     parser.add_argument('--output_file', type=str)
