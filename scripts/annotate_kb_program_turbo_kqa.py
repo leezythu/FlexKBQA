@@ -32,8 +32,8 @@ def worker_annotate(
     built_few_shot_prompts = []
     for g_eid in g_eids:
         cnt+=1
-        if cnt>10000:
-            break
+        # if cnt>10:
+        #     break
         # try:
         g_data_item = dataset[g_eid]
         # print("g_data_item")
@@ -47,10 +47,13 @@ def worker_annotate(
             file_path=args.prompt_file,
         )
         generate_prompt = ""
+        question = g_data_item["question"]
+        generate_prompt += 'question:{}\n'.format(question)
+        generate_prompt += 'answer:'
         # generate_prompt += """Parse the question into sparql.\n\n"""
-        sparql = g_data_item["sparql"]
-        generate_prompt += 'sparql:{}\n'.format(sparql)
-        generate_prompt += 'question:'
+        # sparql = g_data_item["sparql"]
+        # generate_prompt += 'sparql:{}\n'.format(sparql)
+        # generate_prompt += 'question:'
 
         prompt = few_shot_prompt + "\n\n" + generate_prompt
         completion = None
