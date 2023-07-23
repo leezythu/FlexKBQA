@@ -3,7 +3,7 @@ src_path = open("GrailQA_v1.0/grailqa_v1.0_train.json")
 data = json.load(src_path)
 print(len(data))
 
-out_f = open("s_q_pairs_grail_train.txt",'w')
+out_f = open("s_q_pairs_grail_train_100.txt",'w')
 
 existing_structure = []
 existing_structure_cnt = {}
@@ -39,7 +39,7 @@ print(existing_structure_cnt)
 
 filtered_structure = []
 for key in existing_structure_cnt:
-    if existing_structure_cnt[key] > 97:
+    if existing_structure_cnt[key] > 13:
         filtered_structure.append(key)
 
 # print("filtered_structure",filtered_structure)
@@ -71,5 +71,5 @@ for d in data:
         existing_structure.append(structure)
         sparql_tems.append(d)
 
-with open("sparql_for_prompts_sparql.json",'w') as f:
+with open("sparql_for_prompts_sparql_100.json",'w') as f:
     f.write(json.dumps(sparql_tems))
