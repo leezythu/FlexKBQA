@@ -1,9 +1,9 @@
 export PYTHONPATH=.
 python ./scripts/annotate_kb_program_turbo_grail.py --dataset grail \
---dataset_split llm_results_turbo_grail_few_shot/final_grailqa_train_data_w_ent_name \
---save_dir llm_results_turbo_grail_10_shot \
---prompt_file manual_prompts_grail_10.txt \
---output_file final_grailqa_train_data \
+--dataset_split llm_results_turbo_grail_few_shot/final_grailqa_train_data_w_ent_name_split2 \
+--save_dir llm_results_turbo_grail_100_shot \
+--prompt_file manual_prompts_grail_100.txt \
+--output_file final_grailqa_train_data_split2 \
 --n_parallel_prompts 1 \
 --max_generation_tokens 512 \
 --temperature 0.4 \
