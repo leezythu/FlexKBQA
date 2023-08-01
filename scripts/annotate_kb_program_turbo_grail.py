@@ -45,7 +45,7 @@ def worker_annotate(
         cnt+=1
         print(cnt)
         # if cnt>10:
-            # break
+        #     break
         # try:
         g_data_item = dataset[g_eid]
         # print("g_data_item")
@@ -62,16 +62,14 @@ def worker_annotate(
         # generate_prompt += """Parse the question into sparql.\n\n"""
         # s_expression = attach_ent_name(g_data_item)
         # s_expression = g_data_item["sexpr_w_ent_name"]
-        question = g_data_item["question"]
-        generate_prompt += 'question:{}\n'.format(question)
-        generate_prompt += 'answer:'
-        # s_expression = g_data_item["s_expression"]
-        # generate_prompt += 's-expression:{}\n'.format(s_expression)
-        # generate_prompt += 'question:'
+        # question = g_data_item["question"]
+        # generate_prompt += 'question:{}\n'.format(question)
+        # generate_prompt += 'answer:'
+        s_expression = g_data_item["s_expression"]
+        generate_prompt += 's-expression:{}\n'.format(s_expression)
+        generate_prompt += 'question:'
 
         prompt = few_shot_prompt + "\n\n" + generate_prompt
-        # print(prompt)
-        # exit(0)
         completion = None
         while completion is None:
             try:

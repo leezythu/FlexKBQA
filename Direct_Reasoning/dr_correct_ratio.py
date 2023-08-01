@@ -1,6 +1,6 @@
 import json
 
-data = json.load(open("../dr_results_25_shot/dr_res_kqa"))
+data = json.load(open("../dr_results_50_shot/dr_res_kqa"))
 print(len(data))
 correct_num = 0
 for key in data:
