@@ -1,0 +1,301 @@
+Convert the natural language questions to sparqls.
+
+question:Which town has a TOID of 4000000074573917 and has an OS grid reference of SP8778?
+sparql:SELECT DISTINCT ?e WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "town" . ?e <TOID> ?pv . ?pv <pred:value> "4000000074573917" . ?e <OS_grid_reference> ?pv_1 . ?pv_1 <pred:value> "SP8778" .  }
+
+question:When was the person with ISNI 0000 0001 2136 4821 born?
+sparql:SELECT DISTINCT ?pv WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "human" . ?e <ISNI> ?pv_1 . ?pv_1 <pred:value> "0000 0001 2136 4821" . ?e <date_of_birth> ?pv .  }
+
+question:Is http://www.cheechandchong.com Eve Myles's official website?
+sparql:ASK { ?e <pred:name> "Eve Myles" . ?e <official_website> ?pv . ?pv <pred:value> "http://www.cheechandchong.com" .  }
+
+question:What has alternative rock in common with Greg Graffin?
+sparql:SELECT DISTINCT ?p WHERE { ?e_1 <pred:name> "alternative rock" . ?e_2 <pred:name> "Greg Graffin" . ?e_1 ?p ?e_2 .  }
+
+question:Is Elias Koteas the name in native language of the person with ISNI 0000 0001 0893 552X?
+sparql:ASK { ?e <pred:instance_of> ?c . ?c <pred:name> "human" . ?e <ISNI> ?pv_1 . ?pv_1 <pred:value> "0000 0001 0893 552X" . ?e <name_in_native_language> ?pv . ?pv <pred:value> "Elias Koteas" .  }
+
+question:When did Gregg Allman stop being the spouse of Cher (the one whose birth name is Cherilyn Sarkisian)?
+sparql:SELECT DISTINCT ?qpv WHERE { ?e_1 <pred:name> "Gregg Allman" . ?e_2 <pred:name> "Cher" . ?e_2 <birth_name> ?pv . ?pv <pred:value> "Cherilyn Sarkisian" . ?e_1 <spouse> ?e_2 . [ <pred:fact_h> ?e_1 ; <pred:fact_r> <spouse> ; <pred:fact_t> ?e_2 ] <end_time> ?qpv .  }
+
+question:How many towns' postal code is VLT and area is less than 530 square miles?
+sparql:SELECT (COUNT(DISTINCT ?e) AS ?count) WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "town" . ?e <postal_code> ?pv . ?pv <pred:value> "VLT" . ?e <area> ?pv_1 . ?pv_1 <pred:unit> "square mile" . ?pv_1 <pred:value> ?v . FILTER ( ?v < "530"^^xsd:double ) .  }
+
+question:What number of sovereign states have a population not equal to 7600000000?
+sparql:SELECT (COUNT(DISTINCT ?e) AS ?count) WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "sovereign state" . ?e <population> ?pv . ?pv <pred:unit> "1" . ?pv <pred:value> ?v . FILTER ( ?v != "7600000000"^^xsd:double ) .  }
+
+question:What is the edition number of the 63rd Golden Globe Awards?
+sparql:SELECT DISTINCT ?pv WHERE { ?e <pred:name> "63rd Golden Globe Awards" . ?e <edition_number> ?pv .  }
+
+question:Does the film, whose official website is http://www.lovelybones.com, have a duration greater than 60 minutes?
+sparql:ASK { ?e <pred:instance_of> ?c . ?c <pred:name> "film" . ?e <official_website> ?pv_1 . ?pv_1 <pred:value> "http://www.lovelybones.com" . ?e <duration> ?pv . ?pv <pred:unit> "minute" . ?pv <pred:value> ?v . FILTER ( ?v > "60"^^xsd:double ) .  }
+
+question:When did  Craig Rocastle stop being a member of Dover Athletic F.C.?
+sparql:SELECT DISTINCT ?qpv WHERE { ?e_1 <pred:name> "Craig Rocastle" . ?e_2 <pred:name> "Dover Athletic F.C." . ?e_1 <member_of_sports_team> ?e_2 . [ <pred:fact_h> ?e_1 ; <pred:fact_r> <member_of_sports_team> ; <pred:fact_t> ?e_2 ] <end_time> ?qpv .  }
+
+question:What language pertains to the http://www.gene.com website regarding the agent with a 0000 0004 0465 1775 ISNI?
+sparql:SELECT DISTINCT ?qpv WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "agent" . ?e <ISNI> ?pv_1 . ?pv_1 <pred:value> "0000 0004 0465 1775" . ?e <official_website> ?pv . ?pv <pred:value> "http://www.gene.com/" . [ <pred:fact_h> ?e ; <pred:fact_r> <official_website> ; <pred:fact_t> ?pv ] <language_of_work_or_name> ?qpv .  }
+
+question:Rosarino is the demonym of which city?
+sparql:SELECT DISTINCT ?e WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "city" . ?e <demonym> ?pv . ?pv <pred:value> "Rosarino" .  }
+
+question:What is the ISNI of John Broome (the one born in 1738-01-01)?
+sparql:SELECT DISTINCT ?pv WHERE { ?e <pred:name> "John Broome" . ?e <date_of_birth> ?pv_1 . ?pv_1 <pred:date> "1738-01-01"^^xsd:date . ?e <ISNI> ?pv .  }
+
+question:What is the connection between The Matrix Revolutions to California (the one whose CANTIC-ID is a11459566)?
+sparql:SELECT DISTINCT ?p WHERE { ?e_1 <pred:name> "The Matrix Revolutions" . ?e_2 <pred:name> "California" . ?e_2 <CANTIC-ID> ?pv . ?pv <pred:value> "a11459566" . ?e_1 ?p ?e_2 .  }
+
+question:What is the reason that James Ivory (whose date of birth is 1765-02-17) received a Copley Medal?
+sparql:SELECT DISTINCT ?qpv WHERE { ?e_1 <pred:name> "James Ivory" . ?e_1 <date_of_birth> ?pv . ?pv <pred:date> "1765-02-17"^^xsd:date . ?e_2 <pred:name> "Copley Medal" . ?e_1 <award_received> ?e_2 . [ <pred:fact_h> ?e_1 ; <pred:fact_r> <award_received> ; <pred:fact_t> ?e_2 ] <award_rationale> ?qpv .  }
+
+question:How is Bethlehem whose local dialing code is 610 related to Lehigh County?
+sparql:SELECT DISTINCT ?p WHERE { ?e_1 <pred:name> "Bethlehem" . ?e_1 <local_dialing_code> ?pv . ?pv <pred:value> "610" . ?e_2 <pred:name> "Lehigh County" . ?e_1 ?p ?e_2 .  }
+
+question:What is the connection between John Spencer (the one whose date of birth is 1898-01-01) to Stoke City F.C.?
+sparql:SELECT DISTINCT ?p WHERE { ?e_1 <pred:name> "John Spencer" . ?e_1 <date_of_birth> ?pv . ?pv <pred:date> "1898-01-01"^^xsd:date . ?e_2 <pred:name> "Stoke City F.C." . ?e_1 ?p ?e_2 .  }
+
+question:Does the U.S. city, whose official website is http://www.montgomeryal.gov/ (the language of this statement is English), have a native label equal to مراكش?
+sparql:ASK { ?e <pred:instance_of> ?c . ?c <pred:name> "city of the United States" . ?e <official_website> ?pv_1 . ?pv_1 <pred:value> "http://www.montgomeryal.gov/" . [ <pred:fact_h> ?e ; <pred:fact_r> <official_website> ; <pred:fact_t> ?pv_1 ] <language_of_work_or_name> ?qpv . ?qpv <pred:value> "English" . ?e <native_label> ?pv . ?pv <pred:value> "مراكش" .  }
+
+question:What is the connection between A Serious Man to Ireland (the one whose nominal GDP is 239389340720.488 United States dollar)?
+sparql:SELECT DISTINCT ?p WHERE { ?e_1 <pred:name> "A Serious Man" . ?e_2 <pred:name> "Ireland" . ?e_2 <nominal_GDP> ?pv . ?pv <pred:unit> "United States dollar" . ?pv <pred:value> "239389340720.488"^^xsd:double . ?e_1 ?p ?e_2 .  }
+
+question:What is the connection between Dynasty (the one whose duration is 42 minute) to The CW?
+sparql:SELECT DISTINCT ?p WHERE { ?e_1 <pred:name> "Dynasty" . ?e_1 <duration> ?pv . ?pv <pred:unit> "minute" . ?pv <pred:value> "42"^^xsd:double . ?e_2 <pred:name> "The CW" . ?e_1 ?p ?e_2 .  }
+
+question:Is Isfahan 20,000 square miles in size ?
+sparql:ASK { ?e <pred:name> "Isfahan" . ?e <area> ?pv . ?pv <pred:unit> "square mile" . ?pv <pred:value> "20000"^^xsd:double .  }
+
+question:Is Hokkaido's elevation above sea level not 6200 metres?
+sparql:ASK { ?e <pred:name> "Hokkaidō" . ?e <elevation_above_sea_level> ?pv . ?pv <pred:unit> "metre" . ?pv <pred:value> ?v . FILTER ( ?v != "6200"^^xsd:double ) .  }
+
+question:How many geographic regions have the demonym, Europea?
+sparql:SELECT (COUNT(DISTINCT ?e) AS ?count) WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "geographic region" . ?e <demonym> ?pv . ?pv <pred:value> "Europea" .  }
+
+question:Tell me the inception time for the basketball team who has the officail website http://www.nba.com/hawks/
+sparql:SELECT DISTINCT ?pv WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "basketball team" . ?e <official_website> ?pv_1 . ?pv_1 <pred:value> "http://www.nba.com/hawks/" . [ <pred:fact_h> ?e ; <pred:fact_r> <official_website> ; <pred:fact_t> ?pv_1 ] <language_of_work_or_name> ?qpv . ?qpv <pred:value> "English" . ?e <inception> ?pv .  }
+
+question:What is Malta's diplomatic relationship with Israel, where the nominal GDP is 31079439501.7794 USD?
+sparql:SELECT DISTINCT ?qpv WHERE { ?e_1 <pred:name> "Malta" . ?e_2 <pred:name> "Israel" . ?e_2 <nominal_GDP> ?pv . ?pv <pred:unit> "United States dollar" . ?pv <pred:value> "31079439501.7794"^^xsd:double . ?e_1 <diplomatic_relation> ?e_2 . [ <pred:fact_h> ?e_1 ; <pred:fact_r> <diplomatic_relation> ; <pred:fact_t> ?e_2 ] <statement_is_subject_of> ?qpv .  }
+
+question:Is The Mummy's (which has a review score of 34/100) duration greater than 80 minutes?
+sparql:ASK { ?e <pred:name> "The Mummy" . ?e <review_score> ?pv_1 . ?pv_1 <pred:value> "34/100" . ?e <duration> ?pv . ?pv <pred:unit> "minute" . ?pv <pred:value> ?v . FILTER ( ?v > "80"^^xsd:double ) .  }
+
+question:Is the elevation of Lake County (whose area is 1622 square kilometers) less than 7400 meters above sea level?
+sparql:ASK { ?e <pred:name> "Lake County" . ?e <area> ?pv_1 . ?pv_1 <pred:unit> "square kilometre" . ?pv_1 <pred:value> "1622"^^xsd:double . ?e <elevation_above_sea_level> ?pv . ?pv <pred:unit> "metre" . ?pv <pred:value> ?v . FILTER ( ?v < "7400"^^xsd:double ) .  }
+
+question:What is the Dewey Decimal Classification of The Da Vinci Code (the one whose ISBN-13 is 978-0-552-15971-5)?
+sparql:SELECT DISTINCT ?pv WHERE { ?e <pred:name> "The Da Vinci Code" . ?e <ISBN-13> ?pv_1 . ?pv_1 <pred:value> "978-0-552-15971-5" . ?e <Dewey_Decimal_Classification> ?pv .  }
+
+question:For the Philadelphia Flyers, what language is associated with this creative work for its official website of https://www.nhl.com/flyers?
+sparql:SELECT DISTINCT ?qpv WHERE { ?e <pred:name> "Philadelphia Flyers" . ?e <official_website> ?pv . ?pv <pred:value> "https://www.nhl.com/flyers" . [ <pred:fact_h> ?e ; <pred:fact_r> <official_website> ; <pred:fact_t> ?pv ] <language_of_work_or_name> ?qpv .  }
+
+question:When was the release of the visual artwork clocking in at 231 minutes?
+sparql:SELECT DISTINCT ?pv WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "visual artwork" . ?e <duration> ?pv_1 . ?pv_1 <pred:unit> "minute" . ?pv_1 <pred:value> "231"^^xsd:double . ?e <publication_date> ?pv .  }
+
+question:Which ISNI designates the person born on 1963-04-10?
+sparql:SELECT DISTINCT ?pv WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "human" . ?e <date_of_birth> ?pv_1 . ?pv_1 <pred:date> "1963-04-10"^^xsd:date . ?e <ISNI> ?pv .  }
+
+question:Which film's box office is 48363516 U.S. dollars?
+sparql:SELECT DISTINCT ?e WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "film" . ?e <box_office> ?pv . ?pv <pred:unit> "United States dollar" . ?pv <pred:value> "48363516"^^xsd:double .  }
+
+question:What language is associated with the official website http://www.parkcounty.us for the administrative territorial entity whose population is 29228 (the determination method of this statement is demographic balance)?
+sparql:SELECT DISTINCT ?qpv WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "administrative territorial entity" . ?e <population> ?pv_1 . ?pv_1 <pred:unit> "1" . ?pv_1 <pred:value> "29228"^^xsd:double . [ <pred:fact_h> ?e ; <pred:fact_r> <population> ; <pred:fact_t> ?pv_1 ] <determination_method> ?qpv_1 . ?qpv_1 <pred:value> "demographic balance" . ?e <official_website> ?pv . ?pv <pred:value> "http://www.parkcounty.us" . [ <pred:fact_h> ?e ; <pred:fact_r> <official_website> ; <pred:fact_t> ?pv ] <language_of_work_or_name> ?qpv .  }
+
+question:Does Great Expectations (the one whose publication date is 1974-01-01), have its title equal to Phoenix?
+sparql:ASK { ?e <pred:name> "Great Expectations" . ?e <publication_date> ?pv_1 . ?pv_1 <pred:date> "1974-01-01"^^xsd:date . ?e <title> ?pv . ?pv <pred:value> "Phoenix" .  }
+
+question:Which soccer club is represented by the English-language website www.revolutionsoccer.net ?
+sparql:SELECT DISTINCT ?e WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "association football club" . ?e <official_website> ?pv . ?pv <pred:value> "https://www.revolutionsoccer.net" . [ <pred:fact_h> ?e ; <pred:fact_r> <official_website> ; <pred:fact_t> ?pv ] <language_of_work_or_name> ?qpv . ?qpv <pred:value> "English" .  }
+
+question:What academic degree did Al Green (the one whose Twitter username is RepAlGreen) get at Texas Southern University?
+sparql:SELECT DISTINCT ?qpv WHERE { ?e_1 <pred:name> "Al Green" . ?e_1 <Twitter_username> ?pv . ?pv <pred:value> "RepAlGreen" . ?e_2 <pred:name> "Texas Southern University" . ?e_1 <educated_at> ?e_2 . [ <pred:fact_h> ?e_1 ; <pred:fact_r> <educated_at> ; <pred:fact_t> ?e_2 ] <academic_degree> ?qpv .  }
+
+question:What number of independent cities have more than 5300000000 people?
+sparql:SELECT (COUNT(DISTINCT ?e) AS ?count) WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "independent city" . ?e <population> ?pv . ?pv <pred:unit> "1" . ?pv <pred:value> ?v . FILTER ( ?v > "5300000000"^^xsd:double ) .  }
+
+question:Is the population of Taunton (125.394178 square KM in size) not 200000 ?
+sparql:ASK { ?e <pred:name> "Taunton" . ?e <area> ?pv_1 . ?pv_1 <pred:unit> "square kilometre" . ?pv_1 <pred:value> "125.394178"^^xsd:double . ?e <population> ?pv . ?pv <pred:unit> "1" . ?pv <pred:value> ?v . FILTER ( ?v != "200000"^^xsd:double ) .  }
+
+question:What is the connection between New Castle County to Kent County (the one whose inception time is 1683-01-01)?
+sparql:SELECT DISTINCT ?p WHERE { ?e_1 <pred:name> "New Castle County" . ?e_2 <pred:name> "Kent County" . ?e_2 <inception> ?pv . ?pv <pred:date> "1683-01-01"^^xsd:date . ?e_1 ?p ?e_2 .  }
+
+question:Who died on 1998-01-01?
+sparql:SELECT DISTINCT ?e WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "human" . ?e <date_of_death> ?pv . ?pv <pred:date> "1998-01-01"^^xsd:date .  }
+
+question:How many forms of government have the Human Development Index of .7 and a Human Development Index greater than .8?
+sparql:SELECT (COUNT(DISTINCT ?e) AS ?count) WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "form of government" . ?e <Human_Development_Index> ?pv . ?pv <pred:unit> "1" . ?pv <pred:value> "0.7"^^xsd:double . ?e <Human_Development_Index> ?pv_1 . ?pv_1 <pred:unit> "1" . ?pv_1 <pred:value> ?v . FILTER ( ?v > "0.8"^^xsd:double ) .  }
+
+question:Is the PermID of Dover (the one whose postal code is 19901–19906) equal to 5035896864?
+sparql:ASK { ?e <pred:name> "Dover" . ?e <postal_code> ?pv_1 . ?pv_1 <pred:value> "19901–19906" . ?e <PermID> ?pv . ?pv <pred:value> "5035896864" .  }
+
+question:Was Jesus of Nazareth published on 1962-12-26?
+sparql:ASK { ?e <pred:name> "Jesus of Nazareth" . ?e <publication_date> ?pv . ?pv <pred:date> "1962-12-26"^^xsd:date .  }
+
+question:In what country is Rome (where died Michelangelo in 1564-02-18 and that has a population of 273952)?
+sparql:SELECT DISTINCT ?qpv WHERE { ?e_1 <pred:name> "Michelangelo" . ?e_1 <date_of_death> ?pv . ?pv <pred:date> "1564-02-18"^^xsd:date . ?e_2 <pred:name> "Rome" . ?e_2 <population> ?pv_1 . ?pv_1 <pred:unit> "1" . ?pv_1 <pred:value> "273952"^^xsd:double . ?e_1 <place_of_death> ?e_2 . [ <pred:fact_h> ?e_1 ; <pred:fact_r> <place_of_death> ; <pred:fact_t> ?e_2 ] <country> ?qpv .  }
+
+question:Is the area of a government, whose subreddit is dubai (English language), over 50,000 square km ?
+sparql:ASK { ?e <pred:instance_of> ?c . ?c <pred:name> "form of government" . ?e <subreddit> ?pv_1 . ?pv_1 <pred:value> "dubai" . [ <pred:fact_h> ?e ; <pred:fact_r> <subreddit> ; <pred:fact_t> ?pv_1 ] <language_of_work_or_name> ?qpv . ?qpv <pred:value> "English" . ?e <area> ?pv . ?pv <pred:unit> "square kilometre" . ?pv <pred:value> ?v . FILTER ( ?v > "50000"^^xsd:double ) .  }
+
+question:Is the ISNI equal to 0000 0001 2130 5709 for the human whose date of death is on 2006-05-30?
+sparql:ASK { ?e <pred:instance_of> ?c . ?c <pred:name> "human" . ?e <date_of_death> ?pv_1 . ?pv_1 <pred:date> "2006-05-30"^^xsd:date . ?e <ISNI> ?pv . ?pv <pred:value> "0000 0001 2130 5709" .  }
+
+question:Which city with under 15000000 population has the official website http://www.districtabidjan.ci/?
+sparql:SELECT DISTINCT ?e WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "city" . ?e <official_website> ?pv . ?pv <pred:value> "http://www.districtabidjan.ci/" . ?e <population> ?pv_1 . ?pv_1 <pred:unit> "1" . ?pv_1 <pred:value> ?v . FILTER ( ?v < "15000000"^^xsd:double ) .  }
+
+question:What is the ISNI of the person whose Twitter username is IamLaceyChabert (the subscription number of this statement is 197526)?
+sparql:SELECT DISTINCT ?pv WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "human" . ?e <Twitter_username> ?pv_1 . ?pv_1 <pred:value> "IamLaceyChabert" . [ <pred:fact_h> ?e ; <pred:fact_r> <Twitter_username> ; <pred:fact_t> ?pv_1 ] <number_of_subscribers> ?qpv . ?qpv <pred:unit> "1" . ?qpv <pred:value> "197526"^^xsd:double . ?e <ISNI> ?pv .  }
+
+question:How many census-designated places have 20814 as their postal code, and the population of more or less than 310 mil. people?
+sparql:SELECT (COUNT(DISTINCT ?e) AS ?count) WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "census-designated place" . ?e <population> ?pv . ?pv <pred:unit> "1" . ?pv <pred:value> ?v . FILTER ( ?v != "310000000"^^xsd:double ) . ?e <postal_code> ?pv_1 . ?pv_1 <pred:value> "20814" .  }
+
+question:What is the relationship between Thuringia (the one whose NUTS code is DEG0) and Thuringia (the one whose native label is Thüringen) ?
+sparql:SELECT DISTINCT ?p WHERE { ?e_1 <pred:name> "Thuringia" . ?e_1 <NUTS_code> ?pv . ?pv <pred:value> "DEG0" . ?e_2 <pred:name> "Thuringia" . ?e_2 <native_label> ?pv_1 . ?pv_1 <pred:value> "Thüringen" . ?e_1 ?p ?e_2 .  }
+
+question:What's the relationship between Tom Hardy (nickname Tom) and the single season TV show Oliver Twist?
+sparql:SELECT DISTINCT ?p WHERE { ?e_1 <pred:name> "Oliver Twist" . ?e_1 <number_of_seasons> ?pv . ?pv <pred:unit> "1" . ?pv <pred:value> "1"^^xsd:double . ?e_2 <pred:name> "Tom Hardy" . ?e_2 <nickname> ?pv_1 . ?pv_1 <pred:value> "Tom" . ?e_1 ?p ?e_2 .  }
+
+question:What is the start time of Antwerp (the one whose NIS/INS code is 11002) as the twinned administrative body of Barcelona (the one whose population is 405913)?
+sparql:SELECT DISTINCT ?qpv WHERE { ?e_1 <pred:name> "Antwerp" . ?e_1 <NIS/INS_code> ?pv . ?pv <pred:value> "11002" . ?e_2 <pred:name> "Barcelona" . ?e_2 <population> ?pv_1 . ?pv_1 <pred:unit> "1" . ?pv_1 <pred:value> "405913"^^xsd:double . ?e_1 <twinned_administrative_body> ?e_2 . [ <pred:fact_h> ?e_1 ; <pred:fact_r> <twinned_administrative_body> ; <pred:fact_t> ?e_2 ] <start_time> ?qpv .  }
+
+question:Does the television series with the start time on 1993-01-31 have a duration not equal to 1900 seconds?
+sparql:ASK { ?e <pred:instance_of> ?c . ?c <pred:name> "television series" . ?e <start_time> ?pv_1 . ?pv_1 <pred:date> "1993-01-31"^^xsd:date . ?e <duration> ?pv . ?pv <pred:unit> "second" . ?pv <pred:value> ?v . FILTER ( ?v != "1900"^^xsd:double ) .  }
+
+question:When did Cairo (the one whose population is 313400) become the twinned administrative body of Amman?
+sparql:SELECT DISTINCT ?qpv WHERE { ?e_1 <pred:name> "Cairo" . ?e_1 <population> ?pv . ?pv <pred:unit> "1" . ?pv <pred:value> "313400"^^xsd:double . ?e_2 <pred:name> "Amman" . ?e_1 <twinned_administrative_body> ?e_2 . [ <pred:fact_h> ?e_1 ; <pred:fact_r> <twinned_administrative_body> ; <pred:fact_t> ?e_2 ] <start_time> ?qpv .  }
+
+question:What is the start date that 146065 is the exploitation visa number of Split (whose title is Split)?
+sparql:SELECT DISTINCT ?qpv WHERE { ?e <pred:name> "Split" . ?e <title> ?pv_1 . ?pv_1 <pred:value> "Split" . ?e <exploitation_visa_number> ?pv . ?pv <pred:value> "146065" . [ <pred:fact_h> ?e ; <pred:fact_r> <exploitation_visa_number> ; <pred:fact_t> ?pv ] <start_time> ?qpv .  }
+
+question:Is Marianne Faithfull's name in native language equal to Marianne Faithfull?
+sparql:ASK { ?e <pred:name> "Marianne Faithfull" . ?e <name_in_native_language> ?pv . ?pv <pred:value> "Marianne Faithfull" .  }
+
+question:Was the cost of making the feature film released in France on 1984-10-24 different from  37,000,000 USD?
+sparql:ASK { ?e <pred:instance_of> ?c . ?c <pred:name> "feature film" . ?e <publication_date> ?pv_1 . ?pv_1 <pred:date> "1984-10-24"^^xsd:date . [ <pred:fact_h> ?e ; <pred:fact_r> <publication_date> ; <pred:fact_t> ?pv_1 ] <country> ?qpv . ?qpv <pred:value> "France" . ?e <cost> ?pv . ?pv <pred:unit> "United States dollar" . ?pv <pred:value> ?v . FILTER ( ?v != "37000000"^^xsd:double ) .  }
+
+question:To which territorial jurisdiction does SHO_Homeland, the Twitter username of the television series whose number of episodes is 84, apply?
+sparql:SELECT DISTINCT ?qpv WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "television series" . ?e <number_of_episodes> ?pv_1 . ?pv_1 <pred:unit> "1" . ?pv_1 <pred:value> "84"^^xsd:double . ?e <Twitter_username> ?pv . ?pv <pred:value> "SHO_Homeland" . [ <pred:fact_h> ?e ; <pred:fact_r> <Twitter_username> ; <pred:fact_t> ?pv ] <applies_to_jurisdiction> ?qpv .  }
+
+question:How many sovereign states have a nominal GDP that is higher than 1003100000000 Czech koruna and more than 80000 out-of-school children?
+sparql:SELECT (COUNT(DISTINCT ?e) AS ?count) WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "sovereign state" . ?e <nominal_GDP> ?pv . ?pv <pred:unit> "Czech koruna" . ?pv <pred:value> ?v . FILTER ( ?v > "1003100000000"^^xsd:double ) . ?e <number_of_out-of-school_children> ?pv_1 . ?pv_1 <pred:unit> "1" . ?pv_1 <pred:value> ?v_1 . FILTER ( ?v_1 > "80000"^^xsd:double ) .  }
+
+question:Did a person, whose ISNI is 0000 0000 8096 0714, die on 27th July 2003 ?
+sparql:ASK { ?e <pred:instance_of> ?c . ?c <pred:name> "human" . ?e <ISNI> ?pv_1 . ?pv_1 <pred:value> "0000 0000 8096 0714" . ?e <date_of_death> ?pv . ?pv <pred:date> "2003-07-27"^^xsd:date .  }
+
+question:How is Split, officially named Split, related to Dover, of the Twitter handle VisitDover?
+sparql:SELECT DISTINCT ?p WHERE { ?e_1 <pred:name> "Split" . ?e_1 <official_name> ?pv . ?pv <pred:value> "Split" . ?e_2 <pred:name> "Dover" . ?e_2 <Twitter_username> ?pv_1 . ?pv_1 <pred:value> "VisitDover" . ?e_1 ?p ?e_2 .  }
+
+question:What is the short film titled The Fugitive and whose duration is not 740 minutes?
+sparql:SELECT DISTINCT ?e WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "short film" . ?e <title> ?pv . ?pv <pred:value> "The Fugitive" . ?e <duration> ?pv_1 . ?pv_1 <pred:unit> "minute" . ?pv_1 <pred:value> ?v . FILTER ( ?v != "740"^^xsd:double ) .  }
+
+question:Is the official website of Douglas Count who's population is 47039  http://www.douglascountynv.gov,?
+sparql:SELECT DISTINCT ?qpv WHERE { ?e <pred:name> "Douglas County" . ?e <population> ?pv_1 . ?pv_1 <pred:unit> "1" . ?pv_1 <pred:value> "47039"^^xsd:double . ?e <official_website> ?pv . ?pv <pred:value> "http://www.douglascountynv.gov" . [ <pred:fact_h> ?e ; <pred:fact_r> <official_website> ; <pred:fact_t> ?pv ] <language_of_work_or_name> ?qpv .  }
+
+question:Is 2001:620:8::/48 the IPv6 routing prefix for Groningen (whose number of households is 109976)?
+sparql:ASK { ?e <pred:name> "Groningen" . ?e <number_of_households> ?pv_1 . ?pv_1 <pred:unit> "1" . ?pv_1 <pred:value> "109976"^^xsd:double . ?e <IPv6_routing_prefix> ?pv . ?pv <pred:value> "2001:620:8::/48" .  }
+
+question:How many subscribers does the band whose Instagram username is limpbizkit have under the Twitter username limpbizkit?
+sparql:SELECT DISTINCT ?qpv WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "band" . ?e <Instagram_username> ?pv_1 . ?pv_1 <pred:value> "limpbizkit" . ?e <Twitter_username> ?pv . ?pv <pred:value> "limpbizkit" . [ <pred:fact_h> ?e ; <pred:fact_r> <Twitter_username> ; <pred:fact_t> ?pv ] <number_of_subscribers> ?qpv .  }
+
+question:Is A Christmas Carol the title of A Christmas Carol whose release date is 2010-12-25?
+sparql:ASK { ?e <pred:name> "A Christmas Carol" . ?e <publication_date> ?pv_1 . ?pv_1 <pred:date> "2010-12-25"^^xsd:date . ?e <title> ?pv . ?pv <pred:value> "A Christmas Carol" .  }
+
+question:What feature film is 0 minutes long and titled The Three Musketeers ?
+sparql:SELECT DISTINCT ?e WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "feature film" . ?e <duration> ?pv . ?pv <pred:unit> "minute" . ?pv <pred:value> ?v . FILTER ( ?v != "0"^^xsd:double ) . ?e <title> ?pv_1 . ?pv_1 <pred:value> "The Three Musketeers" .  }
+
+question:When was the debut show of the 5-season Charlie's Angels ?
+sparql:SELECT DISTINCT ?pv WHERE { ?e <pred:name> "Charlie's Angels" . ?e <number_of_seasons> ?pv_1 . ?pv_1 <pred:unit> "1" . ?pv_1 <pred:value> "5"^^xsd:double . ?e <date_of_first_performance> ?pv .  }
+
+question:Which political party has the Twitter username Greens (the subscription number of this statement is 87368) and the official website at http://www.greens.org.au/?
+sparql:SELECT DISTINCT ?e WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "political party" . ?e <Twitter_username> ?pv . ?pv <pred:value> "Greens" . [ <pred:fact_h> ?e ; <pred:fact_r> <Twitter_username> ; <pred:fact_t> ?pv ] <number_of_subscribers> ?qpv . ?qpv <pred:unit> "1" . ?qpv <pred:value> "87368"^^xsd:double . ?e <official_website> ?pv_1 . ?pv_1 <pred:value> "http://www.greens.org.au/" .  }
+
+question:Is the episode count not 6300 for Anger Management whose end time is 2014-12-22?
+sparql:ASK { ?e <pred:name> "Anger Management" . ?e <end_time> ?pv_1 . ?pv_1 <pred:date> "2014-12-22"^^xsd:date . ?e <number_of_episodes> ?pv . ?pv <pred:unit> "1" . ?pv <pred:value> ?v . FILTER ( ?v != "6300"^^xsd:double ) .  }
+
+question:How is Ipswich, at an elevation of 50 meters, related to Australia, where 65 is the retirement age?
+sparql:SELECT DISTINCT ?p WHERE { ?e_1 <pred:name> "Ipswich" . ?e_1 <elevation_above_sea_level> ?pv . ?pv <pred:unit> "metre" . ?pv <pred:value> "50"^^xsd:double . ?e_2 <pred:name> "Australia" . ?e_2 <retirement_age> ?pv_1 . ?pv_1 <pred:unit> "years old" . ?pv_1 <pred:value> "65"^^xsd:double . ?e_1 ?p ?e_2 .  }
+
+question:What is the run-time of Fort Worth (titled Fort Worth)?
+sparql:SELECT DISTINCT ?pv WHERE { ?e <pred:name> "Fort Worth" . ?e <title> ?pv_1 . ?pv_1 <pred:value> "Fort Worth" . ?e <duration> ?pv .  }
+
+question:How many genres are present at the website http://harvardlampoon.com/ with Iconclass notation 49M321
+sparql:SELECT (COUNT(DISTINCT ?e) AS ?count) WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "genre" . ?e <official_website> ?pv . ?pv <pred:value> "http://harvardlampoon.com/" . ?e <Iconclass_notation> ?pv_1 . ?pv_1 <pred:value> "49M321" .  }
+
+question:Is the official website of the association football club that has a subscription number of 3803 under the Twitter username VaduzFC equal to http://www.fcvaduz.li/?
+sparql:ASK { ?e <pred:instance_of> ?c . ?c <pred:name> "association football club" . ?e <Twitter_username> ?pv_1 . ?pv_1 <pred:value> "VaduzFC" . [ <pred:fact_h> ?e ; <pred:fact_r> <Twitter_username> ; <pred:fact_t> ?pv_1 ] <number_of_subscribers> ?qpv . ?qpv <pred:unit> "1" . ?qpv <pred:value> "3803"^^xsd:double . ?e <official_website> ?pv . ?pv <pred:value> "http://www.fcvaduz.li/" .  }
+
+question:What is the connection between Luther (the one whose official website is http://www.bbc.co.uk/programmes/b00s8jk0) to London (the one whose population is 4709960)?
+sparql:SELECT DISTINCT ?p WHERE { ?e_1 <pred:name> "Luther" . ?e_1 <official_website> ?pv . ?pv <pred:value> "http://www.bbc.co.uk/programmes/b00s8jk0" . ?e_2 <pred:name> "London" . ?e_2 <population> ?pv_1 . ?pv_1 <pred:unit> "1" . ?pv_1 <pred:value> "4709960"^^xsd:double . ?e_1 ?p ?e_2 .  }
+
+question:Is the duration of the film whose title is Twin Peaks: Fire Walk with Me not equal to 2100 seconds?
+sparql:ASK { ?e <pred:instance_of> ?c . ?c <pred:name> "film" . ?e <title> ?pv_1 . ?pv_1 <pred:value> "Twin Peaks: Fire Walk with Me" . ?e <duration> ?pv . ?pv <pred:unit> "second" . ?pv <pred:value> ?v . FILTER ( ?v != "2100"^^xsd:double ) .  }
+
+question:Is 210 yottagrams the weight of the person whose date of birth is 1980-02-11?
+sparql:ASK { ?e <pred:instance_of> ?c . ?c <pred:name> "human" . ?e <date_of_birth> ?pv_1 . ?pv_1 <pred:date> "1980-02-11"^^xsd:date . ?e <mass> ?pv . ?pv <pred:unit> "yottagram" . ?pv <pred:value> "210"^^xsd:double .  }
+
+question:Which province of China has the official website of http://www.yn.gov.cn and has the ISO 3166-2 code of CN-YN (the start time of this statement is 2017-11-23)?
+sparql:SELECT DISTINCT ?e WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "province of China" . ?e <official_website> ?pv . ?pv <pred:value> "http://www.yn.gov.cn" . ?e <ISO_3166-2_code> ?pv_1 . ?pv_1 <pred:value> "CN-YN" . [ <pred:fact_h> ?e ; <pred:fact_r> <ISO_3166-2_code> ; <pred:fact_t> ?pv_1 ] <start_time> ?qpv . ?qpv <pred:date> "2017-11-23"^^xsd:date .  }
+
+question:What disease's incidence is more than 2.8 cases per 100000 person-years (the location of this statement is Earth) and DiseasesDB identifier is 9510?
+sparql:SELECT DISTINCT ?e WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "disease" . ?e <incidence> ?pv . ?pv <pred:unit> "cases per 100000 person-years" . ?pv <pred:value> ?v . FILTER ( ?v > "2.8"^^xsd:double ) . [ <pred:fact_h> ?e ; <pred:fact_r> <incidence> ; <pred:fact_t> ?pv ] <location> ?qpv . ?qpv <pred:value> "Earth" . ?e <DiseasesDB> ?pv_1 . ?pv_1 <pred:value> "9510" .  }
+
+question:For Mars (the one whose Iconclass notation is 24C13), how many subscribers does the user have for its subreddit of Mars?
+sparql:SELECT DISTINCT ?qpv WHERE { ?e <pred:name> "Mars" . ?e <Iconclass_notation> ?pv_1 . ?pv_1 <pred:value> "24C13" . ?e <subreddit> ?pv . ?pv <pred:value> "Mars" . [ <pred:fact_h> ?e ; <pred:fact_r> <subreddit> ; <pred:fact_t> ?pv ] <number_of_subscribers> ?qpv .  }
+
+question:What visual artwork, which is more than 60 minutes long and whose official website is http://syrianamovie.warnerbros.com/, do we know ?
+sparql:SELECT DISTINCT ?e WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "visual artwork" . ?e <duration> ?pv . ?pv <pred:unit> "minute" . ?pv <pred:value> ?v . FILTER ( ?v > "60"^^xsd:double ) . ?e <official_website> ?pv_1 . ?pv_1 <pred:value> "http://syrianamovie.warnerbros.com/" .  }
+
+question:Is जलंधर the native name of the medal whose quantity is not 3500?
+sparql:ASK { ?e <pred:instance_of> ?c . ?c <pred:name> "medal" . ?e <quantity> ?pv_1 . ?pv_1 <pred:unit> "1" . ?pv_1 <pred:value> ?v_1 . FILTER ( ?v_1 != "3500"^^xsd:double ) . ?e <native_label> ?pv . ?pv <pred:value> "जलंधर" .  }
+
+question:Is the official website of a visual artwork, whose exploitation visa number was 107675 on 30th April 2003, http://www.miramax.com/movie/pinocchio ?
+sparql:ASK { ?e <pred:instance_of> ?c . ?c <pred:name> "visual artwork" . ?e <exploitation_visa_number> ?pv_1 . ?pv_1 <pred:value> "107674" . [ <pred:fact_h> ?e ; <pred:fact_r> <exploitation_visa_number> ; <pred:fact_t> ?pv_1 ] <start_time> ?qpv . ?qpv <pred:date> "2003-04-30"^^xsd:date . ?e <official_website> ?pv . ?pv <pred:value> "http://www.miramax.com/movie/pinocchio" .  }
+
+question:How many subscribers are there for the Twitter username Titans belonging to the American football team whose official website is http://www.titansonline.com (this statement's language is English)?
+sparql:SELECT DISTINCT ?qpv WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "American football team" . ?e <official_website> ?pv_1 . ?pv_1 <pred:value> "http://www.titansonline.com" . [ <pred:fact_h> ?e ; <pred:fact_r> <official_website> ; <pred:fact_t> ?pv_1 ] <language_of_work_or_name> ?qpv_1 . ?qpv_1 <pred:value> "English" . ?e <Twitter_username> ?pv . ?pv <pred:value> "Titans" . [ <pred:fact_h> ?e ; <pred:fact_r> <Twitter_username> ; <pred:fact_t> ?pv ] <number_of_subscribers> ?qpv .  }
+
+question:What language is associated with the official website http://chichestercity.gov.uk/ for Chichester whose OS grid reference is SU860048?
+sparql:SELECT DISTINCT ?qpv WHERE { ?e <pred:name> "Chichester" . ?e <OS_grid_reference> ?pv_1 . ?pv_1 <pred:value> "SU860048" . ?e <official_website> ?pv . ?pv <pred:value> "http://chichestercity.gov.uk/" . [ <pred:fact_h> ?e ; <pred:fact_r> <official_website> ; <pred:fact_t> ?pv ] <language_of_work_or_name> ?qpv .  }
+
+question:What is the ending date that Erwin Rommel is in the military branch of the German Army (whose establishment is 1935-05-21)?
+sparql:SELECT DISTINCT ?qpv WHERE { ?e_1 <pred:name> "Erwin Rommel" . ?e_2 <pred:name> "German Army" . ?e_2 <inception> ?pv . ?pv <pred:date> "1935-05-21"^^xsd:date . ?e_1 <military_branch> ?e_2 . [ <pred:fact_h> ?e_1 ; <pred:fact_r> <military_branch> ; <pred:fact_t> ?e_2 ] <end_time> ?qpv .  }
+
+question:How many California counties have a population above but not equal to 330000 ?
+sparql:SELECT (COUNT(DISTINCT ?e) AS ?count) WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "county of California" . ?e <population> ?pv . ?pv <pred:unit> "1" . ?pv <pred:value> ?v . FILTER ( ?v > "330000"^^xsd:double ) . ?e <population> ?pv_1 . ?pv_1 <pred:unit> "1" . ?pv_1 <pred:value> ?v_1 . FILTER ( ?v_1 != "330000"^^xsd:double ) .  }
+
+question:Is 698064 the WOEID of Split  (the one whose official name is Split)?
+sparql:ASK { ?e <pred:name> "Split" . ?e <official_name> ?pv_1 . ?pv_1 <pred:value> "Split" . ?e <WOEID> ?pv . ?pv <pred:value> "698064" .  }
+
+question:What language is associated with the official website http://www.co.berks.pa.us for the Pennsylvania county whose population is 411442 on the date 2010-04-01?
+sparql:SELECT DISTINCT ?qpv WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "county of Pennsylvania" . ?e <population> ?pv_1 . ?pv_1 <pred:unit> "1" . ?pv_1 <pred:value> "411442"^^xsd:double . [ <pred:fact_h> ?e ; <pred:fact_r> <population> ; <pred:fact_t> ?pv_1 ] <point_in_time> ?qpv_1 . ?qpv_1 <pred:date> "2010-04-01"^^xsd:date . ?e <official_website> ?pv . ?pv <pred:value> "http://www.co.berks.pa.us" . [ <pred:fact_h> ?e ; <pred:fact_r> <official_website> ; <pred:fact_t> ?pv ] <language_of_work_or_name> ?qpv .  }
+
+question:Does Die Hard, publicly released on 1988-07-15, clock in at under 700 minutes ?
+sparql:ASK { ?e <pred:name> "Die Hard" . ?e <publication_date> ?pv_1 . ?pv_1 <pred:date> "1988-07-15"^^xsd:date . ?e <duration> ?pv . ?pv <pred:unit> "minute" . ?pv <pred:value> ?v . FILTER ( ?v < "700"^^xsd:double ) .  }
+
+question:Is 2008-10-16 the publication date in Sweden of the animated feature with http://polarexpressmovie.warnerbros.com as its website?
+sparql:ASK { ?e <pred:instance_of> ?c . ?c <pred:name> "animated film" . ?e <official_website> ?pv_1 . ?pv_1 <pred:value> "http://polarexpressmovie.warnerbros.com/" . ?e <publication_date> ?pv . ?pv <pred:date> "2008-10-16"^^xsd:date . [ <pred:fact_h> ?e ; <pred:fact_r> <publication_date> ; <pred:fact_t> ?pv ] <place_of_publication> ?qpv . ?qpv <pred:value> "Sweden" .  }
+
+question:How many followers has the association football club whose Instagram username is sgdynamodresden (with 58498 followers) in its Twitter username DynamoDresden?
+sparql:SELECT DISTINCT ?qpv WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "association football club" . ?e <Instagram_username> ?pv_1 . ?pv_1 <pred:value> "sgdynamodresden" . [ <pred:fact_h> ?e ; <pred:fact_r> <Instagram_username> ; <pred:fact_t> ?pv_1 ] <number_of_subscribers> ?qpv_1 . ?qpv_1 <pred:unit> "1" . ?qpv_1 <pred:value> "58498"^^xsd:double . ?e <Twitter_username> ?pv . ?pv <pred:value> "DynamoDresden" . [ <pred:fact_h> ?e ; <pred:fact_r> <Twitter_username> ; <pred:fact_t> ?pv ] <number_of_subscribers> ?qpv .  }
+
+question:The feminist movement's subreddit labeled feminism is published in which language?
+sparql:SELECT DISTINCT ?qpv WHERE { ?e <pred:name> "feminism" . ?e <subreddit> ?pv . ?pv <pred:value> "feminism" . [ <pred:fact_h> ?e ; <pred:fact_r> <subreddit> ; <pred:fact_t> ?pv ] <language_of_work_or_name> ?qpv .  }
+
+question:Is the population for the city of the United States of America whose official website is http://www.moline.il.us not eaqual to 5700?
+sparql:ASK { ?e <pred:instance_of> ?c . ?c <pred:name> "city of the United States" . ?e <official_website> ?pv_1 . ?pv_1 <pred:value> "http://www.moline.il.us" . [ <pred:fact_h> ?e ; <pred:fact_r> <official_website> ; <pred:fact_t> ?pv_1 ] <language_of_work_or_name> ?qpv . ?qpv <pred:value> "English" . ?e <population> ?pv . ?pv <pred:unit> "1" . ?pv <pred:value> ?v . FILTER ( ?v != "5700"^^xsd:double ) .  }
+
+question:Is the population of the Florida county having the Dewey Decimal Classification 2--75922 over 1.5 (the census is this statement's determination method)?
+sparql:ASK { ?e <pred:instance_of> ?c . ?c <pred:name> "county of Florida" . ?e <Dewey_Decimal_Classification> ?pv_1 . ?pv_1 <pred:value> "2--75922" . ?e <population> ?pv . ?pv <pred:unit> "1" . ?pv <pred:value> ?v . FILTER ( ?v > "1.5"^^xsd:double ) . [ <pred:fact_h> ?e ; <pred:fact_r> <population> ; <pred:fact_t> ?pv ] <determination_method> ?qpv . ?qpv <pred:value> "census" .  }
+
+question:What is the beginning date that Melbourne (whose pronunciation audio is En-au-Melbourne.oga) is the twinned administrative body of Milan (whose postal code is 20142)?
+sparql:SELECT DISTINCT ?qpv WHERE { ?e_1 <pred:name> "Melbourne" . ?e_1 <pronunciation_audio> ?pv . ?pv <pred:value> "En-au-Melbourne.oga" . ?e_2 <pred:name> "Milan" . ?e_2 <postal_code> ?pv_1 . ?pv_1 <pred:value> "20142" . ?e_1 <twinned_administrative_body> ?e_2 . [ <pred:fact_h> ?e_1 ; <pred:fact_r> <twinned_administrative_body> ; <pred:fact_t> ?e_2 ] <start_time> ?qpv .  }
+
+question:Which person's Twitter username is Bitchuation (the subscription number of this statement is 21250)?
+sparql:SELECT DISTINCT ?e WHERE { ?e <pred:instance_of> ?c . ?c <pred:name> "human" . ?e <Twitter_username> ?pv . ?pv <pred:value> "Bitchuation" . [ <pred:fact_h> ?e ; <pred:fact_r> <Twitter_username> ; <pred:fact_t> ?pv ] <number_of_subscribers> ?qpv . ?qpv <pred:unit> "1" . ?qpv <pred:value> "21250"^^xsd:double .  }
+
+question:Is the area of the Massachusetts county whose population is 762550 (the estimation process is this statement's determination method) larger than 940 square kilometers?
+sparql:ASK { ?e <pred:instance_of> ?c . ?c <pred:name> "county of Massachusetts" . ?e <population> ?pv_1 . ?pv_1 <pred:unit> "1" . ?pv_1 <pred:value> "762550"^^xsd:double . [ <pred:fact_h> ?e ; <pred:fact_r> <population> ; <pred:fact_t> ?pv_1 ] <determination_method> ?qpv . ?qpv <pred:value> "estimation process" . ?e <area> ?pv . ?pv <pred:unit> "square kilometre" . ?pv <pred:value> ?v . FILTER ( ?v > "940"^^xsd:double ) .  }
+
+question:Is the height of a person, whose weight is 248 pounds, more than 1.6 meters ?
+sparql:ASK { ?e <pred:instance_of> ?c . ?c <pred:name> "human" . ?e <mass> ?pv_1 . ?pv_1 <pred:unit> "pound" . ?pv_1 <pred:value> "248"^^xsd:double . ?e <height> ?pv . ?pv <pred:unit> "metre" . ?pv <pred:value> ?v . FILTER ( ?v > "1.6"^^xsd:double ) .  }

@@ -11,3 +11,5 @@ grail_sparql_train.json
 llama-7b-hf-weights/
 llama.py
 transformers/
+gpt4_key.txt
+key.txt
