@@ -32,7 +32,7 @@ def worker_annotate(
     built_few_shot_prompts = []
     for g_eid in g_eids:
         cnt+=1
-        if cnt>100:
+        if cnt>1000:
             break
         # try:
         g_data_item = dataset[g_eid]
@@ -99,7 +99,7 @@ def main():
     start_time = time.time()
     dataset = load_from_file(args.dataset_split)
     # Load openai keys
-    with open("gpt4_key.txt", 'r') as f:
+    with open("key.txt", 'r') as f:
         keys = [line.strip() for line in f.readlines()]
 
     # Annotate

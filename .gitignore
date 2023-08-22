@@ -13,3 +13,5 @@ llama.py
 transformers/
 gpt4_key.txt
 key.txt
+gpt2/
+__pycache__
