@@ -1,0 +1,508 @@
+[
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0j5bzdd)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0j5bzdd ns:law.inventor.inventions ?x .\n?x ns:law.invention.inventor ns:m.073b_m .\n?x ns:projects.project_focus.projects ns:m.0j2rv6n .\n}\n",
+        "TopicEntityMid": "m.0j5bzdd",
+        "mid2name": {
+            "ns:m.0j5bzdd": "Jim Gimzewski",
+            "ns:m.073b_m": "Calvin Quate",
+            "ns:m.0j2rv6n": "Development of: Novel Sensor Arrays"
+        },
+        "SExpr_w_name": "(AND (JOIN projects.project_focus.projects Development of: Novel Sensor Arraysn) (AND (JOIN law.invention.inventor Calvin Quate) (JOIN (R law.inventor.inventions) Jim Gimzewski)))",
+        "SExpr": "(AND (JOIN projects.project_focus.projects m.0j2rv6n) (AND (JOIN law.invention.inventor m.073b_m) (JOIN (R law.inventor.inventions) m.0j5bzdd)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:g.1211jmwc)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:g.1211jmwc ns:fictional_universe.fictional_character.character_created_by ?x .\n?x ns:comic_books.comic_book_inker.comic_covers_inked ns:m.02qtd9p .\n?x ns:book.author.works_written ns:m.0w15s2q .\n}\n",
+        "TopicEntityMid": "g.1211jmwc",
+        "mid2name": {
+            "ns:g.1211jmwc": "Super-Soldier",
+            "ns:m.02qtd9p": "Action Comics #1",
+            "ns:m.0w15s2q": "Superman: The Golden Age Omnibus Vol. 1"
+        },
+        "SExpr_w_name": "(AND (JOIN book.author.works_written Superman: The Golden Age Omnibus Vol. 1) (AND (JOIN comic_books.comic_book_inker.comic_covers_inked Action Comics #1) (JOIN (R fictional_universe.fictional_character.character_created_by) Super-Soldier)))",
+        "SExpr": "(AND (JOIN book.author.works_written m.0w15s2q) (AND (JOIN comic_books.comic_book_inker.comic_covers_inked m.02qtd9p) (JOIN (R fictional_universe.fictional_character.character_created_by) g.1211jmwc)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.059cjgk)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.059cjgk ns:book.book_edition.binding ?x .\n?x ns:business.consumer_product.brand ns:m.01264n6c .\n?x ns:award.award_discipline.awards_in_this_discipline ns:m.02w7bx_ .\n}\n",
+        "TopicEntityMid": "m.059cjgk",
+        "mid2name": {
+            "ns:m.059cjgk": "The Prince",
+            "ns:m.01264n6c": "Ars Longa Publishing",
+            "ns:m.02w7bx_": "Theakston's Old Peculier Crime Novel of the Year Award"
+        },
+        "SExpr_w_name": "(AND (JOIN award.award_discipline.awards_in_this_discipline Theakston's Old Peculier Crime Novel of the Year Award) (AND (JOIN business.consumer_product.brand Ars Longa Publishing) (JOIN (R book.book_edition.binding) The Prince)))",
+        "SExpr": "(AND (JOIN award.award_discipline.awards_in_this_discipline m.02w7bx_) (AND (JOIN business.consumer_product.brand m.01264n6c) (JOIN (R book.book_edition.binding) m.059cjgk)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01w5m)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01w5m ns:medicine.medical_trial_sponsor.trials_sponsored ?x .\n?x ns:medicine.medical_trial.phase ns:m.03zbghp .\n?x ns:medicine.medical_trial.treatment_being_tested ns:m.058gq .\n}\n",
+        "TopicEntityMid": "m.01w5m",
+        "mid2name": {
+            "ns:m.01w5m": "Columbia University",
+            "ns:m.03zbghp": "II",
+            "ns:m.058gq": "Methadone"
+        },
+        "SExpr_w_name": "(AND (JOIN medicine.medical_trial.treatment_being_tested Methadone) (AND (JOIN medicine.medical_trial.phase II) (JOIN (R medicine.medical_trial_sponsor.trials_sponsored) Columbia University)))",
+        "SExpr": "(AND (JOIN medicine.medical_trial.treatment_being_tested m.058gq) (AND (JOIN medicine.medical_trial.phase m.03zbghp) (JOIN (R medicine.medical_trial_sponsor.trials_sponsored) m.01w5m)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01hqlb)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01hqlb ns:food.wine_style.grape_varieties ?x .\n?x ns:biology.organism_classification.higher_classification ns:m.025df4 .\n?x ns:biology.organism_classification.rank ns:m.016g6_ .\n}\n",
+        "TopicEntityMid": "m.01hqlb",
+        "mid2name": {
+            "ns:m.01hqlb": "White Zinfandel",
+            "ns:m.025df4": "Common Grape Vine",
+            "ns:m.016g6_": "Cultivar"
+        },
+        "SExpr_w_name": "(AND (JOIN biology.organism_classification.rank Cultivar) (AND (JOIN biology.organism_classification.higher_classification Common Grape Vine) (JOIN (R food.wine_style.grape_varieties) White Zinfandel)))",
+        "SExpr": "(AND (JOIN biology.organism_classification.rank m.016g6_) (AND (JOIN biology.organism_classification.higher_classification m.025df4) (JOIN (R food.wine_style.grape_varieties) m.01hqlb)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02sfjb)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02sfjb ns:chess.chess_player.games_played ?x .\n?x ns:chess.chess_game_participation.color ns:m.019sc .\n?x ns:chess.chess_game_participation.game ns:m.01ps2n .\n}\n",
+        "TopicEntityMid": "m.02sfjb",
+        "mid2name": {
+            "ns:m.02sfjb": "Jean Dufresne",
+            "ns:m.019sc": "Black",
+            "ns:m.01ps2n": "Evergreen Game"
+        },
+        "SExpr_w_name": "(AND (JOIN chess.chess_game_participation.game Evergreen Gamen) (AND (JOIN chess.chess_game_participation.color Black) (JOIN (R chess.chess_player.games_played) Jean Dufresne)))",
+        "SExpr": "(AND (JOIN chess.chess_game_participation.game m.01ps2n) (AND (JOIN chess.chess_game_participation.color m.019sc) (JOIN (R chess.chess_player.games_played) m.02sfjb)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0czcgfd)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0czcgfd ns:astronomy.astronomical_observatory.discoveries ?x .\n?x ns:astronomy.asteroid.member_of_asteroid_group ns:m.0cqbc .\n?x ns:astronomy.astronomical_discovery.discoverer ns:m.02xzfg .\n}\n",
+        "TopicEntityMid": "m.0czcgfd",
+        "mid2name": {
+            "ns:m.0czcgfd": "Anderson Mesa Station",
+            "ns:m.0cqbc": "Asteroid belt",
+            "ns:m.02xzfg": "Norman G. Thomas"
+        },
+        "SExpr_w_name": "(AND (JOIN astronomy.astronomical_discovery.discoverer Norman G. Thomas) (AND (JOIN astronomy.asteroid.member_of_asteroid_group Asteroid belt) (JOIN (R astronomy.astronomical_observatory.discoveries) Anderson Mesa Station)))",
+        "SExpr": "(AND (JOIN astronomy.astronomical_discovery.discoverer m.02xzfg) (AND (JOIN astronomy.asteroid.member_of_asteroid_group m.0cqbc) (JOIN (R astronomy.astronomical_observatory.discoveries) m.0czcgfd)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:g.11dyk0561)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:g.11dyk0561 ns:tv.tv_program.genre ?x .\n?x ns:base.animemanga.anime_manga_genre.anime_manga_franchises ns:m.05qf2mn .\n?x ns:base.webvideo.internet_video_genre.internet_video ns:m.0kbv_ns .\n}\n",
+        "TopicEntityMid": "g.11dyk0561",
+        "mid2name": {
+            "ns:g.11dyk0561": "Betnér Direkt",
+            "ns:m.05qf2mn": "Ranma 1/2",
+            "ns:m.0kbv_ns": "Many Paths to Eden"
+        },
+        "SExpr_w_name": "(AND (JOIN base.webvideo.internet_video_genre.internet_video Many Paths to Edenns) (AND (JOIN base.animemanga.anime_manga_genre.anime_manga_franchises Ranma 1/2n) (JOIN (R tv.tv_program.genre) Betnér Direkt)))",
+        "SExpr": "(AND (JOIN base.webvideo.internet_video_genre.internet_video m.0kbv_ns) (AND (JOIN base.animemanga.anime_manga_genre.anime_manga_franchises m.05qf2mn) (JOIN (R tv.tv_program.genre) g.11dyk0561)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0j60j)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0j60j ns:base.pethealth.pet_disease_risk_factor.pet_diseases_with_this_risk_factor ?x .\n?x ns:base.pethealth.pet_disease_or_medical_condition.diagnosis ns:m.02qwsd .\n?x ns:base.pethealth.pet_disease_or_medical_condition.pets_affected ns:m.01yrx .\n}\n",
+        "TopicEntityMid": "m.0j60j",
+        "mid2name": {
+            "ns:m.0j60j": "Maine Coon",
+            "ns:m.02qwsd": "Urinalysis",
+            "ns:m.01yrx": "Cat"
+        },
+        "SExpr_w_name": "(AND (JOIN base.pethealth.pet_disease_or_medical_condition.pets_affected Cat) (AND (JOIN base.pethealth.pet_disease_or_medical_condition.diagnosis Urinalysis) (JOIN (R base.pethealth.pet_disease_risk_factor.pet_diseases_with_this_risk_factor) Maine Coon)))",
+        "SExpr": "(AND (JOIN base.pethealth.pet_disease_or_medical_condition.pets_affected m.01yrx) (AND (JOIN base.pethealth.pet_disease_or_medical_condition.diagnosis m.02qwsd) (JOIN (R base.pethealth.pet_disease_risk_factor.pet_diseases_with_this_risk_factor) m.0j60j)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02_9ywz)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02_9ywz ns:fictional_universe.fictional_organization.members ?x .\n?x ns:fictional_universe.fictional_character.has_possessed ns:m.09g3ff7 .\n?x ns:user.pak21.default_domain.fictional_family_member.family ns:m.08ddpdc .\n}\n",
+        "TopicEntityMid": "m.02_9ywz",
+        "mid2name": {
+            "ns:m.02_9ywz": "Gryffindor Quidditch Team",
+            "ns:m.09g3ff7": "Marauders' Map",
+            "ns:m.08ddpdc": "Weasley family"
+        },
+        "SExpr_w_name": "(AND (JOIN user.pak21.default_domain.fictional_family_member.family Weasley family) (AND (JOIN fictional_universe.fictional_character.has_possessed Marauders' Map) (JOIN (R fictional_universe.fictional_organization.members) Gryffindor Quidditch Team)))",
+        "SExpr": "(AND (JOIN user.pak21.default_domain.fictional_family_member.family m.08ddpdc) (AND (JOIN fictional_universe.fictional_character.has_possessed m.09g3ff7) (JOIN (R fictional_universe.fictional_organization.members) m.02_9ywz)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0ck7r70)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0ck7r70 ns:organization.organization.headquarters ?x .\n?x ns:location.mailing_address.citytown ns:m.0hpyv .\n?x ns:location.mailing_address.country ns:m.09c7w0 .\n}\n",
+        "TopicEntityMid": "m.0ck7r70",
+        "mid2name": {
+            "ns:m.0ck7r70": "Winooski Valley Park District",
+            "ns:m.0hpyv": "Burlington",
+            "ns:m.09c7w0": "United States of America"
+        },
+        "SExpr_w_name": "(AND (JOIN location.mailing_address.country United States of America) (AND (JOIN location.mailing_address.citytown Burlington) (JOIN (R organization.organization.headquarters) Winooski Valley Park District)))",
+        "SExpr": "(AND (JOIN location.mailing_address.country m.09c7w0) (AND (JOIN location.mailing_address.citytown m.0hpyv) (JOIN (R organization.organization.headquarters) m.0ck7r70)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.011smwfp)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.011smwfp ns:computer.programming_language.influenced_by ?x .\n?x ns:computer.programming_language.dialects ns:m.03clk94 .\n?x ns:conferences.conference_subject.specific_conferences_about_this ns:m.0fq5vqn .\n}\n",
+        "TopicEntityMid": "m.011smwfp",
+        "mid2name": {
+            "ns:m.011smwfp": "Hy",
+            "ns:m.03clk94": "Cobra",
+            "ns:m.0fq5vqn": "Kiwi PyCon 2010"
+        },
+        "SExpr_w_name": "(AND (JOIN conferences.conference_subject.specific_conferences_about_this Kiwi PyCon 2010n) (AND (JOIN computer.programming_language.dialects Cobra) (JOIN (R computer.programming_language.influenced_by) Hy)))",
+        "SExpr": "(AND (JOIN conferences.conference_subject.specific_conferences_about_this m.0fq5vqn) (AND (JOIN computer.programming_language.dialects m.03clk94) (JOIN (R computer.programming_language.influenced_by) m.011smwfp)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.059t8)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.059t8 ns:base.datedlocationtest.dated_location_test.merged_with ?x .\n?x ns:base.datedlocationtest.dated_location_merger.merger_of ns:m.059s8 .\n?x ns:base.datedlocationtest.dated_location_merger.became_location ns:m.0d060g .\n}\n",
+        "TopicEntityMid": "m.059t8",
+        "mid2name": {
+            "ns:m.059t8": "Nova Scotia",
+            "ns:m.059s8": "New Brunswick",
+            "ns:m.0d060g": "Canada"
+        },
+        "SExpr_w_name": "(AND (JOIN base.datedlocationtest.dated_location_merger.became_location Canada) (AND (JOIN base.datedlocationtest.dated_location_merger.merger_of New Brunswick) (JOIN (R base.datedlocationtest.dated_location_test.merged_with) Nova Scotia)))",
+        "SExpr": "(AND (JOIN base.datedlocationtest.dated_location_merger.became_location m.0d060g) (AND (JOIN base.datedlocationtest.dated_location_merger.merger_of m.059s8) (JOIN (R base.datedlocationtest.dated_location_test.merged_with) m.059t8)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02kwy8j)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02kwy8j ns:biology.cytogenetic_band.chromosome ?x .\n?x ns:biology.chromosome.band ns:m.02kwyms .\n?x ns:biology.chromosome.gene ns:m.021mr6h .\n}\n",
+        "TopicEntityMid": "m.02kwy8j",
+        "mid2name": {
+            "ns:m.02kwy8j": "Human Cytogenetic Band Xp11.21",
+            "ns:m.02kwyms": "Human Cytogenetic Band Xq26.2",
+            "ns:m.021mr6h": "G protein-coupled receptor 23"
+        },
+        "SExpr_w_name": "(AND (JOIN biology.chromosome.gene G protein-coupled receptor 23) (AND (JOIN biology.chromosome.band Human Cytogenetic Band Xq26.2s) (JOIN (R biology.cytogenetic_band.chromosome) Human Cytogenetic Band Xp11.21)))",
+        "SExpr": "(AND (JOIN biology.chromosome.gene m.021mr6h) (AND (JOIN biology.chromosome.band m.02kwyms) (JOIN (R biology.cytogenetic_band.chromosome) m.02kwy8j)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0965n3)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0965n3 ns:fictional_universe.fictional_character.appears_in_these_fictional_universes ?x .\n?x ns:fictional_universe.fictional_universe.organizations ns:m.0_yf9vx .\n?x ns:fictional_universe.fictional_universe.species ns:m.025tfhj .\n}\n",
+        "TopicEntityMid": "m.0965n3",
+        "mid2name": {
+            "ns:m.0965n3": "Jack Drake",
+            "ns:m.0_yf9vx": "Justice League of Earth",
+            "ns:m.025tfhj": "Kryptonian"
+        },
+        "SExpr_w_name": "(AND (JOIN fictional_universe.fictional_universe.species Kryptonian) (AND (JOIN fictional_universe.fictional_universe.organizations Justice League of Earth) (JOIN (R fictional_universe.fictional_character.appears_in_these_fictional_universes) Jack Drake)))",
+        "SExpr": "(AND (JOIN fictional_universe.fictional_universe.species m.025tfhj) (AND (JOIN fictional_universe.fictional_universe.organizations m.0_yf9vx) (JOIN (R fictional_universe.fictional_character.appears_in_these_fictional_universes) m.0965n3)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0bjb23x)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0bjb23x ns:fictional_universe.fictional_universe.literary_series_set_here ?x .\n?x ns:book.literary_series.author_s ns:m.05f834 .\n?x ns:book.literary_series.works_in_this_series ns:m.03w86td .\n}\n",
+        "TopicEntityMid": "m.0bjb23x",
+        "mid2name": {
+            "ns:m.0bjb23x": "Beau Geste",
+            "ns:m.05f834": "P. C. Wren",
+            "ns:m.03w86td": "Beau Ideal"
+        },
+        "SExpr_w_name": "(AND (JOIN book.literary_series.works_in_this_series Beau Ideal) (AND (JOIN book.literary_series.author_s P. C. Wren) (JOIN (R fictional_universe.fictional_universe.literary_series_set_here) Beau Geste)))",
+        "SExpr": "(AND (JOIN book.literary_series.works_in_this_series m.03w86td) (AND (JOIN book.literary_series.author_s m.05f834) (JOIN (R fictional_universe.fictional_universe.literary_series_set_here) m.0bjb23x)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.021y9c)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.021y9c ns:visual_art.visual_art_genre.artworks ?x .\n?x ns:visual_art.artwork.artist ns:m.011dy680 .\n?x ns:visual_art.artwork.media ns:m.01brf .\n}\n",
+        "TopicEntityMid": "m.021y9c",
+        "mid2name": {
+            "ns:m.021y9c": "Electronic art",
+            "ns:m.011dy680": "Salvador DaliDEMO",
+            "ns:m.01brf": "Bronze"
+        },
+        "SExpr_w_name": "(AND (JOIN visual_art.artwork.media Bronze) (AND (JOIN visual_art.artwork.artist Salvador DaliDEMO) (JOIN (R visual_art.visual_art_genre.artworks) Electronic art)))",
+        "SExpr": "(AND (JOIN visual_art.artwork.media m.01brf) (AND (JOIN visual_art.artwork.artist m.011dy680) (JOIN (R visual_art.visual_art_genre.artworks) m.021y9c)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0hn1q86)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0hn1q86 ns:projects.project.participants ?x .\n?x ns:projects.project_participation.role ns:m.0bnqk4 .\n?x ns:projects.project_participation.participant ns:m.0cgx4q1 .\n}\n",
+        "TopicEntityMid": "m.0hn1q86",
+        "mid2name": {
+            "ns:m.0hn1q86": "Bent Lab : Atomic layer deposition",
+            "ns:m.0bnqk4": "Principal Investigator",
+            "ns:m.0cgx4q1": "Stacey Bent"
+        },
+        "SExpr_w_name": "(AND (JOIN projects.project_participation.participant Stacey Bent) (AND (JOIN projects.project_participation.role Principal Investigator) (JOIN (R projects.project.participants) Bent Lab : Atomic layer deposition)))",
+        "SExpr": "(AND (JOIN projects.project_participation.participant m.0cgx4q1) (AND (JOIN projects.project_participation.role m.0bnqk4) (JOIN (R projects.project.participants) m.0hn1q86)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.04kwy8v)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.04kwy8v ns:comic_books.comic_book_letterer.comic_stories_lettered ?x .\n?x ns:fictional_universe.work_of_fiction.part_of_these_fictional_universes ns:m.01q_ks .\n?x ns:comic_books.comic_book_story.script ns:m.02th5t .\n}\n",
+        "TopicEntityMid": "m.04kwy8v",
+        "mid2name": {
+            "ns:m.04kwy8v": "Phil Balsman",
+            "ns:m.01q_ks": "DC Universe",
+            "ns:m.02th5t": "Dave Gibbons"
+        },
+        "SExpr_w_name": "(AND (JOIN comic_books.comic_book_story.script Dave Gibbons) (AND (JOIN fictional_universe.work_of_fiction.part_of_these_fictional_universes DC Universes) (JOIN (R comic_books.comic_book_letterer.comic_stories_lettered) Phil Balsman)))",
+        "SExpr": "(AND (JOIN comic_books.comic_book_story.script m.02th5t) (AND (JOIN fictional_universe.work_of_fiction.part_of_these_fictional_universes m.01q_ks) (JOIN (R comic_books.comic_book_letterer.comic_stories_lettered) m.04kwy8v)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02h84hq)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02h84hq ns:computer.operating_system.includes_os_versions ?x .\n?x ns:computer.software.languages_used ns:m.01t6b .\n?x ns:computer.software.license ns:m.018s4 .\n}\n",
+        "TopicEntityMid": "m.02h84hq",
+        "mid2name": {
+            "ns:m.02h84hq": "FreeBSD 4.8",
+            "ns:m.01t6b": "C",
+            "ns:m.018s4": "BSD Licenses"
+        },
+        "SExpr_w_name": "(AND (JOIN computer.software.license BSD Licenses) (AND (JOIN computer.software.languages_used C) (JOIN (R computer.operating_system.includes_os_versions) FreeBSD 4.8)))",
+        "SExpr": "(AND (JOIN computer.software.license m.018s4) (AND (JOIN computer.software.languages_used m.01t6b) (JOIN (R computer.operating_system.includes_os_versions) m.02h84hq)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0x04fn7)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0x04fn7 ns:spaceflight.spacecraft.manufacturer ?x .\n?x ns:spaceflight.space_agency.astronauts ns:m.01s64b .\n?x ns:organization.organization.committees ns:m.0bhvnlm .\n}\n",
+        "TopicEntityMid": "m.0x04fn7",
+        "mid2name": {
+            "ns:m.0x04fn7": "LAGEOS-1",
+            "ns:m.01s64b": "John Young",
+            "ns:m.0bhvnlm": "Space Exploration Council"
+        },
+        "SExpr_w_name": "(AND (JOIN organization.organization.committees Space Exploration Council) (AND (JOIN spaceflight.space_agency.astronauts John Young) (JOIN (R spaceflight.spacecraft.manufacturer) LAGEOS-1)))",
+        "SExpr": "(AND (JOIN organization.organization.committees m.0bhvnlm) (AND (JOIN spaceflight.space_agency.astronauts m.01s64b) (JOIN (R spaceflight.spacecraft.manufacturer) m.0x04fn7)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02nbfq4)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02nbfq4 ns:automotive.make.model_s ?x .\n?x ns:automotive.model.generations ns:m.03m9mv .\n?x ns:base.cars_refactor.model.generations ns:m.03xjbr .\n}\n",
+        "TopicEntityMid": "m.02nbfq4",
+        "mid2name": {
+            "ns:m.02nbfq4": "Nissan",
+            "ns:m.03m9mv": "Fifth Generation Nissan Z-car (Z33)",
+            "ns:m.03xjbr": "Second Generation Nissan Z-car (S130)"
+        },
+        "SExpr_w_name": "(AND (JOIN base.cars_refactor.model.generations Second Generation Nissan Z-car (S130)) (AND (JOIN automotive.model.generations Fifth Generation Nissan Z-car (Z33)) (JOIN (R automotive.make.model_s) Nissan)))",
+        "SExpr": "(AND (JOIN base.cars_refactor.model.generations m.03xjbr) (AND (JOIN automotive.model.generations m.03m9mv) (JOIN (R automotive.make.model_s) m.02nbfq4)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0dd903)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0dd903 ns:architecture.building_complex.complex_function ?x .\n?x ns:travel.accommodation_feature.accommodation_with_this_feature ns:m.02qkhn8 .\n?x ns:organization.organization_sector.organizations_in_this_sector ns:m.012pw_x5 .\n}\n",
+        "TopicEntityMid": "m.0dd903",
+        "mid2name": {
+            "ns:m.0dd903": "Marina Bay Sands",
+            "ns:m.02qkhn8": "Madinat Jumeirah",
+            "ns:m.012pw_x5": "Wyndham Long Wharf"
+        },
+        "SExpr_w_name": "(AND (JOIN organization.organization_sector.organizations_in_this_sector Wyndham Long Wharf) (AND (JOIN travel.accommodation_feature.accommodation_with_this_feature Madinat Jumeirah) (JOIN (R architecture.building_complex.complex_function) Marina Bay Sands)))",
+        "SExpr": "(AND (JOIN organization.organization_sector.organizations_in_this_sector m.012pw_x5) (AND (JOIN travel.accommodation_feature.accommodation_with_this_feature m.02qkhn8) (JOIN (R architecture.building_complex.complex_function) m.0dd903)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.041rx)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.041rx ns:fictional_universe.ethnicity_in_fiction.characters_of_this_ethnicity ?x .\n?x ns:comic_books.comic_book_character.created_by ns:m.046_v .\n?x ns:user.duck1123.default_domain.adopted_character.adoptive_parents ns:m.0gvpvhc .\n}\n",
+        "TopicEntityMid": "m.041rx",
+        "mid2name": {
+            "ns:m.041rx": "Jewish people",
+            "ns:m.046_v": "Jack Kirby",
+            "ns:m.0gvpvhc": "Django Maximoff"
+        },
+        "SExpr_w_name": "(AND (JOIN user.duck1123.default_domain.adopted_character.adoptive_parents Django Maximoff) (AND (JOIN comic_books.comic_book_character.created_by Jack Kirby) (JOIN (R fictional_universe.ethnicity_in_fiction.characters_of_this_ethnicity) Jewish people)))",
+        "SExpr": "(AND (JOIN user.duck1123.default_domain.adopted_character.adoptive_parents m.0gvpvhc) (AND (JOIN comic_books.comic_book_character.created_by m.046_v) (JOIN (R fictional_universe.ethnicity_in_fiction.characters_of_this_ethnicity) m.041rx)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0zfkmrg)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0zfkmrg ns:award.award_winning_work.awards_won ?x .\n?x ns:award.award_honor.award ns:m.0yqm8wg .\n?x ns:award.award_honor.award_winner ns:m.024rx_ .\n}\n",
+        "TopicEntityMid": "m.0zfkmrg",
+        "mid2name": {
+            "ns:m.0zfkmrg": "One Woman Shoe",
+            "ns:m.0yqm8wg": "Obie Award for Special Citations",
+            "ns:m.024rx_": "Amy Sedaris"
+        },
+        "SExpr_w_name": "(AND (JOIN award.award_honor.award_winner Amy Sedaris) (AND (JOIN award.award_honor.award Obie Award for Special Citations) (JOIN (R award.award_winning_work.awards_won) One Woman Shoe)))",
+        "SExpr": "(AND (JOIN award.award_honor.award_winner m.024rx_) (AND (JOIN award.award_honor.award m.0yqm8wg) (JOIN (R award.award_winning_work.awards_won) m.0zfkmrg)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.06cvvh)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.06cvvh ns:broadcast.producer.produces ?x .\n?x ns:broadcast.content.broadcast ns:m.03gc5s5 .\n?x ns:broadcast.content.genre ns:m.03bt2_t .\n}\n",
+        "TopicEntityMid": "m.06cvvh",
+        "mid2name": {
+            "ns:m.06cvvh": "WERS",
+            "ns:m.03gc5s5": "WERS - 64kbps Stream",
+            "ns:m.03bt2_t": "Eclectic"
+        },
+        "SExpr_w_name": "(AND (JOIN broadcast.content.genre Eclectic) (AND (JOIN broadcast.content.broadcast WERS - 64kbps Stream) (JOIN (R broadcast.producer.produces) WERS)))",
+        "SExpr": "(AND (JOIN broadcast.content.genre m.03bt2_t) (AND (JOIN broadcast.content.broadcast m.03gc5s5) (JOIN (R broadcast.producer.produces) m.06cvvh)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0102gy7g)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0102gy7g ns:meteorology.tropical_cyclone.category ?x .\n?x ns:meteorology.tropical_cyclone_category.Beaufort_scale ns:m.01xs1n6 .\n?x ns:meteorology.tropical_cyclone_category.meteorological_service ns:m.01lvb3 .\n}\n",
+        "TopicEntityMid": "m.0102gy7g",
+        "mid2name": {
+            "ns:m.0102gy7g": "Cyclone Hellen",
+            "ns:m.01xs1n6": "Beaufort force 12",
+            "ns:m.01lvb3": "National Hurricane Center"
+        },
+        "SExpr_w_name": "(AND (JOIN meteorology.tropical_cyclone_category.meteorological_service National Hurricane Center) (AND (JOIN meteorology.tropical_cyclone_category.Beaufort_scale Beaufort force 12) (JOIN (R meteorology.tropical_cyclone.category) Cyclone Hellen)))",
+        "SExpr": "(AND (JOIN meteorology.tropical_cyclone_category.meteorological_service m.01lvb3) (AND (JOIN meteorology.tropical_cyclone_category.Beaufort_scale m.01xs1n6) (JOIN (R meteorology.tropical_cyclone.category) m.0102gy7g)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0f2ky1)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0f2ky1 ns:martial_arts.martial_arts_organization.martial_arts ?x .\n?x ns:martial_arts.martial_art.category ns:m.02rj0b .\n?x ns:martial_arts.martial_art.origin ns:m.048fz .\n}\n",
+        "TopicEntityMid": "m.0f2ky1",
+        "mid2name": {
+            "ns:m.0f2ky1": "Chang Moo Kwan",
+            "ns:m.02rj0b": "Strike",
+            "ns:m.048fz": "Korea"
+        },
+        "SExpr_w_name": "(AND (JOIN martial_arts.martial_art.origin Korea) (AND (JOIN martial_arts.martial_art.category Strike) (JOIN (R martial_arts.martial_arts_organization.martial_arts) Chang Moo Kwan)))",
+        "SExpr": "(AND (JOIN martial_arts.martial_art.origin m.048fz) (AND (JOIN martial_arts.martial_art.category m.02rj0b) (JOIN (R martial_arts.martial_arts_organization.martial_arts) m.0f2ky1)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0cn9nvg)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0cn9nvg ns:geography.geographical_feature_category.subcategories ?x .\n?x ns:base.landcover.code_category.contains_categories ns:m.04_7ht7 .\n?x ns:base.landcover.code_category.contained_by_category ns:m.0pvlz .\n}\n",
+        "TopicEntityMid": "m.0cn9nvg",
+        "mid2name": {
+            "ns:m.0cn9nvg": "Hydrographic",
+            "ns:m.04_7ht7": "Spruce bog concept",
+            "ns:m.0pvlz": "Wetland"
+        },
+        "SExpr_w_name": "(AND (JOIN base.landcover.code_category.contained_by_category Wetland) (AND (JOIN base.landcover.code_category.contains_categories Spruce bog concept) (JOIN (R geography.geographical_feature_category.subcategories) Hydrographic)))",
+        "SExpr": "(AND (JOIN base.landcover.code_category.contained_by_category m.0pvlz) (AND (JOIN base.landcover.code_category.contains_categories m.04_7ht7) (JOIN (R geography.geographical_feature_category.subcategories) m.0cn9nvg)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.028cxg)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.028cxg ns:food.culinary_technique.recipes ?x .\n?x ns:food.recipe.author ns:m.02wsr02 .\n?x ns:food.recipe.dish ns:m.07vljr3 .\n}\n",
+        "TopicEntityMid": "m.028cxg",
+        "mid2name": {
+            "ns:m.028cxg": "Blanching",
+            "ns:m.02wsr02": "Mike Shwe",
+            "ns:m.07vljr3": "Brussels Sprouts"
+        },
+        "SExpr_w_name": "(AND (JOIN food.recipe.dish Brussels Sprouts) (AND (JOIN food.recipe.author Mike Shwe) (JOIN (R food.culinary_technique.recipes) Blanching)))",
+        "SExpr": "(AND (JOIN food.recipe.dish m.07vljr3) (AND (JOIN food.recipe.author m.02wsr02) (JOIN (R food.culinary_technique.recipes) m.028cxg)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.047_vtd)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.047_vtd ns:exhibitions.exhibition.subjects ?x .\n?x ns:base.ikariam.ikariam_research.category ns:m.06mq7 .\n?x ns:base.ikariam.ikariam_research.prerequisite ns:m.04tlhvm .\n}\n",
+        "TopicEntityMid": "m.047_vtd",
+        "mid2name": {
+            "ns:m.047_vtd": "Bodyworlds 2: The brain - our 3 pound gem",
+            "ns:m.06mq7": "Science",
+            "ns:m.04tlhvm": "Cultural Exchange"
+        },
+        "SExpr_w_name": "(AND (JOIN base.ikariam.ikariam_research.prerequisite Cultural Exchange) (AND (JOIN base.ikariam.ikariam_research.category Science) (JOIN (R exhibitions.exhibition.subjects) Bodyworlds 2: The brain - our 3 pound gem)))",
+        "SExpr": "(AND (JOIN base.ikariam.ikariam_research.prerequisite m.04tlhvm) (AND (JOIN base.ikariam.ikariam_research.category m.06mq7) (JOIN (R exhibitions.exhibition.subjects) m.047_vtd)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03w1g7)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03w1g7 ns:education.educational_degree.people_with_this_degree ?x .\n?x ns:education.education.institution ns:m.03ksy .\n?x ns:education.education.student ns:m.0g9yd3v .\n}\n",
+        "TopicEntityMid": "m.03w1g7",
+        "mid2name": {
+            "ns:m.03w1g7": "Licentiate",
+            "ns:m.03ksy": "Harvard University",
+            "ns:m.0g9yd3v": "Lee Segel"
+        },
+        "SExpr_w_name": "(AND (JOIN education.education.student Lee Segel) (AND (JOIN education.education.institution Harvard University) (JOIN (R education.educational_degree.people_with_this_degree) Licentiate)))",
+        "SExpr": "(AND (JOIN education.education.student m.0g9yd3v) (AND (JOIN education.education.institution m.03ksy) (JOIN (R education.educational_degree.people_with_this_degree) m.03w1g7)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.09msx3)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.09msx3 ns:computer.software_genre.software_in_genre ?x .\n?x ns:computer.software.service_network ns:m.03nsxd .\n?x ns:computer.software.developer ns:m.063k747 .\n}\n",
+        "TopicEntityMid": "m.09msx3",
+        "mid2name": {
+            "ns:m.09msx3": "Digital Assets Repository",
+            "ns:m.03nsxd": "Representational state transfer",
+            "ns:m.063k747": "DuraSpace"
+        },
+        "SExpr_w_name": "(AND (JOIN computer.software.developer DuraSpace) (AND (JOIN computer.software.service_network Representational state transfer) (JOIN (R computer.software_genre.software_in_genre) Digital Assets Repository)))",
+        "SExpr": "(AND (JOIN computer.software.developer m.063k747) (AND (JOIN computer.software.service_network m.03nsxd) (JOIN (R computer.software_genre.software_in_genre) m.09msx3)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0653807)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0653807 ns:base.descriptive_names.names.descriptive_name ?x .\n?x ns:base.schemastaging.plural_form.gender ns:m.0qtz9pb .\n?x ns:base.schemastaging.plural_form.language ns:m.0gtg .\n}\n",
+        "TopicEntityMid": "m.0653807",
+        "mid2name": {
+            "ns:m.0653807": "Luger",
+            "ns:m.0qtz9pb": "All Female",
+            "ns:m.0gtg": "German"
+        },
+        "SExpr_w_name": "(AND (JOIN base.schemastaging.plural_form.language German) (AND (JOIN base.schemastaging.plural_form.gender All Female) (JOIN (R base.descriptive_names.names.descriptive_name) Luger)))",
+        "SExpr": "(AND (JOIN base.schemastaging.plural_form.language m.0gtg) (AND (JOIN base.schemastaging.plural_form.gender m.0qtz9pb) (JOIN (R base.descriptive_names.names.descriptive_name) m.0653807)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.026dlh_)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.026dlh_ ns:religion.religion.is_part_of ?x .\n?x ns:religion.religion.branched_into ns:m.03zsvg .\n?x ns:religion.religion.includes ns:m.0blh20 .\n}\n",
+        "TopicEntityMid": "m.026dlh_",
+        "mid2name": {
+            "ns:m.026dlh_": "LaVeyan Satanism",
+            "ns:m.03zsvg": "Luciferianism",
+            "ns:m.0blh20": "Theistic Satanism"
+        },
+        "SExpr_w_name": "(AND (JOIN religion.religion.includes Theistic Satanism) (AND (JOIN religion.religion.branched_into Luciferianism) (JOIN (R religion.religion.is_part_of) LaVeyan Satanism)))",
+        "SExpr": "(AND (JOIN religion.religion.includes m.0blh20) (AND (JOIN religion.religion.branched_into m.03zsvg) (JOIN (R religion.religion.is_part_of) m.026dlh_)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03cqlyc)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03cqlyc ns:internet.api.protocols ?x .\n?x ns:internet.protocol.api ns:m.06l2dz .\n?x ns:computer.internet_protocol.software_used_by ns:m.02z29 .\n}\n",
+        "TopicEntityMid": "m.03cqlyc",
+        "mid2name": {
+            "ns:m.03cqlyc": "OpenSocial",
+            "ns:m.06l2dz": "OpenID",
+            "ns:m.02z29": "Freenet"
+        },
+        "SExpr_w_name": "(AND (JOIN computer.internet_protocol.software_used_by Freenet) (AND (JOIN internet.protocol.api OpenID) (JOIN (R internet.api.protocols) OpenSocial)))",
+        "SExpr": "(AND (JOIN computer.internet_protocol.software_used_by m.02z29) (AND (JOIN internet.protocol.api m.06l2dz) (JOIN (R internet.api.protocols) m.03cqlyc)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.089m7)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.089m7 ns:dataworld.gardening_hint.split_to ?x .\n?x ns:cvg.cvg_genre.games ns:m.04np5c .\n?x ns:film.film_genre.films_in_this_genre ns:m.02r4p2n .\n}\n",
+        "TopicEntityMid": "m.089m7",
+        "mid2name": {
+            "ns:m.089m7": "Zombie",
+            "ns:m.04np5c": "Castlevania",
+            "ns:m.02r4p2n": "Dark Floors"
+        },
+        "SExpr_w_name": "(AND (JOIN film.film_genre.films_in_this_genre Dark Floorsn) (AND (JOIN cvg.cvg_genre.games Castlevania) (JOIN (R dataworld.gardening_hint.split_to) Zombie)))",
+        "SExpr": "(AND (JOIN film.film_genre.films_in_this_genre m.02r4p2n) (AND (JOIN cvg.cvg_genre.games m.04np5c) (JOIN (R dataworld.gardening_hint.split_to) m.089m7)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0bgnj1)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0bgnj1 ns:protected_sites.site_listing_category.category_of ?x .\n?x ns:protected_sites.natural_or_cultural_site_designation.listing_agency ns:m.0f4r5 .\n?x ns:protected_sites.park_system.member_parks ns:m.06qcr_ .\n}\n",
+        "TopicEntityMid": "m.0bgnj1",
+        "mid2name": {
+            "ns:m.0bgnj1": "Wilderness study area",
+            "ns:m.0f4r5": "United States Bureau of Land Management",
+            "ns:m.06qcr_": "Upper Missouri River Breaks National Monument"
+        },
+        "SExpr_w_name": "(AND (JOIN protected_sites.park_system.member_parks Upper Missouri River Breaks National Monument) (AND (JOIN protected_sites.natural_or_cultural_site_designation.listing_agency United States Bureau of Land Management) (JOIN (R protected_sites.site_listing_category.category_of) Wilderness study area)))",
+        "SExpr": "(AND (JOIN protected_sites.park_system.member_parks m.06qcr_) (AND (JOIN protected_sites.natural_or_cultural_site_designation.listing_agency m.0f4r5) (JOIN (R protected_sites.site_listing_category.category_of) m.0bgnj1)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0116t3yz)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0116t3yz ns:base.lightweight.profession.specialization ?x .\n?x ns:people.profession.people_with_this_profession ns:m.0z_9q22 .\n?x ns:people.profession.specialization_of ns:m.06q2q .\n}\n",
+        "TopicEntityMid": "m.0116t3yz",
+        "mid2name": {
+            "ns:m.0116t3yz": "Environmental Scientists and Specialists",
+            "ns:m.0z_9q22": "Keith Clayton",
+            "ns:m.06q2q": "Scientist"
+        },
+        "SExpr_w_name": "(AND (JOIN people.profession.specialization_of Scientist) (AND (JOIN people.profession.people_with_this_profession Keith Clayton) (JOIN (R base.lightweight.profession.specialization) Environmental Scientists and Specialists)))",
+        "SExpr": "(AND (JOIN people.profession.specialization_of m.06q2q) (AND (JOIN people.profession.people_with_this_profession m.0z_9q22) (JOIN (R base.lightweight.profession.specialization) m.0116t3yz)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0j349f6)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0j349f6 ns:music.concert.concert_tour ?x .\n?x ns:music.concert_tour.concert_films_or_videos ns:m.0djc1kz .\n?x ns:music.concert_tour.live_recordings ns:m.03fz6lg .\n}\n",
+        "TopicEntityMid": "m.0j349f6",
+        "mid2name": {
+            "ns:m.0j349f6": "The Confessions Tour - Tokyo Japan",
+            "ns:m.0djc1kz": "Madonna: The Confessions Tour",
+            "ns:m.03fz6lg": "The Confessions Tour"
+        },
+        "SExpr_w_name": "(AND (JOIN music.concert_tour.live_recordings The Confessions Tour) (AND (JOIN music.concert_tour.concert_films_or_videos Madonna: The Confessions Tour) (JOIN (R music.concert.concert_tour) The Confessions Tour - Tokyo Japan)))",
+        "SExpr": "(AND (JOIN music.concert_tour.live_recordings m.03fz6lg) (AND (JOIN music.concert_tour.concert_films_or_videos m.0djc1kz) (JOIN (R music.concert.concert_tour) m.0j349f6)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03fl3v)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03fl3v ns:food.ingredient.dishes ?x .\n?x ns:food.dish.recipes ns:m.0gd6zv6 .\n?x ns:food.dish.ingredients ns:m.03h5wg .\n}\n",
+        "TopicEntityMid": "m.03fl3v",
+        "mid2name": {
+            "ns:m.03fl3v": "Yuzu",
+            "ns:m.0gd6zv6": "Transcontinental Condiment Violation 3",
+            "ns:m.03h5wg": "Curry tree"
+        },
+        "SExpr_w_name": "(AND (JOIN food.dish.ingredients Curry tree) (AND (JOIN food.dish.recipes Transcontinental Condiment Violation 3) (JOIN (R food.ingredient.dishes) Yuzu)))",
+        "SExpr": "(AND (JOIN food.dish.ingredients m.03h5wg) (AND (JOIN food.dish.recipes m.0gd6zv6) (JOIN (R food.ingredient.dishes) m.03fl3v)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02l0cjq)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02l0cjq ns:computer.file_format.format_creator ?x .\n?x ns:base.morelaw.plaintiff.lawsuits ns:m.02cswy .\n?x ns:user.uoa_it.uoa_it.uoa_vendor.uoa_category ns:m.05n1nz4 .\n}\n",
+        "TopicEntityMid": "m.02l0cjq",
+        "mid2name": {
+            "ns:m.02l0cjq": "Ade",
+            "ns:m.02cswy": "Microsoft Corp. v. Lindows.com, Inc.",
+            "ns:m.05n1nz4": "Vendors"
+        },
+        "SExpr_w_name": "(AND (JOIN user.uoa_it.uoa_it.uoa_vendor.uoa_category Vendors) (AND (JOIN base.morelaw.plaintiff.lawsuits Microsoft Corp. v. Lindows.com, Inc.) (JOIN (R computer.file_format.format_creator) Ade)))",
+        "SExpr": "(AND (JOIN user.uoa_it.uoa_it.uoa_vendor.uoa_category m.05n1nz4) (AND (JOIN base.morelaw.plaintiff.lawsuits m.02cswy) (JOIN (R computer.file_format.format_creator) m.02l0cjq)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:g.11c3hvc9_8)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:g.11c3hvc9_8 ns:broadcast.radio_station_owner.radio_stations ?x .\n?x ns:broadcast.broadcast.area_served ns:m.0v6w9 .\n?x ns:broadcast.radio_station.format ns:m.01lyv .\n}\n",
+        "TopicEntityMid": "g.11c3hvc9_8",
+        "mid2name": {
+            "ns:g.11c3hvc9_8": "WMLM, Inc.",
+            "ns:m.0v6w9": "St. Louis",
+            "ns:m.01lyv": "Country"
+        },
+        "SExpr_w_name": "(AND (JOIN broadcast.radio_station.format Country) (AND (JOIN broadcast.broadcast.area_served St. Louis) (JOIN (R broadcast.radio_station_owner.radio_stations) WMLM, Inc.)))",
+        "SExpr": "(AND (JOIN broadcast.radio_station.format m.01lyv) (AND (JOIN broadcast.broadcast.area_served m.0v6w9) (JOIN (R broadcast.radio_station_owner.radio_stations) g.11c3hvc9_8)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.020gv)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.020gv ns:medicine.disease_cause.diseases ?x .\n?x ns:medicine.disease.causes ns:m.019syx .\n?x ns:medicine.disease.parent_disease ns:m.08099 .\n}\n",
+        "TopicEntityMid": "m.020gv",
+        "mid2name": {
+            "ns:m.020gv": "Candidiasis",
+            "ns:m.019syx": "Human papillomavirus infection",
+            "ns:m.08099": "Vulvodynia"
+        },
+        "SExpr_w_name": "(AND (JOIN medicine.disease.parent_disease Vulvodynia) (AND (JOIN medicine.disease.causes Human papillomavirus infection) (JOIN (R medicine.disease_cause.diseases) Candidiasis)))",
+        "SExpr": "(AND (JOIN medicine.disease.parent_disease m.08099) (AND (JOIN medicine.disease.causes m.019syx) (JOIN (R medicine.disease_cause.diseases) m.020gv)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.010b9n3d)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.010b9n3d ns:business.job_title.people_with_this_title ?x .\n?x ns:business.employment_tenure.company ns:m.03wdl6g .\n?x ns:business.employment_tenure.person ns:m.010b9n36 .\n}\n",
+        "TopicEntityMid": "m.010b9n3d",
+        "mid2name": {
+            "ns:m.010b9n3d": "Chief Legal Officer",
+            "ns:m.03wdl6g": "Classified Ventures",
+            "ns:m.010b9n36": "Michael Cronin"
+        },
+        "SExpr_w_name": "(AND (JOIN business.employment_tenure.person Michael Cronin) (AND (JOIN business.employment_tenure.company Classified Ventures) (JOIN (R business.job_title.people_with_this_title) Chief Legal Officer)))",
+        "SExpr": "(AND (JOIN business.employment_tenure.person m.010b9n36) (AND (JOIN business.employment_tenure.company m.03wdl6g) (JOIN (R business.job_title.people_with_this_title) m.010b9n3d)))"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0cc6wfj)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0cc6wfj ns:geography.mountain.mountain_range ?x .\n?x ns:geography.mountain_range.passes ns:m.0cr_yy .\n?x ns:location.location.contains ns:m.027bdwh .\n}\n",
+        "TopicEntityMid": "m.0cc6wfj",
+        "mid2name": {
+            "ns:m.0cc6wfj": "Miche Wabun Peak",
+            "ns:m.0cr_yy": "Marias Pass",
+            "ns:m.027bdwh": "Mount Siyeh"
+        },
+        "SExpr_w_name": "(AND (JOIN location.location.contains Mount Siyeh) (AND (JOIN geography.mountain_range.passes Marias Pass) (JOIN (R geography.mountain.mountain_range) Miche Wabun Peak)))",
+        "SExpr": "(AND (JOIN location.location.contains m.027bdwh) (AND (JOIN geography.mountain_range.passes m.0cr_yy) (JOIN (R geography.mountain.mountain_range) m.0cc6wfj)))"
+    }
+]

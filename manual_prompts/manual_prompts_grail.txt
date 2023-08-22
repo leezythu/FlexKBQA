@@ -1,0 +1,76 @@
+Convert the s-expressions to natural language questions.
+
+s-expression:(AND medicine.routed_drug (JOIN medicine.routed_drug.marketed_formulations Oxybutynin chloride 5 extended release film coated tablet))
+question:oxybutynin chloride 5 extended release film coated tablet is the ingredients of what routed drug?
+
+s-expression:(ARGMAX food.food food.food.energy)
+question:when it comes to the food that has the most energy per 100g what is the name of it?
+
+s-expression:(AND music.genre (JOIN (R music.genre.parent_genre) (JOIN music.genre.albums confessions tour)))
+question:the albums confessions tour is part of what parent genre of a musical genre?
+
+s-expression:(AND architecture.architect (JOIN architecture.architect.architectural_style (JOIN (R architecture.architect.architectural_style) Josef Fanta)))
+question:which architect has a similar architectural style to josef fanta?
+
+s-expression:(AND architecture.building (lt architecture.building.floors 9^^http://www.w3.org/2001/XMLSchema#integer))
+question:which building has less than 9 floors?
+
+s-expression:(AND comic_books.comic_book_series (JOIN (R comic_books.comic_book_genre.comic_book_series_in_this_genre) (JOIN (R comic_books.comic_book_story.genre) Case of the Namesake Murders)))
+question:case of the namesake murders is the same genre as what comic book series?
+
+s-expression:(AND film.director (JOIN (R media_common.quotation.author) It is an open question whether any behavior based on fear of eternal punishment can be regarded as ethical or should be regarded as merely cowardly.))
+question:what is the name of the author who wrote it is an open question whether any behavior based on fear of eternal punishment can be regarded as ethical or should be regarded as merely cowardly.?
+
+s-expression:(AND meteorology.beaufort_wind_force (ge meteorology.beaufort_wind_force.wave_height 7.0^^http://www.w3.org/2001/XMLSchema#float))
+question:for waves higher than 7.0 what is the beaufort window force?
+
+s-expression:(AND book.short_story (JOIN book.short_story.characters (JOIN book.book_character.appears_in_stories Doing Clarence a Bit of Good)))
+question:what short story has a character who also is in doing clarence a bit of good?
+
+s-expression:(AND education.school_category (AND (JOIN (R education.educational_institution.school_type) Chiang Kai Shek College) (JOIN education.school_category.schools_of_this_kind Sacred Heart High School (Roseville, Michigan))))
+question:chiang kai shek college and sacred heart high school (roseville, michigan) are in what category of school?
+
+s-expression:(AND olympics.olympic_games (gt olympics.olympic_games.number_of_events 63^^http://www.w3.org/2001/XMLSchema#integer))
+question:what olympic games has more than 63 number of events?
+
+s-expression:(ARGMIN food.bottled_water food.bottled_water.nitrate_content)
+question:the bottled water that has the least amount of nitrates?
+
+s-expression:(AND meteorology.tropical_cyclone_season (le meteorology.tropical_cyclone_season.total_storms 23^^http://www.w3.org/2001/XMLSchema#integer))
+question:during which tropical cyclone season did the total storms of at most 23?
+
+s-expression:(COUNT (AND aviation.aircraft_manufacturer (JOIN organization.organization.legal_structure S.A.)))
+question:what is the number of aircraft manufacturer in the legal structure of s.a.?
+
+s-expression:(AND freebase.user_profile (AND (JOIN freebase.user_profile.location Montreal) (JOIN freebase.user_profile.favorite_topics social networks)))
+question:which is the user profile who lives in montreal and most favors social networks?
+
+s-expression:(AND religion.religious_practice (AND (JOIN religion.religious_practice.practice_of hare krishna) (JOIN (R religion.religion.practices) Hinduism)))
+question:hare krishna and hinduism both practice what religious practices?
+
+s-expression:(AND education.department (AND (JOIN (R education.department.department_of) Especialización en Gerencia Estratégica Ibagué (en convenio con la Cámara de Comercio de Ibagué)) (JOIN (R education.university.departments) University of La Sabana)))
+question:the especialización en gerencia estratégica ibagué (en convenio con la cámara de comercio de ibagué) is related to a subsidiary department within the university of la sabana. what is this subsidiary department called?
+
+s-expression:(COUNT (AND astronomy.planet (JOIN (R astronomy.orbit_type.orbiting_bodies) heliocentric orbits)))
+question:what number of planets are orbiting in heliocentric orbits?
+
+s-expression:(AND religion.religion (AND (JOIN religion.religion.practices (JOIN (R religion.religion.practices) mormon)) (JOIN religion.religion.is_part_of Islam)))
+question:what religion is part of islam and has same practices with mormon?
+
+s-expression:(ARGMAX (AND music.release (JOIN music.release.engineers Lee Whitsel)) music.release.release_date)
+question:what is the most recent musical release that credits engineers including lee whitsel?
+
+s-expression:(COUNT (AND book.book_character (JOIN fictional_universe.fictional_character.rank (JOIN fictional_universe.character_rank.characters_of_this_rank Marth))))
+question:the rank of marth has been given to how many book characters?
+
+s-expression:(AND chess.chess_game (JOIN (R chess.chess_game_participation.game) (AND (JOIN chess.chess_game_participation.color Black) (JOIN chess.chess_game_participation.player Charles II, Duke of Brunswick))))
+question:in what chess game did charles ii, duke of brunswick play black?
+
+s-expression:(COUNT (AND travel.accommodation_feature (JOIN (R travel.accommodation.features) (JOIN travel.accommodation.features wifi hotspot))))
+question:how many hotels feature the accommodation of wifi hotspot?
+
+s-expression:(AND olympics.olympic_event (AND (JOIN olympics.olympic_event.olympic_games_contested (JOIN olympics.olympic_games.host_city london england)) (JOIN olympics.olympic_event.olympic_games_contested 2008 beijing olympic games)))
+question:which olympic events were officially contested at the 2008 beijing olympic games held in london england?
+
+s-expression:(ARGMIN fictional_universe.character_gender (JOIN (R fictional_universe.fictional_character.gender) fictional_universe.fictional_character.weight))
+question:what gender is the tv character who has the lowest weight?

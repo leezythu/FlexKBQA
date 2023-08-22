@@ -1,0 +1,418 @@
+[
+    {
+        "?ent0": {
+            "id": "ns:m.09gwyd",
+            "name": "Civil War"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/comic_books.comic_book_series.publisher",
+            "name": "ns:comic_books.comic_book_series.publisher"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/organization.club_interest.clubs",
+            "name": "ns:organization.club_interest.clubs"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/people.person.gender",
+            "name": "ns:people.person.gender"
+        },
+        "ent1": {
+            "id": "ns:m.02zsn",
+            "name": "Female"
+        },
+        "rel3": {
+            "id": "http://rdf.freebase.com/ns/organization.organization.date_founded",
+            "name": "ns:organization.organization.date_founded"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.04djz",
+            "name": "Kitt Peak National Observatory"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/astronomy.astronomical_observatory.discoveries",
+            "name": "ns:astronomy.astronomical_observatory.discoveries"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/astronomy.asteroid.member_of_asteroid_group",
+            "name": "ns:astronomy.asteroid.member_of_asteroid_group"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/astronomy.astronomical_discovery.discoverer",
+            "name": "ns:astronomy.astronomical_discovery.discoverer"
+        },
+        "ent1": {
+            "id": "ns:m.03bc_l",
+            "name": "Carl W. Hergenrother"
+        },
+        "rel3": {
+            "id": "http://rdf.freebase.com/ns/astronomy.astronomical_discovery.discovery_date",
+            "name": "ns:astronomy.astronomical_discovery.discovery_date"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0zc4v66",
+            "name": "Chekhov Lizardbrain"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/award.award_winning_work.awards_won",
+            "name": "ns:award.award_winning_work.awards_won"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/award.award_honor.award",
+            "name": "ns:award.award_honor.award"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/award.award_honor.award_winner",
+            "name": "ns:award.award_honor.award_winner"
+        },
+        "ent1": {
+            "id": "ns:m.0fph74l",
+            "name": "James Sugg"
+        },
+        "rel3": {
+            "id": "http://rdf.freebase.com/ns/award.award_honor.year",
+            "name": "ns:award.award_honor.year"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.012br316",
+            "name": "Chevy Spark LS"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/automotive.trim_level.model_year",
+            "name": "ns:automotive.trim_level.model_year"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/automotive.model_year.previous_model_year",
+            "name": "ns:automotive.model_year.previous_model_year"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/automotive.model_year.make",
+            "name": "ns:automotive.model_year.make"
+        },
+        "ent1": {
+            "id": "ns:m.0xm0m9r",
+            "name": "Chevrolet"
+        },
+        "rel3": {
+            "id": "http://rdf.freebase.com/ns/automotive.model_year.year",
+            "name": "ns:automotive.model_year.year"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.029j_",
+            "name": "DVD"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/cvg.computer_game_distribution_system.games_distributed",
+            "name": "ns:cvg.computer_game_distribution_system.games_distributed"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/cvg.game_version.rating",
+            "name": "ns:cvg.game_version.rating"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/cvg.game_version.developer",
+            "name": "ns:cvg.game_version.developer"
+        },
+        "ent1": {
+            "id": "ns:m.09rmwl8",
+            "name": "Neutron Games"
+        },
+        "rel3": {
+            "id": "http://rdf.freebase.com/ns/cvg.game_version.release_date",
+            "name": "ns:cvg.game_version.release_date"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0bcz8b",
+            "name": "Millie"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/biology.pedigreed_animal.breed",
+            "name": "ns:biology.pedigreed_animal.breed"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/base.petbreeds.dog_breed.cities_where_this_dog_is_popular",
+            "name": "ns:base.petbreeds.dog_breed.cities_where_this_dog_is_popular"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/biology.animal_breed.examples",
+            "name": "ns:biology.animal_breed.examples"
+        },
+        "ent1": {
+            "id": "ns:m.02qkhwh",
+            "name": "Felicity's Diamond Jim"
+        },
+        "rel3": {
+            "id": "http://rdf.freebase.com/ns/base.petbreeds.dog_breed.apartment_friendly",
+            "name": "ns:base.petbreeds.dog_breed.apartment_friendly"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.06q07",
+            "name": "Sony Corporation"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/base.filmcameras.camera_manufacturer.cameras_manufactured",
+            "name": "ns:base.filmcameras.camera_manufacturer.cameras_manufactured"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/base.filmcameras.camera.camera_series",
+            "name": "ns:base.filmcameras.camera.camera_series"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/base.filmcameras.camera.lens_mount",
+            "name": "ns:base.filmcameras.camera.lens_mount"
+        },
+        "ent1": {
+            "id": "ns:m.0c00bf4",
+            "name": "Sony E-mount"
+        },
+        "rel3": {
+            "id": "http://rdf.freebase.com/ns/base.filmcameras.camera.autofocus",
+            "name": "ns:base.filmcameras.camera.autofocus"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.04mk532",
+            "name": "Redtick"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/biology.breed_coloring.breeds",
+            "name": "ns:biology.breed_coloring.breeds"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/biology.organism_classification.higher_classification",
+            "name": "ns:biology.organism_classification.higher_classification"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/biology.animal_breed.breed_of",
+            "name": "ns:biology.animal_breed.breed_of"
+        },
+        "ent1": {
+            "id": "ns:m.0bt9lr",
+            "name": "Dog"
+        },
+        "rel3": {
+            "id": "http://rdf.freebase.com/ns/base.petbreeds.dog_breed.hunting_dog",
+            "name": "ns:base.petbreeds.dog_breed.hunting_dog"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:g.122t1brx",
+            "name": "Karl Haffner"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/opera.librettist.libretti",
+            "name": "ns:opera.librettist.libretti"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/music.composition.composer",
+            "name": "ns:music.composition.composer"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/music.composition.recordings",
+            "name": "ns:music.composition.recordings"
+        },
+        "ent1": {
+            "id": "ns:m.024d35b",
+            "name": "Die Fledermaus"
+        },
+        "rel3": {
+            "id": "http://rdf.freebase.com/ns/music.composition.date_of_first_performance",
+            "name": "ns:music.composition.date_of_first_performance"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0h9ytmq",
+            "name": "FDA OTC monograph part 355"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/medicine.fda_otc_monograph_part.drugs_regulated",
+            "name": "ns:medicine.fda_otc_monograph_part.drugs_regulated"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/business.consumer_product.category",
+            "name": "ns:business.consumer_product.category"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.available_in",
+            "name": "ns:medicine.manufactured_drug_form.available_in"
+        },
+        "ent1": {
+            "id": "ns:m.09c7w0",
+            "name": "United States of America"
+        },
+        "rel3": {
+            "id": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.label_date",
+            "name": "ns:medicine.manufactured_drug_form.label_date"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.09rkv3_",
+            "name": "Björn Giesler"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/computer.software_developer.software",
+            "name": "ns:computer.software_developer.software"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/computer.software.developer",
+            "name": "ns:computer.software.developer"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/computer.software.languages_used",
+            "name": "ns:computer.software.languages_used"
+        },
+        "ent1": {
+            "id": "ns:m.01t6b",
+            "name": "C"
+        },
+        "rel3": {
+            "id": "http://rdf.freebase.com/ns/computer.software.latest_release_date",
+            "name": "ns:computer.software.latest_release_date"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0j3g8jv",
+            "name": "Dean of Kilkenny"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/religion.religious_leadership_title.leaders",
+            "name": "ns:religion.religious_leadership_title.leaders"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/religion.religious_organization_leadership.leader",
+            "name": "ns:religion.religious_organization_leadership.leader"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/religion.religious_organization_leadership.organization",
+            "name": "ns:religion.religious_organization_leadership.organization"
+        },
+        "ent1": {
+            "id": "ns:m.016h7t",
+            "name": "Church of Ireland"
+        },
+        "rel3": {
+            "id": "http://rdf.freebase.com/ns/religion.religious_organization_leadership.start_date",
+            "name": "ns:religion.religious_organization_leadership.start_date"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.03yxftc",
+            "name": "California’s 4th congressional district election, 2008"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/government.election.primaries",
+            "name": "ns:government.election.primaries"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/government.election.campaigns",
+            "name": "ns:government.election.campaigns"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/government.election.district",
+            "name": "ns:government.election.district"
+        },
+        "ent1": {
+            "id": "ns:m.0c9j_w",
+            "name": "California’s 4th congressional district"
+        },
+        "rel3": {
+            "id": "http://rdf.freebase.com/ns/government.election.election_year",
+            "name": "ns:government.election.election_year"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.05r_nf",
+            "name": "Jim Pattison Group"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/organization.organization.place_founded",
+            "name": "ns:organization.organization.place_founded"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/olympics.olympic_bidding_city.olympics_bid_on",
+            "name": "ns:olympics.olympic_bidding_city.olympics_bid_on"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/olympics.olympic_host_city.olympics_hosted",
+            "name": "ns:olympics.olympic_host_city.olympics_hosted"
+        },
+        "ent1": {
+            "id": "ns:m.018ctl",
+            "name": "2010 Winter Olympics"
+        },
+        "rel3": {
+            "id": "http://rdf.freebase.com/ns/user.brendan.default_domain.top_architectural_city.structure_count",
+            "name": "ns:user.brendan.default_domain.top_architectural_city.structure_count"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.04g361m",
+            "name": "Arcadia City Council Member"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/government.government_office_or_title.office_holders",
+            "name": "ns:government.government_office_or_title.office_holders"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/government.government_position_held.office_holder",
+            "name": "ns:government.government_position_held.office_holder"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/government.government_position_held.basic_title",
+            "name": "ns:government.government_position_held.basic_title"
+        },
+        "ent1": {
+            "id": "ns:m.01q24l",
+            "name": "Councillor"
+        },
+        "rel3": {
+            "id": "http://rdf.freebase.com/ns/government.government_position_held.to",
+            "name": "ns:government.government_position_held.to"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.02kwlk0",
+            "name": "Human Cytogenetic Band 4q31.21"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/biology.cytogenetic_band.chromosome",
+            "name": "ns:biology.cytogenetic_band.chromosome"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/biology.chromosome.band",
+            "name": "ns:biology.chromosome.band"
+        },
+        "rel2": {
+            "id": "http://rdf.freebase.com/ns/biology.chromosome.gene",
+            "name": "ns:biology.chromosome.gene"
+        },
+        "ent1": {
+            "id": "ns:m.021mrmc",
+            "name": "glutamate receptor, ionotropic, delta 2"
+        },
+        "rel3": {
+            "id": "http://rdf.freebase.com/ns/biology.chromosome.identifier",
+            "name": "ns:biology.chromosome.identifier"
+        }
+    }
+]

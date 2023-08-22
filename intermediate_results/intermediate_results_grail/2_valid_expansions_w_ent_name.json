@@ -1,0 +1,2612 @@
+[
+    {
+        "?ent0": {
+            "id": "ns:m.017k6",
+            "name": "Basque Language"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/film.film.language",
+            "name": "ns:film.film.language"
+        },
+        "ent1": {
+            "id": "ns:film.film",
+            "name": "Film"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/film.film.prequel",
+            "name": "ns:film.film.prequel"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.03zbby2",
+            "name": "Safety and Effectiveness of Giving Indinavir Plus Stavudine Plus Lamivudine to HIV-Infected Children"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/medicine.disease.trials",
+            "name": "ns:medicine.disease.trials"
+        },
+        "ent1": {
+            "id": "ns:user.ajain.default_domain.disease_extra",
+            "name": "Disease extra"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/medicine.disease.risk_factors",
+            "name": "ns:medicine.disease.risk_factors"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.03fz6lg",
+            "name": "The Confessions Tour"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/music.genre.albums",
+            "name": "ns:music.genre.albums"
+        },
+        "ent1": {
+            "id": "ns:broadcast.content",
+            "name": "Broadcast Content"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/broadcast.genre.content",
+            "name": "ns:broadcast.genre.content"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0dljdhf",
+            "name": "Rachel Renee Russell"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/location.location.people_born_here",
+            "name": "ns:location.location.people_born_here"
+        },
+        "ent1": {
+            "id": "ns:user.robert.military.military_power",
+            "name": "Military power"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/location.country.administrative_divisions",
+            "name": "ns:location.country.administrative_divisions"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.048dng3",
+            "name": "It is an open question whether any behavior based on fear of eternal punishment can be regarded as ethical or should be regarded as merely cowardly."
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/people.person.quotations",
+            "name": "ns:people.person.quotations"
+        },
+        "ent1": {
+            "id": "ns:user.narphorium.people.nndb_person",
+            "name": "NNDB Person"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/education.academic.advisors",
+            "name": "ns:education.academic.advisors"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0177x3",
+            "name": "Isma'ilism"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/people.person.religion",
+            "name": "ns:people.person.religion"
+        },
+        "ent1": {
+            "id": "ns:royalty.noble_person",
+            "name": "Noble person"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/people.person.children",
+            "name": "ns:people.person.children"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.042_6l",
+            "name": "Seventh grade"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/education.school.lowest_grade_taught",
+            "name": "ns:education.school.lowest_grade_taught"
+        },
+        "ent1": {
+            "id": "ns:business.employer",
+            "name": "Employer"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/education.school.school_district",
+            "name": "ns:education.school.school_district"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0myy7tq",
+            "name": "Los Suenos Marriott Ocean & Golf Resort"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/travel.hotel_brand.hotels_in_this_brand",
+            "name": "ns:travel.hotel_brand.hotels_in_this_brand"
+        },
+        "ent1": {
+            "id": "ns:travel.hotel_brand",
+            "name": "Hotel Brand"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/business.brand.includes_brands",
+            "name": "ns:business.brand.includes_brands"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0glrb20",
+            "name": "Heather Knight"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/people.profession.people_with_this_profession",
+            "name": "ns:people.profession.people_with_this_profession"
+        },
+        "ent1": {
+            "id": "ns:fictional_universe.character_occupation",
+            "name": "Character Occupation"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/people.profession.specialization_of",
+            "name": "ns:people.profession.specialization_of"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0n8gv6l",
+            "name": "Frontline (US) - Season 2010"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/tv.tv_series_episode.season",
+            "name": "ns:tv.tv_series_episode.season"
+        },
+        "ent1": {
+            "id": "ns:tv.tv_series_episode",
+            "name": "TV Episode"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/tv.tv_series_episode.next_episode",
+            "name": "ns:tv.tv_series_episode.next_episode"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.01yvs",
+            "name": "Coca-Cola"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/user.micahsaul.advertising.ad_campaign.advertised_thing",
+            "name": "ns:user.micahsaul.advertising.ad_campaign.advertised_thing"
+        },
+        "ent1": {
+            "id": "ns:award.award_nominated_work",
+            "name": "Award-Nominated Work"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/user.micahsaul.advertising.ad_campaign.parent_campaign",
+            "name": "ns:user.micahsaul.advertising.ad_campaign.parent_campaign"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.027qr0q",
+            "name": "The Chess Monthly"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/book.periodical_subject.periodicals",
+            "name": "ns:book.periodical_subject.periodicals"
+        },
+        "ent1": {
+            "id": "ns:film.film_subject",
+            "name": "Film subject"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/games.game.origin",
+            "name": "ns:games.game.origin"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.04l1gwb",
+            "name": "Film Score Composer"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/people.person.profession",
+            "name": "ns:people.person.profession"
+        },
+        "ent1": {
+            "id": "ns:film.film_crewmember",
+            "name": "Film crewmember"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/influence.influence_node.influenced_by",
+            "name": "ns:influence.influence_node.influenced_by"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0hqvml3",
+            "name": "Calcium ascorbate/Calcium threonate/Cholecalciferol/.alpha.-tocopherol/Folic acid/Pyridoxine/Calcium/Iron/Ferrous asparto glycinate/Doconexent/Icosapent/Linolenic acid"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/medicine.drug_ingredient.active_moiety_of_drug",
+            "name": "ns:medicine.drug_ingredient.active_moiety_of_drug"
+        },
+        "ent1": {
+            "id": "ns:food.nutrient",
+            "name": "Nutrient"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/medicine.drug_ingredient.more_general_ingredient",
+            "name": "ns:medicine.drug_ingredient.more_general_ingredient"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.06c4xv3",
+            "name": "Poor wound healing"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/medicine.disease.symptoms",
+            "name": "ns:medicine.disease.symptoms"
+        },
+        "ent1": {
+            "id": "ns:people.cause_of_death",
+            "name": "Cause Of Death"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/medicine.risk_factor.diseases",
+            "name": "ns:medicine.risk_factor.diseases"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0zp1xtf",
+            "name": "George Fox University Journal"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/education.educational_institution.school_magazines",
+            "name": "ns:education.educational_institution.school_magazines"
+        },
+        "ent1": {
+            "id": "ns:education.university",
+            "name": "College/University"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/education.educational_institution.subsidiary_or_constituent_schools",
+            "name": "ns:education.educational_institution.subsidiary_or_constituent_schools"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0hpsxjc",
+            "name": "Aston Martin DB7 Zagato"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/automotive.model.generations",
+            "name": "ns:automotive.model.generations"
+        },
+        "ent1": {
+            "id": "ns:automotive.model",
+            "name": "Automobile Model"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/automotive.model.predecessor",
+            "name": "ns:automotive.model.predecessor"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.015k50",
+            "name": "S.A."
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/organization.organization.legal_structure",
+            "name": "ns:organization.organization.legal_structure"
+        },
+        "ent1": {
+            "id": "ns:business.business_operation",
+            "name": "Business Operation"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/business.customer.supplier",
+            "name": "ns:business.customer.supplier"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.04yfs7b",
+            "name": "Leif G. W. Persson"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/book.written_work.author",
+            "name": "ns:book.written_work.author"
+        },
+        "ent1": {
+            "id": "ns:book.written_work",
+            "name": "Written Work"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/book.written_work.next_in_series",
+            "name": "ns:book.written_work.next_in_series"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.01dpgv",
+            "name": "Visual Basic .NET"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/computer.software.languages_used",
+            "name": "ns:computer.software.languages_used"
+        },
+        "ent1": {
+            "id": "ns:cvg.computer_game_engine",
+            "name": "Video Game Engine"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/cvg.computer_game_engine.predecessor_engine",
+            "name": "ns:cvg.computer_game_engine.predecessor_engine"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.012z48tj",
+            "name": "Smeltings Academy."
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.education",
+            "name": "ns:fictional_universe.fictional_character.education"
+        },
+        "ent1": {
+            "id": "ns:film.film_character",
+            "name": "Film character"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.parents",
+            "name": "ns:fictional_universe.fictional_character.parents"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.03ctddv",
+            "name": "Frank Newby"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/architecture.structure.engineer",
+            "name": "ns:architecture.structure.engineer"
+        },
+        "ent1": {
+            "id": "ns:location.location",
+            "name": "Location"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/location.location.containedby",
+            "name": "ns:location.location.containedby"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.071nmn",
+            "name": "Northern Shaolin"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/martial_arts.martial_artist.martial_art",
+            "name": "ns:martial_arts.martial_artist.martial_art"
+        },
+        "ent1": {
+            "id": "ns:computer.software_developer",
+            "name": "Software Developer"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/martial_arts.martial_artist.instructor",
+            "name": "ns:martial_arts.martial_artist.instructor"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0220vz7",
+            "name": "Ultra Compact"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/digicams.digital_camera.format",
+            "name": "ns:digicams.digital_camera.format"
+        },
+        "ent1": {
+            "id": "ns:business.consumer_product",
+            "name": "Consumer product"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/business.consumer_product.product_line",
+            "name": "ns:business.consumer_product.product_line"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0278772",
+            "name": "Tempel Synagogue, Kraków"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/religion.religion.places_of_worship",
+            "name": "ns:religion.religion.places_of_worship"
+        },
+        "ent1": {
+            "id": "ns:exhibitions.exhibition_subject",
+            "name": "Exhibition subject"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/religion.religion.holidays",
+            "name": "ns:religion.religion.holidays"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.01x37vk",
+            "name": "B-Body"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/automotive.generation.platforms",
+            "name": "ns:automotive.generation.platforms"
+        },
+        "ent1": {
+            "id": "ns:automotive.generation",
+            "name": "Automobile generation"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/automotive.generation.successor",
+            "name": "ns:automotive.generation.successor"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0c0y7",
+            "name": "Concerto"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/music.composition.form",
+            "name": "ns:music.composition.form"
+        },
+        "ent1": {
+            "id": "ns:music.composition",
+            "name": "Composition"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/music.composition.includes",
+            "name": "ns:music.composition.includes"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.039jq",
+            "name": "Glass"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/visual_art.visual_artist.art_forms",
+            "name": "ns:visual_art.visual_artist.art_forms"
+        },
+        "ent1": {
+            "id": "ns:visual_art.visual_artist",
+            "name": "Visual Artist"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/influence.influence_node.influenced",
+            "name": "ns:influence.influence_node.influenced"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.02w8mdw",
+            "name": "Olean Oilers"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/sports.sport.teams",
+            "name": "ns:sports.sport.teams"
+        },
+        "ent1": {
+            "id": "ns:user.narphorium.default_domain.profession",
+            "name": "Profession"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/user.narphorium.default_domain.profession.specialization_of",
+            "name": "ns:user.narphorium.default_domain.profession.specialization_of"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0zg7s70",
+            "name": "Road food"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/food.dish.cuisine",
+            "name": "ns:food.dish.cuisine"
+        },
+        "ent1": {
+            "id": "ns:food.food",
+            "name": "Food"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/dining.cuisine.ingredients",
+            "name": "ns:dining.cuisine.ingredients"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.077308",
+            "name": "Mozilla Corporation"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/computer.software.developer",
+            "name": "ns:computer.software.developer"
+        },
+        "ent1": {
+            "id": "ns:computer.software",
+            "name": "Software"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/dataworld.gardening_hint.split_to",
+            "name": "ns:dataworld.gardening_hint.split_to"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.04fk282",
+            "name": "Men's Volleyball"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/olympics.olympic_games.events",
+            "name": "ns:olympics.olympic_games.events"
+        },
+        "ent1": {
+            "id": "ns:olympics.olympic_games",
+            "name": "Olympic games"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/time.event.includes_event",
+            "name": "ns:time.event.includes_event"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.05rs5x",
+            "name": "Sex and nudity in video games"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/cvg.computer_videogame.cvg_genre",
+            "name": "ns:cvg.computer_videogame.cvg_genre"
+        },
+        "ent1": {
+            "id": "ns:cvg.computer_videogame",
+            "name": "Video game"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/cvg.computer_videogame.sequel",
+            "name": "ns:cvg.computer_videogame.sequel"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.016frk",
+            "name": "Royal Philharmonic Orchestra"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/music.recording.artist",
+            "name": "ns:music.recording.artist"
+        },
+        "ent1": {
+            "id": "ns:music.recording",
+            "name": "Musical Recording"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/music.recording.canonical_version",
+            "name": "ns:music.recording.canonical_version"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0hpxblx",
+            "name": "Heroes in Hell by Baen Books"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/book.series_editor.book_edition_series_edited",
+            "name": "ns:book.series_editor.book_edition_series_edited"
+        },
+        "ent1": {
+            "id": "ns:music.group_member",
+            "name": "Musician"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/music.group_member.artists_supported",
+            "name": "ns:music.group_member.artists_supported"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.01lbxg",
+            "name": "Nut"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/food.ingredient.more_general_ingredient",
+            "name": "ns:food.ingredient.more_general_ingredient"
+        },
+        "ent1": {
+            "id": "ns:book.book_subject",
+            "name": "Literature Subject"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/food.ingredient.compatible_with_dietary_restrictions",
+            "name": "ns:food.ingredient.compatible_with_dietary_restrictions"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.047csmy",
+            "name": "Transformers: Revenge of the Fallen"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/film.film_location.featured_in_films",
+            "name": "ns:film.film_location.featured_in_films"
+        },
+        "ent1": {
+            "id": "ns:tv.tv_location",
+            "name": "TV Location"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/travel.travel_destination.tourist_attractions",
+            "name": "ns:travel.travel_destination.tourist_attractions"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.03lty",
+            "name": "Heavy metal"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/music.album.genre",
+            "name": "ns:music.album.genre"
+        },
+        "ent1": {
+            "id": "ns:music.album",
+            "name": "Musical Album"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/music.artist.album",
+            "name": "ns:music.artist.album"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.03zdxc7",
+            "name": "North American College of Gnostic Bishops"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/religion.religion.organizations",
+            "name": "ns:religion.religion.organizations"
+        },
+        "ent1": {
+            "id": "ns:religion.religion",
+            "name": "Religion"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/religion.religion.branched_from",
+            "name": "ns:religion.religion.branched_from"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.01y_vl",
+            "name": "Mari language"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/location.country.languages_spoken",
+            "name": "ns:location.country.languages_spoken"
+        },
+        "ent1": {
+            "id": "ns:olympics.olympic_participating_country",
+            "name": "Olympic participating country"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/organization.organization_founder.organizations_founded",
+            "name": "ns:organization.organization_founder.organizations_founded"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0k0rb6l",
+            "name": "GEODSS, Haleakala"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/astronomy.astronomical_discovery.discovery_site",
+            "name": "ns:astronomy.astronomical_discovery.discovery_site"
+        },
+        "ent1": {
+            "id": "ns:astronomy.celestial_object",
+            "name": "Celestial Object"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/astronomy.star_system_body.star_system",
+            "name": "ns:astronomy.star_system_body.star_system"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.03pygd",
+            "name": "Strong typing"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/computer.programming_language.language_paradigms",
+            "name": "ns:computer.programming_language.language_paradigms"
+        },
+        "ent1": {
+            "id": "ns:user.uoa_it.uoa_it.topic",
+            "name": "Topic"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/user.uoa_it.uoa_it.uoa_technology.used_for",
+            "name": "ns:user.uoa_it.uoa_it.uoa_technology.used_for"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0g3tzt",
+            "name": "Dwarf planet"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/astronomy.celestial_object.category",
+            "name": "ns:astronomy.celestial_object.category"
+        },
+        "ent1": {
+            "id": "ns:astronomy.star_system_body",
+            "name": "Star system body"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/astronomy.orbital_relationship.orbited_by",
+            "name": "ns:astronomy.orbital_relationship.orbited_by"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.05pbd",
+            "name": "Oriental Orthodoxy"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/religion.religious_text.religious_text_of",
+            "name": "ns:religion.religious_text.religious_text_of"
+        },
+        "ent1": {
+            "id": "ns:religion.religious_text",
+            "name": "Religious Text"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/book.translated_work.translations",
+            "name": "ns:book.translated_work.translations"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0dfjgh",
+            "name": "Glen Orbik"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/visual_art.visual_art_form.artists",
+            "name": "ns:visual_art.visual_art_form.artists"
+        },
+        "ent1": {
+            "id": "ns:internet.website_category",
+            "name": "Website Category"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/interests.collection_category.parent_category",
+            "name": "ns:interests.collection_category.parent_category"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.05mdx",
+            "name": "Osteoporosis"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/medicine.medical_treatment.used_to_treat",
+            "name": "ns:medicine.medical_treatment.used_to_treat"
+        },
+        "ent1": {
+            "id": "ns:chemistry.chemical_compound",
+            "name": "Chemical Compound"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/medicine.drug_ingredient.more_specific_ingredient",
+            "name": "ns:medicine.drug_ingredient.more_specific_ingredient"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0137k8",
+            "name": "Boeing 737"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/aviation.aircraft_model.parent_aircraft_model",
+            "name": "ns:aviation.aircraft_model.parent_aircraft_model"
+        },
+        "ent1": {
+            "id": "ns:aviation.aircraft_model",
+            "name": "Aircraft model"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/aviation.aircraft_model.variants",
+            "name": "ns:aviation.aircraft_model.variants"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0q1x",
+            "name": "ALGOL"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/computer.programming_language.influenced_by",
+            "name": "ns:computer.programming_language.influenced_by"
+        },
+        "ent1": {
+            "id": "ns:user.greatjapa.framework.programming_language",
+            "name": "programming language"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/computer.programming_language.influenced",
+            "name": "ns:computer.programming_language.influenced"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.09k6502",
+            "name": "Donald R. Lobaugh Bridge"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/geography.body_of_water.bridges",
+            "name": "ns:geography.body_of_water.bridges"
+        },
+        "ent1": {
+            "id": "ns:geography.river",
+            "name": "River"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/geography.river.mouth",
+            "name": "ns:geography.river.mouth"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.041tkb",
+            "name": "Berberis"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/biology.organism_classification.higher_classification",
+            "name": "ns:biology.organism_classification.higher_classification"
+        },
+        "ent1": {
+            "id": "ns:biology.organism_classification",
+            "name": "Organism Classification"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/biology.organism_classification.rank",
+            "name": "ns:biology.organism_classification.rank"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.08x9tm",
+            "name": "1989 NBA Finals"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/sports.sports_team.championships",
+            "name": "ns:sports.sports_team.championships"
+        },
+        "ent1": {
+            "id": "ns:basketball.basketball_team",
+            "name": "Basketball Team"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/sports.sports_team.previously_known_as",
+            "name": "ns:sports.sports_team.previously_known_as"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0263t4l",
+            "name": "Sudan Premier League"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/sports.sport.leagues",
+            "name": "ns:sports.sport.leagues"
+        },
+        "ent1": {
+            "id": "ns:interests.interest",
+            "name": "Interest"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/interests.hobby.people_with_this_hobby",
+            "name": "ns:interests.hobby.people_with_this_hobby"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0dr47",
+            "name": "Mexican Creole hairless pig"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/biology.organism_classification_rank.organism_classifications",
+            "name": "ns:biology.organism_classification_rank.organism_classifications"
+        },
+        "ent1": {
+            "id": "ns:user.pak21.bbcnathist.bbc_natural_history_category",
+            "name": "BBC Wildlife Finder category"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/biology.organism_classification_rank.higher_rank",
+            "name": "ns:biology.organism_classification_rank.higher_rank"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0dwly",
+            "name": "Children's literature"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/book.book.genre",
+            "name": "ns:book.book.genre"
+        },
+        "ent1": {
+            "id": "ns:fictional_universe.work_of_fiction",
+            "name": "Work of Fiction"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/book.written_work.previous_in_series",
+            "name": "ns:book.written_work.previous_in_series"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0_gcvfk",
+            "name": "East Towards Home"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/theater.theater_genre.plays_in_this_genre",
+            "name": "ns:theater.theater_genre.plays_in_this_genre"
+        },
+        "ent1": {
+            "id": "ns:tv.tv_genre",
+            "name": "TV Genre"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/tv.tv_genre.programs",
+            "name": "ns:tv.tv_genre.programs"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0hqs3pp",
+            "name": "Gaba 6 liquid"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/medicine.drug_ingredient.active_moiety_of_formulation",
+            "name": "ns:medicine.drug_ingredient.active_moiety_of_formulation"
+        },
+        "ent1": {
+            "id": "ns:medicine.medical_treatment",
+            "name": "Medical Treatment"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/medicine.drug.routed_drugs",
+            "name": "ns:medicine.drug.routed_drugs"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.04d1km4",
+            "name": "Class B"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/medicine.drug.legal_status",
+            "name": "ns:medicine.drug.legal_status"
+        },
+        "ent1": {
+            "id": "ns:medicine.disease_cause",
+            "name": "Disease cause"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/medicine.disease_cause.diseases",
+            "name": "ns:medicine.disease_cause.diseases"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.05zkvh4",
+            "name": "Indian general election, 1991"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/government.general_election.includes_general_elections",
+            "name": "ns:government.general_election.includes_general_elections"
+        },
+        "ent1": {
+            "id": "ns:time.event",
+            "name": "Event"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/time.event.previous_in_series",
+            "name": "ns:time.event.previous_in_series"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0hqyz4m",
+            "name": "Dihydrofolate Reductase Inhibitor Antibacterial"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/medicine.drug.drug_class",
+            "name": "ns:medicine.drug.drug_class"
+        },
+        "ent1": {
+            "id": "ns:medicine.drug",
+            "name": "Drug"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/medicine.drug.active_moieties",
+            "name": "ns:medicine.drug.active_moieties"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.01kg7x",
+            "name": "Neville Longbottom"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.school_in_fiction.students_graduates",
+            "name": "ns:fictional_universe.school_in_fiction.students_graduates"
+        },
+        "ent1": {
+            "id": "ns:fictional_universe.fictional_setting",
+            "name": "Fictional Setting"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.fictional_setting.contains",
+            "name": "ns:fictional_universe.fictional_setting.contains"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.09rktx2",
+            "name": "DreamSpec"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/computer.computer.emulators",
+            "name": "ns:computer.computer.emulators"
+        },
+        "ent1": {
+            "id": "ns:computer.computer",
+            "name": "Computer"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/computer.computer.includes_models",
+            "name": "ns:computer.computer.includes_models"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.03nxkqd",
+            "name": "WQRW"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/broadcast.radio_format.stations",
+            "name": "ns:broadcast.radio_format.stations"
+        },
+        "ent1": {
+            "id": "ns:music.genre",
+            "name": "Musical genre"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/music.genre.parent_genre",
+            "name": "ns:music.genre.parent_genre"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0k0sv",
+            "name": "Croatian language"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/book.periodical.language",
+            "name": "ns:book.periodical.language"
+        },
+        "ent1": {
+            "id": "ns:book.periodical",
+            "name": "Periodical"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/book.magazine.genre",
+            "name": "ns:book.magazine.genre"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.03gq92j",
+            "name": "Motorcycle racing"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/organization.organization.sectors",
+            "name": "ns:organization.organization.sectors"
+        },
+        "ent1": {
+            "id": "ns:organization.organization_member",
+            "name": "Organization member"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/organization.organization_partnership.members",
+            "name": "ns:organization.organization_partnership.members"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0115mdrf",
+            "name": "Joker venom"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.fictional_universe.fictional_objects",
+            "name": "ns:fictional_universe.fictional_universe.fictional_objects"
+        },
+        "ent1": {
+            "id": "ns:fictional_universe.fictional_universe",
+            "name": "Fictional Universe"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.fictional_universe.locations",
+            "name": "ns:fictional_universe.fictional_universe.locations"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.04t6fk",
+            "name": "1941"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/film.film_subject.films",
+            "name": "ns:film.film_subject.films"
+        },
+        "ent1": {
+            "id": "ns:user.tsegaran.random.taxonomy_subject",
+            "name": "Taxonomy Subject"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/time.event.locations",
+            "name": "ns:time.event.locations"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0nl8y",
+            "name": "Atlantic languages"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/language.human_language.language_family",
+            "name": "ns:language.human_language.language_family"
+        },
+        "ent1": {
+            "id": "ns:language.human_language",
+            "name": "Human Language"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/language.human_language.dialects",
+            "name": "ns:language.human_language.dialects"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.07sdd",
+            "name": "United States Constitution"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/user.tfmorris.default_domain.signatory.documents_signed",
+            "name": "ns:user.tfmorris.default_domain.signatory.documents_signed"
+        },
+        "ent1": {
+            "id": "ns:government.politician",
+            "name": "Politician"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/government.us_president.vice_president",
+            "name": "ns:government.us_president.vice_president"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.03wm70j",
+            "name": "Social Sciences"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/broadcast.content.genre",
+            "name": "ns:broadcast.content.genre"
+        },
+        "ent1": {
+            "id": "ns:user.zsi_editorial.editorial.topic",
+            "name": "Editorial Topic"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/broadcast.content.producer",
+            "name": "ns:broadcast.content.producer"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0c4pd76",
+            "name": "Jonathan A. Glickstein"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/education.field_of_study.academics_in_this_field",
+            "name": "ns:education.field_of_study.academics_in_this_field"
+        },
+        "ent1": {
+            "id": "ns:book.magazine_genre",
+            "name": "Magazine genre"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/education.field_of_study.subdiscipline_of",
+            "name": "ns:education.field_of_study.subdiscipline_of"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0w1vh8t",
+            "name": "Playstation 4 Eye"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/computer.computer.peripherals",
+            "name": "ns:computer.computer.peripherals"
+        },
+        "ent1": {
+            "id": "ns:business.product_line",
+            "name": "Product line"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/business.product_line.parent_product_line",
+            "name": "ns:business.product_line.parent_product_line"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0hqx81z",
+            "name": "Irrigation"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/medicine.routed_drug.route_of_administration",
+            "name": "ns:medicine.routed_drug.route_of_administration"
+        },
+        "ent1": {
+            "id": "ns:medicine.condition_prevention_factors",
+            "name": "Condition prevention factors"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/medicine.routed_drug.routed_drug_of",
+            "name": "ns:medicine.routed_drug.routed_drug_of"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0gvdmyg",
+            "name": "The X-Men #2"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/comic_books.comic_book_character.cover_appearances",
+            "name": "ns:comic_books.comic_book_character.cover_appearances"
+        },
+        "ent1": {
+            "id": "ns:comic_books.comic_book_character",
+            "name": "Comic Book Character"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.children",
+            "name": "ns:fictional_universe.fictional_character.children"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0c8cl7",
+            "name": "Southwest Division"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/basketball.basketball_team.division",
+            "name": "ns:basketball.basketball_team.division"
+        },
+        "ent1": {
+            "id": "ns:award.award_winner",
+            "name": "Award Winner"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/basketball.basketball_team.head_coach",
+            "name": "ns:basketball.basketball_team.head_coach"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0cmpn",
+            "name": "George V"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/royalty.order_of_chivalry.founders",
+            "name": "ns:royalty.order_of_chivalry.founders"
+        },
+        "ent1": {
+            "id": "ns:royalty.chivalric_title",
+            "name": "Chivalric Title"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/user.alexbl.honorary_title.chivalric_order.titles_given",
+            "name": "ns:user.alexbl.honorary_title.chivalric_order.titles_given"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.044htvw",
+            "name": "Green Party nominating convention, 2008"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/government.election_campaign.election",
+            "name": "ns:government.election_campaign.election"
+        },
+        "ent1": {
+            "id": "ns:government.election_campaign",
+            "name": "Election campaign"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/government.us_presidential_campaign.running_mate",
+            "name": "ns:government.us_presidential_campaign.running_mate"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.012br3w2",
+            "name": "2014 Chevy Spark"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/automotive.model_year.previous_model_year",
+            "name": "ns:automotive.model_year.previous_model_year"
+        },
+        "ent1": {
+            "id": "ns:automotive.model_year",
+            "name": "Automobile Model Year"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/automotive.model_year.next_model_year",
+            "name": "ns:automotive.model_year.next_model_year"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.01n30b",
+            "name": "Member of the Scottish Parliament"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/government.governmental_jurisdiction.government_positions",
+            "name": "ns:government.governmental_jurisdiction.government_positions"
+        },
+        "ent1": {
+            "id": "ns:periodicals.newspaper_circulation_area",
+            "name": "Newspaper circulation area"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/location.country.first_level_divisions",
+            "name": "ns:location.country.first_level_divisions"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0kbws",
+            "name": "2008 Summer Olympics"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/olympics.olympic_participating_country.olympics_participated_in",
+            "name": "ns:olympics.olympic_participating_country.olympics_participated_in"
+        },
+        "ent1": {
+            "id": "ns:location.country",
+            "name": "Country"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/location.country.second_level_divisions",
+            "name": "ns:location.country.second_level_divisions"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.02hpsg_",
+            "name": "Beta"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/internet.website.status",
+            "name": "ns:internet.website.status"
+        },
+        "ent1": {
+            "id": "ns:user.sandos.semantic_web.semantic_website",
+            "name": "Semantic Website"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/user.sandos.semantic_web.semantic_website.in_site_capabilities",
+            "name": "ns:user.sandos.semantic_web.semantic_website.in_site_capabilities"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0y4lx2j",
+            "name": "residential moving"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/business.brand.product_lines",
+            "name": "ns:business.brand.product_lines"
+        },
+        "ent1": {
+            "id": "ns:business.brand",
+            "name": "Brand"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/business.brand.parent_brand",
+            "name": "ns:business.brand.parent_brand"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0h2c1ll",
+            "name": "X-Men #29"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.next_issue",
+            "name": "ns:comic_books.comic_book_issue.next_issue"
+        },
+        "ent1": {
+            "id": "ns:comic_books.comic_book_issue",
+            "name": "Comic Book Issue"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.previous_issue",
+            "name": "ns:comic_books.comic_book_issue.previous_issue"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0z8qd",
+            "name": "Henryetta"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/location.us_county.hud_county_place",
+            "name": "ns:location.us_county.hud_county_place"
+        },
+        "ent1": {
+            "id": "ns:location.administrative_division",
+            "name": "Administrative Division"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/location.administrative_division.second_level_division_of",
+            "name": "ns:location.administrative_division.second_level_division_of"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0j62tsm",
+            "name": "Fujifilm X-Pro1"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/digicams.camera_uncompressed_format.cameras",
+            "name": "ns:digicams.camera_uncompressed_format.cameras"
+        },
+        "ent1": {
+            "id": "ns:digicams.camera_compressed_format",
+            "name": "Camera Compressed Format"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/computer.file_format_genre.file_formats",
+            "name": "ns:computer.file_format_genre.file_formats"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0446fvc",
+            "name": "Waran"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/medicine.drug.brands",
+            "name": "ns:medicine.drug.brands"
+        },
+        "ent1": {
+            "id": "ns:user.benvvalk.default_domain.moby_output_descriptor",
+            "name": "NCI Term"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/medicine.condition_prevention_factors.conditions_this_may_prevent",
+            "name": "ns:medicine.condition_prevention_factors.conditions_this_may_prevent"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0f1lzd",
+            "name": "Turtle RDF"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/user.sandos.computation.specification.has_serialization",
+            "name": "ns:user.sandos.computation.specification.has_serialization"
+        },
+        "ent1": {
+            "id": "ns:computer.internet_protocol",
+            "name": "Internet Protocol"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/user.giladgoren.default_domain.supertopic.topic",
+            "name": "ns:user.giladgoren.default_domain.supertopic.topic"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0j3j98x",
+            "name": "Electric field domain patterning: U.S. Patent No. 6,156,255"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/law.inventor.us_patents",
+            "name": "ns:law.inventor.us_patents"
+        },
+        "ent1": {
+            "id": "ns:law.inventor",
+            "name": "Inventor"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/education.academic.advisees",
+            "name": "ns:education.academic.advisees"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.027zhgh",
+            "name": "Nicholas Blair"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.character_powers.characters_with_this_ability",
+            "name": "ns:fictional_universe.character_powers.characters_with_this_ability"
+        },
+        "ent1": {
+            "id": "ns:fictional_universe.character_powers",
+            "name": "Character Power"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.powers_or_abilities",
+            "name": "ns:fictional_universe.fictional_character.powers_or_abilities"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.026s9f3",
+            "name": "Roodafshan Cave"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/geography.geographical_feature_category.features",
+            "name": "ns:geography.geographical_feature_category.features"
+        },
+        "ent1": {
+            "id": "ns:geography.geographical_feature_category",
+            "name": "Geographical feature category"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/geography.geographical_feature_category.subcategories",
+            "name": "ns:geography.geographical_feature_category.subcategories"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.03_qm",
+            "name": "Jeep"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/automotive.company.make_s",
+            "name": "ns:automotive.company.make_s"
+        },
+        "ent1": {
+            "id": "ns:internet.website_owner",
+            "name": "Website Owner"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/organization.organization.acquired_by",
+            "name": "ns:organization.organization.acquired_by"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.046rk3",
+            "name": "Miguel Najdorf"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/people.ethnicity.people",
+            "name": "ns:people.ethnicity.people"
+        },
+        "ent1": {
+            "id": "ns:military.military_combatant",
+            "name": "Military Combatant"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/people.ethnicity.includes_groups",
+            "name": "ns:people.ethnicity.includes_groups"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0g9f_qz",
+            "name": "Why Go?"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/music.music_video_subject.subject_in_these_music_videos",
+            "name": "ns:music.music_video_subject.subject_in_these_music_videos"
+        },
+        "ent1": {
+            "id": "ns:film.actor",
+            "name": "Film actor"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/people.person.parents",
+            "name": "ns:people.person.parents"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0h52w",
+            "name": "National Register of Historic Places"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/protected_sites.natural_or_cultural_site_listing.designation",
+            "name": "ns:protected_sites.natural_or_cultural_site_listing.designation"
+        },
+        "ent1": {
+            "id": "ns:protected_sites.natural_or_cultural_site_listing",
+            "name": "Natural or Cultural Site Listing"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/protected_sites.listed_site.designation_as_natural_or_cultural_site",
+            "name": "ns:protected_sites.listed_site.designation_as_natural_or_cultural_site"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.09dx833",
+            "name": "Meeting Room"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/travel.accommodation.features",
+            "name": "ns:travel.accommodation.features"
+        },
+        "ent1": {
+            "id": "ns:travel.accommodation",
+            "name": "Accommodation"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/travel.hotel.operated_by",
+            "name": "ns:travel.hotel.operated_by"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0n5tx",
+            "name": "RSS"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/internet.blog.focus",
+            "name": "ns:internet.blog.focus"
+        },
+        "ent1": {
+            "id": "ns:internet.blog",
+            "name": "Blog"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/internet.website.category",
+            "name": "ns:internet.website.category"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0620f",
+            "name": "PowerPC"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/computer.processor_manufacturer.processors_manufactured",
+            "name": "ns:computer.processor_manufacturer.processors_manufactured"
+        },
+        "ent1": {
+            "id": "ns:award.ranked_item",
+            "name": "Ranked item"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/business.business_operation.major_customer",
+            "name": "ns:business.business_operation.major_customer"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.06msq",
+            "name": "Sculpture"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/visual_art.artwork.art_form",
+            "name": "ns:visual_art.artwork.art_form"
+        },
+        "ent1": {
+            "id": "ns:visual_art.artwork",
+            "name": "Artwork"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/visual_art.artwork.edition_of",
+            "name": "ns:visual_art.artwork.edition_of"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.05sv77",
+            "name": "FIVB Volleyball World Championship"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/time.event.instance_of_recurring_event",
+            "name": "ns:time.event.instance_of_recurring_event"
+        },
+        "ent1": {
+            "id": "ns:sports.sports_championship_event",
+            "name": "Sports League Championship Event"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/time.event.next_in_series",
+            "name": "ns:time.event.next_in_series"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0bbqv9t",
+            "name": "Selma"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/book.review.work_reviewed",
+            "name": "ns:book.review.work_reviewed"
+        },
+        "ent1": {
+            "id": "ns:book.short_non_fiction",
+            "name": "Short Non-fiction"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/book.short_non_fiction.mode_of_writing",
+            "name": "ns:book.short_non_fiction.mode_of_writing"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0drvv24",
+            "name": "Woronzow"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/music.release.label",
+            "name": "ns:music.release.label"
+        },
+        "ent1": {
+            "id": "ns:music.release",
+            "name": "Musical Release"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/music.multipart_release.components",
+            "name": "ns:music.multipart_release.components"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0cpv78",
+            "name": "IMSAI Series Two"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/computer.computer_processor.used_in_computers",
+            "name": "ns:computer.computer_processor.used_in_computers"
+        },
+        "ent1": {
+            "id": "ns:computer.computer_processor",
+            "name": "Computer Processor"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/computer.computer_processor.processor_family",
+            "name": "ns:computer.computer_processor.processor_family"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0ncl8zk",
+            "name": "British Broadcasting Corporation"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/broadcast.tv_station.owner",
+            "name": "ns:broadcast.tv_station.owner"
+        },
+        "ent1": {
+            "id": "ns:tv.tv_network",
+            "name": "TV Network"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/broadcast.tv_channel.network",
+            "name": "ns:broadcast.tv_channel.network"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.062zt2n",
+            "name": "Star Trek: Warp Figures"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/business.product_theme.product_lines",
+            "name": "ns:business.product_theme.product_lines"
+        },
+        "ent1": {
+            "id": "ns:award.award_winning_work",
+            "name": "Award-Winning Work"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/film.film.sequel",
+            "name": "ns:film.film.sequel"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0c79r0",
+            "name": "Northeast Division"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/user.rcheramy.default_domain.hockey_team.division",
+            "name": "ns:user.rcheramy.default_domain.hockey_team.division"
+        },
+        "ent1": {
+            "id": "ns:user.rcheramy.default_domain.hockey_team",
+            "name": "Hockey Team"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/user.rcheramy.default_domain.hockey_team.affiliate_team",
+            "name": "ns:user.rcheramy.default_domain.hockey_team.affiliate_team"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.063pl80",
+            "name": "The Enemy: A Book About Peace"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/book.publishing_company.books_published",
+            "name": "ns:book.publishing_company.books_published"
+        },
+        "ent1": {
+            "id": "ns:book.publishing_company",
+            "name": "Publisher"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/book.publishing_company.imprint_of",
+            "name": "ns:book.publishing_company.imprint_of"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.039cp",
+            "name": "Grappling"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/martial_arts.martial_art.category",
+            "name": "ns:martial_arts.martial_art.category"
+        },
+        "ent1": {
+            "id": "ns:martial_arts.martial_art",
+            "name": "Martial Art"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/martial_arts.martial_arts_organization.martial_arts",
+            "name": "ns:martial_arts.martial_arts_organization.martial_arts"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.05l0b",
+            "name": "Open-source license"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/computer.software_license.version_of",
+            "name": "ns:computer.software_license.version_of"
+        },
+        "ent1": {
+            "id": "ns:computer.software_license",
+            "name": "Software License"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/computer.software_license.versions",
+            "name": "ns:computer.software_license.versions"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.01xrtqc",
+            "name": "Norman I. Adams"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/computer.programming_language.developers",
+            "name": "ns:computer.programming_language.developers"
+        },
+        "ent1": {
+            "id": "ns:computer.programming_language",
+            "name": "Programming Language"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/computer.programming_language.parent_language",
+            "name": "ns:computer.programming_language.parent_language"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.03t4gh",
+            "name": "Computer Systems Research Group"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/computer.operating_system.developer",
+            "name": "ns:computer.operating_system.developer"
+        },
+        "ent1": {
+            "id": "ns:cvg.cvg_platform",
+            "name": "Video Game Platform"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/computer.operating_system.parent_os",
+            "name": "ns:computer.operating_system.parent_os"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0hzxk27",
+            "name": "Bloomer Island"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/geography.body_of_water.islands",
+            "name": "ns:geography.body_of_water.islands"
+        },
+        "ent1": {
+            "id": "ns:geography.geographical_feature",
+            "name": "Geographical Feature"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/geography.lake.inflow",
+            "name": "ns:geography.lake.inflow"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.03ksy",
+            "name": "Harvard University"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/education.education.institution",
+            "name": "ns:education.education.institution"
+        },
+        "ent1": {
+            "id": "ns:education.education",
+            "name": "Education"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/education.education.student",
+            "name": "ns:education.education.student"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.012w8w3b",
+            "name": "blluetekgroup"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/business.consumer_product.brand",
+            "name": "ns:business.consumer_product.brand"
+        },
+        "ent1": {
+            "id": "ns:user.arachnid.a_tale_in_the_desert_tech_tree.skill",
+            "name": "Skill"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/user.bruceesrig.default_domain.skills.more_specific_skill",
+            "name": "ns:user.bruceesrig.default_domain.skills.more_specific_skill"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.07wbk",
+            "name": "Republican Party"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/government.political_party_tenure.party",
+            "name": "ns:government.political_party_tenure.party"
+        },
+        "ent1": {
+            "id": "ns:government.political_party_tenure",
+            "name": "Political Party Tenure"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/government.political_party_tenure.politician",
+            "name": "ns:government.political_party_tenure.politician"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0f1tg",
+            "name": "Strategy game"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/games.game.genre",
+            "name": "ns:games.game.genre"
+        },
+        "ent1": {
+            "id": "ns:games.game",
+            "name": "Game"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/games.game.derivative_games",
+            "name": "ns:games.game.derivative_games"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.04stvw7",
+            "name": "Public"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/sports.golf_facility.access",
+            "name": "ns:sports.golf_facility.access"
+        },
+        "ent1": {
+            "id": "ns:sports.golf_facility",
+            "name": "Golf Facility"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/sports.golf_facility.courses",
+            "name": "ns:sports.golf_facility.courses"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.015czt",
+            "name": "Lieutenant"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/military.military_service.rank",
+            "name": "ns:military.military_service.rank"
+        },
+        "ent1": {
+            "id": "ns:military.military_service",
+            "name": "Military Service"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/military.military_service.military_force",
+            "name": "ns:military.military_service.military_force"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0cs_ycl",
+            "name": "91/98 Avgas"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/engineering.engine.energy_source",
+            "name": "ns:engineering.engine.energy_source"
+        },
+        "ent1": {
+            "id": "ns:projects.project_focus",
+            "name": "Project focus"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/engineering.engine.variants",
+            "name": "ns:engineering.engine.variants"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0ch8hcq",
+            "name": "The Sacred Band of Stepsons universe"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.fictional_substance.appears_in_fictional_universe",
+            "name": "ns:fictional_universe.fictional_substance.appears_in_fictional_universe"
+        },
+        "ent1": {
+            "id": "ns:visual_art.visual_art_medium",
+            "name": "Visual Art Medium"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/engineering.material.parent_material_class",
+            "name": "ns:engineering.material.parent_material_class"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0192n2",
+            "name": "ThaiBev"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/food.beer.brewery_brand",
+            "name": "ns:food.beer.brewery_brand"
+        },
+        "ent1": {
+            "id": "ns:food.beer",
+            "name": "Beer"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/food.beer.beer_style",
+            "name": "ns:food.beer.beer_style"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0y5mrjs",
+            "name": "Mike Lee"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/book.literary_series.author_s",
+            "name": "ns:book.literary_series.author_s"
+        },
+        "ent1": {
+            "id": "ns:book.literary_series",
+            "name": "Literary Series"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/book.literary_series.sub_series",
+            "name": "ns:book.literary_series.sub_series"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0c9xfxs",
+            "name": "Askelon solicits Niko"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.event_in_fiction.includes_events",
+            "name": "ns:fictional_universe.event_in_fiction.includes_events"
+        },
+        "ent1": {
+            "id": "ns:fictional_universe.event_in_fiction",
+            "name": "Event in fiction"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.event_in_fiction.included_by_these_events",
+            "name": "ns:fictional_universe.event_in_fiction.included_by_these_events"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.06279",
+            "name": "Portable Network Graphics"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/user.margit.default_domain.visualization_tool.export_formats",
+            "name": "ns:user.margit.default_domain.visualization_tool.export_formats"
+        },
+        "ent1": {
+            "id": "ns:user.margit.default_domain.visualization_tool",
+            "name": "Visualization Tool"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/user.margit.default_domain.visualization_tool.software_required",
+            "name": "ns:user.margit.default_domain.visualization_tool.software_required"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.01dyhm",
+            "name": "Firefox"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/computer.internet_protocol.software_used_by",
+            "name": "ns:computer.internet_protocol.software_used_by"
+        },
+        "ent1": {
+            "id": "ns:internet.api",
+            "name": "API"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/internet.protocol.api",
+            "name": "ns:internet.protocol.api"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.09lywkd",
+            "name": "The Two Rivers"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.place_of_birth",
+            "name": "ns:fictional_universe.fictional_character.place_of_birth"
+        },
+        "ent1": {
+            "id": "ns:user.glondish.default_domain.wheel_of_time_character",
+            "name": "Wheel of Time Character"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/user.glondish.default_domain.wheel_of_time_character.bonded_to",
+            "name": "ns:user.glondish.default_domain.wheel_of_time_character.bonded_to"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0qtvry7",
+            "name": "Muslims"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/religion.religion.collective_term_for_adherents",
+            "name": "ns:religion.religion.collective_term_for_adherents"
+        },
+        "ent1": {
+            "id": "ns:tv.tv_subject",
+            "name": "TV subject"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/religion.religion.founding_figures",
+            "name": "ns:religion.religion.founding_figures"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.08v6",
+            "name": "audio/x-mpegurl"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/broadcast.internet_stream.playlist_format",
+            "name": "ns:broadcast.internet_stream.playlist_format"
+        },
+        "ent1": {
+            "id": "ns:broadcast.broadcast",
+            "name": "Broadcast"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/broadcast.broadcast.content",
+            "name": "ns:broadcast.broadcast.content"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.02k_k54",
+            "name": "First Generation Ford Edge"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/automotive.platform.generations",
+            "name": "ns:automotive.platform.generations"
+        },
+        "ent1": {
+            "id": "ns:automotive.platform",
+            "name": "Platform"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/automotive.platform.related",
+            "name": "ns:automotive.platform.related"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.01xs1ch",
+            "name": "East-West"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/transportation.road.orientation",
+            "name": "ns:transportation.road.orientation"
+        },
+        "ent1": {
+            "id": "ns:transportation.road",
+            "name": "Road"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/transportation.highway_system.highways",
+            "name": "ns:transportation.highway_system.highways"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.03bvlhl",
+            "name": "Reverse"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.fictional_calendar_system.directionality",
+            "name": "ns:fictional_universe.fictional_calendar_system.directionality"
+        },
+        "ent1": {
+            "id": "ns:fictional_universe.fictional_calendar_system",
+            "name": "Fictional Calendar System"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.fictional_calendar_system.replaced_with",
+            "name": "ns:fictional_universe.fictional_calendar_system.replaced_with"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.06znc7b",
+            "name": "Soul Power"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/film.film_festival_event.films",
+            "name": "ns:film.film_festival_event.films"
+        },
+        "ent1": {
+            "id": "ns:film.film_screening_venue",
+            "name": "Film screening venue"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/film.film_festival_event.festival",
+            "name": "ns:film.film_festival_event.festival"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0jm_",
+            "name": "American football"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/sports.pro_sports_played.sport",
+            "name": "ns:sports.pro_sports_played.sport"
+        },
+        "ent1": {
+            "id": "ns:sports.pro_sports_played",
+            "name": "Sports played"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/sports.pro_athlete.sports_played_professionally",
+            "name": "ns:sports.pro_athlete.sports_played_professionally"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0pqc5",
+            "name": "Mayor"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/government.government_position_held.basic_title",
+            "name": "ns:government.government_position_held.basic_title"
+        },
+        "ent1": {
+            "id": "ns:government.government_position_held",
+            "name": "Government Position Held"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/government.government_position_held.office_holder",
+            "name": "ns:government.government_position_held.office_holder"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0970y",
+            "name": "Pion"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/physics.particle_family.particles",
+            "name": "ns:physics.particle_family.particles"
+        },
+        "ent1": {
+            "id": "ns:physics.particle_family",
+            "name": "Subatomic particle family"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/physics.particle_family.parent_class",
+            "name": "ns:physics.particle_family.parent_class"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0yd_pc8",
+            "name": "F1 2012"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/computer.computer_peripheral_class.supporting_game_versions",
+            "name": "ns:computer.computer_peripheral_class.supporting_game_versions"
+        },
+        "ent1": {
+            "id": "ns:computer.computer_peripheral_class",
+            "name": "Computer Peripheral Class"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/computer.computer_peripheral_class.instance_of",
+            "name": "ns:computer.computer_peripheral_class.instance_of"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.06cx0m",
+            "name": "Sunset State Beach"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/protected_sites.park_system.member_parks",
+            "name": "ns:protected_sites.park_system.member_parks"
+        },
+        "ent1": {
+            "id": "ns:government.government_agency",
+            "name": "Government Agency"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/government.government_agency.jurisdiction",
+            "name": "ns:government.government_agency.jurisdiction"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0cnb192",
+            "name": "swordsmen"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.fictional_object.destroyer",
+            "name": "ns:fictional_universe.fictional_object.destroyer"
+        },
+        "ent1": {
+            "id": "ns:fictional_universe.fictional_object",
+            "name": "Fictional Object"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/fictional_universe.fictional_object.location",
+            "name": "ns:fictional_universe.fictional_object.location"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.037d3",
+            "name": "Gregorian calendar"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/time.day_of_year.calendar_system",
+            "name": "ns:time.day_of_year.calendar_system"
+        },
+        "ent1": {
+            "id": "ns:time.day_of_year",
+            "name": "Day Of Year"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/time.day_of_year.holidays",
+            "name": "ns:time.day_of_year.holidays"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.04t64n",
+            "name": "Managing Director"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/organization.leadership.role",
+            "name": "ns:organization.leadership.role"
+        },
+        "ent1": {
+            "id": "ns:organization.leadership",
+            "name": "Organization leadership"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/organization.leadership.person",
+            "name": "ns:organization.leadership.person"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.01khll",
+            "name": "Military order"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/royalty.order_of_chivalry.category",
+            "name": "ns:royalty.order_of_chivalry.category"
+        },
+        "ent1": {
+            "id": "ns:royalty.order_of_chivalry",
+            "name": "Order of Chivalry"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/royalty.chivalric_order_founder.orders_founded",
+            "name": "ns:royalty.chivalric_order_founder.orders_founded"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0f6kx",
+            "name": "Monday"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/business.open_times.weekday_start",
+            "name": "ns:business.open_times.weekday_start"
+        },
+        "ent1": {
+            "id": "ns:business.open_times",
+            "name": "Open Times"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/business.business_location.hours",
+            "name": "ns:business.business_location.hours"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0gsg7",
+            "name": "American Broadcasting Company"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/tv.tv_network_duration.network",
+            "name": "ns:tv.tv_network_duration.network"
+        },
+        "ent1": {
+            "id": "ns:tv.tv_network_duration",
+            "name": "TV Program Duration At Network"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/tv.tv_program.original_network",
+            "name": "ns:tv.tv_program.original_network"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.0xnk2",
+            "name": "SkyTrain"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/metropolitan_transit.transit_line.transit_system",
+            "name": "ns:metropolitan_transit.transit_line.transit_system"
+        },
+        "ent1": {
+            "id": "ns:metropolitan_transit.transit_system",
+            "name": "Mass Transportation System"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/metropolitan_transit.transit_system.agency",
+            "name": "ns:metropolitan_transit.transit_system.agency"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.013sb1",
+            "name": "Emmy Award"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/award.award.parent_award",
+            "name": "ns:award.award.parent_award"
+        },
+        "ent1": {
+            "id": "ns:award.award",
+            "name": "Award"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/award.award.child_awards",
+            "name": "ns:award.award.child_awards"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.089m7",
+            "name": "Zombie"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/comic_books.comic_book_story.genre",
+            "name": "ns:comic_books.comic_book_story.genre"
+        },
+        "ent1": {
+            "id": "ns:comic_books.comic_book_story",
+            "name": "Comic Book Story"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/comic_books.comic_book_series.continued_by",
+            "name": "ns:comic_books.comic_book_series.continued_by"
+        }
+    },
+    {
+        "?ent0": {
+            "id": "ns:m.02hw9s0",
+            "name": "Director"
+        },
+        "rel1": {
+            "id": "http://rdf.freebase.com/ns/business.employment_tenure.title",
+            "name": "ns:business.employment_tenure.title"
+        },
+        "ent1": {
+            "id": "ns:business.employment_tenure",
+            "name": "Employment tenure"
+        },
+        "rel0": {
+            "id": "http://rdf.freebase.com/ns/business.employment_tenure.person",
+            "name": "ns:business.employment_tenure.person"
+        }
+    }
+]

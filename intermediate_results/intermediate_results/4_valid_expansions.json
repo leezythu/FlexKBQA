@@ -1,0 +1,996 @@
+[
+    {
+        "?ent0": "ns:m.07tds",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/base.csafarms.area_served.farms",
+        "rel2": "http://rdf.freebase.com/ns/base.csafarms.farm.areas_served",
+        "ent1": "http://rdf.freebase.com/ns/m.09c7w0"
+    },
+    {
+        "?ent0": "ns:m.02482c",
+        "rel0": "http://rdf.freebase.com/ns/fictional_universe.school_in_fiction.students_graduates",
+        "rel1": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.gender",
+        "rel2": "http://rdf.freebase.com/ns/base.schemastaging.context_name.pronunciation",
+        "ent1": "http://rdf.freebase.com/ns/m.011sf4j6"
+    },
+    {
+        "?ent0": "ns:m.06tpfgv",
+        "rel0": "http://rdf.freebase.com/ns/book.written_work.author",
+        "rel1": "http://rdf.freebase.com/ns/book.author.works_written",
+        "rel2": "http://rdf.freebase.com/ns/book.written_work.author",
+        "ent1": "http://rdf.freebase.com/ns/m.05y9250"
+    },
+    {
+        "?ent0": "ns:m.02r8js",
+        "rel0": "http://rdf.freebase.com/ns/symbols.namesake.named_after",
+        "rel1": "http://rdf.freebase.com/ns/people.person.nationality",
+        "rel2": "http://rdf.freebase.com/ns/base.csafarms.area_served.farms",
+        "ent1": "http://rdf.freebase.com/ns/m.0ch8vx5"
+    },
+    {
+        "?ent0": "ns:m.02llgt2",
+        "rel0": "http://rdf.freebase.com/ns/biology.genomic_locus.annotation",
+        "rel1": "http://rdf.freebase.com/ns/biology.gene.chromosome",
+        "rel2": "http://rdf.freebase.com/ns/biology.chromosome.band",
+        "ent1": "http://rdf.freebase.com/ns/m.02kwgnb"
+    },
+    {
+        "?ent0": "ns:m.052_b7",
+        "rel0": "http://rdf.freebase.com/ns/business.job_title.people_with_this_title",
+        "rel1": "http://rdf.freebase.com/ns/business.employment_tenure.company",
+        "rel2": "http://rdf.freebase.com/ns/award.award_nominee.award_nominations",
+        "ent1": "http://rdf.freebase.com/ns/m.0lnhzxh"
+    },
+    {
+        "?ent0": "ns:m.0dqm9kt",
+        "rel0": "http://rdf.freebase.com/ns/music.record_label.releases",
+        "rel1": "http://rdf.freebase.com/ns/music.release.album",
+        "rel2": "http://rdf.freebase.com/ns/music.album.artist",
+        "ent1": "http://rdf.freebase.com/ns/m.01vkhxm"
+    },
+    {
+        "?ent0": "ns:m.082hp",
+        "rel0": "http://rdf.freebase.com/ns/law.invention.inventor",
+        "rel1": "http://rdf.freebase.com/ns/book.author.works_written",
+        "rel2": "http://rdf.freebase.com/ns/book.written_work.author",
+        "ent1": "http://rdf.freebase.com/ns/m.07d5b"
+    },
+    {
+        "?ent0": "ns:m.0hmtk",
+        "rel0": "http://rdf.freebase.com/ns/award.award_nominee.award_nominations",
+        "rel1": "http://rdf.freebase.com/ns/award.award_nomination.award",
+        "rel2": "http://rdf.freebase.com/ns/award.award_category.category_of",
+        "ent1": "http://rdf.freebase.com/ns/m.02wth1"
+    },
+    {
+        "?ent0": "ns:m.0f04nn",
+        "rel0": "http://rdf.freebase.com/ns/engineering.engine.category",
+        "rel1": "http://rdf.freebase.com/ns/engineering.engine_category.engines",
+        "rel2": "http://rdf.freebase.com/ns/award.award_winning_work.awards_won",
+        "ent1": "http://rdf.freebase.com/ns/m.046wjvt"
+    },
+    {
+        "?ent0": "ns:m.011xcykw",
+        "rel0": "http://rdf.freebase.com/ns/music.recording.artist",
+        "rel1": "http://rdf.freebase.com/ns/music.artist.genre",
+        "rel2": "http://rdf.freebase.com/ns/music.genre.artists",
+        "ent1": "http://rdf.freebase.com/ns/m.09k7dj0"
+    },
+    {
+        "?ent0": "ns:m.02w9jr1",
+        "rel0": "http://rdf.freebase.com/ns/automotive.model.make",
+        "rel1": "http://rdf.freebase.com/ns/automotive.make.model_s",
+        "rel2": "http://rdf.freebase.com/ns/automotive.model.generations",
+        "ent1": "http://rdf.freebase.com/ns/m.04hdqql"
+    },
+    {
+        "?ent0": "ns:m.047j688",
+        "rel0": "http://rdf.freebase.com/ns/award.award_winning_work.awards_won",
+        "rel1": "http://rdf.freebase.com/ns/award.award_honor.award",
+        "rel2": "http://rdf.freebase.com/ns/award.award_category.winners",
+        "ent1": "http://rdf.freebase.com/ns/m.0bh5s9m"
+    },
+    {
+        "?ent0": "ns:m.04vdgk6",
+        "rel0": "http://rdf.freebase.com/ns/book.book_edition.binding",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.brand",
+        "rel2": "http://rdf.freebase.com/ns/business.brand.products",
+        "ent1": "http://rdf.freebase.com/ns/m.01jm4n"
+    },
+    {
+        "?ent0": "ns:m.05t073s",
+        "rel0": "http://rdf.freebase.com/ns/biology.pedigreed_animal.breed",
+        "rel1": "http://rdf.freebase.com/ns/biology.animal_breed.examples",
+        "rel2": "http://rdf.freebase.com/ns/biology.pedigreed_animal.breed",
+        "ent1": "http://rdf.freebase.com/ns/m.02_jdw"
+    },
+    {
+        "?ent0": "ns:m.01xrlm",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/fictional_universe.fictional_setting.characters_that_have_lived_here",
+        "rel2": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.places_lived",
+        "ent1": "http://rdf.freebase.com/ns/m.01s3v"
+    },
+    {
+        "?ent0": "ns:m.0bhhzt5",
+        "rel0": "http://rdf.freebase.com/ns/book.written_work.author",
+        "rel1": "http://rdf.freebase.com/ns/book.author.works_written",
+        "rel2": "http://rdf.freebase.com/ns/book.written_work.author",
+        "ent1": "http://rdf.freebase.com/ns/m.06y7d"
+    },
+    {
+        "?ent0": "ns:m.0zh_bys",
+        "rel0": "http://rdf.freebase.com/ns/music.composition.composer",
+        "rel1": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel2": "http://rdf.freebase.com/ns/music.recording.artist",
+        "ent1": "http://rdf.freebase.com/ns/m.01tsv1"
+    },
+    {
+        "?ent0": "ns:m.04l1gwb",
+        "rel0": "http://rdf.freebase.com/ns/base.descriptive_names.names.descriptive_name",
+        "rel1": "http://rdf.freebase.com/ns/base.schemastaging.plural_form.language",
+        "rel2": "http://rdf.freebase.com/ns/base.cldrinfo.langinfo.language",
+        "ent1": "http://rdf.freebase.com/ns/m.0gwsc4h"
+    },
+    {
+        "?ent0": "ns:m.0j_bfx4",
+        "rel0": "http://rdf.freebase.com/ns/fictional_universe.fictional_universe.characters",
+        "rel1": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.gender",
+        "rel2": "http://rdf.freebase.com/ns/base.pethealth.pet_disease_risk_factor.pet_diseases_with_this_risk_factor",
+        "ent1": "http://rdf.freebase.com/ns/m.04yhgxn"
+    },
+    {
+        "?ent0": "ns:m.05b8y8",
+        "rel0": "http://rdf.freebase.com/ns/book.author.works_written",
+        "rel1": "http://rdf.freebase.com/ns/book.book.editions",
+        "rel2": "http://rdf.freebase.com/ns/book.book_edition.binding",
+        "ent1": "http://rdf.freebase.com/ns/m.023rr3"
+    },
+    {
+        "?ent0": "ns:m.043lrs2",
+        "rel0": "http://rdf.freebase.com/ns/people.person.gender",
+        "rel1": "http://rdf.freebase.com/ns/base.pethealth.pet_disease_risk_factor.pet_diseases_with_this_risk_factor",
+        "rel2": "http://rdf.freebase.com/ns/base.pethealth.pet_disease_or_medical_condition.causes",
+        "ent1": "http://rdf.freebase.com/ns/m.064dl3z"
+    },
+    {
+        "?ent0": "ns:m.07g9lh",
+        "rel0": "http://rdf.freebase.com/ns/physics.hadron.composition",
+        "rel1": "http://rdf.freebase.com/ns/physics.subatomic_particle_composition.particle",
+        "rel2": "http://rdf.freebase.com/ns/physics.particle.antiparticle",
+        "ent1": "http://rdf.freebase.com/ns/m.094ntzw"
+    },
+    {
+        "?ent0": "ns:m.087kpqg",
+        "rel0": "http://rdf.freebase.com/ns/book.book_edition.book",
+        "rel1": "http://rdf.freebase.com/ns/book.written_work.author",
+        "rel2": "http://rdf.freebase.com/ns/book.author.works_written",
+        "ent1": "http://rdf.freebase.com/ns/m.06rs8gw"
+    },
+    {
+        "?ent0": "ns:m.04ydtzf",
+        "rel0": "http://rdf.freebase.com/ns/book.written_work.author",
+        "rel1": "http://rdf.freebase.com/ns/book.author.works_written",
+        "rel2": "http://rdf.freebase.com/ns/base.schemastaging.context_name.pronunciation",
+        "ent1": "http://rdf.freebase.com/ns/m.010v_vf8"
+    },
+    {
+        "?ent0": "ns:m.09fj8w",
+        "rel0": "http://rdf.freebase.com/ns/soccer.football_league.league_system",
+        "rel1": "http://rdf.freebase.com/ns/soccer.football_league_system.leagues",
+        "rel2": "http://rdf.freebase.com/ns/soccer.football_league.governing_body",
+        "ent1": "http://rdf.freebase.com/ns/m.03308v"
+    },
+    {
+        "?ent0": "ns:m.05jhg",
+        "rel0": "http://rdf.freebase.com/ns/user.techgnostic.default_domain.magazine_topic.periodical",
+        "rel1": "http://rdf.freebase.com/ns/user.techgnostic.default_domain.newspaper.market_areas",
+        "rel2": "http://rdf.freebase.com/ns/base.csafarms.area_served.farms",
+        "ent1": "http://rdf.freebase.com/ns/m.0ch8vx5"
+    },
+    {
+        "?ent0": "ns:m.0lcy_7g",
+        "rel0": "http://rdf.freebase.com/ns/book.book.interior_illustrations_by",
+        "rel1": "http://rdf.freebase.com/ns/book.author.works_written",
+        "rel2": "http://rdf.freebase.com/ns/book.written_work.author",
+        "ent1": "http://rdf.freebase.com/ns/m.048tyb"
+    },
+    {
+        "?ent0": "ns:m.01_1m4",
+        "rel0": "http://rdf.freebase.com/ns/theater.play.orchestrator",
+        "rel1": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel2": "http://rdf.freebase.com/ns/music.recording.artist",
+        "ent1": "http://rdf.freebase.com/ns/m.06w5x3l"
+    },
+    {
+        "?ent0": "ns:m.043jfp",
+        "rel0": "http://rdf.freebase.com/ns/spaceflight.bipropellant_rocket_engine.engine_cycle",
+        "rel1": "http://rdf.freebase.com/ns/spaceflight.rocket_engine_cycle.rocket_engines",
+        "rel2": "http://rdf.freebase.com/ns/spaceflight.bipropellant_rocket_engine.engine_cycle",
+        "ent1": "http://rdf.freebase.com/ns/m.04qqvv"
+    },
+    {
+        "?ent0": "ns:m.0hqsdz7",
+        "rel0": "http://rdf.freebase.com/ns/medicine.drug_formulation.active_ingredient_moieties",
+        "rel1": "http://rdf.freebase.com/ns/medicine.medical_treatment.used_to_treat",
+        "rel2": "http://rdf.freebase.com/ns/base.schemastaging.context_name.pronunciation",
+        "ent1": "http://rdf.freebase.com/ns/m.010wzfpf"
+    },
+    {
+        "?ent0": "ns:m.09c7w0",
+        "rel0": "http://rdf.freebase.com/ns/base.csafarms.area_served.farms",
+        "rel1": "http://rdf.freebase.com/ns/organization.organization.founders",
+        "rel2": "http://rdf.freebase.com/ns/people.person.gender",
+        "ent1": "http://rdf.freebase.com/ns/m.05zppz"
+    },
+    {
+        "?ent0": "ns:m.01ppq",
+        "rel0": "http://rdf.freebase.com/ns/location.country.administrative_divisions",
+        "rel1": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel2": "http://rdf.freebase.com/ns/location.country.currency_formerly_used",
+        "ent1": "http://rdf.freebase.com/ns/m.04dq0w"
+    },
+    {
+        "?ent0": "ns:m.05tjwzr",
+        "rel0": "http://rdf.freebase.com/ns/language.language_family.languages",
+        "rel1": "http://rdf.freebase.com/ns/language.human_language.dialects",
+        "rel2": "http://rdf.freebase.com/ns/language.language_dialect.language",
+        "ent1": "http://rdf.freebase.com/ns/m.051vv3s"
+    },
+    {
+        "?ent0": "ns:m.016f5d",
+        "rel0": "http://rdf.freebase.com/ns/people.ethnicity.geographic_distribution",
+        "rel1": "http://rdf.freebase.com/ns/base.litcentral.focal_location.species_habitat_relationships",
+        "rel2": "http://rdf.freebase.com/ns/base.litcentral.source_feature_taxa.location",
+        "ent1": "http://rdf.freebase.com/ns/m.0j95"
+    },
+    {
+        "?ent0": "ns:m.05fplp",
+        "rel0": "http://rdf.freebase.com/ns/visual_art.art_subject.artwork_on_the_subject",
+        "rel1": "http://rdf.freebase.com/ns/visual_art.artwork.artist",
+        "rel2": "http://rdf.freebase.com/ns/visual_art.visual_artist.art_series",
+        "ent1": "http://rdf.freebase.com/ns/m.04xd4hd"
+    },
+    {
+        "?ent0": "ns:m.040fp9d",
+        "rel0": "http://rdf.freebase.com/ns/automotive.make.model_s",
+        "rel1": "http://rdf.freebase.com/ns/user.alecf.car_sharing.vehicle.pickup_location",
+        "rel2": "http://rdf.freebase.com/ns/user.alecf.car_sharing.vehicle_location_value.location",
+        "ent1": "http://rdf.freebase.com/ns/m.02qkl65"
+    },
+    {
+        "?ent0": "ns:m.0f1tg",
+        "rel0": "http://rdf.freebase.com/ns/dataworld.gardening_hint.split_to",
+        "rel1": "http://rdf.freebase.com/ns/award.award_discipline.awards_in_this_discipline",
+        "rel2": "http://rdf.freebase.com/ns/award.award_category.category_of",
+        "ent1": "http://rdf.freebase.com/ns/m.01q_dd"
+    },
+    {
+        "?ent0": "ns:m.0cm6x4l",
+        "rel0": "http://rdf.freebase.com/ns/fictional_universe.fictional_setting.works_set_here",
+        "rel1": "http://rdf.freebase.com/ns/book.written_work.author",
+        "rel2": "http://rdf.freebase.com/ns/book.author.works_written",
+        "ent1": "http://rdf.freebase.com/ns/m.05qcwfh"
+    },
+    {
+        "?ent0": "ns:m.0459s8m",
+        "rel0": "http://rdf.freebase.com/ns/government.election_campaign.candidate",
+        "rel1": "http://rdf.freebase.com/ns/people.person.gender",
+        "rel2": "http://rdf.freebase.com/ns/base.schemastaging.context_name.pronunciation",
+        "ent1": "http://rdf.freebase.com/ns/m.011sf4j6"
+    },
+    {
+        "?ent0": "ns:m.081k8",
+        "rel0": "http://rdf.freebase.com/ns/book.author.works_written",
+        "rel1": "http://rdf.freebase.com/ns/theater.play.orchestrator",
+        "rel2": "http://rdf.freebase.com/ns/book.author.works_written",
+        "ent1": "http://rdf.freebase.com/ns/m.06k9cft"
+    },
+    {
+        "?ent0": "ns:m.0778jb",
+        "rel0": "http://rdf.freebase.com/ns/biology.organism_classification.higher_classification",
+        "rel1": "http://rdf.freebase.com/ns/base.ecology.food_web_member.eaten_by",
+        "rel2": "http://rdf.freebase.com/ns/base.ecology.food_web_member.symbiotic_with",
+        "ent1": "http://rdf.freebase.com/ns/m.075pzyz"
+    },
+    {
+        "?ent0": "ns:m.02933",
+        "rel0": "http://rdf.freebase.com/ns/book.author.works_written",
+        "rel1": "http://rdf.freebase.com/ns/book.written_work.author",
+        "rel2": "http://rdf.freebase.com/ns/book.author.works_written",
+        "ent1": "http://rdf.freebase.com/ns/m.06_z1r"
+    },
+    {
+        "?ent0": "ns:m.0641nbv",
+        "rel0": "http://rdf.freebase.com/ns/soccer.football_league_season.league",
+        "rel1": "http://rdf.freebase.com/ns/time.recurring_event.instances",
+        "rel2": "http://rdf.freebase.com/ns/time.event.instance_of_recurring_event",
+        "ent1": "http://rdf.freebase.com/ns/m.06n2y2"
+    },
+    {
+        "?ent0": "ns:m.04154n1",
+        "rel0": "http://rdf.freebase.com/ns/interests.collection_category.parent_category",
+        "rel1": "http://rdf.freebase.com/ns/business.product_category.product_lines",
+        "rel2": "http://rdf.freebase.com/ns/business.product_line.category",
+        "ent1": "http://rdf.freebase.com/ns/m.0167gd"
+    },
+    {
+        "?ent0": "ns:m.05qcqj3",
+        "rel0": "http://rdf.freebase.com/ns/book.written_work.author",
+        "rel1": "http://rdf.freebase.com/ns/book.author.works_written",
+        "rel2": "http://rdf.freebase.com/ns/book.written_work.author",
+        "ent1": "http://rdf.freebase.com/ns/m.043nzc"
+    },
+    {
+        "?ent0": "ns:m.045c7b",
+        "rel0": "http://rdf.freebase.com/ns/base.motorcycle.internet_forum_topic.internet_forum_s",
+        "rel1": "http://rdf.freebase.com/ns/people.person.gender",
+        "rel2": "http://rdf.freebase.com/ns/base.schemastaging.context_name.pronunciation",
+        "ent1": "http://rdf.freebase.com/ns/m.011sf4j6"
+    },
+    {
+        "?ent0": "ns:m.04kcxf0",
+        "rel0": "http://rdf.freebase.com/ns/fictional_universe.fictional_universe.works_set_here",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_story.script",
+        "rel2": "http://rdf.freebase.com/ns/book.author.works_written",
+        "ent1": "http://rdf.freebase.com/ns/m.06ckz2r"
+    },
+    {
+        "?ent0": "ns:m.02z4sj7",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/biology.breed_origin.breeds_originating_here",
+        "rel2": "http://rdf.freebase.com/ns/base.animal_synopses.animal_synopsis.speed",
+        "ent1": "http://rdf.freebase.com/ns/m.0xnkjm2"
+    },
+    {
+        "?ent0": "ns:m.05nvz8",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_character.created_by",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_penciler.comic_books_penciled",
+        "rel2": "http://rdf.freebase.com/ns/fictional_universe.work_of_fiction.setting",
+        "ent1": "http://rdf.freebase.com/ns/m.05gvmb"
+    },
+    {
+        "?ent0": "ns:m.05w5d",
+        "rel0": "http://rdf.freebase.com/ns/religion.religion.is_part_of",
+        "rel1": "http://rdf.freebase.com/ns/religion.religion.places_of_worship_historical",
+        "rel2": "http://rdf.freebase.com/ns/religion.place_of_worship_historical_use.religion",
+        "ent1": "http://rdf.freebase.com/ns/m.05sfs"
+    },
+    {
+        "?ent0": "ns:m.02qd4t3",
+        "rel0": "http://rdf.freebase.com/ns/music.composition.composer",
+        "rel1": "http://rdf.freebase.com/ns/book.author.works_written",
+        "rel2": "http://rdf.freebase.com/ns/book.written_work.author",
+        "ent1": "http://rdf.freebase.com/ns/m.0161sp"
+    },
+    {
+        "?ent0": "ns:m.034ns",
+        "rel0": "http://rdf.freebase.com/ns/user.techgnostic.default_domain.magazine_topic.periodical",
+        "rel1": "http://rdf.freebase.com/ns/book.journal.articles",
+        "rel2": "http://rdf.freebase.com/ns/book.journal_publication.article",
+        "ent1": "http://rdf.freebase.com/ns/m.0bg64q2"
+    },
+    {
+        "?ent0": "ns:m.03xk5g9",
+        "rel0": "http://rdf.freebase.com/ns/people.person.education",
+        "rel1": "http://rdf.freebase.com/ns/education.education.institution",
+        "rel2": "http://rdf.freebase.com/ns/fictional_universe.school_in_fiction.students_graduates",
+        "ent1": "http://rdf.freebase.com/ns/m.0_gvs41"
+    },
+    {
+        "?ent0": "ns:m.01dzz7",
+        "rel0": "http://rdf.freebase.com/ns/book.author.works_written",
+        "rel1": "http://rdf.freebase.com/ns/user.jeff.stories_to_novels.adapted_story.became_novel",
+        "rel2": "http://rdf.freebase.com/ns/book.written_work.author",
+        "ent1": "http://rdf.freebase.com/ns/m.01dzz7"
+    },
+    {
+        "?ent0": "ns:m.0bxj80p",
+        "rel0": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.has_possessed",
+        "rel1": "http://rdf.freebase.com/ns/fictional_universe.fictional_setting.characters_that_have_lived_here",
+        "rel2": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.has_possessed",
+        "ent1": "http://rdf.freebase.com/ns/m.03rxrf"
+    },
+    {
+        "?ent0": "ns:m.03qqx6r",
+        "rel0": "http://rdf.freebase.com/ns/visual_art.artwork.artist",
+        "rel1": "http://rdf.freebase.com/ns/visual_art.visual_artist.art_series",
+        "rel2": "http://rdf.freebase.com/ns/visual_art.art_series.artworks",
+        "ent1": "http://rdf.freebase.com/ns/m.02pb39q"
+    },
+    {
+        "?ent0": "ns:m.0j1t2ng",
+        "rel0": "http://rdf.freebase.com/ns/biology.pedigreed_animal.breed",
+        "rel1": "http://rdf.freebase.com/ns/biology.animal_breed.examples",
+        "rel2": "http://rdf.freebase.com/ns/biology.pedigreed_animal.breed",
+        "ent1": "http://rdf.freebase.com/ns/m.03_vn4"
+    },
+    {
+        "?ent0": "ns:m.03pmfw",
+        "rel0": "http://rdf.freebase.com/ns/base.filmcameras.camera_manufacturer.cameras_manufactured",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.category",
+        "rel2": "http://rdf.freebase.com/ns/organization.club_interest.clubs",
+        "ent1": "http://rdf.freebase.com/ns/m.03w3cfc"
+    },
+    {
+        "?ent0": "ns:m.05q_9w",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.genre",
+        "rel1": "http://rdf.freebase.com/ns/music.genre.artists",
+        "rel2": "http://rdf.freebase.com/ns/user.jschell.default_domain.music_performer.concerts",
+        "ent1": "http://rdf.freebase.com/ns/m.02gwszr"
+    },
+    {
+        "?ent0": "ns:m.02qvrpw",
+        "rel0": "http://rdf.freebase.com/ns/people.ethnicity.languages_spoken",
+        "rel1": "http://rdf.freebase.com/ns/language.human_language.dialects",
+        "rel2": "http://rdf.freebase.com/ns/language.language_dialect.language",
+        "ent1": "http://rdf.freebase.com/ns/m.014267"
+    },
+    {
+        "?ent0": "ns:m.0pd6ghh",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.telescope.housed_in",
+        "rel1": "http://rdf.freebase.com/ns/astronomy.astronomical_observatory.discoveries",
+        "rel2": "http://rdf.freebase.com/ns/astronomy.asteroid.member_of_asteroid_group",
+        "ent1": "http://rdf.freebase.com/ns/m.03hftwv"
+    },
+    {
+        "?ent0": "ns:m.02kwgk8",
+        "rel0": "http://rdf.freebase.com/ns/biology.chromosome.band",
+        "rel1": "http://rdf.freebase.com/ns/biology.cytogenetic_band.locus",
+        "rel2": "http://rdf.freebase.com/ns/biology.genomic_locus.annotation",
+        "ent1": "http://rdf.freebase.com/ns/m.02kwsrb"
+    },
+    {
+        "?ent0": "ns:m.025y54",
+        "rel0": "http://rdf.freebase.com/ns/book.author.works_written",
+        "rel1": "http://rdf.freebase.com/ns/book.written_work.author",
+        "rel2": "http://rdf.freebase.com/ns/base.popstra.celebrity.bought",
+        "ent1": "http://rdf.freebase.com/ns/m.063s5fm"
+    },
+    {
+        "?ent0": "ns:m.051lw0_",
+        "rel0": "http://rdf.freebase.com/ns/skiing.ski_area_owner.ski_areas_owned",
+        "rel1": "http://rdf.freebase.com/ns/skiing.ski_area_ownership.ski_area",
+        "rel2": "http://rdf.freebase.com/ns/location.location.containedby",
+        "ent1": "http://rdf.freebase.com/ns/m.04c4760"
+    },
+    {
+        "?ent0": "ns:m.03xkcbp",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.editor",
+        "rel1": "http://rdf.freebase.com/ns/people.person.gender",
+        "rel2": "http://rdf.freebase.com/ns/base.schemastaging.context_name.pronunciation",
+        "ent1": "http://rdf.freebase.com/ns/m.011sf4j6"
+    },
+    {
+        "?ent0": "ns:m.07h_qp5",
+        "rel0": "http://rdf.freebase.com/ns/olympics.olympic_event.competitions",
+        "rel1": "http://rdf.freebase.com/ns/olympics.olympic_event_competition.medalists",
+        "rel2": "http://rdf.freebase.com/ns/olympics.olympic_medal_honor.event",
+        "ent1": "http://rdf.freebase.com/ns/m.04f29sk"
+    },
+    {
+        "?ent0": "ns:m.0yj4krl",
+        "rel0": "http://rdf.freebase.com/ns/award.award_nominated_work.award_nominations",
+        "rel1": "http://rdf.freebase.com/ns/award.award_nomination.award",
+        "rel2": "http://rdf.freebase.com/ns/award.award_category.category_of",
+        "ent1": "http://rdf.freebase.com/ns/m.01p5gl"
+    },
+    {
+        "?ent0": "ns:m.0lsv3c",
+        "rel0": "http://rdf.freebase.com/ns/music.recording.artist",
+        "rel1": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel2": "http://rdf.freebase.com/ns/music.recording.artist",
+        "ent1": "http://rdf.freebase.com/ns/m.01nd7nr"
+    },
+    {
+        "?ent0": "ns:m.05fny",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.celestial_object_category.objects",
+        "rel1": "http://rdf.freebase.com/ns/astronomy.astronomical_discovery.discoverer",
+        "rel2": "http://rdf.freebase.com/ns/book.author.works_written",
+        "ent1": "http://rdf.freebase.com/ns/m.0l35hrr"
+    },
+    {
+        "?ent0": "ns:m.0708qt",
+        "rel0": "http://rdf.freebase.com/ns/biology.organism_classification.higher_classification",
+        "rel1": "http://rdf.freebase.com/ns/base.ecology.food_web_member.eaten_by",
+        "rel2": "http://rdf.freebase.com/ns/base.ecology.food_web_member.symbiotic_with",
+        "ent1": "http://rdf.freebase.com/ns/m.075pzyz"
+    },
+    {
+        "?ent0": "ns:m.01mpwj",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/base.csafarms.area_served.farms",
+        "rel2": "http://rdf.freebase.com/ns/base.csafarms.farm.areas_served",
+        "ent1": "http://rdf.freebase.com/ns/m.09c7w0"
+    },
+    {
+        "?ent0": "ns:m.03mkv2n",
+        "rel0": "http://rdf.freebase.com/ns/broadcast.genre.content",
+        "rel1": "http://rdf.freebase.com/ns/internet.website.owner",
+        "rel2": "http://rdf.freebase.com/ns/internet.website_owner.websites_owned",
+        "ent1": "http://rdf.freebase.com/ns/m.03bv912"
+    },
+    {
+        "?ent0": "ns:m.0mwcsx4",
+        "rel0": "http://rdf.freebase.com/ns/award.award_nominated_work.award_nominations",
+        "rel1": "http://rdf.freebase.com/ns/award.award_nomination.award",
+        "rel2": "http://rdf.freebase.com/ns/award.award_category.category_of",
+        "ent1": "http://rdf.freebase.com/ns/m.01r470"
+    },
+    {
+        "?ent0": "ns:m.03gvpk",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_penciler.comic_books_penciled",
+        "rel1": "http://rdf.freebase.com/ns/fictional_universe.work_of_fiction.setting",
+        "rel2": "http://rdf.freebase.com/ns/fictional_universe.fictional_setting.works_set_here",
+        "ent1": "http://rdf.freebase.com/ns/m.03ywk1z"
+    },
+    {
+        "?ent0": "ns:m.02rvv5m",
+        "rel0": "http://rdf.freebase.com/ns/book.magazine.place_of_publication",
+        "rel1": "http://rdf.freebase.com/ns/book.place_of_publication_period.place_of_publication",
+        "rel2": "http://rdf.freebase.com/ns/biology.breed_origin.breeds_originating_here",
+        "ent1": "http://rdf.freebase.com/ns/m.02232"
+    },
+    {
+        "?ent0": "ns:m.01xrf_0",
+        "rel0": "http://rdf.freebase.com/ns/digicams.camera_sensor_manufacturer.cameras",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.company",
+        "rel2": "http://rdf.freebase.com/ns/business.company_product_relationship.company",
+        "ent1": "http://rdf.freebase.com/ns/m.01bvx1"
+    },
+    {
+        "?ent0": "ns:m.02wkc7r",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.cover_colors",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_inker.comic_covers_inked",
+        "rel2": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.cover_colors",
+        "ent1": "http://rdf.freebase.com/ns/m.03h0l7"
+    },
+    {
+        "?ent0": "ns:m.0ndwxmw",
+        "rel0": "http://rdf.freebase.com/ns/engineering.engine.category",
+        "rel1": "http://rdf.freebase.com/ns/engineering.engine_category.engines",
+        "rel2": "http://rdf.freebase.com/ns/award.award_winning_work.awards_won",
+        "ent1": "http://rdf.freebase.com/ns/m.046wjvt"
+    },
+    {
+        "?ent0": "ns:m.0bv85n6",
+        "rel0": "http://rdf.freebase.com/ns/dataworld.gardening_hint.split_to",
+        "rel1": "http://rdf.freebase.com/ns/fictional_universe.fictional_universe.organizations",
+        "rel2": "http://rdf.freebase.com/ns/military.military_unit.servicemembers",
+        "ent1": "http://rdf.freebase.com/ns/m.0cmry8f"
+    },
+    {
+        "?ent0": "ns:m.09c7w0",
+        "rel0": "http://rdf.freebase.com/ns/base.csafarms.area_served.farms",
+        "rel1": "http://rdf.freebase.com/ns/organization.organization.founders",
+        "rel2": "http://rdf.freebase.com/ns/people.person.gender",
+        "ent1": "http://rdf.freebase.com/ns/m.05zppz"
+    },
+    {
+        "?ent0": "ns:m.092bf5",
+        "rel0": "http://rdf.freebase.com/ns/religion.religion.places_of_worship_historical",
+        "rel1": "http://rdf.freebase.com/ns/religion.place_of_worship_historical_use.place_of_worship",
+        "rel2": "http://rdf.freebase.com/ns/location.location.containedby",
+        "ent1": "http://rdf.freebase.com/ns/m.01xbgx"
+    },
+    {
+        "?ent0": "ns:m.0280zwj",
+        "rel0": "http://rdf.freebase.com/ns/interests.collection_category.collectors",
+        "rel1": "http://rdf.freebase.com/ns/interests.collection.collector",
+        "rel2": "http://rdf.freebase.com/ns/music.group_member.membership",
+        "ent1": "http://rdf.freebase.com/ns/m.043gw9h"
+    },
+    {
+        "?ent0": "ns:m.0gz2b",
+        "rel0": "http://rdf.freebase.com/ns/biology.organism_classification.higher_classification",
+        "rel1": "http://rdf.freebase.com/ns/base.ecology.food_web_member.eaten_by",
+        "rel2": "http://rdf.freebase.com/ns/base.ecology.food_web_member.symbiotic_with",
+        "ent1": "http://rdf.freebase.com/ns/m.075pzyz"
+    },
+    {
+        "?ent0": "ns:m.0pcq52k",
+        "rel0": "http://rdf.freebase.com/ns/sports.defunct_sports_team.later_known_as",
+        "rel1": "http://rdf.freebase.com/ns/sports.sports_team.league",
+        "rel2": "http://rdf.freebase.com/ns/sports.sports_league_participation.league",
+        "ent1": "http://rdf.freebase.com/ns/m.0j2pw"
+    },
+    {
+        "?ent0": "ns:m.02lzy0",
+        "rel0": "http://rdf.freebase.com/ns/award.award_discipline.awards_in_this_discipline",
+        "rel1": "http://rdf.freebase.com/ns/award.award_category.category_of",
+        "rel2": "http://rdf.freebase.com/ns/award.award.category",
+        "ent1": "http://rdf.freebase.com/ns/m.0g5nf_0"
+    },
+    {
+        "?ent0": "ns:m.0kdx6",
+        "rel0": "http://rdf.freebase.com/ns/aviation.aircraft_model.manufacturer",
+        "rel1": "http://rdf.freebase.com/ns/business.business_operation.industry",
+        "rel2": "http://rdf.freebase.com/ns/base.descriptive_names.names.descriptive_name",
+        "ent1": "http://rdf.freebase.com/ns/m.010l5n76"
+    },
+    {
+        "?ent0": "ns:m.0cnb47",
+        "rel0": "http://rdf.freebase.com/ns/visual_art.art_series.artworks",
+        "rel1": "http://rdf.freebase.com/ns/visual_art.artwork.artist",
+        "rel2": "http://rdf.freebase.com/ns/visual_art.visual_artist.art_series",
+        "ent1": "http://rdf.freebase.com/ns/m.0271rlf"
+    },
+    {
+        "?ent0": "ns:m.0271wg7",
+        "rel0": "http://rdf.freebase.com/ns/visual_art.artwork.artist",
+        "rel1": "http://rdf.freebase.com/ns/book.author.works_written",
+        "rel2": "http://rdf.freebase.com/ns/book.written_work.author",
+        "ent1": "http://rdf.freebase.com/ns/m.01jl09"
+    },
+    {
+        "?ent0": "ns:m.04d2sb_",
+        "rel0": "http://rdf.freebase.com/ns/medicine.medical_trial.phase",
+        "rel1": "http://rdf.freebase.com/ns/medicine.medical_trial_phase.medical_trials",
+        "rel2": "http://rdf.freebase.com/ns/medicine.medical_trial.references",
+        "ent1": "http://rdf.freebase.com/ns/m.040fv9t"
+    },
+    {
+        "?ent0": "ns:m.03wcnw",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone.category",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.Beaufort_scale",
+        "rel2": "http://rdf.freebase.com/ns/meteorology.beaufort_wind_force.tropical_cyclone_categories",
+        "ent1": "http://rdf.freebase.com/ns/m.02wv9xd"
+    },
+    {
+        "?ent0": "ns:m.02t63",
+        "rel0": "http://rdf.freebase.com/ns/spaceflight.space_agency.astronauts",
+        "rel1": "http://rdf.freebase.com/ns/book.author.works_written",
+        "rel2": "http://rdf.freebase.com/ns/book.written_work.author",
+        "ent1": "http://rdf.freebase.com/ns/m.069kw2"
+    },
+    {
+        "?ent0": "ns:m.0dtdq",
+        "rel0": "http://rdf.freebase.com/ns/religion.religion.is_part_of",
+        "rel1": "http://rdf.freebase.com/ns/religion.religion.places_of_worship_historical",
+        "rel2": "http://rdf.freebase.com/ns/religion.place_of_worship_historical_use.religion",
+        "ent1": "http://rdf.freebase.com/ns/m.01lp8"
+    },
+    {
+        "?ent0": "ns:m.011cjd16",
+        "rel0": "http://rdf.freebase.com/ns/business.product_line.category",
+        "rel1": "http://rdf.freebase.com/ns/business.product_category.product_lines",
+        "rel2": "http://rdf.freebase.com/ns/business.product_line.category",
+        "ent1": "http://rdf.freebase.com/ns/m.0gm28"
+    },
+    {
+        "?ent0": "ns:m.0h27mv7",
+        "rel0": "http://rdf.freebase.com/ns/automotive.engine.fuels_used",
+        "rel1": "http://rdf.freebase.com/ns/base.skosbase.vocabulary_equivalent_topic.narrower_concept",
+        "rel2": "http://rdf.freebase.com/ns/base.skosbase.skos_concept.broader_topic",
+        "ent1": "http://rdf.freebase.com/ns/m.05wy2"
+    },
+    {
+        "?ent0": "ns:m.01srj",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.celestial_object_category.objects",
+        "rel1": "http://rdf.freebase.com/ns/astronomy.astronomical_discovery.status",
+        "rel2": "http://rdf.freebase.com/ns/astronomy.astronomical_discovery_status.objects",
+        "ent1": "http://rdf.freebase.com/ns/m.03wngpn"
+    },
+    {
+        "?ent0": "ns:m.09kkywh",
+        "rel0": "http://rdf.freebase.com/ns/book.literary_series.works_in_this_series",
+        "rel1": "http://rdf.freebase.com/ns/book.written_work.author",
+        "rel2": "http://rdf.freebase.com/ns/book.author.works_written",
+        "ent1": "http://rdf.freebase.com/ns/m.06t0zcn"
+    },
+    {
+        "?ent0": "ns:m.0hqq0zg",
+        "rel0": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.available_in",
+        "rel1": "http://rdf.freebase.com/ns/base.csafarms.area_served.farms",
+        "rel2": "http://rdf.freebase.com/ns/base.csafarms.farm.areas_served",
+        "ent1": "http://rdf.freebase.com/ns/m.09c7w0"
+    },
+    {
+        "?ent0": "ns:m.016clz",
+        "rel0": "http://rdf.freebase.com/ns/music.genre.artists",
+        "rel1": "http://rdf.freebase.com/ns/user.jschell.default_domain.music_performer.concerts",
+        "rel2": "http://rdf.freebase.com/ns/user.jschell.default_domain.musical_event.set_list",
+        "ent1": "http://rdf.freebase.com/ns/m.025xhn9"
+    },
+    {
+        "?ent0": "ns:m.05zt2f",
+        "rel0": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.appears_in_these_fictional_universes",
+        "rel1": "http://rdf.freebase.com/ns/fictional_universe.fictional_universe.characters",
+        "rel2": "http://rdf.freebase.com/ns/base.schemastaging.context_name.pronunciation",
+        "ent1": "http://rdf.freebase.com/ns/m.0wzm_82"
+    },
+    {
+        "?ent0": "ns:m.06ccvw",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/base.csafarms.area_served.farms",
+        "rel2": "http://rdf.freebase.com/ns/base.csafarms.farm.areas_served",
+        "ent1": "http://rdf.freebase.com/ns/m.09c7w0"
+    },
+    {
+        "?ent0": "ns:m.02h87b6",
+        "rel0": "http://rdf.freebase.com/ns/computer.computer.parent_model",
+        "rel1": "http://rdf.freebase.com/ns/computer.computer.compatible_oses",
+        "rel2": "http://rdf.freebase.com/ns/computer.os_compatibility.computer",
+        "ent1": "http://rdf.freebase.com/ns/m.0x35"
+    },
+    {
+        "?ent0": "ns:m.02hv6xb",
+        "rel0": "http://rdf.freebase.com/ns/comic_strips.comic_strip_genre.comic_strips_of_this_genre",
+        "rel1": "http://rdf.freebase.com/ns/comic_strips.comic_strip.creator_of_strip",
+        "rel2": "http://rdf.freebase.com/ns/comic_strips.comic_strip_creator_duration.comic_strip",
+        "ent1": "http://rdf.freebase.com/ns/m.02p25r"
+    },
+    {
+        "?ent0": "ns:m.02k_ykj",
+        "rel0": "http://rdf.freebase.com/ns/automotive.model.generations",
+        "rel1": "http://rdf.freebase.com/ns/automotive.generation.designer",
+        "rel2": "http://rdf.freebase.com/ns/automotive.make.model_s",
+        "ent1": "http://rdf.freebase.com/ns/m.03jhcx"
+    },
+    {
+        "?ent0": "ns:m.02yq6p",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/base.csafarms.area_served.farms",
+        "rel2": "http://rdf.freebase.com/ns/base.csafarms.farm.areas_served",
+        "ent1": "http://rdf.freebase.com/ns/m.09c7w0"
+    },
+    {
+        "?ent0": "ns:m.0j52z54",
+        "rel0": "http://rdf.freebase.com/ns/aviation.aircraft_model.part_of_line",
+        "rel1": "http://rdf.freebase.com/ns/aviation.aircraft_model.manufacturer",
+        "rel2": "http://rdf.freebase.com/ns/business.business_operation.industry",
+        "ent1": "http://rdf.freebase.com/ns/m.0w7s"
+    },
+    {
+        "?ent0": "ns:m.0hqvgqh",
+        "rel0": "http://rdf.freebase.com/ns/medicine.drug.active_moieties",
+        "rel1": "http://rdf.freebase.com/ns/medicine.drug.brands",
+        "rel2": "http://rdf.freebase.com/ns/business.brand.owner_s",
+        "ent1": "http://rdf.freebase.com/ns/m.0rzsfgs"
+    },
+    {
+        "?ent0": "ns:m.013c1m",
+        "rel0": "http://rdf.freebase.com/ns/aviation.aircraft_model.manufacturer",
+        "rel1": "http://rdf.freebase.com/ns/business.business_operation.industry",
+        "rel2": "http://rdf.freebase.com/ns/base.descriptive_names.names.descriptive_name",
+        "ent1": "http://rdf.freebase.com/ns/m.010l5n76"
+    },
+    {
+        "?ent0": "ns:m.0267zj6",
+        "rel0": "http://rdf.freebase.com/ns/book.written_work.author",
+        "rel1": "http://rdf.freebase.com/ns/book.author.works_written",
+        "rel2": "http://rdf.freebase.com/ns/book.written_work.author",
+        "ent1": "http://rdf.freebase.com/ns/m.07dspq"
+    },
+    {
+        "?ent0": "ns:m.010l8kt",
+        "rel0": "http://rdf.freebase.com/ns/music.recording.artist",
+        "rel1": "http://rdf.freebase.com/ns/music.artist.genre",
+        "rel2": "http://rdf.freebase.com/ns/music.genre.artists",
+        "ent1": "http://rdf.freebase.com/ns/m.0113zhtw"
+    },
+    {
+        "?ent0": "ns:m.065vyd",
+        "rel0": "http://rdf.freebase.com/ns/base.argumentmaps.original_idea.innovator",
+        "rel1": "http://rdf.freebase.com/ns/book.author.works_written",
+        "rel2": "http://rdf.freebase.com/ns/book.written_work.author",
+        "ent1": "http://rdf.freebase.com/ns/m.028fl6"
+    },
+    {
+        "?ent0": "ns:m.06_wx",
+        "rel0": "http://rdf.freebase.com/ns/religion.religion.is_part_of",
+        "rel1": "http://rdf.freebase.com/ns/religion.religion.branched_into",
+        "rel2": "http://rdf.freebase.com/ns/symbols.namesake.named_after",
+        "ent1": "http://rdf.freebase.com/ns/m.0629m9"
+    },
+    {
+        "?ent0": "ns:m.01fkfkh",
+        "rel0": "http://rdf.freebase.com/ns/music.album.artist",
+        "rel1": "http://rdf.freebase.com/ns/music.artist.genre",
+        "rel2": "http://rdf.freebase.com/ns/base.webvideo.internet_video_genre.internet_video",
+        "ent1": "http://rdf.freebase.com/ns/m.0p7hzcs"
+    },
+    {
+        "?ent0": "ns:m.047dlbj",
+        "rel0": "http://rdf.freebase.com/ns/sports.sports_team.location",
+        "rel1": "http://rdf.freebase.com/ns/travel.travel_destination.accommodation",
+        "rel2": "http://rdf.freebase.com/ns/location.location.containedby",
+        "ent1": "http://rdf.freebase.com/ns/m.05kr_"
+    },
+    {
+        "?ent0": "ns:m.06mv6",
+        "rel0": "http://rdf.freebase.com/ns/organization.club_interest.clubs",
+        "rel1": "http://rdf.freebase.com/ns/organization.organization.child",
+        "rel2": "http://rdf.freebase.com/ns/organization.organization_relationship.child",
+        "ent1": "http://rdf.freebase.com/ns/m.031lfh"
+    },
+    {
+        "?ent0": "ns:m.0w8jh7c",
+        "rel0": "http://rdf.freebase.com/ns/book.poem.characters",
+        "rel1": "http://rdf.freebase.com/ns/visual_art.visual_artist.art_series",
+        "rel2": "http://rdf.freebase.com/ns/visual_art.art_series.artworks",
+        "ent1": "http://rdf.freebase.com/ns/m.0bj7hwy"
+    },
+    {
+        "?ent0": "ns:m.03zbbx9",
+        "rel0": "http://rdf.freebase.com/ns/medicine.medical_trial.phase",
+        "rel1": "http://rdf.freebase.com/ns/medicine.medical_trial_phase.medical_trials",
+        "rel2": "http://rdf.freebase.com/ns/medicine.medical_trial.references",
+        "ent1": "http://rdf.freebase.com/ns/m.040fv9t"
+    },
+    {
+        "?ent0": "ns:m.0jxnj9p",
+        "rel0": "http://rdf.freebase.com/ns/medicine.manufactured_drug_form.available_in",
+        "rel1": "http://rdf.freebase.com/ns/base.csafarms.area_served.farms",
+        "rel2": "http://rdf.freebase.com/ns/base.csafarms.farm.areas_served",
+        "ent1": "http://rdf.freebase.com/ns/m.09c7w0"
+    },
+    {
+        "?ent0": "ns:m.04k_s3",
+        "rel0": "http://rdf.freebase.com/ns/broadcast.broadcast.area_served",
+        "rel1": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel2": "http://rdf.freebase.com/ns/base.csafarms.area_served.farms",
+        "ent1": "http://rdf.freebase.com/ns/m.0ch8vx5"
+    },
+    {
+        "?ent0": "ns:m.02rsw",
+        "rel0": "http://rdf.freebase.com/ns/base.ontologies.ontology_instance.equivalent_instances",
+        "rel1": "http://rdf.freebase.com/ns/base.ontologies.ontology_instance_mapping.ontology",
+        "rel2": "http://rdf.freebase.com/ns/base.ontologies.ontology.equivalent_instances",
+        "ent1": "http://rdf.freebase.com/ns/m.07ngjr7"
+    },
+    {
+        "?ent0": "ns:m.0_mrbts",
+        "rel0": "http://rdf.freebase.com/ns/time.holiday.featured_in_religions",
+        "rel1": "http://rdf.freebase.com/ns/religion.religion.places_of_worship_historical",
+        "rel2": "http://rdf.freebase.com/ns/religion.place_of_worship_historical_use.religion",
+        "ent1": "http://rdf.freebase.com/ns/m.0c8wxp"
+    },
+    {
+        "?ent0": "ns:m.0nh09l2",
+        "rel0": "http://rdf.freebase.com/ns/award.award_nominated_work.award_nominations",
+        "rel1": "http://rdf.freebase.com/ns/award.award_nomination.award",
+        "rel2": "http://rdf.freebase.com/ns/base.schemastaging.context_name.pronunciation",
+        "ent1": "http://rdf.freebase.com/ns/m.0_gpch1"
+    },
+    {
+        "?ent0": "ns:m.035rfz",
+        "rel0": "http://rdf.freebase.com/ns/book.book_subject.works",
+        "rel1": "http://rdf.freebase.com/ns/book.written_work.author",
+        "rel2": "http://rdf.freebase.com/ns/book.author.works_written",
+        "ent1": "http://rdf.freebase.com/ns/m.06cfj1w"
+    },
+    {
+        "?ent0": "ns:m.040ftwk",
+        "rel0": "http://rdf.freebase.com/ns/book.written_work.author",
+        "rel1": "http://rdf.freebase.com/ns/book.author.works_written",
+        "rel2": "http://rdf.freebase.com/ns/book.written_work.author",
+        "ent1": "http://rdf.freebase.com/ns/m.04mkn76"
+    },
+    {
+        "?ent0": "ns:m.03zbbwc",
+        "rel0": "http://rdf.freebase.com/ns/medicine.medical_trial.phase",
+        "rel1": "http://rdf.freebase.com/ns/medicine.medical_trial_phase.medical_trials",
+        "rel2": "http://rdf.freebase.com/ns/medicine.medical_trial.references",
+        "ent1": "http://rdf.freebase.com/ns/m.040v961"
+    },
+    {
+        "?ent0": "ns:m.0b90_r",
+        "rel0": "http://rdf.freebase.com/ns/fictional_universe.fictional_setting.characters_that_have_lived_here",
+        "rel1": "http://rdf.freebase.com/ns/fictional_universe.fictional_character.appears_in_these_fictional_universes",
+        "rel2": "http://rdf.freebase.com/ns/fictional_universe.fictional_universe.organizations",
+        "ent1": "http://rdf.freebase.com/ns/m.02r0nqz"
+    },
+    {
+        "?ent0": "ns:m.03hgt",
+        "rel0": "http://rdf.freebase.com/ns/internet.protocol.api",
+        "rel1": "http://rdf.freebase.com/ns/computer.internet_protocol.software_used_by",
+        "rel2": "http://rdf.freebase.com/ns/computer.software.developer",
+        "ent1": "http://rdf.freebase.com/ns/m.07vqmqv"
+    },
+    {
+        "?ent0": "ns:m.012j1p50",
+        "rel0": "http://rdf.freebase.com/ns/music.genre.artists",
+        "rel1": "http://rdf.freebase.com/ns/music.artist.genre",
+        "rel2": "http://rdf.freebase.com/ns/music.genre.artists",
+        "ent1": "http://rdf.freebase.com/ns/m.012j1p9b"
+    },
+    {
+        "?ent0": "ns:m.05p_hxw",
+        "rel0": "http://rdf.freebase.com/ns/book.book_edition.binding",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.brand",
+        "rel2": "http://rdf.freebase.com/ns/business.brand.products",
+        "ent1": "http://rdf.freebase.com/ns/m.01jm4n"
+    },
+    {
+        "?ent0": "ns:m.02qypr_",
+        "rel0": "http://rdf.freebase.com/ns/book.author.works_written",
+        "rel1": "http://rdf.freebase.com/ns/award.award_winning_work.awards_won",
+        "rel2": "http://rdf.freebase.com/ns/award.award_honor.award",
+        "ent1": "http://rdf.freebase.com/ns/m.0641hm6"
+    },
+    {
+        "?ent0": "ns:m.02zpl5",
+        "rel0": "http://rdf.freebase.com/ns/religion.belief.belief_of",
+        "rel1": "http://rdf.freebase.com/ns/religion.religion.places_of_worship_historical",
+        "rel2": "http://rdf.freebase.com/ns/religion.place_of_worship_historical_use.religion",
+        "ent1": "http://rdf.freebase.com/ns/m.03_gx"
+    },
+    {
+        "?ent0": "ns:m.0k6fn9d",
+        "rel0": "http://rdf.freebase.com/ns/award.award_nominated_work.award_nominations",
+        "rel1": "http://rdf.freebase.com/ns/award.award_nomination.award",
+        "rel2": "http://rdf.freebase.com/ns/base.schemastaging.context_name.pronunciation",
+        "ent1": "http://rdf.freebase.com/ns/m.0_g20_j"
+    },
+    {
+        "?ent0": "ns:m.0h97g",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.founders",
+        "rel1": "http://rdf.freebase.com/ns/people.person.gender",
+        "rel2": "http://rdf.freebase.com/ns/base.schemastaging.context_name.pronunciation",
+        "ent1": "http://rdf.freebase.com/ns/m.011sf4j6"
+    },
+    {
+        "?ent0": "ns:m.0g_h6j",
+        "rel0": "http://rdf.freebase.com/ns/business.consumer_product.company",
+        "rel1": "http://rdf.freebase.com/ns/business.company_product_relationship.company",
+        "rel2": "http://rdf.freebase.com/ns/base.filmcameras.camera_manufacturer.cameras_manufactured",
+        "ent1": "http://rdf.freebase.com/ns/m.04knjbp"
+    },
+    {
+        "?ent0": "ns:m.0fzw6g",
+        "rel0": "http://rdf.freebase.com/ns/sports.boxing_weight_division.matches",
+        "rel1": "http://rdf.freebase.com/ns/time.event.locations",
+        "rel2": "http://rdf.freebase.com/ns/location.location.containedby",
+        "ent1": "http://rdf.freebase.com/ns/m.0345h"
+    },
+    {
+        "?ent0": "ns:m.09msl0",
+        "rel0": "http://rdf.freebase.com/ns/sports.mascot.team",
+        "rel1": "http://rdf.freebase.com/ns/award.award_nominee.award_nominations",
+        "rel2": "http://rdf.freebase.com/ns/award.award_nomination.award",
+        "ent1": "http://rdf.freebase.com/ns/m.0ys3wp9"
+    },
+    {
+        "?ent0": "ns:m.03xqt_h",
+        "rel0": "http://rdf.freebase.com/ns/book.report_issuing_institution.technical_reports_issued",
+        "rel1": "http://rdf.freebase.com/ns/book.written_work.author",
+        "rel2": "http://rdf.freebase.com/ns/book.author.works_written",
+        "ent1": "http://rdf.freebase.com/ns/m.04zjyfs"
+    },
+    {
+        "?ent0": "ns:m.03l9h80",
+        "rel0": "http://rdf.freebase.com/ns/base.skosbase.vocabulary_equivalent_topic.equivalent_concept",
+        "rel1": "http://rdf.freebase.com/ns/base.skosbase.skos_concept.broader",
+        "rel2": "http://rdf.freebase.com/ns/base.skosbase.skos_concept.equivalent_topic",
+        "ent1": "http://rdf.freebase.com/ns/m.09cmq"
+    },
+    {
+        "?ent0": "ns:m.07g0r9",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/biology.breed_origin.breeds_originating_here",
+        "rel2": "http://rdf.freebase.com/ns/biology.organism_classification.higher_classification",
+        "ent1": "http://rdf.freebase.com/ns/m.0bt9lr"
+    },
+    {
+        "?ent0": "ns:m.0cqt41",
+        "rel0": "http://rdf.freebase.com/ns/award.award_nominee.award_nominations",
+        "rel1": "http://rdf.freebase.com/ns/award.award_nomination.award",
+        "rel2": "http://rdf.freebase.com/ns/award.award_category.category_of",
+        "ent1": "http://rdf.freebase.com/ns/m.05dbmk"
+    },
+    {
+        "?ent0": "ns:m.023907r",
+        "rel0": "http://rdf.freebase.com/ns/base.descriptive_names.names.descriptive_name",
+        "rel1": "http://rdf.freebase.com/ns/base.schemastaging.plural_form.language",
+        "rel2": "http://rdf.freebase.com/ns/base.cldrinfo.langinfo.language",
+        "ent1": "http://rdf.freebase.com/ns/m.0gwsc4h"
+    },
+    {
+        "?ent0": "ns:m.01rjzhr",
+        "rel0": "http://rdf.freebase.com/ns/music.album.artist",
+        "rel1": "http://rdf.freebase.com/ns/book.author.works_written",
+        "rel2": "http://rdf.freebase.com/ns/theater.play.orchestrator",
+        "ent1": "http://rdf.freebase.com/ns/m.03cc41"
+    }
+]

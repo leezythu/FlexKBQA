@@ -1,0 +1,1237 @@
+{
+    "0": {
+        "generations": "when was the casting director of star wars episode i born?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0ddt_)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0ddt_ ns:film.film.film_casting_director ?y .\n?y ns:people.person.date_of_birth ?x .\n?y ns:people.person.gender ns:m.02zsn .\n}\n",
+            "TopicEntityMid": "m.0ddt_",
+            "mid2name": {
+                "ns:m.0ddt_": "Star Wars Episode I: The Phantom Menace",
+                "ns:m.02zsn": "Female"
+            },
+            "SExpr_w_name": "(JOIN (R people.person.date_of_birth) (AND (JOIN people.person.gender Femalesn) (JOIN (R film.film.film_casting_director) Star Wars Episode I: The Phantom Menace)))",
+            "SExpr": "(JOIN (R people.person.date_of_birth) (AND (JOIN people.person.gender m.02zsn) (JOIN (R film.film.film_casting_director) m.0ddt_)))"
+        }
+    },
+    "1": {
+        "generations": "how many episodes did john noble appear in as dr. salinger?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02fgm7)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02fgm7 ns:tv.tv_actor.guest_roles ?y .\n?y ns:tv.tv_guest_role.episodes_appeared_in ?x .\n?y ns:tv.tv_guest_role.character ns:m.09p3l_4 .\n}\n",
+            "TopicEntityMid": "m.02fgm7",
+            "mid2name": {
+                "ns:m.02fgm7": "John Noble",
+                "ns:m.09p3l_4": "Dr. Salinger"
+            },
+            "SExpr_w_name": "(JOIN (R tv.tv_guest_role.episodes_appeared_in) (AND (JOIN tv.tv_guest_role.character Dr. Salinger) (JOIN (R tv.tv_actor.guest_roles) John Noble)))",
+            "SExpr": "(JOIN (R tv.tv_guest_role.episodes_appeared_in) (AND (JOIN tv.tv_guest_role.character m.09p3l_4) (JOIN (R tv.tv_actor.guest_roles) m.02fgm7)))"
+        }
+    },
+    "2": {
+        "generations": "Where is FedExField located and which sports team plays there?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.084l5)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.084l5 ns:sports.sports_team.arena_stadium ?y .\n?y ns:location.location.containedby ?x .\n?y ns:projects.project_focus.projects ns:m.09jz4tn .\n}\n",
+            "TopicEntityMid": "m.084l5",
+            "mid2name": {
+                "ns:m.084l5": "Washington Redskins",
+                "ns:m.09jz4tn": "Initial design and construction of FedExField"
+            },
+            "SExpr_w_name": "(JOIN (R location.location.containedby) (AND (JOIN projects.project_focus.projects Initial design and construction of FedExFieldn) (JOIN (R sports.sports_team.arena_stadium) Washington Redskins)))",
+            "SExpr": "(JOIN (R location.location.containedby) (AND (JOIN projects.project_focus.projects m.09jz4tn) (JOIN (R sports.sports_team.arena_stadium) m.084l5)))"
+        }
+    },
+    "3": {
+        "generations": "What ferry company operates in Rome?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.06c62)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.06c62 ns:travel.travel_destination.how_to_get_here ?y .\n?y ns:travel.transportation.transport_operator ?x .\n?y ns:travel.transportation.mode_of_transportation ns:m.0ddnl .\n}\n",
+            "TopicEntityMid": "m.06c62",
+            "mid2name": {
+                "ns:m.06c62": "Rome",
+                "ns:m.0ddnl": "Ferry"
+            },
+            "SExpr_w_name": "(JOIN (R travel.transportation.transport_operator) (AND (JOIN travel.transportation.mode_of_transportation Ferry) (JOIN (R travel.travel_destination.how_to_get_here) Rome)))",
+            "SExpr": "(JOIN (R travel.transportation.transport_operator) (AND (JOIN travel.transportation.mode_of_transportation m.0ddnl) (JOIN (R travel.travel_destination.how_to_get_here) m.06c62)))"
+        }
+    },
+    "4": {
+        "generations": "who wrote a book about air transportation?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03qb78c)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03qb78c ns:book.book_subject.works ?y .\n?y ns:book.written_work.author ?x .\n?y ns:book.written_work.subjects ns:m.07bsy .\n}\n",
+            "TopicEntityMid": "m.03qb78c",
+            "mid2name": {
+                "ns:m.03qb78c": "Air Transportation",
+                "ns:m.07bsy": "Transportation"
+            },
+            "SExpr_w_name": "(JOIN (R book.written_work.author) (AND (JOIN book.written_work.subjects Transportation) (JOIN (R book.book_subject.works) Air Transportation)))",
+            "SExpr": "(JOIN (R book.written_work.author) (AND (JOIN book.written_work.subjects m.07bsy) (JOIN (R book.book_subject.works) m.03qb78c)))"
+        }
+    },
+    "5": {
+        "generations": "who was the prime minister of ireland during garret fitzgerald's term?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.060bp)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.060bp ns:government.government_office_category.officeholders ?y .\n?y ns:government.government_position_held.governmental_body ?x .\n?y ns:government.government_position_held.office_holder ns:m.015zj4 .\n}\n",
+            "TopicEntityMid": "m.060bp",
+            "mid2name": {
+                "ns:m.060bp": "Prime minister",
+                "ns:m.015zj4": "Garret FitzGerald"
+            },
+            "SExpr_w_name": "(JOIN (R government.government_position_held.governmental_body) (AND (JOIN government.government_position_held.office_holder Garret FitzGerald) (JOIN (R government.government_office_category.officeholders) Prime minister)))",
+            "SExpr": "(JOIN (R government.government_position_held.governmental_body) (AND (JOIN government.government_position_held.office_holder m.015zj4) (JOIN (R government.government_office_category.officeholders) m.060bp)))"
+        }
+    },
+    "6": {
+        "generations": "What character was portrayed in films that was associated with St John the Baptist's Church, Knutsford and whose cause of death was decapitation?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0jb19)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0jb19 ns:people.cause_of_death.people ?y .\n?y ns:film.film_character.portrayed_in_films ?x .\n?y ns:symbols.name_source.namesakes ns:m.03bz27t .\n}\n",
+            "TopicEntityMid": "m.0jb19",
+            "mid2name": {
+                "ns:m.0jb19": "Decapitation",
+                "ns:m.03bz27t": "St John the Baptist's Church, Knutsford"
+            },
+            "SExpr_w_name": "(JOIN (R film.film_character.portrayed_in_films) (AND (JOIN symbols.name_source.namesakes St John the Baptist's Church, Knutsford) (JOIN (R people.cause_of_death.people) Decapitation)))",
+            "SExpr": "(JOIN (R film.film_character.portrayed_in_films) (AND (JOIN symbols.name_source.namesakes m.03bz27t) (JOIN (R people.cause_of_death.people) m.0jb19)))"
+        }
+    },
+    "7": {
+        "generations": "What religion celebrates the Feast of Christ the King and considers marriage a religious practice?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.04ztj)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.04ztj ns:religion.religious_practice.practice_of ?y .\n?y ns:religion.religion.is_part_of ?x .\n?y ns:religion.religion.holidays ns:m.04sy0c .\n}\n",
+            "TopicEntityMid": "m.04ztj",
+            "mid2name": {
+                "ns:m.04ztj": "Marriage",
+                "ns:m.04sy0c": "Feast of Christ the King"
+            },
+            "SExpr_w_name": "(JOIN (R religion.religion.is_part_of) (AND (JOIN religion.religion.holidays Feast of Christ the King) (JOIN (R religion.religious_practice.practice_of) Marriage)))",
+            "SExpr": "(JOIN (R religion.religion.is_part_of) (AND (JOIN religion.religion.holidays m.04sy0c) (JOIN (R religion.religious_practice.practice_of) m.04ztj)))"
+        }
+    },
+    "8": {
+        "generations": "which fictional character from the Looters organization is married to the President?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.060c4)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.060c4 ns:fictional_universe.character_occupation.characters_with_this_occupation ?y .\n?y ns:fictional_universe.fictional_character.married_to ?x .\n?y ns:fictional_universe.fictional_character.organizations ns:m.047k2fv .\n}\n",
+            "TopicEntityMid": "m.060c4",
+            "mid2name": {
+                "ns:m.060c4": "President",
+                "ns:m.047k2fv": "Looters"
+            },
+            "SExpr_w_name": "(JOIN (R fictional_universe.fictional_character.married_to) (AND (JOIN fictional_universe.fictional_character.organizations Looters) (JOIN (R fictional_universe.character_occupation.characters_with_this_occupation) President)))",
+            "SExpr": "(JOIN (R fictional_universe.fictional_character.married_to) (AND (JOIN fictional_universe.fictional_character.organizations m.047k2fv) (JOIN (R fictional_universe.character_occupation.characters_with_this_occupation) m.060c4)))"
+        }
+    },
+    "9": {
+        "generations": "What material was used to create artwork depicting Haman in the story of Esther?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02pn7)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02pn7 ns:visual_art.art_subject.artwork_on_the_subject ?y .\n?y ns:visual_art.artwork.support ?x .\n?y ns:visual_art.artwork.art_subject ns:m.04742r .\n}\n",
+            "TopicEntityMid": "m.02pn7",
+            "mid2name": {
+                "ns:m.02pn7": "Esther",
+                "ns:m.04742r": "Haman"
+            },
+            "SExpr_w_name": "(JOIN (R visual_art.artwork.support) (AND (JOIN visual_art.artwork.art_subject Haman) (JOIN (R visual_art.art_subject.artwork_on_the_subject) Esther)))",
+            "SExpr": "(JOIN (R visual_art.artwork.support) (AND (JOIN visual_art.artwork.art_subject m.04742r) (JOIN (R visual_art.art_subject.artwork_on_the_subject) m.02pn7)))"
+        }
+    },
+    "10": {
+        "generations": "who composed the music for cher's album \"Take It Like a Man\"?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01vtj38)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01vtj38 ns:music.artist.album ?y .\n?y ns:music.composition.composer ?x .\n?y ns:music.album.releases ns:m.0z4htbd .\n}\n",
+            "TopicEntityMid": "m.01vtj38",
+            "mid2name": {
+                "ns:m.01vtj38": "Cher",
+                "ns:m.0z4htbd": "Take It Like a Man"
+            },
+            "SExpr_w_name": "(JOIN (R music.composition.composer) (AND (JOIN music.album.releases Take It Like a Man) (JOIN (R music.artist.album) Cher)))",
+            "SExpr": "(JOIN (R music.composition.composer) (AND (JOIN music.album.releases m.0z4htbd) (JOIN (R music.artist.album) m.01vtj38)))"
+        }
+    },
+    "11": {
+        "generations": "what awards did mark ward win for producing william shakespeare radio programs?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.081k8)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.081k8 ns:radio.radio_subject.programs_with_this_subject ?y .\n?y ns:award.award_winning_work.awards_won ?x .\n?y ns:broadcast.content.producer ns:m.06mc5m3 .\n}\n",
+            "TopicEntityMid": "m.081k8",
+            "mid2name": {
+                "ns:m.081k8": "William Shakespeare",
+                "ns:m.06mc5m3": "Mark Ward"
+            },
+            "SExpr_w_name": "(JOIN (R award.award_winning_work.awards_won) (AND (JOIN broadcast.content.producer Mark Ward) (JOIN (R radio.radio_subject.programs_with_this_subject) William Shakespeare)))",
+            "SExpr": "(JOIN (R award.award_winning_work.awards_won) (AND (JOIN broadcast.content.producer m.06mc5m3) (JOIN (R radio.radio_subject.programs_with_this_subject) m.081k8)))"
+        }
+    },
+    "12": {
+        "generations": "What degree did someone receive from the University of Wisconsin-Madison in Portuguese Language?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.05zjd)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.05zjd ns:education.field_of_study.students_majoring ?y .\n?y ns:education.education.degree ?x .\n?y ns:education.education.institution ns:m.01yx1b .\n}\n",
+            "TopicEntityMid": "m.05zjd",
+            "mid2name": {
+                "ns:m.05zjd": "Portuguese Language",
+                "ns:m.01yx1b": "University of Wisconsin-Madison"
+            },
+            "SExpr_w_name": "(JOIN (R education.education.degree) (AND (JOIN education.education.institution University of Wisconsin-Madison) (JOIN (R education.field_of_study.students_majoring) Portuguese Language)))",
+            "SExpr": "(JOIN (R education.education.degree) (AND (JOIN education.education.institution m.01yx1b) (JOIN (R education.field_of_study.students_majoring) m.05zjd)))"
+        }
+    },
+    "13": {
+        "generations": "where is philadelphia english spoken and who speaks it?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01pr9kj)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01pr9kj ns:people.person.languages ?y .\n?y ns:language.human_language.main_country ?x .\n?y ns:language.human_language.dialects ns:m.06n519 .\n}\n",
+            "TopicEntityMid": "m.01pr9kj",
+            "mid2name": {
+                "ns:m.01pr9kj": "Joey Lawrence",
+                "ns:m.06n519": "Philadelphia English"
+            },
+            "SExpr_w_name": "(JOIN (R language.human_language.main_country) (AND (JOIN language.human_language.dialects Philadelphia English) (JOIN (R people.person.languages) Joey Lawrence)))",
+            "SExpr": "(JOIN (R language.human_language.main_country) (AND (JOIN language.human_language.dialects m.06n519) (JOIN (R people.person.languages) m.01pr9kj)))"
+        }
+    },
+    "14": {
+        "generations": "who is matt lauer's spouse and what is their profession?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.049_zz)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.049_zz ns:people.person.parents ?y .\n?y ns:people.person.spouse_s ?x .\n?y ns:people.person.profession ns:m.012t_z .\n}\n",
+            "TopicEntityMid": "m.049_zz",
+            "mid2name": {
+                "ns:m.049_zz": "Matt Lauer",
+                "ns:m.012t_z": "Businessperson"
+            },
+            "SExpr_w_name": "(JOIN (R people.person.spouse_s) (AND (JOIN people.person.profession Businessperson) (JOIN (R people.person.parents) Matt Lauer)))",
+            "SExpr": "(JOIN (R people.person.spouse_s) (AND (JOIN people.person.profession m.012t_z) (JOIN (R people.person.parents) m.049_zz)))"
+        }
+    },
+    "15": {
+        "generations": "what state is the headquarters of the new york knicks located in with a postal code of 10121?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0jm3v)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0jm3v ns:organization.organization.headquarters ?y .\n?y ns:location.mailing_address.state_province_region ?x .\n?y ns:location.mailing_address.postal_code ns:m.07nrqvg .\n}\n",
+            "TopicEntityMid": "m.0jm3v",
+            "mid2name": {
+                "ns:m.0jm3v": "New York Knicks",
+                "ns:m.07nrqvg": "10121"
+            },
+            "SExpr_w_name": "(JOIN (R location.mailing_address.state_province_region) (AND (JOIN location.mailing_address.postal_code 10121) (JOIN (R organization.organization.headquarters) New York Knicks)))",
+            "SExpr": "(JOIN (R location.mailing_address.state_province_region) (AND (JOIN location.mailing_address.postal_code m.07nrqvg) (JOIN (R organization.organization.headquarters) m.0jm3v)))"
+        }
+    },
+    "16": {
+        "generations": "What is the current external debt of Pakistan in US dollars?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.05sb1)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.05sb1 ns:location.statistical_region.external_debt_stock ?y .\n?y ns:measurement_unit.dated_money_value.valid_date ?x .\n?y ns:measurement_unit.dated_money_value.currency ns:m.09nqf .\n}\n",
+            "TopicEntityMid": "m.05sb1",
+            "mid2name": {
+                "ns:m.05sb1": "Pakistan",
+                "ns:m.09nqf": "United States Dollar"
+            },
+            "SExpr_w_name": "(JOIN (R measurement_unit.dated_money_value.valid_date) (AND (JOIN measurement_unit.dated_money_value.currency United States Dollar) (JOIN (R location.statistical_region.external_debt_stock) Pakistan)))",
+            "SExpr": "(JOIN (R measurement_unit.dated_money_value.valid_date) (AND (JOIN measurement_unit.dated_money_value.currency m.09nqf) (JOIN (R location.statistical_region.external_debt_stock) m.05sb1)))"
+        }
+    },
+    "17": {
+        "generations": "What video game versions were published by the publisher located in Machida and associated with Miley Cyrus's label?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0bdxs5)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0bdxs5 ns:music.artist.label ?y .\n?y ns:cvg.cvg_publisher.game_versions_published ?x .\n?y ns:organization.organization.place_founded ns:m.01wrkq .\n}\n",
+            "TopicEntityMid": "m.0bdxs5",
+            "mid2name": {
+                "ns:m.0bdxs5": "Miley Cyrus",
+                "ns:m.01wrkq": "Machida"
+            },
+            "SExpr_w_name": "(JOIN (R cvg.cvg_publisher.game_versions_published) (AND (JOIN organization.organization.place_founded Machida) (JOIN (R music.artist.label) Miley Cyrus)))",
+            "SExpr": "(JOIN (R cvg.cvg_publisher.game_versions_published) (AND (JOIN organization.organization.place_founded m.01wrkq) (JOIN (R music.artist.label) m.0bdxs5)))"
+        }
+    },
+    "18": {
+        "generations": "What characters are in the fictional universe of Family Guy that are located in Quahog?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.019nnl)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.019nnl ns:fictional_universe.work_of_fiction.part_of_these_fictional_universes ?y .\n?y ns:fictional_universe.fictional_universe.characters ?x .\n?y ns:fictional_universe.fictional_universe.locations ns:m.0b9lb6 .\n}\n",
+            "TopicEntityMid": "m.019nnl",
+            "mid2name": {
+                "ns:m.019nnl": "Family Guy",
+                "ns:m.0b9lb6": "Quahog"
+            },
+            "SExpr_w_name": "(JOIN (R fictional_universe.fictional_universe.characters) (AND (JOIN fictional_universe.fictional_universe.locations Quahog) (JOIN (R fictional_universe.work_of_fiction.part_of_these_fictional_universes) Family Guy)))",
+            "SExpr": "(JOIN (R fictional_universe.fictional_universe.characters) (AND (JOIN fictional_universe.fictional_universe.locations m.0b9lb6) (JOIN (R fictional_universe.work_of_fiction.part_of_these_fictional_universes) m.019nnl)))"
+        }
+    },
+    "19": {
+        "generations": "who is in a supercouple with angelina jolie and brad pitt?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0f4vbz)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0f4vbz ns:user.narphorium.people.notable_person.part_of_notable_couple ?y .\n?y ns:music.musical_group.member ?x .\n?y ns:celebrities.supercouple.partners ns:m.0c6qh .\n}\n",
+            "TopicEntityMid": "m.0f4vbz",
+            "mid2name": {
+                "ns:m.0f4vbz": "Angelina Jolie",
+                "ns:m.0c6qh": "Brad Pitt"
+            },
+            "SExpr_w_name": "(JOIN (R music.musical_group.member) (AND (JOIN celebrities.supercouple.partners Brad Pitt) (JOIN (R user.narphorium.people.notable_person.part_of_notable_couple) Angelina Jolie)))",
+            "SExpr": "(JOIN (R music.musical_group.member) (AND (JOIN celebrities.supercouple.partners m.0c6qh) (JOIN (R user.narphorium.people.notable_person.part_of_notable_couple) m.0f4vbz)))"
+        }
+    },
+    "20": {
+        "generations": "what award did taylor swift win at the 54th annual grammy awards?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0dl567)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0dl567 ns:award.award_winner.awards_won ?y .\n?y ns:award.award_honor.award ?x .\n?y ns:award.award_honor.ceremony ns:m.0gx1673 .\n}\n",
+            "TopicEntityMid": "m.0dl567",
+            "mid2name": {
+                "ns:m.0dl567": "Taylor Swift",
+                "ns:m.0gx1673": "54th Annual Grammy Awards"
+            },
+            "SExpr_w_name": "(JOIN (R award.award_honor.award) (AND (JOIN award.award_honor.ceremony 54th Annual Grammy Awards) (JOIN (R award.award_winner.awards_won) Taylor Swift)))",
+            "SExpr": "(JOIN (R award.award_honor.award) (AND (JOIN award.award_honor.ceremony m.0gx1673) (JOIN (R award.award_winner.awards_won) m.0dl567)))"
+        }
+    },
+    "21": {
+        "generations": "Who founded the religion that branched from Catholicism and has the Talmud as one of its texts?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0c8wxp)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0c8wxp ns:religion.religion.branched_from ?y .\n?y ns:religion.religion.founding_figures ?x .\n?y ns:religion.religion.texts ns:m.07gnt .\n}\n",
+            "TopicEntityMid": "m.0c8wxp",
+            "mid2name": {
+                "ns:m.0c8wxp": "Catholicism",
+                "ns:m.07gnt": "Talmud"
+            },
+            "SExpr_w_name": "(JOIN (R religion.religion.founding_figures) (AND (JOIN religion.religion.texts Talmud) (JOIN (R religion.religion.branched_from) Catholicism)))",
+            "SExpr": "(JOIN (R religion.religion.founding_figures) (AND (JOIN religion.religion.texts m.07gnt) (JOIN (R religion.religion.branched_from) m.0c8wxp)))"
+        }
+    },
+    "22": {
+        "generations": "what is lola bunny's chinese zodiac direction and western zodiac sign?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0534r8)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0534r8 ns:fictional_universe.fictional_character.species ?y .\n?y ns:user.hailey2009.default_domain.chinese_zodiac.direction ?x .\n?y ns:user.hailey2009.default_domain.chinese_zodiac.western ns:m.07b6cz .\n}\n",
+            "TopicEntityMid": "m.0534r8",
+            "mid2name": {
+                "ns:m.0534r8": "Lola Bunny",
+                "ns:m.07b6cz": "Pisces"
+            },
+            "SExpr_w_name": "(JOIN (R user.hailey2009.default_domain.chinese_zodiac.direction) (AND (JOIN user.hailey2009.default_domain.chinese_zodiac.western Pisces) (JOIN (R fictional_universe.fictional_character.species) Lola Bunny)))",
+            "SExpr": "(JOIN (R user.hailey2009.default_domain.chinese_zodiac.direction) (AND (JOIN user.hailey2009.default_domain.chinese_zodiac.western m.07b6cz) (JOIN (R fictional_universe.fictional_character.species) m.0534r8)))"
+        }
+    },
+    "23": {
+        "generations": "when was the book with peter pevensie written by c.s. lewis copyrighted?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01wd02c)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01wd02c ns:book.author.works_written ?y .\n?y ns:book.written_work.copyright_date ?x .\n?y ns:book.book.characters ns:m.037fg7 .\n}\n",
+            "TopicEntityMid": "m.01wd02c",
+            "mid2name": {
+                "ns:m.01wd02c": "C. S. Lewis",
+                "ns:m.037fg7": "Peter Pevensie"
+            },
+            "SExpr_w_name": "(JOIN (R book.written_work.copyright_date) (AND (JOIN book.book.characters Peter Pevensie) (JOIN (R book.author.works_written) C. S. Lewis)))",
+            "SExpr": "(JOIN (R book.written_work.copyright_date) (AND (JOIN book.book.characters m.037fg7) (JOIN (R book.author.works_written) m.01wd02c)))"
+        }
+    },
+    "24": {
+        "generations": "who works for the president of the european parliament and is associated with the internet domain \"kid\"?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.039h0j)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.039h0j ns:government.government_office_or_title.governmental_body_if_any ?y .\n?y ns:business.employer.employees ?x .\n?y ns:internet.top_level_domain_sponsor.domains ns:m.07tfhk .\n}\n",
+            "TopicEntityMid": "m.039h0j",
+            "mid2name": {
+                "ns:m.039h0j": "President of the European Parliament",
+                "ns:m.07tfhk": "kid"
+            },
+            "SExpr_w_name": "(JOIN (R business.employer.employees) (AND (JOIN internet.top_level_domain_sponsor.domains kid) (JOIN (R government.government_office_or_title.governmental_body_if_any) President of the European Parliament)))",
+            "SExpr": "(JOIN (R business.employer.employees) (AND (JOIN internet.top_level_domain_sponsor.domains m.07tfhk) (JOIN (R government.government_office_or_title.governmental_body_if_any) m.039h0j)))"
+        }
+    },
+    "25": {
+        "generations": "What TV episodes feature men's baseball and the Seattle Pilots?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0fq2vj2)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0fq2vj2 ns:sports.sports_team.sport ?y .\n?y ns:tv.tv_subject.tv_episodes ?x .\n?y ns:olympics.olympic_sport.events ns:m.04fk2y0 .\n}\n",
+            "TopicEntityMid": "m.0fq2vj2",
+            "mid2name": {
+                "ns:m.0fq2vj2": "Seattle Pilots",
+                "ns:m.04fk2y0": "Men's baseball"
+            },
+            "SExpr_w_name": "(JOIN (R tv.tv_subject.tv_episodes) (AND (JOIN olympics.olympic_sport.events Men's baseball) (JOIN (R sports.sports_team.sport) Seattle Pilots)))",
+            "SExpr": "(JOIN (R tv.tv_subject.tv_episodes) (AND (JOIN olympics.olympic_sport.events m.04fk2y0) (JOIN (R sports.sports_team.sport) m.0fq2vj2)))"
+        }
+    },
+    "26": {
+        "generations": "What is the fertility rate in Fiji according to the World Bank's World Development Indicators?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02wt0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02wt0 ns:location.statistical_region.fertility_rate ?y .\n?y ns:measurement_unit.dated_float.date ?x .\n?y ns:measurement_unit.dated_float.source ns:m.0kfm2nh .\n}\n",
+            "TopicEntityMid": "m.02wt0",
+            "mid2name": {
+                "ns:m.02wt0": "Fiji",
+                "ns:m.0kfm2nh": "World Bank, World Development Indicators, Fertility Rate"
+            },
+            "SExpr_w_name": "(JOIN (R measurement_unit.dated_float.date) (AND (JOIN measurement_unit.dated_float.source World Bank, World Development Indicators, Fertility Rate) (JOIN (R location.statistical_region.fertility_rate) Fiji)))",
+            "SExpr": "(JOIN (R measurement_unit.dated_float.date) (AND (JOIN measurement_unit.dated_float.source m.0kfm2nh) (JOIN (R location.statistical_region.fertility_rate) m.02wt0)))"
+        }
+    },
+    "27": {
+        "generations": "when did betty white appear on the show you don't say?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.025mb_)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.025mb_ ns:tv.tv_personality.tv_regular_appearances ?y .\n?y ns:tv.tv_regular_personal_appearance.to ?x .\n?y ns:tv.tv_regular_personal_appearance.program ns:m.0cq4qx .\n}\n",
+            "TopicEntityMid": "m.025mb_",
+            "mid2name": {
+                "ns:m.025mb_": "Betty White",
+                "ns:m.0cq4qx": "You Don't Say!"
+            },
+            "SExpr_w_name": "(JOIN (R tv.tv_regular_personal_appearance.to) (AND (JOIN tv.tv_regular_personal_appearance.program You Don't Say!) (JOIN (R tv.tv_personality.tv_regular_appearances) Betty White)))",
+            "SExpr": "(JOIN (R tv.tv_regular_personal_appearance.to) (AND (JOIN tv.tv_regular_personal_appearance.program m.0cq4qx) (JOIN (R tv.tv_personality.tv_regular_appearances) m.025mb_)))"
+        }
+    },
+    "28": {
+        "generations": "what language is diana ross's content broadcasted in in italy?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01wrcxr)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01wrcxr ns:broadcast.artist.content ?y .\n?y ns:broadcast.content.language ?x .\n?y ns:broadcast.content.location ns:m.03rjj .\n}\n",
+            "TopicEntityMid": "m.01wrcxr",
+            "mid2name": {
+                "ns:m.01wrcxr": "Diana Ross",
+                "ns:m.03rjj": "Italy"
+            },
+            "SExpr_w_name": "(JOIN (R broadcast.content.language) (AND (JOIN broadcast.content.location Italy) (JOIN (R broadcast.artist.content) Diana Ross)))",
+            "SExpr": "(JOIN (R broadcast.content.language) (AND (JOIN broadcast.content.location m.03rjj) (JOIN (R broadcast.artist.content) m.01wrcxr)))"
+        }
+    },
+    "29": {
+        "generations": "what year did cristiano ronaldo win the premier league golden boot award?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0by030z)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0by030z ns:award.award_category.winners ?y .\n?y ns:award.award_honor.year ?x .\n?y ns:award.award_honor.award_winner ns:m.02xt6q .\n}\n",
+            "TopicEntityMid": "m.0by030z",
+            "mid2name": {
+                "ns:m.0by030z": "Premier League Golden Boot",
+                "ns:m.02xt6q": "Cristiano Ronaldo"
+            },
+            "SExpr_w_name": "(JOIN (R award.award_honor.year) (AND (JOIN award.award_honor.award_winner Cristiano Ronaldo) (JOIN (R award.award_category.winners) Premier League Golden Boot)))",
+            "SExpr": "(JOIN (R award.award_honor.year) (AND (JOIN award.award_honor.award_winner m.02xt6q) (JOIN (R award.award_category.winners) m.0by030z)))"
+        }
+    },
+    "30": {
+        "generations": "What was the description of the award nomination for the New York Rangers in their game against the Los Angeles Kings?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0jnq8)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0jnq8 ns:award.award_nominee.award_nominations ?y .\n?y ns:award.award_nomination.notes_description ?x .\n?y ns:award.award_nomination.award_nominee ns:m.0hmtk .\n}\n",
+            "TopicEntityMid": "m.0jnq8",
+            "mid2name": {
+                "ns:m.0jnq8": "Los Angeles Kings",
+                "ns:m.0hmtk": "New York Rangers"
+            },
+            "SExpr_w_name": "(JOIN (R award.award_nomination.notes_description) (AND (JOIN award.award_nomination.award_nominee New York Rangers) (JOIN (R award.award_nominee.award_nominations) Los Angeles Kings)))",
+            "SExpr": "(JOIN (R award.award_nomination.notes_description) (AND (JOIN award.award_nomination.award_nominee m.0hmtk) (JOIN (R award.award_nominee.award_nominations) m.0jnq8)))"
+        }
+    },
+    "31": {
+        "generations": "what is the relationship between the NFL Network and the National Football League?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.059yj)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.059yj ns:organization.organization.child ?y .\n?y ns:organization.organization_relationship.from ?x .\n?y ns:organization.organization_relationship.child ns:m.03cm9b .\n}\n",
+            "TopicEntityMid": "m.059yj",
+            "mid2name": {
+                "ns:m.059yj": "National Football League",
+                "ns:m.03cm9b": "NFL Network"
+            },
+            "SExpr_w_name": "(JOIN (R organization.organization_relationship.from) (AND (JOIN organization.organization_relationship.child NFL Network) (JOIN (R organization.organization.child) National Football League)))",
+            "SExpr": "(JOIN (R organization.organization_relationship.from) (AND (JOIN organization.organization_relationship.child m.03cm9b) (JOIN (R organization.organization.child) m.059yj)))"
+        }
+    },
+    "32": {
+        "generations": "what rating system was used to rate finding nemo in the british board of film classification?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01jrbb)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01jrbb ns:film.film.rating ?y .\n?y ns:cvg.computer_game_rating.rating_system ?x .\n?y ns:film.content_rating.film_rating_system ns:m.01bwfy .\n}\n",
+            "TopicEntityMid": "m.01jrbb",
+            "mid2name": {
+                "ns:m.01jrbb": "Finding Nemo",
+                "ns:m.01bwfy": "British Board of Film Classification"
+            },
+            "SExpr_w_name": "(JOIN (R cvg.computer_game_rating.rating_system) (AND (JOIN film.content_rating.film_rating_system British Board of Film Classification) (JOIN (R film.film.rating) Finding Nemo)))",
+            "SExpr": "(JOIN (R cvg.computer_game_rating.rating_system) (AND (JOIN film.content_rating.film_rating_system m.01bwfy) (JOIN (R film.film.rating) m.01jrbb)))"
+        }
+    },
+    "33": {
+        "generations": "who is the head coach of the pittsburgh steelers?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.05tfm)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.05tfm ns:sports.sports_team.coaches ?y .\n?y ns:sports.sports_team_coach_tenure.coach ?x .\n?y ns:sports.sports_team_coach_tenure.position ns:m.02md_2 .\n}\n",
+            "TopicEntityMid": "m.05tfm",
+            "mid2name": {
+                "ns:m.05tfm": "Pittsburgh Steelers",
+                "ns:m.02md_2": "Head coach"
+            },
+            "SExpr_w_name": "(JOIN (R sports.sports_team_coach_tenure.coach) (AND (JOIN sports.sports_team_coach_tenure.position Head coach) (JOIN (R sports.sports_team.coaches) Pittsburgh Steelers)))",
+            "SExpr": "(JOIN (R sports.sports_team_coach_tenure.coach) (AND (JOIN sports.sports_team_coach_tenure.position m.02md_2) (JOIN (R sports.sports_team.coaches) m.05tfm)))"
+        }
+    },
+    "34": {
+        "generations": "where was the epicenter of the 1906 san francisco earthquake?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01f6rm)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01f6rm ns:event.disaster.structures_destroyed ?y .\n?y ns:location.location.geolocation ?x .\n?y ns:travel.accommodation.price_range ns:m.05c4qq .\n}\n",
+            "TopicEntityMid": "m.01f6rm",
+            "mid2name": {
+                "ns:m.01f6rm": "1906 San Francisco earthquake",
+                "ns:m.05c4qq": "High end"
+            },
+            "SExpr_w_name": "(JOIN (R location.location.geolocation) (AND (JOIN travel.accommodation.price_range High end) (JOIN (R event.disaster.structures_destroyed) 1906 San Francisco earthquake)))",
+            "SExpr": "(JOIN (R location.location.geolocation) (AND (JOIN travel.accommodation.price_range m.05c4qq) (JOIN (R event.disaster.structures_destroyed) m.01f6rm)))"
+        }
+    },
+    "35": {
+        "generations": "What Latvian language song features lyrics written by Langston Hughes?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0bv62)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0bv62 ns:music.lyricist.lyrics_written ?y .\n?y ns:music.composition.recordings ?x .\n?y ns:music.composition.language ns:m.0bwcb .\n}\n",
+            "TopicEntityMid": "m.0bv62",
+            "mid2name": {
+                "ns:m.0bv62": "Langston Hughes",
+                "ns:m.0bwcb": "Latvian Language"
+            },
+            "SExpr_w_name": "(JOIN (R music.composition.recordings) (AND (JOIN music.composition.language Latvian Language) (JOIN (R music.lyricist.lyrics_written) Langston Hughes)))",
+            "SExpr": "(JOIN (R music.composition.recordings) (AND (JOIN music.composition.language m.0bwcb) (JOIN (R music.lyricist.lyrics_written) m.0bv62)))"
+        }
+    },
+    "36": {
+        "generations": "when did elton john and david furnish start dating?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01vrz41)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01vrz41 ns:celebrities.celebrity.sexual_relationships ?y .\n?y ns:celebrities.romantic_relationship.start_date ?x .\n?y ns:celebrities.romantic_relationship.celebrity ns:m.06wg2r .\n}\n",
+            "TopicEntityMid": "m.01vrz41",
+            "mid2name": {
+                "ns:m.01vrz41": "Elton John",
+                "ns:m.06wg2r": "David Furnish"
+            },
+            "SExpr_w_name": "(JOIN (R celebrities.romantic_relationship.start_date) (AND (JOIN celebrities.romantic_relationship.celebrity David Furnish) (JOIN (R celebrities.celebrity.sexual_relationships) Elton John)))",
+            "SExpr": "(JOIN (R celebrities.romantic_relationship.start_date) (AND (JOIN celebrities.romantic_relationship.celebrity m.06wg2r) (JOIN (R celebrities.celebrity.sexual_relationships) m.01vrz41)))"
+        }
+    },
+    "37": {
+        "generations": "what is the sequel to the film featuring madonna's blond ambition world tour?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01vs_v8)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01vs_v8 ns:film.music_contributor.film ?y .\n?y ns:film.film.sequel ?x .\n?y ns:music.concert_film.concert_tour ns:m.01t1q1 .\n}\n",
+            "TopicEntityMid": "m.01vs_v8",
+            "mid2name": {
+                "ns:m.01vs_v8": "Madonna",
+                "ns:m.01t1q1": "Blond Ambition World Tour"
+            },
+            "SExpr_w_name": "(JOIN (R film.film.sequel) (AND (JOIN music.concert_film.concert_tour Blond Ambition World Tour) (JOIN (R film.music_contributor.film) Madonna)))",
+            "SExpr": "(JOIN (R film.film.sequel) (AND (JOIN music.concert_film.concert_tour m.01t1q1) (JOIN (R film.music_contributor.film) m.01vs_v8)))"
+        }
+    },
+    "38": {
+        "generations": "who is the director of the contemporary architecture museum in new york?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.059rby)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.059rby ns:travel.travel_destination.tourist_attractions ?y .\n?y ns:architecture.museum.director ?x .\n?y ns:architecture.structure.architectural_style ns:m.0b9bhy .\n}\n",
+            "TopicEntityMid": "m.059rby",
+            "mid2name": {
+                "ns:m.059rby": "New York",
+                "ns:m.0b9bhy": "Contemporary architecture"
+            },
+            "SExpr_w_name": "(JOIN (R architecture.museum.director) (AND (JOIN architecture.structure.architectural_style Contemporary architecture) (JOIN (R travel.travel_destination.tourist_attractions) New York)))",
+            "SExpr": "(JOIN (R architecture.museum.director) (AND (JOIN architecture.structure.architectural_style m.0b9bhy) (JOIN (R travel.travel_destination.tourist_attractions) m.059rby)))"
+        }
+    },
+    "39": {
+        "generations": "What are the comments on the U.S. Senator Barack Obama Podcast by Barack Obama?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02mjmr)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02mjmr ns:broadcast.producer.produces ?y .\n?y ns:user.zsi_editorial.editorial.topic.comments ?x .\n?y ns:broadcast.content.broadcast ns:m.04419ky .\n}\n",
+            "TopicEntityMid": "m.02mjmr",
+            "mid2name": {
+                "ns:m.02mjmr": "Barack Obama",
+                "ns:m.04419ky": "U.S. Senator Barack Obama Podcast - Podcast Feed"
+            },
+            "SExpr_w_name": "(JOIN (R user.zsi_editorial.editorial.topic.comments) (AND (JOIN broadcast.content.broadcast U.S. Senator Barack Obama Podcast - Podcast Feed) (JOIN (R broadcast.producer.produces) Barack Obama)))",
+            "SExpr": "(JOIN (R user.zsi_editorial.editorial.topic.comments) (AND (JOIN broadcast.content.broadcast m.04419ky) (JOIN (R broadcast.producer.produces) m.02mjmr)))"
+        }
+    },
+    "40": {
+        "generations": "when did deion sanders retire from professional football?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03n69x)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03n69x ns:sports.pro_athlete.sports_played_professionally ?y .\n?y ns:sports.pro_sports_played.career_end ?x .\n?y ns:sports.pro_sports_played.sport ns:m.0jm_ .\n}\n",
+            "TopicEntityMid": "m.03n69x",
+            "mid2name": {
+                "ns:m.03n69x": "Deion Sanders",
+                "ns:m.0jm_": "American football"
+            },
+            "SExpr_w_name": "(JOIN (R sports.pro_sports_played.career_end) (AND (JOIN sports.pro_sports_played.sport American football) (JOIN (R sports.pro_athlete.sports_played_professionally) Deion Sanders)))",
+            "SExpr": "(JOIN (R sports.pro_sports_played.career_end) (AND (JOIN sports.pro_sports_played.sport m.0jm_) (JOIN (R sports.pro_athlete.sports_played_professionally) m.03n69x)))"
+        }
+    },
+    "41": {
+        "generations": "when did zora neale hurston start attending howard university?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0217m9)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0217m9 ns:education.educational_institution.students_graduates ?y .\n?y ns:education.education.start_date ?x .\n?y ns:education.education.student ns:m.0895t .\n}\n",
+            "TopicEntityMid": "m.0217m9",
+            "mid2name": {
+                "ns:m.0217m9": "Howard University",
+                "ns:m.0895t": "Zora Neale Hurston"
+            },
+            "SExpr_w_name": "(JOIN (R education.education.start_date) (AND (JOIN education.education.student Zora Neale Hurston) (JOIN (R education.educational_institution.students_graduates) Howard University)))",
+            "SExpr": "(JOIN (R education.education.start_date) (AND (JOIN education.education.student m.0895t) (JOIN (R education.educational_institution.students_graduates) m.0217m9)))"
+        }
+    },
+    "42": {
+        "generations": "where can I find the lyrics to the song \"Free\" by Jack Johnson?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02h7gb)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02h7gb ns:music.featured_artist.recordings ?y .\n?y ns:music.recording.lyrics_website ?x .\n?y ns:music.recording.tracks ns:m.0lhbs6z .\n}\n",
+            "TopicEntityMid": "m.02h7gb",
+            "mid2name": {
+                "ns:m.02h7gb": "Jack Johnson",
+                "ns:m.0lhbs6z": "Free"
+            },
+            "SExpr_w_name": "(JOIN (R music.recording.lyrics_website) (AND (JOIN music.recording.tracks Free) (JOIN (R music.featured_artist.recordings) Jack Johnson)))",
+            "SExpr": "(JOIN (R music.recording.lyrics_website) (AND (JOIN music.recording.tracks m.0lhbs6z) (JOIN (R music.featured_artist.recordings) m.02h7gb)))"
+        }
+    },
+    "43": {
+        "generations": "What sports teams are associated with Maxie Jones in the fictional universe?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0fbppx)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0fbppx ns:fictional_universe.fictional_character.gender ?y .\n?y ns:sports.sports_gender.sports_teams ?x .\n?y ns:user.kryp.private.hint.coolnesfactor ns:m.05pvw .\n}\n",
+            "TopicEntityMid": "m.0fbppx",
+            "mid2name": {
+                "ns:m.0fbppx": "Maxie Jones",
+                "ns:m.05pvw": "1"
+            },
+            "SExpr_w_name": "(JOIN (R sports.sports_gender.sports_teams) (AND (JOIN user.kryp.private.hint.coolnesfactor 1) (JOIN (R fictional_universe.fictional_character.gender) Maxie Jones)))",
+            "SExpr": "(JOIN (R sports.sports_gender.sports_teams) (AND (JOIN user.kryp.private.hint.coolnesfactor m.05pvw) (JOIN (R fictional_universe.fictional_character.gender) m.0fbppx)))"
+        }
+    },
+    "44": {
+        "generations": "What medical fiction TV show is currently in production and has a spin-off called General Hospital?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0358x_)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0358x_ ns:tv.tv_program.spin_offs ?y .\n?y ns:tv.tv_program.currently_in_production ?x .\n?y ns:tv.tv_program.genre ns:m.04gm78f .\n}\n",
+            "TopicEntityMid": "m.0358x_",
+            "mid2name": {
+                "ns:m.0358x_": "General Hospital",
+                "ns:m.04gm78f": "Medical fiction"
+            },
+            "SExpr_w_name": "(JOIN (R tv.tv_program.currently_in_production) (AND (JOIN tv.tv_program.genre Medical fiction) (JOIN (R tv.tv_program.spin_offs) General Hospital)))",
+            "SExpr": "(JOIN (R tv.tv_program.currently_in_production) (AND (JOIN tv.tv_program.genre m.04gm78f) (JOIN (R tv.tv_program.spin_offs) m.0358x_)))"
+        }
+    },
+    "45": {
+        "generations": "What position does Max Browne play in fantasy football and what position does Michael Vick play?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.027f42)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.027f42 ns:user.szaijan.fantasy_football.player.position ?y .\n?y ns:user.szaijan.fantasy_football.position_limit.target ?x .\n?y ns:soccer.football_position.players ns:m.0jt57jz .\n}\n",
+            "TopicEntityMid": "m.027f42",
+            "mid2name": {
+                "ns:m.027f42": "Michael Vick",
+                "ns:m.0jt57jz": "Max Browne"
+            },
+            "SExpr_w_name": "(JOIN (R user.szaijan.fantasy_football.position_limit.target) (AND (JOIN soccer.football_position.players Max Browne) (JOIN (R user.szaijan.fantasy_football.player.position) Michael Vick)))",
+            "SExpr": "(JOIN (R user.szaijan.fantasy_football.position_limit.target) (AND (JOIN soccer.football_position.players m.0jt57jz) (JOIN (R user.szaijan.fantasy_football.player.position) m.027f42)))"
+        }
+    },
+    "46": {
+        "generations": "Which Harry Potter film features the ride \"Harry Potter and the Forbidden Journey\"?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03176f)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03176f ns:film.film.film_series ?y .\n?y ns:film.film_series.films_in_series ?x .\n?y ns:amusement_parks.ride_theme.rides ns:m.07sbx84 .\n}\n",
+            "TopicEntityMid": "m.03176f",
+            "mid2name": {
+                "ns:m.03176f": "Harry Potter and the Philosopher's Stone",
+                "ns:m.07sbx84": "Harry Potter and the Forbidden Journey"
+            },
+            "SExpr_w_name": "(JOIN (R film.film_series.films_in_series) (AND (JOIN amusement_parks.ride_theme.rides Harry Potter and the Forbidden Journey) (JOIN (R film.film.film_series) Harry Potter and the Philosopher's Stone)))",
+            "SExpr": "(JOIN (R film.film_series.films_in_series) (AND (JOIN amusement_parks.ride_theme.rides m.07sbx84) (JOIN (R film.film.film_series) m.03176f)))"
+        }
+    },
+    "47": {
+        "generations": "What sport does the American Football League belong to and what podcast covers the 49ers in Chronicle Podcasts?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0ysy)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0ysy ns:sports.sports_league.sport ?y .\n?y ns:sports.sport.leagues ?x .\n?y ns:broadcast.genre.content ns:m.03bt98m .\n}\n",
+            "TopicEntityMid": "m.0ysy",
+            "mid2name": {
+                "ns:m.0ysy": "American Football League",
+                "ns:m.03bt98m": "Chronicle Podcasts: 49ers"
+            },
+            "SExpr_w_name": "(JOIN (R sports.sport.leagues) (AND (JOIN broadcast.genre.content Chronicle Podcasts: 49ers) (JOIN (R sports.sports_league.sport) American Football League)))",
+            "SExpr": "(JOIN (R sports.sport.leagues) (AND (JOIN broadcast.genre.content m.03bt98m) (JOIN (R sports.sports_league.sport) m.0ysy)))"
+        }
+    },
+    "48": {
+        "generations": "Which country won the men's marathon in athletics at the 2000 Summer Olympics?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.019rg5)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.019rg5 ns:olympics.olympic_participating_country.medals_won ?y .\n?y ns:olympics.olympic_medal_honor.olympics ?x .\n?y ns:olympics.olympic_medal_honor.event ns:m.04jf6ml .\n}\n",
+            "TopicEntityMid": "m.019rg5",
+            "mid2name": {
+                "ns:m.019rg5": "Kenya",
+                "ns:m.04jf6ml": "Athletics at the 2000 Summer Olympics - Men's marathon"
+            },
+            "SExpr_w_name": "(JOIN (R olympics.olympic_medal_honor.olympics) (AND (JOIN olympics.olympic_medal_honor.event Athletics at the 2000 Summer Olympics - Men's marathon) (JOIN (R olympics.olympic_participating_country.medals_won) Kenya)))",
+            "SExpr": "(JOIN (R olympics.olympic_medal_honor.olympics) (AND (JOIN olympics.olympic_medal_honor.event m.04jf6ml) (JOIN (R olympics.olympic_participating_country.medals_won) m.019rg5)))"
+        }
+    },
+    "49": {
+        "generations": "What breed of dog is Banana Joe V Tani Kazari and where did it originate?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0345h)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0345h ns:biology.breed_origin.breeds_originating_here ?y .\n?y ns:biology.animal_breed.examples ?x .\n?y ns:user.jefft0.default_domain.dog_breed.dogs_of_this_breed ns:m.0qt1l98 .\n}\n",
+            "TopicEntityMid": "m.0345h",
+            "mid2name": {
+                "ns:m.0345h": "Germany",
+                "ns:m.0qt1l98": "Banana Joe V Tani Kazari"
+            },
+            "SExpr_w_name": "(JOIN (R biology.animal_breed.examples) (AND (JOIN user.jefft0.default_domain.dog_breed.dogs_of_this_breed Banana Joe V Tani Kazari) (JOIN (R biology.breed_origin.breeds_originating_here) Germany)))",
+            "SExpr": "(JOIN (R biology.animal_breed.examples) (AND (JOIN user.jefft0.default_domain.dog_breed.dogs_of_this_breed m.0qt1l98) (JOIN (R biology.breed_origin.breeds_originating_here) m.0345h)))"
+        }
+    },
+    "50": {
+        "generations": "who is the captain of the NCAA Division I football team with the fight song \"Come Join the Band\"?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.031fsz)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.031fsz ns:american_football.football_division.teams ?y .\n?y ns:sports.sports_team.captains ?x .\n?y ns:sports.sports_team.fight_song ns:m.09gm5df .\n}\n",
+            "TopicEntityMid": "m.031fsz",
+            "mid2name": {
+                "ns:m.031fsz": "Division I (NCAA)",
+                "ns:m.09gm5df": "Come Join the Band"
+            },
+            "SExpr_w_name": "(JOIN (R sports.sports_team.captains) (AND (JOIN sports.sports_team.fight_song Come Join the Band) (JOIN (R american_football.football_division.teams) Division I (NCAA))))",
+            "SExpr": "(JOIN (R sports.sports_team.captains) (AND (JOIN sports.sports_team.fight_song m.09gm5df) (JOIN (R american_football.football_division.teams) m.031fsz)))"
+        }
+    },
+    "51": {
+        "generations": "when was the 2009 NCAA Wrestling Championship held?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0gh43)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0gh43 ns:sports.sports_league.championship ?y .\n?y ns:time.recurring_event.instances ?x .\n?y ns:sports.sports_championship.events ns:m.05m4n2p .\n}\n",
+            "TopicEntityMid": "m.0gh43",
+            "mid2name": {
+                "ns:m.0gh43": "National Collegiate Athletic Association",
+                "ns:m.05m4n2p": "2009 NCAA Wrestling Championship"
+            },
+            "SExpr_w_name": "(JOIN (R time.recurring_event.instances) (AND (JOIN sports.sports_championship.events 2009 NCAA Wrestling Championship) (JOIN (R sports.sports_league.championship) National Collegiate Athletic Association)))",
+            "SExpr": "(JOIN (R time.recurring_event.instances) (AND (JOIN sports.sports_championship.events m.05m4n2p) (JOIN (R sports.sports_league.championship) m.0gh43)))"
+        }
+    },
+    "52": {
+        "generations": "who dubbed the voice of old bilbo in the film?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0g6z1)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0g6z1 ns:film.film_character.portrayed_in_films_dubbed ?y .\n?y ns:film.dubbing_performance.film ?x .\n?y ns:film.dubbing_performance.actor ns:m.0xn7blh .\n}\n",
+            "TopicEntityMid": "m.0g6z1",
+            "mid2name": {
+                "ns:m.0g6z1": "Old Bilbo",
+                "ns:m.0xn7blh": "Fabrizio Vidale"
+            },
+            "SExpr_w_name": "(JOIN (R film.dubbing_performance.film) (AND (JOIN film.dubbing_performance.actor Fabrizio Vidale) (JOIN (R film.film_character.portrayed_in_films_dubbed) Old Bilbo)))",
+            "SExpr": "(JOIN (R film.dubbing_performance.film) (AND (JOIN film.dubbing_performance.actor m.0xn7blh) (JOIN (R film.film_character.portrayed_in_films_dubbed) m.0g6z1)))"
+        }
+    },
+    "53": {
+        "generations": "what type of cancer did farrah fawcett have?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01j851)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01j851 ns:medicine.notable_person_with_medical_condition.condition ?y .\n?y ns:medicine.disease.medical_specialties ?x .\n?y ns:people.cause_of_death.parent_cause_of_death ns:m.0qcr0 .\n}\n",
+            "TopicEntityMid": "m.01j851",
+            "mid2name": {
+                "ns:m.01j851": "Farrah Fawcett",
+                "ns:m.0qcr0": "Cancer"
+            },
+            "SExpr_w_name": "(JOIN (R medicine.disease.medical_specialties) (AND (JOIN people.cause_of_death.parent_cause_of_death Cancer) (JOIN (R medicine.notable_person_with_medical_condition.condition) Farrah Fawcett)))",
+            "SExpr": "(JOIN (R medicine.disease.medical_specialties) (AND (JOIN people.cause_of_death.parent_cause_of_death m.0qcr0) (JOIN (R medicine.notable_person_with_medical_condition.condition) m.01j851)))"
+        }
+    },
+    "54": {
+        "generations": "who won the 2014 IndyCar Series season competition that Kurt Busch participated in?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02llzy)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02llzy ns:award.competitor.competitions ?y .\n?y ns:award.competition.winner ?x .\n?y ns:time.event.included_in_event ns:m.0wdqqbm .\n}\n",
+            "TopicEntityMid": "m.02llzy",
+            "mid2name": {
+                "ns:m.02llzy": "Kurt Busch",
+                "ns:m.0wdqqbm": "2014 IndyCar Series season"
+            },
+            "SExpr_w_name": "(JOIN (R award.competition.winner) (AND (JOIN time.event.included_in_event 2014 IndyCar Series season) (JOIN (R award.competitor.competitions) Kurt Busch)))",
+            "SExpr": "(JOIN (R award.competition.winner) (AND (JOIN time.event.included_in_event m.0wdqqbm) (JOIN (R award.competitor.competitions) m.02llzy)))"
+        }
+    },
+    "55": {
+        "generations": "What are the route stop information for the Washington Metropolitan Area Transit Authority in Washington, D.C.?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0rh6k)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0rh6k ns:travel.travel_destination.local_transportation ?y .\n?y ns:user.joehughes.default_domain.transit_agency.route_stop_information ?x .\n?y ns:metropolitan_transit.transit_system.agency ns:m.04c1rb .\n}\n",
+            "TopicEntityMid": "m.0rh6k",
+            "mid2name": {
+                "ns:m.0rh6k": "Washington, D.C.",
+                "ns:m.04c1rb": "Washington Metropolitan Area Transit Authority"
+            },
+            "SExpr_w_name": "(JOIN (R user.joehughes.default_domain.transit_agency.route_stop_information) (AND (JOIN metropolitan_transit.transit_system.agency Washington Metropolitan Area Transit Authority) (JOIN (R travel.travel_destination.local_transportation) Washington, D.C.)))",
+            "SExpr": "(JOIN (R user.joehughes.default_domain.transit_agency.route_stop_information) (AND (JOIN metropolitan_transit.transit_system.agency m.04c1rb) (JOIN (R travel.travel_destination.local_transportation) m.0rh6k)))"
+        }
+    },
+    "56": {
+        "generations": "what language is spoken in malaysia and used in the simpsons?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.07c72)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.07c72 ns:tv.tv_program.languages ?y .\n?y ns:language.language_dialect.language ?x .\n?y ns:language.human_language.countries_spoken_in ns:m.09pmkv .\n}\n",
+            "TopicEntityMid": "m.07c72",
+            "mid2name": {
+                "ns:m.07c72": "The Simpsons",
+                "ns:m.09pmkv": "Malaysia"
+            },
+            "SExpr_w_name": "(JOIN (R language.language_dialect.language) (AND (JOIN language.human_language.countries_spoken_in Malaysia) (JOIN (R tv.tv_program.languages) The Simpsons)))",
+            "SExpr": "(JOIN (R language.language_dialect.language) (AND (JOIN language.human_language.countries_spoken_in m.09pmkv) (JOIN (R tv.tv_program.languages) m.07c72)))"
+        }
+    },
+    "57": {
+        "generations": "Which ads did Micah Saul contribute to and which movies did he produce and direct?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0ds67cb)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0ds67cb ns:film.film.directed_by ?y .\n?y ns:user.micahsaul.advertising.ad_contributor.ads ?x .\n?y ns:film.producer.films_executive_produced ns:m.029k4p .\n}\n",
+            "TopicEntityMid": "m.0ds67cb",
+            "mid2name": {
+                "ns:m.0ds67cb": "Spy Kids: All the Time in the World",
+                "ns:m.029k4p": "From Dusk till Dawn"
+            },
+            "SExpr_w_name": "(JOIN (R user.micahsaul.advertising.ad_contributor.ads) (AND (JOIN film.producer.films_executive_produced From Dusk till Dawn) (JOIN (R film.film.directed_by) Spy Kids: All the Time in the World)))",
+            "SExpr": "(JOIN (R user.micahsaul.advertising.ad_contributor.ads) (AND (JOIN film.producer.films_executive_produced m.029k4p) (JOIN (R film.film.directed_by) m.0ds67cb)))"
+        }
+    },
+    "58": {
+        "generations": "What was the rank of the Soviet Union in the men's 800 meters at the 1986 European Athletics Championships?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.05vz3zq)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.05vz3zq ns:sports.sport_country.athletic_performances ?y .\n?y ns:sports.competitor_competition_relationship.rank ?x .\n?y ns:sports.competitor_competition_relationship.competition ns:m.03c_wv6 .\n}\n",
+            "TopicEntityMid": "m.05vz3zq",
+            "mid2name": {
+                "ns:m.05vz3zq": "Soviet Union",
+                "ns:m.03c_wv6": "1986 European Athletics Championships \u2013 Men's 800 metres"
+            },
+            "SExpr_w_name": "(JOIN (R sports.competitor_competition_relationship.rank) (AND (JOIN sports.competitor_competition_relationship.competition 1986 European Athletics Championships \u2013 Men's 800 metres) (JOIN (R sports.sport_country.athletic_performances) Soviet Union)))",
+            "SExpr": "(JOIN (R sports.competitor_competition_relationship.rank) (AND (JOIN sports.competitor_competition_relationship.competition m.03c_wv6) (JOIN (R sports.sport_country.athletic_performances) m.05vz3zq)))"
+        }
+    },
+    "59": {
+        "generations": "what is the phone number for the mcdonald's in paradise valley mall?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.07gyp7)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.07gyp7 ns:organization.organization.locations ?y .\n?y ns:business.business_location.phone_number ?x .\n?y ns:business.business_location.in_shopping_center ns:m.089v3_ .\n}\n",
+            "TopicEntityMid": "m.07gyp7",
+            "mid2name": {
+                "ns:m.07gyp7": "McDonald's",
+                "ns:m.089v3_": "Paradise Valley Mall"
+            },
+            "SExpr_w_name": "(JOIN (R business.business_location.phone_number) (AND (JOIN business.business_location.in_shopping_center Paradise Valley Mall) (JOIN (R organization.organization.locations) McDonald's)))",
+            "SExpr": "(JOIN (R business.business_location.phone_number) (AND (JOIN business.business_location.in_shopping_center m.089v3_) (JOIN (R organization.organization.locations) m.07gyp7)))"
+        }
+    },
+    "60": {
+        "generations": "What was the number of residential addresses foreclosed in Moorpark according to the United States Department of Housing and Urban Development in a specific year?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0r87z)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0r87z ns:location.hud_foreclosure_area.total_residential_addresses ?y .\n?y ns:measurement_unit.dated_integer.year ?x .\n?y ns:measurement_unit.dated_integer.source ns:m.0jbk9 .\n}\n",
+            "TopicEntityMid": "m.0r87z",
+            "mid2name": {
+                "ns:m.0r87z": "Moorpark",
+                "ns:m.0jbk9": "United States Department of Housing and Urban Development"
+            },
+            "SExpr_w_name": "(JOIN (R measurement_unit.dated_integer.year) (AND (JOIN measurement_unit.dated_integer.source United States Department of Housing and Urban Development) (JOIN (R location.hud_foreclosure_area.total_residential_addresses) Moorpark)))",
+            "SExpr": "(JOIN (R measurement_unit.dated_integer.year) (AND (JOIN measurement_unit.dated_integer.source m.0jbk9) (JOIN (R location.hud_foreclosure_area.total_residential_addresses) m.0r87z)))"
+        }
+    },
+    "61": {
+        "generations": "What color spells in Magic: The Gathering are associated with Schipperke dogs and the Miami Marlins?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02__x)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02__x ns:sports.sports_team.colors ?y .\n?y ns:user.duck1123.default_domain.mtg_mana_color.spells_using_this_color_in_casting ?x .\n?y ns:biology.breed_coloring.breeds ns:m.01dv7j .\n}\n",
+            "TopicEntityMid": "m.02__x",
+            "mid2name": {
+                "ns:m.02__x": "Miami Marlins",
+                "ns:m.01dv7j": "Schipperke"
+            },
+            "SExpr_w_name": "(JOIN (R user.duck1123.default_domain.mtg_mana_color.spells_using_this_color_in_casting) (AND (JOIN biology.breed_coloring.breeds Schipperke) (JOIN (R sports.sports_team.colors) Miami Marlins)))",
+            "SExpr": "(JOIN (R user.duck1123.default_domain.mtg_mana_color.spells_using_this_color_in_casting) (AND (JOIN biology.breed_coloring.breeds m.01dv7j) (JOIN (R sports.sports_team.colors) m.02__x)))"
+        }
+    },
+    "62": {
+        "generations": "what is the hourly minimum wage in north dakota?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.05fky)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.05fky ns:location.statistical_region.minimum_wage ?y .\n?y ns:measurement_unit.recurring_money_value.amount ?x .\n?y ns:measurement_unit.recurring_money_value.frequency ns:m.03mxv .\n}\n",
+            "TopicEntityMid": "m.05fky",
+            "mid2name": {
+                "ns:m.05fky": "North Dakota",
+                "ns:m.03mxv": "Hour"
+            },
+            "SExpr_w_name": "(JOIN (R measurement_unit.recurring_money_value.amount) (AND (JOIN measurement_unit.recurring_money_value.frequency Hour) (JOIN (R location.statistical_region.minimum_wage) North Dakota)))",
+            "SExpr": "(JOIN (R measurement_unit.recurring_money_value.amount) (AND (JOIN measurement_unit.recurring_money_value.frequency m.03mxv) (JOIN (R location.statistical_region.minimum_wage) m.05fky)))"
+        }
+    },
+    "63": {
+        "generations": "who did theodore roosevelt appoint as an associate justice of the supreme court of the united states?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.07hyk)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.07hyk ns:people.appointer.appointment_made ?y .\n?y ns:people.appointment.appointee ?x .\n?y ns:people.appointment.appointed_role ns:m.012w3 .\n}\n",
+            "TopicEntityMid": "m.07hyk",
+            "mid2name": {
+                "ns:m.07hyk": "Theodore Roosevelt",
+                "ns:m.012w3": "Associate Justice of the Supreme Court of the United States"
+            },
+            "SExpr_w_name": "(JOIN (R people.appointment.appointee) (AND (JOIN people.appointment.appointed_role Associate Justice of the Supreme Court of the United States) (JOIN (R people.appointer.appointment_made) Theodore Roosevelt)))",
+            "SExpr": "(JOIN (R people.appointment.appointee) (AND (JOIN people.appointment.appointed_role m.012w3) (JOIN (R people.appointer.appointment_made) m.07hyk)))"
+        }
+    },
+    "64": {
+        "generations": "who was the film set decorator for a movie edited by george tomasini and written by arthur miller?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0yfp)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0yfp ns:film.writer.film ?y .\n?y ns:film.film.film_set_decoration_by ?x .\n?y ns:film.film.edited_by ns:m.0276zhf .\n}\n",
+            "TopicEntityMid": "m.0yfp",
+            "mid2name": {
+                "ns:m.0yfp": "Arthur Miller",
+                "ns:m.0276zhf": "George Tomasini"
+            },
+            "SExpr_w_name": "(JOIN (R film.film.film_set_decoration_by) (AND (JOIN film.film.edited_by George Tomasini) (JOIN (R film.writer.film) Arthur Miller)))",
+            "SExpr": "(JOIN (R film.film.film_set_decoration_by) (AND (JOIN film.film.edited_by m.0276zhf) (JOIN (R film.writer.film) m.0yfp)))"
+        }
+    },
+    "65": {
+        "generations": "Which Tunisian athlete participated in rowing at the Olympics?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.07fj_)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.07fj_ ns:olympics.olympic_participating_country.athletes ?y .\n?y ns:olympics.olympic_athlete_affiliation.athlete ?x .\n?y ns:olympics.olympic_athlete_affiliation.sport ns:m.06f41 .\n}\n",
+            "TopicEntityMid": "m.07fj_",
+            "mid2name": {
+                "ns:m.07fj_": "Tunisia",
+                "ns:m.06f41": "Rowing"
+            },
+            "SExpr_w_name": "(JOIN (R olympics.olympic_athlete_affiliation.athlete) (AND (JOIN olympics.olympic_athlete_affiliation.sport Rowing) (JOIN (R olympics.olympic_participating_country.athletes) Tunisia)))",
+            "SExpr": "(JOIN (R olympics.olympic_athlete_affiliation.athlete) (AND (JOIN olympics.olympic_athlete_affiliation.sport m.06f41) (JOIN (R olympics.olympic_participating_country.athletes) m.07fj_)))"
+        }
+    },
+    "66": {
+        "generations": "In what book does \u00c9owyn appear that is set in Arda and has translations?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0gynx)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0gynx ns:book.book_character.appears_in_book ?y .\n?y ns:book.translated_work.translations ?x .\n?y ns:fictional_universe.work_of_fiction.setting ns:m.0hbpd .\n}\n",
+            "TopicEntityMid": "m.0gynx",
+            "mid2name": {
+                "ns:m.0gynx": "\u00c9owyn",
+                "ns:m.0hbpd": "Arda"
+            },
+            "SExpr_w_name": "(JOIN (R book.translated_work.translations) (AND (JOIN fictional_universe.work_of_fiction.setting Arda) (JOIN (R book.book_character.appears_in_book) \u00c9owyn)))",
+            "SExpr": "(JOIN (R book.translated_work.translations) (AND (JOIN fictional_universe.work_of_fiction.setting m.0hbpd) (JOIN (R book.book_character.appears_in_book) m.0gynx)))"
+        }
+    },
+    "67": {
+        "generations": "who scored the winning goal for manchester city in a soccer match and at what minute did they score?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.099vgz)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.099vgz ns:soccer.football_player.goals_scored ?y .\n?y ns:soccer.football_goal.minute ?x .\n?y ns:soccer.football_goal.point_awarded_to ns:m.01634x .\n}\n",
+            "TopicEntityMid": "m.099vgz",
+            "mid2name": {
+                "ns:m.099vgz": "Sergio Ag\u00fcero",
+                "ns:m.01634x": "Manchester City F.C."
+            },
+            "SExpr_w_name": "(JOIN (R soccer.football_goal.minute) (AND (JOIN soccer.football_goal.point_awarded_to Manchester City F.C.) (JOIN (R soccer.football_player.goals_scored) Sergio Ag\u00fcero)))",
+            "SExpr": "(JOIN (R soccer.football_goal.minute) (AND (JOIN soccer.football_goal.point_awarded_to m.01634x) (JOIN (R soccer.football_player.goals_scored) m.099vgz)))"
+        }
+    },
+    "68": {
+        "generations": "when was the lost soundtrack album released by michael giacchino?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0828jw)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0828jw ns:tv.tv_program.soundtrack ?y .\n?y ns:music.album.primary_release ?x .\n?y ns:music.album.artist ns:m.04ls53 .\n}\n",
+            "TopicEntityMid": "m.0828jw",
+            "mid2name": {
+                "ns:m.0828jw": "Lost",
+                "ns:m.04ls53": "Michael Giacchino"
+            },
+            "SExpr_w_name": "(JOIN (R music.album.primary_release) (AND (JOIN music.album.artist Michael Giacchino) (JOIN (R tv.tv_program.soundtrack) Lost)))",
+            "SExpr": "(JOIN (R music.album.primary_release) (AND (JOIN music.album.artist m.04ls53) (JOIN (R tv.tv_program.soundtrack) m.0828jw)))"
+        }
+    },
+    "69": {
+        "generations": "when were the 2008 united states senate elections in new jersey?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.05fjf)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.05fjf ns:government.political_district.elections ?y .\n?y ns:government.election.election_year ?x .\n?y ns:government.election.general_election ns:m.04958p .\n}\n",
+            "TopicEntityMid": "m.05fjf",
+            "mid2name": {
+                "ns:m.05fjf": "New Jersey",
+                "ns:m.04958p": "United States Senate elections, 2008"
+            },
+            "SExpr_w_name": "(JOIN (R government.election.election_year) (AND (JOIN government.election.general_election United States Senate elections, 2008) (JOIN (R government.political_district.elections) New Jersey)))",
+            "SExpr": "(JOIN (R government.election.election_year) (AND (JOIN government.election.general_election m.04958p) (JOIN (R government.political_district.elections) m.05fjf)))"
+        }
+    },
+    "70": {
+        "generations": "what position does mark donovan hold in the kansas city chiefs organization?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0487_)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0487_ ns:organization.organization.leadership ?y .\n?y ns:organization.leadership.title ?x .\n?y ns:organization.leadership.person ns:m.0hznyqd .\n}\n",
+            "TopicEntityMid": "m.0487_",
+            "mid2name": {
+                "ns:m.0487_": "Kansas City Chiefs",
+                "ns:m.0hznyqd": "Mark Donovan"
+            },
+            "SExpr_w_name": "(JOIN (R organization.leadership.title) (AND (JOIN organization.leadership.person Mark Donovan) (JOIN (R organization.organization.leadership) Kansas City Chiefs)))",
+            "SExpr": "(JOIN (R organization.leadership.title) (AND (JOIN organization.leadership.person m.0hznyqd) (JOIN (R organization.organization.leadership) m.0487_)))"
+        }
+    },
+    "71": {
+        "generations": "what breed group does the staffordshire bull terrier belong to according to the kennel club registry?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01kv93)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01kv93 ns:biology.animal_breed.registered_with ?y .\n?y ns:biology.breed_registration.breed_group ?x .\n?y ns:biology.breed_registration.registry ns:m.025dr5 .\n}\n",
+            "TopicEntityMid": "m.01kv93",
+            "mid2name": {
+                "ns:m.01kv93": "Staffordshire Bull Terrier",
+                "ns:m.025dr5": "The Kennel Club"
+            },
+            "SExpr_w_name": "(JOIN (R biology.breed_registration.breed_group) (AND (JOIN biology.breed_registration.registry The Kennel Club) (JOIN (R biology.animal_breed.registered_with) Staffordshire Bull Terrier)))",
+            "SExpr": "(JOIN (R biology.breed_registration.breed_group) (AND (JOIN biology.breed_registration.registry m.025dr5) (JOIN (R biology.animal_breed.registered_with) m.01kv93)))"
+        }
+    },
+    "72": {
+        "generations": "Which countries are part of the basin of the river that The Iron Bridge crosses in England?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02jx1)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02jx1 ns:location.location.partially_contains ?y .\n?y ns:geography.river.basin_countries ?x .\n?y ns:geography.body_of_water.bridges ns:m.087mgy .\n}\n",
+            "TopicEntityMid": "m.02jx1",
+            "mid2name": {
+                "ns:m.02jx1": "England",
+                "ns:m.087mgy": "The Iron Bridge"
+            },
+            "SExpr_w_name": "(JOIN (R geography.river.basin_countries) (AND (JOIN geography.body_of_water.bridges The Iron Bridge) (JOIN (R location.location.partially_contains) England)))",
+            "SExpr": "(JOIN (R geography.river.basin_countries) (AND (JOIN geography.body_of_water.bridges m.087mgy) (JOIN (R location.location.partially_contains) m.02jx1)))"
+        }
+    },
+    "73": {
+        "generations": "what title did prince charles receive from the order of the british empire?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0xnc3)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0xnc3 ns:royalty.chivalric_order_officer.memberships_presented ?y .\n?y ns:royalty.chivalric_order_membership.title ?x .\n?y ns:royalty.chivalric_order_membership.order ns:m.01f2y9 .\n}\n",
+            "TopicEntityMid": "m.0xnc3",
+            "mid2name": {
+                "ns:m.0xnc3": "Charles, Prince of Wales",
+                "ns:m.01f2y9": "Order of the British Empire"
+            },
+            "SExpr_w_name": "(JOIN (R royalty.chivalric_order_membership.title) (AND (JOIN royalty.chivalric_order_membership.order Order of the British Empire) (JOIN (R royalty.chivalric_order_officer.memberships_presented) Charles, Prince of Wales)))",
+            "SExpr": "(JOIN (R royalty.chivalric_order_membership.title) (AND (JOIN royalty.chivalric_order_membership.order m.01f2y9) (JOIN (R royalty.chivalric_order_officer.memberships_presented) m.0xnc3)))"
+        }
+    },
+    "74": {
+        "generations": "who was the coach of the metropolitan division team that was the runner-up in the 2010 stanley cup finals?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0by0ww1)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0by0ww1 ns:sports.sports_championship_event.runner_up ?y .\n?y ns:ice_hockey.hockey_team.coach ?x .\n?y ns:ice_hockey.hockey_team.division ns:m.0wbl8rj .\n}\n",
+            "TopicEntityMid": "m.0by0ww1",
+            "mid2name": {
+                "ns:m.0by0ww1": "2010 Stanley Cup Finals",
+                "ns:m.0wbl8rj": "Metropolitan Division"
+            },
+            "SExpr_w_name": "(JOIN (R ice_hockey.hockey_team.coach) (AND (JOIN ice_hockey.hockey_team.division Metropolitan Division) (JOIN (R sports.sports_championship_event.runner_up) 2010 Stanley Cup Finals)))",
+            "SExpr": "(JOIN (R ice_hockey.hockey_team.coach) (AND (JOIN ice_hockey.hockey_team.division m.0wbl8rj) (JOIN (R sports.sports_championship_event.runner_up) m.0by0ww1)))"
+        }
+    },
+    "75": {
+        "generations": "who voiced spike in the buffy the vampire slayer video game?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0jz06)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0jz06 ns:cvg.game_character.games ?y .\n?y ns:cvg.game_performance.voice_actor ?x .\n?y ns:cvg.game_performance.game ns:m.0f5db4 .\n}\n",
+            "TopicEntityMid": "m.0jz06",
+            "mid2name": {
+                "ns:m.0jz06": "Spike",
+                "ns:m.0f5db4": "Buffy the Vampire Slayer"
+            },
+            "SExpr_w_name": "(JOIN (R cvg.game_performance.voice_actor) (AND (JOIN cvg.game_performance.game Buffy the Vampire Slayer) (JOIN (R cvg.game_character.games) Spike)))",
+            "SExpr": "(JOIN (R cvg.game_performance.voice_actor) (AND (JOIN cvg.game_performance.game m.0f5db4) (JOIN (R cvg.game_character.games) m.0jz06)))"
+        }
+    },
+    "76": {
+        "generations": "what is j.j. abrams' role in bad robot productions?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01xndd)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01xndd ns:business.board_member.leader_of ?y .\n?y ns:organization.leadership.role ?x .\n?y ns:organization.leadership.organization ns:m.03q5s8 .\n}\n",
+            "TopicEntityMid": "m.01xndd",
+            "mid2name": {
+                "ns:m.01xndd": "J.J. Abrams",
+                "ns:m.03q5s8": "Bad Robot Productions"
+            },
+            "SExpr_w_name": "(JOIN (R organization.leadership.role) (AND (JOIN organization.leadership.organization Bad Robot Productions) (JOIN (R business.board_member.leader_of) J.J. Abrams)))",
+            "SExpr": "(JOIN (R organization.leadership.role) (AND (JOIN organization.leadership.organization m.03q5s8) (JOIN (R business.board_member.leader_of) m.01xndd)))"
+        }
+    },
+    "77": {
+        "generations": "What is the primary train line for Transperth transit system?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.07jdr)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.07jdr ns:metropolitan_transit.transit_vehicle.transit_lines ?y .\n?y ns:metropolitan_transit.transit_line.primary_line ?x .\n?y ns:metropolitan_transit.transit_line.transit_system ns:m.04hm3b .\n}\n",
+            "TopicEntityMid": "m.07jdr",
+            "mid2name": {
+                "ns:m.07jdr": "Train",
+                "ns:m.04hm3b": "Transperth"
+            },
+            "SExpr_w_name": "(JOIN (R metropolitan_transit.transit_line.primary_line) (AND (JOIN metropolitan_transit.transit_line.transit_system Transperth) (JOIN (R metropolitan_transit.transit_vehicle.transit_lines) Train)))",
+            "SExpr": "(JOIN (R metropolitan_transit.transit_line.primary_line) (AND (JOIN metropolitan_transit.transit_line.transit_system m.04hm3b) (JOIN (R metropolitan_transit.transit_vehicle.transit_lines) m.07jdr)))"
+        }
+    },
+    "78": {
+        "generations": "Which terminals does Southwest Airlines use at Denver International Airport?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0gztl)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0gztl ns:aviation.airline.airports_served ?y .\n?y ns:aviation.airline_airport_presence.terminals ?x .\n?y ns:aviation.airline_airport_presence.airport ns:m.01n2vy .\n}\n",
+            "TopicEntityMid": "m.0gztl",
+            "mid2name": {
+                "ns:m.0gztl": "Southwest Airlines",
+                "ns:m.01n2vy": "Denver International Airport"
+            },
+            "SExpr_w_name": "(JOIN (R aviation.airline_airport_presence.terminals) (AND (JOIN aviation.airline_airport_presence.airport Denver International Airport) (JOIN (R aviation.airline.airports_served) Southwest Airlines)))",
+            "SExpr": "(JOIN (R aviation.airline_airport_presence.terminals) (AND (JOIN aviation.airline_airport_presence.airport m.01n2vy) (JOIN (R aviation.airline.airports_served) m.0gztl)))"
+        }
+    },
+    "79": {
+        "generations": "when did roman abramovich acquire the ship pelorus?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01zl71)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01zl71 ns:boats.ship_owner.ships_owned ?y .\n?y ns:boats.ship_ownership.from_date ?x .\n?y ns:boats.ship_ownership.ship ns:m.09s_xg .\n}\n",
+            "TopicEntityMid": "m.01zl71",
+            "mid2name": {
+                "ns:m.01zl71": "Roman Abramovich",
+                "ns:m.09s_xg": "Pelorus"
+            },
+            "SExpr_w_name": "(JOIN (R boats.ship_ownership.from_date) (AND (JOIN boats.ship_ownership.ship Pelorus) (JOIN (R boats.ship_owner.ships_owned) Roman Abramovich)))",
+            "SExpr": "(JOIN (R boats.ship_ownership.from_date) (AND (JOIN boats.ship_ownership.ship m.09s_xg) (JOIN (R boats.ship_owner.ships_owned) m.01zl71)))"
+        }
+    },
+    "80": {
+        "generations": "who played an astronaut in a music video featuring neil armstrong?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.05b6w)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.05b6w ns:music.music_video_performer.music_video_performances ?y .\n?y ns:music.music_video_performance.music_video ?x .\n?y ns:music.music_video_performance.music_video_character ns:m.0htp .\n}\n",
+            "TopicEntityMid": "m.05b6w",
+            "mid2name": {
+                "ns:m.05b6w": "Neil Armstrong",
+                "ns:m.0htp": "Astronaut"
+            },
+            "SExpr_w_name": "(JOIN (R music.music_video_performance.music_video) (AND (JOIN music.music_video_performance.music_video_character Astronaut) (JOIN (R music.music_video_performer.music_video_performances) Neil Armstrong)))",
+            "SExpr": "(JOIN (R music.music_video_performance.music_video) (AND (JOIN music.music_video_performance.music_video_character m.0htp) (JOIN (R music.music_video_performer.music_video_performances) m.05b6w)))"
+        }
+    },
+    "81": {
+        "generations": "when did mary, queen of scots become queen of scotland?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.055l1)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.055l1 ns:government.politician.government_positions_held ?y .\n?y ns:government.government_position_held.from ?x .\n?y ns:government.government_position_held.office_position_or_title ns:m.07ns4lr .\n}\n",
+            "TopicEntityMid": "m.055l1",
+            "mid2name": {
+                "ns:m.055l1": "Mary, Queen of Scots",
+                "ns:m.07ns4lr": "Queen of Scotland"
+            },
+            "SExpr_w_name": "(JOIN (R government.government_position_held.from) (AND (JOIN government.government_position_held.office_position_or_title Queen of Scotland) (JOIN (R government.politician.government_positions_held) Mary, Queen of Scots)))",
+            "SExpr": "(JOIN (R government.government_position_held.from) (AND (JOIN government.government_position_held.office_position_or_title m.07ns4lr) (JOIN (R government.politician.government_positions_held) m.055l1)))"
+        }
+    },
+    "82": {
+        "generations": "who is the sibling of a centerman on the carolina hurricanes who is also their captain?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0j8cb)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0j8cb ns:ice_hockey.hockey_team.captain ?y .\n?y ns:people.person.sibling_s ?x .\n?y ns:ice_hockey.hockey_player.hockey_position ns:m.02qvdc .\n}\n",
+            "TopicEntityMid": "m.0j8cb",
+            "mid2name": {
+                "ns:m.0j8cb": "Carolina Hurricanes",
+                "ns:m.02qvdc": "Centerman"
+            },
+            "SExpr_w_name": "(JOIN (R people.person.sibling_s) (AND (JOIN ice_hockey.hockey_player.hockey_position Centerman) (JOIN (R ice_hockey.hockey_team.captain) Carolina Hurricanes)))",
+            "SExpr": "(JOIN (R people.person.sibling_s) (AND (JOIN ice_hockey.hockey_player.hockey_position m.02qvdc) (JOIN (R ice_hockey.hockey_team.captain) m.0j8cb)))"
+        }
+    },
+    "83": {
+        "generations": "what was the maximum force size of syria during the six-day war?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.06vbd)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.06vbd ns:military.military_combatant.force_deployments ?y .\n?y ns:military.force_strength.maximum_force_size ?x .\n?y ns:military.force_strength.military_conflict ns:m.0784z .\n}\n",
+            "TopicEntityMid": "m.06vbd",
+            "mid2name": {
+                "ns:m.06vbd": "Syria",
+                "ns:m.0784z": "Six-Day War"
+            },
+            "SExpr_w_name": "(JOIN (R military.force_strength.maximum_force_size) (AND (JOIN military.force_strength.military_conflict Six-Day War) (JOIN (R military.military_combatant.force_deployments) Syria)))",
+            "SExpr": "(JOIN (R military.force_strength.maximum_force_size) (AND (JOIN military.force_strength.military_conflict m.0784z) (JOIN (R military.military_combatant.force_deployments) m.06vbd)))"
+        }
+    },
+    "84": {
+        "generations": "What fictional organization does Hermione Granger belong to in the Harry Potter universe?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0c8kc)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0c8kc ns:fictional_universe.fictional_character.education ?y .\n?y ns:fictional_universe.fictional_organization.appears_in_universes ?x .\n?y ns:fictional_universe.fictional_organization.sub_organization_in_fiction ns:m.02vhpv1 .\n}\n",
+            "TopicEntityMid": "m.0c8kc",
+            "mid2name": {
+                "ns:m.0c8kc": "Hermione Granger",
+                "ns:m.02vhpv1": "Gryffindor House"
+            },
+            "SExpr_w_name": "(JOIN (R fictional_universe.fictional_organization.appears_in_universes) (AND (JOIN fictional_universe.fictional_organization.sub_organization_in_fiction Gryffindor House) (JOIN (R fictional_universe.fictional_character.education) Hermione Granger)))",
+            "SExpr": "(JOIN (R fictional_universe.fictional_organization.appears_in_universes) (AND (JOIN fictional_universe.fictional_organization.sub_organization_in_fiction m.02vhpv1) (JOIN (R fictional_universe.fictional_character.education) m.0c8kc)))"
+        }
+    },
+    "85": {
+        "generations": "What disease is related to streptococcal pharyngitis and air travel?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.025t3bg)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.025t3bg ns:medicine.risk_factor.diseases ?y .\n?y ns:medicine.disease.parent_disease ?x .\n?y ns:medicine.symptom.symptom_of ns:m.0mztl .\n}\n",
+            "TopicEntityMid": "m.025t3bg",
+            "mid2name": {
+                "ns:m.025t3bg": "Air travel",
+                "ns:m.0mztl": "Streptococcal pharyngitis"
+            },
+            "SExpr_w_name": "(JOIN (R medicine.disease.parent_disease) (AND (JOIN medicine.symptom.symptom_of Streptococcal pharyngitis) (JOIN (R medicine.risk_factor.diseases) Air travel)))",
+            "SExpr": "(JOIN (R medicine.disease.parent_disease) (AND (JOIN medicine.symptom.symptom_of m.0mztl) (JOIN (R medicine.risk_factor.diseases) m.025t3bg)))"
+        }
+    },
+    "86": {
+        "generations": "When was the first episode of the TV program created by Bethenny Frankel that featured Kathy Wakile, Jason Derulo, and a segment called \"Friends Unfiltered: Mom Edition/Rip It or Return It\"?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.07_l39)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.07_l39 ns:tv.tv_program_creator.programs_created ?y .\n?y ns:tv.tv_program.air_date_of_first_episode ?x .\n?y ns:tv.tv_program.episodes ns:m.0yb7xsh .\n}\n",
+            "TopicEntityMid": "m.07_l39",
+            "mid2name": {
+                "ns:m.07_l39": "Bethenny Frankel",
+                "ns:m.0yb7xsh": "Kathy Wakile ('RHONJ')/Pop Star Jason Derulo/Friends Unfiltered: Mom Edition/Rip It or Return It?"
+            },
+            "SExpr_w_name": "(JOIN (R tv.tv_program.air_date_of_first_episode) (AND (JOIN tv.tv_program.episodes Kathy Wakile ('RHONJ')/Pop Star Jason Derulo/Friends Unfiltered: Mom Edition/Rip It or Return It?) (JOIN (R tv.tv_program_creator.programs_created) Bethenny Frankel)))",
+            "SExpr": "(JOIN (R tv.tv_program.air_date_of_first_episode) (AND (JOIN tv.tv_program.episodes m.0yb7xsh) (JOIN (R tv.tv_program_creator.programs_created) m.07_l39)))"
+        }
+    },
+    "87": {
+        "generations": "what is the scientific name for the subspecies of rottweiler?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01nw62)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01nw62 ns:biology.animal_breed.breed_of ?y .\n?y ns:biology.organism_classification.synonym_scientific_name ?x .\n?y ns:biology.organism_classification.rank ns:m.019dpj .\n}\n",
+            "TopicEntityMid": "m.01nw62",
+            "mid2name": {
+                "ns:m.01nw62": "Rottweiler",
+                "ns:m.019dpj": "Subspecies"
+            },
+            "SExpr_w_name": "(JOIN (R biology.organism_classification.synonym_scientific_name) (AND (JOIN biology.organism_classification.rank Subspecies) (JOIN (R biology.animal_breed.breed_of) Rottweiler)))",
+            "SExpr": "(JOIN (R biology.organism_classification.synonym_scientific_name) (AND (JOIN biology.organism_classification.rank m.019dpj) (JOIN (R biology.animal_breed.breed_of) m.01nw62)))"
+        }
+    },
+    "88": {
+        "generations": "what is the time zone abbreviation for san joaquin, ecuador?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02k1b)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02k1b ns:location.location.time_zones ?y .\n?y ns:time.time_zone.time_zone_abbreviation_standard ?x .\n?y ns:time.time_zone.locations_in_this_time_zone ns:m.0bbtrr0 .\n}\n",
+            "TopicEntityMid": "m.02k1b",
+            "mid2name": {
+                "ns:m.02k1b": "Ecuador",
+                "ns:m.0bbtrr0": "San Joaqu\u00edn, Ecuador"
+            },
+            "SExpr_w_name": "(JOIN (R time.time_zone.time_zone_abbreviation_standard) (AND (JOIN time.time_zone.locations_in_this_time_zone San Joaqu\u00edn, Ecuador) (JOIN (R location.location.time_zones) Ecuador)))",
+            "SExpr": "(JOIN (R time.time_zone.time_zone_abbreviation_standard) (AND (JOIN time.time_zone.locations_in_this_time_zone m.0bbtrr0) (JOIN (R location.location.time_zones) m.02k1b)))"
+        }
+    },
+    "89": {
+        "generations": "which zoo in singapore has an exhibit featuring sheba?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0211mz)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0211mz ns:zoos.zoo.notable_animals ?y .\n?y ns:zoos.animal_captivity.exhibit ?x .\n?y ns:zoos.animal_captivity.animal ns:m.0h_fr0x .\n}\n",
+            "TopicEntityMid": "m.0211mz",
+            "mid2name": {
+                "ns:m.0211mz": "Singapore Zoo",
+                "ns:m.0h_fr0x": "Sheba"
+            },
+            "SExpr_w_name": "(JOIN (R zoos.animal_captivity.exhibit) (AND (JOIN zoos.animal_captivity.animal Sheba) (JOIN (R zoos.zoo.notable_animals) Singapore Zoo)))",
+            "SExpr": "(JOIN (R zoos.animal_captivity.exhibit) (AND (JOIN zoos.animal_captivity.animal m.0h_fr0x) (JOIN (R zoos.zoo.notable_animals) m.0211mz)))"
+        }
+    },
+    "90": {
+        "generations": "what language family does the burmese language belong to and where is it primarily spoken?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01xrrm)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01xrrm ns:language.human_language.language_family ?y .\n?y ns:language.language_family.iso_639_5_code ?x .\n?y ns:language.language_family.geographic_distribution ns:m.073q1 .\n}\n",
+            "TopicEntityMid": "m.01xrrm",
+            "mid2name": {
+                "ns:m.01xrrm": "Burmese Language",
+                "ns:m.073q1": "Southeast Asia"
+            },
+            "SExpr_w_name": "(JOIN (R language.language_family.iso_639_5_code) (AND (JOIN language.language_family.geographic_distribution Southeast Asia) (JOIN (R language.human_language.language_family) Burmese Language)))",
+            "SExpr": "(JOIN (R language.language_family.iso_639_5_code) (AND (JOIN language.language_family.geographic_distribution m.073q1) (JOIN (R language.human_language.language_family) m.01xrrm)))"
+        }
+    },
+    "91": {
+        "generations": "who won the US Open tennis tournament when Venus Williams was a champion?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.016cff)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.016cff ns:tennis.tennis_tournament_champion.tennis_titles ?y .\n?y ns:tennis.tennis_tournament_championship.winner ?x .\n?y ns:tennis.tennis_tournament_championship.tournament ns:m.0l6c9 .\n}\n",
+            "TopicEntityMid": "m.016cff",
+            "mid2name": {
+                "ns:m.016cff": "Venus Williams",
+                "ns:m.0l6c9": "The US Open (Tennis)"
+            },
+            "SExpr_w_name": "(JOIN (R tennis.tennis_tournament_championship.winner) (AND (JOIN tennis.tennis_tournament_championship.tournament The US Open (Tennis)) (JOIN (R tennis.tennis_tournament_champion.tennis_titles) Venus Williams)))",
+            "SExpr": "(JOIN (R tennis.tennis_tournament_championship.winner) (AND (JOIN tennis.tennis_tournament_championship.tournament m.0l6c9) (JOIN (R tennis.tennis_tournament_champion.tennis_titles) m.016cff)))"
+        }
+    },
+    "92": {
+        "generations": "What is the military expenditure as a percentage of GDP in Congo according to the World Bank's World Development Indicators and Global Development Finance?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01rxw)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01rxw ns:location.statistical_region.military_expenditure_percent_gdp ?y .\n?y ns:measurement_unit.dated_percentage.rate ?x .\n?y ns:measurement_unit.dated_percentage.source ns:m.0ndnhc6 .\n}\n",
+            "TopicEntityMid": "m.01rxw",
+            "mid2name": {
+                "ns:m.01rxw": "Congo",
+                "ns:m.0ndnhc6": "Military expenditure as percentage of GDP, World Development Indicators and Global Development Finance, World Bank"
+            },
+            "SExpr_w_name": "(JOIN (R measurement_unit.dated_percentage.rate) (AND (JOIN measurement_unit.dated_percentage.source Military expenditure as percentage of GDP, World Development Indicators and Global Development Finance, World Bank) (JOIN (R location.statistical_region.military_expenditure_percent_gdp) Congo)))",
+            "SExpr": "(JOIN (R measurement_unit.dated_percentage.rate) (AND (JOIN measurement_unit.dated_percentage.source m.0ndnhc6) (JOIN (R location.statistical_region.military_expenditure_percent_gdp) m.01rxw)))"
+        }
+    },
+    "93": {
+        "generations": "what style of architecture is associated with jean-jacques rousseau's book the pathfinder or the inland sea?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0420y)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0420y ns:book.author.school_or_movement ?y .\n?y ns:architecture.architectural_style.examples ?x .\n?y ns:book.school_or_movement.associated_works ns:m.02pw9_k .\n}\n",
+            "TopicEntityMid": "m.0420y",
+            "mid2name": {
+                "ns:m.0420y": "Jean-Jacques Rousseau",
+                "ns:m.02pw9_k": "The Pathfinder, or The Inland Sea"
+            },
+            "SExpr_w_name": "(JOIN (R architecture.architectural_style.examples) (AND (JOIN book.school_or_movement.associated_works The Pathfinder, or The Inland Sea) (JOIN (R book.author.school_or_movement) Jean-Jacques Rousseau)))",
+            "SExpr": "(JOIN (R architecture.architectural_style.examples) (AND (JOIN book.school_or_movement.associated_works m.02pw9_k) (JOIN (R book.author.school_or_movement) m.0420y)))"
+        }
+    },
+    "94": {
+        "generations": "What is the registry for the active top-level domain in the United Arab Emirates?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0j1z8)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0j1z8 ns:location.country.internet_tld ?y .\n?y ns:internet.top_level_domain.registry ?x .\n?y ns:internet.top_level_domain.status ns:m.02hsn4g .\n}\n",
+            "TopicEntityMid": "m.0j1z8",
+            "mid2name": {
+                "ns:m.0j1z8": "United Arab Emirates",
+                "ns:m.02hsn4g": "Active"
+            },
+            "SExpr_w_name": "(JOIN (R internet.top_level_domain.registry) (AND (JOIN internet.top_level_domain.status Active) (JOIN (R location.country.internet_tld) United Arab Emirates)))",
+            "SExpr": "(JOIN (R internet.top_level_domain.registry) (AND (JOIN internet.top_level_domain.status m.02hsn4g) (JOIN (R location.country.internet_tld) m.0j1z8)))"
+        }
+    }
+}

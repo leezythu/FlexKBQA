@@ -1,0 +1,350 @@
+[
+    {
+        "?ent0": "ns:m.02p_98y",
+        "rel0": "http://rdf.freebase.com/ns/film.film.country",
+        "rel1": "http://rdf.freebase.com/ns/base.csafarms.area_served.farms",
+        "rel2": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "ns:m.02s9qg8",
+        "rel0": "http://rdf.freebase.com/ns/education.school_newspaper.school",
+        "rel1": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel2": "http://rdf.freebase.com/ns/location.location.area"
+    },
+    {
+        "?ent0": "ns:m.073k4m",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude",
+        "rel2": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "ns:m.03pynj",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/base.csafarms.area_served.farms",
+        "rel2": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "ns:m.0d1y0y",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude",
+        "rel2": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "ns:m.036kxw",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/biology.breed_origin.breeds_originating_here",
+        "rel2": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "ns:m.01vq3",
+        "rel0": "http://rdf.freebase.com/ns/music.music_video_subject.subject_in_these_music_videos",
+        "rel1": "http://rdf.freebase.com/ns/music.music_video_subject.subject_in_these_music_videos",
+        "rel2": "http://rdf.freebase.com/ns/base.webvideo.internet_video.running_time"
+    },
+    {
+        "?ent0": "ns:m.01pw67x",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.artist",
+        "rel2": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "ns:m.0cp95vr",
+        "rel0": "http://rdf.freebase.com/ns/education.grade_level.locations_used",
+        "rel1": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel2": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "ns:m.01xnc_",
+        "rel0": "http://rdf.freebase.com/ns/food.culinary_tool.used_in_recipes",
+        "rel1": "http://rdf.freebase.com/ns/food.recipe.author",
+        "rel2": "http://rdf.freebase.com/ns/food.recipe.preparation_time"
+    },
+    {
+        "?ent0": "ns:m.0b0rcj",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude",
+        "rel2": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "ns:m.0256dwj",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.Beaufort_scale",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.beaufort_wind_force.tropical_cyclone_categories",
+        "rel2": "http://rdf.freebase.com/ns/meteorology.beaufort_wind_force.wind_speed"
+    },
+    {
+        "?ent0": "ns:m.07y14",
+        "rel0": "http://rdf.freebase.com/ns/base.aubreymaturin.ship.mentions",
+        "rel1": "http://rdf.freebase.com/ns/base.aubreymaturin.ship_mention.book",
+        "rel2": "http://rdf.freebase.com/ns/base.aubreymaturin.ship_mention.chapter"
+    },
+    {
+        "?ent0": "ns:m.021vvd",
+        "rel0": "http://rdf.freebase.com/ns/spaceflight.rocket_engine_fuel.rocket_engines",
+        "rel1": "http://rdf.freebase.com/ns/spaceflight.bipropellant_rocket_engine.engine_cycle",
+        "rel2": "http://rdf.freebase.com/ns/spaceflight.rocket_engine.thrust_vacuum"
+    },
+    {
+        "?ent0": "ns:m.04j11tb",
+        "rel0": "http://rdf.freebase.com/ns/film.film.country",
+        "rel1": "http://rdf.freebase.com/ns/base.csafarms.area_served.farms",
+        "rel2": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "ns:m.03p2b0n",
+        "rel0": "http://rdf.freebase.com/ns/medicine.medical_trial_sponsor.trials_sponsored",
+        "rel1": "http://rdf.freebase.com/ns/medicine.medical_trial.phase",
+        "rel2": "http://rdf.freebase.com/ns/medicine.medical_trial.expected_total_enrollment"
+    },
+    {
+        "?ent0": "ns:m.02p1g2",
+        "rel0": "http://rdf.freebase.com/ns/food.beer_style.bjcp_style_category",
+        "rel1": "http://rdf.freebase.com/ns/food.beer_style_category.styles",
+        "rel2": "http://rdf.freebase.com/ns/food.beer_style_category.bjcp_id"
+    },
+    {
+        "?ent0": "ns:m.03w25j",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.galactic_group.galaxies_in_group",
+        "rel1": "http://rdf.freebase.com/ns/astronomy.celestial_object.category",
+        "rel2": "http://rdf.freebase.com/ns/astronomy.celestial_object.cosmological_distance"
+    },
+    {
+        "?ent0": "ns:m.026t7pm",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/base.csafarms.area_served.farms",
+        "rel2": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "ns:m.03cmfjt",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/base.csafarms.area_served.farms",
+        "rel2": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "ns:m.0wszf9z",
+        "rel0": "http://rdf.freebase.com/ns/location.location.street_address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.citytown",
+        "rel2": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "ns:m.01312wjt",
+        "rel0": "http://rdf.freebase.com/ns/music.recording.genre",
+        "rel1": "http://rdf.freebase.com/ns/people.person.gender",
+        "rel2": "http://rdf.freebase.com/ns/people.person.height_meters"
+    },
+    {
+        "?ent0": "ns:m.01j_r2",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/biology.breed_origin.breeds_originating_here",
+        "rel2": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "ns:m.0b62p0",
+        "rel0": "http://rdf.freebase.com/ns/music.artist.track",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.artist",
+        "rel2": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "ns:m.0gkzzl6",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.citytown",
+        "rel2": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "ns:m.02m37j",
+        "rel0": "http://rdf.freebase.com/ns/tv.tv_program.filming_locations",
+        "rel1": "http://rdf.freebase.com/ns/location.location.street_address",
+        "rel2": "http://rdf.freebase.com/ns/location.location.area"
+    },
+    {
+        "?ent0": "ns:m.0761php",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.citytown",
+        "rel2": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "ns:m.047qqcm",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude",
+        "rel2": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "ns:m.0hy_4yn",
+        "rel0": "http://rdf.freebase.com/ns/book.author.works_written",
+        "rel1": "http://rdf.freebase.com/ns/book.written_work.author",
+        "rel2": "http://rdf.freebase.com/ns/base.visleg.labeled.subject"
+    },
+    {
+        "?ent0": "ns:m.0wsd65k",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.headquarters",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.citytown",
+        "rel2": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "ns:m.0w5gff1",
+        "rel0": "http://rdf.freebase.com/ns/music.engineer.tracks_engineered",
+        "rel1": "http://rdf.freebase.com/ns/music.recording.artist",
+        "rel2": "http://rdf.freebase.com/ns/music.recording.length"
+    },
+    {
+        "?ent0": "ns:m.046dh7k",
+        "rel0": "http://rdf.freebase.com/ns/distilled_spirits.distillery.spirits",
+        "rel1": "http://rdf.freebase.com/ns/distilled_spirits.distilled_spirit.aging",
+        "rel2": "http://rdf.freebase.com/ns/distilled_spirits.distilled_spirit.age"
+    },
+    {
+        "?ent0": "ns:m.04d1vfd",
+        "rel0": "http://rdf.freebase.com/ns/medicine.medical_trial_sponsor.trials_sponsored",
+        "rel1": "http://rdf.freebase.com/ns/medicine.medical_trial.phase",
+        "rel2": "http://rdf.freebase.com/ns/medicine.medical_trial.expected_total_enrollment"
+    },
+    {
+        "?ent0": "ns:m.0gvdn13",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.previous_issue",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.previous_issue",
+        "rel2": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.issue_number"
+    },
+    {
+        "?ent0": "ns:m.03cfjzz",
+        "rel0": "http://rdf.freebase.com/ns/film.film.country",
+        "rel1": "http://rdf.freebase.com/ns/biology.breed_origin.breeds_originating_here",
+        "rel2": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "ns:m.05kh_yy",
+        "rel0": "http://rdf.freebase.com/ns/book.report_issuing_institution.technical_reports_issued",
+        "rel1": "http://rdf.freebase.com/ns/book.written_work.author",
+        "rel2": "http://rdf.freebase.com/ns/book.technical_report.institution_reference"
+    },
+    {
+        "?ent0": "ns:m.02_6ntz",
+        "rel0": "http://rdf.freebase.com/ns/organization.organization.founders",
+        "rel1": "http://rdf.freebase.com/ns/martial_arts.martial_artist.instructor",
+        "rel2": "http://rdf.freebase.com/ns/people.person.weight_kg"
+    },
+    {
+        "?ent0": "ns:m.0b__kbm",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/base.csafarms.area_served.farms",
+        "rel2": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "ns:m.02wjmnh",
+        "rel0": "http://rdf.freebase.com/ns/medicine.drug_administration_route.drug_formulations",
+        "rel1": "http://rdf.freebase.com/ns/medicine.drug_formulation.active_ingredient_moieties",
+        "rel2": "http://rdf.freebase.com/ns/medicine.drug_formulation.brand_names"
+    },
+    {
+        "?ent0": "ns:m.0mgkg",
+        "rel0": "http://rdf.freebase.com/ns/law.patent_assignee.patents_assigned",
+        "rel1": "http://rdf.freebase.com/ns/law.us_patent.inventor",
+        "rel2": "http://rdf.freebase.com/ns/law.us_patent.patent_number"
+    },
+    {
+        "?ent0": "ns:m.0bv269",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/biology.breed_origin.breeds_originating_here",
+        "rel2": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "ns:m.0489v9k",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude",
+        "rel2": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "ns:m.03q3r04",
+        "rel0": "http://rdf.freebase.com/ns/digicams.camera_format.cameras",
+        "rel1": "http://rdf.freebase.com/ns/business.consumer_product.company",
+        "rel2": "http://rdf.freebase.com/ns/digicams.digital_camera.lcd_pixels"
+    },
+    {
+        "?ent0": "ns:m.02nd_mh",
+        "rel0": "http://rdf.freebase.com/ns/library.public_library_system.annual_circulation",
+        "rel1": "http://rdf.freebase.com/ns/measurement_unit.dated_integer.number",
+        "rel2": "http://rdf.freebase.com/ns/measurement_unit.dated_integer.number"
+    },
+    {
+        "?ent0": "ns:m.02q1lfp",
+        "rel0": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone.category",
+        "rel1": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.tropical_cyclones",
+        "rel2": "http://rdf.freebase.com/ns/meteorology.tropical_cyclone_category.max_wind_speed"
+    },
+    {
+        "?ent0": "ns:m.0chgh2j",
+        "rel0": "http://rdf.freebase.com/ns/boxing.boxing_title.champions",
+        "rel1": "http://rdf.freebase.com/ns/boxing.boxing_title_tenure.champion",
+        "rel2": "http://rdf.freebase.com/ns/boxing.boxing_title_tenure.defenses"
+    },
+    {
+        "?ent0": "ns:m.06pvr",
+        "rel0": "http://rdf.freebase.com/ns/base.csafarms.area_served.farms",
+        "rel1": "http://rdf.freebase.com/ns/base.csafarms.farm.products",
+        "rel2": "http://rdf.freebase.com/ns/user.jfry.default_domain.community_supported_agriculture.size"
+    },
+    {
+        "?ent0": "ns:m.035p3",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/base.csafarms.area_served.farms",
+        "rel2": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "ns:m.03p41f7",
+        "rel0": "http://rdf.freebase.com/ns/spaceflight.rocket_engine_status.rocket_engines",
+        "rel1": "http://rdf.freebase.com/ns/spaceflight.bipropellant_rocket_engine.engine_cycle",
+        "rel2": "http://rdf.freebase.com/ns/user.hedgehog.default_domain.rocket_engine.thrust_vacuum"
+    },
+    {
+        "?ent0": "ns:m.02qpc37",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/base.csafarms.area_served.farms",
+        "rel2": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "ns:m.02lky49",
+        "rel0": "http://rdf.freebase.com/ns/biology.genomic_locus.annotation",
+        "rel1": "http://rdf.freebase.com/ns/biology.gene.chromosome",
+        "rel2": "http://rdf.freebase.com/ns/biology.gene.ncbi_id"
+    },
+    {
+        "?ent0": "ns:m.05twj1",
+        "rel0": "http://rdf.freebase.com/ns/location.location.geolocation",
+        "rel1": "http://rdf.freebase.com/ns/location.geocode.latitude",
+        "rel2": "http://rdf.freebase.com/ns/location.geocode.latitude"
+    },
+    {
+        "?ent0": "ns:m.07gp_k",
+        "rel0": "http://rdf.freebase.com/ns/location.location.containedby",
+        "rel1": "http://rdf.freebase.com/ns/base.csafarms.area_served.farms",
+        "rel2": "http://rdf.freebase.com/ns/topic_server.population_number"
+    },
+    {
+        "?ent0": "ns:m.012vsw78",
+        "rel0": "http://rdf.freebase.com/ns/business.business_location.address",
+        "rel1": "http://rdf.freebase.com/ns/location.mailing_address.citytown",
+        "rel2": "http://rdf.freebase.com/ns/location.mailing_address.street_address"
+    },
+    {
+        "?ent0": "ns:m.021vvd",
+        "rel0": "http://rdf.freebase.com/ns/spaceflight.rocket_engine_fuel.rocket_engines",
+        "rel1": "http://rdf.freebase.com/ns/spaceflight.bipropellant_rocket_engine.engine_cycle",
+        "rel2": "http://rdf.freebase.com/ns/spaceflight.rocket_engine.thrust_vacuum"
+    },
+    {
+        "?ent0": "ns:m.02llgt2",
+        "rel0": "http://rdf.freebase.com/ns/biology.genomic_locus.annotation",
+        "rel1": "http://rdf.freebase.com/ns/biology.gene.chromosome",
+        "rel2": "http://rdf.freebase.com/ns/biology.gene.ncbi_id"
+    },
+    {
+        "?ent0": "ns:m.03h0l7",
+        "rel0": "http://rdf.freebase.com/ns/comic_books.comic_book_inker.comic_covers_inked",
+        "rel1": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.editor",
+        "rel2": "http://rdf.freebase.com/ns/comic_books.comic_book_issue.issue_number"
+    },
+    {
+        "?ent0": "ns:m.01srj",
+        "rel0": "http://rdf.freebase.com/ns/astronomy.celestial_object_category.objects",
+        "rel1": "http://rdf.freebase.com/ns/astronomy.astronomical_discovery.status",
+        "rel2": "http://rdf.freebase.com/ns/astronomy.orbital_relationship.aoapsis"
+    }
+]

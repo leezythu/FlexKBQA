@@ -1,0 +1,1583 @@
+{
+    "0": {
+        "generations": [
+            [
+                "what is the shape of a sab(s)bc galaxy?",
+                -2.7052726331000003
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0hng4f7)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0hng4f7 ns:astronomy.galaxy_classification_code.galaxy_shape ?x .\n}\n",
+            "TopicEntityMid": "m.0hng4f7",
+            "mid2name": {
+                "ns:m.0hng4f7": "SAB(s)bc"
+            },
+            "SExpr_w_name": "(JOIN (R astronomy.galaxy_classification_code.galaxy_shape) SAB(s)bc)",
+            "SExpr": "(JOIN (R astronomy.galaxy_classification_code.galaxy_shape) m.0hng4f7)"
+        }
+    },
+    "1": {
+        "generations": [
+            [
+                "what breeds originate from wales?",
+                -2.373757766818
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0j5g9)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0j5g9 ns:biology.breed_origin.breeds_originating_here ?x .\n}\n",
+            "TopicEntityMid": "m.0j5g9",
+            "mid2name": {
+                "ns:m.0j5g9": "Wales"
+            },
+            "SExpr_w_name": "(JOIN (R biology.breed_origin.breeds_originating_here) Wales)",
+            "SExpr": "(JOIN (R biology.breed_origin.breeds_originating_here) m.0j5g9)"
+        }
+    },
+    "2": {
+        "generations": [
+            [
+                "what breeds of animals originated in turkey?",
+                -1.40261135332
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01znc_)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01znc_ ns:biology.breed_origin.breeds_originating_here ?x .\n}\n",
+            "TopicEntityMid": "m.01znc_",
+            "mid2name": {
+                "ns:m.01znc_": "Turkey"
+            },
+            "SExpr_w_name": "(JOIN (R biology.breed_origin.breeds_originating_here) Turkey)",
+            "SExpr": "(JOIN (R biology.breed_origin.breeds_originating_here) m.01znc_)"
+        }
+    },
+    "3": {
+        "generations": [
+            [
+                "who is the artist behind the rolling sea?",
+                -4.0177973080000005
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01d9br6)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01d9br6 ns:music.recording.artist ?x .\n}\n",
+            "TopicEntityMid": "m.01d9br6",
+            "mid2name": {
+                "ns:m.01d9br6": "Rolling Sea"
+            },
+            "SExpr_w_name": "(JOIN (R music.recording.artist) Rolling Sea)",
+            "SExpr": "(JOIN (R music.recording.artist) m.01d9br6)"
+        }
+    },
+    "4": {
+        "generations": [
+            [
+                "what causes erythema?",
+                -0.17730599034699998
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02mcv2)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02mcv2 ns:medicine.disease_cause.diseases ?x .\n}\n",
+            "TopicEntityMid": "m.02mcv2",
+            "mid2name": {
+                "ns:m.02mcv2": "Erythema"
+            },
+            "SExpr_w_name": "(JOIN (R medicine.disease_cause.diseases) Erythema)",
+            "SExpr": "(JOIN (R medicine.disease_cause.diseases) m.02mcv2)"
+        }
+    },
+    "5": {
+        "generations": [
+            [
+                "what tv shows has benjamin caron directed?",
+                -2.3877482232499996
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:g.11byb645nh)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:g.11byb645nh ns:tv.tv_director.episodes_directed ?x .\n}\n",
+            "TopicEntityMid": "g.11byb645nh",
+            "mid2name": {
+                "ns:g.11byb645nh": "Benjamin Caron"
+            },
+            "SExpr_w_name": "(JOIN (R tv.tv_director.episodes_directed) Benjamin Caron)",
+            "SExpr": "(JOIN (R tv.tv_director.episodes_directed) g.11byb645nh)"
+        }
+    },
+    "6": {
+        "generations": [
+            [
+                "what books are about the alphabet?",
+                -0.8975860979000001
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0hwf)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0hwf ns:book.book_subject.works ?x .\n}\n",
+            "TopicEntityMid": "m.0hwf",
+            "mid2name": {
+                "ns:m.0hwf": "Alphabet"
+            },
+            "SExpr_w_name": "(JOIN (R book.book_subject.works) Alphabet)",
+            "SExpr": "(JOIN (R book.book_subject.works) m.0hwf)"
+        }
+    },
+    "7": {
+        "generations": [
+            [
+                "what university has a clinical virology department?",
+                -1.67450096736
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0fpyfbl)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0fpyfbl ns:education.department.department_of ?x .\n}\n",
+            "TopicEntityMid": "m.0fpyfbl",
+            "mid2name": {
+                "ns:m.0fpyfbl": "Stanford Clinical Virology"
+            },
+            "SExpr_w_name": "(JOIN (R education.department.department_of) Stanford Clinical Virology)",
+            "SExpr": "(JOIN (R education.department.department_of) m.0fpyfbl)"
+        }
+    },
+    "8": {
+        "generations": [
+            [
+                "how do you pronounce \"prison escape\"?",
+                -1.41357956808
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0b5_s_)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0b5_s_ ns:base.schemastaging.context_name.pronunciation ?x .\n}\n",
+            "TopicEntityMid": "m.0b5_s_",
+            "mid2name": {
+                "ns:m.0b5_s_": "Prison escape"
+            },
+            "SExpr_w_name": "(JOIN (R base.schemastaging.context_name.pronunciation) Prison escape)",
+            "SExpr": "(JOIN (R base.schemastaging.context_name.pronunciation) m.0b5_s_)"
+        }
+    },
+    "9": {
+        "generations": [
+            [
+                "what characters in fiction are korean?",
+                -2.53983721185
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01xhh5)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01xhh5 ns:fictional_universe.ethnicity_in_fiction.characters_of_this_ethnicity ?x .\n}\n",
+            "TopicEntityMid": "m.01xhh5",
+            "mid2name": {
+                "ns:m.01xhh5": "Koreans"
+            },
+            "SExpr_w_name": "(JOIN (R fictional_universe.ethnicity_in_fiction.characters_of_this_ethnicity) Koreans)",
+            "SExpr": "(JOIN (R fictional_universe.ethnicity_in_fiction.characters_of_this_ethnicity) m.01xhh5)"
+        }
+    },
+    "10": {
+        "generations": [
+            [
+                " who produced the album body language, volume 5?",
+                -5.683047026000001
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0dvn_0v)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0dvn_0v ns:music.album.artist ?x .\n}\n",
+            "TopicEntityMid": "m.0dvn_0v",
+            "mid2name": {
+                "ns:m.0dvn_0v": "Body Language, Volume 5"
+            },
+            "SExpr_w_name": "(JOIN (R music.album.artist) Body Language, Volume 5)",
+            "SExpr": "(JOIN (R music.album.artist) m.0dvn_0v)"
+        }
+    },
+    "11": {
+        "generations": [
+            [
+                "who has a matura degree?",
+                -0.798657237388
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01fwjq)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01fwjq ns:education.educational_degree.people_with_this_degree ?x .\n}\n",
+            "TopicEntityMid": "m.01fwjq",
+            "mid2name": {
+                "ns:m.01fwjq": "Matura"
+            },
+            "SExpr_w_name": "(JOIN (R education.educational_degree.people_with_this_degree) Matura)",
+            "SExpr": "(JOIN (R education.educational_degree.people_with_this_degree) m.01fwjq)"
+        }
+    },
+    "12": {
+        "generations": [
+            [
+                "what books are about basketball?",
+                -1.0955085080700002
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.018w8)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.018w8 ns:book.book_subject.works ?x .\n}\n",
+            "TopicEntityMid": "m.018w8",
+            "mid2name": {
+                "ns:m.018w8": "Basketball"
+            },
+            "SExpr_w_name": "(JOIN (R book.book_subject.works) Basketball)",
+            "SExpr": "(JOIN (R book.book_subject.works) m.018w8)"
+        }
+    },
+    "13": {
+        "generations": [
+            [
+                "what divisions are in the western conference of hockey?",
+                -2.8647823642
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0ch9cyf)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0ch9cyf ns:ice_hockey.hockey_conference.divisions ?x .\n}\n",
+            "TopicEntityMid": "m.0ch9cyf",
+            "mid2name": {
+                "ns:m.0ch9cyf": "Western Conference"
+            },
+            "SExpr_w_name": "(JOIN (R ice_hockey.hockey_conference.divisions) Western Conference)",
+            "SExpr": "(JOIN (R ice_hockey.hockey_conference.divisions) m.0ch9cyf)"
+        }
+    },
+    "14": {
+        "generations": [
+            [
+                "what has jean-pierre sabiani contributed to music?",
+                -2.0201767323735
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.09k2g03)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.09k2g03 ns:music.artist.contribution ?x .\n}\n",
+            "TopicEntityMid": "m.09k2g03",
+            "mid2name": {
+                "ns:m.09k2g03": "Jean-Pierre Sabiani"
+            },
+            "SExpr_w_name": "(JOIN (R music.artist.contribution) Jean-Pierre Sabiani)",
+            "SExpr": "(JOIN (R music.artist.contribution) m.09k2g03)"
+        }
+    },
+    "15": {
+        "generations": [
+            [
+                "what breeds are recognized by the united kennel club?",
+                -1.662083169548
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.038fx_)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.038fx_ ns:biology.breed_registry.breed_groups ?x .\n}\n",
+            "TopicEntityMid": "m.038fx_",
+            "mid2name": {
+                "ns:m.038fx_": "United Kennel Club"
+            },
+            "SExpr_w_name": "(JOIN (R biology.breed_registry.breed_groups) United Kennel Club)",
+            "SExpr": "(JOIN (R biology.breed_registry.breed_groups) m.038fx_)"
+        }
+    },
+    "16": {
+        "generations": [
+            [
+                "who is a famous sculptor?",
+                -2.7058024662099998
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.06msq)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.06msq ns:visual_art.visual_art_form.artists ?x .\n}\n",
+            "TopicEntityMid": "m.06msq",
+            "mid2name": {
+                "ns:m.06msq": "Sculpture"
+            },
+            "SExpr_w_name": "(JOIN (R visual_art.visual_art_form.artists) Sculpture)",
+            "SExpr": "(JOIN (R visual_art.visual_art_form.artists) m.06msq)"
+        }
+    },
+    "17": {
+        "generations": [
+            [
+                "what fictional universes is mary russell a part of?",
+                -3.5642701498862994
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0375_h)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0375_h ns:fictional_universe.fictional_character.appears_in_these_fictional_universes ?x .\n}\n",
+            "TopicEntityMid": "m.0375_h",
+            "mid2name": {
+                "ns:m.0375_h": "Mary Russell"
+            },
+            "SExpr_w_name": "(JOIN (R fictional_universe.fictional_character.appears_in_these_fictional_universes) Mary Russell)",
+            "SExpr": "(JOIN (R fictional_universe.fictional_character.appears_in_these_fictional_universes) m.0375_h)"
+        }
+    },
+    "18": {
+        "generations": [
+            [
+                "what is the parent committee of the united states senate foreign relations subcommittee on near east, south asia, central asia and counterterrorism?",
+                -1.021948969555
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0289fzx)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0289fzx ns:government.legislative_committee.subcommittee_of ?x .\n}\n",
+            "TopicEntityMid": "m.0289fzx",
+            "mid2name": {
+                "ns:m.0289fzx": "United States Senate Foreign Relations Subcommittee on Near East, South Asia, Central Asia and Counterterrorism"
+            },
+            "SExpr_w_name": "(JOIN (R government.legislative_committee.subcommittee_of) United States Senate Foreign Relations Subcommittee on Near East, South Asia, Central Asia and Counterterrorism)",
+            "SExpr": "(JOIN (R government.legislative_committee.subcommittee_of) m.0289fzx)"
+        }
+    },
+    "19": {
+        "generations": [
+            [
+                "what is the gender of the emperor of china?",
+                -0.739782241264
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.05yvrzx)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.05yvrzx ns:fictional_universe.fictional_character.gender ?x .\n}\n",
+            "TopicEntityMid": "m.05yvrzx",
+            "mid2name": {
+                "ns:m.05yvrzx": "The Emperor of China"
+            },
+            "SExpr_w_name": "(JOIN (R fictional_universe.fictional_character.gender) The Emperor of China)",
+            "SExpr": "(JOIN (R fictional_universe.fictional_character.gender) m.05yvrzx)"
+        }
+    },
+    "20": {
+        "generations": [
+            [
+                "what has samwise gamgee possessed?",
+                -1.5952468149750003
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0gvgd)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0gvgd ns:fictional_universe.fictional_character.has_possessed ?x .\n}\n",
+            "TopicEntityMid": "m.0gvgd",
+            "mid2name": {
+                "ns:m.0gvgd": "Samwise Gamgee"
+            },
+            "SExpr_w_name": "(JOIN (R fictional_universe.fictional_character.has_possessed) Samwise Gamgee)",
+            "SExpr": "(JOIN (R fictional_universe.fictional_character.has_possessed) m.0gvgd)"
+        }
+    },
+    "21": {
+        "generations": [
+            [
+                "what is jay stephens' gender?",
+                -1.89718358891
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.04crf_2)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.04crf_2 ns:people.person.gender ?x .\n}\n",
+            "TopicEntityMid": "m.04crf_2",
+            "mid2name": {
+                "ns:m.04crf_2": "Jay Stephens"
+            },
+            "SExpr_w_name": "(JOIN (R people.person.gender) Jay Stephens)",
+            "SExpr": "(JOIN (R people.person.gender) m.04crf_2)"
+        }
+    },
+    "22": {
+        "generations": [
+            [
+                "how do you pronounce the lord of the rings?",
+                -1.02830056814
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.07bz5)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.07bz5 ns:base.schemastaging.context_name.pronunciation ?x .\n}\n",
+            "TopicEntityMid": "m.07bz5",
+            "mid2name": {
+                "ns:m.07bz5": "The Lord of the Rings"
+            },
+            "SExpr_w_name": "(JOIN (R base.schemastaging.context_name.pronunciation) The Lord of the Rings)",
+            "SExpr": "(JOIN (R base.schemastaging.context_name.pronunciation) m.07bz5)"
+        }
+    },
+    "23": {
+        "generations": [
+            [
+                "where is jeopardy filmed?",
+                -0.3988740282
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.014l6l)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.014l6l ns:tv.tv_program.filming_locations ?x .\n}\n",
+            "TopicEntityMid": "m.014l6l",
+            "mid2name": {
+                "ns:m.014l6l": "Jeopardy!"
+            },
+            "SExpr_w_name": "(JOIN (R tv.tv_program.filming_locations) Jeopardy!)",
+            "SExpr": "(JOIN (R tv.tv_program.filming_locations) m.014l6l)"
+        }
+    },
+    "24": {
+        "generations": [
+            [
+                "where did tim buckley perform at the folklore center?",
+                -0.7211253233700001
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0nbvthl)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0nbvthl ns:music.concert.venue ?x .\n}\n",
+            "TopicEntityMid": "m.0nbvthl",
+            "mid2name": {
+                "ns:m.0nbvthl": "Tim Buckley at The Folklore Center"
+            },
+            "SExpr_w_name": "(JOIN (R music.concert.venue) Tim Buckley at The Folklore Center)",
+            "SExpr": "(JOIN (R music.concert.venue) m.0nbvthl)"
+        }
+    },
+    "25": {
+        "generations": [
+            [
+                "what organization does the united states bureau of land management belong to?",
+                -3.09046627292
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0f4r5)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0f4r5 ns:organization.organization.parent ?x .\n}\n",
+            "TopicEntityMid": "m.0f4r5",
+            "mid2name": {
+                "ns:m.0f4r5": "United States Bureau of Land Management"
+            },
+            "SExpr_w_name": "(JOIN (R organization.organization.parent) United States Bureau of Land Management)",
+            "SExpr": "(JOIN (R organization.organization.parent) m.0f4r5)"
+        }
+    },
+    "26": {
+        "generations": [
+            [
+                "what hops are similar to centennial?",
+                -1.0551390374
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0115clqx)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0115clqx ns:base.lightweight.beer_hop.hops_similar ?x .\n}\n",
+            "TopicEntityMid": "m.0115clqx",
+            "mid2name": {
+                "ns:m.0115clqx": "Centennial"
+            },
+            "SExpr_w_name": "(JOIN (R base.lightweight.beer_hop.hops_similar) Centennial)",
+            "SExpr": "(JOIN (R base.lightweight.beer_hop.hops_similar) m.0115clqx)"
+        }
+    },
+    "27": {
+        "generations": [
+            [
+                "how do you pronounce art gallery?",
+                -1.2338798063899998
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0hhbr)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0hhbr ns:base.schemastaging.context_name.pronunciation ?x .\n}\n",
+            "TopicEntityMid": "m.0hhbr",
+            "mid2name": {
+                "ns:m.0hhbr": "Art Gallery"
+            },
+            "SExpr_w_name": "(JOIN (R base.schemastaging.context_name.pronunciation) Art Gallery)",
+            "SExpr": "(JOIN (R base.schemastaging.context_name.pronunciation) m.0hhbr)"
+        }
+    },
+    "28": {
+        "generations": [
+            [
+                "what fictional universes does james bond appear in?",
+                -1.9613833218640002
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0clpml)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0clpml ns:fictional_universe.fictional_character.appears_in_these_fictional_universes ?x .\n}\n",
+            "TopicEntityMid": "m.0clpml",
+            "mid2name": {
+                "ns:m.0clpml": "James Bond"
+            },
+            "SExpr_w_name": "(JOIN (R fictional_universe.fictional_character.appears_in_these_fictional_universes) James Bond)",
+            "SExpr": "(JOIN (R fictional_universe.fictional_character.appears_in_these_fictional_universes) m.0clpml)"
+        }
+    },
+    "29": {
+        "generations": [
+            [
+                "who makes the pentax k20d?",
+                -1.9670857108399997
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03m6rr1)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03m6rr1 ns:business.consumer_product.company ?x .\n}\n",
+            "TopicEntityMid": "m.03m6rr1",
+            "mid2name": {
+                "ns:m.03m6rr1": "Pentax K20D"
+            },
+            "SExpr_w_name": "(JOIN (R business.consumer_product.company) Pentax K20D)",
+            "SExpr": "(JOIN (R business.consumer_product.company) m.03m6rr1)"
+        }
+    },
+    "30": {
+        "generations": [
+            [
+                "what area does CJOC-FM broadcast to?",
+                -2.6255142553799997
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02rvzlq)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02rvzlq ns:broadcast.broadcast.area_served ?x .\n}\n",
+            "TopicEntityMid": "m.02rvzlq",
+            "mid2name": {
+                "ns:m.02rvzlq": "CJOC-FM"
+            },
+            "SExpr_w_name": "(JOIN (R broadcast.broadcast.area_served) CJOC-FM)",
+            "SExpr": "(JOIN (R broadcast.broadcast.area_served) m.02rvzlq)"
+        }
+    },
+    "31": {
+        "generations": [
+            [
+                "who published the comic book series nexus meets madman?",
+                -1.37980447676
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.059d5x_)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.059d5x_ ns:comic_books.comic_book_series.publisher ?x .\n}\n",
+            "TopicEntityMid": "m.059d5x_",
+            "mid2name": {
+                "ns:m.059d5x_": "Nexus Meets Madman"
+            },
+            "SExpr_w_name": "(JOIN (R comic_books.comic_book_series.publisher) Nexus Meets Madman)",
+            "SExpr": "(JOIN (R comic_books.comic_book_series.publisher) m.059d5x_)"
+        }
+    },
+    "32": {
+        "generations": [
+            [
+                "what is the theme of the exhibition \"days in a life: the art of tetsuya noda\"?",
+                -2.915386278626
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.05mq8mj)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.05mq8mj ns:exhibitions.exhibition.subjects ?x .\n}\n",
+            "TopicEntityMid": "m.05mq8mj",
+            "mid2name": {
+                "ns:m.05mq8mj": "Days in a Life: The Art of Tetsuya Noda"
+            },
+            "SExpr_w_name": "(JOIN (R exhibitions.exhibition.subjects) Days in a Life: The Art of Tetsuya Noda)",
+            "SExpr": "(JOIN (R exhibitions.exhibition.subjects) m.05mq8mj)"
+        }
+    },
+    "33": {
+        "generations": [
+            [
+                "what type of animal is a skookum cat?",
+                -1.1987050019299998
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.027tcfq)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.027tcfq ns:biology.animal_breed.breed_of ?x .\n}\n",
+            "TopicEntityMid": "m.027tcfq",
+            "mid2name": {
+                "ns:m.027tcfq": "Skookum cat"
+            },
+            "SExpr_w_name": "(JOIN (R biology.animal_breed.breed_of) Skookum cat)",
+            "SExpr": "(JOIN (R biology.animal_breed.breed_of) m.027tcfq)"
+        }
+    },
+    "34": {
+        "generations": [
+            [
+                "what type of aircraft is glacier girl?",
+                -1.193460136686
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02rxf8l)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02rxf8l ns:aviation.aircraft.model ?x .\n}\n",
+            "TopicEntityMid": "m.02rxf8l",
+            "mid2name": {
+                "ns:m.02rxf8l": "Glacier Girl"
+            },
+            "SExpr_w_name": "(JOIN (R aviation.aircraft.model) Glacier Girl)",
+            "SExpr": "(JOIN (R aviation.aircraft.model) m.02rxf8l)"
+        }
+    },
+    "35": {
+        "generations": [
+            [
+                "where was the saturn v rocket launched?",
+                -2.1630746357199997
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.07932)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.07932 ns:spaceflight.rocket.launch_sites ?x .\n}\n",
+            "TopicEntityMid": "m.07932",
+            "mid2name": {
+                "ns:m.07932": "Saturn V"
+            },
+            "SExpr_w_name": "(JOIN (R spaceflight.rocket.launch_sites) Saturn V)",
+            "SExpr": "(JOIN (R spaceflight.rocket.launch_sites) m.07932)"
+        }
+    },
+    "36": {
+        "generations": [
+            [
+                "what is an independent content provider?",
+                -0.7187929800839999
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0d53fk)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0d53fk ns:people.professional_field.professions_in_this_field ?x .\n}\n",
+            "TopicEntityMid": "m.0d53fk",
+            "mid2name": {
+                "ns:m.0d53fk": "Independent Content Provider"
+            },
+            "SExpr_w_name": "(JOIN (R people.professional_field.professions_in_this_field) Independent Content Provider)",
+            "SExpr": "(JOIN (R people.professional_field.professions_in_this_field) m.0d53fk)"
+        }
+    },
+    "37": {
+        "generations": [
+            [
+                "who is moods?",
+                -1.3143975463100002
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0dv4cc9)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0dv4cc9 ns:music.recording.artist ?x .\n}\n",
+            "TopicEntityMid": "m.0dv4cc9",
+            "mid2name": {
+                "ns:m.0dv4cc9": "Moods"
+            },
+            "SExpr_w_name": "(JOIN (R music.recording.artist) Moods)",
+            "SExpr": "(JOIN (R music.recording.artist) m.0dv4cc9)"
+        }
+    },
+    "38": {
+        "generations": [
+            [
+                " what is the city that d\u00fcsseldorf airport is located in?",
+                -6.803034380112001
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01qsjp)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01qsjp ns:location.location.containedby ?x .\n}\n",
+            "TopicEntityMid": "m.01qsjp",
+            "mid2name": {
+                "ns:m.01qsjp": "D\u00fcsseldorf Airport"
+            },
+            "SExpr_w_name": "(JOIN (R location.location.containedby) D\u00fcsseldorf Airport)",
+            "SExpr": "(JOIN (R location.location.containedby) m.01qsjp)"
+        }
+    },
+    "39": {
+        "generations": [
+            [
+                "what asteroid group does 887 alinda belong to?",
+                -1.19360101193
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.08m8h0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.08m8h0 ns:astronomy.asteroid.member_of_asteroid_group ?x .\n}\n",
+            "TopicEntityMid": "m.08m8h0",
+            "mid2name": {
+                "ns:m.08m8h0": "887 Alinda"
+            },
+            "SExpr_w_name": "(JOIN (R astronomy.asteroid.member_of_asteroid_group) 887 Alinda)",
+            "SExpr": "(JOIN (R astronomy.asteroid.member_of_asteroid_group) m.08m8h0)"
+        }
+    },
+    "40": {
+        "generations": [
+            [
+                "what countries have schedule iii controlled substances act?",
+                -5.874834786
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.04d26n3)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.04d26n3 ns:medicine.drug_legal_status.country ?x .\n}\n",
+            "TopicEntityMid": "m.04d26n3",
+            "mid2name": {
+                "ns:m.04d26n3": "Schedule III (CSA)"
+            },
+            "SExpr_w_name": "(JOIN (R medicine.drug_legal_status.country) Schedule III (CSA))",
+            "SExpr": "(JOIN (R medicine.drug_legal_status.country) m.04d26n3)"
+        }
+    },
+    "41": {
+        "generations": [
+            [
+                "who manufactures the kona cinder cone?",
+                -2.7696599334600007
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0cvm6d9)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0cvm6d9 ns:business.consumer_product.company ?x .\n}\n",
+            "TopicEntityMid": "m.0cvm6d9",
+            "mid2name": {
+                "ns:m.0cvm6d9": "Kona Cinder Cone"
+            },
+            "SExpr_w_name": "(JOIN (R business.consumer_product.company) Kona Cinder Cone)",
+            "SExpr": "(JOIN (R business.consumer_product.company) m.0cvm6d9)"
+        }
+    },
+    "42": {
+        "generations": [
+            [
+                "how do you pronounce the virgo supercluster?",
+                -1.301693962821
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01825t)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01825t ns:base.schemastaging.context_name.pronunciation ?x .\n}\n",
+            "TopicEntityMid": "m.01825t",
+            "mid2name": {
+                "ns:m.01825t": "Virgo Supercluster"
+            },
+            "SExpr_w_name": "(JOIN (R base.schemastaging.context_name.pronunciation) Virgo Supercluster)",
+            "SExpr": "(JOIN (R base.schemastaging.context_name.pronunciation) m.01825t)"
+        }
+    },
+    "43": {
+        "generations": [
+            [
+                "what tv show is episode 1567 from?",
+                -1.524915479156
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.06ycyqg)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.06ycyqg ns:tv.tv_series_episode.series ?x .\n}\n",
+            "TopicEntityMid": "m.06ycyqg",
+            "mid2name": {
+                "ns:m.06ycyqg": "Ep. #1567"
+            },
+            "SExpr_w_name": "(JOIN (R tv.tv_series_episode.series) Ep. #1567)",
+            "SExpr": "(JOIN (R tv.tv_series_episode.series) m.06ycyqg)"
+        }
+    },
+    "44": {
+        "generations": [
+            [
+                "what breeds of animals originated in australia?",
+                -1.6511763727899997
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0chghy)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0chghy ns:biology.breed_origin.breeds_originating_here ?x .\n}\n",
+            "TopicEntityMid": "m.0chghy",
+            "mid2name": {
+                "ns:m.0chghy": "Australia"
+            },
+            "SExpr_w_name": "(JOIN (R biology.breed_origin.breeds_originating_here) Australia)",
+            "SExpr": "(JOIN (R biology.breed_origin.breeds_originating_here) m.0chghy)"
+        }
+    },
+    "45": {
+        "generations": [
+            [
+                "what products does olympus make?",
+                -1.5595979876400001
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0jb95w7)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0jb95w7 ns:business.product_line.products ?x .\n}\n",
+            "TopicEntityMid": "m.0jb95w7",
+            "mid2name": {
+                "ns:m.0jb95w7": "Olympus OM-D"
+            },
+            "SExpr_w_name": "(JOIN (R business.product_line.products) Olympus OM-D)",
+            "SExpr": "(JOIN (R business.product_line.products) m.0jb95w7)"
+        }
+    },
+    "46": {
+        "generations": [
+            [
+                "how do you pronounce king dedede?",
+                -0.658081109244
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03fgdf)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03fgdf ns:base.schemastaging.context_name.pronunciation ?x .\n}\n",
+            "TopicEntityMid": "m.03fgdf",
+            "mid2name": {
+                "ns:m.03fgdf": "King Dedede"
+            },
+            "SExpr_w_name": "(JOIN (R base.schemastaging.context_name.pronunciation) King Dedede)",
+            "SExpr": "(JOIN (R base.schemastaging.context_name.pronunciation) m.03fgdf)"
+        }
+    },
+    "47": {
+        "generations": [
+            [
+                "what religion is jehovah's witnesses part of?",
+                -2.1910633638149997
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0dtdq)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0dtdq ns:religion.religion.is_part_of ?x .\n}\n",
+            "TopicEntityMid": "m.0dtdq",
+            "mid2name": {
+                "ns:m.0dtdq": "Jehovah's Witnesses"
+            },
+            "SExpr_w_name": "(JOIN (R religion.religion.is_part_of) Jehovah's Witnesses)",
+            "SExpr": "(JOIN (R religion.religion.is_part_of) m.0dtdq)"
+        }
+    },
+    "48": {
+        "generations": [
+            [
+                "what tournaments are available for men's squash?",
+                -3.5190561313799997
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.08nj_28)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.08nj_28 ns:sports.tournament_event.competitions ?x .\n}\n",
+            "TopicEntityMid": "m.08nj_28",
+            "mid2name": {
+                "ns:m.08nj_28": "Men's squash"
+            },
+            "SExpr_w_name": "(JOIN (R sports.tournament_event.competitions) Men's squash)",
+            "SExpr": "(JOIN (R sports.tournament_event.competitions) m.08nj_28)"
+        }
+    },
+    "49": {
+        "generations": [
+            [
+                "what concerts have been held at 1-800-ask-gary amphitheatre?",
+                -1.5049692886000003
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0cct4w)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0cct4w ns:music.performance_venue.concerts ?x .\n}\n",
+            "TopicEntityMid": "m.0cct4w",
+            "mid2name": {
+                "ns:m.0cct4w": "1-800-ASK-GARY Amphitheatre"
+            },
+            "SExpr_w_name": "(JOIN (R music.performance_venue.concerts) 1-800-ASK-GARY Amphitheatre)",
+            "SExpr": "(JOIN (R music.performance_venue.concerts) m.0cct4w)"
+        }
+    },
+    "50": {
+        "generations": [
+            [
+                "where is fashion place located?",
+                -0.22844656788000003
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03gww0f)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03gww0f ns:location.location.geolocation ?x .\n}\n",
+            "TopicEntityMid": "m.03gww0f",
+            "mid2name": {
+                "ns:m.03gww0f": "Fashion Place"
+            },
+            "SExpr_w_name": "(JOIN (R location.location.geolocation) Fashion Place)",
+            "SExpr": "(JOIN (R location.location.geolocation) m.03gww0f)"
+        }
+    },
+    "51": {
+        "generations": [
+            [
+                "what is the file format of fts?",
+                -3.2482137760800005
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02l0kp0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02l0kp0 ns:computer.file_format.used_on ?x .\n}\n",
+            "TopicEntityMid": "m.02l0kp0",
+            "mid2name": {
+                "ns:m.02l0kp0": "Fts"
+            },
+            "SExpr_w_name": "(JOIN (R computer.file_format.used_on) Fts)",
+            "SExpr": "(JOIN (R computer.file_format.used_on) m.02l0kp0)"
+        }
+    },
+    "52": {
+        "generations": [
+            [
+                "who made the 1990 happy holidays barbie #04543?",
+                -3.0308145493999996
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.05hg5lh)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.05hg5lh ns:business.consumer_product.brand ?x .\n}\n",
+            "TopicEntityMid": "m.05hg5lh",
+            "mid2name": {
+                "ns:m.05hg5lh": "1990 Happy Holidays Barbie #04543"
+            },
+            "SExpr_w_name": "(JOIN (R business.consumer_product.brand) 1990 Happy Holidays Barbie #04543)",
+            "SExpr": "(JOIN (R business.consumer_product.brand) m.05hg5lh)"
+        }
+    },
+    "53": {
+        "generations": [
+            [
+                "what books are in the easy series 24 pack (regular)?",
+                -2.7013754381000004
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0b1nd5m)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0b1nd5m ns:book.book_edition_series.part_of_series ?x .\n}\n",
+            "TopicEntityMid": "m.0b1nd5m",
+            "mid2name": {
+                "ns:m.0b1nd5m": "Easy Series 24 Pack (Regular)"
+            },
+            "SExpr_w_name": "(JOIN (R book.book_edition_series.part_of_series) Easy Series 24 Pack (Regular))",
+            "SExpr": "(JOIN (R book.book_edition_series.part_of_series) m.0b1nd5m)"
+        }
+    },
+    "54": {
+        "generations": [
+            [
+                "what music has ric wake composed?",
+                -1.8418073370799999
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.06tnny)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.06tnny ns:music.composer.compositions ?x .\n}\n",
+            "TopicEntityMid": "m.06tnny",
+            "mid2name": {
+                "ns:m.06tnny": "Ric Wake"
+            },
+            "SExpr_w_name": "(JOIN (R music.composer.compositions) Ric Wake)",
+            "SExpr": "(JOIN (R music.composer.compositions) m.06tnny)"
+        }
+    },
+    "55": {
+        "generations": [
+            [
+                "what plays has jared field composed?",
+                -0.6393683618499999
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0111fnnk)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0111fnnk ns:theater.theatrical_composer.plays_composed ?x .\n}\n",
+            "TopicEntityMid": "m.0111fnnk",
+            "mid2name": {
+                "ns:m.0111fnnk": "Jared Field"
+            },
+            "SExpr_w_name": "(JOIN (R theater.theatrical_composer.plays_composed) Jared Field)",
+            "SExpr": "(JOIN (R theater.theatrical_composer.plays_composed) m.0111fnnk)"
+        }
+    },
+    "56": {
+        "generations": [
+            [
+                "what diseases are spread by elephantulus myurus?",
+                -4.64507599563
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0gf88q1)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0gf88q1 ns:medicine.vector_of_disease.disease ?x .\n}\n",
+            "TopicEntityMid": "m.0gf88q1",
+            "mid2name": {
+                "ns:m.0gf88q1": "Elephantulus myurus"
+            },
+            "SExpr_w_name": "(JOIN (R medicine.vector_of_disease.disease) Elephantulus myurus)",
+            "SExpr": "(JOIN (R medicine.vector_of_disease.disease) m.0gf88q1)"
+        }
+    },
+    "57": {
+        "generations": [
+            [
+                "what industry is spacex in?",
+                -0.61527201035
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03fkyw)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03fkyw ns:business.business_operation.industry ?x .\n}\n",
+            "TopicEntityMid": "m.03fkyw",
+            "mid2name": {
+                "ns:m.03fkyw": "SpaceX"
+            },
+            "SExpr_w_name": "(JOIN (R business.business_operation.industry) SpaceX)",
+            "SExpr": "(JOIN (R business.business_operation.industry) m.03fkyw)"
+        }
+    },
+    "58": {
+        "generations": [
+            [
+                "what industry is outback steakhouse in?",
+                -0.6407670827649999
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.023xnd)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.023xnd ns:business.business_operation.industry ?x .\n}\n",
+            "TopicEntityMid": "m.023xnd",
+            "mid2name": {
+                "ns:m.023xnd": "Outback Steakhouse"
+            },
+            "SExpr_w_name": "(JOIN (R business.business_operation.industry) Outback Steakhouse)",
+            "SExpr": "(JOIN (R business.business_operation.industry) m.023xnd)"
+        }
+    },
+    "59": {
+        "generations": [
+            [
+                "what products are made from milled corn?",
+                -3.152639878983
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.065s741)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.065s741 ns:business.product_ingredient.used_in_products ?x .\n}\n",
+            "TopicEntityMid": "m.065s741",
+            "mid2name": {
+                "ns:m.065s741": "Milled Corn"
+            },
+            "SExpr_w_name": "(JOIN (R business.product_ingredient.used_in_products) Milled Corn)",
+            "SExpr": "(JOIN (R business.product_ingredient.used_in_products) m.065s741)"
+        }
+    },
+    "60": {
+        "generations": [
+            [
+                "what is the us county highway system?",
+                -2.6669596019000004
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.05mwlr)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.05mwlr ns:transportation.highway_system.highways ?x .\n}\n",
+            "TopicEntityMid": "m.05mwlr",
+            "mid2name": {
+                "ns:m.05mwlr": "US county highway"
+            },
+            "SExpr_w_name": "(JOIN (R transportation.highway_system.highways) US county highway)",
+            "SExpr": "(JOIN (R transportation.highway_system.highways) m.05mwlr)"
+        }
+    },
+    "61": {
+        "generations": [
+            [
+                "what type of celestial object is betelgeuse?",
+                -1.26506823409
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0f2_8)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0f2_8 ns:astronomy.celestial_object.category ?x .\n}\n",
+            "TopicEntityMid": "m.0f2_8",
+            "mid2name": {
+                "ns:m.0f2_8": "Betelgeuse"
+            },
+            "SExpr_w_name": "(JOIN (R astronomy.celestial_object.category) Betelgeuse)",
+            "SExpr": "(JOIN (R astronomy.celestial_object.category) m.0f2_8)"
+        }
+    },
+    "62": {
+        "generations": [
+            [
+                "what cameras have high iso auto?",
+                -1.6342007780000003
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02nqg65)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02nqg65 ns:digicams.camera_iso.cameras ?x .\n}\n",
+            "TopicEntityMid": "m.02nqg65",
+            "mid2name": {
+                "ns:m.02nqg65": "High ISO Auto"
+            },
+            "SExpr_w_name": "(JOIN (R digicams.camera_iso.cameras) High ISO Auto)",
+            "SExpr": "(JOIN (R digicams.camera_iso.cameras) m.02nqg65)"
+        }
+    },
+    "63": {
+        "generations": [
+            [
+                "what religion celebrates chol hamoed pesach?",
+                -1.783128284626
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.011cf36x)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.011cf36x ns:time.holiday.featured_in_religions ?x .\n}\n",
+            "TopicEntityMid": "m.011cf36x",
+            "mid2name": {
+                "ns:m.011cf36x": "Chol HaMoed Pesach"
+            },
+            "SExpr_w_name": "(JOIN (R time.holiday.featured_in_religions) Chol HaMoed Pesach)",
+            "SExpr": "(JOIN (R time.holiday.featured_in_religions) m.011cf36x)"
+        }
+    },
+    "64": {
+        "generations": [
+            [
+                "where did mormonism originate?",
+                -2.7611301395
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.058x5)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.058x5 ns:religion.religion.places_of_worship_historical ?x .\n}\n",
+            "TopicEntityMid": "m.058x5",
+            "mid2name": {
+                "ns:m.058x5": "Mormonism"
+            },
+            "SExpr_w_name": "(JOIN (R religion.religion.places_of_worship_historical) Mormonism)",
+            "SExpr": "(JOIN (R religion.religion.places_of_worship_historical) m.058x5)"
+        }
+    },
+    "65": {
+        "generations": [
+            [
+                "what asteroid group is 423 diotima a part of?",
+                -2.8264564248540003
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.059y5t)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.059y5t ns:astronomy.asteroid.member_of_asteroid_group ?x .\n}\n",
+            "TopicEntityMid": "m.059y5t",
+            "mid2name": {
+                "ns:m.059y5t": "423 Diotima"
+            },
+            "SExpr_w_name": "(JOIN (R astronomy.asteroid.member_of_asteroid_group) 423 Diotima)",
+            "SExpr": "(JOIN (R astronomy.asteroid.member_of_asteroid_group) m.059y5t)"
+        }
+    },
+    "66": {
+        "generations": [
+            [
+                "what colors are on the cover of batman #477?",
+                -1.404462224857
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03dfh34)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03dfh34 ns:comic_books.comic_book_issue.cover_colors ?x .\n}\n",
+            "TopicEntityMid": "m.03dfh34",
+            "mid2name": {
+                "ns:m.03dfh34": "Batman #477"
+            },
+            "SExpr_w_name": "(JOIN (R comic_books.comic_book_issue.cover_colors) Batman #477)",
+            "SExpr": "(JOIN (R comic_books.comic_book_issue.cover_colors) m.03dfh34)"
+        }
+    },
+    "67": {
+        "generations": [
+            [
+                "what are the dialects of the japanese language?",
+                -0.8769078749460001
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03_9r)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03_9r ns:language.human_language.dialects ?x .\n}\n",
+            "TopicEntityMid": "m.03_9r",
+            "mid2name": {
+                "ns:m.03_9r": "Japanese Language"
+            },
+            "SExpr_w_name": "(JOIN (R language.human_language.dialects) Japanese Language)",
+            "SExpr": "(JOIN (R language.human_language.dialects) m.03_9r)"
+        }
+    },
+    "68": {
+        "generations": [
+            [
+                "who edited mr. gum #1?",
+                -1.9238084743000003
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.059d139)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.059d139 ns:comic_books.comic_book_issue.editor ?x .\n}\n",
+            "TopicEntityMid": "m.059d139",
+            "mid2name": {
+                "ns:m.059d139": "Mr. Gum #1"
+            },
+            "SExpr_w_name": "(JOIN (R comic_books.comic_book_issue.editor) Mr. Gum #1)",
+            "SExpr": "(JOIN (R comic_books.comic_book_issue.editor) m.059d139)"
+        }
+    },
+    "69": {
+        "generations": [
+            [
+                "what industry does rocketdyne operate in?",
+                -1.8668102373170001
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01vhl6)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01vhl6 ns:business.business_operation.industry ?x .\n}\n",
+            "TopicEntityMid": "m.01vhl6",
+            "mid2name": {
+                "ns:m.01vhl6": "Rocketdyne"
+            },
+            "SExpr_w_name": "(JOIN (R business.business_operation.industry) Rocketdyne)",
+            "SExpr": "(JOIN (R business.business_operation.industry) m.01vhl6)"
+        }
+    },
+    "70": {
+        "generations": [
+            [
+                "who founded the fundamentalist church of jesus christ of latter-day saints?",
+                -0.14503804895050007
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0234yt)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0234yt ns:religion.religion.founding_figures ?x .\n}\n",
+            "TopicEntityMid": "m.0234yt",
+            "mid2name": {
+                "ns:m.0234yt": "Fundamentalist Church of Jesus Christ of Latter-Day Saints"
+            },
+            "SExpr_w_name": "(JOIN (R religion.religion.founding_figures) Fundamentalist Church of Jesus Christ of Latter-Day Saints)",
+            "SExpr": "(JOIN (R religion.religion.founding_figures) m.0234yt)"
+        }
+    },
+    "71": {
+        "generations": [
+            [
+                "what country is the tv show dancing with spirit from?",
+                -2.6026719264900002
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0x1tfbt)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0x1tfbt ns:tv.tv_program.country_of_origin ?x .\n}\n",
+            "TopicEntityMid": "m.0x1tfbt",
+            "mid2name": {
+                "ns:m.0x1tfbt": "Dancing with Spirit"
+            },
+            "SExpr_w_name": "(JOIN (R tv.tv_program.country_of_origin) Dancing with Spirit)",
+            "SExpr": "(JOIN (R tv.tv_program.country_of_origin) m.0x1tfbt)"
+        }
+    },
+    "72": {
+        "generations": [
+            [
+                "where is paco catholic school located?",
+                -0.26460775048999996
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.027v4qc)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.027v4qc ns:location.location.geolocation ?x .\n}\n",
+            "TopicEntityMid": "m.027v4qc",
+            "mid2name": {
+                "ns:m.027v4qc": "Paco Catholic School"
+            },
+            "SExpr_w_name": "(JOIN (R location.location.geolocation) Paco Catholic School)",
+            "SExpr": "(JOIN (R location.location.geolocation) m.027v4qc)"
+        }
+    },
+    "73": {
+        "generations": [
+            [
+                "who was the first to orbit the earth?",
+                -2.1660768363
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0mj6m)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0mj6m ns:base.firsts.achievement.firsts ?x .\n}\n",
+            "TopicEntityMid": "m.0mj6m",
+            "mid2name": {
+                "ns:m.0mj6m": "Earth orbit"
+            },
+            "SExpr_w_name": "(JOIN (R base.firsts.achievement.firsts) Earth orbit)",
+            "SExpr": "(JOIN (R base.firsts.achievement.firsts) m.0mj6m)"
+        }
+    },
+    "74": {
+        "generations": [
+            [
+                "how do you pronounce order of the british empire?",
+                -1.9884259927510002
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01f2y9)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01f2y9 ns:base.schemastaging.context_name.pronunciation ?x .\n}\n",
+            "TopicEntityMid": "m.01f2y9",
+            "mid2name": {
+                "ns:m.01f2y9": "Order of the British Empire"
+            },
+            "SExpr_w_name": "(JOIN (R base.schemastaging.context_name.pronunciation) Order of the British Empire)",
+            "SExpr": "(JOIN (R base.schemastaging.context_name.pronunciation) m.01f2y9)"
+        }
+    },
+    "75": {
+        "generations": [
+            [
+                "who are the characters that have lived in mygdonia?",
+                -3.07546713048
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0fv3w7)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0fv3w7 ns:fictional_universe.fictional_setting.characters_that_have_lived_here ?x .\n}\n",
+            "TopicEntityMid": "m.0fv3w7",
+            "mid2name": {
+                "ns:m.0fv3w7": "Mygdonia"
+            },
+            "SExpr_w_name": "(JOIN (R fictional_universe.fictional_setting.characters_that_have_lived_here) Mygdonia)",
+            "SExpr": "(JOIN (R fictional_universe.fictional_setting.characters_that_have_lived_here) m.0fv3w7)"
+        }
+    },
+    "76": {
+        "generations": [
+            [
+                "what books did barry goldwater write?",
+                -0.744686693148
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01j6t)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01j6t ns:book.author.works_written ?x .\n}\n",
+            "TopicEntityMid": "m.01j6t",
+            "mid2name": {
+                "ns:m.01j6t": "Barry Goldwater"
+            },
+            "SExpr_w_name": "(JOIN (R book.author.works_written) Barry Goldwater)",
+            "SExpr": "(JOIN (R book.author.works_written) m.01j6t)"
+        }
+    },
+    "77": {
+        "generations": [
+            [
+                "which olympic games did yingying represent?",
+                -4.12090298511
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0jsgpmz)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0jsgpmz ns:olympics.olympic_mascot.olympic_games ?x .\n}\n",
+            "TopicEntityMid": "m.0jsgpmz",
+            "mid2name": {
+                "ns:m.0jsgpmz": "Fuwa: Yingying"
+            },
+            "SExpr_w_name": "(JOIN (R olympics.olympic_mascot.olympic_games) Fuwa: Yingying)",
+            "SExpr": "(JOIN (R olympics.olympic_mascot.olympic_games) m.0jsgpmz)"
+        }
+    },
+    "78": {
+        "generations": [
+            [
+                "what is the gender of johnny hanks?",
+                -0.6850759989160001
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.063y_gv)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.063y_gv ns:people.person.gender ?x .\n}\n",
+            "TopicEntityMid": "m.063y_gv",
+            "mid2name": {
+                "ns:m.063y_gv": "Johnny Hanks"
+            },
+            "SExpr_w_name": "(JOIN (R people.person.gender) Johnny Hanks)",
+            "SExpr": "(JOIN (R people.person.gender) m.063y_gv)"
+        }
+    },
+    "79": {
+        "generations": [
+            [
+                "what comic book covers has ron chan inked?",
+                -1.2394030287339999
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02hr7kz)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02hr7kz ns:comic_books.comic_book_inker.comic_covers_inked ?x .\n}\n",
+            "TopicEntityMid": "m.02hr7kz",
+            "mid2name": {
+                "ns:m.02hr7kz": "Ron Chan"
+            },
+            "SExpr_w_name": "(JOIN (R comic_books.comic_book_inker.comic_covers_inked) Ron Chan)",
+            "SExpr": "(JOIN (R comic_books.comic_book_inker.comic_covers_inked) m.02hr7kz)"
+        }
+    },
+    "80": {
+        "generations": [
+            [
+                "what is the gender of james r. zazzali?",
+                -0.59819356121
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.099j3v)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.099j3v ns:people.person.gender ?x .\n}\n",
+            "TopicEntityMid": "m.099j3v",
+            "mid2name": {
+                "ns:m.099j3v": "James R. Zazzali"
+            },
+            "SExpr_w_name": "(JOIN (R people.person.gender) James R. Zazzali)",
+            "SExpr": "(JOIN (R people.person.gender) m.099j3v)"
+        }
+    },
+    "81": {
+        "generations": [
+            [
+                "what is a politician?",
+                -1.1855751700000001
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0fj9f)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0fj9f ns:user.narphorium.default_domain.job_title.professions ?x .\n}\n",
+            "TopicEntityMid": "m.0fj9f",
+            "mid2name": {
+                "ns:m.0fj9f": "Politician"
+            },
+            "SExpr_w_name": "(JOIN (R user.narphorium.default_domain.job_title.professions) Politician)",
+            "SExpr": "(JOIN (R user.narphorium.default_domain.job_title.professions) m.0fj9f)"
+        }
+    },
+    "82": {
+        "generations": [
+            [
+                "what type of music does geoff foster play?",
+                -2.4175701526199997
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03f17t8)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03f17t8 ns:music.artist.genre ?x .\n}\n",
+            "TopicEntityMid": "m.03f17t8",
+            "mid2name": {
+                "ns:m.03f17t8": "Geoff Foster"
+            },
+            "SExpr_w_name": "(JOIN (R music.artist.genre) Geoff Foster)",
+            "SExpr": "(JOIN (R music.artist.genre) m.03f17t8)"
+        }
+    },
+    "83": {
+        "generations": [
+            [
+                "how do you pronounce windows 1.0?",
+                -0.641804948776
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0hqh_)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0hqh_ ns:base.schemastaging.context_name.pronunciation ?x .\n}\n",
+            "TopicEntityMid": "m.0hqh_",
+            "mid2name": {
+                "ns:m.0hqh_": "Windows 1.0"
+            },
+            "SExpr_w_name": "(JOIN (R base.schemastaging.context_name.pronunciation) Windows 1.0)",
+            "SExpr": "(JOIN (R base.schemastaging.context_name.pronunciation) m.0hqh_)"
+        }
+    },
+    "84": {
+        "generations": [
+            [
+                "what magazine covers has brian leister illustrated?",
+                -0.8215191936
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0j1y6wf)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0j1y6wf ns:book.illustrator.magazine_covers ?x .\n}\n",
+            "TopicEntityMid": "m.0j1y6wf",
+            "mid2name": {
+                "ns:m.0j1y6wf": "Brian Leister"
+            },
+            "SExpr_w_name": "(JOIN (R book.illustrator.magazine_covers) Brian Leister)",
+            "SExpr": "(JOIN (R book.illustrator.magazine_covers) m.0j1y6wf)"
+        }
+    },
+    "85": {
+        "generations": [
+            [
+                "what is the supreme court of judicature?",
+                -1.0800938124700001
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.08059cj)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.08059cj ns:law.court.superior_courts ?x .\n}\n",
+            "TopicEntityMid": "m.08059cj",
+            "mid2name": {
+                "ns:m.08059cj": "Supreme Court of Judicature"
+            },
+            "SExpr_w_name": "(JOIN (R law.court.superior_courts) Supreme Court of Judicature)",
+            "SExpr": "(JOIN (R law.court.superior_courts) m.08059cj)"
+        }
+    },
+    "86": {
+        "generations": [
+            [
+                "what drugs are used to lower blood pressure?",
+                -1.51604486893
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0jxrwr4)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0jxrwr4 ns:medicine.drug_physiologic_effect.drugs_with_this_physiologic_effect ?x .\n}\n",
+            "TopicEntityMid": "m.0jxrwr4",
+            "mid2name": {
+                "ns:m.0jxrwr4": "Decreased Blood Pressure"
+            },
+            "SExpr_w_name": "(JOIN (R medicine.drug_physiologic_effect.drugs_with_this_physiologic_effect) Decreased Blood Pressure)",
+            "SExpr": "(JOIN (R medicine.drug_physiologic_effect.drugs_with_this_physiologic_effect) m.0jxrwr4)"
+        }
+    },
+    "87": {
+        "generations": [
+            [
+                "what awards has desire under the elms been nominated for?",
+                -3.02717480651
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0wzc8fm)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0wzc8fm ns:award.award_nominated_work.award_nominations ?x .\n}\n",
+            "TopicEntityMid": "m.0wzc8fm",
+            "mid2name": {
+                "ns:m.0wzc8fm": "Desire Under the Elms"
+            },
+            "SExpr_w_name": "(JOIN (R award.award_nominated_work.award_nominations) Desire Under the Elms)",
+            "SExpr": "(JOIN (R award.award_nominated_work.award_nominations) m.0wzc8fm)"
+        }
+    },
+    "88": {
+        "generations": [
+            [
+                "what are the historical places of worship for buddhism?",
+                -3.33397148367
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.092bf5)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.092bf5 ns:religion.religion.places_of_worship_historical ?x .\n}\n",
+            "TopicEntityMid": "m.092bf5",
+            "mid2name": {
+                "ns:m.092bf5": "Buddhism"
+            },
+            "SExpr_w_name": "(JOIN (R religion.religion.places_of_worship_historical) Buddhism)",
+            "SExpr": "(JOIN (R religion.religion.places_of_worship_historical) m.092bf5)"
+        }
+    },
+    "89": {
+        "generations": [
+            [
+                "what genre of music does necro make?",
+                -2.30247823824
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01w7nwc)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01w7nwc ns:music.artist.genre ?x .\n}\n",
+            "TopicEntityMid": "m.01w7nwc",
+            "mid2name": {
+                "ns:m.01w7nwc": "Necro"
+            },
+            "SExpr_w_name": "(JOIN (R music.artist.genre) Necro)",
+            "SExpr": "(JOIN (R music.artist.genre) m.01w7nwc)"
+        }
+    },
+    "90": {
+        "generations": [
+            [
+                "who manufactures the x86-64 processor?",
+                -2.05293240362
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01kdmy)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01kdmy ns:computer.computer_processor.manufacturers ?x .\n}\n",
+            "TopicEntityMid": "m.01kdmy",
+            "mid2name": {
+                "ns:m.01kdmy": "x86-64"
+            },
+            "SExpr_w_name": "(JOIN (R computer.computer_processor.manufacturers) x86-64)",
+            "SExpr": "(JOIN (R computer.computer_processor.manufacturers) m.01kdmy)"
+        }
+    },
+    "91": {
+        "generations": [
+            [
+                "what is the beaufort scale for a tropical storm (jtwc)?",
+                -2.1316196733760004
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0256dx7)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0256dx7 ns:meteorology.tropical_cyclone_category.Beaufort_scale ?x .\n}\n",
+            "TopicEntityMid": "m.0256dx7",
+            "mid2name": {
+                "ns:m.0256dx7": "Tropical Storm (JTWC)"
+            },
+            "SExpr_w_name": "(JOIN (R meteorology.tropical_cyclone_category.Beaufort_scale) Tropical Storm (JTWC))",
+            "SExpr": "(JOIN (R meteorology.tropical_cyclone_category.Beaufort_scale) m.0256dx7)"
+        }
+    },
+    "92": {
+        "generations": [
+            [
+                "what is the equivalent term for barbacoa?",
+                -2.417454364658
+            ]
+        ],
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.068dr1)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.068dr1 ns:base.skosbase.vocabulary_equivalent_topic.equivalent_concept ?x .\n}\n",
+            "TopicEntityMid": "m.068dr1",
+            "mid2name": {
+                "ns:m.068dr1": "Barbacoa"
+            },
+            "SExpr_w_name": "(JOIN (R base.skosbase.vocabulary_equivalent_topic.equivalent_concept) Barbacoa)",
+            "SExpr": "(JOIN (R base.skosbase.vocabulary_equivalent_topic.equivalent_concept) m.068dr1)"
+        }
+    }
+}

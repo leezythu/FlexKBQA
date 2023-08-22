@@ -1,0 +1,181 @@
+Convert the s-expressions to natural language questions.
+
+s-expression:(AND medicine.routed_drug (JOIN medicine.routed_drug.marketed_formulations Oxybutynin chloride 5 extended release film coated tablet))
+question:oxybutynin chloride 5 extended release film coated tablet is the ingredients of what routed drug?
+
+s-expression:(ARGMIN religion.religious_leadership_title (JOIN religion.religious_leadership_title.leaders religion.religious_organization_leadership.start_date))
+question:the leaders of the earliest established religious organization are given what title?
+
+s-expression:(ARGMAX food.food food.food.energy)
+question:when it comes to the food that has the most energy per 100g what is the name of it?
+
+s-expression:(AND music.genre (JOIN (R music.genre.parent_genre) (JOIN music.genre.albums confessions tour)))
+question:the albums confessions tour is part of what parent genre of a musical genre?
+
+s-expression:(AND architecture.architect (JOIN architecture.architect.architectural_style (JOIN (R architecture.architect.architectural_style) Josef Fanta)))
+question:which architect has a similar architectural style to josef fanta?
+
+s-expression:(AND architecture.building (lt architecture.building.floors 9^^http://www.w3.org/2001/XMLSchema#integer))
+question:which building has less than 9 floors?
+
+s-expression:(AND comic_books.comic_book_series (JOIN (R comic_books.comic_book_genre.comic_book_series_in_this_genre) (JOIN (R comic_books.comic_book_story.genre) Case of the Namesake Murders)))
+question:case of the namesake murders is the same genre as what comic book series?
+
+s-expression:(AND film.director (JOIN (R media_common.quotation.author) It is an open question whether any behavior based on fear of eternal punishment can be regarded as ethical or should be regarded as merely cowardly.))
+question:what is the name of the author who wrote it is an open question whether any behavior based on fear of eternal punishment can be regarded as ethical or should be regarded as merely cowardly.?
+
+s-expression:(AND meteorology.beaufort_wind_force (ge meteorology.beaufort_wind_force.wave_height 7.0^^http://www.w3.org/2001/XMLSchema#float))
+question:for waves higher than 7.0 what is the beaufort window force?
+
+s-expression:(AND book.short_story (JOIN book.short_story.characters (JOIN book.book_character.appears_in_stories Doing Clarence a Bit of Good)))
+question:what short story has a character who also is in doing clarence a bit of good?
+
+s-expression:(AND education.school_category (AND (JOIN (R education.educational_institution.school_type) Chiang Kai Shek College) (JOIN education.school_category.schools_of_this_kind Sacred Heart High School (Roseville, Michigan))))
+question:chiang kai shek college and sacred heart high school (roseville, michigan) are in what category of school?
+
+s-expression:(AND olympics.olympic_games (gt olympics.olympic_games.number_of_events 63^^http://www.w3.org/2001/XMLSchema#integer))
+question:what olympic games has more than 63 number of events?
+
+s-expression:(ARGMIN food.bottled_water food.bottled_water.nitrate_content)
+question:the bottled water that has the least amount of nitrates?
+
+s-expression:(AND meteorology.tropical_cyclone_season (le meteorology.tropical_cyclone_season.total_storms 23^^http://www.w3.org/2001/XMLSchema#integer))
+question:during which tropical cyclone season did the total storms of at most 23?
+
+s-expression:(AND theater.theater (AND (JOIN theater.theater.theatrical_productions_staged_here (JOIN theater.theater_production.producer Nica Burns)) (ge architecture.venue.capacity 732^^http://www.w3.org/2001/XMLSchema#integer)))
+question:nica burns's production was staged in what theater with more than 732 seats?
+
+s-expression:(COUNT (AND exhibitions.exhibition_subject (JOIN exhibitions.exhibition_subject.exhibitions_created_about_this_subject (JOIN (R exhibitions.exhibition_curator.exhibitions_curated) Margaret MacDonald))))
+question:how many exhibition subject is the subject of an exhibition curated by margaret macdonald?
+
+s-expression:(COUNT (AND aviation.aircraft_manufacturer (JOIN organization.organization.legal_structure S.A.)))
+question:what is the number of aircraft manufacturer in the legal structure of s.a.?
+
+s-expression:(AND freebase.user_profile (AND (JOIN freebase.user_profile.location Montreal) (JOIN freebase.user_profile.favorite_topics social networks)))
+question:which is the user profile who lives in montreal and most favors social networks?
+
+s-expression:(ARGMIN (AND tennis.tennis_tournament_champion (JOIN (R tennis.tennis_tournament_championship.winner) (JOIN (R tennis.tennis_tournament_champion.tennis_titles) J. P. Keane))) (JOIN (R tennis.tennis_tournament_championship.winner) tennis.tennis_tournament_championship.year))
+question:at the first tennis tournament where j. p. keane has a title, who was the champion?
+
+s-expression:(AND automotive.engine_type (JOIN (R automotive.engine.engine_type) (lt automotive.engine.horsepower 429.0^^http://www.w3.org/2001/XMLSchema#float)))
+question:what are all the engine types that have an engine horsepower under 429.0?
+
+s-expression:(AND martial_arts.martial_art (AND (JOIN martial_arts.martial_art.category (JOIN (R martial_arts.martial_art.category) Northern Shaolin)) (JOIN (R martial_arts.martial_art_category.martial_arts) Hybrid)))
+question:what is another martial art that involves hybrid and is in the same category as northern shaolin?
+
+s-expression:(AND religion.religious_practice (AND (JOIN religion.religious_practice.practice_of hare krishna) (JOIN (R religion.religion.practices) Hinduism)))
+question:hare krishna and hinduism both practice what religious practices?
+
+s-expression:(AND education.department (AND (JOIN (R education.department.department_of) Especialización en Gerencia Estratégica Ibagué (en convenio con la Cámara de Comercio de Ibagué)) (JOIN (R education.university.departments) University of La Sabana)))
+question:the especialización en gerencia estratégica ibagué (en convenio con la cámara de comercio de ibagué) is related to a subsidiary department within the university of la sabana. what is this subsidiary department called?
+
+s-expression:(ARGMAX (AND music.composition (JOIN music.composition.form (JOIN music.compositional_form.superforms concertos))) music.composition.date_of_first_performance)
+question:what concertos was performed the most recently?
+
+s-expression:(AND automotive.generation (AND (JOIN automotive.generation.make (JOIN automotive.make.parent_company Honda Motor Company, Ltd)) (lt automotive.generation.generation_number 7^^http://www.w3.org/2001/XMLSchema#integer)))
+question:with honda motor company, ltd as the parent company, which automobile generation has the generation number less than 7?
+
+s-expression:(AND music.release_component (JOIN music.release.track (AND (JOIN (R music.artist.track) royal philarmonic orchestra) (JOIN music.recording.featured_artists Mike Townend))))
+question:what are the musical release component tracks recordings made by royal philarmonic orchestra and featured by mike townend?
+
+s-expression:(COUNT (AND astronomy.planet (JOIN (R astronomy.orbit_type.orbiting_bodies) heliocentric orbits)))
+question:what number of planets are orbiting in heliocentric orbits?
+
+s-expression:(ARGMAX (AND celebrities.celebrity (JOIN (R celebrities.rehab.celebrity) (JOIN (R celebrities.rehab_facility.celebrity_patients) Exodus Medical Group))) (JOIN (R celebrities.rehab.celebrity) celebrities.rehab.completed))
+question:the exodus medical group has been frequented the most by which celebrity?
+
+s-expression:(AND biology.breed_temperament (AND (JOIN (R biology.animal_breed.temperament) (JOIN (R biology.pedigreed_animal.breed) Flornell Spicy Piece of Halleston)) (JOIN (R biology.animal_breed.temperament) Akita)))
+question:flornell spicy piece of halleston and akita are breeds that share what temperament?
+
+s-expression:(AND religion.religion (AND (JOIN religion.religion.practices (JOIN (R religion.religion.practices) mormon)) (JOIN religion.religion.is_part_of Islam)))
+question:what religion is part of islam and has same practices with mormon?
+
+s-expression:(ARGMAX (AND music.release (JOIN music.release.engineers Lee Whitsel)) music.release.release_date)
+question:what is the most recent musical release that credits engineers including lee whitsel?
+
+s-expression:(ARGMAX (AND aviation.aircraft_owner (JOIN aviation.aircraft_owner.aircraft_fleet_composition (JOIN (R aviation.aircraft_model.number_owned_by) b737))) (JOIN aviation.aircraft_owner.aircraft_fleet_composition aviation.aircraft_ownership_count.number_owned))
+question:who is the owner of the b737 owned by the most number of parties?
+
+s-expression:(ARGMIN (AND martial_arts.martial_artist (JOIN (R martial_arts.martial_art.well_known_practitioner) kenpo)) (JOIN people.person.education education.education.end_date))
+question:what was the name of the first student practitioner of kenpo ?
+
+s-expression:(AND computer.programming_language_paradigm (AND (JOIN (R computer.programming_language.language_paradigms) Factor) (JOIN (R computer.programming_language.language_paradigms) (JOIN computer.programming_language.influenced_by ALGOL))))
+question:what is the programming language paradigm used by factor and another programming language influenced by algol?
+
+s-expression:(AND government.politician (JOIN people.person.education (JOIN education.education.institution (JOIN (R education.student_radio_station.school) WRCU-FM))))
+question:which politician went to wrcu-fm?
+
+s-expression:(ARGMAX (AND government.polling_authority (JOIN government.polling_authority.polls (JOIN government.election_poll.taken_by Yahoo))) (JOIN government.polling_authority.polls government.election_poll.poll_start_date))
+question:what is the name of the polling authority that ran the most recent election polls taken by yahoo?
+
+s-expression:(ARGMIN (AND tv.tv_series_season (JOIN (R tv.tv_program.seasons) Alias)) tv.tv_series_season.number_of_episodes)
+question:in alias which season has the fewest number of episodes?
+
+s-expression:(AND book.newspaper_owner (JOIN book.newspaper_owner.newspapers_owned (AND (JOIN book.periodical.language english) (JOIN (R periodicals.newspaper_circulation_area.newspapers) city of austin))))
+question:who is the owner of the newspaper using english and located in the city of austin?
+
+s-expression:(COUNT (AND government.government_office_or_title (JOIN government.government_office_or_title.office_holders (AND (JOIN government.government_position_held.appointed_by Abdelaziz Bouteflika) (JOIN government.government_position_held.jurisdiction_of_office Algeria)))))
+question:abdelaziz bouteflika appointed how many government positions for the algeria ?
+
+s-expression:(COUNT (AND exhibitions.exhibition_subject (JOIN (R exhibitions.exhibition.subjects) (JOIN (R exhibitions.type_of_exhibition.exhibitions_of_this_type) (JOIN (R exhibitions.exhibition.exhibition_types) The Sly and Unseen Day)))))
+question:the sly and unseen day has how many exhibition subjects?
+
+s-expression:(AND distilled_spirits.distilled_spirit_type (AND (JOIN distilled_spirits.distilled_spirit_type.fermentation_base maizes) (JOIN distilled_spirits.distilled_spirit_type.spirits (le distilled_spirits.distilled_spirit.age 23^^http://www.w3.org/2001/XMLSchema#integer))))
+question:what liquor is made from maizes and ferments for 23 years?
+
+s-expression:(AND amusement_parks.roller_coaster (AND (le amusement_parks.ride.duration 110.0^^http://www.w3.org/2001/XMLSchema#float) (JOIN amusement_parks.ride.capacity 1200^^http://www.w3.org/2001/XMLSchema#integer)))
+question:which roller coasters have a capacity of 1200 and lasts less than 110.0?
+
+s-expression:(AND business.sponsor (JOIN business.sponsor.sponsorship (ge business.sponsorship.to 2009-01^^http://www.w3.org/2001/XMLSchema#gYearMonth)))
+question:find the sponsor who still offer sponsorship after 2009-01.
+
+s-expression:(COUNT (AND computer.computer_designer (JOIN (R computer.computer.key_designers) (JOIN (R computer.computer_designer.computers_designed) freddie williams))))
+question:how many key designers are on the computers that freddie williams designed?
+
+s-expression:(ARGMAX spaceflight.rocket_manufacturer (JOIN spaceflight.rocket_manufacturer.rockets_manufactured spaceflight.rocket.mass))
+question:the heaviest rocket was made by what manufacturer?
+
+s-expression:(AND spaceflight.rocket_engine_fuel (JOIN spaceflight.rocket_engine_fuel.rocket_engines (JOIN (R spaceflight.rocket_engine_status.rocket_engines) (JOIN spaceflight.rocket_engine_status.rocket_engines Merlin))))
+question:what type of fuel ran the engine on merlin?
+
+s-expression:(ARGMAX (AND soccer.football_player (JOIN soccer.football_player.total_international_goals 4^^http://www.w3.org/2001/XMLSchema#integer)) (JOIN (R soccer.football_player_stats.player) soccer.football_player_stats.total_goals))
+question:among football players, who is the best scorer that has scored 4 goals in international games?
+
+s-expression:(COUNT (AND book.book_character (JOIN fictional_universe.fictional_character.rank (JOIN fictional_universe.character_rank.characters_of_this_rank Marth))))
+question:the rank of marth has been given to how many book characters?
+
+s-expression:(COUNT (AND book.book (AND (JOIN book.written_work.author ian duncan smith) (JOIN book.written_work.original_language english-language))))
+question:how many books did ian duncan smith write in the english-language?
+
+s-expression:(AND cvg.game_character (AND (le fictional_universe.fictional_character.weight 65.0^^http://www.w3.org/2001/XMLSchema#float) (JOIN (R fictional_universe.character_occupation.characters_with_this_occupation) (JOIN fictional_universe.character_occupation.characters_with_this_occupation Peter Parker))))
+question:what video game character weighs less than 65.0 kgs and has the same occupation as peter parker?
+
+s-expression:(AND astronomy.star (JOIN (R astronomy.constellation.contains) (JOIN (R astronomy.constellation_bordering_relationship.constellations) (JOIN (R astronomy.constellation.bordering_constellations_new) Reticulum))))
+question:a constellation near reticulum includes what star?
+
+s-expression:(AND ice_hockey.hockey_coach (JOIN ice_hockey.hockey_coach.current_team (JOIN (R sports.sports_award.team) (JOIN (R sports.sports_award_type.winners) President's Awards))))
+question:who currently coaches the winning team of the president's awards award?
+
+s-expression:(AND automotive.model (AND (JOIN (R automotive.automotive_class.examples) (JOIN automotive.automotive_class.examples TX4)) (JOIN (R automotive.similar_automobile_models.related_model) (JOIN automotive.similar_automobile_models.related_model Nissan Fuga))))
+question:the nissan fuga is related to what model of tx4?
+
+s-expression:(AND business.industry (AND (JOIN (R business.industry.child_industry) (JOIN business.industry.trade_unions union)) (JOIN (R business.industry.child_industry) auto industry)))
+question:what parent industry do the auto industry and the industry in which union operates have in common?
+
+s-expression:(AND spaceflight.rocket_engine_cycle (JOIN (R spaceflight.bipropellant_rocket_engine.engine_cycle) (JOIN spaceflight.rocket_engine.manufactured_by (JOIN (R spaceflight.rocket_engine.manufactured_by) RD-253F))))
+question:what is the engine cycle of the bipropellant rocket engine manufactured by the manufacturer of rd-253f?
+
+s-expression:(AND chess.chess_game (JOIN (R chess.chess_game_participation.game) (AND (JOIN chess.chess_game_participation.color Black) (JOIN chess.chess_game_participation.player Charles II, Duke of Brunswick))))
+question:in what chess game did charles ii, duke of brunswick play black?
+
+s-expression:(AND tv.tv_song_performer (JOIN tv.tv_song_performer.episode_segments (JOIN tv.tv_segment_song_relationship.song (JOIN music.composition.composer butch))))
+question:what is the name of the singer who performed the tv song that was composed by butch?
+
+s-expression:(AND law.inventor (JOIN (R media_common.quotation.author) (JOIN media_common.quotation.subjects (JOIN media_common.quotation_subject.quotations_about_this_subject When you feel that you have reached the end and that you cannot go one step further, when life seems to be drained of all purpose: What a wonderful opportunity o start all over again, to turn over a new page.))))
+question:what inventor has a quote related to when you feel that you have reached the end and that you cannot go one step further, when life seems to be drained of all purpose: what a wonderful opportunity o start all over again, to turn over a new page.?
+
+s-expression:(ARGMIN (AND book.technical_report (JOIN book.technical_report.institution European Bird Census Council)) book.written_work.date_of_first_publication)
+question:name the first technical report published by the european bird census council.
+
+s-expression:(AND tv.tv_network (JOIN tv.tv_network.channels (lt broadcast.tv_channel.from 2003-12-12^^http://www.w3.org/2001/XMLSchema#date)))
+question:what network is the channel which started before dec. the 12nd, 2003 on?

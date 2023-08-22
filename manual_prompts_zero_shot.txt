@@ -1,1 +1,0 @@
-Convert the s-expression to a natural language question.

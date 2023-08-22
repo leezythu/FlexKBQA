@@ -1,0 +1,389 @@
+[
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03y138m)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03y138m ns:astronomy.asteroid.member_of_asteroid_group ?y .\n?y ns:astronomy.asteroid_group.asteroid_group_members ?x .\n?x ns:user.stu.default_domain.heavenly_bodies.date_of_discovery ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.03y138m",
+        "mid2name": {
+            "ns:m.03y138m": "9664 Brueghel"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R astronomy.asteroid_group.asteroid_group_members) (JOIN (R astronomy.asteroid.member_of_asteroid_group) 9664 Brueghel)) user.stu.default_domain.heavenly_bodies.date_of_discovery)",
+        "SExpr": "(ARGMAX (JOIN (R astronomy.asteroid_group.asteroid_group_members) (JOIN (R astronomy.asteroid.member_of_asteroid_group) m.03y138m)) user.stu.default_domain.heavenly_bodies.date_of_discovery)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0bnnjty)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0bnnjty ns:book.author.works_written ?y .\n?y ns:book.journal_article.journal_publication ?x .\n?x ns:book.journal_publication.issue_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.0bnnjty",
+        "mid2name": {
+            "ns:m.0bnnjty": "Glenn A. Goodfriend"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R book.journal_article.journal_publication) (JOIN (R book.author.works_written) Glenn A. Goodfriend)) book.journal_publication.issue_date)",
+        "SExpr": "(ARGMAX (JOIN (R book.journal_article.journal_publication) (JOIN (R book.author.works_written) m.0bnnjty)) book.journal_publication.issue_date)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.082sj0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.082sj0 ns:computer.software_genre.subgenres ?y .\n?y ns:computer.software_genre.software_in_genre ?x .\n?x ns:computer.software.latest_release_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.082sj0",
+        "mid2name": {
+            "ns:m.082sj0": "Software build"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R computer.software_genre.software_in_genre) (JOIN (R computer.software_genre.subgenres) Software build)) computer.software.latest_release_date)",
+        "SExpr": "(ARGMAX (JOIN (R computer.software_genre.software_in_genre) (JOIN (R computer.software_genre.subgenres) m.082sj0)) computer.software.latest_release_date)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02q22dq)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02q22dq ns:education.grade_level.locations_used ?y .\n?y ns:biology.breed_origin.breeds_originating_here ?x .\n?x ns:base.petbreeds.dog_breed.apartment_friendly ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.02q22dq",
+        "mid2name": {
+            "ns:m.02q22dq": "Year Seven"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R biology.breed_origin.breeds_originating_here) (JOIN (R education.grade_level.locations_used) Year Seven)) base.petbreeds.dog_breed.apartment_friendly)",
+        "SExpr": "(ARGMAX (JOIN (R biology.breed_origin.breeds_originating_here) (JOIN (R education.grade_level.locations_used) m.02q22dq)) base.petbreeds.dog_breed.apartment_friendly)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0zg4l_y)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0zg4l_y ns:award.award_nominated_work.award_nominations ?y .\n?y ns:award.award_nomination.award ?x .\n?x ns:award.award_category.date_established ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.0zg4l_y",
+        "mid2name": {
+            "ns:m.0zg4l_y": "Macbeth"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R award.award_nomination.award) (JOIN (R award.award_nominated_work.award_nominations) Macbeth)) award.award_category.date_established)",
+        "SExpr": "(ARGMAX (JOIN (R award.award_nomination.award) (JOIN (R award.award_nominated_work.award_nominations) m.0zg4l_y)) award.award_category.date_established)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0jnm2)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0jnm2 ns:sports.sports_team.league ?y .\n?y ns:sports.sports_league_participation.league ?x .\n?x ns:user.rcheramy.default_domain.hockey_league.number_of_teams ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.0jnm2",
+        "mid2name": {
+            "ns:m.0jnm2": "Columbus Blue Jackets"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R sports.sports_league_participation.league) (JOIN (R sports.sports_team.league) Columbus Blue Jackets)) user.rcheramy.default_domain.hockey_league.number_of_teams)",
+        "SExpr": "(ARGMAX (JOIN (R sports.sports_league_participation.league) (JOIN (R sports.sports_team.league) m.0jnm2)) user.rcheramy.default_domain.hockey_league.number_of_teams)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.04d1vdb)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.04d1vdb ns:medicine.medical_trial.phase ?y .\n?y ns:medicine.medical_trial_phase.medical_trials ?x .\n?x ns:medicine.medical_trial.end_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.04d1vdb",
+        "mid2name": {
+            "ns:m.04d1vdb": "Efficacy and Safety of SPD417 in Treatment of Manic Symptoms in Adults With Bipolar I Disorder"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R medicine.medical_trial_phase.medical_trials) (JOIN (R medicine.medical_trial.phase) Efficacy and Safety of SPD417 in Treatment of Manic Symptoms in Adults With Bipolar I Disorder)) medicine.medical_trial.end_date)",
+        "SExpr": "(ARGMAX (JOIN (R medicine.medical_trial_phase.medical_trials) (JOIN (R medicine.medical_trial.phase) m.04d1vdb)) medicine.medical_trial.end_date)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0_h7h44)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0_h7h44 ns:tv.tv_episode_segment.episodes ?y .\n?y ns:tv.tv_series_episode.director ?x .\n?x ns:people.person.date_of_birth ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.0_h7h44",
+        "mid2name": {
+            "ns:m.0_h7h44": "I'm Calling It"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R tv.tv_series_episode.director) (JOIN (R tv.tv_episode_segment.episodes) I'm Calling It)) people.person.date_of_birth)",
+        "SExpr": "(ARGMAX (JOIN (R tv.tv_series_episode.director) (JOIN (R tv.tv_episode_segment.episodes) m.0_h7h44)) people.person.date_of_birth)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01bq_t)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01bq_t ns:olympics.olympic_participating_country.athletes ?y .\n?y ns:olympics.olympic_athlete_affiliation.athlete ?x .\n?x ns:people.deceased_person.date_of_death ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.01bq_t",
+        "mid2name": {
+            "ns:m.01bq_t": "Gold Coast"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R olympics.olympic_athlete_affiliation.athlete) (JOIN (R olympics.olympic_participating_country.athletes) Gold Coast)) people.deceased_person.date_of_death)",
+        "SExpr": "(ARGMAX (JOIN (R olympics.olympic_athlete_affiliation.athlete) (JOIN (R olympics.olympic_participating_country.athletes) m.01bq_t)) people.deceased_person.date_of_death)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0f7xbh)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0f7xbh ns:automotive.model_year.model ?y .\n?y ns:automotive.model.generations ?x .\n?x ns:automotive.generation.generation_number ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.0f7xbh",
+        "mid2name": {
+            "ns:m.0f7xbh": "1999 Dodge Charger Concept"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R automotive.model.generations) (JOIN (R automotive.model_year.model) 1999 Dodge Charger Concept)) automotive.generation.generation_number)",
+        "SExpr": "(ARGMAX (JOIN (R automotive.model.generations) (JOIN (R automotive.model_year.model) m.0f7xbh)) automotive.generation.generation_number)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0b_tw43)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0b_tw43 ns:fictional_universe.fictional_universe.organizations ?y .\n?y ns:military.military_unit.servicemembers ?x .\n?x ns:military.military_service.to_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.0b_tw43",
+        "mid2name": {
+            "ns:m.0b_tw43": "Thieves' World fictional shared universe"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R military.military_unit.servicemembers) (JOIN (R fictional_universe.fictional_universe.organizations) Thieves' World fictional shared universe)) military.military_service.to_date)",
+        "SExpr": "(ARGMAX (JOIN (R military.military_unit.servicemembers) (JOIN (R fictional_universe.fictional_universe.organizations) m.0b_tw43)) military.military_service.to_date)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0kd_x)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0kd_x ns:transportation.road.orientation ?y .\n?y ns:transportation.road_orientation.roads_with_this_orientation ?x .\n?x ns:user.maxim75.default_domain.dbpedia_import.geocode_checked ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.0kd_x",
+        "mid2name": {
+            "ns:m.0kd_x": "US Interstate 5"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R transportation.road_orientation.roads_with_this_orientation) (JOIN (R transportation.road.orientation) US Interstate 5)) user.maxim75.default_domain.dbpedia_import.geocode_checked)",
+        "SExpr": "(ARGMAX (JOIN (R transportation.road_orientation.roads_with_this_orientation) (JOIN (R transportation.road.orientation) m.0kd_x)) user.maxim75.default_domain.dbpedia_import.geocode_checked)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.05snq1h)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.05snq1h ns:biology.pedigreed_animal.breed ?y .\n?y ns:biology.animal_breed.examples ?x .\n?x ns:biology.organism.date_of_birth ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.05snq1h",
+        "mid2name": {
+            "ns:m.05snq1h": "Splash"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R biology.animal_breed.examples) (JOIN (R biology.pedigreed_animal.breed) Splash)) biology.organism.date_of_birth)",
+        "SExpr": "(ARGMAX (JOIN (R biology.animal_breed.examples) (JOIN (R biology.pedigreed_animal.breed) m.05snq1h)) biology.organism.date_of_birth)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0109_nr2)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0109_nr2 ns:book.journal.articles ?y .\n?y ns:book.journal_publication.article ?x .\n?x ns:book.written_work.date_of_first_publication ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.0109_nr2",
+        "mid2name": {
+            "ns:m.0109_nr2": "Cultic Studies Review"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R book.journal_publication.article) (JOIN (R book.journal.articles) Cultic Studies Review)) book.written_work.date_of_first_publication)",
+        "SExpr": "(ARGMAX (JOIN (R book.journal_publication.article) (JOIN (R book.journal.articles) m.0109_nr2)) book.written_work.date_of_first_publication)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0csp_x)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0csp_x ns:organization.organization.sectors ?y .\n?y ns:organization.organization_sector.organizations_in_this_sector ?x .\n?x ns:organization.organization.date_founded ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.0csp_x",
+        "mid2name": {
+            "ns:m.0csp_x": "Soaring Association of Canada"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R organization.organization_sector.organizations_in_this_sector) (JOIN (R organization.organization.sectors) Soaring Association of Canada)) organization.organization.date_founded)",
+        "SExpr": "(ARGMAX (JOIN (R organization.organization_sector.organizations_in_this_sector) (JOIN (R organization.organization.sectors) m.0csp_x)) organization.organization.date_founded)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03c0w1m)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03c0w1m ns:sports.sports_position.sport ?y .\n?y ns:organization.club_interest.clubs ?x .\n?x ns:sports.sports_team.founded ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.03c0w1m",
+        "mid2name": {
+            "ns:m.03c0w1m": "Inside forward"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R organization.club_interest.clubs) (JOIN (R sports.sports_position.sport) Inside forward)) sports.sports_team.founded)",
+        "SExpr": "(ARGMAX (JOIN (R organization.club_interest.clubs) (JOIN (R sports.sports_position.sport) m.03c0w1m)) sports.sports_team.founded)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.020lf)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.020lf ns:award.ranked_item.appears_in_ranked_lists ?y .\n?y ns:award.ranking.list ?x .\n?x ns:award.ranked_list.year_inaugurated ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.020lf",
+        "mid2name": {
+            "ns:m.020lf": "Mouse"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R award.ranking.list) (JOIN (R award.ranked_item.appears_in_ranked_lists) Mouse)) award.ranked_list.year_inaugurated)",
+        "SExpr": "(ARGMAX (JOIN (R award.ranking.list) (JOIN (R award.ranked_item.appears_in_ranked_lists) m.020lf)) award.ranked_list.year_inaugurated)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.027wzl)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.027wzl ns:sports.sport.pro_athletes ?y .\n?y ns:sports.pro_sports_played.athlete ?x .\n?x ns:tennis.tennis_player.year_turned_pro ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.027wzl",
+        "mid2name": {
+            "ns:m.027wzl": "Wheelchair tennis"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R sports.pro_sports_played.athlete) (JOIN (R sports.sport.pro_athletes) Wheelchair tennis)) tennis.tennis_player.year_turned_pro)",
+        "SExpr": "(ARGMAX (JOIN (R sports.pro_sports_played.athlete) (JOIN (R sports.sport.pro_athletes) m.027wzl)) tennis.tennis_player.year_turned_pro)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0228q)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0228q ns:computer.computer.compatible_oses ?y .\n?y ns:computer.os_compatibility.operating_system ?x .\n?x ns:computer.software.first_released ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.0228q",
+        "mid2name": {
+            "ns:m.0228q": "Commodore 64"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R computer.os_compatibility.operating_system) (JOIN (R computer.computer.compatible_oses) Commodore 64)) computer.software.first_released)",
+        "SExpr": "(ARGMAX (JOIN (R computer.os_compatibility.operating_system) (JOIN (R computer.computer.compatible_oses) m.0228q)) computer.software.first_released)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.04bhf)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.04bhf ns:medicine.drug_ingredient.active_ingredient_of_formulation ?y .\n?y ns:medicine.drug_formulation.active_ingredient_moieties ?x .\n?x ns:chemistry.chemical_element.discovery_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.04bhf",
+        "mid2name": {
+            "ns:m.04bhf": "Kerosene"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R medicine.drug_formulation.active_ingredient_moieties) (JOIN (R medicine.drug_ingredient.active_ingredient_of_formulation) Kerosene)) chemistry.chemical_element.discovery_date)",
+        "SExpr": "(ARGMAX (JOIN (R medicine.drug_formulation.active_ingredient_moieties) (JOIN (R medicine.drug_ingredient.active_ingredient_of_formulation) m.04bhf)) chemistry.chemical_element.discovery_date)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0kf_km3)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0kf_km3 ns:sports.tournament_event_competition.competitors ?y .\n?y ns:sports.competitor_competition_relationship.competitors ?x .\n?x ns:base.schemastaging.tennis_player_extra.singles_grand_slams ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.0kf_km3",
+        "mid2name": {
+            "ns:m.0kf_km3": "1911 Wimbledon Championships – Men's Singles"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R sports.competitor_competition_relationship.competitors) (JOIN (R sports.tournament_event_competition.competitors) 1911 Wimbledon Championships – Men's Singles)) base.schemastaging.tennis_player_extra.singles_grand_slams)",
+        "SExpr": "(ARGMAX (JOIN (R sports.competitor_competition_relationship.competitors) (JOIN (R sports.tournament_event_competition.competitors) m.0kf_km3)) base.schemastaging.tennis_player_extra.singles_grand_slams)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0vb3sfh)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0vb3sfh ns:time.holiday.featured_in_religions ?y .\n?y ns:religion.religion.places_of_worship_historical ?x .\n?x ns:religion.place_of_worship_historical_use.from_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.0vb3sfh",
+        "mid2name": {
+            "ns:m.0vb3sfh": "Wan Lai"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R religion.religion.places_of_worship_historical) (JOIN (R time.holiday.featured_in_religions) Wan Lai)) religion.place_of_worship_historical_use.from_date)",
+        "SExpr": "(ARGMAX (JOIN (R religion.religion.places_of_worship_historical) (JOIN (R time.holiday.featured_in_religions) m.0vb3sfh)) religion.place_of_worship_historical_use.from_date)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01d5g)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01d5g ns:comic_books.comic_book_character.created_by ?y .\n?y ns:comic_books.comic_book_inker.comic_covers_inked ?x .\n?x ns:comic_books.comic_book_issue.issue_number ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.01d5g",
+        "mid2name": {
+            "ns:m.01d5g": "Bruce Wayne"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R comic_books.comic_book_inker.comic_covers_inked) (JOIN (R comic_books.comic_book_character.created_by) Bruce Wayne)) comic_books.comic_book_issue.issue_number)",
+        "SExpr": "(ARGMAX (JOIN (R comic_books.comic_book_inker.comic_covers_inked) (JOIN (R comic_books.comic_book_character.created_by) m.01d5g)) comic_books.comic_book_issue.issue_number)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02h7b56)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02h7b56 ns:time.holiday_category.holidays ?y .\n?y ns:base.schemastaging.holiday_extra.observance_rule ?x .\n?x ns:base.schemastaging.holiday_observance_rule.date_established ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.02h7b56",
+        "mid2name": {
+            "ns:m.02h7b56": "Pagan holiday"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R base.schemastaging.holiday_extra.observance_rule) (JOIN (R time.holiday_category.holidays) Pagan holiday)) base.schemastaging.holiday_observance_rule.date_established)",
+        "SExpr": "(ARGMAX (JOIN (R base.schemastaging.holiday_extra.observance_rule) (JOIN (R time.holiday_category.holidays) m.02h7b56)) base.schemastaging.holiday_observance_rule.date_established)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02kwgm0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02kwgm0 ns:biology.chromosome.band ?y .\n?y ns:biology.cytogenetic_band.locus ?x .\n?x ns:biology.genomic_locus.end_base ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.02kwgm0",
+        "mid2name": {
+            "ns:m.02kwgm0": "Chromosome 20 (human)"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R biology.cytogenetic_band.locus) (JOIN (R biology.chromosome.band) Chromosome 20 (human))) biology.genomic_locus.end_base)",
+        "SExpr": "(ARGMAX (JOIN (R biology.cytogenetic_band.locus) (JOIN (R biology.chromosome.band) m.02kwgm0)) biology.genomic_locus.end_base)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0hqxw59)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0hqxw59 ns:medicine.drug_mechanism_of_action.drugs_with_this_mechanism_of_action ?y .\n?y ns:medicine.drug.active_moieties ?x .\n?x ns:base.bioventurist.bv_therapeutic.approval_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.0hqxw59",
+        "mid2name": {
+            "ns:m.0hqxw59": "HER1 Antagonist"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R medicine.drug.active_moieties) (JOIN (R medicine.drug_mechanism_of_action.drugs_with_this_mechanism_of_action) HER1 Antagonist)) base.bioventurist.bv_therapeutic.approval_date)",
+        "SExpr": "(ARGMAX (JOIN (R medicine.drug.active_moieties) (JOIN (R medicine.drug_mechanism_of_action.drugs_with_this_mechanism_of_action) m.0hqxw59)) base.bioventurist.bv_therapeutic.approval_date)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0hqqqtd)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0hqqqtd ns:business.consumer_product.brand ?y .\n?y ns:business.brand.products ?x .\n?x ns:medicine.manufactured_drug_form.label_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.0hqqqtd",
+        "mid2name": {
+            "ns:m.0hqqqtd": "Zebeta 5 tablet"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R business.brand.products) (JOIN (R business.consumer_product.brand) Zebeta 5 tablet)) medicine.manufactured_drug_form.label_date)",
+        "SExpr": "(ARGMAX (JOIN (R business.brand.products) (JOIN (R business.consumer_product.brand) m.0hqqqtd)) medicine.manufactured_drug_form.label_date)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0xjl2)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0xjl2 ns:music.genre.artists ?y .\n?y ns:user.robert.performance.performer.headline_performances ?x .\n?x ns:user.robert.performance.performance.date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.0xjl2",
+        "mid2name": {
+            "ns:m.0xjl2": "Gothic rock"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R user.robert.performance.performer.headline_performances) (JOIN (R music.genre.artists) Gothic rock)) user.robert.performance.performance.date)",
+        "SExpr": "(ARGMAX (JOIN (R user.robert.performance.performer.headline_performances) (JOIN (R music.genre.artists) m.0xjl2)) user.robert.performance.performance.date)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01zv_q)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01zv_q ns:architecture.building_complex.complex_function ?y .\n?y ns:architecture.building_complex_function.building_complexes ?x .\n?x ns:architecture.museum.established ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.01zv_q",
+        "mid2name": {
+            "ns:m.01zv_q": "Dachau concentration camp"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R architecture.building_complex_function.building_complexes) (JOIN (R architecture.building_complex.complex_function) Dachau concentration camp)) architecture.museum.established)",
+        "SExpr": "(ARGMAX (JOIN (R architecture.building_complex_function.building_complexes) (JOIN (R architecture.building_complex.complex_function) m.01zv_q)) architecture.museum.established)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03wvsk)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03wvsk ns:travel.accommodation_feature.accommodation_with_this_feature ?y .\n?y ns:travel.accommodation.features ?x .\n?x ns:law.invention.date_of_invention ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.03wvsk",
+        "mid2name": {
+            "ns:m.03wvsk": "Hair dryer"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R travel.accommodation.features) (JOIN (R travel.accommodation_feature.accommodation_with_this_feature) Hair dryer)) law.invention.date_of_invention)",
+        "SExpr": "(ARGMAX (JOIN (R travel.accommodation.features) (JOIN (R travel.accommodation_feature.accommodation_with_this_feature) m.03wvsk)) law.invention.date_of_invention)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.07szy)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.07szy ns:education.educational_institution.school_magazines ?y .\n?y ns:book.periodical.first_issue_date ?x .\n?x ns:book.periodical_publication_date.date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.07szy",
+        "mid2name": {
+            "ns:m.07szy": "University of Michigan"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R book.periodical.first_issue_date) (JOIN (R education.educational_institution.school_magazines) University of Michigan)) book.periodical_publication_date.date)",
+        "SExpr": "(ARGMAX (JOIN (R book.periodical.first_issue_date) (JOIN (R education.educational_institution.school_magazines) m.07szy)) book.periodical_publication_date.date)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0djy52r)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0djy52r ns:medicine.disease.includes_diseases ?y .\n?y ns:medicine.infectious_disease.vector ?x .\n?x ns:biology.organism_classification.ncbi_taxon_id ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.0djy52r",
+        "mid2name": {
+            "ns:m.0djy52r": "Blood disorder"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R medicine.infectious_disease.vector) (JOIN (R medicine.disease.includes_diseases) Blood disorder)) biology.organism_classification.ncbi_taxon_id)",
+        "SExpr": "(ARGMAX (JOIN (R medicine.infectious_disease.vector) (JOIN (R medicine.disease.includes_diseases) m.0djy52r)) biology.organism_classification.ncbi_taxon_id)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0j9fglb)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0j9fglb ns:library.public_library.library_system ?y .\n?y ns:library.public_library_system.annual_circulation ?x .\n?x ns:measurement_unit.dated_integer.year ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.0j9fglb",
+        "mid2name": {
+            "ns:m.0j9fglb": "White Pine County Library Central Library"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R library.public_library_system.annual_circulation) (JOIN (R library.public_library.library_system) White Pine County Library Central Library)) measurement_unit.dated_integer.year)",
+        "SExpr": "(ARGMAX (JOIN (R library.public_library_system.annual_circulation) (JOIN (R library.public_library.library_system) m.0j9fglb)) measurement_unit.dated_integer.year)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0gvdmyg)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0gvdmyg ns:comic_books.comic_book_issue.next_issue ?y .\n?y ns:comic_books.comic_book_issue.contents ?x .\n?x ns:comic_books.comic_story_printing.end_page ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.0gvdmyg",
+        "mid2name": {
+            "ns:m.0gvdmyg": "The X-Men #2"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R comic_books.comic_book_issue.contents) (JOIN (R comic_books.comic_book_issue.next_issue) The X-Men #2)) comic_books.comic_story_printing.end_page)",
+        "SExpr": "(ARGMAX (JOIN (R comic_books.comic_book_issue.contents) (JOIN (R comic_books.comic_book_issue.next_issue) m.0gvdmyg)) comic_books.comic_story_printing.end_page)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02xlwxb)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02xlwxb ns:spaceflight.rocket_engine.status ?y .\n?y ns:spaceflight.rocket_engine_status.rocket_engines ?x .\n?x ns:spaceflight.bipropellant_rocket_engine.number_of_chambers ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.02xlwxb",
+        "mid2name": {
+            "ns:m.02xlwxb": "RD-101"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R spaceflight.rocket_engine_status.rocket_engines) (JOIN (R spaceflight.rocket_engine.status) RD-101)) spaceflight.bipropellant_rocket_engine.number_of_chambers)",
+        "SExpr": "(ARGMAX (JOIN (R spaceflight.rocket_engine_status.rocket_engines) (JOIN (R spaceflight.rocket_engine.status) m.02xlwxb)) spaceflight.bipropellant_rocket_engine.number_of_chambers)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.052vq)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.052vq ns:computer.computer_processor.manufacturers ?y .\n?y ns:user.robert.mobile_phones.product_brand.products ?x .\n?x ns:user.robert.mobile_phones.mobile_phone.released ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.052vq",
+        "mid2name": {
+            "ns:m.052vq": "Motorola 68000"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R user.robert.mobile_phones.product_brand.products) (JOIN (R computer.computer_processor.manufacturers) Motorola 68000)) user.robert.mobile_phones.mobile_phone.released)",
+        "SExpr": "(ARGMAX (JOIN (R user.robert.mobile_phones.product_brand.products) (JOIN (R computer.computer_processor.manufacturers) m.052vq)) user.robert.mobile_phones.mobile_phone.released)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0b74g0l)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0b74g0l ns:music.performance_venue.concerts ?y .\n?y ns:music.concert.concert_tour ?x .\n?x ns:time.event.end_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.0b74g0l",
+        "mid2name": {
+            "ns:m.0b74g0l": "Teatro Verdi"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R music.concert.concert_tour) (JOIN (R music.performance_venue.concerts) Teatro Verdi)) time.event.end_date)",
+        "SExpr": "(ARGMAX (JOIN (R music.concert.concert_tour) (JOIN (R music.performance_venue.concerts) m.0b74g0l)) time.event.end_date)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0bhzrj7)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0bhzrj7 ns:book.newspaper_issue.newspaper ?y .\n?y ns:dataworld.information_source.data_operations ?x .\n?x ns:dataworld.mass_data_operation.ended_operation ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.0bhzrj7",
+        "mid2name": {
+            "ns:m.0bhzrj7": "The Guardian, 25 May 2002"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R dataworld.information_source.data_operations) (JOIN (R book.newspaper_issue.newspaper) The Guardian, 25 May 2002)) dataworld.mass_data_operation.ended_operation)",
+        "SExpr": "(ARGMAX (JOIN (R dataworld.information_source.data_operations) (JOIN (R book.newspaper_issue.newspaper) m.0bhzrj7)) dataworld.mass_data_operation.ended_operation)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.05l64)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.05l64 ns:olympics.olympic_host_city.olympics_hosted ?y .\n?y ns:time.event.includes_event ?x .\n?x ns:time.event.start_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.05l64",
+        "mid2name": {
+            "ns:m.05l64": "Oslo"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R time.event.includes_event) (JOIN (R olympics.olympic_host_city.olympics_hosted) Oslo)) time.event.start_date)",
+        "SExpr": "(ARGMAX (JOIN (R time.event.includes_event) (JOIN (R olympics.olympic_host_city.olympics_hosted) m.05l64)) time.event.start_date)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.05vltvg)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.05vltvg ns:visual_art.visual_artist.art_series ?y .\n?y ns:visual_art.art_series.artworks ?x .\n?x ns:visual_art.artwork.date_begun ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.05vltvg",
+        "mid2name": {
+            "ns:m.05vltvg": "Michele Wood"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R visual_art.art_series.artworks) (JOIN (R visual_art.visual_artist.art_series) Michele Wood)) visual_art.artwork.date_begun)",
+        "SExpr": "(ARGMAX (JOIN (R visual_art.art_series.artworks) (JOIN (R visual_art.visual_artist.art_series) m.05vltvg)) visual_art.artwork.date_begun)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.04znkz6)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.04znkz6 ns:base.thoroughbredracing.thoroughbred_racehorse.foal_if_this_horse_is_dam ?y .\n?y ns:award.award_winner.awards_won ?x .\n?x ns:award.award_honor.year ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.04znkz6",
+        "mid2name": {
+            "ns:m.04znkz6": "Won't Tell You"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R award.award_winner.awards_won) (JOIN (R base.thoroughbredracing.thoroughbred_racehorse.foal_if_this_horse_is_dam) Won't Tell You)) award.award_honor.year)",
+        "SExpr": "(ARGMAX (JOIN (R award.award_winner.awards_won) (JOIN (R base.thoroughbredracing.thoroughbred_racehorse.foal_if_this_horse_is_dam) m.04znkz6)) award.award_honor.year)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02lmxvm)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02lmxvm ns:biology.genomic_locus.annotation ?y .\n?y ns:biology.gene.chromosome ?x .\n?x ns:biology.chromosome.identifier ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.02lmxvm",
+        "mid2name": {
+            "ns:m.02lmxvm": "3 - [123613389,123617571]"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R biology.gene.chromosome) (JOIN (R biology.genomic_locus.annotation) 3 - [123613389,123617571])) biology.chromosome.identifier)",
+        "SExpr": "(ARGMAX (JOIN (R biology.gene.chromosome) (JOIN (R biology.genomic_locus.annotation) m.02lmxvm)) biology.chromosome.identifier)"
+    },
+    {
+        "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0b5yj5)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0b5yj5 ns:business.business_operation.industry ?y .\n?y ns:business.industry.companies ?x .\n?x ns:architecture.architect.structure_count ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "TopicEntityMid": "m.0b5yj5",
+        "mid2name": {
+            "ns:m.0b5yj5": "Pei Cobb Freed & Partners"
+        },
+        "SExpr_w_name": "(ARGMAX (JOIN (R business.industry.companies) (JOIN (R business.business_operation.industry) Pei Cobb Freed & Partners)) architecture.architect.structure_count)",
+        "SExpr": "(ARGMAX (JOIN (R business.industry.companies) (JOIN (R business.business_operation.industry) m.0b5yj5)) architecture.architect.structure_count)"
+    }
+]

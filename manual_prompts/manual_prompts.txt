@@ -1,0 +1,76 @@
+Convert the s-expressions to natural language questions.
+
+s-expression:(JOIN (R location.location.containedby) Auburn University)
+question:where is university of auburn?
+
+s-expression:(JOIN (R government.political_party_tenure.politician) (JOIN (R government.political_party.politicians_in_this_party) New Democratic Party))
+question:who founded the new democratic party?
+
+s-expression:(ARGMAX (JOIN (R location.location.contains) China) topic_server.population_number)
+question:where do most chinese live?
+
+s-expression:(JOIN (R film.performance.actor) (AND (JOIN film.performance.character Dorothy Gale) (JOIN (R film.film.starring) The Wizard of Oz)))
+question:who played dorothy in the film wizard of oz?
+
+s-expression:(AND (JOIN common.topic.notable_types College/University) (JOIN (R education.education.institution) (JOIN (R people.person.education) Jerry Rice)))
+question:what college did jerry rice attend?
+
+s-expression:(AND (JOIN common.topic.notable_types City/Town/Village) (JOIN (R location.location.contains) Oakland County))
+question:what cities are in oakland county michigan?
+
+s-expression:(JOIN (R people.marriage.spouse) (AND (JOIN people.marriage.time_macro 2015^^http://www.w3.org/2001/XMLSchema#date) (AND (JOIN people.marriage.type_of_union Marriage) (JOIN (R people.person.spouse_s) Jane Krakowski))))
+question:who is married to jane krakowski?
+
+s-expression:(AND (JOIN people.person.gender Female) (JOIN (R people.marriage.spouse) (ARGMAX (JOIN (R people.person.spouse_s) Robert Downey Jr.) people.marriage.from)))
+question:who is robert downey jr wife?
+
+s-expression:(JOIN (R location.religion_percentage.religion) (ARGMAX (JOIN (R location.statistical_region.religions) United States of America) location.religion_percentage.percentage))
+question:what is the most practiced religion in the united states?
+
+s-expression:(ARGMAX (AND (JOIN sports.sports_championship_event.champion Dallas Cowboys) (JOIN (R sports.sports_team.championships) Dallas Cowboys)) time.event.end_date)
+question:when was the last dallas cowboys super bowl win?
+
+s-expression:(ARGMAX (JOIN (R film.performance.film) (JOIN (R film.actor.film) Brittany Murphy)) film.film.initial_release_date)
+question:what is the last movie brittany murphy made?
+
+s-expression:(AND (JOIN book.written_work.subjects Evolution) (AND (JOIN common.topic.notable_types Book) (JOIN (R book.author.works_written) Charles Darwin)))
+question:what book did charles darwin write on evolution?
+
+s-expression:(JOIN (R people.marriage.spouse) (ARGMAX (AND (JOIN people.marriage.type_of_union Marriage) (JOIN (R people.person.spouse_s) Charlemagne)) people.marriage.to))
+question:who was charlemagne 's wife?
+
+s-expression:(ARGMIN (JOIN (R film.performance.film) (JOIN (R film.actor.film) Omar Epps)) film.film.initial_release_date)
+question:what was omar epps first movie?
+
+s-expression:(ARGMIN (JOIN (R sports.sports_team.championships) Manchester United F.C.) time.event.end_date)
+question:when did manchester united first win a trophy?
+
+s-expression:(AND (JOIN location.location.containedby San Francisco) (JOIN (R travel.transportation.transport_terminus) (AND (JOIN travel.transportation.mode_of_transportation Train) (JOIN (R travel.travel_destination.how_to_get_here) San Francisco))))
+question:what is the name of the main train station in san francisco?
+
+s-expression:(JOIN (R sports.sports_team_roster.team) (ARGMIN (JOIN (R sports.pro_athlete.teams) Shaquille O'Neal) sports.sports_team_roster.from))
+question:what team did shaq play for first?
+
+s-expression:(AND (JOIN common.topic.notable_types Professional Sports Team) (JOIN (R sports.sports_team_roster.team) (ARGMIN (JOIN (R sports.pro_athlete.teams) Lamar Odom) sports.sports_team_roster.from)))
+question:who did lamar odom sign with?
+
+s-expression:(JOIN (R tv.regular_tv_appearance.actor) (ARGMIN (AND (JOIN tv.regular_tv_appearance.series Supernatural) (JOIN (R tv.tv_character.appeared_in_tv_program) John Winchester)) tv.regular_tv_appearance.from))
+question:who plays young john winchester in supernatural?
+
+s-expression:(JOIN (R tv.regular_tv_appearance.actor) (AND (JOIN tv.regular_tv_appearance.time_macro 2015^^http://www.w3.org/2001/XMLSchema#date) (AND (JOIN tv.regular_tv_appearance.special_performance_type Voice) (AND (JOIN tv.regular_tv_appearance.character Meg Griffin) (JOIN (R tv.tv_program.regular_cast) Family Guy)))))
+question:who plays the voice of meg in family guy?
+
+s-expression:(ARGMAX (JOIN (R tv.regular_tv_appearance.seasons) (AND (JOIN tv.regular_tv_appearance.actor Jason Priestley) (JOIN (R tv.tv_program.regular_cast) Beverly Hills, 90210))) tv.tv_series_season.to)
+question:what season did jason priestley leave 90210?
+
+s-expression:(ARGMIN (AND (JOIN sports.sports_championship_event.championship World Series) (JOIN (R sports.sports_team.championships) New York Mets)) time.event.start_date)
+question:what year did the mets win their first world series?
+
+s-expression:(ARGMIN (JOIN (R tv.regular_tv_appearance.seasons) (AND (JOIN tv.regular_tv_appearance.character Timothy McGee) (JOIN (R tv.tv_program.regular_cast) NCIS))) tv.tv_series_season.from)
+question:when did mcgee start on ncis?
+
+s-expression:(JOIN (R people.deceased_person.cause_of_death) Adolf Hitler)
+question:what happened to adolf hitler at the end of the war?
+
+s-expression:(JOIN (R sports.sports_team_roster.team) (AND (JOIN sports.sports_team_roster.time_macro 2011^^http://www.w3.org/2001/XMLSchema#date) (JOIN (R sports.pro_athlete.teams) Reggie Bush)))
+question:what team does reggie bush play for 2011?

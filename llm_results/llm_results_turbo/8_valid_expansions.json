@@ -1,0 +1,974 @@
+{
+    "0": {
+        "generations": "In what year was The Consul nominated for the most awards?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0n9hmf5)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0n9hmf5 ns:award.award_nominated_work.award_nominations ?x .\n?x ns:award.award_nomination.nominated_for ns:m.0n9hmf5 .\n?x ns:award.award_nomination.year ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0n9hmf5",
+            "mid2name": {
+                "ns:m.0n9hmf5": "The Consul"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN award.award_nomination.nominated_for The Consul) (JOIN (R award.award_nominated_work.award_nominations) The Consul)) award.award_nomination.year)",
+            "SExpr": "(ARGMAX (AND (JOIN award.award_nomination.nominated_for m.0n9hmf5) (JOIN (R award.award_nominated_work.award_nominations) m.0n9hmf5)) award.award_nomination.year)"
+        }
+    },
+    "1": {
+        "generations": "who is the oldest author of transportation engineering books?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0684drv)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0684drv ns:book.written_work.author ?x .\n?x ns:book.author.works_written ns:m.0684drv .\n?x ns:people.person.date_of_birth ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0684drv",
+            "mid2name": {
+                "ns:m.0684drv": "Transportation engineering"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN book.author.works_written Transportation engineering) (JOIN (R book.written_work.author) Transportation engineering)) people.person.date_of_birth)",
+            "SExpr": "(ARGMAX (AND (JOIN book.author.works_written m.0684drv) (JOIN (R book.written_work.author) m.0684drv)) people.person.date_of_birth)"
+        }
+    },
+    "2": {
+        "generations": "what is the longest running science fiction anime/manga franchise?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.06n90)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.06n90 ns:base.animemanga.anime_manga_genre.anime_manga_franchises ?x .\n?x ns:base.animemanga.anime_manga_franchise.genre ns:m.06n90 .\n?x ns:comic_books.comic_book_series.number_of_issues ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.06n90",
+            "mid2name": {
+                "ns:m.06n90": "Science Fiction"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN base.animemanga.anime_manga_franchise.genre Science Fiction) (JOIN (R base.animemanga.anime_manga_genre.anime_manga_franchises) Science Fiction)) comic_books.comic_book_series.number_of_issues)",
+            "SExpr": "(ARGMAX (AND (JOIN base.animemanga.anime_manga_franchise.genre m.06n90) (JOIN (R base.animemanga.anime_manga_genre.anime_manga_franchises) m.06n90)) comic_books.comic_book_series.number_of_issues)"
+        }
+    },
+    "3": {
+        "generations": "when was dover mall founded?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.07l9m0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.07l9m0 ns:location.location.containedby ?x .\n?x ns:location.location.contains ns:m.07l9m0 .\n?x ns:location.dated_location.date_founded ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.07l9m0",
+            "mid2name": {
+                "ns:m.07l9m0": "Dover Mall"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN location.location.contains Dover Mall) (JOIN (R location.location.containedby) Dover Mall)) location.dated_location.date_founded)",
+            "SExpr": "(ARGMAX (AND (JOIN location.location.contains m.07l9m0) (JOIN (R location.location.containedby) m.07l9m0)) location.dated_location.date_founded)"
+        }
+    },
+    "4": {
+        "generations": "When did McDonnell Douglas DC-10 stop operating?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.013c1m)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.013c1m ns:aviation.aircraft_model.manufacturer ?x .\n?x ns:aviation.aircraft_manufacturer.aircraft_models_made ns:m.013c1m .\n?x ns:business.defunct_company.ceased_operations ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.013c1m",
+            "mid2name": {
+                "ns:m.013c1m": "McDonnell Douglas DC-10"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN aviation.aircraft_manufacturer.aircraft_models_made McDonnell Douglas DC-10) (JOIN (R aviation.aircraft_model.manufacturer) McDonnell Douglas DC-10)) business.defunct_company.ceased_operations)",
+            "SExpr": "(ARGMAX (AND (JOIN aviation.aircraft_manufacturer.aircraft_models_made m.013c1m) (JOIN (R aviation.aircraft_model.manufacturer) m.013c1m)) business.defunct_company.ceased_operations)"
+        }
+    },
+    "5": {
+        "generations": "What was the latest randomized medical trial to end?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01y2h6z)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01y2h6z ns:medicine.medical_trial_design.trials ?x .\n?x ns:medicine.medical_trial.design ns:m.01y2h6z .\n?x ns:medicine.medical_trial.end_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.01y2h6z",
+            "mid2name": {
+                "ns:m.01y2h6z": "Randomized"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN medicine.medical_trial.design Randomized) (JOIN (R medicine.medical_trial_design.trials) Randomized)) medicine.medical_trial.end_date)",
+            "SExpr": "(ARGMAX (AND (JOIN medicine.medical_trial.design m.01y2h6z) (JOIN (R medicine.medical_trial_design.trials) m.01y2h6z)) medicine.medical_trial.end_date)"
+        }
+    },
+    "6": {
+        "generations": "when did the artist who recorded the track \"Duchess\" become active?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0ljhlc)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0ljhlc ns:music.recording.artist ?x .\n?x ns:music.artist.track ns:m.0ljhlc .\n?x ns:music.artist.active_start ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0ljhlc",
+            "mid2name": {
+                "ns:m.0ljhlc": "Duchess"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN music.artist.track Duchess) (JOIN (R music.recording.artist) Duchess)) music.artist.active_start)",
+            "SExpr": "(ARGMAX (AND (JOIN music.artist.track m.0ljhlc) (JOIN (R music.recording.artist) m.0ljhlc)) music.artist.active_start)"
+        }
+    },
+    "7": {
+        "generations": "When did Edward Feuz Jr. first ascend a mountain?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0k1b7ly)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0k1b7ly ns:geography.mountaineer.first_ascents ?x .\n?x ns:geography.mountain.first_ascenders ns:m.0k1b7ly .\n?x ns:geography.mountain.date_of_first_ascent ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0k1b7ly",
+            "mid2name": {
+                "ns:m.0k1b7ly": "Edward Feuz Jr."
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN geography.mountain.first_ascenders Edward Feuz Jr.) (JOIN (R geography.mountaineer.first_ascents) Edward Feuz Jr.)) geography.mountain.date_of_first_ascent)",
+            "SExpr": "(ARGMAX (AND (JOIN geography.mountain.first_ascenders m.0k1b7ly) (JOIN (R geography.mountaineer.first_ascents) m.0k1b7ly)) geography.mountain.date_of_first_ascent)"
+        }
+    },
+    "8": {
+        "generations": "when was the first book on the alphabet published?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0hwf)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0hwf ns:book.book_subject.works ?x .\n?x ns:book.written_work.subjects ns:m.0hwf .\n?x ns:book.written_work.date_of_first_publication ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0hwf",
+            "mid2name": {
+                "ns:m.0hwf": "Alphabet"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN book.written_work.subjects Alphabet) (JOIN (R book.book_subject.works) Alphabet)) book.written_work.date_of_first_publication)",
+            "SExpr": "(ARGMAX (AND (JOIN book.written_work.subjects m.0hwf) (JOIN (R book.book_subject.works) m.0hwf)) book.written_work.date_of_first_publication)"
+        }
+    },
+    "9": {
+        "generations": "when was the peak of catholicism's use of historical places of worship?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0c8wxp)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0c8wxp ns:religion.religion.places_of_worship_historical ?x .\n?x ns:religion.place_of_worship_historical_use.religion ns:m.0c8wxp .\n?x ns:religion.place_of_worship_historical_use.to_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0c8wxp",
+            "mid2name": {
+                "ns:m.0c8wxp": "Catholicism"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN religion.place_of_worship_historical_use.religion Catholicism) (JOIN (R religion.religion.places_of_worship_historical) Catholicism)) religion.place_of_worship_historical_use.to_date)",
+            "SExpr": "(ARGMAX (AND (JOIN religion.place_of_worship_historical_use.religion m.0c8wxp) (JOIN (R religion.religion.places_of_worship_historical) m.0c8wxp)) religion.place_of_worship_historical_use.to_date)"
+        }
+    },
+    "10": {
+        "generations": "when was the trilogy vinyl released?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0v9wdtp)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0v9wdtp ns:music.multipart_release.components ?x .\n?x ns:music.release_component.package ns:m.0v9wdtp .\n?x ns:music.release.release_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0v9wdtp",
+            "mid2name": {
+                "ns:m.0v9wdtp": "The Trilogy Vinyl"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN music.release_component.package The Trilogy Vinyl) (JOIN (R music.multipart_release.components) The Trilogy Vinyl)) music.release.release_date)",
+            "SExpr": "(ARGMAX (AND (JOIN music.release_component.package m.0v9wdtp) (JOIN (R music.multipart_release.components) m.0v9wdtp)) music.release.release_date)"
+        }
+    },
+    "11": {
+        "generations": "when did the most famous monochrome painter die?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02k5yk)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02k5yk ns:visual_art.art_period_movement.associated_artists ?x .\n?x ns:visual_art.visual_artist.associated_periods_or_movements ns:m.02k5yk .\n?x ns:people.deceased_person.date_of_death ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.02k5yk",
+            "mid2name": {
+                "ns:m.02k5yk": "Monochrome painting"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN visual_art.visual_artist.associated_periods_or_movements Monochrome painting) (JOIN (R visual_art.art_period_movement.associated_artists) Monochrome painting)) people.deceased_person.date_of_death)",
+            "SExpr": "(ARGMAX (AND (JOIN visual_art.visual_artist.associated_periods_or_movements m.02k5yk) (JOIN (R visual_art.art_period_movement.associated_artists) m.02k5yk)) people.deceased_person.date_of_death)"
+        }
+    },
+    "12": {
+        "generations": "What is the highest generation number for the Pontiac Firebird model?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0226ny)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0226ny ns:automotive.model.generations ?x .\n?x ns:automotive.generation.models ns:m.0226ny .\n?x ns:automotive.generation.generation_number ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0226ny",
+            "mid2name": {
+                "ns:m.0226ny": "Pontiac Firebird"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN automotive.generation.models Pontiac Firebird) (JOIN (R automotive.model.generations) Pontiac Firebird)) automotive.generation.generation_number)",
+            "SExpr": "(ARGMAX (AND (JOIN automotive.generation.models m.0226ny) (JOIN (R automotive.model.generations) m.0226ny)) automotive.generation.generation_number)"
+        }
+    },
+    "13": {
+        "generations": "when was wye valley brewery founded?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.04dqswb)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.04dqswb ns:food.beer.brewery_brand ?x .\n?x ns:food.brewery_brand_of_beer.beers_produced ns:m.04dqswb .\n?x ns:organization.organization.date_founded ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.04dqswb",
+            "mid2name": {
+                "ns:m.04dqswb": "Wye Valley Brewery Dorothy Goodbody's Winter Tipple"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN food.brewery_brand_of_beer.beers_produced Wye Valley Brewery Dorothy Goodbody's Winter Tipple) (JOIN (R food.beer.brewery_brand) Wye Valley Brewery Dorothy Goodbody's Winter Tipple)) organization.organization.date_founded)",
+            "SExpr": "(ARGMAX (AND (JOIN food.brewery_brand_of_beer.beers_produced m.04dqswb) (JOIN (R food.beer.brewery_brand) m.04dqswb)) organization.organization.date_founded)"
+        }
+    },
+    "14": {
+        "generations": "when did the 1992 summer olympics end?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0l6m5)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0l6m5 ns:time.event.includes_event ?x .\n?x ns:time.event.included_in_event ns:m.0l6m5 .\n?x ns:time.event.end_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0l6m5",
+            "mid2name": {
+                "ns:m.0l6m5": "1992 Summer Olympics"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN time.event.included_in_event 1992 Summer Olympics) (JOIN (R time.event.includes_event) 1992 Summer Olympics)) time.event.end_date)",
+            "SExpr": "(ARGMAX (AND (JOIN time.event.included_in_event m.0l6m5) (JOIN (R time.event.includes_event) m.0l6m5)) time.event.end_date)"
+        }
+    },
+    "15": {
+        "generations": "when was the album Ibiza Euphoria released?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03_9dcv)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03_9dcv ns:music.release.album ?x .\n?x ns:music.album.primary_release ns:m.03_9dcv .\n?x ns:music.album.release_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.03_9dcv",
+            "mid2name": {
+                "ns:m.03_9dcv": "Ibiza Euphoria"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN music.album.primary_release Ibiza Euphoria) (JOIN (R music.release.album) Ibiza Euphoria)) music.album.release_date)",
+            "SExpr": "(ARGMAX (AND (JOIN music.album.primary_release m.03_9dcv) (JOIN (R music.release.album) m.03_9dcv)) music.album.release_date)"
+        }
+    },
+    "16": {
+        "generations": "what is the oldest powered roller coaster still in operation?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.025vh45)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.025vh45 ns:amusement_parks.roller_coaster_propulsion_system.roller_coasters ?x .\n?x ns:amusement_parks.roller_coaster.propulsion ns:m.025vh45 .\n?x ns:amusement_parks.ride.opened ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.025vh45",
+            "mid2name": {
+                "ns:m.025vh45": "Powered"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN amusement_parks.roller_coaster.propulsion Powered) (JOIN (R amusement_parks.roller_coaster_propulsion_system.roller_coasters) Powered)) amusement_parks.ride.opened)",
+            "SExpr": "(ARGMAX (AND (JOIN amusement_parks.roller_coaster.propulsion m.025vh45) (JOIN (R amusement_parks.roller_coaster_propulsion_system.roller_coasters) m.025vh45)) amusement_parks.ride.opened)"
+        }
+    },
+    "17": {
+        "generations": "what is the generic name for the drug brand sildenafil?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.07_71)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.07_71 ns:medicine.drug.brands ?x .\n?x ns:medicine.drug_brand.canonical_drug ns:m.07_71 .\n?x ns:medicine.drug_brand.generic ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.07_71",
+            "mid2name": {
+                "ns:m.07_71": "Sildenafil"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN medicine.drug_brand.canonical_drug Sildenafil) (JOIN (R medicine.drug.brands) Sildenafil)) medicine.drug_brand.generic)",
+            "SExpr": "(ARGMAX (AND (JOIN medicine.drug_brand.canonical_drug m.07_71) (JOIN (R medicine.drug.brands) m.07_71)) medicine.drug_brand.generic)"
+        }
+    },
+    "18": {
+        "generations": "when was rexx programming language introduced?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.06g3m)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.06g3m ns:computer.programming_language.dialects ?x .\n?x ns:computer.programming_language.influenced_by ns:m.06g3m .\n?x ns:computer.programming_language.introduced ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.06g3m",
+            "mid2name": {
+                "ns:m.06g3m": "Rexx"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN computer.programming_language.influenced_by Rexx) (JOIN (R computer.programming_language.dialects) Rexx)) computer.programming_language.introduced)",
+            "SExpr": "(ARGMAX (AND (JOIN computer.programming_language.influenced_by m.06g3m) (JOIN (R computer.programming_language.dialects) m.06g3m)) computer.programming_language.introduced)"
+        }
+    },
+    "19": {
+        "generations": "When was the invention for identifying anti-HCV agents patented?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0j3lhmb)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0j3lhmb ns:law.us_patent.associated_inventions ?x .\n?x ns:law.invention.patents ns:m.0j3lhmb .\n?x ns:law.invention.date_of_invention ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0j3lhmb",
+            "mid2name": {
+                "ns:m.0j3lhmb": "Methods and compositions for identifying anti-HCV agents: U.S. Patent No. 7,582,428"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN law.invention.patents Methods and compositions for identifying anti-HCV agents: U.S. Patent No. 7,582,428) (JOIN (R law.us_patent.associated_inventions) Methods and compositions for identifying anti-HCV agents: U.S. Patent No. 7,582,428)) law.invention.date_of_invention)",
+            "SExpr": "(ARGMAX (AND (JOIN law.invention.patents m.0j3lhmb) (JOIN (R law.us_patent.associated_inventions) m.0j3lhmb)) law.invention.date_of_invention)"
+        }
+    },
+    "20": {
+        "generations": "when was the last dwarf planet discovered in our solar system?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.06p5g)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.06p5g ns:astronomy.star_system.dwarf_planets ?x .\n?x ns:astronomy.star_system_body.star_system ns:m.06p5g .\n?x ns:astronomy.astronomical_discovery.discovery_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.06p5g",
+            "mid2name": {
+                "ns:m.06p5g": "Solar System"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN astronomy.star_system_body.star_system Solar System) (JOIN (R astronomy.star_system.dwarf_planets) Solar System)) astronomy.astronomical_discovery.discovery_date)",
+            "SExpr": "(ARGMAX (AND (JOIN astronomy.star_system_body.star_system m.06p5g) (JOIN (R astronomy.star_system.dwarf_planets) m.06p5g)) astronomy.astronomical_discovery.discovery_date)"
+        }
+    },
+    "21": {
+        "generations": "What is the best vintage for red wine?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02wsb20)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02wsb20 ns:wine.wine_color.wines ?x .\n?x ns:wine.wine.color ns:m.02wsb20 .\n?x ns:wine.wine.vintage ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.02wsb20",
+            "mid2name": {
+                "ns:m.02wsb20": "Red Wine"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN wine.wine.color Red Wine) (JOIN (R wine.wine_color.wines) Red Wine)) wine.wine.vintage)",
+            "SExpr": "(ARGMAX (AND (JOIN wine.wine.color m.02wsb20) (JOIN (R wine.wine_color.wines) m.02wsb20)) wine.wine.vintage)"
+        }
+    },
+    "22": {
+        "generations": "What rocket engine uses unsymmetrical dimethylhydrazine as fuel and has the most number of chambers?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.017q1y)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.017q1y ns:spaceflight.rocket_engine_fuel.rocket_engines ?x .\n?x ns:spaceflight.bipropellant_rocket_engine.fuel ns:m.017q1y .\n?x ns:spaceflight.bipropellant_rocket_engine.number_of_chambers ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.017q1y",
+            "mid2name": {
+                "ns:m.017q1y": "Unsymmetrical dimethylhydrazine"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN spaceflight.bipropellant_rocket_engine.fuel Unsymmetrical dimethylhydrazine) (JOIN (R spaceflight.rocket_engine_fuel.rocket_engines) Unsymmetrical dimethylhydrazine)) spaceflight.bipropellant_rocket_engine.number_of_chambers)",
+            "SExpr": "(ARGMAX (AND (JOIN spaceflight.bipropellant_rocket_engine.fuel m.017q1y) (JOIN (R spaceflight.rocket_engine_fuel.rocket_engines) m.017q1y)) spaceflight.bipropellant_rocket_engine.number_of_chambers)"
+        }
+    },
+    "23": {
+        "generations": "What is the most popular radio station at Unisabana?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0hzd2lr)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0hzd2lr ns:education.student_radio_station.school ?x .\n?x ns:education.educational_institution.radio_station ns:m.0hzd2lr .\n?x ns:user.maxim75.default_domain.dbpedia_import.geocode_checked ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0hzd2lr",
+            "mid2name": {
+                "ns:m.0hzd2lr": "Unisabana Radio TV"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN education.educational_institution.radio_station Unisabana Radio TV) (JOIN (R education.student_radio_station.school) Unisabana Radio TV)) user.maxim75.default_domain.dbpedia_import.geocode_checked)",
+            "SExpr": "(ARGMAX (AND (JOIN education.educational_institution.radio_station m.0hzd2lr) (JOIN (R education.student_radio_station.school) m.0hzd2lr)) user.maxim75.default_domain.dbpedia_import.geocode_checked)"
+        }
+    },
+    "24": {
+        "generations": "Which comic book issue has the most cover colors by Bob Kane?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02nygk)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02nygk ns:comic_books.comic_book_inker.comic_covers_inked ?x .\n?x ns:comic_books.comic_book_issue.cover_colors ns:m.02nygk .\n?x ns:comic_books.comic_book_issue.issue_number ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.02nygk",
+            "mid2name": {
+                "ns:m.02nygk": "Bob Kane"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN comic_books.comic_book_issue.cover_colors Bob Kane) (JOIN (R comic_books.comic_book_inker.comic_covers_inked) Bob Kane)) comic_books.comic_book_issue.issue_number)",
+            "SExpr": "(ARGMAX (AND (JOIN comic_books.comic_book_issue.cover_colors m.02nygk) (JOIN (R comic_books.comic_book_inker.comic_covers_inked) m.02nygk)) comic_books.comic_book_issue.issue_number)"
+        }
+    },
+    "25": {
+        "generations": "when was the last opera production at the MacMillan Theatre?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.010b1tyj)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.010b1tyj ns:opera.opera_house.productions ?x .\n?x ns:opera.opera_production.performed_at ns:m.010b1tyj .\n?x ns:opera.opera_production.date_opened ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.010b1tyj",
+            "mid2name": {
+                "ns:m.010b1tyj": "MacMillan Theatre"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN opera.opera_production.performed_at MacMillan Theatre) (JOIN (R opera.opera_house.productions) MacMillan Theatre)) opera.opera_production.date_opened)",
+            "SExpr": "(ARGMAX (AND (JOIN opera.opera_production.performed_at m.010b1tyj) (JOIN (R opera.opera_house.productions) m.010b1tyj)) opera.opera_production.date_opened)"
+        }
+    },
+    "26": {
+        "generations": "Which dog breed originating from Spain is the most apartment-friendly?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.06mkj)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.06mkj ns:biology.breed_origin.breeds_originating_here ?x .\n?x ns:biology.animal_breed.place_of_origin ns:m.06mkj .\n?x ns:base.petbreeds.dog_breed.apartment_friendly ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.06mkj",
+            "mid2name": {
+                "ns:m.06mkj": "Spain"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN biology.animal_breed.place_of_origin Spain) (JOIN (R biology.breed_origin.breeds_originating_here) Spain)) base.petbreeds.dog_breed.apartment_friendly)",
+            "SExpr": "(ARGMAX (AND (JOIN biology.animal_breed.place_of_origin m.06mkj) (JOIN (R biology.breed_origin.breeds_originating_here) m.06mkj)) base.petbreeds.dog_breed.apartment_friendly)"
+        }
+    },
+    "27": {
+        "generations": "what is the scientific classification of the white-headed capuchin?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02h411)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02h411 ns:biology.organism_classification.higher_classification ?x .\n?x ns:biology.organism_classification.lower_classifications ns:m.02h411 .\n?x ns:biology.organism_classification.ncbi_taxon_id ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.02h411",
+            "mid2name": {
+                "ns:m.02h411": "White-headed capuchin"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN biology.organism_classification.lower_classifications White-headed capuchin) (JOIN (R biology.organism_classification.higher_classification) White-headed capuchin)) biology.organism_classification.ncbi_taxon_id)",
+            "SExpr": "(ARGMAX (AND (JOIN biology.organism_classification.lower_classifications m.02h411) (JOIN (R biology.organism_classification.higher_classification) m.02h411)) biology.organism_classification.ncbi_taxon_id)"
+        }
+    },
+    "28": {
+        "generations": "When was the most recent music video featuring fine-art photography released?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.07f2sg)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.07f2sg ns:music.music_video_subject.subject_in_these_music_videos ?x .\n?x ns:music.music_video.music_video_subject ns:m.07f2sg .\n?x ns:base.webvideo.internet_video.original_broadcast_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.07f2sg",
+            "mid2name": {
+                "ns:m.07f2sg": "Fine-art photography"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN music.music_video.music_video_subject Fine-art photography) (JOIN (R music.music_video_subject.subject_in_these_music_videos) Fine-art photography)) base.webvideo.internet_video.original_broadcast_date)",
+            "SExpr": "(ARGMAX (AND (JOIN music.music_video.music_video_subject m.07f2sg) (JOIN (R music.music_video_subject.subject_in_these_music_videos) m.07f2sg)) base.webvideo.internet_video.original_broadcast_date)"
+        }
+    },
+    "29": {
+        "generations": "Which Sony camera has the best autofocus?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.06q07)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.06q07 ns:base.filmcameras.camera_manufacturer.cameras_manufactured ?x .\n?x ns:base.filmcameras.camera.manufacturer ns:m.06q07 .\n?x ns:base.filmcameras.camera.autofocus ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.06q07",
+            "mid2name": {
+                "ns:m.06q07": "Sony Corporation"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN base.filmcameras.camera.manufacturer Sony Corporation) (JOIN (R base.filmcameras.camera_manufacturer.cameras_manufactured) Sony Corporation)) base.filmcameras.camera.autofocus)",
+            "SExpr": "(ARGMAX (AND (JOIN base.filmcameras.camera.manufacturer m.06q07) (JOIN (R base.filmcameras.camera_manufacturer.cameras_manufactured) m.06q07)) base.filmcameras.camera.autofocus)"
+        }
+    },
+    "30": {
+        "generations": "Who is the most famous steampunk artist?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.06www)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.06www ns:music.genre.artists ?x .\n?x ns:music.artist.genre ns:m.06www .\n?x ns:user.maxim75.default_domain.dbpedia_import.date_of_birth_checked ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.06www",
+            "mid2name": {
+                "ns:m.06www": "Steampunk"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN music.artist.genre Steampunk) (JOIN (R music.genre.artists) Steampunk)) user.maxim75.default_domain.dbpedia_import.date_of_birth_checked)",
+            "SExpr": "(ARGMAX (AND (JOIN music.artist.genre m.06www) (JOIN (R music.genre.artists) m.06www)) user.maxim75.default_domain.dbpedia_import.date_of_birth_checked)"
+        }
+    },
+    "31": {
+        "generations": "when was the second volume of the book series \"The Last Legacy\" published?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0g5v_wk)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0g5v_wk ns:book.book_edition_series.editions_in_this_series ?x .\n?x ns:book.book_edition.book_edition_series ns:m.0g5v_wk .\n?x ns:book.book_edition.publication_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0g5v_wk",
+            "mid2name": {
+                "ns:m.0g5v_wk": "The Last Legacy vol  2"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN book.book_edition.book_edition_series The Last Legacy vol  2) (JOIN (R book.book_edition_series.editions_in_this_series) The Last Legacy vol  2)) book.book_edition.publication_date)",
+            "SExpr": "(ARGMAX (AND (JOIN book.book_edition.book_edition_series m.0g5v_wk) (JOIN (R book.book_edition_series.editions_in_this_series) m.0g5v_wk)) book.book_edition.publication_date)"
+        }
+    },
+    "32": {
+        "generations": "What is the latest digital camera released with a 3:2 image ratio?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0220vcp)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0220vcp ns:digicams.camera_image_ratio.cameras ?x .\n?x ns:digicams.digital_camera.image_ratio ns:m.0220vcp .\n?x ns:digicams.digital_camera.released ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0220vcp",
+            "mid2name": {
+                "ns:m.0220vcp": "3:2"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN digicams.digital_camera.image_ratio 3:2) (JOIN (R digicams.camera_image_ratio.cameras) 3:2)) digicams.digital_camera.released)",
+            "SExpr": "(ARGMAX (AND (JOIN digicams.digital_camera.image_ratio m.0220vcp) (JOIN (R digicams.camera_image_ratio.cameras) m.0220vcp)) digicams.digital_camera.released)"
+        }
+    },
+    "33": {
+        "generations": "when did embassy suites portland airport become the owner of the structure?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0cvyvkf)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0cvyvkf ns:architecture.structure.owner ?x .\n?x ns:architecture.ownership.structure ns:m.0cvyvkf .\n?x ns:architecture.ownership.start_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0cvyvkf",
+            "mid2name": {
+                "ns:m.0cvyvkf": "Embassy Suites, Portland Airport"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN architecture.ownership.structure Embassy Suites, Portland Airport) (JOIN (R architecture.structure.owner) Embassy Suites, Portland Airport)) architecture.ownership.start_date)",
+            "SExpr": "(ARGMAX (AND (JOIN architecture.ownership.structure m.0cvyvkf) (JOIN (R architecture.structure.owner) m.0cvyvkf)) architecture.ownership.start_date)"
+        }
+    },
+    "34": {
+        "generations": "when was the goldenberg candy company's most popular candy bar introduced?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.04v6c5f)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.04v6c5f ns:food.candy_bar_manufacturer.candy_bars ?x .\n?x ns:food.candy_bar.manufacturer ns:m.04v6c5f .\n?x ns:food.candy_bar.introduced ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.04v6c5f",
+            "mid2name": {
+                "ns:m.04v6c5f": "Goldenberg Candy Company"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN food.candy_bar.manufacturer Goldenberg Candy Company) (JOIN (R food.candy_bar_manufacturer.candy_bars) Goldenberg Candy Company)) food.candy_bar.introduced)",
+            "SExpr": "(ARGMAX (AND (JOIN food.candy_bar.manufacturer m.04v6c5f) (JOIN (R food.candy_bar_manufacturer.candy_bars) m.04v6c5f)) food.candy_bar.introduced)"
+        }
+    },
+    "35": {
+        "generations": "When was the last time the Japanese Order of Chivalry was awarded?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.09rjbx5)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.09rjbx5 ns:royalty.order_of_chivalry_category.orders_in_this_category ?x .\n?x ns:royalty.order_of_chivalry.category ns:m.09rjbx5 .\n?x ns:royalty.order_of_chivalry.date_last_awarded ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.09rjbx5",
+            "mid2name": {
+                "ns:m.09rjbx5": "Japanese Order"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN royalty.order_of_chivalry.category Japanese Order) (JOIN (R royalty.order_of_chivalry_category.orders_in_this_category) Japanese Order)) royalty.order_of_chivalry.date_last_awarded)",
+            "SExpr": "(ARGMAX (AND (JOIN royalty.order_of_chivalry.category m.09rjbx5) (JOIN (R royalty.order_of_chivalry_category.orders_in_this_category) m.09rjbx5)) royalty.order_of_chivalry.date_last_awarded)"
+        }
+    },
+    "36": {
+        "generations": "when does the patent for accupril expire?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0j4t65r)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0j4t65r ns:business.brand.products ?x .\n?x ns:business.consumer_product.brand ns:m.0j4t65r .\n?x ns:medicine.manufactured_drug_form.patent_expiry_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0j4t65r",
+            "mid2name": {
+                "ns:m.0j4t65r": "Accupril"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN business.consumer_product.brand Accupril) (JOIN (R business.brand.products) Accupril)) medicine.manufactured_drug_form.patent_expiry_date)",
+            "SExpr": "(ARGMAX (AND (JOIN business.consumer_product.brand m.0j4t65r) (JOIN (R business.brand.products) m.0j4t65r)) medicine.manufactured_drug_form.patent_expiry_date)"
+        }
+    },
+    "37": {
+        "generations": "what was the latest computer game released on DVD?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.029j_)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.029j_ ns:cvg.computer_game_distribution_system.games_distributed ?x .\n?x ns:cvg.game_version.distributed_through ns:m.029j_ .\n?x ns:cvg.game_version.release_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.029j_",
+            "mid2name": {
+                "ns:m.029j_": "DVD"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN cvg.game_version.distributed_through DVD) (JOIN (R cvg.computer_game_distribution_system.games_distributed) DVD)) cvg.game_version.release_date)",
+            "SExpr": "(ARGMAX (AND (JOIN cvg.game_version.distributed_through m.029j_) (JOIN (R cvg.computer_game_distribution_system.games_distributed) m.029j_)) cvg.game_version.release_date)"
+        }
+    },
+    "38": {
+        "generations": "when was seoul propolis first manufactured?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0hqy3rk)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0hqy3rk ns:medicine.drug_manufacturer.drugs_manufactured ?x .\n?x ns:medicine.manufactured_drug_form.manufacturer ns:m.0hqy3rk .\n?x ns:medicine.manufactured_drug_form.label_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0hqy3rk",
+            "mid2name": {
+                "ns:m.0hqy3rk": "Seoul Propolis"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN medicine.manufactured_drug_form.manufacturer Seoul Propolis) (JOIN (R medicine.drug_manufacturer.drugs_manufactured) Seoul Propolis)) medicine.manufactured_drug_form.label_date)",
+            "SExpr": "(ARGMAX (AND (JOIN medicine.manufactured_drug_form.manufacturer m.0hqy3rk) (JOIN (R medicine.drug_manufacturer.drugs_manufactured) m.0hqy3rk)) medicine.manufactured_drug_form.label_date)"
+        }
+    },
+    "39": {
+        "generations": "when does the Bangladesh Premier League season start?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0266lry)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0266lry ns:time.recurring_event.instances ?x .\n?x ns:sports.sports_league_season.league ns:m.0266lry .\n?x ns:time.event.start_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0266lry",
+            "mid2name": {
+                "ns:m.0266lry": "Bangladesh Premier League"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN sports.sports_league_season.league Bangladesh Premier League) (JOIN (R time.recurring_event.instances) Bangladesh Premier League)) time.event.start_date)",
+            "SExpr": "(ARGMAX (AND (JOIN sports.sports_league_season.league m.0266lry) (JOIN (R time.recurring_event.instances) m.0266lry)) time.event.start_date)"
+        }
+    },
+    "40": {
+        "generations": "What is the highest rated peripheral for the Max Headroom game version?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0cl9mgy)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0cl9mgy ns:cvg.game_version.peripherals_supported ?x .\n?x ns:computer.computer_peripheral.supporting_game_versions ns:m.0cl9mgy .\n?x ns:base.zxspectrum.zx_spectrum_peripheral.romcs ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0cl9mgy",
+            "mid2name": {
+                "ns:m.0cl9mgy": "Max Headroom"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN computer.computer_peripheral.supporting_game_versions Max Headroom) (JOIN (R cvg.game_version.peripherals_supported) Max Headroom)) base.zxspectrum.zx_spectrum_peripheral.romcs)",
+            "SExpr": "(ARGMAX (AND (JOIN computer.computer_peripheral.supporting_game_versions m.0cl9mgy) (JOIN (R cvg.game_version.peripherals_supported) m.0cl9mgy)) base.zxspectrum.zx_spectrum_peripheral.romcs)"
+        }
+    },
+    "41": {
+        "generations": "What hotel has the most guest beds with bathrobes as a feature?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.025rslq)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.025rslq ns:travel.accommodation_feature.accommodation_with_this_feature ?x .\n?x ns:travel.accommodation.features ns:m.025rslq .\n?x ns:travel.hotel.number_of_guest_beds ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.025rslq",
+            "mid2name": {
+                "ns:m.025rslq": "Bathrobe"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN travel.accommodation.features Bathrobe) (JOIN (R travel.accommodation_feature.accommodation_with_this_feature) Bathrobe)) travel.hotel.number_of_guest_beds)",
+            "SExpr": "(ARGMAX (AND (JOIN travel.accommodation.features m.025rslq) (JOIN (R travel.accommodation_feature.accommodation_with_this_feature) m.025rslq)) travel.hotel.number_of_guest_beds)"
+        }
+    },
+    "42": {
+        "generations": "When did the U.S. Ambassador to the Kingdom of Morocco leave office?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.04jqq7w)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.04jqq7w ns:government.government_office_or_title.office_holders ?x .\n?x ns:government.government_position_held.office_position_or_title ns:m.04jqq7w .\n?x ns:government.government_position_held.to ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.04jqq7w",
+            "mid2name": {
+                "ns:m.04jqq7w": "U.S. Ambassador to the Kingdom of Morocco"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN government.government_position_held.office_position_or_title U.S. Ambassador to the Kingdom of Morocco) (JOIN (R government.government_office_or_title.office_holders) U.S. Ambassador to the Kingdom of Morocco)) government.government_position_held.to)",
+            "SExpr": "(ARGMAX (AND (JOIN government.government_position_held.office_position_or_title m.04jqq7w) (JOIN (R government.government_office_or_title.office_holders) m.04jqq7w)) government.government_position_held.to)"
+        }
+    },
+    "43": {
+        "generations": "when was the first bumper car ride opened in an amusement park?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.017thh)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.017thh ns:amusement_parks.ride.park ?x .\n?x ns:amusement_parks.park.rides ns:m.017thh .\n?x ns:amusement_parks.park.opened ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.017thh",
+            "mid2name": {
+                "ns:m.017thh": "Bumper cars"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN amusement_parks.park.rides Bumper cars) (JOIN (R amusement_parks.ride.park) Bumper cars)) amusement_parks.park.opened)",
+            "SExpr": "(ARGMAX (AND (JOIN amusement_parks.park.rides m.017thh) (JOIN (R amusement_parks.ride.park) m.017thh)) amusement_parks.park.opened)"
+        }
+    },
+    "44": {
+        "generations": "when was slomo first introduced as a consumer product by its company?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0glyhqg)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0glyhqg ns:business.consumer_product.company ?x .\n?x ns:business.company_product_relationship.consumer_product ns:m.0glyhqg .\n?x ns:business.company_product_relationship.from_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0glyhqg",
+            "mid2name": {
+                "ns:m.0glyhqg": "Slomo"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN business.company_product_relationship.consumer_product Slomo) (JOIN (R business.consumer_product.company) Slomo)) business.company_product_relationship.from_date)",
+            "SExpr": "(ARGMAX (AND (JOIN business.company_product_relationship.consumer_product m.0glyhqg) (JOIN (R business.consumer_product.company) m.0glyhqg)) business.company_product_relationship.from_date)"
+        }
+    },
+    "45": {
+        "generations": "How many survivors were there in the National Airlines Flight 193 incident?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0279c2x)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0279c2x ns:aviation.airliner_accident.aircraft ?x .\n?x ns:aviation.aviation_incident_aircraft_relationship.incident ns:m.0279c2x .\n?x ns:aviation.aviation_incident_aircraft_relationship.survivors ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0279c2x",
+            "mid2name": {
+                "ns:m.0279c2x": "National Airlines Flight 193"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN aviation.aviation_incident_aircraft_relationship.incident National Airlines Flight 193) (JOIN (R aviation.airliner_accident.aircraft) National Airlines Flight 193)) aviation.aviation_incident_aircraft_relationship.survivors)",
+            "SExpr": "(ARGMAX (AND (JOIN aviation.aviation_incident_aircraft_relationship.incident m.0279c2x) (JOIN (R aviation.airliner_accident.aircraft) m.0279c2x)) aviation.aviation_incident_aircraft_relationship.survivors)"
+        }
+    },
+    "46": {
+        "generations": "When was the first computer model introduced by VEB Robotron-Elektronik Zella-Mehlis?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.05m8sdj)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.05m8sdj ns:computer.computer_manufacturer_brand.computer_models ?x .\n?x ns:computer.computer.manufacturer ns:m.05m8sdj .\n?x ns:computer.computer.introduced ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.05m8sdj",
+            "mid2name": {
+                "ns:m.05m8sdj": "VEB Robotron-Elektronik Zella-Mehlis"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN computer.computer.manufacturer VEB Robotron-Elektronik Zella-Mehlis) (JOIN (R computer.computer_manufacturer_brand.computer_models) VEB Robotron-Elektronik Zella-Mehlis)) computer.computer.introduced)",
+            "SExpr": "(ARGMAX (AND (JOIN computer.computer.manufacturer m.05m8sdj) (JOIN (R computer.computer_manufacturer_brand.computer_models) m.05m8sdj)) computer.computer.introduced)"
+        }
+    },
+    "47": {
+        "generations": "What type of clouds produce the most precipitation in the Family B (mid-level) classification?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01xtcg8)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01xtcg8 ns:meteorology.cloud_classification.clouds ?x .\n?x ns:meteorology.cloud.classification ns:m.01xtcg8 .\n?x ns:meteorology.cloud.precipitation ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.01xtcg8",
+            "mid2name": {
+                "ns:m.01xtcg8": "Family B (mid-level)"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN meteorology.cloud.classification Family B (mid-level)) (JOIN (R meteorology.cloud_classification.clouds) Family B (mid-level))) meteorology.cloud.precipitation)",
+            "SExpr": "(ARGMAX (AND (JOIN meteorology.cloud.classification m.01xtcg8) (JOIN (R meteorology.cloud_classification.clouds) m.01xtcg8)) meteorology.cloud.precipitation)"
+        }
+    },
+    "48": {
+        "generations": "when was the first performance of the opera Charlotte Corday?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0kc_c6z)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0kc_c6z ns:opera.opera_production.opera ?x .\n?x ns:opera.opera.productions ns:m.0kc_c6z .\n?x ns:music.composition.date_of_first_performance ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0kc_c6z",
+            "mid2name": {
+                "ns:m.0kc_c6z": "Charlotte Corday"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN opera.opera.productions Charlotte Corday) (JOIN (R opera.opera_production.opera) Charlotte Corday)) music.composition.date_of_first_performance)",
+            "SExpr": "(ARGMAX (AND (JOIN opera.opera.productions m.0kc_c6z) (JOIN (R opera.opera_production.opera) m.0kc_c6z)) music.composition.date_of_first_performance)"
+        }
+    },
+    "49": {
+        "generations": "what is the oldest library software?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0qmxf)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0qmxf ns:computer.software_genre.software_in_genre ?x .\n?x ns:computer.software.software_genre ns:m.0qmxf .\n?x ns:computer.software.first_released ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0qmxf",
+            "mid2name": {
+                "ns:m.0qmxf": "Library"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN computer.software.software_genre Library) (JOIN (R computer.software_genre.software_in_genre) Library)) computer.software.first_released)",
+            "SExpr": "(ARGMAX (AND (JOIN computer.software.software_genre m.0qmxf) (JOIN (R computer.software_genre.software_in_genre) m.0qmxf)) computer.software.first_released)"
+        }
+    },
+    "50": {
+        "generations": "when was WMLM radio station founded?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:g.11c3hvc9_8)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:g.11c3hvc9_8 ns:broadcast.radio_station_owner.radio_stations ?x .\n?x ns:broadcast.radio_station.owner ns:g.11c3hvc9_8 .\n?x ns:broadcast.radio_station.founded ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "g.11c3hvc9_8",
+            "mid2name": {
+                "ns:g.11c3hvc9_8": "WMLM, Inc."
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN broadcast.radio_station.owner WMLM, Inc.) (JOIN (R broadcast.radio_station_owner.radio_stations) WMLM, Inc.)) broadcast.radio_station.founded)",
+            "SExpr": "(ARGMAX (AND (JOIN broadcast.radio_station.owner g.11c3hvc9_8) (JOIN (R broadcast.radio_station_owner.radio_stations) g.11c3hvc9_8)) broadcast.radio_station.founded)"
+        }
+    },
+    "51": {
+        "generations": "what is the highest compatible operating system for the iMac G5?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:g.11vt9ngk5)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:g.11vt9ngk5 ns:computer.computer.compatible_oses ?x .\n?x ns:computer.os_compatibility.computer ns:g.11vt9ngk5 .\n?x ns:computer.os_compatibility.dot_version_high ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "g.11vt9ngk5",
+            "mid2name": {
+                "ns:g.11vt9ngk5": "iMac G5"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN computer.os_compatibility.computer iMac G5) (JOIN (R computer.computer.compatible_oses) iMac G5)) computer.os_compatibility.dot_version_high)",
+            "SExpr": "(ARGMAX (AND (JOIN computer.os_compatibility.computer g.11vt9ngk5) (JOIN (R computer.computer.compatible_oses) g.11vt9ngk5)) computer.os_compatibility.dot_version_high)"
+        }
+    },
+    "52": {
+        "generations": "What is the NCBI ID for the gene located at locus 10 + [7785241,7831488]?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02lf093)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02lf093 ns:biology.genomic_locus.annotation ?x .\n?x ns:biology.gene.locus ns:m.02lf093 .\n?x ns:biology.gene.ncbi_id ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.02lf093",
+            "mid2name": {
+                "ns:m.02lf093": "10 + [7785241,7831488]"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN biology.gene.locus 10 + [7785241,7831488]) (JOIN (R biology.genomic_locus.annotation) 10 + [7785241,7831488])) biology.gene.ncbi_id)",
+            "SExpr": "(ARGMAX (AND (JOIN biology.gene.locus m.02lf093) (JOIN (R biology.genomic_locus.annotation) m.02lf093)) biology.gene.ncbi_id)"
+        }
+    },
+    "53": {
+        "generations": "When was the first launch of the rocket that carried the USA-165 satellite?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0fmdhd)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0fmdhd ns:spaceflight.satellite.launch_vehicle ?x .\n?x ns:spaceflight.rocket.satellites_launched ns:m.0fmdhd .\n?x ns:spaceflight.rocket.maiden_flight ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0fmdhd",
+            "mid2name": {
+                "ns:m.0fmdhd": "USA-165"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN spaceflight.rocket.satellites_launched USA-165) (JOIN (R spaceflight.satellite.launch_vehicle) USA-165)) spaceflight.rocket.maiden_flight)",
+            "SExpr": "(ARGMAX (AND (JOIN spaceflight.rocket.satellites_launched m.0fmdhd) (JOIN (R spaceflight.satellite.launch_vehicle) m.0fmdhd)) spaceflight.rocket.maiden_flight)"
+        }
+    },
+    "54": {
+        "generations": "when was the northeast-southwest road orientation formed?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.04kcptw)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.04kcptw ns:transportation.road_orientation.roads_with_this_orientation ?x .\n?x ns:transportation.road.orientation ns:m.04kcptw .\n?x ns:transportation.road.formed ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.04kcptw",
+            "mid2name": {
+                "ns:m.04kcptw": "Northeast-Southwest"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN transportation.road.orientation Northeast-Southwest) (JOIN (R transportation.road_orientation.roads_with_this_orientation) Northeast-Southwest)) transportation.road.formed)",
+            "SExpr": "(ARGMAX (AND (JOIN transportation.road.orientation m.04kcptw) (JOIN (R transportation.road_orientation.roads_with_this_orientation) m.04kcptw)) transportation.road.formed)"
+        }
+    },
+    "55": {
+        "generations": "when was the concert film for place de la concorde released?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0b95k9)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0b95k9 ns:music.concert.concert_video ?x .\n?x ns:music.concert_film.concert ns:m.0b95k9 .\n?x ns:film.film.initial_release_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0b95k9",
+            "mid2name": {
+                "ns:m.0b95k9": "Place De La Concorde"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN music.concert_film.concert Place De La Concorde) (JOIN (R music.concert.concert_video) Place De La Concorde)) film.film.initial_release_date)",
+            "SExpr": "(ARGMAX (AND (JOIN music.concert_film.concert m.0b95k9) (JOIN (R music.concert.concert_video) m.0b95k9)) film.film.initial_release_date)"
+        }
+    },
+    "56": {
+        "generations": "When was the 2014 Argentina vs Slovenia friendly match held?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.010r25j0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.010r25j0 ns:time.event.locations ?x .\n?x ns:location.location.events ns:m.010r25j0 .\n?x ns:architecture.structure.opened ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.010r25j0",
+            "mid2name": {
+                "ns:m.010r25j0": "2014 Argentina vs Slovenia friendly match"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN location.location.events 2014 Argentina vs Slovenia friendly match) (JOIN (R time.event.locations) 2014 Argentina vs Slovenia friendly match)) architecture.structure.opened)",
+            "SExpr": "(ARGMAX (AND (JOIN location.location.events m.010r25j0) (JOIN (R time.event.locations) m.010r25j0)) architecture.structure.opened)"
+        }
+    },
+    "57": {
+        "generations": "When did the Bishop of Woolwich stop serving as a religious leader?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0h60l6)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0h60l6 ns:religion.religious_leadership_title.leaders ?x .\n?x ns:religion.religious_organization_leadership.role ns:m.0h60l6 .\n?x ns:religion.religious_organization_leadership.end_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0h60l6",
+            "mid2name": {
+                "ns:m.0h60l6": "Bishop of Woolwich"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN religion.religious_organization_leadership.role Bishop of Woolwich) (JOIN (R religion.religious_leadership_title.leaders) Bishop of Woolwich)) religion.religious_organization_leadership.end_date)",
+            "SExpr": "(ARGMAX (AND (JOIN religion.religious_organization_leadership.role m.0h60l6) (JOIN (R religion.religious_leadership_title.leaders) m.0h60l6)) religion.religious_organization_leadership.end_date)"
+        }
+    },
+    "58": {
+        "generations": "What is the newest camera that has an ISO setting of 800?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01xrg58)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01xrg58 ns:digicams.camera_iso.cameras ?x .\n?x ns:digicams.digital_camera.iso_setting ns:m.01xrg58 .\n?x ns:digicams.digital_camera.announced ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.01xrg58",
+            "mid2name": {
+                "ns:m.01xrg58": "800"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN digicams.digital_camera.iso_setting 800) (JOIN (R digicams.camera_iso.cameras) 800)) digicams.digital_camera.announced)",
+            "SExpr": "(ARGMAX (AND (JOIN digicams.digital_camera.iso_setting m.01xrg58) (JOIN (R digicams.camera_iso.cameras) m.01xrg58)) digicams.digital_camera.announced)"
+        }
+    },
+    "59": {
+        "generations": "what is the largest city in michigan with a men's ice hockey team called the michigan tech huskies?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0crd171)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0crd171 ns:sports.sports_team.location ?x .\n?x ns:sports.sports_team_location.teams ns:m.0crd171 .\n?x ns:topic_server.population_number ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0crd171",
+            "mid2name": {
+                "ns:m.0crd171": "Michigan Tech Huskies men's ice hockey"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN sports.sports_team_location.teams Michigan Tech Huskies men's ice hockey) (JOIN (R sports.sports_team.location) Michigan Tech Huskies men's ice hockey)) topic_server.population_number)",
+            "SExpr": "(ARGMAX (AND (JOIN sports.sports_team_location.teams m.0crd171) (JOIN (R sports.sports_team.location) m.0crd171)) topic_server.population_number)"
+        }
+    },
+    "60": {
+        "generations": "When was the top level domain \"In negotiations to be added\" introduced?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02hsn6t)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02hsn6t ns:internet.top_level_domain_status.domains ?x .\n?x ns:internet.top_level_domain.status ns:m.02hsn6t .\n?x ns:internet.top_level_domain.introduced ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.02hsn6t",
+            "mid2name": {
+                "ns:m.02hsn6t": "In negotiations to be added"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN internet.top_level_domain.status In negotiations to be added) (JOIN (R internet.top_level_domain_status.domains) In negotiations to be added)) internet.top_level_domain.introduced)",
+            "SExpr": "(ARGMAX (AND (JOIN internet.top_level_domain.status m.02hsn6t) (JOIN (R internet.top_level_domain_status.domains) m.02hsn6t)) internet.top_level_domain.introduced)"
+        }
+    },
+    "61": {
+        "generations": "What is the latest version of FreeBSD 4.x operating system?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02hk4hl)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02hk4hl ns:computer.operating_system.includes_os_versions ?x .\n?x ns:computer.operating_system.parent_os ns:m.02hk4hl .\n?x ns:computer.operating_system.version_number ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.02hk4hl",
+            "mid2name": {
+                "ns:m.02hk4hl": "FreeBSD 4.x"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN computer.operating_system.parent_os FreeBSD 4.x) (JOIN (R computer.operating_system.includes_os_versions) FreeBSD 4.x)) computer.operating_system.version_number)",
+            "SExpr": "(ARGMAX (AND (JOIN computer.operating_system.parent_os m.02hk4hl) (JOIN (R computer.operating_system.includes_os_versions) m.02hk4hl)) computer.operating_system.version_number)"
+        }
+    },
+    "62": {
+        "generations": "what is the best-selling compact disc of all time?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01www)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01www ns:award.ranked_item.appears_in_ranked_lists ?x .\n?x ns:award.ranking.item ns:m.01www .\n?x ns:award.ranking.rank ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.01www",
+            "mid2name": {
+                "ns:m.01www": "Compact disc"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN award.ranking.item Compact disc) (JOIN (R award.ranked_item.appears_in_ranked_lists) Compact disc)) award.ranking.rank)",
+            "SExpr": "(ARGMAX (AND (JOIN award.ranking.item m.01www) (JOIN (R award.ranked_item.appears_in_ranked_lists) m.01www)) award.ranking.rank)"
+        }
+    },
+    "63": {
+        "generations": "where is the english springer spaniel most popular?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.020z5t)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.020z5t ns:base.petbreeds.dog_breed.cities_where_this_dog_is_popular ?x .\n?x ns:base.petbreeds.dog_city_relationship.dog_breed ns:m.020z5t .\n?x ns:base.petbreeds.dog_city_relationship.date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.020z5t",
+            "mid2name": {
+                "ns:m.020z5t": "English Springer Spaniel"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN base.petbreeds.dog_city_relationship.dog_breed English Springer Spaniel) (JOIN (R base.petbreeds.dog_breed.cities_where_this_dog_is_popular) English Springer Spaniel)) base.petbreeds.dog_city_relationship.date)",
+            "SExpr": "(ARGMAX (AND (JOIN base.petbreeds.dog_city_relationship.dog_breed m.020z5t) (JOIN (R base.petbreeds.dog_breed.cities_where_this_dog_is_popular) m.020z5t)) base.petbreeds.dog_city_relationship.date)"
+        }
+    },
+    "64": {
+        "generations": "What breed was Laddie Boy and what type of dog is it classified as?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0bl1j0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0bl1j0 ns:biology.pedigreed_animal.breed ?x .\n?x ns:biology.animal_breed.examples ns:m.0bl1j0 .\n?x ns:base.petbreeds.dog_breed.hunting_dog ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0bl1j0",
+            "mid2name": {
+                "ns:m.0bl1j0": "Laddie Boy"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN biology.animal_breed.examples Laddie Boy) (JOIN (R biology.pedigreed_animal.breed) Laddie Boy)) base.petbreeds.dog_breed.hunting_dog)",
+            "SExpr": "(ARGMAX (AND (JOIN biology.animal_breed.examples m.0bl1j0) (JOIN (R biology.pedigreed_animal.breed) m.0bl1j0)) base.petbreeds.dog_breed.hunting_dog)"
+        }
+    },
+    "65": {
+        "generations": "When did SBI : BioCAD projects have the most participants?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0y63l7c)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0y63l7c ns:projects.project.participants ?x .\n?x ns:projects.project_participation.project ns:m.0y63l7c .\n?x ns:projects.project_participation.from_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0y63l7c",
+            "mid2name": {
+                "ns:m.0y63l7c": "SBI : BioCAD projects"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN projects.project_participation.project SBI : BioCAD projects) (JOIN (R projects.project.participants) SBI : BioCAD projects)) projects.project_participation.from_date)",
+            "SExpr": "(ARGMAX (AND (JOIN projects.project_participation.project m.0y63l7c) (JOIN (R projects.project.participants) m.0y63l7c)) projects.project_participation.from_date)"
+        }
+    },
+    "66": {
+        "generations": "When was the highest ranking achieved by a Companion in the chivalric order?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.05fnbyk)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.05fnbyk ns:royalty.chivalric_rank.order ?x .\n?x ns:royalty.chivalric_rank_precedence.rank ns:m.05fnbyk .\n?x ns:royalty.chivalric_rank_precedence.to ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.05fnbyk",
+            "mid2name": {
+                "ns:m.05fnbyk": "Companion"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN royalty.chivalric_rank_precedence.rank Companion) (JOIN (R royalty.chivalric_rank.order) Companion)) royalty.chivalric_rank_precedence.to)",
+            "SExpr": "(ARGMAX (AND (JOIN royalty.chivalric_rank_precedence.rank m.05fnbyk) (JOIN (R royalty.chivalric_rank.order) m.05fnbyk)) royalty.chivalric_rank_precedence.to)"
+        }
+    },
+    "67": {
+        "generations": "when was the last artwork completed in the peaceable kingdom series?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.06_5bhq)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.06_5bhq ns:visual_art.art_series.artworks ?x .\n?x ns:visual_art.artwork.belongs_to_series ns:m.06_5bhq .\n?x ns:visual_art.artwork.date_completed ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.06_5bhq",
+            "mid2name": {
+                "ns:m.06_5bhq": "Peaceable Kingdom"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN visual_art.artwork.belongs_to_series Peaceable Kingdom) (JOIN (R visual_art.art_series.artworks) Peaceable Kingdom)) visual_art.artwork.date_completed)",
+            "SExpr": "(ARGMAX (AND (JOIN visual_art.artwork.belongs_to_series m.06_5bhq) (JOIN (R visual_art.art_series.artworks) m.06_5bhq)) visual_art.artwork.date_completed)"
+        }
+    },
+    "68": {
+        "generations": "When was the first alt porn website launched?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03qy6q)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03qy6q ns:internet.website_category.sites ?x .\n?x ns:internet.website.category ns:m.03qy6q .\n?x ns:internet.website.launched ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.03qy6q",
+            "mid2name": {
+                "ns:m.03qy6q": "Alt porn"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN internet.website.category Alt porn) (JOIN (R internet.website_category.sites) Alt porn)) internet.website.launched)",
+            "SExpr": "(ARGMAX (AND (JOIN internet.website.category m.03qy6q) (JOIN (R internet.website_category.sites) m.03qy6q)) internet.website.launched)"
+        }
+    },
+    "69": {
+        "generations": "When did Israel Moore Foster propose a constitutional amendment?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.06ckdb)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.06ckdb ns:law.constitutional_amendment_proposer.constitutional_amendments_proposed ?x .\n?x ns:law.constitutional_amendment.proposed_by ns:m.06ckdb .\n?x ns:law.constitutional_amendment.proposed_on ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.06ckdb",
+            "mid2name": {
+                "ns:m.06ckdb": "Israel Moore Foster"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN law.constitutional_amendment.proposed_by Israel Moore Foster) (JOIN (R law.constitutional_amendment_proposer.constitutional_amendments_proposed) Israel Moore Foster)) law.constitutional_amendment.proposed_on)",
+            "SExpr": "(ARGMAX (AND (JOIN law.constitutional_amendment.proposed_by m.06ckdb) (JOIN (R law.constitutional_amendment_proposer.constitutional_amendments_proposed) m.06ckdb)) law.constitutional_amendment.proposed_on)"
+        }
+    },
+    "70": {
+        "generations": "when was the first flight of the Mitsubishi G3M2 Model 21 aircraft?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0qz9xs9)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0qz9xs9 ns:aviation.aircraft_model.aircraft ?x .\n?x ns:aviation.aircraft.model ns:m.0qz9xs9 .\n?x ns:aviation.aircraft.first_flight ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0qz9xs9",
+            "mid2name": {
+                "ns:m.0qz9xs9": "Mitsubishi G3M2 Model 21"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN aviation.aircraft.model Mitsubishi G3M2 Model 21) (JOIN (R aviation.aircraft_model.aircraft) Mitsubishi G3M2 Model 21)) aviation.aircraft.first_flight)",
+            "SExpr": "(ARGMAX (AND (JOIN aviation.aircraft.model m.0qz9xs9) (JOIN (R aviation.aircraft_model.aircraft) m.0qz9xs9)) aviation.aircraft.first_flight)"
+        }
+    },
+    "71": {
+        "generations": "when was the first episode of the TV show Alopecia aired?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.07ms8xr)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.07ms8xr ns:tv.tv_series_episode.series ?x .\n?x ns:tv.tv_program.episodes ns:m.07ms8xr .\n?x ns:tv.tv_program.air_date_of_first_episode ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.07ms8xr",
+            "mid2name": {
+                "ns:m.07ms8xr": "Alopecia"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN tv.tv_program.episodes Alopecia) (JOIN (R tv.tv_series_episode.series) Alopecia)) tv.tv_program.air_date_of_first_episode)",
+            "SExpr": "(ARGMAX (AND (JOIN tv.tv_program.episodes m.07ms8xr) (JOIN (R tv.tv_series_episode.series) m.07ms8xr)) tv.tv_program.air_date_of_first_episode)"
+        }
+    },
+    "72": {
+        "generations": "What ski resort has the most runs and is associated with the Woodstock Inn & Resort?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.051ly61)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.051ly61 ns:skiing.ski_lodge.ski_area ?x .\n?x ns:skiing.ski_area.lodges ns:m.051ly61 .\n?x ns:skiing.ski_area.number_of_runs ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.051ly61",
+            "mid2name": {
+                "ns:m.051ly61": "Woodstock Inn & Resort"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN skiing.ski_area.lodges Woodstock Inn & Resort) (JOIN (R skiing.ski_lodge.ski_area) Woodstock Inn & Resort)) skiing.ski_area.number_of_runs)",
+            "SExpr": "(ARGMAX (AND (JOIN skiing.ski_area.lodges m.051ly61) (JOIN (R skiing.ski_lodge.ski_area) m.051ly61)) skiing.ski_area.number_of_runs)"
+        }
+    },
+    "73": {
+        "generations": "when was the last appointment made by the united states congress?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.07t31)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.07t31 ns:people.appointer.appointment_made ?x .\n?x ns:people.appointment.appointed_by ns:m.07t31 .\n?x ns:people.appointment.declared_on ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.07t31",
+            "mid2name": {
+                "ns:m.07t31": "United States Congress"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN people.appointment.appointed_by United States Congress) (JOIN (R people.appointer.appointment_made) United States Congress)) people.appointment.declared_on)",
+            "SExpr": "(ARGMAX (AND (JOIN people.appointment.appointed_by m.07t31) (JOIN (R people.appointer.appointment_made) m.07t31)) people.appointment.declared_on)"
+        }
+    },
+    "74": {
+        "generations": "when was the sixth book of the iliad translated?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.06sftfq)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.06sftfq ns:book.translation.translation_of ?x .\n?x ns:book.translated_work.translations ns:m.06sftfq .\n?x ns:book.written_work.date_written ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.06sftfq",
+            "mid2name": {
+                "ns:m.06sftfq": "The sixth book of the Iliad"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN book.translated_work.translations The sixth book of the Iliad) (JOIN (R book.translation.translation_of) The sixth book of the Iliad)) book.written_work.date_written)",
+            "SExpr": "(ARGMAX (AND (JOIN book.translated_work.translations m.06sftfq) (JOIN (R book.translation.translation_of) m.06sftfq)) book.written_work.date_written)"
+        }
+    },
+    "75": {
+        "generations": "What is the highest rated roller coaster made of steel frame and wooden track?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0dws73)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0dws73 ns:amusement_parks.roller_coaster_material.roller_coasters ?x .\n?x ns:amusement_parks.roller_coaster.material ns:m.0dws73 .\n?x ns:amusement_parks.roller_coaster.rcdb_id ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0dws73",
+            "mid2name": {
+                "ns:m.0dws73": "Steel frame/Wooden track"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN amusement_parks.roller_coaster.material Steel frame/Wooden track) (JOIN (R amusement_parks.roller_coaster_material.roller_coasters) Steel frame/Wooden track)) amusement_parks.roller_coaster.rcdb_id)",
+            "SExpr": "(ARGMAX (AND (JOIN amusement_parks.roller_coaster.material m.0dws73) (JOIN (R amusement_parks.roller_coaster_material.roller_coasters) m.0dws73)) amusement_parks.roller_coaster.rcdb_id)"
+        }
+    },
+    "76": {
+        "generations": "What was the time of the latest goal in the 2010 FIFA World Cup Group B match between South Korea and Greece?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0c0lsl1)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0c0lsl1 ns:soccer.football_match.goals ?x .\n?x ns:soccer.football_goal.match ns:m.0c0lsl1 .\n?x ns:soccer.football_goal.minute ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0c0lsl1",
+            "mid2name": {
+                "ns:m.0c0lsl1": "2010 FIFA World Cup Group B - KOR ./. GRE"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN soccer.football_goal.match 2010 FIFA World Cup Group B - KOR ./. GRE) (JOIN (R soccer.football_match.goals) 2010 FIFA World Cup Group B - KOR ./. GRE)) soccer.football_goal.minute)",
+            "SExpr": "(ARGMAX (AND (JOIN soccer.football_goal.match m.0c0lsl1) (JOIN (R soccer.football_match.goals) m.0c0lsl1)) soccer.football_goal.minute)"
+        }
+    },
+    "77": {
+        "generations": "What was the most significant year for buildings designed by Sidney V. Stratton?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.04jc__d)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.04jc__d ns:architecture.architect.structures_designed ?x .\n?x ns:architecture.structure.architect ns:m.04jc__d .\n?x ns:base.usnris.nris_listing.significant_year ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.04jc__d",
+            "mid2name": {
+                "ns:m.04jc__d": "Sidney V. Stratton"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN architecture.structure.architect Sidney V. Stratton) (JOIN (R architecture.architect.structures_designed) Sidney V. Stratton)) base.usnris.nris_listing.significant_year)",
+            "SExpr": "(ARGMAX (AND (JOIN architecture.structure.architect m.04jc__d) (JOIN (R architecture.architect.structures_designed) m.04jc__d)) base.usnris.nris_listing.significant_year)"
+        }
+    },
+    "78": {
+        "generations": "What year was the Chevy Spark LS model with the most trim levels released?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.012br316)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.012br316 ns:automotive.trim_level.model_year ?x .\n?x ns:automotive.model_year.trim_levels ns:m.012br316 .\n?x ns:automotive.model_year.year ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.012br316",
+            "mid2name": {
+                "ns:m.012br316": "Chevy Spark LS"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN automotive.model_year.trim_levels Chevy Spark LS) (JOIN (R automotive.trim_level.model_year) Chevy Spark LS)) automotive.model_year.year)",
+            "SExpr": "(ARGMAX (AND (JOIN automotive.model_year.trim_levels m.012br316) (JOIN (R automotive.trim_level.model_year) m.012br316)) automotive.model_year.year)"
+        }
+    },
+    "79": {
+        "generations": "When did the Stanford Department of Sociology have the most employees?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0c1d7v7)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0c1d7v7 ns:business.employer.employees ?x .\n?x ns:business.employment_tenure.company ns:m.0c1d7v7 .\n?x ns:business.employment_tenure.to ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0c1d7v7",
+            "mid2name": {
+                "ns:m.0c1d7v7": "Stanford Department of Sociology"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN business.employment_tenure.company Stanford Department of Sociology) (JOIN (R business.employer.employees) Stanford Department of Sociology)) business.employment_tenure.to)",
+            "SExpr": "(ARGMAX (AND (JOIN business.employment_tenure.company m.0c1d7v7) (JOIN (R business.employer.employees) m.0c1d7v7)) business.employment_tenure.to)"
+        }
+    },
+    "80": {
+        "generations": "when was the baritone singer with the highest vocal range buried?",
+        "ori_data_item": {
+            "sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0j871)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0j871 ns:music.voice.singers ?x .\n?x ns:music.group_member.vocal_range ns:m.0j871 .\n?x ns:people.deceased_person.date_of_burial ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+            "TopicEntityMid": "m.0j871",
+            "mid2name": {
+                "ns:m.0j871": "Baritone"
+            },
+            "SExpr_w_name": "(ARGMAX (AND (JOIN music.group_member.vocal_range Baritone) (JOIN (R music.voice.singers) Baritone)) people.deceased_person.date_of_burial)",
+            "SExpr": "(ARGMAX (AND (JOIN music.group_member.vocal_range m.0j871) (JOIN (R music.voice.singers) m.0j871)) people.deceased_person.date_of_burial)"
+        }
+    }
+}

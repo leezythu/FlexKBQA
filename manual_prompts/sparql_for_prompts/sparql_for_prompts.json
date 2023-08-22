@@ -1,0 +1,2027 @@
+[
+    {
+    "QuestionId": "WebQTrn-3581",
+    "RawQuestion": "where is university of auburn?",
+    "ProcessedQuestion": "where is university of auburn",
+    "Parses": [
+      {
+        "ParseId": "WebQTrn-3581.P0",
+        "AnnotatorId": 1,
+        "AnnotatorComment": {
+          "ParseQuality": "Complete",
+          "QuestionQuality": "Good",
+          "Confidence": "Normal",
+          "FreeFormComment": "First-round parse verification"
+        },
+        "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01wdj_)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01wdj_ ns:location.location.containedby ?x .\n}\n",
+        "step_wise_queries":[
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel0\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n}\n"
+        ],
+        "masked_query":"PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n}\n",
+        "PotentialTopicEntityMention": "university of auburn",
+        "TopicEntityName": "Auburn University",
+        "TopicEntityMid": "m.01wdj_",
+        "InferentialChain": [
+          "location.location.containedby"
+        ],
+        "Constraints": [],
+        "Time": null,
+        "Order": null,
+        "Answers": [
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.06_g97h",
+            "EntityName": "Auburn University Historic District"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.09c7w0",
+            "EntityName": "United States of America"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0gyh",
+            "EntityName": "Alabama"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0q8p8",
+            "EntityName": "Auburn"
+          }
+        ],
+        "SExpr": "(JOIN (R location.location.containedby) m.01wdj_)"
+      },
+      {
+        "ParseId": "WebQTrn-3581.P1",
+        "AnnotatorId": 1,
+        "AnnotatorComment": {
+          "ParseQuality": "Complete",
+          "QuestionQuality": "Good",
+          "Confidence": "Normal",
+          "FreeFormComment": "First-round parse verification"
+        },
+        "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01wdj_)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01wdj_ ns:organization.organization.headquarters ?y .\n?y ns:location.mailing_address.state_province_region ?x .\n}\n",
+        "PotentialTopicEntityMention": "university of auburn",
+        "TopicEntityName": "Auburn University",
+        "TopicEntityMid": "m.01wdj_",
+        "InferentialChain": [
+          "organization.organization.headquarters",
+          "location.mailing_address.state_province_region"
+        ],
+        "Constraints": [],
+        "Time": null,
+        "Order": null,
+        "Answers": [
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0gyh",
+            "EntityName": "Alabama"
+          }
+        ],
+        "SExpr": "(JOIN (R location.mailing_address.state_province_region) (JOIN (R organization.organization.headquarters) m.01wdj_))"
+      }
+    ]
+  },
+  {
+    "QuestionId": "WebQTrn-2072",
+    "RawQuestion": "who founded the new democratic party?",
+    "ProcessedQuestion": "who founded the new democratic party",
+    "Parses": [
+      {
+        "ParseId": "WebQTrn-2072.P0",
+        "AnnotatorId": 4,
+        "AnnotatorComment": {
+          "ParseQuality": "Complete",
+          "QuestionQuality": "Good",
+          "Confidence": "Low",
+          "FreeFormComment": "? Many New Democratic Parties"
+        },
+        "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0nfwpdn)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0nfwpdn ns:government.political_party.politicians_in_this_party ?y .\n?y ns:government.political_party_tenure.politician ?x .\n}\n",
+        "step_wise_queries":[
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel0\nWHERE {?ent0 ?rel0 ?y .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (?rel0 != ?rel1)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n}\n"
+        ],
+        "masked_query":"PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n}\n",
+        "PotentialTopicEntityMention": "new democratic party",
+        "TopicEntityName": "New Democratic Party",
+        "TopicEntityMid": "m.0nfwpdn",
+        "InferentialChain": [
+          "government.political_party.politicians_in_this_party",
+          "government.political_party_tenure.politician"
+        ],
+        "Constraints": [],
+        "Time": null,
+        "Order": null,
+        "Answers": [
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.013yvd",
+            "EntityName": "Kim Dae-jung"
+          }
+        ],
+        "SExpr": "(JOIN (R government.political_party_tenure.politician) (JOIN (R government.political_party.politicians_in_this_party) m.0nfwpdn))"
+      }
+    ]
+  },
+  {
+    "QuestionId": "WebQTrn-1090",
+    "RawQuestion": "where do most chinese live?",
+    "ProcessedQuestion": "where do most chinese live",
+    "Parses": [
+      {
+        "ParseId": "WebQTrn-1090.P0",
+        "AnnotatorId": 3,
+        "AnnotatorComment": {
+          "ParseQuality": "Complete",
+          "QuestionQuality": "Good",
+          "Confidence": "Normal",
+          "FreeFormComment": ""
+        },
+        "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0d05w3)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0d05w3 ns:location.location.contains ?x .\n?x ns:topic_server.population_number ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+        "step_wise_queries":[
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel0\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n}",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (?rel0 != ?rel1)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n?x ?rel1 ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n"
+        ],
+        "masked_query":"PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n?x ?rel1 ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+        "PotentialTopicEntityMention": "chinese",
+        "TopicEntityName": "China",
+        "TopicEntityMid": "m.0d05w3",
+        "InferentialChain": [
+          "location.location.contains"
+        ],
+        "Constraints": [],
+        "Time": null,
+        "Order": {
+          "SortOrder": "Descending",
+          "Start": 0,
+          "Count": 1,
+          "SourceNodeIndex": 0,
+          "NodePredicate": "topic_server.population_number",
+          "ValueType": "Number"
+        },
+        "Answers": [
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.011f3wbn",
+            "EntityName": "Jingjinji"
+          }
+        ],
+        "SExpr": "(ARGMAX (JOIN (R location.location.contains) m.0d05w3) topic_server.population_number)"
+      }
+    ]
+  },
+  {
+    "QuestionId": "WebQTrn-3319",
+    "RawQuestion": "who played dorothy in the film wizard of oz?",
+    "ProcessedQuestion": "who played dorothy in the film wizard of oz",
+    "Parses": [
+      {
+        "ParseId": "WebQTrn-3319.P0",
+        "AnnotatorId": 4,
+        "AnnotatorComment": {
+          "ParseQuality": "Complete",
+          "QuestionQuality": "Good",
+          "Confidence": "Normal",
+          "FreeFormComment": ""
+        },
+        "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02q52q)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02q52q ns:film.film.starring ?y .\n?y ns:film.performance.actor ?x .\n?y ns:film.performance.character ns:m.020hj1 .\n}\n",
+        "step_wise_queries":[
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel0\nWHERE {\n?ent0 ?rel0 ?y .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x}",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel2\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (?rel0 != ?rel1)\nFILTER (?rel1 != ?rel2)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?y ?rel2 ?ent1 .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?ent1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (?rel0 != ?rel1)\nFILTER (?rel1 != ?rel2)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?y ?rel2 ?ent1 .\n}\n"
+        ],
+        "masked_query":"PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?y ?rel2 ?ent1 .\n}\n",
+        "PotentialTopicEntityMention": "wizard of oz",
+        "TopicEntityName": "The Wizard of Oz",
+        "TopicEntityMid": "m.02q52q",
+        "InferentialChain": [
+          "film.film.starring",
+          "film.performance.actor"
+        ],
+        "Constraints": [
+          {
+            "Operator": "Equal",
+            "ArgumentType": "Entity",
+            "Argument": "m.020hj1",
+            "EntityName": "Dorothy Gale",
+            "SourceNodeIndex": 0,
+            "NodePredicate": "film.performance.character",
+            "ValueType": "String"
+          }
+        ],
+        "Time": null,
+        "Order": null,
+        "Answers": [
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0g10g",
+            "EntityName": "Judy Garland"
+          }
+        ],
+        "SExpr": "(JOIN (R film.performance.actor) (AND (JOIN film.performance.character m.020hj1) (JOIN (R film.film.starring) m.02q52q)))"
+      }
+    ]
+  },
+  {
+    "QuestionId": "WebQTrn-1952",
+    "RawQuestion": "what college did jerry rice attend?",
+    "ProcessedQuestion": "what college did jerry rice attend",
+    "Parses": [
+      {
+        "ParseId": "WebQTrn-1952.P0",
+        "AnnotatorId": 5,
+        "AnnotatorComment": {
+          "ParseQuality": "Complete",
+          "QuestionQuality": "Good",
+          "Confidence": "Normal",
+          "FreeFormComment": ""
+        },
+        "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0240vt)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0240vt ns:people.person.education ?y .\n?y ns:education.education.institution ?x .\n?x ns:common.topic.notable_types ns:m.01y2hnl .\n}\n",
+        "step_wise_queries":[
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel0\nWHERE {\n?ent0 ?rel0 ?y .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel2\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (?rel0 != ?rel1)\nFILTER (?rel1 != ?rel2)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?x ?rel2 ?ent1 .}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?ent1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (?rel0 != ?rel1)\nFILTER (?rel1 != ?rel2)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?x ?rel2 ?ent1 .}\n"
+        ],
+        "masked_query":"PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?x ?rel2 ?ent1 .\n}\n",
+        "PotentialTopicEntityMention": "jerry rice",
+        "TopicEntityName": "Jerry Rice",
+        "TopicEntityMid": "m.0240vt",
+        "InferentialChain": [
+          "people.person.education",
+          "education.education.institution"
+        ],
+        "Constraints": [
+          {
+            "Operator": "Equal",
+            "ArgumentType": "Entity",
+            "Argument": "m.01y2hnl",
+            "EntityName": "College/University",
+            "SourceNodeIndex": 1,
+            "NodePredicate": "common.topic.notable_types",
+            "ValueType": "String"
+          }
+        ],
+        "Time": null,
+        "Order": null,
+        "Answers": [
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.03x2gs",
+            "EntityName": "Mississippi Valley State University"
+          }
+        ],
+        "SExpr": "(AND (JOIN common.topic.notable_types m.01y2hnl) (JOIN (R education.education.institution) (JOIN (R people.person.education) m.0240vt)))"
+      }
+    ]
+  },
+  {
+    "QuestionId": "WebQTrn-1204",
+    "RawQuestion": "what cities are in oakland county michigan?",
+    "ProcessedQuestion": "what cities are in oakland county michigan",
+    "Parses": [
+      {
+        "ParseId": "WebQTrn-1204.P0",
+        "AnnotatorId": 1,
+        "AnnotatorComment": {
+          "ParseQuality": "Complete",
+          "QuestionQuality": "Good",
+          "Confidence": "Normal",
+          "FreeFormComment": ""
+        },
+        "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0nj7b)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0nj7b ns:location.location.contains ?x .\n?x ns:common.topic.notable_types ns:m.01m9 .\n}\n",
+        "step_wise_queries":[
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel0\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n?x ?rel1 ?ent1 .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?ent1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n?x ?rel1 ?ent1 .\n}\n"
+        ],
+        "masked_query":"PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n?x ?rel1 ?ent1 .\n}\n",
+        "PotentialTopicEntityMention": "oakland county michigan",
+        "TopicEntityName": "Oakland County",
+        "TopicEntityMid": "m.0nj7b",
+        "InferentialChain": [
+          "location.location.contains"
+        ],
+        "Constraints": [
+          {
+            "Operator": "Equal",
+            "ArgumentType": "Entity",
+            "Argument": "m.01m9",
+            "EntityName": "City/Town/Village",
+            "SourceNodeIndex": 0,
+            "NodePredicate": "common.topic.notable_types",
+            "ValueType": "String"
+          }
+        ],
+        "Time": null,
+        "Order": null,
+        "Answers": [
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.01_n1z_",
+            "EntityName": "Bingham Farms"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.01_sd2f",
+            "EntityName": "Lake Angelus"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.01_sdrk",
+            "EntityName": "Lake Orion"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.01_srp0",
+            "EntityName": "Leonard"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.01_wrzy",
+            "EntityName": "Sylvan Lake"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.013f50",
+            "EntityName": "Northville"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.01m8tz",
+            "EntityName": "Bloomfield Township"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.01m8vb",
+            "EntityName": "West Bloomfield Township"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.03gygh",
+            "EntityName": "Pontiac Township"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.048myk",
+            "EntityName": "Drayton Plains"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.048n0x",
+            "EntityName": "Union Lake"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049__g_",
+            "EntityName": "Rose Corners"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_1l3",
+            "EntityName": "Charing Cross"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_5lr",
+            "EntityName": "Newark"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_6ys",
+            "EntityName": "Rudds Mill"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_8yl",
+            "EntityName": "Yates"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_d6j",
+            "EntityName": "Seven Harbors"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_ffc",
+            "EntityName": "Bunny Run"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_gwb",
+            "EntityName": "Groveland Corners"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_j2k",
+            "EntityName": "Farmington Hills Post Office"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_j41",
+            "EntityName": "Hazel Park Post Office"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_j51",
+            "EntityName": "Briarwood Senior Housing"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_j7k",
+            "EntityName": "Keego Harbor Post Office"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_k6c",
+            "EntityName": "Andersonville"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_kjf",
+            "EntityName": "Auburn Heights"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_kl_",
+            "EntityName": "Austin Corners"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_lg0",
+            "EntityName": "Big Beaver"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_lv8",
+            "EntityName": "Brandon Gardens"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_mht",
+            "EntityName": "Campbells Corner"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_nd8",
+            "EntityName": "Clyde"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_p0h",
+            "EntityName": "Davisburg"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_pr8",
+            "EntityName": "East Highland"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_qgf",
+            "EntityName": "Farmington Acres"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_qyz",
+            "EntityName": "Four Towns"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_rdr",
+            "EntityName": "Gingellville"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_rh9",
+            "EntityName": "Glengary"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_rlv",
+            "EntityName": "Goodison"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_skq",
+            "EntityName": "Hickory Ridge"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_slz",
+            "EntityName": "Highland"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_tgq",
+            "EntityName": "Jossman Acres"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_v2c",
+            "EntityName": "Lake Orion Heights"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_v5g",
+            "EntityName": "Lakeville"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_xf8",
+            "EntityName": "New Hudson"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_xrz",
+            "EntityName": "North Farmington"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_xzm",
+            "EntityName": "Oak Grove"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_y2x",
+            "EntityName": "Oakley Park"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_y4d",
+            "EntityName": "Oakwood"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_ylm",
+            "EntityName": "Oxbow"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049_z1y",
+            "EntityName": "Perry Lake Heights"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049z__5",
+            "EntityName": "Westacres"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049z_3g",
+            "EntityName": "White Lake"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049z_j_",
+            "EntityName": "Wood Creek Farms"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049zysb",
+            "EntityName": "Thomas"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049zzmp",
+            "EntityName": "Walters"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049zzpq",
+            "EntityName": "Waterford"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.049zzyd",
+            "EntityName": "West Highland"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.04b0194",
+            "EntityName": "Stony Creek"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0nr3p",
+            "EntityName": "Ferndale"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vg6f",
+            "EntityName": "Addison Township"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vg6s",
+            "EntityName": "Auburn Hills"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vg74",
+            "EntityName": "Berkley"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vg7h",
+            "EntityName": "Beverly Hills"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vg8j",
+            "EntityName": "Birmingham"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vg8x",
+            "EntityName": "Bloomfield Hills"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vg97",
+            "EntityName": "Brandon Township"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vg9l",
+            "EntityName": "Clawson"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vg9y",
+            "EntityName": "Commerce Township"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vgb8",
+            "EntityName": "Farmington"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vgbm",
+            "EntityName": "Farmington Hills"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vgbz",
+            "EntityName": "Franklin"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vgc_",
+            "EntityName": "Highland Township"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vgc9",
+            "EntityName": "Groveland Township"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vgcn",
+            "EntityName": "Hazel Park"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vgdb",
+            "EntityName": "Holly"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vgdp",
+            "EntityName": "Holly Township"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vgf0",
+            "EntityName": "Huntington Woods"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vgfc",
+            "EntityName": "Independence Township"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vgfq",
+            "EntityName": "Keego Harbor"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vl_5",
+            "EntityName": "Lyon Township"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vl_j",
+            "EntityName": "Milford Township"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vl_w",
+            "EntityName": "Novi"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vlzh",
+            "EntityName": "Lathrup Village"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vm06",
+            "EntityName": "Novi Township"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vm0k",
+            "EntityName": "Oak Park"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vm17",
+            "EntityName": "Orchard Lake"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vm1l",
+            "EntityName": "Orion Township"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vm1y",
+            "EntityName": "Ortonville"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vm28",
+            "EntityName": "Oxford"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vm2m",
+            "EntityName": "Oxford Charter Township"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vm2z",
+            "EntityName": "Pleasant Ridge"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vm39",
+            "EntityName": "Pontiac"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vm3r",
+            "EntityName": "Rochester"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vm42",
+            "EntityName": "Rochester Hills"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vm4f",
+            "EntityName": "Rose Township"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vm53",
+            "EntityName": "Royal Oak Charter Township"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vm5g",
+            "EntityName": "South Lyon"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vm5t",
+            "EntityName": "Southfield"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vm64",
+            "EntityName": "Southfield Township"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vm6h",
+            "EntityName": "Springfield Township"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vm75",
+            "EntityName": "Troy"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vm7k",
+            "EntityName": "Clarkston"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vm7x",
+            "EntityName": "Walled Lake"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vm87",
+            "EntityName": "Waterford Township"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vm8l",
+            "EntityName": "White Lake Township"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vm8y",
+            "EntityName": "Wixom"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0vm98",
+            "EntityName": "Wolverine Lake"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0xc0s",
+            "EntityName": "Madison Heights"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0xc13",
+            "EntityName": "Milford"
+          }
+        ],
+        "SExpr": "(AND (JOIN common.topic.notable_types m.01m9) (JOIN (R location.location.contains) m.0nj7b))"
+      }
+    ]
+  },
+  {
+    "QuestionId": "WebQTrn-2852",
+    "RawQuestion": "who is married to jane krakowski?",
+    "ProcessedQuestion": "who is married to jane krakowski",
+    "Parses": [
+      {
+        "ParseId": "WebQTrn-2852.P0",
+        "AnnotatorId": 4,
+        "AnnotatorComment": {
+          "ParseQuality": "Complete",
+          "QuestionQuality": "Good",
+          "Confidence": "Normal",
+          "FreeFormComment": ""
+        },
+        "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01qr1_)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01qr1_ ns:people.person.spouse_s ?y .\n?y ns:people.marriage.spouse ?x .\n?y ns:people.marriage.type_of_union ns:m.04ztj .\nFILTER(NOT EXISTS {?y ns:people.marriage.from ?sk0} || \nEXISTS {?y ns:people.marriage.from ?sk1 . \nFILTER(xsd:datetime(?sk1) <= \"2015-08-10\"^^xsd:dateTime) })\nFILTER(NOT EXISTS {?y ns:people.marriage.to ?sk2} || \nEXISTS {?y ns:people.marriage.to ?sk3 . \nFILTER(xsd:datetime(?sk3) >= \"2015-08-10\"^^xsd:dateTime) })\n}\n",
+        "PotentialTopicEntityMention": "jane krakowski",
+        "TopicEntityName": "Jane Krakowski",
+        "TopicEntityMid": "m.01qr1_",
+        "InferentialChain": [
+          "people.person.spouse_s",
+          "people.marriage.spouse"
+        ],
+        "Constraints": [
+          {
+            "Operator": "Equal",
+            "ArgumentType": "Entity",
+            "Argument": "m.04ztj",
+            "EntityName": "Marriage",
+            "SourceNodeIndex": 0,
+            "NodePredicate": "people.marriage.type_of_union",
+            "ValueType": "String"
+          },
+          {
+            "Operator": "LessOrEqual",
+            "ArgumentType": "Value",
+            "Argument": "2015-08-10",
+            "EntityName": "",
+            "SourceNodeIndex": 0,
+            "NodePredicate": "people.marriage.from",
+            "ValueType": "DateTime"
+          },
+          {
+            "Operator": "GreaterOrEqual",
+            "ArgumentType": "Value",
+            "Argument": "2015-08-10",
+            "EntityName": "",
+            "SourceNodeIndex": 0,
+            "NodePredicate": "people.marriage.to",
+            "ValueType": "DateTime"
+          }
+        ],
+        "Time": {
+          "IsRelativeToNow": true,
+          "Start": "0000-00-00",
+          "End": "0000-00-00",
+          "AssociatedConstraints": [
+            1,
+            2
+          ],
+          "PotentialTimeMention": null
+        },
+        "Order": null,
+        "Answers": [
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0j0_6d8",
+            "EntityName": "Robert Godley"
+          }
+        ],
+        "SExpr": "(JOIN (R people.marriage.spouse) (AND (JOIN people.marriage.time_macro 2015^^http://www.w3.org/2001/XMLSchema#date) (AND (JOIN people.marriage.type_of_union m.04ztj) (JOIN (R people.person.spouse_s) m.01qr1_))))"
+      }
+    ]
+  },
+  {
+    "QuestionId": "WebQTrn-96",
+    "RawQuestion": "who is robert downey jr wife?",
+    "ProcessedQuestion": "who is robert downey jr wife",
+    "Parses": [
+      {
+        "ParseId": "WebQTrn-96.P0",
+        "AnnotatorId": 3,
+        "AnnotatorComment": {
+          "ParseQuality": "Complete",
+          "QuestionQuality": "Good",
+          "Confidence": "Normal",
+          "FreeFormComment": ""
+        },
+        "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.016z2j)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.016z2j ns:people.person.spouse_s ?y .\n?y ns:people.marriage.spouse ?x .\n?x ns:people.person.gender ns:m.02zsn .\n?y ns:people.marriage.from ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "step_wise_queries":[
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel0\nWHERE {\n?ent0 ?rel0 ?y .\n}",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n}",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel2\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?x ?rel2 ?ent1 .\n}",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?ent1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?x ?rel2 ?ent1 .\n}",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel3\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?x ?rel2 ?ent1 .\n?y ?rel3 ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n"
+        ],
+        "masked_query":"PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?x ?rel2 ?ent1 .\n?y ?rel3 ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "PotentialTopicEntityMention": "robert downey jr",
+        "TopicEntityName": "Robert Downey Jr.",
+        "TopicEntityMid": "m.016z2j",
+        "InferentialChain": [
+          "people.person.spouse_s",
+          "people.marriage.spouse"
+        ],
+        "Constraints": [
+          {
+            "Operator": "Equal",
+            "ArgumentType": "Entity",
+            "Argument": "m.02zsn",
+            "EntityName": "Female",
+            "SourceNodeIndex": 1,
+            "NodePredicate": "people.person.gender",
+            "ValueType": "String"
+          }
+        ],
+        "Time": null,
+        "Order": {
+          "SortOrder": "Descending",
+          "Start": 0,
+          "Count": 1,
+          "SourceNodeIndex": 0,
+          "NodePredicate": "people.marriage.from",
+          "ValueType": "DateTime"
+        },
+        "Answers": [
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.05p2qsc",
+            "EntityName": "Susan Downey"
+          }
+        ],
+        "SExpr": "(AND (JOIN people.person.gender m.02zsn) (JOIN (R people.marriage.spouse) (ARGMAX (JOIN (R people.person.spouse_s) m.016z2j) people.marriage.from)))"
+      }
+    ]
+  },
+  {
+    "QuestionId": "WebQTrn-2694",
+    "RawQuestion": "what is the most practiced religion in the united states?",
+    "ProcessedQuestion": "what is the most practiced religion in the united states",
+    "Parses": [
+      {
+        "ParseId": "WebQTrn-2694.P0",
+        "AnnotatorId": 1,
+        "AnnotatorComment": {
+          "ParseQuality": "Complete",
+          "QuestionQuality": "Good",
+          "Confidence": "Normal",
+          "FreeFormComment": ""
+        },
+        "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.09c7w0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.09c7w0 ns:location.statistical_region.religions ?y .\n?y ns:location.religion_percentage.religion ?x .\n?y ns:location.religion_percentage.percentage ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+        "step_wise_queries":[
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel0\nWHERE {\n?ent0 ?rel0 ?y .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel2\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?y ?rel2 ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n"
+        ],
+        "masked_query":"PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?y ?rel2 ?sk0 .\n}\nORDER BY DESC(xsd:float(?sk0))\nLIMIT 1\n",
+        "PotentialTopicEntityMention": "united states",
+        "TopicEntityName": "United States of America",
+        "TopicEntityMid": "m.09c7w0",
+        "InferentialChain": [
+          "location.statistical_region.religions",
+          "location.religion_percentage.religion"
+        ],
+        "Constraints": [],
+        "Time": null,
+        "Order": {
+          "SortOrder": "Descending",
+          "Start": 0,
+          "Count": 1,
+          "SourceNodeIndex": 0,
+          "NodePredicate": "location.religion_percentage.percentage",
+          "ValueType": "Number"
+        },
+        "Answers": [
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.01lp8",
+            "EntityName": "Christianity"
+          }
+        ],
+        "SExpr": "(JOIN (R location.religion_percentage.religion) (ARGMAX (JOIN (R location.statistical_region.religions) m.09c7w0) location.religion_percentage.percentage))"
+      }
+    ]
+  },
+  {
+    "QuestionId": "WebQTrn-387",
+    "RawQuestion": "when was the last dallas cowboys super bowl win?",
+    "ProcessedQuestion": "when was the last dallas cowboys super bowl win",
+    "Parses": [
+      {
+        "ParseId": "WebQTrn-387.P0",
+        "AnnotatorId": 1,
+        "AnnotatorComment": {
+          "ParseQuality": "Complete",
+          "QuestionQuality": "Good",
+          "Confidence": "Normal",
+          "FreeFormComment": ""
+        },
+        "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02896)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02896 ns:sports.sports_team.championships ?x .\n?x ns:sports.sports_championship_event.champion ns:m.02896 .\n?x ns:time.event.end_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "step_wise_queries":[
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel0\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n}",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n?x ?rel1 ?ent0 .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel2\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n?x ?rel1 ?ent0 .\n?x ?rel2 ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n"
+        ],
+        "masked_query":"PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n?x ?rel1 ?ent0 .\n?x ?rel2 ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "PotentialTopicEntityMention": "dallas cowboys",
+        "TopicEntityName": "Dallas Cowboys",
+        "TopicEntityMid": "m.02896",
+        "InferentialChain": [
+          "sports.sports_team.championships"
+        ],
+        "Constraints": [
+          {
+            "Operator": "Equal",
+            "ArgumentType": "Entity",
+            "Argument": "m.02896",
+            "EntityName": "Dallas Cowboys",
+            "SourceNodeIndex": 0,
+            "NodePredicate": "sports.sports_championship_event.champion",
+            "ValueType": "String"
+          }
+        ],
+        "Time": null,
+        "Order": {
+          "SortOrder": "Descending",
+          "Start": 0,
+          "Count": 1,
+          "SourceNodeIndex": 0,
+          "NodePredicate": "time.event.end_date",
+          "ValueType": "DateTime"
+        },
+        "Answers": [
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.076wz",
+            "EntityName": "Super Bowl XXX"
+          }
+        ],
+        "SExpr": "(ARGMAX (AND (JOIN sports.sports_championship_event.champion m.02896) (JOIN (R sports.sports_team.championships) m.02896)) time.event.end_date)"
+      }
+    ]
+  },
+  {
+    "QuestionId": "WebQTrn-831",
+    "RawQuestion": "what is the last movie brittany murphy made?",
+    "ProcessedQuestion": "what is the last movie brittany murphy made",
+    "Parses": [
+      {
+        "ParseId": "WebQTrn-831.P0",
+        "AnnotatorId": 5,
+        "AnnotatorComment": {
+          "ParseQuality": "Complete",
+          "QuestionQuality": "Good",
+          "Confidence": "Normal",
+          "FreeFormComment": ""
+        },
+        "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0168dy)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0168dy ns:film.actor.film ?y .\n?y ns:film.performance.film ?x .\n?x ns:film.film.initial_release_date ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "step_wise_queries":[
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel0\nWHERE {\n?ent0 ?rel0 ?y .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel2\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?x ?rel2 ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n"
+        ],
+        "masked_query":"PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?x ?rel2 ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "PotentialTopicEntityMention": "brittany murphy",
+        "TopicEntityName": "Brittany Murphy",
+        "TopicEntityMid": "m.0168dy",
+        "InferentialChain": [
+          "film.actor.film",
+          "film.performance.film"
+        ],
+        "Constraints": [],
+        "Time": null,
+        "Order": {
+          "SortOrder": "Descending",
+          "Start": 0,
+          "Count": 1,
+          "SourceNodeIndex": 1,
+          "NodePredicate": "film.film.initial_release_date",
+          "ValueType": "DateTime"
+        },
+        "Answers": [
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0ch39jf",
+            "EntityName": "Something Wicked"
+          }
+        ],
+        "SExpr": "(ARGMAX (JOIN (R film.performance.film) (JOIN (R film.actor.film) m.0168dy)) film.film.initial_release_date)"
+      }
+    ]
+  },
+  {
+    "QuestionId": "WebQTrn-2225",
+    "RawQuestion": "what book did charles darwin write on evolution?",
+    "ProcessedQuestion": "what book did charles darwin write on evolution",
+    "Parses": [
+      {
+        "ParseId": "WebQTrn-2225.P0",
+        "AnnotatorId": 2,
+        "AnnotatorComment": {
+          "ParseQuality": "Complete",
+          "QuestionQuality": "Good",
+          "Confidence": "Normal",
+          "FreeFormComment": ""
+        },
+        "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01lwx)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01lwx ns:book.author.works_written ?x .\n?x ns:common.topic.notable_types ns:m.01xryvm .\n?x ns:book.written_work.subjects ns:m.02j8z .\n}\n",
+        "step_wise_queries":[
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel0\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n?x ?rel1 ?ent1 .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?ent1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n?x ?rel1 ?ent1 .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel2\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (?rel1 != ?rel2)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n?x ?rel1 ?ent1 .\n?x ?rel2 ?ent2 .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?ent2\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (?rel1 != ?rel2)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n?x ?rel1 ?ent1 .\n?x ?rel2 ?ent2 .\n}\n"
+        ],
+        "masked_query":"PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n?x ?rel1 ?ent1 .\n?x ?rel2 ?ent2 .\n}\n",
+        "PotentialTopicEntityMention": "charles darwin",
+        "TopicEntityName": "Charles Darwin",
+        "TopicEntityMid": "m.01lwx",
+        "InferentialChain": [
+          "book.author.works_written"
+        ],
+        "Constraints": [
+          {
+            "Operator": "Equal",
+            "ArgumentType": "Entity",
+            "Argument": "m.01xryvm",
+            "EntityName": "Book",
+            "SourceNodeIndex": 0,
+            "NodePredicate": "common.topic.notable_types",
+            "ValueType": "String"
+          },
+          {
+            "Operator": "Equal",
+            "ArgumentType": "Entity",
+            "Argument": "m.02j8z",
+            "EntityName": "Evolution",
+            "SourceNodeIndex": 0,
+            "NodePredicate": "book.written_work.subjects",
+            "ValueType": "String"
+          }
+        ],
+        "Time": null,
+        "Order": null,
+        "Answers": [
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.01qq45",
+            "EntityName": "The Voyage of the Beagle"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.02l2z6",
+            "EntityName": "The Descent of Man, and Selection in Relation to Sex"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.04t39p_",
+            "EntityName": "On evolution"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.04t39r_",
+            "EntityName": "On Natural Selection"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.04t39rr",
+            "EntityName": "From so simple a beginning"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.05nhwt",
+            "EntityName": "The Autobiography of Charles Darwin"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.05pskf",
+            "EntityName": "The Expression of the Emotions in Man and Animals"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.07kbf6f",
+            "EntityName": "Insectivorous Plants"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0c1t1n1",
+            "EntityName": "On the origin of species by means of natural selection"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0d_3d1b",
+            "EntityName": "The Correspondence of Charles Darwin, Volume 1: 1821-1836"
+          }
+        ],
+        "SExpr": "(AND (JOIN book.written_work.subjects m.02j8z) (AND (JOIN common.topic.notable_types m.01xryvm) (JOIN (R book.author.works_written) m.01lwx)))"
+      }
+    ]
+  },
+  {
+    "QuestionId": "WebQTrn-2617",
+    "RawQuestion": "who was charlemagne's wife?",
+    "ProcessedQuestion": "who was charlemagne 's wife",
+    "Parses": [
+      {
+        "ParseId": "WebQTrn-2617.P0",
+        "AnnotatorId": 4,
+        "AnnotatorComment": {
+          "ParseQuality": "Complete",
+          "QuestionQuality": "Good",
+          "Confidence": "Normal",
+          "FreeFormComment": ""
+        },
+        "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.01mhc)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.01mhc ns:people.person.spouse_s ?y .\n?y ns:people.marriage.spouse ?x .\n?y ns:people.marriage.type_of_union ns:m.04ztj .\n?y ns:people.marriage.to ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "step_wise_queries":[
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel0\nWHERE {\n?ent0 ?rel0 ?y .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel2\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (?rel1 != ?rel2)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?y ?rel2 ?ent1 .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?ent1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?y ?rel2 ?ent1 .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel3\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?y ?rel2 ?ent1 .\n?y ?rel3 ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n"
+        ],
+        "masked_query":"PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?y ?rel2 ?ent1 .\n?y ?rel3 ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "PotentialTopicEntityMention": "charlemagne",
+        "TopicEntityName": "Charlemagne",
+        "TopicEntityMid": "m.01mhc",
+        "InferentialChain": [
+          "people.person.spouse_s",
+          "people.marriage.spouse"
+        ],
+        "Constraints": [
+          {
+            "Operator": "Equal",
+            "ArgumentType": "Entity",
+            "Argument": "m.04ztj",
+            "EntityName": "Marriage",
+            "SourceNodeIndex": 0,
+            "NodePredicate": "people.marriage.type_of_union",
+            "ValueType": "String"
+          }
+        ],
+        "Time": null,
+        "Order": {
+          "SortOrder": "Descending",
+          "Start": 0,
+          "Count": 1,
+          "SourceNodeIndex": 0,
+          "NodePredicate": "people.marriage.to",
+          "ValueType": "DateTime"
+        },
+        "Answers": [
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0245dp",
+            "EntityName": "Luitgard"
+          }
+        ],
+        "SExpr": "(JOIN (R people.marriage.spouse) (ARGMAX (AND (JOIN people.marriage.type_of_union m.04ztj) (JOIN (R people.person.spouse_s) m.01mhc)) people.marriage.to))"
+      }
+    ]
+  },
+  {
+    "QuestionId": "WebQTrn-771",
+    "RawQuestion": "what was omar epps first movie?",
+    "ProcessedQuestion": "what was omar epps first movie",
+    "Parses": [
+      {
+        "ParseId": "WebQTrn-771.P0",
+        "AnnotatorId": 1,
+        "AnnotatorComment": {
+          "ParseQuality": "Complete",
+          "QuestionQuality": "Good",
+          "Confidence": "Normal",
+          "FreeFormComment": ""
+        },
+        "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02_tv5)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02_tv5 ns:film.actor.film ?y .\n?y ns:film.performance.film ?x .\n?x ns:film.film.initial_release_date ?sk0 .\n}\nORDER BY xsd:datetime(?sk0)\nLIMIT 1\n",
+        "step_wise_queries":[
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel0\nWHERE {\n?ent0 ?rel0 ?y .}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel2\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?x ?rel2 ?sk0 .\n}\nORDER BY xsd:datetime(?sk0)\nLIMIT 1\n"
+        ],
+        "masked_query":"PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?x ?rel2 ?sk0 .\n}\nORDER BY xsd:datetime(?sk0)\nLIMIT 1\n",
+        "PotentialTopicEntityMention": "omar epps",
+        "TopicEntityName": "Omar Epps",
+        "TopicEntityMid": "m.02_tv5",
+        "InferentialChain": [
+          "film.actor.film",
+          "film.performance.film"
+        ],
+        "Constraints": [],
+        "Time": null,
+        "Order": {
+          "SortOrder": "Ascending",
+          "Start": 0,
+          "Count": 1,
+          "SourceNodeIndex": 1,
+          "NodePredicate": "film.film.initial_release_date",
+          "ValueType": "DateTime"
+        },
+        "Answers": [
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.08w51z",
+            "EntityName": "Juice"
+          }
+        ],
+        "SExpr": "(ARGMIN (JOIN (R film.performance.film) (JOIN (R film.actor.film) m.02_tv5)) film.film.initial_release_date)"
+      }
+    ]
+  },
+  {
+    "QuestionId": "WebQTrn-1018",
+    "RawQuestion": "when did manchester united first win a trophy?",
+    "ProcessedQuestion": "when did manchester united first win a trophy",
+    "Parses": [
+      {
+        "ParseId": "WebQTrn-1018.P0",
+        "AnnotatorId": 5,
+        "AnnotatorComment": {
+          "ParseQuality": "Complete",
+          "QuestionQuality": "Good",
+          "Confidence": "Normal",
+          "FreeFormComment": ""
+        },
+        "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.050fh)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.050fh ns:sports.sports_team.championships ?x .\n?x ns:time.event.end_date ?sk0 .\n}\nORDER BY xsd:datetime(?sk0)\nLIMIT 1\n",
+        "step_wise_queries":[
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel0\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n?x ?rel1 ?sk0 .\n}\nORDER BY xsd:datetime(?sk0)\nLIMIT 1\n"
+        ],
+        "masked_query":"PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n?x ?rel1 ?sk0 .\n}\nORDER BY xsd:datetime(?sk0)\nLIMIT 1\n",
+        "PotentialTopicEntityMention": "manchester united",
+        "TopicEntityName": "Manchester United F.C.",
+        "TopicEntityMid": "m.050fh",
+        "InferentialChain": [
+          "sports.sports_team.championships"
+        ],
+        "Constraints": [],
+        "Time": null,
+        "Order": {
+          "SortOrder": "Ascending",
+          "Start": 0,
+          "Count": 1,
+          "SourceNodeIndex": 0,
+          "NodePredicate": "time.event.end_date",
+          "ValueType": "DateTime"
+        },
+        "Answers": [
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.04gk9y8",
+            "EntityName": "1976\u201377 FA Cup"
+          }
+        ],
+        "SExpr": "(ARGMIN (JOIN (R sports.sports_team.championships) m.050fh) time.event.end_date)"
+      }
+    ]
+  },
+  {
+    "QuestionId": "WebQTrn-1641",
+    "RawQuestion": "what is the name of the main train station in san francisco?",
+    "ProcessedQuestion": "what is the name of the main train station in san francisco",
+    "Parses": [
+      {
+        "ParseId": "WebQTrn-1641.P0",
+        "AnnotatorId": 5,
+        "AnnotatorComment": {
+          "ParseQuality": "Complete",
+          "QuestionQuality": "Good",
+          "Confidence": "Low",
+          "FreeFormComment": "? main"
+        },
+        "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0d6lp)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0d6lp ns:travel.travel_destination.how_to_get_here ?y .\n?y ns:travel.transportation.transport_terminus ?x .\n?y ns:travel.transportation.mode_of_transportation ns:m.07jdr .\n?x ns:location.location.containedby ns:m.0d6lp .\n}\n",
+        "step_wise_queries":[
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel0\nWHERE {\n?ent0 ?rel0 ?y .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel2\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?y ?rel2 ?ent1 .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?ent1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?y ?rel2 ?ent1 .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel3\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?y ?rel2 ?ent1 .\n?x ?rel3 ?ent0 .\n}\n"
+        ],
+        "masked_query":"PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?y ?rel2 ?ent1 .\n?x ?rel3 ?ent0 .\n}\n",
+        "PotentialTopicEntityMention": "san francisco",
+        "TopicEntityName": "San Francisco",
+        "TopicEntityMid": "m.0d6lp",
+        "InferentialChain": [
+          "travel.travel_destination.how_to_get_here",
+          "travel.transportation.transport_terminus"
+        ],
+        "Constraints": [
+          {
+            "Operator": "Equal",
+            "ArgumentType": "Entity",
+            "Argument": "m.07jdr",
+            "EntityName": "Train",
+            "SourceNodeIndex": 0,
+            "NodePredicate": "travel.transportation.mode_of_transportation",
+            "ValueType": "String"
+          },
+          {
+            "Operator": "Equal",
+            "ArgumentType": "Entity",
+            "Argument": "m.0d6lp",
+            "EntityName": "San Francisco",
+            "SourceNodeIndex": 1,
+            "NodePredicate": "location.location.containedby",
+            "ValueType": "String"
+          }
+        ],
+        "Time": null,
+        "Order": null,
+        "Answers": [
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.02r817z",
+            "EntityName": "San Francisco 4th and King Street Station"
+          }
+        ],
+        "SExpr": "(AND (JOIN location.location.containedby m.0d6lp) (JOIN (R travel.transportation.transport_terminus) (AND (JOIN travel.transportation.mode_of_transportation m.07jdr) (JOIN (R travel.travel_destination.how_to_get_here) m.0d6lp))))"
+      }
+    ]
+  },
+  {
+    "QuestionId": "WebQTrn-163",
+    "RawQuestion": "what team did shaq play for first?",
+    "ProcessedQuestion": "what team did shaq play for first",
+    "Parses": [
+      {
+        "ParseId": "WebQTrn-163.P0",
+        "AnnotatorId": 2,
+        "AnnotatorComment": {
+          "ParseQuality": "Complete",
+          "QuestionQuality": "Good",
+          "Confidence": "Normal",
+          "FreeFormComment": ""
+        },
+        "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.012xdf)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.012xdf ns:sports.pro_athlete.teams ?y .\n?y ns:sports.sports_team_roster.team ?x .\n?y ns:sports.sports_team_roster.from ?sk0 .\n}\nORDER BY xsd:datetime(?sk0)\nLIMIT 1\n",
+        "step_wise_queries":[
+        ],
+        "masked_query":"",
+        "PotentialTopicEntityMention": "shaq",
+        "TopicEntityName": "Shaquille O'Neal",
+        "TopicEntityMid": "m.012xdf",
+        "InferentialChain": [
+          "sports.pro_athlete.teams",
+          "sports.sports_team_roster.team"
+        ],
+        "Constraints": [],
+        "Time": null,
+        "Order": {
+          "SortOrder": "Ascending",
+          "Start": 0,
+          "Count": 1,
+          "SourceNodeIndex": 0,
+          "NodePredicate": "sports.sports_team_roster.from",
+          "ValueType": "DateTime"
+        },
+        "Answers": [
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.026dqjm",
+            "EntityName": "LSU Tigers men's basketball"
+          }
+        ],
+        "SExpr": "(JOIN (R sports.sports_team_roster.team) (ARGMIN (JOIN (R sports.pro_athlete.teams) m.012xdf) sports.sports_team_roster.from))"
+      }
+    ]
+  },
+  {
+    "QuestionId": "WebQTrn-1389",
+    "RawQuestion": "who did lamar odom sign with?",
+    "ProcessedQuestion": "who did lamar odom sign with",
+    "Parses": [
+      {
+        "ParseId": "WebQTrn-1389.P0",
+        "AnnotatorId": 2,
+        "AnnotatorComment": {
+          "ParseQuality": "Complete",
+          "QuestionQuality": "Good",
+          "Confidence": "Normal",
+          "FreeFormComment": ""
+        },
+        "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.02_nkp)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.02_nkp ns:sports.pro_athlete.teams ?y .\n?y ns:sports.sports_team_roster.team ?x .\n?x ns:common.topic.notable_types ns:m.044801x .\n?y ns:sports.sports_team_roster.from ?sk0 .\n}\nORDER BY xsd:datetime(?sk0)\nLIMIT 1\n",
+        "step_wise_queries":[
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel0\nWHERE {\n?ent0 ?rel0 ?y .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel2\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?x ?rel2 ?ent1 .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?ent1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?x ?rel2 ?ent1 .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel3\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?x ?rel2 ?ent1 .\n?y ?rel3 ?sk0 .\n}\nORDER BY xsd:datetime(?sk0)\nLIMIT 1\n"
+        ],
+        "masked_query":"PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?x ?rel2 ?ent1 .\n?y ?rel3 ?sk0 .\n}\nORDER BY xsd:datetime(?sk0)\nLIMIT 1\n",
+        "PotentialTopicEntityMention": "lamar odom",
+        "TopicEntityName": "Lamar Odom",
+        "TopicEntityMid": "m.02_nkp",
+        "InferentialChain": [
+          "sports.pro_athlete.teams",
+          "sports.sports_team_roster.team"
+        ],
+        "Constraints": [
+          {
+            "Operator": "Equal",
+            "ArgumentType": "Entity",
+            "Argument": "m.044801x",
+            "EntityName": "Professional Sports Team",
+            "SourceNodeIndex": 1,
+            "NodePredicate": "common.topic.notable_types",
+            "ValueType": "String"
+          }
+        ],
+        "Time": null,
+        "Order": {
+          "SortOrder": "Ascending",
+          "Start": 0,
+          "Count": 1,
+          "SourceNodeIndex": 0,
+          "NodePredicate": "sports.sports_team_roster.from",
+          "ValueType": "DateTime"
+        },
+        "Answers": [
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0jmk7",
+            "EntityName": "Los Angeles Lakers"
+          }
+        ],
+        "SExpr": "(AND (JOIN common.topic.notable_types m.044801x) (JOIN (R sports.sports_team_roster.team) (ARGMIN (JOIN (R sports.pro_athlete.teams) m.02_nkp) sports.sports_team_roster.from)))"
+      }
+    ]
+  },
+  {
+    "QuestionId": "WebQTrn-2062",
+    "RawQuestion": "who plays young john winchester in supernatural?",
+    "ProcessedQuestion": "who plays young john winchester in supernatural",
+    "Parses": [
+      {
+        "ParseId": "WebQTrn-2062.P0",
+        "AnnotatorId": 3,
+        "AnnotatorComment": {
+          "ParseQuality": "Complete",
+          "QuestionQuality": "Good",
+          "Confidence": "VeryLow",
+          "FreeFormComment": "?? min corresponds to young?"
+        },
+        "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.025ybxs)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.025ybxs ns:tv.tv_character.appeared_in_tv_program ?y .\n?y ns:tv.regular_tv_appearance.actor ?x .\n?y ns:tv.regular_tv_appearance.series ns:m.06s3sm .\n?y ns:tv.regular_tv_appearance.from ?sk0 .\n}\nORDER BY xsd:datetime(?sk0)\nLIMIT 1\n",
+        "step_wise_queries":[
+        ],
+        "masked_query":"",
+        "PotentialTopicEntityMention": "john winchester",
+        "TopicEntityName": "John Winchester",
+        "TopicEntityMid": "m.025ybxs",
+        "InferentialChain": [
+          "tv.tv_character.appeared_in_tv_program",
+          "tv.regular_tv_appearance.actor"
+        ],
+        "Constraints": [
+          {
+            "Operator": "Equal",
+            "ArgumentType": "Entity",
+            "Argument": "m.06s3sm",
+            "EntityName": "Supernatural",
+            "SourceNodeIndex": 0,
+            "NodePredicate": "tv.regular_tv_appearance.series",
+            "ValueType": "String"
+          }
+        ],
+        "Time": null,
+        "Order": {
+          "SortOrder": "Ascending",
+          "Start": 0,
+          "Count": 1,
+          "SourceNodeIndex": 0,
+          "NodePredicate": "tv.regular_tv_appearance.from",
+          "ValueType": "DateTime"
+        },
+        "Answers": [
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.0cz5jr",
+            "EntityName": "Jeffrey Dean Morgan"
+          }
+        ],
+        "SExpr": "(JOIN (R tv.regular_tv_appearance.actor) (ARGMIN (AND (JOIN tv.regular_tv_appearance.series m.06s3sm) (JOIN (R tv.tv_character.appeared_in_tv_program) m.025ybxs)) tv.regular_tv_appearance.from))"
+      }
+    ]
+  },
+  {
+    "QuestionId": "WebQTrn-3433",
+    "RawQuestion": "who plays the voice of meg in family guy?",
+    "ProcessedQuestion": "who plays the voice of meg in family guy",
+    "Parses": [
+      {
+        "ParseId": "WebQTrn-3433.P0",
+        "AnnotatorId": 3,
+        "AnnotatorComment": {
+          "ParseQuality": "Complete",
+          "QuestionQuality": "Good",
+          "Confidence": "Normal",
+          "FreeFormComment": ""
+        },
+        "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.019nnl)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.019nnl ns:tv.tv_program.regular_cast ?y .\n?y ns:tv.regular_tv_appearance.actor ?x .\n?y ns:tv.regular_tv_appearance.character ns:m.035szd .\n?y ns:tv.regular_tv_appearance.special_performance_type ns:m.02nsjvf .\nFILTER(NOT EXISTS {?y ns:tv.regular_tv_appearance.from ?sk0} || \nEXISTS {?y ns:tv.regular_tv_appearance.from ?sk1 . \nFILTER(xsd:datetime(?sk1) <= \"2015-08-10\"^^xsd:dateTime) })\nFILTER(NOT EXISTS {?y ns:tv.regular_tv_appearance.to ?sk2} || \nEXISTS {?y ns:tv.regular_tv_appearance.to ?sk3 . \nFILTER(xsd:datetime(?sk3) >= \"2015-08-10\"^^xsd:dateTime) })\n}\n",
+        "step_wise_queries":[
+        ],
+        "masked_query":"",
+        "PotentialTopicEntityMention": "family guy",
+        "TopicEntityName": "Family Guy",
+        "TopicEntityMid": "m.019nnl",
+        "InferentialChain": [
+          "tv.tv_program.regular_cast",
+          "tv.regular_tv_appearance.actor"
+        ],
+        "Constraints": [
+          {
+            "Operator": "Equal",
+            "ArgumentType": "Entity",
+            "Argument": "m.035szd",
+            "EntityName": "Meg Griffin",
+            "SourceNodeIndex": 0,
+            "NodePredicate": "tv.regular_tv_appearance.character",
+            "ValueType": "String"
+          },
+          {
+            "Operator": "Equal",
+            "ArgumentType": "Entity",
+            "Argument": "m.02nsjvf",
+            "EntityName": "Voice",
+            "SourceNodeIndex": 0,
+            "NodePredicate": "tv.regular_tv_appearance.special_performance_type",
+            "ValueType": "String"
+          },
+          {
+            "Operator": "LessOrEqual",
+            "ArgumentType": "Value",
+            "Argument": "2015-08-10",
+            "EntityName": "",
+            "SourceNodeIndex": 0,
+            "NodePredicate": "tv.regular_tv_appearance.from",
+            "ValueType": "DateTime"
+          },
+          {
+            "Operator": "GreaterOrEqual",
+            "ArgumentType": "Value",
+            "Argument": "2015-08-10",
+            "EntityName": "",
+            "SourceNodeIndex": 0,
+            "NodePredicate": "tv.regular_tv_appearance.to",
+            "ValueType": "DateTime"
+          }
+        ],
+        "Time": {
+          "IsRelativeToNow": true,
+          "Start": "0000-00-00",
+          "End": "0000-00-00",
+          "AssociatedConstraints": [
+            2,
+            3
+          ],
+          "PotentialTimeMention": null
+        },
+        "Order": null,
+        "Answers": [
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.023v4_",
+            "EntityName": "Mila Kunis"
+          }
+        ],
+        "SExpr": "(JOIN (R tv.regular_tv_appearance.actor) (AND (JOIN tv.regular_tv_appearance.time_macro 2015^^http://www.w3.org/2001/XMLSchema#date) (AND (JOIN tv.regular_tv_appearance.special_performance_type m.02nsjvf) (AND (JOIN tv.regular_tv_appearance.character m.035szd) (JOIN (R tv.tv_program.regular_cast) m.019nnl)))))"
+      }
+    ]
+  },
+  {
+    "QuestionId": "WebQTrn-3559",
+    "RawQuestion": "what season did jason priestley leave 90210?",
+    "ProcessedQuestion": "what season did jason priestley leave 90210",
+    "Parses": [
+      {
+        "ParseId": "WebQTrn-3559.P0",
+        "AnnotatorId": 3,
+        "AnnotatorComment": {
+          "ParseQuality": "Complete",
+          "QuestionQuality": "Good",
+          "Confidence": "Normal",
+          "FreeFormComment": ""
+        },
+        "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.0n2bh)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.0n2bh ns:tv.tv_program.regular_cast ?y .\n?y ns:tv.regular_tv_appearance.seasons ?x .\n?y ns:tv.regular_tv_appearance.actor ns:m.01gc7h .\n?x ns:tv.tv_series_season.to ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "step_wise_queries":[
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel0\nWHERE {\n?ent0 ?rel0 ?y .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel2\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?y ?rel2 ?ent1 .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?ent1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?y ?rel2 ?ent1 .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel3\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?y ?rel2 ?ent1 .\n?x ?rel3 ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n"
+        ],
+        "masked_query":"PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?y ?rel2 ?ent1 .\n?x ?rel3 ?sk0 .\n}\nORDER BY DESC(xsd:datetime(?sk0))\nLIMIT 1\n",
+        "PotentialTopicEntityMention": "90210",
+        "TopicEntityName": "Beverly Hills, 90210",
+        "TopicEntityMid": "m.0n2bh",
+        "InferentialChain": [
+          "tv.tv_program.regular_cast",
+          "tv.regular_tv_appearance.seasons"
+        ],
+        "Constraints": [
+          {
+            "Operator": "Equal",
+            "ArgumentType": "Entity",
+            "Argument": "m.01gc7h",
+            "EntityName": "Jason Priestley",
+            "SourceNodeIndex": 0,
+            "NodePredicate": "tv.regular_tv_appearance.actor",
+            "ValueType": "String"
+          }
+        ],
+        "Time": null,
+        "Order": {
+          "SortOrder": "Descending",
+          "Start": 0,
+          "Count": 1,
+          "SourceNodeIndex": 1,
+          "NodePredicate": "tv.tv_series_season.to",
+          "ValueType": "DateTime"
+        },
+        "Answers": [
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.05dqhjw",
+            "EntityName": "Beverly Hills, 90210 - Season 7"
+          }
+        ],
+        "SExpr": "(ARGMAX (JOIN (R tv.regular_tv_appearance.seasons) (AND (JOIN tv.regular_tv_appearance.actor m.01gc7h) (JOIN (R tv.tv_program.regular_cast) m.0n2bh))) tv.tv_series_season.to)"
+      }
+    ]
+  },
+  {
+    "QuestionId": "WebQTrn-2356",
+    "RawQuestion": "what year did the mets win their first world series?",
+    "ProcessedQuestion": "what year did the mets win their first world series",
+    "Parses": [
+      {
+        "ParseId": "WebQTrn-2356.P0",
+        "AnnotatorId": 5,
+        "AnnotatorComment": {
+          "ParseQuality": "Complete",
+          "QuestionQuality": "Good",
+          "Confidence": "Normal",
+          "FreeFormComment": ""
+        },
+        "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.05g76)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.05g76 ns:sports.sports_team.championships ?x .\n?x ns:sports.sports_championship_event.championship ns:m.0fjp3 .\n?x ns:time.event.start_date ?sk0 .\n}\nORDER BY xsd:datetime(?sk0)\nLIMIT 1\n",
+        "step_wise_queries":[
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel0\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n?x ?rel1 ?ent1 .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?ent1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n?x ?rel1 ?ent1 .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel2\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n?x ?rel1 ?ent1 .\n?x ?rel2 ?sk0 .\n}\nORDER BY xsd:datetime(?sk0)\nLIMIT 1\n"
+        ],
+        "masked_query":"PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n?x ?rel1 ?ent1 .\n?x ?rel2 ?sk0 .\n}\nORDER BY xsd:datetime(?sk0)\nLIMIT 1\n",
+        "PotentialTopicEntityMention": "mets",
+        "TopicEntityName": "New York Mets",
+        "TopicEntityMid": "m.05g76",
+        "InferentialChain": [
+          "sports.sports_team.championships"
+        ],
+        "Constraints": [
+          {
+            "Operator": "Equal",
+            "ArgumentType": "Entity",
+            "Argument": "m.0fjp3",
+            "EntityName": "World Series",
+            "SourceNodeIndex": 0,
+            "NodePredicate": "sports.sports_championship_event.championship",
+            "ValueType": "String"
+          }
+        ],
+        "Time": null,
+        "Order": {
+          "SortOrder": "Ascending",
+          "Start": 0,
+          "Count": 1,
+          "SourceNodeIndex": 0,
+          "NodePredicate": "time.event.start_date",
+          "ValueType": "DateTime"
+        },
+        "Answers": [
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.04jg9_",
+            "EntityName": "1969 World Series"
+          }
+        ],
+        "SExpr": "(ARGMIN (AND (JOIN sports.sports_championship_event.championship m.0fjp3) (JOIN (R sports.sports_team.championships) m.05g76)) time.event.start_date)"
+      }
+    ]
+  },
+  {
+    "QuestionId": "WebQTrn-2981",
+    "RawQuestion": "when did mcgee start on ncis?",
+    "ProcessedQuestion": "when did mcgee start on ncis",
+    "Parses": [
+      {
+        "ParseId": "WebQTrn-2981.P0",
+        "AnnotatorId": 3,
+        "AnnotatorComment": {
+          "ParseQuality": "Complete",
+          "QuestionQuality": "Good",
+          "Confidence": "Normal",
+          "FreeFormComment": ""
+        },
+        "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03m8sg)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03m8sg ns:tv.tv_program.regular_cast ?y .\n?y ns:tv.regular_tv_appearance.seasons ?x .\n?y ns:tv.regular_tv_appearance.character ns:m.07wpd_ .\n?x ns:tv.tv_series_season.from ?sk0 .\n}\nORDER BY xsd:datetime(?sk0)\nLIMIT 1\n",
+        "step_wise_queries":[
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel0\nWHERE {\n?ent0 ?rel0 ?y .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel2\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?y ?rel2 ?ent1 .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?ent1\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?y ?rel2 ?ent1 .\n}\n",
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel3\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?y ?rel2 ?ent1 .\n?x ?rel3 ?sk0 .\n}\nORDER BY xsd:datetime(?sk0)\nLIMIT 1\n"
+        ],
+        "masked_query":"PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?y .\n?y ?rel1 ?x .\n?y ?rel2 ?ent1 .\n?x ?rel3 ?sk0 .\n}\nORDER BY xsd:datetime(?sk0)\nLIMIT 1\n",
+        "PotentialTopicEntityMention": "ncis",
+        "TopicEntityName": "NCIS",
+        "TopicEntityMid": "m.03m8sg",
+        "InferentialChain": [
+          "tv.tv_program.regular_cast",
+          "tv.regular_tv_appearance.seasons"
+        ],
+        "Constraints": [
+          {
+            "Operator": "Equal",
+            "ArgumentType": "Entity",
+            "Argument": "m.07wpd_",
+            "EntityName": "Timothy McGee",
+            "SourceNodeIndex": 0,
+            "NodePredicate": "tv.regular_tv_appearance.character",
+            "ValueType": "String"
+          }
+        ],
+        "Time": null,
+        "Order": {
+          "SortOrder": "Ascending",
+          "Start": 0,
+          "Count": 1,
+          "SourceNodeIndex": 1,
+          "NodePredicate": "tv.tv_series_season.from",
+          "ValueType": "DateTime"
+        },
+        "Answers": [
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.05df6zs",
+            "EntityName": "NCIS - Season 1"
+          }
+        ],
+        "SExpr": "(ARGMIN (JOIN (R tv.regular_tv_appearance.seasons) (AND (JOIN tv.regular_tv_appearance.character m.07wpd_) (JOIN (R tv.tv_program.regular_cast) m.03m8sg))) tv.tv_series_season.from)"
+      }
+    ]
+  },
+  {
+    "QuestionId": "WebQTrn-2256",
+    "RawQuestion": "what happened to adolf hitler at the end of the war?",
+    "ProcessedQuestion": "what happened to adolf hitler at the end of the war",
+    "Parses": [
+      {
+        "ParseId": "WebQTrn-2256.P0",
+        "AnnotatorId": 2,
+        "AnnotatorComment": {
+          "ParseQuality": "Complete",
+          "QuestionQuality": "Good",
+          "Confidence": "VeryLow",
+          "FreeFormComment": "??"
+        },
+        "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.07_m9_)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.07_m9_ ns:people.deceased_person.cause_of_death ?x .\n}\n",
+        "step_wise_queries":[
+          "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?rel0\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n}\n"
+        ],
+        "masked_query":"PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?ent0)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?ent0 ?rel0 ?x .\n}\n",
+        "PotentialTopicEntityMention": "adolf hitler",
+        "TopicEntityName": "Adolf Hitler",
+        "TopicEntityMid": "m.07_m9_",
+        "InferentialChain": [
+          "people.deceased_person.cause_of_death"
+        ],
+        "Constraints": [],
+        "Time": null,
+        "Order": null,
+        "Answers": [
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.02qnd1b",
+            "EntityName": "Ballistic trauma"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.06z5s",
+            "EntityName": "Suicide"
+          }
+        ],
+        "SExpr": "(JOIN (R people.deceased_person.cause_of_death) m.07_m9_)"
+      }
+    ]
+  },
+  {
+    "QuestionId": "WebQTrn-2238",
+    "RawQuestion": "what team does reggie bush play for 2011?",
+    "ProcessedQuestion": "what team does reggie bush play for 2011",
+    "Parses": [
+      {
+        "ParseId": "WebQTrn-2238.P0",
+        "AnnotatorId": 2,
+        "AnnotatorComment": {
+          "ParseQuality": "Complete",
+          "QuestionQuality": "Good",
+          "Confidence": "Normal",
+          "FreeFormComment": ""
+        },
+        "Sparql": "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.05cb70)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.05cb70 ns:sports.pro_athlete.teams ?y .\n?y ns:sports.sports_team_roster.team ?x .\nFILTER(NOT EXISTS {?y ns:sports.sports_team_roster.from ?sk0} || \nEXISTS {?y ns:sports.sports_team_roster.from ?sk1 . \nFILTER(xsd:datetime(?sk1) <= \"2011-12-31\"^^xsd:dateTime) })\nFILTER(NOT EXISTS {?y ns:sports.sports_team_roster.to ?sk2} || \nEXISTS {?y ns:sports.sports_team_roster.to ?sk3 . \nFILTER(xsd:datetime(?sk3) >= \"2011-01-01\"^^xsd:dateTime) })\n}\n",
+        "step_wise_queries":[
+        ],
+        "masked_query":"",
+        "PotentialTopicEntityMention": "reggie bush",
+        "TopicEntityName": "Reggie Bush",
+        "TopicEntityMid": "m.05cb70",
+        "InferentialChain": [
+          "sports.pro_athlete.teams",
+          "sports.sports_team_roster.team"
+        ],
+        "Constraints": [
+          {
+            "Operator": "LessOrEqual",
+            "ArgumentType": "Value",
+            "Argument": "2011-12-31",
+            "EntityName": "",
+            "SourceNodeIndex": 0,
+            "NodePredicate": "sports.sports_team_roster.from",
+            "ValueType": "DateTime"
+          },
+          {
+            "Operator": "GreaterOrEqual",
+            "ArgumentType": "Value",
+            "Argument": "2011-01-01",
+            "EntityName": "",
+            "SourceNodeIndex": 0,
+            "NodePredicate": "sports.sports_team_roster.to",
+            "ValueType": "DateTime"
+          }
+        ],
+        "Time": {
+          "IsRelativeToNow": false,
+          "Start": "2011-01-01",
+          "End": "2011-12-31",
+          "AssociatedConstraints": [
+            0,
+            1
+          ],
+          "PotentialTimeMention": "2011"
+        },
+        "Order": null,
+        "Answers": [
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.04vn5",
+            "EntityName": "Miami Dolphins"
+          },
+          {
+            "AnswerType": "Entity",
+            "AnswerArgument": "m.05g3v",
+            "EntityName": "New Orleans Saints"
+          }
+        ],
+        "SExpr": "(JOIN (R sports.sports_team_roster.team) (AND (JOIN sports.sports_team_roster.time_macro 2011^^http://www.w3.org/2001/XMLSchema#date) (JOIN (R sports.pro_athlete.teams) m.05cb70)))"
+      }
+    ]
+  }
+]
