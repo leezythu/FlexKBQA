@@ -4,7 +4,8 @@ This repository is the official implementation of FlexKBQA.
 
 **FlexKBQA: A Flexible LLM-Powered Framework for Few-Shot Knowledge Base Question Answering**
 
-## Setup
+## Framework
+![image](https://github.com/leezythu/FlexKBQA/blob/main/figs/framework.png)
 
 ## Usage
 
@@ -25,4 +26,4 @@ This repository is the official implementation of FlexKBQA.
 ### Inherent Reasoning
 * cd flexkbqa/inherent reasoning
 
-Under Construction
+Under Construction...
