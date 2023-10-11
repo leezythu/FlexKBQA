@@ -2,6 +2,8 @@
 
 This repository is the official implementation of FlexKBQA.
 
+[FlexKBQA: A Flexible LLM-Powered Framework for Few-Shot Knowledge Base Question Answering](https://arxiv.org/abs/2308.12060)
+
 ## Framework
 ![image](https://github.com/leezythu/FlexKBQA/blob/main/figs/framework.png)
 
